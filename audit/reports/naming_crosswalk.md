@@ -1,0 +1,132 @@
+# Naming Crosswalk
+
+- Factions root: `X:\theforgottensummoner\THE FORGOTTEN SUMMONER\01. 아스트라리스 크로니클\01-8. 세력 아카이브 (국가·조직 정리)`
+- Heroes root: `X:\theforgottensummoner\THE FORGOTTEN SUMMONER\01. 아스트라리스 크로니클\01-14. 영웅 백과 (Hero Archive)`
+
+## Watched variants
+### Aether
+- Count: 133
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\마법협회 (Arcane Society)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\마법협회 (Arcane Society)\세리안 웨버 (Serian Weaver).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\성국 (Saint Haven)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\성국 (Saint Haven)\카이엔 루미나 (Cayenne Lumina).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\왕국연합 (Allians)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\왕국연합 (Allians)\드라켄 발타르 (Draken Baltar).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\자유도시연합 (Crossroad Cities)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\자유도시연합 (Crossroad Cities)\루시엔 아르카나 (Lucien Arcana).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\정령 연합 (Spirit Union)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\정령 연합 (Spirit Union)\엘리안 시르 (Elian Syr).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바이트 마석 유통단 (Terabyte Aether Traders)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바이트 마석 유통단 (Terabyte Aether Traders)\카르멘 아이언클래드 (Carmen Ironclad).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\발렌타인 에스더 (Valentine Esther).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\1. 에테르 대륙 (Ether Continent)\5. 정령 연합 (Elemental Alliance)\06. 탈리아 에테리아 (Talia Aetheria).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)\01. 미하일 아스텔 (Mikhail Astell).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)\02. 발렌타인 베일 (Valentine Bale).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)\03. 발렌타인 어스바운드 (Valentine Earthbound).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)\04. 셀레스티아 오크우드 (Celestia Oakwood).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)\05. 이벨린 디아만테 (Evelynn Diamante).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)\06. 이벨린 아스텔 (Evelynn Astell).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)\07. 카펠라 아르젠시스 (Capella Argensis).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)\08. 트리스탄 아이언팽 (Tristan Ironfang).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)\09. 하인리히 아르젠트 (Heinrich Argent).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-2. 대륙 무역 상단 소속 (Syndicates)\6. 테라바티아 마석 유통단 (Terabyte Aether Traders)\10. 헥토르 베일 (Hector Bale).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\01. 가웨인 카디널 (Gawain Cardinal).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\02. 아리엔 코어스 (Arien Cores).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\03. 엘레노아 블러드워커 (Eleanor Bloodwalker).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\04. 이벨린 스톤하츠 (Evelynn Stonehearts).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\05. 지크프리트 아르젠트 (Siegfried Argent).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\06. 카르멘 스텔라리스 (Carmen Stellaris).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\07. 카산드라 베를란 (Cassandra Verlan).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\08. 크리스티앙 맥시무스 (Christian Maximus).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\09. 테오도르 블러드워커 (Theodore Bloodwalker).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\6. 범대륙 초국가 및 중립 영웅\6-4. 마도 공학 기업 소속 (Megacorps)\1. 에테르 기어 인더스트리 (Aether Gear Industry)\10. 프리드리히 딥워터 (Friedrich Deepwater).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\3. 차원 탐사단 (Dimensional Explorers)\06. 아에테르 이시도르 (Aether Isidore).md`
+- `01-8. 세력 아카이브 (국가·조직 정리): 1. 에테르 대륙 (Ether Continent)\4. 마법협회 (Arcane Society)\9. 내부 암약 조직 (Clandestine Organizations)\4. 마력 밀수단 (Aether Smugglers)`
+- `01-8. 세력 아카이브 (국가·조직 정리): 1. 에테르 대륙 (Ether Continent)\4. 마법협회 (Arcane Society)\9. 내부 암약 조직 (Clandestine Organizations)\4. 마력 밀수단 (Aether Smugglers)\1. 마력 밀수단 개요 및 강령.md`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)\1. 주요 장소 (Locations)`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)\1. 주요 장소 (Locations)\01. 환영의 계곡 (Valley of Illusions).md`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)\1. 주요 장소 (Locations)\02. 부서진 제단 (Shattered Altar).md`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)\1. 주요 장소 (Locations)\03. 안개 고원 (Fog Plateau).md`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)\1. 주요 장소 (Locations)\무역 거점 (Trade Hubs)`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)\1. 주요 장소 (Locations)\무역 거점 (Trade Hubs)\테라바이트 녹슨 바자르 (Rusted Bazaar of Terabyte).md`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)\1. 주요 장소 (Locations)\무역 거점 (Trade Hubs)\테라바이트 잔혹한 바자르 (Grim Bazaar of Terabyte).md`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)\1. 주요 장소 (Locations)\무역 거점 (Trade Hubs)\테라바이트 파멸의 교역소 (Ruined Exchange of Terabyte).md`
+- `... 83 more entries omitted ...`
+
+### Allians
+- Count: 2
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\왕국연합 (Allians)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\1. 에테르 대륙 (Aether Continent)\왕국연합 (Allians)\드라켄 발타르 (Draken Baltar).md`
+
+### 마립
+- Count: 5
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & 마립 세력 (Neutral))`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & 마립 세력 (Neutral))\6-1. 국제 길드 연합 (Guilds)`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & 마립 세력 (Neutral))\6-1. 국제 길드 연합 (Guilds)\05. 키르케 영약회 (Circe's Elixir Order)`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & 마립 세력 (Neutral))\6-1. 국제 길드 연합 (Guilds)\05. 키르케 영약회 (Circe's Elixir Order)\1. 주요 장소 (Locations)`
+- `01-8. 세력 아카이브 (국가·조직 정리): 6. 범대륙 초국가 및 중립 세력 (Supranational & 마립 세력 (Neutral))\6-1. 국제 길드 연합 (Guilds)\05. 키르케 영약회 (Circe's Elixir Order)\1. 주요 장소 (Locations)\1. 안개 덮인 아스클레피온 (Mist-Veiled Asclepeion).md`
+
+### _Legacy_
+- Count: 1322
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\1. 저주받은 용병단 (Cursed Mercenaries)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\1. 저주받은 용병단 (Cursed Mercenaries)\다리온 엘드레스 (Darion Eldress).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\10. 강철의 형제단 (Brotherhood of Steel)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\10. 강철의 형제단 (Brotherhood of Steel)\가론 테크나스 (Garon Technas).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\11. 신성 계약단 (Divine Covenant)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\11. 신성 계약단 (Divine Covenant)\마리아 엘루시스 (Maria Elucis).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\12. 자연의 방랑자 (Wanderers of Nature)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\12. 자연의 방랑자 (Wanderers of Nature)\아렌 실바나 (Aren Sylvana).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\2. 그리핀 기사단 (Order of the Gryphon)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\2. 그리핀 기사단 (Order of the Gryphon)\리안 펜타리스 (Lian Pentaris).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\3. 붉은 칼날 용병단 (Red Blades Mercenaries)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\3. 붉은 칼날 용병단 (Red Blades Mercenaries)\카시라 벨레스 (Kashira Veles).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\5. 유랑 기사단 (Wandering Knights)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\5. 유랑 기사단 (Wandering Knights)\갈라하드 펜 (Galahad Penn).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\6. 철혈 부대 (Iron Blood Corps)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\6. 철혈 부대 (Iron Blood Corps)\크롬웰 블러드액스 (Cromwell Bloodaxe).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\7. 바람의 칼날 (Wind Blades)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\7. 바람의 칼날 (Wind Blades)\실피드 랜서 (Sylphid Lancer).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\8. 바이퍼 해적단 (Viper Raiders)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\8. 바이퍼 해적단 (Viper Raiders)\모르가나 이그니스 (Morgana Ignis).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\9. 황금 기계단 (Golden Mechanists)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)\9. 황금 기계단 (Golden Mechanists)\리카엘 아우룸 (Rikhael Aurum).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\1. 천상의 서고 (Celestial Archive)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\1. 천상의 서고 (Celestial Archive)\유디트 아리온 (Judith Arion).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\2. 연금술사의 길드 (Guild of Alchemists)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\2. 연금술사의 길드 (Guild of Alchemists)\파라셀수스 베인 (Paracelsus Vane).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\3. 차원 탐사단 (Dimensional Explorers)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\3. 차원 탐사단 (Dimensional Explorers)\보이드 워커 (Void Walker).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\4. 진실의 눈 (Eye of Truth)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\4. 진실의 눈 (Eye of Truth)\아르고스 (Argos).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\5. 심연의 별무리 (Stellar Abyss Collective)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\5. 심연의 별무리 (Stellar Abyss Collective)\바론 에이리스 (Baron Aerys).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\6. 밤의 계약단 (Coven of the Night)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\2. 마법연구조직 (Magic Research)\6. 밤의 계약단 (Coven of the Night)\녹턴 셰이드 (Nocturne Shade).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)\1. 어둠의 손 (Shadow Hand)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)\1. 어둠의 손 (Shadow Hand)\벨리아 노크턴 (Velia Nocturne).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)\2. 그림자 연맹 (Shadow Syndicate)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)\2. 그림자 연맹 (Shadow Syndicate)\시온 엘타리온 (Sion Eltarion).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)\3. 검은 여우단 (Black Fox Syndicate)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)\3. 검은 여우단 (Black Fox Syndicate)\레이나 펠리스 (Reyna Felis).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)\4. 황야의 추적자들 (Hunters of the Wild)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)\4. 황야의 추적자들 (Hunters of the Wild)\엘드린 카이로스 (Eldrin Kairos).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)\5. 황금 손아귀 (Golden Claw)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-1. 성장 영웅\_Legacy_중립세력 (Backup)\3. 첩보 (Intelligence)\5. 황금 손아귀 (Golden Claw)\발렌 크레센트 (Valen Crescent).md`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\_Legacy_중립세력 (Backup)`
+- `01-14. 영웅 백과 (Hero Archive): 01-14-2. 현존 영웅\_Legacy_중립세력 (Backup)\1. 용병단(Mercenaries)`
+- `... 1272 more entries omitted ...`
+
+## Canon actions
+- Treat `Ether Continent` as the current default display form unless a broader canon pass changes it.
+- Treat `Allians` as a spelling conflict, not a valid alternate canon form.
+- Treat `마립` inside the supranational root as corruption.
+- Do not normalize `_Legacy_` or `Backup` paths into canon names.

@@ -1,0 +1,87 @@
+# Runbook
+
+## 기본 순서
+
+0. 원본 저장소는 읽기 전용으로 취급한다.
+1. Conductor가 현재 작업 단위를 고른다.
+2. 필요하면 병렬 scout를 분리해서 같은 배치 안에서 서로 다른 축을 조사하게 한다.
+3. `FS Engine`에서 이번 작업에 먼저 적용할 엔진 층을 고른다.
+4. Canon Architect가 기준 충돌 여부를 본다.
+5. Continent Adequacy Scout 성격의 역할이 `가문 / 부족 / 길드` 결손층을 먼저 본다.
+6. Faction Cartographer 또는 Hero Curator가 구조를 분석한다.
+7. House and Lineage Auditor, Clan and Tribe Auditor, Guild and Economy Auditor가 중간 사회 단위를 세분화해서 본다.
+8. Relationship Mapper가 인간 관계 관점에서 재평가한다.
+9. Plausibility Judge가 개연성 판정을 내린다.
+10. Index Auditor가 링크와 분류 정리를 맡는다.
+11. Legacy Surgeon이 레거시를 분리한다.
+12. Report Clerk가 보고서를 남긴다.
+
+## 병렬 운용
+
+- Conductor는 필요할 때 역할을 더 세분화해서 같은 배치를 병렬 조사한다.
+- 현재 기본 분할은 `Continent Adequacy Scout`, `Faction Cartographer`, `House and Lineage Auditor`, `Clan and Tribe Auditor`, `Guild and Economy Auditor`, `Hero Curator`다.
+- 병렬 역할은 증거 수집과 1차 판단만 하고, 최종 우선순위와 정본 판단은 Conductor가 통합한다.
+
+## FS Engine Routing
+
+- 세계관, 대륙, 세력, 인물, 관계망, 아이템, 지도는 모두 같은 방식으로 읽지 않는다.
+- 각 단계는 `workflow/11_FS_Engine.md`의 엔진 층을 따라 먼저 볼 관점을 고른다.
+- 작법 이론은 참고자료가 아니라 실제 판단 순서의 일부다.
+- 필수 코어 합의안은 `audit/FS_Engine_Core_Consensus.md`를 우선 참고한다.
+- 작법 층과 운영 층의 실제 연결은 `audit/FS_Engine_Writing_Craft_Map.md`를 함께 본다.
+
+## 현재 병렬 운용
+
+- `ACTIVE_AGENT_SPLIT.md`에 현재 배치의 분업을 적는다.
+- 병렬 에이전트는 읽기와 진단만 맡고, 최종 반영은 Conductor가 한다.
+- 같은 파일을 동시에 편집하지 않는다.
+
+## 섹션 우선순위
+
+### 먼저
+
+- `8. 세력 아카이브` 루트 구조
+- `14. 인물 백과` 루트 구조
+
+### 다음
+
+- `8번`의 대륙별 세력 루트
+- `14번`의 성장 영웅과 세력 연결
+
+### 마지막
+
+- 문화, 경제, 예술, 생활상 세부 문서
+- 인물의 장비, 세부 이력, 확장 전승
+
+## 중단 조건
+
+- 동일 대상에 정본 후보가 2개 이상인 경우
+- 레거시와 현행 구조가 동시에 유효한 경우
+- 관계 정의가 작품 철학과 충돌하는 경우
+
+이 경우는 수정 대신 `audit/Open_Questions.md`에 남긴다.
+
+## 기본 명령
+
+```powershell
+python scripts/export_reference_manifest.py `
+  --name factions `
+  --source "X:\theforgottensummoner\THE FORGOTTEN SUMMONER\01. 아스트라리스 크로니클\01-8. 세력 아카이브 (국가·조직 정리)" `
+  --output "reference/manifests/factions_manifest.md"
+
+python scripts/export_reference_manifest.py `
+  --name heroes `
+  --source "X:\theforgottensummoner\THE FORGOTTEN SUMMONER\01. 아스트라리스 크로니클\01-14. 영웅 백과 (Hero Archive)" `
+  --output "reference/manifests/heroes_manifest.md"
+
+python scripts/audit_lore_tree.py `
+  --section factions "X:\theforgottensummoner\THE FORGOTTEN SUMMONER\01. 아스트라리스 크로니클\01-8. 세력 아카이브 (국가·조직 정리)" `
+  --section heroes "X:\theforgottensummoner\THE FORGOTTEN SUMMONER\01. 아스트라리스 크로니클\01-14. 영웅 백과 (Hero Archive)" `
+  --output "audit/reports/initial_inventory.md"
+```
+
+## 안전 규칙
+
+- 원본 경로에서 `move`, `rename`, `delete`, `git add`, `git commit`를 하지 않는다.
+- 원본 내용을 가져와야 할 때는 `reference/` 또는 `working/` 아래로만 복사한다.
+- 원본 정리는 아이디어와 계획으로만 남기고, 실제 적용은 별도 승인 없이는 하지 않는다.

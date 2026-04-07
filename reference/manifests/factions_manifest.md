@@ -1,0 +1,131 @@
+# factions Reference Manifest
+
+- Source: `X:\theforgottensummoner\THE FORGOTTEN SUMMONER\01. 아스트라리스 크로니클\01-8. 세력 아카이브 (국가·조직 정리)`
+- Directories: 1474
+- Files: 3905
+- Markdown files: 3903
+
+## Top-level entries
+- `01-8. 세력 아카이브 (국가·조직 정리).md` (file)
+- `1. 에테르 대륙 (Ether Continent)` (dir)
+- `2. 크림슨 대륙 (Crimson Continent)` (dir)
+- `3. 프로스트 대륙 (Frost Continent)` (dir)
+- `4. 오벨리스크 대륙 (Obelisk Continent)` (dir)
+- `5. 해양 대륙 (Oceanic Continent)` (dir)
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)` (dir)
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & 마립 세력 (Neutral))` (dir)
+- `_Legacy_중립세력 (Backup)` (dir)
+
+## Root files
+- `01-8. 세력 아카이브 (국가·조직 정리).md`
+
+## Suspicious paths
+- `1. 에테르 대륙 (Ether Continent)\1. 성국 (Saint Haven)\10. 종교 및 문화 (Religion & Culture)\3. 은빛 달의 무녀회 (Cult of the Lunar Shadow) 참조.md`
+- `1. 에테르 대륙 (Ether Continent)\3. 자유도시연합 (Crossroad Cities)\10. 종교 및 문화 (Religion & Culture)\2. 기계신과 비전 영지주의 (Cult of the Machine God) 참조.md`
+- `1. 에테르 대륙 (Ether Continent)\3. 자유도시연합 (Crossroad Cities)\10. 종교 및 문화 (Religion & Culture)\3. 은빛 달의 무녀회 (Cult of the Lunar Shadow) 참조.md`
+- `1. 에테르 대륙 (Ether Continent)\4. 마법협회 (Arcane Society)\10. 종교 및 문화 (Religion & Culture)\2. 기계신과 비전 영지주의 (Cult of the Machine God) 참조.md`
+- `1. 에테르 대륙 (Ether Continent)\4. 마법협회 (Arcane Society)\9. 내부 암약 조직 (Clandestine Organizations)\4. 마력 밀수단 (Aether Smugglers)`
+- `1. 에테르 대륙 (Ether Continent)\5. 정령연합 (Spirit Union)\10. 종교 및 문화 (Religion & Culture)\2. 대지의 신앙 (Earth Cult) 참조.md`
+- `2. 크림슨 대륙 (Crimson Continent)\2. 아르카나 잔재 (Arkana Remnants)\10. 종교 및 문화 (Religion & Culture)\2. 은빛 달의 무녀회 (Cult of the Lunar Shadow) 참조.md`
+- `2. 크림슨 대륙 (Crimson Continent)\3. 용의 후예 (Dragon Descendants)\10. 종교 및 문화 (Religion & Culture)\2. 원초의 불꽃과 용의 신앙 (Cult of the Primal Flame) 참조.md`
+- `2. 크림슨 대륙 (Crimson Continent)\4. 붉은 사막 부족 (Red Desert Tribes)\10. 종교 및 문화 (Religion & Culture)\2. 원초의 불꽃과 용의 신앙 (Cult of the Primal Flame) 참조.md`
+- `3. 프로스트 대륙 (Frost Continent)\1. 딥 포지 왕국 (Deep Forge Kingdom)\10. 종교 및 문화 (Religion & Culture)\2. 대지의 신앙 (Earth Cult) 참조.md`
+- `3. 프로스트 대륙 (Frost Continent)\2. 프로스트본 연합 (Frostborn Tribes)\10. 종교 및 문화 (Religion & Culture)\2. 대지의 신앙 (Earth Cult) 참조.md`
+- `5. 해양 대륙 (Oceanic Continent)\1. 해적 연합 (Pirate Confederacy)\10. 종교 및 문화 (Religion & Culture)\2. 바다의 종교 (Order of the Tides) 참조.md`
+- `5. 해양 대륙 (Oceanic Continent)\2. 황금 함대 (Golden Armada)\10. 종교 및 문화 (Religion & Culture)\2. 바다의 종교 (Order of the Tides) 참조.md`
+- `5. 해양 대륙 (Oceanic Continent)\3. 바다의 교단 (Church of the Sea)\10. 종교 및 문화 (Religion & Culture)\2. 바다의 종교 (Order of the Tides) 참조.md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-2. 대륙 무역 상단 (Syndicates)\06. 테라바이트 마석 유통단 (Terabyte Aether Traders)\테라바이트 마석 유통단 (Terabyte Aether Traders).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\격리 실험실 (Quarantine Labs)\심연의 에테르 배양소 (Aether Abyssal Incubator).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\격리 실험실 (Quarantine Labs)\심연의 에테르 실험실 (Aether Abyssal Laboratory).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\격리 실험실 (Quarantine Labs)\어둠의 에테르 배양소 (Aether Dark Incubator).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\격리 실험실 (Quarantine Labs)\에테르 핏빛 격리구역 (Bloodstained Quarantine of Aether).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\마동 공장 (Arcane Factories)\검은 에테르 조립장 (Aether Black Assembly).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\마동 공장 (Arcane Factories)\에테르 잔혹한 공장 (Grim Factory of Aether).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\마동 공장 (Arcane Factories)\에테르 푸른 조립장 (Blue Assembly of Aether).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\마동 공장 (Arcane Factories)\은빛 에테르 조립장 (Aether Silver Assembly).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\연구 지부 (Research Branches)\어둠의 에테르 마탑 (Aether Dark Tower).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\연구 지부 (Research Branches)\에테르 은빛 관측소 (Silver Observatory of Aether).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\연구 지부 (Research Branches)\에테르 잔혹한 관측소 (Grim Observatory of Aether).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\1. 주요 장소 (Locations)\연구 지부 (Research Branches)\저주받은 에테르 연구동 (Aether Cursed Lab).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)\6-4. 마도 공학 연맹 (Megacorps)\01. 에테르 마동기어 공방 (Aether Machina Forge)\에테르 기어 인더스트리 (Aether Gear Industry).md`
+- `6. 범대륙 초국가 및 중립 세력 (Supranational & 마립 세력 (Neutral))`
+- `_Legacy_중립세력 (Backup)`
+
+## Duplicate normalized directory keys
+- `05키르케영약회`
+- `10강철의형제단`
+- `10종교및문화`
+- `11신성계약단`
+- `11예술및건축`
+- `12의복및생활양식`
+- `12자연의방랑자`
+- `13마법체계`
+- `14생활양식`
+- `15주요인물`
+- `16예하부대및기사단`
+- `1어둠의손`
+- `1저주받은용병단`
+- `1주요장소`
+- `1천상의서고`
+- `2군사`
+- `2그리핀기사단`
+- `2연금술사의길드`
+- `3가문`
+- `3검은여우단`
+- `3부족`
+- `3붉은칼날용병단`
+- `3차원탐사단`
+- `3파벌`
+- `3학파`
+- `4검은파도용병단`
+- `4외교`
+- `4진실의눈`
+- `4황야의추적자들`
+- `5심연의별무리`
+- `5역사`
+- `5유랑기사단`
+- `5황금손아귀`
+- `61국제길드연합`
+- `6밤의계약단`
+- `6범대륙초국가및중립세력`
+- `6사회및정치`
+- `6철혈부대`
+- `7바람의칼날`
+- `7법률및규범`
+- `8경제및상업`
+- `8바이퍼해적단`
+- `9내부암약조직`
+- `9예하부대및기사단`
+- `9황금기계단`
+- `격리실험실`
+- `경제지배지역`
+- `공방`
+- `금단구역`
+- `기지`
+- `길드지부`
+- `대장간및공방`
+- `도서관`
+- `도시`
+- `마동공장`
+- `무역거점`
+- `보관소`
+- `비밀지하창고`
+- `성지`
+- `수련장`
+- `연구소`
+- `연구지부`
+- `요새`
+- `유적`
+- `은신처`
+- `주요근거지`
+- `중앙금고`
+- `중앙환전소`
+- `지역`
+- `지하대금고`
+- `집결지`
+- `채권보관소`
+- `탐사구역`
+- `항구`
+- `훈련소`
