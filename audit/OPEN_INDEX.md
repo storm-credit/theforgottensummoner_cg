@@ -91,6 +91,7 @@
 - `audit/Section_15_Named_Notable_Erion_Dracovis.md`
 - `audit/Section_15_Named_Notable_Wolfgar_Dragonforge.md`
 - `audit/Section_15_Named_Notable_Oghma.md`
+- `audit/Section_15_Crimson_Profile_Format_Test.md`
 - `audit/Section_15_Named_Notable_Sylvia.md`
 - `audit/Section_15_Named_Notable_Draxar_Blazeforge.md`
 - `audit/Section_15_Named_Notable_Bellana_Stormbringer.md`
