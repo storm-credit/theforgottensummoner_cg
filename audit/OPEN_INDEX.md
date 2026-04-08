@@ -85,6 +85,7 @@
 - `audit/Section_14_15_Crimson_Boundary_Batch_02.md`
 - `audit/Section_14_15_Ether_Boundary_Batch_02.md`
 - `audit/Section_15_Named_Notables_Frost_Scout.md`
+- `audit/Section_15_Frost_Place_Institution_Sidecar.md`
 - `audit/Section_15_Named_Notables_Oceanic_Scout.md`
 - `audit/Section_14_15_Oceanic_Boundary_Batch_02.md`
 - `audit/Section_15_Named_Notables_Obelisk_Scout.md`
@@ -177,6 +178,7 @@
 - `working/drafts/Crossroad_Cities_Ops_Matrix.md`
 - `working/drafts/Spatial_Backlog.md`
 - `audit/Section_15_Crimson_Place_Sidecar.md`
+- `audit/Section_15_Frost_Place_Institution_Sidecar.md`
 - `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
 
 ## Rule

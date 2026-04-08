@@ -168,6 +168,33 @@
   - `푸른 폭풍 요새`
   - `겨울회의 의장막`
 
+#### Frost Place / Institution Sidecar
+
+- `오로라 평원`
+  - 장소 기능: 하늘 징조 해석, 구전 전승 회수, 별빛 의식
+  - 연결 후보 슬롯: `전승 보존회 원로 사냥꾼`, `대예언자`, `별의 샤먼`
+  - 연결 문서: `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `얼음무덤 언덕`
+  - 장소 기능: 죽은 자의 기록, 족보, 잊힌 전설과 유물 단서
+  - 연결 후보 슬롯: `묘지기 장로`
+  - 연결 문서: `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `푸른 폭풍 요새`
+  - 장소 기능: 방어선, 생산 구역, 공성 병기 개수
+  - 연결 후보 슬롯: `수석 기술자 / 드워프 장인`
+  - 연결 문서: `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `퍼마프로스트 요새`
+  - 장소 기능: 공성단 지휘, 냉기 병기 보관, 전선 물류
+  - 연결 후보 슬롯: `시그리드 / 공성단`
+  - 연결 문서: `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `아이스포지 병기소`
+  - 장소 기능: 얼음 공성심장, 냉기 병기, 공방 전승
+  - 연결 후보 슬롯: `아이스포지 병기소 장인`
+  - 연결 문서: `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `빙하의 성소`
+  - 장소 기능: 주술 의식, 회복, 예언 검증, 장로 회의
+  - 연결 후보 슬롯: `마리안`, `울프릭`, `주술사 원로단`
+  - 연결 문서: `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+
 ### Oceanic Notes
 
 - 핵심 항구 / 도시:
