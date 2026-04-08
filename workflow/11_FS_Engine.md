@@ -360,6 +360,9 @@ FS 엔진의 실제 운용 장부는 아래를 본다.
 - `audit/FS_Place_Function_Register.md`
 - `audit/FS_Asset_Secret_Register.md`
 - `audit/FS_Institution_Memory_Register.md`
+- `audit/FS_Travel_Logistics_Register.md`
+- `audit/FS_Ecology_Resource_Register.md`
+- `audit/FS_Rumor_Fact_Register.md`
 
 ## Writing Craft Map
 

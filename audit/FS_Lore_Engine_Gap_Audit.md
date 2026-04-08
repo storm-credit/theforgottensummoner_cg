@@ -171,6 +171,18 @@
 3. `FS_Revision_Gate_Checklist.md`
 4. `FS_Place_Function_Register.md`
 5. `FS_Asset_Secret_Register.md`
+6. `FS_Institution_Memory_Register.md`
+7. `FS_Travel_Logistics_Register.md`
+8. `FS_Ecology_Resource_Register.md`
+9. `FS_Rumor_Fact_Register.md`
+
+## Build Status
+
+Priority A and B are now represented as live registers.
+
+Priority C has also been opened as live registers so that
+large-scale continent, item, city, and rumor work can proceed
+without waiting for a later refactor.
 
 ## Conductor Note
 

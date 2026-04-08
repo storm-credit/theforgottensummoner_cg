@@ -36,6 +36,9 @@
 - `audit/FS_Place_Function_Register.md`
 - `audit/FS_Asset_Secret_Register.md`
 - `audit/FS_Institution_Memory_Register.md`
+- `audit/FS_Travel_Logistics_Register.md`
+- `audit/FS_Ecology_Resource_Register.md`
+- `audit/FS_Rumor_Fact_Register.md`
 
 ## Section 14
 
