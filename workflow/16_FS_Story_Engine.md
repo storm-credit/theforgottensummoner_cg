@@ -45,6 +45,10 @@ FS Story Engine이 담당하는 것:
 - 이 소문은 사실인가?
 - 이 영웅은 무엇을 잃고 성장하는가?
 
+연결 장부:
+
+- `audit/FS_Story_Act_Question_Register.md`
+
 ### 2. Character Arc
 
 인물이 무엇을 믿고,
@@ -70,6 +74,10 @@ FS Story Engine이 담당하는 것:
 - 통행 제한
 - 위험한 거래
 - 과거 인연
+
+연결 장부:
+
+- `audit/FS_Scene_Pressure_Checklist.md`
 
 ### 4. Relationship Turn
 
@@ -110,12 +118,25 @@ FS Story Engine이 담당하는 것:
 - 소문과 사실의 차이
 - 기관이 숨긴 기억
 
+연결 장부:
+
+- `audit/FS_Reveal_Control_Register.md`
+
 ### 7. Act Outcome
 
 액트가 끝나면 무엇이 바뀌었는지 기록한다.
 
 연결 장부:
 
+- `audit/FS_Act_Outcome_Ledger.md`
+
+## Live Story Registers
+
+- `audit/FS_Story_Act_Question_Register.md`
+- `audit/FS_Scene_Pressure_Checklist.md`
+- `audit/FS_Reveal_Control_Register.md`
+- `audit/FS_Relationship_Ledger.md`
+- `audit/FS_Foreshadow_Payoff_Register.md`
 - `audit/FS_Act_Outcome_Ledger.md`
 
 ## Operating Sequence
@@ -151,4 +172,3 @@ Story Engine이 장면을 제안할 때도
 하지만 액트 설계나 실제 원고 단계로 들어가면
 Story Engine이 주 엔진이 되고,
 Lore Engine은 정합성 검사 역할로 뒤에서 받친다.
-

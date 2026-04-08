@@ -26,6 +26,9 @@
 - `audit/FS_Engine_Core_Consensus.md`
 - `audit/FS_Engine_Writing_Craft_Map.md`
 - `audit/FS_Engine_Mode_Routing.md`
+- `audit/FS_Story_Act_Question_Register.md`
+- `audit/FS_Scene_Pressure_Checklist.md`
+- `audit/FS_Reveal_Control_Register.md`
 - `workflow/14_FS_Media_Engine.md`
 - `audit/FS_Media_Engine_Consensus.md`
 - `audit/FS_Canon_Tier_Register.md`

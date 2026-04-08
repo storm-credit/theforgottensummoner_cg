@@ -76,9 +76,10 @@
 15. 장소 기능 / 자산과 비밀 / 기관 기억 장부 추가
 16. 이동/물류, 자원/생태, 소문/사실 장부 추가
 17. FS Engine을 Lore / Story / Media 하위 엔진으로 분리
-18. `safe 15 candidate`와 `verify before 15` 분리 유지
-19. 자유도시 도시망의 사람-장소-기능 결합 강화
-20. 그다음 `Tier 2`로 자연스럽게 확장
+18. Story Engine의 액트 질문 / 장면 압력 / 공개 통제 장부 추가
+19. `safe 15 candidate`와 `verify before 15` 분리 유지
+20. 자유도시 도시망의 사람-장소-기능 결합 강화
+21. 그다음 `Tier 2`로 자연스럽게 확장
 
 ## Conductor Rule
 
