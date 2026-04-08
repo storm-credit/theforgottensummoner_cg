@@ -74,6 +74,7 @@
 
 - `audit/Section_15_Named_Notables_Track.md`
 - `audit/Section_15_Named_Notables_Register.md`
+- `audit/Section_15_Named_Notables_Coverage_Matrix.md`
 - `audit/Section_15_Named_Notables_Anchor_Map.md`
 - `audit/Section_15_Named_Notables_Gap_Scout.md`
 - `audit/Section_15_Named_Notables_Recovery_Batch_01.md`
