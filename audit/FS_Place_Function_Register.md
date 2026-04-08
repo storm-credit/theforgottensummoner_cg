@@ -153,11 +153,11 @@ FS Lore Engine에서 장소는
 | 영원의 기록탑 | `memory_site` | 사후 서기관 / 이름 보관 / 사후 기록 분류 | `scholar_road`, `pilgrim_road` | `knowledge_asset`, `suppressed_record` |
 | 망각의 회랑 | `memory_site`, `underworld_node` | 레보니아 / 우로스 / 망각의 조율자 | `underpath`, `scholar_road` | `suppressed_record`, `secret` |
 | 그림자 도서관 | `memory_site`, `underworld_node` | 카트린 / 금서 학자층 / 사라진 기록 | `scholar_road`, `underpath` | `knowledge_asset`, `secret` |
-| 오로라 평원 | `memory_site`, `sanctuary` | 전승 보존회 / 대예언자 / 별의 샤먼 | `pilgrim_road`, `hunter_trail` | `knowledge_asset`, `institutional_asset` |
-| 얼음무덤 언덕 | `memory_site`, `sanctuary` | 묘지기 장로 / 죽은 자의 기록 / 유물 단서 | `pilgrim_road`, `hunter_trail` | `suppressed_record`, `relic_material` |
-| 푸른 폭풍 요새 | `threshold`, `workshop` | 수석 기술자 / 드워프 장인 / 방어선 공방 | `frontier_watch`, `supply_road` | `craft_secret`, `institutional_asset` |
+| 오로라 평원 | `memory_site`, `sanctuary` | 전승 보존회 / 대예언자 / 별의 샤먼 (`서리길 원로 사냥꾼`, `오로라 예언장`, `오로라 별술사`) | `pilgrim_road`, `hunter_trail` | `knowledge_asset`, `institutional_asset` |
+| 얼음무덤 언덕 | `memory_site`, `sanctuary` | 묘지기 장로 / 죽은 자의 기록 / 유물 단서 (`빙묘 수호장`) | `pilgrim_road`, `hunter_trail` | `suppressed_record`, `relic_material` |
+| 푸른 폭풍 요새 | `threshold`, `workshop` | 수석 기술자 / 드워프 장인 / 방어선 공방 (`빙철 공방장`) | `frontier_watch`, `supply_road` | `craft_secret`, `institutional_asset` |
 | 퍼마프로스트 요새 | `threshold`, `workshop` | 시그리드 / 공성단 / 냉기 병기 | `frontier_watch`, `supply_road` | `craft_secret`, `relic_material` |
-| 아이스포지 병기소 | `workshop`, `memory_site` | 아이스포지 장인 / 얼음 공성심장 / 공방 전승 | `supply_road`, `mountain_forge_route` | `craft_secret`, `relic_material` |
+| 아이스포지 병기소 | `workshop`, `memory_site` | 아이스포지 장인 / 얼음 공성심장 / 공방 전승 (`서리벼림 장인`) | `supply_road`, `mountain_forge_route` | `craft_secret`, `relic_material` |
 | 빙하의 성소 | `sanctuary`, `memory_site` | 마리안 / 울프릭 / 주술사 원로단 | `pilgrim_road` | `knowledge_asset`, `institutional_asset` |
 | 겨울회의 의장막 | `sanctuary`, `threshold` | 대예언자 / 원로단 / 부족 간 조정자 | `pilgrim_road`, `frontier_watch` | `institutional_asset` |
 | 오라클 바지 | `sanctuary`, `threshold` | 수석 오라클 / 신탁 전달 / 해상 재판 | `sea_lane`, `pilgrim_road` | `knowledge_asset`, `institutional_asset` |
