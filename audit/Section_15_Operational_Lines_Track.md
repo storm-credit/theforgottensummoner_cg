@@ -14,14 +14,16 @@
 
 ## Current Functional Axes
 
-1. `Hidden Exchange`
-2. `Ironblood`
-3. `Black Skull`
-4. `Shadow Field Network`
-5. `Iron Finance Field`
-6. `Trade Broker Ring`
-7. `Mercenary Operations`
-8. `Silent Market Undercurrent`
+| Axis | State Label | Display Name State | Note |
+|---|---|---|---|
+| `Hidden Exchange` | `operational_line` | `display_canon_candidate` | 지하 중개 조직 축 |
+| `Ironblood` | `operational_line` | `display_canon_candidate` | 폭력 채권 회수 조직 축 |
+| `Black Skull` | `operational_line` | `display_canon_candidate` | 노예 / 생체 거래 조직 축 |
+| `Shadow Field Network` | `operational_line` | `display_canon_candidate` | 그림자 정보단 현장망 |
+| `Iron Finance Field` | `operational_line` | `display_canon_candidate` | 철의 금융 연맹 실무층 |
+| `Trade Broker Ring` | `operational_line` | `display_canon_candidate` | 대륙 무역 연맹 중개층 |
+| `Mercenary Operations` | `operational_line` | `display_canon_candidate` | 자유도시 용병 실무층 |
+| `Silent Market Undercurrent` | `operational_line` | `display_canon_candidate` | 침묵의 상회 현장층 |
 
 ## Working Name Rule
 

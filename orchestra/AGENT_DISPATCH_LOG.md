@@ -42,3 +42,9 @@ Integrated actions:
 - 15번 색인을 Named Notables와 Operational Lines로 분리해서 보이게 한다.
 - Media Engine에 Reveal Control과 Live Media Registers를 연결한다.
 - Writing Craft Map을 `two-layer`가 아니라 `three-mode` 구조로 갱신한다.
+
+Follow-up actions:
+
+- 15번 Named Notables 등록부에 `State Label` 열을 추가한다.
+- 15번 Operational Lines 색인에 `operational_line`과 `display_canon_candidate` 상태를 명시한다.
+- Profile Draft Index가 Named Notables가 아니라 Operational Lines 중심임을 더 명확히 한다.

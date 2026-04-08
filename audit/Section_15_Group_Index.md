@@ -15,6 +15,17 @@
 
 ## Current Groups
 
+| Group | State Label | Display Name State | Current Priority |
+|---|---|---|---|
+| `Hidden Exchange` | `operational_line` | `display_canon_candidate` | `Tier 1 first` |
+| `Ironblood` | `operational_line` | `display_canon_candidate` | `Tier 1 mixed with Tier 2` |
+| `Black Skull` | `operational_line` | `display_canon_candidate` | `Tier 1 mixed with Tier 2` |
+| `Shadow Field Network` | `operational_line` | `display_canon_candidate` | `post-Tier-1 bridge` |
+| `Iron Finance Field` | `operational_line` | `display_canon_candidate` | `post-Tier-1 bridge` |
+| `Trade Broker Ring` | `operational_line` | `display_canon_candidate` | `bridge after finance` |
+| `Mercenary Operations` | `operational_line` | `display_canon_candidate` | `bridge after trade` |
+| `Silent Market Undercurrent` | `operational_line` | `display_canon_candidate` | `after trade and mercenary` |
+
 ### 1. Hidden Exchange
 
 - file:

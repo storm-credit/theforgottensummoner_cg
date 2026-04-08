@@ -11,6 +11,13 @@
 
 ## Current Drafts
 
+| Draft Type | State Label | Meaning |
+|---|---|---|
+| Named individual profile | `operational_line` | 조직 작동을 보여주는 이름 있는 실무 인물 |
+| Role-line profile | `operational_line` | 아직 개별 이름보다 기능 계열이 중요한 라인 |
+| Display naming pending | `display_canon_candidate` | 표면명은 판타지 톤으로 재검토 |
+| Possible 14 overlap | `verify_before_15` | 14번 신호가 있는 경우 15 확정 전 검증 |
+
 - `Section_15_Profile_Ventura_Moretti.md`
 - `Section_15_Profile_Elizabeth_Rochefort.md`
 - `Section_15_Profile_Dominic_Balsano.md`
