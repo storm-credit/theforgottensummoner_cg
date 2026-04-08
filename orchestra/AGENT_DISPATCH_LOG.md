@@ -65,3 +65,4 @@ Follow-up actions:
 - Tier D 후보 6명을 `Section_15_Named_Notables_Register`에 `verify_before_15` 상태로 반영했다.
 - Named Notables 커버리지 매트릭스를 추가해 대륙별 강약과 다음 수집 우선순위를 정리했다.
 - 프로스트는 안전한 15 확정보다 역할 슬롯이 강한 대륙으로 판정하고, 시그리드/마리안은 `verify_before_15`, 원로 사냥꾼/묘지기 장로/대예언자/수석 기술자는 `need_named_candidate` 슬롯으로 분리했다.
+- 해양은 이름 있는 후보가 많지만 제독/A급/히어로급 신호도 강한 대륙으로 판정하고, 이소벨/마르코/엘레오노라/골드핑거/리나/에릭/오렌/마리아/모로스는 `verify_before_15`, 수석 오라클/항로 기록관/조선소 수석 공병/장물 감정사는 `need_named_candidate` 슬롯으로 분리했다.

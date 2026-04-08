@@ -92,6 +92,15 @@
 | `마리안 더 윈터콜러` | 오로라 평원 A급 정령술사 / 정령술사 명사 신호 | `15 Named Notables` 또는 `keep_14` | 14 독립 영웅 시트와 액트 중심성 확인 | `verify_before_15` |
 | `미다스` | 바다의 연금술사 / 침묵의 금괴 / 황금 함대 전설 영웅록 / 해양 상단 신화 | `15 Named Notables` 또는 `keep_14` | 연금술 명사인지 전설 영웅인지 확인 | `verify_before_15` |
 | `해양 실비아` | 해류의 지휘관 / 은빛 항해사 / 황금 함대 전설 영웅록 | `15 Named Notables` 또는 `keep_14` | 키르케 계열 `실비아`와 이름 충돌 확인 | `verify_before_15 / name_collision` |
+| `이소벨` | 재무관 / 함대 운영 자금권 / 포탄 구매 허가권 | `15 Named Notables` 또는 `keep_14` | SS급 권력축인지, 금융 명사형 인물인지 확인 | `verify_before_15` |
+| `마르코 바르텔로` | 해상의 거부 / 해운왕 / 시장 물가 조작 / 히어로급 표기 | `15 Named Notables` 또는 `keep_14` | 히어로급이 전투/액트 중심인지, 경제 명사인지 확인 | `verify_before_15` |
+| `엘레오노라 라 크루즈` | 거래의 심판관 / 무역 협상가 / 독소조항 설계 | `15 Named Notables` 또는 `keep_14` | 법률/거래 명사인지 조직 흑막 중심 인물인지 확인 | `verify_before_15` |
+| `골드핑거 바스` | 암시장 조합장 / A급 / 실버하트 가문 | `15 Named Notables` 또는 `keep_14` | 암시장 명사인지 14 해적 영웅인지 확인 | `verify_before_15` |
+| `리나 웨이브서프` | 바다의 연금술사 / 고문서 복원 / 심연 수식 병기화 / 히어로급 표기 | `15 Named Notables` 또는 `keep_14` | 복원 학자인지 해적 연합 영웅인지 확인 | `verify_before_15` |
+| `에릭 시스트롬` | 파도의 거래자 / 금단 유물 유통 / 암시장 협상가 | `15 Named Notables` 또는 `keep_14` | 유물 브로커인지 조직 핵심 영웅인지 확인 | `verify_before_15` |
+| `오렌` | 심해 감시단장 / 심연 징후 판단권 | `15 Named Notables` 또는 `keep_14` | 단장급 14 인물인지, 정보 판단 명사인지 확인 | `verify_before_15` |
+| `세일블레스 마리아` | A급 / 성스러운 함대 제독 / 오라클 바지 연결 | `15 Named Notables` 또는 `keep_14` | 제독 영웅인지 성직 항해 명사인지 확인 | `verify_before_15` |
+| `모로스` | 해골 제독 / 죽은 선장들의 항해일지 수집 | `15 Named Notables` 또는 `keep_14` | 신화적 제독인지 기록 수집 명사인지 확인 | `verify_before_15` |
 | `바리온` | 금서의 룬마스터 / 룬의 집행관 / 봉인 수호단 전설 영웅록 | `15 Named Notables` 또는 `keep_14` | 금서 명사인지 전설 영웅인지 확인 | `verify_before_15` |
 | `아이기스` | 절대 방벽의 현자 / 장벽의 수호자 / 봉인 수호단 전설 영웅록 | `15 Named Notables` 또는 `item / keep_14` | 인물명인지 유물명인지 확인 | `verify_before_15 / item_name_collision` |
 | `카론` | 원혼 인도자 / 영혼의 목자 / 망자의 왕국 전설 영웅록 / 잊힌 자들의 전술 문서 | `15 Named Notables` 또는 `keep_14` | 전승 명사인지 전설 영웅인지 확인 | `verify_before_15` |
