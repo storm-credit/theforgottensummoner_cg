@@ -5,6 +5,7 @@
 ## Current Stream
 
 - `Continuous_Workstream.md`
+- `Next_Sequential_Workstream.md`
 - `orchestra/AGENT_DISPATCH_LOG.md`
 - `Today_Workstream.md`
 - `Surface_Naming_Audit_Findings.md`
