@@ -27,6 +27,32 @@
 3. 노예, 생체 거래, 암살 같은 기능은 표면명에 너무 직접적으로 쓰지 않는다.
 4. 작업용 라벨은 계속 남겨서 원래 기능을 잃지 않게 한다.
 
+## Preferred Candidate Pass
+
+이 표는 현재 후보 중 어느 쪽을 먼저 밀지 정리한 것이다.
+아직 정본명 확정이 아니라 `preferred display candidate`다.
+
+| Working Axis | Preferred Candidate | State | Reason |
+|---|---|---|---|
+| `Hidden Exchange` | `은막 교역회` | `preferred_display_candidate` | 지하 거래 기능이 있으면서도 현대 범죄조직 느낌이 덜하다. |
+| `Ironblood` | `붉은 장부 결사` | `preferred_display_candidate` | 채무와 폭력성을 상징으로 처리해 직접적인 범죄물 톤을 낮춘다. |
+| `Black Skull` | `흑골 교역단` | `preferred_display_candidate` | 음지 교역 느낌을 유지하되 너무 현대적이지 않다. |
+| `Shadow Field Network` | `밤그물 정보회` | `preferred_display_candidate` | `그림자 들판망`보다 정보망 이미지가 더 분명하다. |
+| `Iron Finance Field` | `철의 금융 연맹` | `preferred_display_candidate` | 기존 카르텔 대체명으로 가장 안정적이다. |
+| `Trade Broker Ring` | `대륙 무역 연맹` | `preferred_display_candidate` | 공식/비공식 중개를 모두 받을 수 있고 직관적이다. |
+| `Mercenary Operations` | `용병 중재 평의회` | `preferred_display_candidate` | 용병 운영보다 중재와 제도 느낌이 살아난다. |
+| `Silent Market Undercurrent` | `침묵의 상회` | `preferred_display_candidate` | 짧고 기억되며 음지 상업 톤이 살아 있다. |
+
+## Needs Polish
+
+| Candidate | Reason | Direction |
+|---|---|---|
+| `그림자 들판망` | 의미가 조금 흐리고 지도/농경 이미지로 튈 수 있다. | `밤그물 정보회` 우선 |
+| `검은 해골 상회` | 너무 직설적이고 해적/악당명처럼 튈 수 있다. | `흑골 교역단` 우선 |
+| `위조 장인의 우두머리` | 작업 설명에 가깝고 표면명으로는 둔하다. | `가면 공방주` 또는 새 후보 필요 |
+| `하수로 짐꾼` | 너무 생활어라 격이 낮아진다. | `지하 짐꾼`보다 더 판타지 톤 후보 필요 |
+| `그림자 말소자` | 암살단 라벨로는 가능하지만 약간 게임 스킬명처럼 보인다. | `환영 처형자` 우선 |
+
 ## Functional Line -> Display Canon Candidates
 
 | Working Label | Display Candidate A | Display Candidate B | Note |
