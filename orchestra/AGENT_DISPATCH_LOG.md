@@ -80,3 +80,4 @@ Follow-up actions:
 - 울프가르/에리온/오그마 안정 후보를 FS State Label, Relationship Ledger, Place Function Register에 연결하고 장소 기능 후보를 등록했다.
 - Operational Lines 표면명 후보표에 `preferred display candidate` 패스를 추가해 현대적/직역감 있는 후보를 낮추고 판타지 톤 후보를 우선순위화했다.
 - 세부 직능명에도 `Functional Preferred Candidate Pass`를 추가하고, `위조 장인의 우두머리`, `하수로 짐꾼` 같은 직역 라벨을 `거울인장 장인장`, `지하 회랑 운반꾼` 등으로 보정했다.
+- 이름 톤 재점검에서 `거울인장 장인장`의 말맛이 뭉치는 문제를 확인하고, 우선 후보를 `가면 공방주` / `거울인장 공방주`로 보정했다.
