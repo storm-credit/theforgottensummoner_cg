@@ -251,3 +251,10 @@
 - 다음 실제 작업은 `Section_15_Index_Draft`에 guard 결과를 반영하는 것이다.
 - `Section_15_Index_Draft`에 Operational Display Guard 결과를 반영했다.
 - 다음 실제 작업은 이 범대륙/운영명 guard 묶음을 커밋하고, 이후 8번 루트 후속 검토로 넘어가는 것이다.
+- `Section_8_Next_Audit_Targets`를 작성해 8번 다음 감사 순서를 정했다.
+- 다음 실제 작업은 `크림슨 / 용의 후예 / 엘드라칸` 앵커 감사다.
+- `Section_8_Crimson_Notable_Anchor_Audit`를 작성해 울프가르/에리온/오그마의 8번 앵커를 재점검했다.
+- 울프가르와 에리온은 A급/전설 영웅록/세력 핵심표 신호 때문에 `grade_caution`을 붙였고, 오그마는 명사형 NPC 성격이 가장 선명하다고 판정했다.
+- Wolfgar/Erion 이름 충돌 레지스터와 명칭 정규화 맵에 충돌 가드를 추가했다.
+- 프로스트 `원로 사냥꾼 / 묘지기 장로 / 대예언자 / 수석 기술자 / 별의 샤먼 / 아이스포지 장인` 슬롯을 8번 spine 기준으로 다시 묶는 감사표를 추가했다.
+- 다음 실제 작업은 프로스트 슬롯의 `display canon` 후보를 더 판타지 톤으로 낮추고, 그다음 `FS_Place_Function_Register` 연결을 직접 보강하는 것이다.

@@ -207,6 +207,9 @@
 
 - `working/drafts/Five_Continent_Synthesis.md`
 - `audit/Section_8_Standard_Spine.md`
+- `audit/Section_8_Next_Audit_Targets.md`
+- `audit/Section_8_Crimson_Notable_Anchor_Audit.md`
+- `audit/Section_8_Frost_Notable_Anchor_Audit.md`
 - `working/drafts/Continental_Adequacy_Map.md`
 
 ## Spatial

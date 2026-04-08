@@ -152,3 +152,35 @@
 - 두 인물은 이름이 같지만 세력 앵커와 기능이 다르므로 바로 병합하지 않는다.
 - `실라스 나이트쉐이드`는 정령연합 암살/첩보 축으로 따로 검증한다.
 - `실라스 블랙쏜`은 성국 옵시디안 감옥/고문 축으로 유지한다.
+
+## Wolfgar Collision
+
+현재 작업본에서 확인된 `Wolfgar / 울프가르` 계열:
+
+| Form | Anchor | Signal | Current Judgment |
+|---|---|---|---|
+| `울프가르 드래곤포지 (Wolfgar Dragonforge)` | `크림슨 / 용의 후예 / 드래곤포지 공방` | A급, 공방장, 프라이멀 엠버 대장장이, 전설 영웅록 신호 | `named_notable_candidate / grade_caution` |
+| `울프가르 블레이즈프로스트 (Wulfgard Blazefrost)` | `프로스트 / role-slot scan` | 프로스트 인명 후보군, 냉염계 이름군 | `separate_entity_candidate / source_scan_only` |
+| `울프가르 룬팽 (Wulfgar Runefang)` | `프로스트 / role-slot scan` | 룬/야수/전투 계열 이름군 | `separate_entity_candidate / source_scan_only` |
+| `울프가르 스톰본 (Wulfgar Stormborn)` | `프로스트 / role-slot scan` | 폭풍/부족 전사 계열 이름군 | `separate_entity_candidate / source_scan_only` |
+
+판정:
+
+- `울프가르 드래곤포지`는 크림슨 `용의 후예 / 드래곤포지 공방` 앵커로만 읽는다.
+- 프로스트의 `울프가르` 계열 이름군과 병합하지 않는다.
+- `Wolfgar`는 대륙 간 이름 충돌이 이미 발생했으므로, 15번 시트 표면명만 보고 안정 후보로 올리지 않는다.
+
+## Erion Collision
+
+현재 작업본에서 확인된 `Erion / 에리온` 계열:
+
+| Form | Anchor | Signal | Current Judgment |
+|---|---|---|---|
+| `에리온 드라코비스 (Erion Dracovis)` | `크림슨 / 엘드라칸 / 용언 도서관` | A급, 기록관, 용의 심장, 계약 증인, 세력 핵심표 신호 | `named_notable_candidate / grade_caution / name_collision_watch` |
+| `에리온 베르날리스 (Erion Vernalis)` | `에테르 / 정령연합 / 14 현존 영웅` | 직접 14 파일, 정령연합 영웅 축 | `keep_14 / separate_entity` |
+
+판정:
+
+- `에리온 드라코비스`와 `에리온 베르날리스`는 병합하지 않는다.
+- 크림슨 `에리온`은 15 시험 후보로 유지하되 `grade_caution`을 고정한다.
+- 에테르 `에리온 베르날리스`가 존재하므로, `에리온` 단독 표기는 반드시 세력 앵커를 함께 적는다.
