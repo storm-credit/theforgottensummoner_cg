@@ -57,10 +57,10 @@
 | `세리오스 벤타리스` | `자색의 탑 탑주` | `에테르 / 마법협회 / 자색의 탑` | `학파 탑주 / 환영 / 꿈` | `keep_14_likely` | `direct 14 hero file found` | `keep_14_and_anchor_review` | 14번 현존 영웅 파일이 직접 확인된다. 15 확정 금지. |
 | `네리사 블러드위버` | `적색의 탑 탑주` | `에테르 / 마법협회 / 적색의 탑` | `학파 탑주 / 화염 / 전투` | `verify_before_15` | `tower-master signal` | `hold_until_14_check` | 탑주 후보. 14 존재 여부 확인 필요. |
 | `다미엔 이클립스` | `은색의 탑 탑주` | `에테르 / 마법협회 / 은색의 탑` | `학파 탑주 / 공간 / 시간` | `verify_before_15` | `tower-master signal` | `hold_until_14_check` | 탑주 후보. 14 존재 여부 확인 필요. |
-| `칼리스트` | `황금의 탑 탑주` | `에테르 / 마법협회 / 황금의 탑` | `연금술 / 경제 / 제작` | `verify_before_15` | `craft-notable with tower-master signal` | `hold_until_14_check` | 연금/제작 명사층 가치가 강하지만 탑주라 14 확인 필요. |
+| `칼리스트` | `황금의 탑 탑주 / 대예언자 / 천리안` | `에테르 / 마법협회 / 황금의 탑 / 별의 예언자단` | `예언자 / 운명 해석 / 전략` | `verify_before_15` | `A+ tower-master and seer signal` | `hold_until_14_check` | 예언자형 명사 가치가 크지만 A+급, Act 1/4, 탑주 신호가 강하다. |
 | `래퍼티 아르카디아` | `도서관장 / 금서 연구자` | `에테르 / 성국 / 아스트라르` | `도서관장 / 금서 연구` | `verify_before_15` | `A-grade key figure signal` | `hold_until_14_check` | 성국 핵심 인물표에 있어 14 확인 전 15 확정 금지. |
 | `대사제 요한` | `루멘 성채 총괄 / 결계 공명 축` | `에테르 / 성국 / 루멘 성채` | `대사제 / 성채 방어 / 순교자 묘역` | `verify_before_15` | `local notable with command signal` | `hold_until_14_check` | 지역 거점 명사층으로 좋지만 성채 총괄자라 14 보조 인물 여부 확인 필요. |
-| `엘라라 문힘` | `노래술사 / 달의 찬가` | `에테르 / 정령연합` | `음유시인 / 기록 / 가호` | `verify_before_15` | `A-grade hero-table signal` | `hold_until_14_check` | 기록과 노래 전승 가치가 있지만 A급 영웅표 신호가 강하다. |
+| `엘라라 문힘` | `노래술사 / 달의 찬가 / 걸어다니는 도서관` | `에테르 / 정령연합 / 루미라` | `음유시인 / 기록 / 가호 / 고대어 해석` | `verify_before_15` | `A-grade hero-table and legendary record signal` | `hold_until_14_check` | 기록과 노래 전승 가치가 매우 크지만 A급 영웅표와 전설적 마도 영웅록 신호가 강하다. |
 | `드라이덴 썬더루트` | `장로 드루이드 / 자연법 해석자` | `에테르 / 정령연합 / 자연 율법회` | `장로 / 법 해석 / 생명의 의회` | `verify_before_15` | `core-figure signal` | `hold_until_14_check` | 자연법 해석 명사층 가치가 있으나 핵심 인물표 신호가 있다. |
 | `메라 라일윈드` | `외교관 / 희귀 재료 교역 조건 관리자` | `에테르 / 정령연합 / 외교 사절단` | `외교 / 교역 조건 / 정령 규범` | `verify_before_15` | `top-rank diplomat signal` | `hold_until_14_check` | 정령연합과 외부 세계를 잇는 명사 가치가 있지만 Top 4 신호가 있다. |
 

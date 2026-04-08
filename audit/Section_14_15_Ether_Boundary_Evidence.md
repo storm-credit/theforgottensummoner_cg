@@ -53,3 +53,26 @@
 3. `칼리스트`: 연금/제작 명사층 가치가 커서 15 후보로 남길 수 있는지 확인한다.
 4. `엘라라 문힘`: 기록/노래 전승 기능이 강하지만 A급 영웅표 신호가 있다.
 
+## Priority Evidence Pass
+
+추가로 `cg` 내부 reference / working / audit 범위에서 우선 후보 4명을 재검색했다.
+
+| Candidate | Additional Evidence | Updated Judgment |
+|---|---|---|
+| 래퍼티 아르카디아 | `성국 (Saint Haven).md` 핵심표에서 `도서관장`, `A (Elite)`, `Act 2, 3`, `Scholar`, `금서 / 고대 마법 연구`로 확인된다. | `verify_before_15` 유지. 독립 14 파일은 현재 import에 없지만 성국 핵심표 신호가 강하다. |
+| 대런 크레센트 | `마법협회` 본문에서 행정총무부 실질 운영 책임자, No.9, 부탑주, `A+ (Elite)`, `Act 1~3`, `협회의 살림꾼`, 마법 서고단 관장으로 반복 확인된다. | `verify_before_15` 유지. 15 Operational Lines 가치가 크지만 A+와 Act 신호가 강해 15 확정 금지. |
+| 칼리스트 | `마법협회` 본문에서 Top 8, 황금의 탑주, `A+ (Elite)`, `Act 1, 4`, `천리안`, 별의 예언자단 대예언자로 반복 확인된다. | `verify_before_15` 유지. 예언자형 명사 가치가 크지만 14급 탑주/Act 신호가 강하다. |
+| 엘라라 문힘 | `정령연합` 본문에서 No.10, `A (Elite)`, Act 1, 2, `달의 찬가`, 기록/가호 증폭으로 보이고, 전설적 마도 영웅록과 루미라 도서관장/걸어다니는 도서관 신호도 확인된다. | `verify_before_15` 유지. Named Notable 가치가 매우 크지만 전설 영웅록과 A급 신호가 강하다. |
+
+## Updated Conductor Read
+
+에테르 우선 후보는 `유명 NPC형 명사` 가치가 분명하지만,
+현재 자료상 14번 영웅 신호가 예상보다 강하다.
+
+따라서 다음처럼 임시 판정한다.
+
+- `세리오스 벤타리스`: `keep_14_likely`
+- `래퍼티 아르카디아`: `verify_before_15`, 성국 핵심표 신호 강함
+- `대런 크레센트`: `verify_before_15`, Operational Lines와 14 보조 인물 사이
+- `칼리스트`: `verify_before_15`, 예언자형 명사지만 탑주/Act 신호 강함
+- `엘라라 문힘`: `verify_before_15`, 15 가치가 매우 크지만 전설 영웅록 신호 강함
