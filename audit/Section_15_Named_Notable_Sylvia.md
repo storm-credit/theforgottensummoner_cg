@@ -12,6 +12,28 @@
 - current judgment:
   - `strong_15`
 
+## 1-1. Archive Routing
+
+- continent_anchor:
+  - `범대륙 후기 확장`
+- faction_anchor:
+  - `키르케 영약회`
+- city_or_place_anchor:
+  - `고통의 증류탑`
+  - `계량 기록실`
+- secondary_index:
+  - `기록자`
+  - `약제사`
+  - `시약 계량관`
+  - `임상 기록`
+- routing_state:
+  - `route_test_ok_but_deferred_zone`
+
+주의:
+
+- 키르케 영약회는 범대륙 후기 확장축이라 메인 대륙 후보보다 후순위로 둔다.
+- `실비아` 이름은 해양/마법협회/오벨리스크 계열과 충돌하므로 병합하지 않는다.
+
 ## 2. Why Remembered
 
 - 전장 영웅보다

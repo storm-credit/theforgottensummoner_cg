@@ -241,3 +241,5 @@
 - 다음 실제 작업은 안정 15 후보의 8번 앵커 색인 작성이다.
 - `Section_15_Stable_Candidate_8_Anchor_Index`를 작성해 안정 후보 5명의 8번 앵커를 묶었다.
 - 다음 실제 작업은 안정 15 후보 시트 품질 점검이다.
+- `Section_15_Stable_Candidate_Profile_QA`를 작성하고, 실비아 시트에 Archive Routing 블록을 보강했다.
+- 다음 실제 작업은 8번 세력 spine 쪽으로 돌아가 범대륙 후기 확장 보류선을 더 분명히 하는 것이다.

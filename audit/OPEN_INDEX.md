@@ -122,6 +122,7 @@
 - `audit/Section_8_to_15_Notable_Anchor_Bridge.md`
 - `audit/Section_8_15_Spine_Compatibility_Audit.md`
 - `audit/Section_15_Stable_Candidate_8_Anchor_Index.md`
+- `audit/Section_15_Stable_Candidate_Profile_QA.md`
 - `audit/Section_15_Folder_Draft_Routing_Plan.md`
 - `audit/Section_15_Folder_Structure_Draft.md`
 - `audit/Section_15_Folder_Revision_Gate.md`
