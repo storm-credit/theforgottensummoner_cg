@@ -40,3 +40,9 @@
 
 다음 배치는 위 검색어로 `working/imports`와 `audit` 안의 현재 작업본을 먼저 확인한다.
 결과가 없으면 원본 전체를 읽기 전용으로 검색하되, 원본 파일은 수정하지 않는다.
+
+## Search Progress
+
+| Priority | Result |
+|---|---|
+| 1 | `done`. `대런 크레센트`는 `verify_before_15` 유지, `봉인서고지기 / 금서 검인관`은 `need_named_candidate` 유지. |
