@@ -86,6 +86,7 @@
 - `audit/Section_15_Ether_Search_Findings_Batch_01.md`
 - `audit/Section_15_Ether_Search_Findings_Batch_02.md`
 - `audit/Section_15_Ether_Search_Findings_Batch_03.md`
+- `audit/Section_15_Ether_Search_Findings_Batch_04.md`
 - `audit/Section_15_Crimson_Wise_Council_Evidence.md`
 - `audit/Section_14_15_Crimson_Boundary_Batch_02.md`
 - `audit/Section_14_15_Ether_Boundary_Batch_02.md`
