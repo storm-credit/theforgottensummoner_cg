@@ -49,3 +49,4 @@
 | 2 | `done`. `에드가 룬워커`는 A급/Act 신호 때문에 `verify_before_15` 유지, `대장로 / 무기 상인 / 비전로 장인장 / 비전 제작관`은 `need_named_candidate` 유지. |
 | 3 | `done`. `칼리스트`는 A+/Act/대예언자 신호 때문에 `verify_before_15` 유지, `수석 점성가 / 관측관 / 점성술사 / 망원경 관리자 / 미친 예언가`는 `need_named_candidate` 유지. |
 | 4 | `done`. `래퍼티 아르카디아`는 A급/Act/도서관장 신호 때문에 `verify_before_15` 유지, `라파엘 아르카디아`는 이름 드리프트 확인 대상으로 분리, `대서고 학장 / 대서고 수호장`은 `need_named_candidate` 유지. |
+| 5 | `done`. `대사제 요한`은 루멘 성채 총괄/결계 공명 신호 때문에 `verify_before_15` 유지, `발레리우스 / 헬렌`은 로컬 이름 슬롯 확인 대상으로 분리, `성채 봉인관 / 순교묘역 사제장`은 `need_named_candidate` 유지. |
