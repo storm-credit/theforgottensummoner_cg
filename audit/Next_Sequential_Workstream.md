@@ -223,3 +223,5 @@
 - 다음 실제 작업은 `Status Compass`에 프로스트 압축 완료 상태를 반영하고, 그다음 해양 또는 오벨리스크 압축으로 넘어가는 것이다.
 - 해양을 닫기 위해 `Section_15_Oceanic_Search_Synthesis`와 `Section_15_Oceanic_Need_Named_Candidate_Index`를 작성했다.
 - 다음 실제 작업은 `Status Compass`에 해양 압축 완료 상태를 반영하고, 그다음 오벨리스크 압축으로 넘어가는 것이다.
+- 오벨리스크를 닫기 위해 `Section_15_Obelisk_Search_Synthesis`와 `Section_15_Obelisk_Need_Named_Candidate_Index`를 작성했다.
+- 다음 실제 작업은 5대륙 Named Notables 압축 종료표 작성이다.
