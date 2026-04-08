@@ -50,3 +50,33 @@
 
 각각의 대륙/세력 앵커를 먼저 확인하고,
 필요하면 표면명 또는 식별자를 추가한다.
+
+## Ravenfell / Marcus / Maxwell Drift
+
+현재 작업본에서 확인된 `Ravenfell / Marcus / Maxwell` 계열:
+
+| Form | Anchor | Signal | Current Judgment |
+|---|---|---|---|
+| `마르쿠스 레이븐펠` | `에테르 / 마법협회 / 스카우트 기록` | 기존 스카우트 문서의 후보명 | `name_drift` |
+| `맥스웰 레이븐펠 (Maxwell Ravenfell)` | `에테르 / 마법협회 / 흑색의 탑` | Top 3 흑색의 탑주, S급, Act 1~4 | `verify_before_15` |
+| `마르쿠스 코르부스 (Marcus Corvus)` | `에테르 / 14 현존 영웅 / 중립세력 용병단` | 직접 14 영웅 파일, 심연/어둠의 마법사 | `keep_14 / separate_entity` |
+
+판정:
+
+- `마르쿠스 레이븐펠`과 `맥스웰 레이븐펠`은 우선 이름 흔들림으로 본다.
+- `마르쿠스 코르부스`와 병합하지 않는다.
+- 레이븐펠 계열은 15 확정 전에 원본 전체에서 실제 파일명을 다시 확인한다.
+
+## Mera Drift
+
+현재 작업본에서 확인된 `Mera / 메라` 계열:
+
+| Form | Anchor | Signal | Current Judgment |
+|---|---|---|---|
+| `메라 라일윈드 (Mera Lylewind)` | `에테르 / 정령연합 / 외교 사절단` | 외교관, 희귀 재료 교역 조건, 정보 제공 | `verify_before_15 / name_drift` |
+| `메라 실피드 (Mera Sylphid)` | `에테르 / 정령연합 / 14 현존 영웅` | 직접 14 영웅 파일, 바람의 사냥꾼 | `keep_14 / separate_or_same_unverified` |
+
+판정:
+
+- `메라 라일윈드`와 `메라 실피드`는 이름만 보고 병합하지 않는다.
+- 둘이 같은 인물인지, 별개 인물인지, 구버전/신버전 표기인지 후속 검증이 필요하다.
