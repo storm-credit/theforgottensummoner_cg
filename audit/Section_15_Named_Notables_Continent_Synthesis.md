@@ -22,8 +22,8 @@
 |---|---|---|---|
 | Crimson | `strongest` | 용, 대장간, 고대 현자, 부족/제국 잔재 명사층이 이미 강하다. | 실제 15번 폴더링 시험에 가장 적합하다. |
 | Ether | `thin with strong institution slots` | 마법협회 탑주, 성국 도서관/성채, 정령연합 의식/계약 슬롯이 강하지만 14번 중복 위험이 크다. | 14번 중복 확인 후 15 확정. |
-| Frost | `thin with strong role slots` | 인물 확정보다 원로 사냥꾼, 묘지기 장로, 대예언자, 장인 슬롯이 강하다. | 14 검증 후 역할 슬롯 보강. |
-| Oceanic | `thin with many boundary signals` | 후보 이름은 많지만 제독, A급, 히어로급 신호가 많다. | 성급한 15 확정 금지. |
+| Frost | `thin with strong place-institution slots` | 인물 확정보다 오로라 평원, 얼음무덤 언덕, 아이스포지 병기소, 빙하의 성소 슬롯이 강하다. | 14 검증 후 역할 슬롯 보강. |
+| Oceanic | `thin with many boundary signals and strong place-institution slots` | 후보 이름은 많지만 제독, A급, 히어로급 신호가 많다. 신탁 방주, 해로 장부관, 흑조 감정관, 심연 장부관 슬롯은 보존한다. | 성급한 15 확정 금지. |
 | Obelisk | `thin with dense archive slots` | 기록, 기억, 묘역, 봉인, 사후 행정 명사층이 강하다. | 기록/기관 기억 축으로 보강. |
 | Supranational | `deferred expansion` | 후기 확장 구역이라 강한 후보도 바로 중심축으로 올리지 않는다. | 이름 톤과 앵커 안정화 뒤 처리. |
 
@@ -148,18 +148,20 @@ Conductor decision:
 
 | Slot | State | Note |
 |---|---|---|
-| 수석 오라클 | `need_named_candidate` | 신탁과 항로 판단 기능. |
-| 항로 기록관 / 해도 보관인 | `need_named_candidate` | 지도/해도/항로 기억 기능. |
-| 왕실 조선소 수석 공병 | `need_named_candidate` | 선박 기술 명사층. |
-| 장물 감정사 / 늙은 감정사 | `need_named_candidate` | 장물/진품/위조 판별 기능. |
-| 심해 금고 보관인 | `need_named_candidate` | 보물/비밀/심해 자산 기능. |
-| 조선공 길드 장인 | `need_named_candidate` | 항구 장인층. |
-| 진혼의 합창단 악기 보관인 | `need_named_candidate` | 의례/음악/기억 기능. |
+| 신탁 방주 / 파도 신탁장 | `need_named_candidate / display_candidate` | 신탁과 항로 판단 기능. |
+| 해로 장부관 / 청해도 보관관 | `need_named_candidate / display_candidate` | 지도/해도/항로 기억 기능. |
+| 왕실 선공장 수석장 | `need_named_candidate / display_candidate` | 선박 기술 명사층. |
+| 흑조 감정관 / 밤항 선별관 | `need_named_candidate / display_candidate` | 장물/진품/위조 판별 기능. |
+| 심연 장부관 / 아우룸 장부관 | `need_named_candidate / display_candidate` | 보물/비밀/심해 자산 기능. |
+| 검은돛 선장인 | `need_named_candidate / display_candidate` | 항구 장인층. |
+| 진혼 악기지기 | `need_named_candidate / display_candidate` | 의례/음악/기억 기능. |
 
 Conductor decision:
 
 해양은 후보 이름이 많지만 경계 신호도 많다.
 `15번` 확정은 늦추고, 먼저 이름 충돌과 14 영웅 신호를 확인한다.
+다만 작업용 라벨은 표면명 후보로 낮췄으므로,
+후속 후보명 검색은 `신탁 방주`, `해로 장부관`, `흑조 감정관`, `심연 장부관` 슬롯 기준으로 진행한다.
 
 ## Obelisk
 
@@ -219,7 +221,7 @@ Conductor decision:
 
 1. `Ether` 마법협회 / 성국 / 정령연합 쪽 비영웅 명사층을 먼저 찾는다.
 2. `Crimson` 안정 후보로 실제 `15번 폴더링 시험`을 준비한다.
-3. `Frost / Oceanic / Obelisk`는 역할 슬롯을 유지하고, 14번 중복 신호 검증 뒤 확정한다.
+3. `Frost / Oceanic / Obelisk`는 장소-기관 슬롯을 유지하고, 14번 중복 신호 검증 뒤 확정한다.
 4. `Supranational`은 후기 확장 구역으로 보류한다.
 
 ## Compressed Status
@@ -230,4 +232,5 @@ Conductor decision:
 
 - 크림슨은 안정 후보 3명만 실제 15 시트 시험에 사용한다.
 - 에테르, 해양, 오벨리스크는 2차 근거 보강을 마쳤고 새 15 확정자는 만들지 않는다.
-- 다음 배치는 프로스트 역할 슬롯을 장소-기관 중심으로 정리한다.
+- 프로스트와 해양의 역할 슬롯은 장소-기관 중심으로 정리했다.
+- 다음 배치는 해양 슬롯을 실제 후보명 탐색 큐와 연결한다.

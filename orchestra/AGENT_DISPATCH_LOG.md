@@ -91,3 +91,4 @@ Follow-up actions:
 - 프로스트 역할 슬롯(`오로라 평원`, `얼음무덤 언덕`, `푸른 폭풍 요새`, `퍼마프로스트 요새`, `아이스포지 병기소`, `빙하의 성소`)을 Place Function Register와 Spatial Backlog에 연결했다.
 - 해양 역할 슬롯(`오라클 바지`, `골든 앵커 하버`, `크로스윈드 포트`, `왕실 조선소`, `블랙워터 항구`, `붉은 해골 섬`, `볼트 오브 아우룸`, `Abyssal Vaults`, `폭풍의 만`, `고대의 악기실`, `유령선의 안식처`)을 Place Function Register와 Spatial Backlog에 연결했다.
 - 해양 역할 슬롯의 작업용 라벨을 `신탁 방주`, `파도 신탁장`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`, `심연 장부관`, `진혼 악기지기` 같은 display canon 후보로 낮췄다.
+- 해양 장소-기관 슬롯 상태를 Status Compass, Coverage Matrix, Continent Synthesis에 반영해 다음 후보명 탐색 큐로 이어지게 했다.
