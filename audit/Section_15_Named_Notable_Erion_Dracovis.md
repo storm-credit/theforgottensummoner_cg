@@ -12,6 +12,23 @@
 - current judgment:
   - `strong_15`
 
+## 1-1. Archive Routing
+
+- continent_anchor:
+  - `크림슨`
+- faction_anchor:
+  - `엘드라칸`
+- city_or_place_anchor:
+  - `엘드라칸 학자 구역`
+  - `용언 도서관`
+- secondary_index:
+  - `현자`
+  - `고대어`
+  - `해석가`
+  - `관리자`
+- routing_state:
+  - `route_test_ok`
+
 ## 2. Why Remembered
 
 - 엘드라칸을 찾는 자라면

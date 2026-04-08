@@ -12,6 +12,23 @@
 - current judgment:
   - `strong_15`
 
+## 1-1. Archive Routing
+
+- continent_anchor:
+  - `크림슨`
+- faction_anchor:
+  - `엘드라칸`
+- city_or_place_anchor:
+  - `몽상가의 바위`
+  - `지혜의 샘`
+- secondary_index:
+  - `고룡`
+  - `살아있는 도서관`
+  - `전승 보관자`
+  - `조언자`
+- routing_state:
+  - `route_test_ok`
+
 ## 2. Why Remembered
 
 - 이름 있는 고룡이면서

@@ -12,6 +12,23 @@
 - current judgment:
   - `strong_15`
 
+## 1-1. Archive Routing
+
+- continent_anchor:
+  - `크림슨`
+- faction_anchor:
+  - `용의 후예`
+- city_or_place_anchor:
+  - `드래곤포지`
+  - `프라이멀 엠버`
+- secondary_index:
+  - `장인`
+  - `대장장이`
+  - `공방주`
+  - `무구 제작`
+- routing_state:
+  - `route_test_ok`
+
 ## 2. Why Remembered
 
 - 무구와 유물을 맡길 만한 이름 있는 장인이라는 점에서
