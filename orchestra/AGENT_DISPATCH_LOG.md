@@ -89,3 +89,4 @@ Follow-up actions:
 - 오벨리스크 장소-기관 슬롯(`템플 오브 바운더리`, `경계의 보루`, `기억 경매장`, `영원의 기록탑`, `망각의 회랑`, `그림자 도서관`)을 Place Function Register와 Spatial Backlog에 연결했다.
 - 대륙별 `15 Named Notables` 상태를 `Status Compass`로 압축하고, 다음 배치를 프로스트 역할 슬롯의 장소-기관 정리로 지정했다.
 - 프로스트 역할 슬롯(`오로라 평원`, `얼음무덤 언덕`, `푸른 폭풍 요새`, `퍼마프로스트 요새`, `아이스포지 병기소`, `빙하의 성소`)을 Place Function Register와 Spatial Backlog에 연결했다.
+- 해양 역할 슬롯(`오라클 바지`, `골든 앵커 하버`, `크로스윈드 포트`, `왕실 조선소`, `블랙워터 항구`, `붉은 해골 섬`, `볼트 오브 아우룸`, `Abyssal Vaults`, `폭풍의 만`, `고대의 악기실`, `유령선의 안식처`)을 Place Function Register와 Spatial Backlog에 연결했다.

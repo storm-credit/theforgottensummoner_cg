@@ -217,6 +217,33 @@
   - `검은 해적항`
   - `황금항`
 
+#### Oceanic Place / Institution Sidecar
+
+- `오라클 바지`
+  - 장소 기능: 이동형 예언 성소, 해상 재판, 거짓 신탁, 납치 훅
+  - 연결 후보 슬롯: `수석 오라클`
+  - 연결 문서: `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
+- `골든 앵커 하버`
+  - 장소 기능: 보험 요율, 항로 장부, 함대 예산, 숨겨진 항로 소문
+  - 연결 후보 슬롯: `항로 기록관 / 보험 서기관 / 항로 장부 보관인`
+  - 연결 문서: `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
+- `크로스윈드 포트 / 왕실 조선소`
+  - 장소 기능: 공식 해도, 조선 도면실, 마도 전열함 개수, 기술 유출 미스터리
+  - 연결 후보 슬롯: `항해사 길드 해도 보관인`, `왕실 조선소 수석 공병`
+  - 연결 문서: `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
+- `블랙워터 항구 / 붉은 해골 섬`
+  - 장소 기능: 장물 감정, 저주 유물 판정, 해적 장물 거래, 검은 경매 선착장
+  - 연결 후보 슬롯: `장물 감정사 / 늙은 감정사`, `검은 감정관`
+  - 연결 문서: `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
+- `볼트 오브 아우룸 / Abyssal Vaults`
+  - 장소 기능: 이중 장부, 십일조, 함대 예산, 영생 연구 자금 은닉
+  - 연결 후보 슬롯: `심해 금고 보관인`, `황금 장부 서기관`, `봉인 장부 관리인`
+  - 연결 문서: `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
+- `고대의 악기실`
+  - 장소 기능: 진혼 악기, 포세이돈의 소라 고둥, 음악/성물 소진행 연결
+  - 연결 후보 슬롯: `진혼의 합창단 악기 보관인`
+  - 연결 문서: `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
+
 ### Obelisk Notes
 
 - 핵심 권역:

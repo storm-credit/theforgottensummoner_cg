@@ -160,6 +160,17 @@ FS Lore Engine에서 장소는
 | 아이스포지 병기소 | `workshop`, `memory_site` | 아이스포지 장인 / 얼음 공성심장 / 공방 전승 | `supply_road`, `mountain_forge_route` | `craft_secret`, `relic_material` |
 | 빙하의 성소 | `sanctuary`, `memory_site` | 마리안 / 울프릭 / 주술사 원로단 | `pilgrim_road` | `knowledge_asset`, `institutional_asset` |
 | 겨울회의 의장막 | `sanctuary`, `threshold` | 대예언자 / 원로단 / 부족 간 조정자 | `pilgrim_road`, `frontier_watch` | `institutional_asset` |
+| 오라클 바지 | `sanctuary`, `threshold` | 수석 오라클 / 신탁 전달 / 해상 재판 | `sea_lane`, `pilgrim_road` | `knowledge_asset`, `institutional_asset` |
+| 골든 앵커 하버 | `market`, `threshold` | 항로 기록관 / 보험 서기관 / 황금 함대 재무 문맥 | `sea_lane`, `merchant_road` | `trade_luxury`, `institutional_asset` |
+| 크로스윈드 포트 | `threshold`, `workshop` | 항해사 길드 / 왕실 조선소 / 해도 보관 | `sea_lane`, `supply_road` | `craft_secret`, `institutional_asset` |
+| 왕실 조선소 | `workshop` | 수석 공병 / 조선공 길드 / 마도 전열함 도면 | `supply_road`, `sea_lane` | `craft_secret`, `knowledge_asset` |
+| 블랙워터 항구 | `underworld_node`, `market` | 장물 감정사 / 저주 유물 판정 / 밀수품 통관 | `sea_lane`, `underpath` | `secret`, `relic_material` |
+| 붉은 해골 섬 | `underworld_node`, `market` | 해적 장물 / 검은 감정관 / 진품 판정 | `sea_lane`, `underpath` | `secret`, `trade_luxury` |
+| 볼트 오브 아우룸 | `market`, `memory_site` | 심해 금고 보관인 / 황금 장부 / 함대 예산 | `merchant_road`, `sea_lane` | `trade_luxury`, `suppressed_record` |
+| Abyssal Vaults | `memory_site`, `underworld_node` | 심해 금고 보관인 / 봉인 장부 / 영생 연구 자금 | `underpath`, `sea_lane` | `suppressed_record`, `secret` |
+| 폭풍의 만 | `threshold`, `workshop` | 조선공 길드 장인 / 검은 돛 조선공 / 해적식 선박 개조 | `sea_lane`, `supply_road` | `craft_secret`, `institutional_asset` |
+| 고대의 악기실 | `memory_site`, `sanctuary` | 진혼의 합창단 악기 보관인 / 전설 악기 / 소라 고둥 | `pilgrim_road`, `sea_lane` | `relic_material`, `knowledge_asset` |
+| 유령선의 안식처 | `memory_site`, `underworld_node` | 죽은 선장의 항해일지 / 잃어버린 항로 / 유령선 소문 | `sea_lane`, `underpath` | `suppressed_record`, `secret` |
 
 ## Routing Rule
 
