@@ -112,6 +112,27 @@
 | `세르반 알테르만` | 망자의 감시자 / 영혼 착취관 / 유리병 영혼 보관 | `15 Named Notables` 또는 `keep_14` | 영혼 기록 명사인지 조직 흑막인지 확인 | `verify_before_15` |
 | `레티시아 모르투스` | 망자의 학자 / 사령 괴수 도감 제작 | `15 Named Notables` 또는 `keep_14` | 도감 제작 학자인지 사령 부대 핵심 인물인지 확인 | `verify_before_15` |
 
+## Tier E. Ether Institution Boundary Candidates
+
+`에테르` 스카우트에서 새로 확인된 경계 후보다.
+상세 근거는 `Section_15_Named_Notables_Ether_Scout.md`에 둔다.
+
+| Name | Current Signal | Likely Route | Verification Need | Current Action |
+|---|---|---|---|---|
+| `대런 크레센트` | 마법 서고단 대표 / 부탑주 / 협회 행정 실권자 | `15 Named Notables` 또는 `15 Operational Lines` 또는 `keep_14` | 14 독립 시트, Act 중심성, 서고단 기능 중심성 확인 | `verify_before_15` |
+| `엘드린 문브링어` | 백색의 탑 탑주 / 빛·치유·행정 학파 | `15 Named Notables` 또는 `keep_14` | 탑주가 14 핵심 영웅인지 학파 명사인지 확인 | `verify_before_15` |
+| `마르쿠스 레이븐펠` | 흑색의 탑 탑주 / 어둠·저주·네크로맨시 학파 | `15 Named Notables` 또는 `keep_14` | 탑주가 14 핵심 영웅인지 학파 명사인지 확인 | `verify_before_15` |
+| `이사도르 템페스트` | 청색의 탑 탑주 / 물·변신·적응 학파 | `15 Named Notables` 또는 `keep_14` | `이사도르 솔레아`와 별개 인물인지, 14 중복 여부 확인 | `verify_before_15` |
+| `세리오스 벤타리스` | 자색의 탑 탑주 / 환영·정신·꿈 학파 | `keep_14` 또는 `15 Named Notables` | 14번 마법협회 인물과 동일 여부 확인 | `verify_before_15` |
+| `네리사 블러드위버` | 적색의 탑 탑주 / 화염·폭발·전투 학파 | `15 Named Notables` 또는 `keep_14` | 탑주가 14 핵심 영웅인지 학파 명사인지 확인 | `verify_before_15` |
+| `다미엔 이클립스` | 은색의 탑 탑주 / 공간·시간·차원 학파 | `15 Named Notables` 또는 `keep_14` | 탑주가 14 핵심 영웅인지 학파 명사인지 확인 | `verify_before_15` |
+| `칼리스트` | 황금의 탑 탑주 / 연금술·경제·제작 | `15 Named Notables` 또는 `keep_14` | 연금/제작 명사인지 14 탑주 영웅인지 확인 | `verify_before_15` |
+| `래퍼티 아르카디아` | 성국 도서관장 / 금서 연구자 / A급 핵심 인물표 | `15 Named Notables` 또는 `keep_14` | 성국 14 독립 영웅 시트와 액트 중심성 확인 | `verify_before_15` |
+| `대사제 요한` | 루멘 성채 총괄 / 결계 공명 / 순교자 지하 묘지 | `15 Named Notables` 또는 `keep_14` | 지역 거점 명사인지 성국 14 보조 영웅인지 확인 | `verify_before_15` |
+| `엘라라 문힘` | 정령연합 노래술사 / 기록 / 가호 증폭 / A급 인물표 | `15 Named Notables` 또는 `keep_14` | 14 영웅 신호와 기록/전승 명사 기능 비교 | `verify_before_15` |
+| `드라이덴 썬더루트` | 장로 드루이드 / 자연 율법회 / 생명의 의회 | `15 Named Notables` 또는 `keep_14` | 핵심 인물표 신호와 자연법 해석 명사 기능 비교 | `verify_before_15` |
+| `메라 라일윈드` | 정령연합 외교 사절단 / 희귀 재료 교역 조건 관리 | `15 Named Notables` 또는 `keep_14` | Top 4 외교관 신호와 조직 명사 기능 비교 | `verify_before_15` |
+
 ## Verification Steps
 
 각 인물 검증 순서:
