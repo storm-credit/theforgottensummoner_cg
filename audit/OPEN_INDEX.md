@@ -10,6 +10,9 @@
 - `Today_Workstream.md`
 - `Surface_Naming_Audit_Findings.md`
 - `Supranational_Display_Canon.md`
+- `Supranational_Deferred_Expansion_Guard.md`
+- `Supranational_Root_Deferred_Read.md`
+- `Operational_Display_Guard_Audit.md`
 - `Key_Character_Contact_Table.md`
 
 ## Naming

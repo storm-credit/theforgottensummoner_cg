@@ -46,6 +46,8 @@
 - 이름은 판타지 표면명 후보로 계속 낮춘다.
 - 현대 범죄/기업물 어휘는 정본명으로 쓰지 않는다.
 - 실제 개별 인물이 확인되면 Named Notables가 아니라 Operational Lines로 유지할지 다시 본다.
+- `Operational_Display_Guard_Audit.md` 기준으로 현재 표면명 후보는 대체로 사용 가능하다.
+- 후속 검토 후보는 `밤그물 첩보망`, `회랑 운반자`, `환영 집행관` 계열이다.
 
 ## 15-C. Need Named Candidate Slots
 

@@ -243,3 +243,11 @@
 - 다음 실제 작업은 안정 15 후보 시트 품질 점검이다.
 - `Section_15_Stable_Candidate_Profile_QA`를 작성하고, 실비아 시트에 Archive Routing 블록을 보강했다.
 - 다음 실제 작업은 8번 세력 spine 쪽으로 돌아가 범대륙 후기 확장 보류선을 더 분명히 하는 것이다.
+- `Supranational_Deferred_Expansion_Guard`를 작성해 범대륙/후기 확장 구역을 보존하되 후순위로 두는 원칙을 고정했다.
+- 다음 실제 작업은 범대륙 루트를 `display canon / deferred expansion` 관점으로 다시 읽는 것이다.
+- `Supranational_Root_Deferred_Read`를 작성해 범대륙 루트의 display canon / deferred expansion 판정을 정리했다.
+- 다음 실제 작업은 `15-B Operational Lines`의 표면명 후보가 이 guard와 충돌하지 않는지 점검하는 것이다.
+- `Operational_Display_Guard_Audit`를 작성해 15-B 표면명 후보가 범대륙 guard와 대체로 호환된다고 판정했다.
+- 다음 실제 작업은 `Section_15_Index_Draft`에 guard 결과를 반영하는 것이다.
+- `Section_15_Index_Draft`에 Operational Display Guard 결과를 반영했다.
+- 다음 실제 작업은 이 범대륙/운영명 guard 묶음을 커밋하고, 이후 8번 루트 후속 검토로 넘어가는 것이다.
