@@ -87,9 +87,15 @@
 
 작업:
 
-- 작업용 구조명과 세계 안 표면명을 분리
-- 현대적인 이름을 정통 판타지 톤으로 낮추기
+- 작업용 구조명과 세계 안 표면명을 분리: `in_progress`
+- 현대적인 이름을 정통 판타지 톤으로 낮추기: `in_progress`
 - 단, 실제 정본명 선언은 아직 하지 않기
+
+최근 진행:
+
+- 상위 그룹명에 `preferred display candidate`를 붙였다.
+- 세부 직능명에도 `Functional Preferred Candidate Pass`를 추가했다.
+- `위조 장인의 우두머리`, `하수로 짐꾼`처럼 직역감이 강한 후보를 더 판타지 톤으로 보정했다.
 
 ### Step 4. Map / Place Sidecar
 
@@ -108,10 +114,10 @@
 
 ## Conductor Decision
 
-다음 실제 작업은 `Step 1. Stable 15 Sheet Hardening`이다.
+다음 실제 작업은 `Step 3. Operational Lines Display Canon`의 세부 직능명 보정이다.
 
 이유:
 
-- 안정 후보 3명이 이미 정해졌다.
-- 템플릿과 FS 엔진 라우팅 규칙도 갱신됐다.
-- 이제 이 3명을 FS 장부와 연결하면 15번 백과 구조가 더 단단해진다.
+- Step 1 안정 후보 장부 연결은 완료됐다.
+- 이제 15 Operational Lines의 작업용 라벨을 세계 안 표면명 후보로 정리해야 한다.
+- 정본 선언이 아니라 후보 우선순위 정리까지만 진행한다.
