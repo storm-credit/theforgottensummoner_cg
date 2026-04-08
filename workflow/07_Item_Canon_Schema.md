@@ -10,6 +10,7 @@
 - 세력 문서의 교역품과 실전 장비는 구분한다.
 - 마법, 기술, 교리, 몬스터 명칭은 아이템 후보에서 제외한다.
 - 아이템 도감 경로 링크가 이미 있으면 `정본 후보 경로 힌트`로만 쓴다.
+- 인물명, 가문명, 마법명과 충돌하는 아이템 후보는 `Item_Name_Collision_Register.md`에 먼저 둔다.
 
 ## Required Fields
 
@@ -43,6 +44,7 @@
 - 같은 계열 무기라고 해서 같은 아이템으로 합치지 않는다.
 - 별칭과 상위 분류명은 같은 열에 두지 않는다.
 - 경로명과 실제 아이템명을 혼동하지 않는다.
+- 방패/결계/수호를 뜻하는 기능어가 이름에 들어간 경우, 고유 아이템인지 일반 기술명인지 먼저 확인한다.
 
 ## Current Reality
 
@@ -63,3 +65,4 @@
 
 장기 분류 초안은 `working/crosswalks/Item_Longterm_Taxonomy.md`를 따른다.
 수집 욕구 설계 원칙은 `workflow/08_Item_Desire_Design.md`를 따른다.
+이름 충돌은 `working/crosswalks/Item_Name_Collision_Register.md`를 따른다.

@@ -17,6 +17,7 @@
 - `working/crosswalks/Faction_Naming_Replacement_Register.md`
 - `workflow/05_Naming_Normalization_Map.md`
 - `working/crosswalks/Supranational_Reference_Bridge.md`
+- `working/crosswalks/Item_Name_Collision_Register.md`
 
 ## Engine
 
