@@ -37,6 +37,7 @@
 | `골드핑거 바스` | `암시장 조합장` | `해양 / 해적 연합 / 암시장 조합` | `암시장 / 장물 네트워크` | `verify_before_15` | `A-grade hero-table signal` | `hold_until_14_check` | 장물과 밀수 네트워크 얼굴이지만 A급 영웅표 신호가 강하다. |
 | `리나 웨이브서프` | `바다의 연금술사 / 복원 학자` | `해양 / 해적 연합 / 심해 탐사단` | `연금술사 / 고문서 복원` | `verify_before_15` | `hero-grade signal` | `hold_until_14_check` | 고대 고문서와 심연 수식 복원 명사 가치가 크지만 히어로급 표기가 있다. |
 | `에릭 시스트롬` | `파도의 거래자 / 암시장 협상가` | `해양 / 해적 연합 / 심해 탐사단` | `거래자 / 유물 브로커` | `verify_before_15` | `underworld notable` | `hold_until_14_check` | 금단 유물 유통과 위장 신분 협상가 축으로 15 가치가 있으나 권력축 확인 필요. |
+| `크리스토퍼 델마르` | `검은 동전 / 장물 금융 관리자` | `해양 / 황금 함대 / 거상 연합` | `장물 금융 / 암시장 자금` | `verify_before_15` | `new boundary candidate` | `hold_until_14_check` | 도난품 장물 처리와 암시장 자금 담당으로 15 가치가 있으나 거상 연합 권력축 확인 필요. |
 | `오렌` | `심해 감시단장 / 심연 징후 판단자` | `해양 / 바다의 교단 / 심해 감시단` | `정보 판단자 / 감시자` | `verify_before_15` | `institution-head signal` | `hold_until_14_check` | 판단 한 번에 교단 군사력이 움직이는 정보 성역의 얼굴이다. |
 | `세일블레스 마리아` | `성스러운 함대 제독` | `해양 / 바다의 교단 / 성스러운 함대` | `제독 / 성직 항해자` | `verify_before_15` | `A-grade admiral signal` | `hold_until_14_check` | 오라클 바지와 연결되지만 A급 제독 신호가 강하다. |
 | `모로스` | `해골 제독 / 죽은 선장 항해일지 수집자` | `해양 / 해적 연합 / 유령선의 안식처` | `언데드 제독 / 기록 수집자` | `verify_before_15` | `mythic admiral signal` | `hold_until_14_check` | 기록 수집 명사 가치가 있지만 신화/제독 축이 강하다. |
