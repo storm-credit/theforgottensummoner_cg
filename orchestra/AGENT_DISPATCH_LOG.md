@@ -62,3 +62,4 @@ Follow-up actions:
 - `실비아`와 `Aegis / 아이기스`의 다중 사용을 확인하고 이름 충돌 레지스터로 분리했다.
 - `Aegis / 아이기스`는 아이템/방패/결계명 충돌도 커서 아이템 이름 충돌 레지스터로 추가 분리했다.
 - Tier D 중 `미다스`와 `카론`은 복수 문서 신호가 확인되었지만 전설/전술 축이라 `verify_before_15`를 유지했다.
+- Tier D 후보 6명을 `Section_15_Named_Notables_Register`에 `verify_before_15` 상태로 반영했다.

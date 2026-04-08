@@ -26,6 +26,12 @@
 | `벨라나 스톰브링어` | `현자 회의 소속 주술사 / 사제 / 고고학자` | `붉은 사막 부족` | `현자 / 기록자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 현자 회의 축이라 Named Notables 후보 가치가 높다. |
 | `아리안 블레이즈하트` | `현자 회의 소속` | `붉은 사막 부족` | `현자 / 전승 보존자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 사막 부족 현자층의 얼굴로 쓸 가능성이 있다. |
 | `엘다라` | `대현자 / 고대 정령어 권위자 / 의장` | `정령연합 / 루미라` | `현자 / 언어 권위자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 에테르 정령연합 내부의 부족/전승층을 사람 얼굴로 보강한다. |
+| `울프릭` | `빙하의 주술사 / 부족의 장로` | `프로스트본 연합 / 전설적 주술 영웅록` | `주술사 / 장로` | `verify_before_15` | `legendary herobook signal` | `hold_until_14_check` | 명사형 가치가 있지만 전설 영웅록 출처라 15 확정 금지. |
+| `미다스` | `바다의 연금술사 / 침묵의 금괴` | `해양 / 황금 함대` | `연금술사 / 해상 전설` | `verify_before_15` | `repeated mythic signal` | `hold_until_14_check` | 황금 함대 영웅록과 해양 상단 신화에 반복되지만 전설/신화 축이다. |
+| `해양 실비아` | `해류의 지휘관 / 은빛 항해사` | `해양 / 황금 함대` | `항해사 / 해류 지휘관` | `verify_before_15` | `name collision` | `route_to_collision_register` | 키르케 실비아, 실비아 아캄, 실비아 팬텀과 병합 금지. |
+| `바리온` | `금서의 룬마스터 / 룬의 집행관` | `오벨리스크 / 봉인 수호단` | `룬마스터 / 금서 명사` | `verify_before_15` | `legendary herobook signal` | `hold_until_14_check` | 명사형 가치가 크지만 전설 마도 영웅록 출처다. |
+| `아이기스` | `절대 방벽의 현자 / 장벽의 수호자` | `오벨리스크 / 봉인 수호단` | `현자 / 방벽` | `verify_before_15` | `item_name_collision` | `route_to_collision_register` | 인물명, 성씨, 아이템명, 결계명이 섞여 있어 별도 검증. |
+| `카론` | `원혼 인도자 / 영혼의 목자` | `오벨리스크 / 망자의 왕국 / 잊힌 자들의 전술 문서` | `영혼 인도자 / 전승 명사` | `verify_before_15` | `repeated legendary signal` | `hold_until_14_check` | 반복 신호가 있으나 전설/전술 축과 겹친다. |
 
 ## Conductor Note
 
