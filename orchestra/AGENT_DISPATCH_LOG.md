@@ -64,3 +64,4 @@ Follow-up actions:
 - Tier D 중 `미다스`와 `카론`은 복수 문서 신호가 확인되었지만 전설/전술 축이라 `verify_before_15`를 유지했다.
 - Tier D 후보 6명을 `Section_15_Named_Notables_Register`에 `verify_before_15` 상태로 반영했다.
 - Named Notables 커버리지 매트릭스를 추가해 대륙별 강약과 다음 수집 우선순위를 정리했다.
+- 프로스트는 안전한 15 확정보다 역할 슬롯이 강한 대륙으로 판정하고, 시그리드/마리안은 `verify_before_15`, 원로 사냥꾼/묘지기 장로/대예언자/수석 기술자는 `need_named_candidate` 슬롯으로 분리했다.

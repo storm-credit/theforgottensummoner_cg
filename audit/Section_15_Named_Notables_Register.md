@@ -27,6 +27,8 @@
 | `아리안 블레이즈하트` | `현자 회의 소속` | `붉은 사막 부족` | `현자 / 전승 보존자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 사막 부족 현자층의 얼굴로 쓸 가능성이 있다. |
 | `엘다라` | `대현자 / 고대 정령어 권위자 / 의장` | `정령연합 / 루미라` | `현자 / 언어 권위자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 에테르 정령연합 내부의 부족/전승층을 사람 얼굴로 보강한다. |
 | `울프릭` | `빙하의 주술사 / 부족의 장로` | `프로스트본 연합 / 전설적 주술 영웅록` | `주술사 / 장로` | `verify_before_15` | `legendary herobook signal` | `hold_until_14_check` | 명사형 가치가 있지만 전설 영웅록 출처라 15 확정 금지. |
+| `시그리드 프로스트하트` | `퍼마프로스트 공성단장 / 냉기 공성 기술자` | `프로스트본 연합 / 퍼마프로스트 공성단` | `공성 장인 / 마도공학 / 지휘관` | `verify_before_15` | `strong role-slot but possible 14 signal` | `hold_until_14_check` | 공방주와 전술 기술자 명사 가치가 크지만 공성단장 신호가 있어 14 확인 전 15 확정 금지. |
+| `마리안 더 윈터콜러` | `오로라 평원의 A급 정령술사` | `프로스트본 연합 / 오로라 평원` | `정령술사 / 주술사` | `verify_before_15` | `possible 14 signal` | `hold_until_14_check` | 오로라 평원 명사 가치가 있으나 A급 영웅 신호가 강하다. |
 | `미다스` | `바다의 연금술사 / 침묵의 금괴` | `해양 / 황금 함대` | `연금술사 / 해상 전설` | `verify_before_15` | `repeated mythic signal` | `hold_until_14_check` | 황금 함대 영웅록과 해양 상단 신화에 반복되지만 전설/신화 축이다. |
 | `해양 실비아` | `해류의 지휘관 / 은빛 항해사` | `해양 / 황금 함대` | `항해사 / 해류 지휘관` | `verify_before_15` | `name collision` | `route_to_collision_register` | 키르케 실비아, 실비아 아캄, 실비아 팬텀과 병합 금지. |
 | `바리온` | `금서의 룬마스터 / 룬의 집행관` | `오벨리스크 / 봉인 수호단` | `룬마스터 / 금서 명사` | `verify_before_15` | `legendary herobook signal` | `hold_until_14_check` | 명사형 가치가 크지만 전설 마도 영웅록 출처다. |

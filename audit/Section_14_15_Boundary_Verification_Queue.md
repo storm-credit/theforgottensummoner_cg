@@ -88,6 +88,8 @@
 | Name | Current Signal | Likely Route | Verification Need | Current Action |
 |---|---|---|---|---|
 | `울프릭` | 빙하의 주술사 / 부족의 장로 / 전설 주술 영웅록 | `15 Named Notables` 또는 `keep_14` | 전설 영웅록 출처와 액트 중심성 확인 | `verify_before_15` |
+| `시그리드 프로스트하트` | 퍼마프로스트 공성단장 / 냉기 마법과 공학 기술 / 공성 병기와 방어 시설 제작 축 | `15 Named Notables` 또는 `keep_14` | 공성단장으로서 14 지휘관인지, 공방주/기술 명사인지 확인 | `verify_before_15` |
+| `마리안 더 윈터콜러` | 오로라 평원 A급 정령술사 / 정령술사 명사 신호 | `15 Named Notables` 또는 `keep_14` | 14 독립 영웅 시트와 액트 중심성 확인 | `verify_before_15` |
 | `미다스` | 바다의 연금술사 / 침묵의 금괴 / 황금 함대 전설 영웅록 / 해양 상단 신화 | `15 Named Notables` 또는 `keep_14` | 연금술 명사인지 전설 영웅인지 확인 | `verify_before_15` |
 | `해양 실비아` | 해류의 지휘관 / 은빛 항해사 / 황금 함대 전설 영웅록 | `15 Named Notables` 또는 `keep_14` | 키르케 계열 `실비아`와 이름 충돌 확인 | `verify_before_15 / name_collision` |
 | `바리온` | 금서의 룬마스터 / 룬의 집행관 / 봉인 수호단 전설 영웅록 | `15 Named Notables` 또는 `keep_14` | 금서 명사인지 전설 영웅인지 확인 | `verify_before_15` |
