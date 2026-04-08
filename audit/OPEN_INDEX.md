@@ -73,6 +73,7 @@
 
 - `audit/Section_15_Named_Notables_Track.md`
 - `audit/Section_15_Named_Notables_Register.md`
+- `audit/Section_15_Named_Notables_Anchor_Map.md`
 - `audit/Section_15_Named_Notables_First_Pass.md`
 - `audit/Section_15_Named_Notable_Template.md`
 - `audit/Section_15_Named_Notable_Erion_Dracovis.md`
