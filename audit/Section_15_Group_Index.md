@@ -15,16 +15,16 @@
 
 ## Current Groups
 
-| Group | State Label | Display Name State | Current Priority |
+| Group | State Label | Display Candidate | Current Priority |
 |---|---|---|---|
-| `Hidden Exchange` | `operational_line` | `display_canon_candidate` | `Tier 1 first` |
-| `Ironblood` | `operational_line` | `display_canon_candidate` | `Tier 1 mixed with Tier 2` |
-| `Black Skull` | `operational_line` | `display_canon_candidate` | `Tier 1 mixed with Tier 2` |
-| `Shadow Field Network` | `operational_line` | `display_canon_candidate` | `post-Tier-1 bridge` |
-| `Iron Finance Field` | `operational_line` | `display_canon_candidate` | `post-Tier-1 bridge` |
-| `Trade Broker Ring` | `operational_line` | `display_canon_candidate` | `bridge after finance` |
-| `Mercenary Operations` | `operational_line` | `display_canon_candidate` | `bridge after trade` |
-| `Silent Market Undercurrent` | `operational_line` | `display_canon_candidate` | `after trade and mercenary` |
+| `Hidden Exchange` | `operational_line` | `은막 교역회 / 비단그늘 상회` | `Tier 1 first` |
+| `Ironblood` | `operational_line` | `철혈 채권회 / 붉은 장부 결사` | `Tier 1 mixed with Tier 2` |
+| `Black Skull` | `operational_line` | `흑골 교역단 / 검은 해골 상회` | `Tier 1 mixed with Tier 2` |
+| `Shadow Field Network` | `operational_line` | `그림자 들판망 / 밤그물 정보회` | `post-Tier-1 bridge` |
+| `Iron Finance Field` | `operational_line` | `철의 금융 연맹 / 흑철 장부회` | `post-Tier-1 bridge` |
+| `Trade Broker Ring` | `operational_line` | `대륙 무역 연맹 / 먼길 중개회` | `bridge after finance` |
+| `Mercenary Operations` | `operational_line` | `자유검 용병회 / 용병 중재 평의회` | `bridge after trade` |
+| `Silent Market Undercurrent` | `operational_line` | `침묵의 상회 / 무언의 회랑` | `after trade and mercenary` |
 
 ### 1. Hidden Exchange
 

@@ -7,6 +7,28 @@
 
 ## Functional Line -> Display Canon Candidates
 
+## Group Axis -> Display Canon Candidates
+
+| Working Axis | Display Candidate A | Display Candidate B | State | Note |
+|---|---|---|---|---|
+| `Hidden Exchange` | `은막 교역회` | `비단그늘 상회` | `display_canon_candidate` | 지하 중개 조직이지만 현대 범죄조직처럼 들리지 않게 완화 |
+| `Ironblood` | `철혈 채권회` | `붉은 장부 결사` | `display_canon_candidate` | 채무와 폭력성을 남기되 카르텔 톤을 줄임 |
+| `Black Skull` | `흑골 교역단` | `검은 해골 상회` | `display_canon_candidate` | 노예/생체 거래 축은 너무 직접적이면 거칠어져서 보류 가능 |
+| `Shadow Field Network` | `그림자 들판망` | `밤그물 정보회` | `display_canon_candidate` | 정보망의 은밀함을 상징어로 처리 |
+| `Iron Finance Field` | `철의 금융 연맹` | `흑철 장부회` | `display_canon_candidate` | 기존 카르텔 대체 방향 유지 |
+| `Trade Broker Ring` | `대륙 무역 연맹` | `먼길 중개회` | `display_canon_candidate` | 공식/비공식 중개를 모두 받을 수 있음 |
+| `Mercenary Operations` | `자유검 용병회` | `용병 중재 평의회` | `display_canon_candidate` | 조직 운영층과 중재층을 분리 가능 |
+| `Silent Market Undercurrent` | `침묵의 상회` | `무언의 회랑` | `display_canon_candidate` | 침묵/비밀 계약 톤 유지 |
+
+## Display Selection Rule
+
+1. 정식 세력명처럼 보일수록 `연맹`, `상회`, `평의회`, `결사`를 우선한다.
+2. 음지 네트워크는 `회랑`, `그늘`, `무언`, `밤`, `장부` 같은 상징어를 쓴다.
+3. 노예, 생체 거래, 암살 같은 기능은 표면명에 너무 직접적으로 쓰지 않는다.
+4. 작업용 라벨은 계속 남겨서 원래 기능을 잃지 않게 한다.
+
+## Functional Line -> Display Canon Candidates
+
 | Working Label | Display Candidate A | Display Candidate B | Note |
 |---|---|---|---|
 | `입항 허가관 계열` | `항만 인장관` | `청동 봉인관` | 항만 행정과 인장 질서를 살리는 쪽 |
@@ -26,3 +48,5 @@
 - 실제 표면 문서나 정본명 후보를 쓸 때만 `Display Candidate`를 얹는다.
 - 너무 현대적인 냄새가 나면
   직능어를 줄이고 상징어를 늘린다.
+- 상위 그룹명은 `Group Axis -> Display Canon Candidates` 표를 먼저 보고,
+  세부 직능명은 `Functional Line -> Display Canon Candidates` 표를 본다.

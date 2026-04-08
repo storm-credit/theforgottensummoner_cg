@@ -16,14 +16,14 @@
 
 | Axis | State Label | Display Name State | Note |
 |---|---|---|---|
-| `Hidden Exchange` | `operational_line` | `display_canon_candidate` | 지하 중개 조직 축 |
-| `Ironblood` | `operational_line` | `display_canon_candidate` | 폭력 채권 회수 조직 축 |
-| `Black Skull` | `operational_line` | `display_canon_candidate` | 노예 / 생체 거래 조직 축 |
-| `Shadow Field Network` | `operational_line` | `display_canon_candidate` | 그림자 정보단 현장망 |
-| `Iron Finance Field` | `operational_line` | `display_canon_candidate` | 철의 금융 연맹 실무층 |
-| `Trade Broker Ring` | `operational_line` | `display_canon_candidate` | 대륙 무역 연맹 중개층 |
-| `Mercenary Operations` | `operational_line` | `display_canon_candidate` | 자유도시 용병 실무층 |
-| `Silent Market Undercurrent` | `operational_line` | `display_canon_candidate` | 침묵의 상회 현장층 |
+| `Hidden Exchange` | `operational_line` | `은막 교역회 / 비단그늘 상회` | 지하 중개 조직 축 |
+| `Ironblood` | `operational_line` | `철혈 채권회 / 붉은 장부 결사` | 폭력 채권 회수 조직 축 |
+| `Black Skull` | `operational_line` | `흑골 교역단 / 검은 해골 상회` | 노예 / 생체 거래 조직 축 |
+| `Shadow Field Network` | `operational_line` | `그림자 들판망 / 밤그물 정보회` | 그림자 정보단 현장망 |
+| `Iron Finance Field` | `operational_line` | `철의 금융 연맹 / 흑철 장부회` | 철의 금융 연맹 실무층 |
+| `Trade Broker Ring` | `operational_line` | `대륙 무역 연맹 / 먼길 중개회` | 대륙 무역 연맹 중개층 |
+| `Mercenary Operations` | `operational_line` | `자유검 용병회 / 용병 중재 평의회` | 자유도시 용병 실무층 |
+| `Silent Market Undercurrent` | `operational_line` | `침묵의 상회 / 무언의 회랑` | 침묵의 상회 현장층 |
 
 ## Working Name Rule
 

@@ -49,3 +49,4 @@ Follow-up actions:
 - 15번 Operational Lines 색인에 `operational_line`과 `display_canon_candidate` 상태를 명시한다.
 - Profile Draft Index가 Named Notables가 아니라 Operational Lines 중심임을 더 명확히 한다.
 - Named Notables 2차 시드로 드락사르, 벨라나, 아리안, 엘다라를 추가한다.
+- Operational Lines 상위 그룹명 후보를 더 판타지 표면명으로 정리한다.
