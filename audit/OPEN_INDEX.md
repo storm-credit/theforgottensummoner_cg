@@ -66,6 +66,7 @@
 - `audit/Section_15_Candidate_Batch_03.md`
 - `audit/Section_15_Duplicate_Verification.md`
 - `audit/Section_14_15_Boundary_Verification_Queue.md`
+- `audit/Section_14_15_Ether_Boundary_Evidence.md`
 - `audit/Section_15_Intake_Priority.md`
 - `audit/Section_15_Intake_Cards_Tier1.md`
 - `workflow/13_Section_15_Split_Policy.md`

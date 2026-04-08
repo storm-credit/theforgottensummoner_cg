@@ -133,6 +133,13 @@
 | `드라이덴 썬더루트` | 장로 드루이드 / 자연 율법회 / 생명의 의회 | `15 Named Notables` 또는 `keep_14` | 핵심 인물표 신호와 자연법 해석 명사 기능 비교 | `verify_before_15` |
 | `메라 라일윈드` | 정령연합 외교 사절단 / 희귀 재료 교역 조건 관리 | `15 Named Notables` 또는 `keep_14` | Top 4 외교관 신호와 조직 명사 기능 비교 | `verify_before_15` |
 
+### Tier E Evidence
+
+| Name | Evidence Found | Updated Judgment |
+|---|---|---|
+| `세리오스 벤타리스` | `phase2_section14_current_ether/4. 마법협회/07. 세리오스 벤타리스`에서 직접 14 영웅 파일이 확인된다. frontmatter에 `hero`, `s_rank` 태그가 있고, 본문 신분도 `영웅 / 마법협회 차원 도약 및 방위 전략 장로`다. | `keep_14_likely`. 15 Named Notables로 내리지 말고 14 유지 후 세력 앵커만 점검한다. |
+| `대런 크레센트`, `엘드린 문브링어`, `마르쿠스 레이븐펠`, `이사도르 템페스트`, `네리사 블러드위버`, `다미엔 이클립스`, `칼리스트`, `래퍼티 아르카디아`, `대사제 요한`, `엘라라 문힘`, `드라이덴 썬더루트`, `메라 라일윈드` | 현재 import된 `phase2_section14_current_ether`와 `phase1_section14_growth_aether` 범위에서는 직접 14 독립 파일명이 보이지 않는다. 다만 세력 문서 내부에서 탑주, 도서관장, 대사제, 노래술사, 장로, 외교관 신호가 있어 원본 전체 추가 확인이 필요하다. | `verify_before_15` 유지. 현재 범위만으로 15 확정하지 않는다. |
+
 ## Verification Steps
 
 각 인물 검증 순서:

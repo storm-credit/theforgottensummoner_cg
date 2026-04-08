@@ -54,7 +54,7 @@
 | `엘드린 문브링어` | `백색의 탑 탑주` | `에테르 / 마법협회 / 백색의 탑` | `학파 탑주 / 치유 / 행정` | `verify_before_15` | `tower-master signal` | `hold_until_14_check` | 탑주라 이름값은 강하지만 영웅백과 중복 확인 필요. |
 | `마르쿠스 레이븐펠` | `흑색의 탑 탑주` | `에테르 / 마법협회 / 흑색의 탑` | `학파 탑주 / 저주 / 네크로맨시` | `verify_before_15` | `tower-master signal` | `hold_until_14_check` | 학파 수장 신호라 14/15 경계. |
 | `이사도르 템페스트` | `청색의 탑 탑주` | `에테르 / 마법협회 / 청색의 탑` | `학파 탑주 / 물 / 변신` | `verify_before_15` | `name-adjacent risk` | `hold_until_14_check` | `이사도르 솔레아`와 별개 인물인지 확인 필요. |
-| `세리오스 벤타리스` | `자색의 탑 탑주` | `에테르 / 마법협회 / 자색의 탑` | `학파 탑주 / 환영 / 꿈` | `verify_before_15` | `known 14 signal` | `hold_until_14_check` | 14번 마법협회 인물로 보이므로 15 확정 금지. |
+| `세리오스 벤타리스` | `자색의 탑 탑주` | `에테르 / 마법협회 / 자색의 탑` | `학파 탑주 / 환영 / 꿈` | `keep_14_likely` | `direct 14 hero file found` | `keep_14_and_anchor_review` | 14번 현존 영웅 파일이 직접 확인된다. 15 확정 금지. |
 | `네리사 블러드위버` | `적색의 탑 탑주` | `에테르 / 마법협회 / 적색의 탑` | `학파 탑주 / 화염 / 전투` | `verify_before_15` | `tower-master signal` | `hold_until_14_check` | 탑주 후보. 14 존재 여부 확인 필요. |
 | `다미엔 이클립스` | `은색의 탑 탑주` | `에테르 / 마법협회 / 은색의 탑` | `학파 탑주 / 공간 / 시간` | `verify_before_15` | `tower-master signal` | `hold_until_14_check` | 탑주 후보. 14 존재 여부 확인 필요. |
 | `칼리스트` | `황금의 탑 탑주` | `에테르 / 마법협회 / 황금의 탑` | `연금술 / 경제 / 제작` | `verify_before_15` | `craft-notable with tower-master signal` | `hold_until_14_check` | 연금/제작 명사층 가치가 강하지만 탑주라 14 확인 필요. |
