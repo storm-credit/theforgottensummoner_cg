@@ -25,6 +25,7 @@
 | `카사르 더 시어` | `용의 예언자 / 최고 조언자` | `용의 후예` | `현자 / 예언자` | `verify_before_15` | `14 crossover risk` | `hold_for_dual_review` | 예언자이자 조언자지만 현재 자료상 영웅축 비중이 높다. |
 | `벨라나 스톰브링어` | `현자 회의 소속 주술사 / 사제 / 고고학자` | `붉은 사막 부족` | `현자 / 기록자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 현자 회의 축이라 Named Notables 후보 가치가 높다. |
 | `아리안 블레이즈하트` | `현자 회의 소속` | `붉은 사막 부족` | `현자 / 전승 보존자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 사막 부족 현자층의 얼굴로 쓸 가능성이 있다. |
+| `엘다라` | `대현자 / 고대 정령어 권위자 / 의장` | `정령연합 / 루미라` | `현자 / 언어 권위자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 에테르 정령연합 내부의 부족/전승층을 사람 얼굴로 보강한다. |
 
 ## Conductor Note
 

@@ -78,6 +78,10 @@
 - `audit/Section_15_Named_Notable_Wolfgar_Dragonforge.md`
 - `audit/Section_15_Named_Notable_Oghma.md`
 - `audit/Section_15_Named_Notable_Sylvia.md`
+- `audit/Section_15_Named_Notable_Draxar_Blazeforge.md`
+- `audit/Section_15_Named_Notable_Bellana_Stormbringer.md`
+- `audit/Section_15_Named_Notable_Arian_Blazeheart.md`
+- `audit/Section_15_Named_Notable_Eldara.md`
 
 ## Section 15 Operational Lines
 

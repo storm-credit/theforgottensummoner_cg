@@ -49,6 +49,7 @@
 1. `드락사르 블레이즈포지`
 2. `벨라나 스톰브링어`
 3. `아리안 블레이즈하트`
+4. `엘다라`
 
 ## Hold for Dual Review
 
@@ -67,3 +68,10 @@
 - `Section_15_Named_Notable_Wolfgar_Dragonforge.md`
 - `Section_15_Named_Notable_Oghma.md`
 - `Section_15_Named_Notable_Sylvia.md`
+
+2차 시드 시트:
+
+- `Section_15_Named_Notable_Draxar_Blazeforge.md`
+- `Section_15_Named_Notable_Bellana_Stormbringer.md`
+- `Section_15_Named_Notable_Arian_Blazeheart.md`
+- `Section_15_Named_Notable_Eldara.md`
