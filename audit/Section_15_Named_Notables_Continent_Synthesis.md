@@ -21,7 +21,7 @@
 | Continent | Current Coverage | Primary Reading | Next Use |
 |---|---|---|---|
 | Crimson | `strongest` | 용, 대장간, 고대 현자, 부족/제국 잔재 명사층이 이미 강하다. | 실제 15번 폴더링 시험에 가장 적합하다. |
-| Ether | `thin but foundational` | 마법협회, 성국, 왕국연합, 정령연합과 연결될 명사층이 필요하다. | 다음 우선 스카우트 대상이다. |
+| Ether | `thin with strong institution slots` | 마법협회 탑주, 성국 도서관/성채, 정령연합 의식/계약 슬롯이 강하지만 14번 중복 위험이 크다. | 14번 중복 확인 후 15 확정. |
 | Frost | `thin with strong role slots` | 인물 확정보다 원로 사냥꾼, 묘지기 장로, 대예언자, 장인 슬롯이 강하다. | 14 검증 후 역할 슬롯 보강. |
 | Oceanic | `thin with many boundary signals` | 후보 이름은 많지만 제독, A급, 히어로급 신호가 많다. | 성급한 15 확정 금지. |
 | Obelisk | `thin with dense archive slots` | 기록, 기억, 묘역, 봉인, 사후 행정 명사층이 강하다. | 기록/기관 기억 축으로 보강. |
@@ -62,6 +62,24 @@ Conductor decision:
 | Candidate | Current State | Note |
 |---|---|---|
 | 엘다라 | `15 candidate` | 에테르 쪽 명사 후보로 유지한다. |
+
+검증 후보:
+
+| Candidate | Current State | Note |
+|---|---|---|
+| 대런 크레센트 | `verify_before_15` | 마법 서고단 대표 신호. |
+| 엘드린 문브링어 | `verify_before_15` | 백색의 탑 탑주. |
+| 마르쿠스 레이븐펠 | `verify_before_15` | 흑색의 탑 탑주. |
+| 이사도르 템페스트 | `verify_before_15` | 청색의 탑 탑주, 이름 인접 충돌 확인 필요. |
+| 세리오스 벤타리스 | `verify_before_15` | 자색의 탑 탑주, 14번 신호 강함. |
+| 네리사 블러드위버 | `verify_before_15` | 적색의 탑 탑주. |
+| 다미엔 이클립스 | `verify_before_15` | 은색의 탑 탑주. |
+| 칼리스트 | `verify_before_15` | 황금의 탑 탑주, 연금/제작 명사층 가치. |
+| 래퍼티 아르카디아 | `verify_before_15` | 성국 도서관장, A급 핵심 인물표 신호. |
+| 대사제 요한 | `verify_before_15` | 루멘 성채 총괄자. |
+| 엘라라 문힘 | `verify_before_15` | 정령연합 노래술사, A급 영웅표 신호. |
+| 드라이덴 썬더루트 | `verify_before_15` | 장로 드루이드, 자연 율법회 신호. |
+| 메라 라일윈드 | `verify_before_15` | 정령연합 외교 사절단 신호. |
 
 필요 슬롯:
 
@@ -202,4 +220,3 @@ Conductor decision:
 2. `Crimson` 안정 후보로 실제 `15번 폴더링 시험`을 준비한다.
 3. `Frost / Oceanic / Obelisk`는 역할 슬롯을 유지하고, 14번 중복 신호 검증 뒤 확정한다.
 4. `Supranational`은 후기 확장 구역으로 보류한다.
-
