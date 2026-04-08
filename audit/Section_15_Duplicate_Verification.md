@@ -47,6 +47,7 @@
 ## Practical Use
 
 - `Section_15_Candidate_Register.md`의 상태 보정
+- `Section_14_15_Boundary_Verification_Queue.md`의 검증 순서 기준
 - `자유도시연합` 인물은
   `모이라 / 레이나 / 이사벨`을 바로 15로 확정하지 않고
   `부분 중복 신호`로 관리
