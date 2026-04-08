@@ -86,6 +86,7 @@
 - `audit/Section_14_15_Ether_Boundary_Batch_02.md`
 - `audit/Section_15_Named_Notables_Frost_Scout.md`
 - `audit/Section_15_Named_Notables_Oceanic_Scout.md`
+- `audit/Section_14_15_Oceanic_Boundary_Batch_02.md`
 - `audit/Section_15_Named_Notables_Obelisk_Scout.md`
 - `audit/Section_15_Named_Notables_Continent_Synthesis.md`
 - `audit/Section_15_Foldering_Test_Crimson.md`
