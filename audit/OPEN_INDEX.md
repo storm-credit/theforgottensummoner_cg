@@ -94,6 +94,7 @@
 - `audit/Section_15_Named_Notable_Wolfgar_Dragonforge.md`
 - `audit/Section_15_Named_Notable_Oghma.md`
 - `audit/Section_15_Crimson_Profile_Format_Test.md`
+- `audit/Section_15_Crimson_Place_Sidecar.md`
 - `audit/Section_15_Named_Notable_Sylvia.md`
 - `audit/Section_15_Named_Notable_Draxar_Blazeforge.md`
 - `audit/Section_15_Named_Notable_Bellana_Stormbringer.md`
@@ -168,6 +169,8 @@
 
 - `working/drafts/Crossroad_Cities_Map_Seed.md`
 - `working/drafts/Crossroad_Cities_Ops_Matrix.md`
+- `working/drafts/Spatial_Backlog.md`
+- `audit/Section_15_Crimson_Place_Sidecar.md`
 
 ## Rule
 

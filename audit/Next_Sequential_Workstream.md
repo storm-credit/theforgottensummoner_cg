@@ -15,6 +15,8 @@
 7. 울프가르 / 에리온 / 오그마 시트에 Archive Routing 블록 추가
 8. 벨라나 / 아리안은 SS/S급 신호 때문에 `verify_before_15`로 보정
 9. `15 Named Notable Template`과 FS Lore Engine에 라우팅 규칙 연결
+10. Operational Lines의 표면명 후보를 한 차례 더 판타지 톤으로 낮춤
+11. 크림슨 안정 15 후보 3명의 장소/지도 사이드카 작성
 
 ## Current Stable 15 Profile Test Set
 
@@ -112,12 +114,20 @@
 - `Spatial_Backlog` 또는 Place Function Register에 장소 기능 연결
 - 지도 제작이 아니라 지도 후보 브리프만 축적
 
+상태:
+
+- `done`
+- `Section_15_Crimson_Place_Sidecar.md` 작성
+- `Spatial_Backlog`에 크림슨 명사형 인물별 장소 앵커 반영
+
 ## Conductor Decision
 
-다음 실제 작업은 `Step 3. Operational Lines Display Canon`의 세부 직능명 보정이다.
+다음 실제 작업은 `Step 2. Boundary Review Continuation`으로 되돌아가
+드락사르 / 카사르 / 벨라나 / 아리안의 14 신호를 더 확인하는 것이다.
 
 이유:
 
 - Step 1 안정 후보 장부 연결은 완료됐다.
-- 이제 15 Operational Lines의 작업용 라벨을 세계 안 표면명 후보로 정리해야 한다.
-- 정본 선언이 아니라 후보 우선순위 정리까지만 진행한다.
+- Step 3 표면명 보정은 1차 후보 우선순위까지 진행됐다.
+- Step 4 크림슨 장소 사이드카도 완료됐다.
+- 이제 `verify_before_15` 후보를 더 보강해야 14/15 경계가 흐려지지 않는다.

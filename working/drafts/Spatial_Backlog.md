@@ -129,6 +129,21 @@
   - `드래곤포지`
   - `침묵의 오아시스`
 
+#### Crimson Named Notable Place Sidecar
+
+- `울프가르 드래곤포지`
+  - 장소 앵커: `드래곤포지`, `프라이멀 엠버`
+  - 지도 기능: 공방 내부, 용화 단조로, 금지 재료 보관 구역
+  - 연결 문서: `audit/Section_15_Crimson_Place_Sidecar.md`
+- `에리온 드라코비스`
+  - 장소 앵커: `엘드라칸 학자 구역`, `용언 도서관`
+  - 지도 기능: 고대어 연구실, 금서 열람실, 봉인 색인실
+  - 연결 문서: `audit/Section_15_Crimson_Place_Sidecar.md`
+- `오그마`
+  - 장소 앵커: `몽상가의 바위`, `지혜의 샘`
+  - 지도 기능: 조언 장면, 전승 회수, 액트 전 숨 고르기
+  - 연결 문서: `audit/Section_15_Crimson_Place_Sidecar.md`
+
 ### Frost Notes
 
 - 핵심 권역:
