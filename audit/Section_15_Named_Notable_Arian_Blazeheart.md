@@ -8,7 +8,7 @@
   - `붉은 사막 부족`
   - `블레이즈하트 부족`
   - `현자 회의`
-- state label: `named_notable_candidate`
+- state label: `verify_before_15`
 
 ## Notable Function
 
@@ -27,9 +27,11 @@
 ## Archive Routing
 
 - primary candidate:
+  - `hold / 14-15 boundary`
+- possible secondary index:
   - `15 Named Notables`
 - caution:
-  - 전투/액트 중심 영웅성이 확인되면 14와 재검토
+  - S급, 대사제, 부족의 정신적 지도자 신호가 있어 14 검증 전 15 확정 금지
 - support indexes:
   - `FS_Relationship_Ledger.md`
   - `FS_Institution_Memory_Register.md`
@@ -43,8 +45,8 @@
 
 ## Conductor Note
 
-현재 판정은 `named_notable_candidate`다.
+현재 판정은 `verify_before_15`다.
 
-중심 영웅 후보라기보다는
-부족의 정신적 얼굴로 먼저 읽는다.
-
+부족의 정신적 얼굴로 읽히는 장점은 유지하지만,
+S급 대사제와 현자 회의 핵심 신호 때문에
+14 독립 시트 / 액트 중심성 확인 전까지 확정하지 않는다.

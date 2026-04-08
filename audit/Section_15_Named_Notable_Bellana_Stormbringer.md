@@ -8,7 +8,7 @@
   - `붉은 사막 부족`
   - `레드스톰 본부족`
   - `현자 회의`
-- state label: `named_notable_candidate`
+- state label: `verify_before_15`
 
 ## Notable Function
 
@@ -28,9 +28,11 @@
 ## Archive Routing
 
 - primary candidate:
+  - `hold / 14-15 boundary`
+- possible secondary index:
   - `15 Named Notables`
 - caution:
-  - 14번에서 이미 중심 영웅 시트가 있으면 `verify_before_15`로 격하
+  - SS급, 폭풍의 여왕, 대주술사, 결계 유지 축이 있어 14 검증 전 15 확정 금지
 - support indexes:
   - `FS_Institution_Memory_Register.md`
   - `FS_Place_Function_Register.md`
@@ -44,7 +46,8 @@
 
 ## Conductor Note
 
-현재는 15 Named Notables 후보로 유지한다.
+현재는 `verify_before_15`로 유지한다.
 
-다만 강한 전투/정치 중심성이 확인되면 14와 재검토한다.
-
+15 Named Notables 가치가 있지만,
+SS급과 정신적 지도자 신호가 강하므로
+14 독립 시트 / 액트 중심성 확인 전까지 확정하지 않는다.

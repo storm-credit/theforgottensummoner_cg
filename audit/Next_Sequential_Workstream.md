@@ -17,6 +17,8 @@
 9. `15 Named Notable Template`과 FS Lore Engine에 라우팅 규칙 연결
 10. Operational Lines의 표면명 후보를 한 차례 더 판타지 톤으로 낮춤
 11. 크림슨 안정 15 후보 3명의 장소/지도 사이드카 작성
+12. 크림슨 14/15 경계 후보 4명(`드락사르`, `카사르`, `벨라나`, `아리안`)의 추가 근거를 배치 문서로 분리
+13. 벨라나 / 아리안 개별 시트와 앵커맵의 상태 라벨을 `verify_before_15`로 보정
 
 ## Current Stable 15 Profile Test Set
 
@@ -80,6 +82,14 @@
 - 전설 영웅록 신호 확인
 - 15 확정하지 않고 `verify_before_15` 유지
 
+최근 진행:
+
+- 크림슨 4명은 `Section_14_15_Crimson_Boundary_Batch_02.md`로 보강했다.
+- `드락사르`: A급 / 공병대장 / 위험 실험 / 신무기 테스트 의뢰 신호로 `verify_before_15` 유지
+- `카사르`: S급 / 최고 조언자 / 예언자 / 시험의 탑 / 영웅록 신호로 `hold_for_dual_review` 유지
+- `벨라나`: SS급 / 폭풍의 여왕 / 대주술사 / 정신적 지도자 신호로 `verify_before_15` 유지
+- `아리안`: S급 / 대사제 / 정신적 지도자 신호로 `verify_before_15` 유지
+
 ### Step 3. Operational Lines Display Canon
 
 대상:
@@ -122,12 +132,13 @@
 
 ## Conductor Decision
 
-다음 실제 작업은 `Step 2. Boundary Review Continuation`으로 되돌아가
-드락사르 / 카사르 / 벨라나 / 아리안의 14 신호를 더 확인하는 것이다.
+다음 실제 작업은 `Step 2. Boundary Review Continuation`을 계속하되,
+크림슨 4명은 일단 닫고 에테르 또는 해양의 경계 후보로 넘어가는 것이다.
 
 이유:
 
 - Step 1 안정 후보 장부 연결은 완료됐다.
 - Step 3 표면명 보정은 1차 후보 우선순위까지 진행됐다.
 - Step 4 크림슨 장소 사이드카도 완료됐다.
-- 이제 `verify_before_15` 후보를 더 보강해야 14/15 경계가 흐려지지 않는다.
+- 크림슨 4명의 경계 판단은 보강 완료됐다.
+- 이제 다른 대륙의 `verify_before_15` 후보를 이어서 보강해야 14/15 경계가 흐려지지 않는다.
