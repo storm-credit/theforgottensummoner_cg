@@ -75,3 +75,4 @@ Follow-up actions:
 - 울프가르/에리온/오그마 개별 15 시트에 `Archive Routing` 블록을 추가해 `크림슨 -> 용의 후예/엘드라칸 -> 장소/조직` 앵커를 명시했다.
 - 벨라나/아리안 추가 근거를 확인한 결과 각각 SS급/S급 핵심 인물 신호가 강해 안정 15 후보에서 `verify_before_15`로 보정하고, 크림슨 실제 시트 시험 후보를 울프가르/에리온/오그마 3명으로 좁혔다.
 - `Section_15_Named_Notable_Template`에 `Archive Routing` 블록과 14 경계 신호 규칙을 추가해 이후 모든 Named Notables 시트가 같은 라우팅 기준을 따르게 했다.
+- FS Lore Engine과 상위 FS Engine의 Named Notables 라우팅 규칙에도 `14 신호 우선 검증`과 `대륙 -> 세력 / 도시 / 조직` 앵커 원칙을 연결했다.
