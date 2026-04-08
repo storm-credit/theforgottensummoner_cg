@@ -57,3 +57,32 @@ FS Media Engine은
 상세 합의안은 아래를 먼저 본다.
 
 - `audit/FS_Media_Engine_Consensus.md`
+
+## Live Media Registers
+
+현재 Media Engine이 직접 참조하는 장부:
+
+- `audit/FS_Reveal_Control_Register.md`
+- `audit/FS_Place_Function_Register.md`
+- `audit/FS_Asset_Secret_Register.md`
+- `audit/FS_Rumor_Fact_Register.md`
+- `working/drafts/Spatial_Backlog.md`
+
+미래에 추가할 후보:
+
+- `FS_Media_Brief_Gate.md`
+- `FS_Visual_Canon_Register.md`
+- `FS_Music_Motif_Register.md`
+- `FS_Video_Continuity_Register.md`
+
+## Media Brief Gate Seed
+
+미디어 브리프를 만들 때 최소 확인할 항목:
+
+| Field | Question |
+|---|---|
+| `canon_scope` | 어떤 정본 범위까지만 보여주는가 |
+| `reveal_level` | hidden, hinted, partial, full 중 어디까지 공개하는가 |
+| `target_medium` | music, image, video 중 무엇인가 |
+| `forbidden_elements` | 스포일러, 동양/무협 톤, 현대어, 과장된 초월전 요소가 섞이지 않았는가 |
+| `handoff_notes` | 다른 제작 환경으로 넘길 때 꼭 보존할 정보는 무엇인가 |

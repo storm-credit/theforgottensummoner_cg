@@ -129,10 +129,27 @@ FS Lore Engine이 담당하는 것:
 5. 이름은 판타지 표면명 후보로 따로 관리
 6. 소문과 사실을 섞지 않기
 
+## Live Lore Registers
+
+FS Lore Engine이 실제로 쓰는 장부:
+
+- `audit/FS_Canon_Tier_Register.md`
+- `audit/FS_Relationship_Ledger.md`
+- `audit/FS_Act_Outcome_Ledger.md`
+- `audit/FS_Foreshadow_Payoff_Register.md`
+- `audit/FS_Source_Priority_Register.md`
+- `audit/FS_State_Label_Register.md`
+- `audit/FS_Revision_Gate_Checklist.md`
+- `audit/FS_Place_Function_Register.md`
+- `audit/FS_Asset_Secret_Register.md`
+- `audit/FS_Institution_Memory_Register.md`
+- `audit/FS_Travel_Logistics_Register.md`
+- `audit/FS_Ecology_Resource_Register.md`
+- `audit/FS_Rumor_Fact_Register.md`
+
 ## Conductor Note
 
 FS Lore Engine은 지금 단계의 주 엔진이다.
 
 설정집이 안정될 때까지는
 `Story Engine`보다 `Lore Engine`을 우선 적용한다.
-

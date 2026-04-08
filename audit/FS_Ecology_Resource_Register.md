@@ -63,19 +63,18 @@
 
 ## Current Seed Resources
 
-| Resource | Type | Related Institution | State |
-|---|---|---|---|
-| 희귀 약초 | `herb` | 키르케 영약회 | `active_working` |
-| 영약 제조법 | `herb`, `knowledge_asset` | 키르케 영약회 | `active_working` |
-| 봉인 재료 | `relic_material` | 봉인 수호단 | `soft_canon` |
-| 장물 보물군 | `trade_luxury`, `relic_material` | 검은 경매소 | `operational_line` |
-| 위조 인장 | `relic_material`, `trade_luxury` | 위조 공방 | `display_canon_candidate` |
-| 항만 보존식과 물 | `food_water` | 해양 무역망 | `open_question` |
-| 드래곤포지 계열 금속 | `ore`, `beast_part` | Named Notables / 공방 계보 | `named_notable_candidate` |
+| Resource | Type | Related Institution | Scarcity | Control | Conflict Use | State |
+|---|---|---|---|---|---|---|
+| 희귀 약초 | `herb` | 키르케 영약회 | `rare` | `guild_controlled` | 영약 의존과 윤리 갈등 | `active_working` |
+| 영약 제조법 | `herb`, `knowledge_asset` | 키르케 영약회 | `restricted` | `institutional_secret` | 치료/독/실험 갈등 | `active_working` |
+| 봉인 재료 | `relic_material` | 봉인 수호단 | `rare` | `order_controlled` | 봉인 유지와 금기 해제 | `soft_canon` |
+| 장물 보물군 | `trade_luxury`, `relic_material` | 검은 경매소 | `variable` | `underworld_controlled` | 진품/가품/소유권 갈등 | `operational_line` |
+| 위조 인장 | `relic_material`, `trade_luxury` | 위조 공방 | `restricted` | `underworld_controlled` | 잠입과 허가문 위조 | `display_canon_candidate` |
+| 항만 보존식과 물 | `food_water` | 해양 무역망 | `seasonal` | `port_controlled` | 봉쇄와 항만 생존 | `open_question` |
+| 드래곤포지 계열 금속 | `ore`, `beast_part` | Named Notables / 공방 계보 | `legendary` | `lineage_controlled` | 전설 무구 제작 대가 | `named_notable_candidate` |
 
 ## Link Rule
 
 - 아이템 욕망 설계는 `workflow/08_Item_Desire_Design.md`와 연결한다.
 - 자산/비밀은 `FS_Asset_Secret_Register.md`와 연결한다.
 - 소문성 재료는 `FS_Rumor_Fact_Register.md`와 연결한다.
-

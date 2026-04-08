@@ -5,6 +5,7 @@
 ## Current Stream
 
 - `Continuous_Workstream.md`
+- `orchestra/AGENT_DISPATCH_LOG.md`
 - `Today_Workstream.md`
 - `Surface_Naming_Audit_Findings.md`
 - `Supranational_Display_Canon.md`
@@ -65,6 +66,21 @@
 - `audit/Section_15_Duplicate_Verification.md`
 - `audit/Section_15_Intake_Priority.md`
 - `audit/Section_15_Intake_Cards_Tier1.md`
+- `workflow/13_Section_15_Split_Policy.md`
+
+## Section 15 Named Notables
+
+- `audit/Section_15_Named_Notables_Track.md`
+- `audit/Section_15_Named_Notables_Register.md`
+- `audit/Section_15_Named_Notables_First_Pass.md`
+- `audit/Section_15_Named_Notable_Template.md`
+- `audit/Section_15_Named_Notable_Erion_Dracovis.md`
+- `audit/Section_15_Named_Notable_Wolfgar_Dragonforge.md`
+- `audit/Section_15_Named_Notable_Oghma.md`
+- `audit/Section_15_Named_Notable_Sylvia.md`
+
+## Section 15 Operational Lines
+
 - `audit/Section_15_Group_Draft_Hidden_Exchange.md`
 - `audit/Section_15_Group_Draft_Ironblood.md`
 - `audit/Section_15_Group_Draft_Black_Skull.md`
@@ -76,16 +92,7 @@
 - `audit/Section_15_Profile_Template.md`
 - `audit/Section_15_Group_Index.md`
 - `audit/Section_15_Profile_Draft_Index.md`
-- `workflow/13_Section_15_Split_Policy.md`
-- `audit/Section_15_Named_Notables_Track.md`
 - `audit/Section_15_Operational_Lines_Track.md`
-- `audit/Section_15_Named_Notables_Register.md`
-- `audit/Section_15_Named_Notables_First_Pass.md`
-- `audit/Section_15_Named_Notable_Template.md`
-- `audit/Section_15_Named_Notable_Erion_Dracovis.md`
-- `audit/Section_15_Named_Notable_Wolfgar_Dragonforge.md`
-- `audit/Section_15_Named_Notable_Oghma.md`
-- `audit/Section_15_Named_Notable_Sylvia.md`
 - `audit/Section_15_Operational_Display_Canon_Candidates.md`
 - `audit/Section_15_Profile_Ventura_Moretti.md`
 - `audit/Section_15_Profile_Elizabeth_Rochefort.md`

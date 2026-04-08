@@ -91,6 +91,19 @@
 3. 수정하기 전에 `FS_Revision_Gate_Checklist.md`를 통과한다.
 4. 판단이 안 되면 `Open Question`으로 보류한다.
 
+## Evidence vs Action Rule
+
+Source Priority는 `무엇이 더 강한 증거인가`를 정한다.
+
+Derived Analysis는 `현재 작업에서 무엇을 할 것인가`를 정한다.
+
+따라서:
+
+- 증거 판단은 Source Priority가 우선한다.
+- 실행 판단은 Derived Analysis가 맡을 수 있다.
+- 하지만 Derived Analysis가 더 높은 출처 증거와 충돌하면
+  즉시 `conflict` 또는 `open_question`으로 낮춘다.
+
 ## Current Notes
 
 | Topic | Higher Priority | Lower Priority | Current Action |
@@ -99,4 +112,3 @@
 | `14/15` 분리 | Section 15 Split Policy | 기존 혼재 문맥 | `14` 유지, `15`는 Named Notables / Operational Lines로 분리 |
 | 범대륙 후기 확장 | Five Continent Spine | 후기 증설 파편 | 후순위 확장으로 보류 |
 | 레거시 루트 | Legacy Quarantine Policy | `_Legacy_` 원문 | 바로 정본화 금지 |
-

@@ -4,7 +4,7 @@
 `FS Engine = 설정 관리 엔진 + 작법 엔진`
 이라는 점을 한눈에 보이게 정리한 지도다.
 
-## FS Engine Two-Layer Structure
+## FS Engine Three-Mode Structure
 
 현재 운용 문서:
 
@@ -13,7 +13,7 @@
 - `workflow/14_FS_Media_Engine.md`
 - `audit/FS_Engine_Mode_Routing.md`
 
-### Layer 1. Lore Operations
+### Mode 1. Lore Operations
 
 설정집을 섞이지 않게 유지하는 층이다.
 
@@ -33,7 +33,7 @@
 4. 이 관계는 이미 등록됐는가
 5. 이 복선은 회수 예정이 있는가
 
-### Layer 2. Writing Craft
+### Mode 2. Story Craft
 
 설정이 실제 이야기로 작동하는지 보는 층이다.
 
@@ -52,6 +52,25 @@
 3. 이 관계는 왜 엇갈리는가
 4. 이 액트는 무엇을 감정적으로 끝내는가
 5. 이 확장은 메인 줄기를 해치지 않는가
+
+### Mode 3. Media Brief / Review
+
+음악, 이미지, 영상 브리프가
+정본과 공개 통제를 어기지 않는지 보는 층이다.
+
+- `Canonical Brief Core`
+- `Reveal Control`
+- `Visual Canon Check`
+- `Music Mood / Motif Check`
+- `Video Continuity Check`
+
+이 층의 질문:
+
+1. 지금 보여줘도 되는 정보인가
+2. 이미지/음악/영상이 정본 톤과 충돌하지 않는가
+3. 장소와 인물이 실제 설정의 기능에 묶여 있는가
+4. 외부 제작 환경으로 넘길 때 스포일러가 새지 않는가
+5. 미디어 브리프가 Story Engine보다 앞서가지 않는가
 
 ## Practical Routing
 

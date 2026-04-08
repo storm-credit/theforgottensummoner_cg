@@ -1,6 +1,13 @@
-# Section 15 Profile Draft Index
+# Section 15 Operational Profile Draft Index
 
-이 문서는 현재까지 작성된 `15번 개별 인물 시트 초안`의 색인이다.
+이 문서는 현재까지 작성된 `15번 Operational Lines` 시트 초안의 색인이다.
+
+주의:
+
+- 여기에는 개별 인물과 역할 계열 시트가 함께 들어 있다.
+- `15 Named Notables` 시트는 이 색인에 섞지 않는다.
+- 기본 state label은 `operational_line`이다.
+- 이미 14번 신호가 보이는 인물은 `verify_before_15`로 별도 관리한다.
 
 ## Current Drafts
 

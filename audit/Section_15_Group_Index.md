@@ -1,7 +1,14 @@
-# Section 15 Group Index
+# Section 15 Operational Group Index
 
-이 문서는 현재까지 정리된 `15번` 조직별 회수 묶음을
+이 문서는 현재까지 정리된 `15번 Operational Lines` 조직별 회수 묶음을
 한 번에 보는 색인이다.
+
+주의:
+
+- 이 색인은 `15 Named Notables`를 다루지 않는다.
+- 유명 NPC형 명사와 세계관 명사형 영웅은
+  `Section_15_Named_Notables_Register.md`에서 따로 본다.
+- 이 색인의 기본 state label은 `operational_line`이다.
 
 후속 작업은 이 색인을 기준으로
 `개별 인물 시트`나 `조직별 세부 회수`로 내려간다.

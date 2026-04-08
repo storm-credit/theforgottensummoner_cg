@@ -121,6 +121,42 @@
 - 현재 증거로 확정하면 위험하다.
 - 사용자 의도, 액트 구조, 원본 대조가 더 필요하다.
 
+### `duplicate_candidate`
+
+중복 후보.
+
+조건:
+
+- 같은 이름, 비슷한 영문 표기, 같은 기능의 문서가 둘 이상 보인다.
+- 아직 어느 쪽을 대표 정본으로 삼을지 결정하지 않았다.
+
+처리:
+
+- 바로 병합하지 않는다.
+- Source Priority와 Revision Gate를 통과한 뒤 `needs_merge`로 올린다.
+
+### `needs_merge`
+
+병합 필요.
+
+조건:
+
+- 중복 후보 중 어느 자료를 남길지 방향이 잡혔다.
+- 단, 실제 병합 전 관계, 이름, 폴더 라우팅 영향 검토가 필요하다.
+
+처리:
+
+- 원본은 수정하지 않는다.
+- `cg` 안에서 병합안이나 display canon 후보로만 관리한다.
+
+## Information-State Note
+
+`fact`, `rumor`, `misread`, `propaganda` 같은 단어는
+`FS_Rumor_Fact_Register.md`의 로컬 정보 상태다.
+
+전역 상태 라벨이 필요할 때는
+이 문서의 `hard_canon`, `soft_canon`, `open_question`, `conflict` 등을 함께 붙인다.
+
 ## Current Label Examples
 
 | Target | Label | Note |
@@ -131,4 +167,3 @@
 | 자유도시 실무 라인 | `operational_line` | 정본명은 별도 검토 |
 | `모이라/레이나/이사벨` 계열 | `verify_before_15` | 14 신호 확인 필요 |
 | 손상 범대륙 루트 | `legacy_hold` | 바로 정본화 금지 |
-

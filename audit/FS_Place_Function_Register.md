@@ -131,16 +131,16 @@ FS Lore Engine에서 장소는
 
 ## Current Seed Places
 
-| Place | Function | Related Track |
-|---|---|---|
-| 골든마르크 | `market` | 자유도시 합법 상업권 |
-| 포트 넥서스 | `threshold` | 자유도시 항만 / 밀수 |
-| 머시너리 게이트 | `threshold` | 용병 길드 / 중재 |
-| 검은 고양이 | `underworld_node` | 암시장 연락점 |
-| 공식 경매장 | `market` | 감정 / 거래 / 소문 |
-| 네크로 우물 | `memory_site`, `underworld_node` | 사령 통신 / 묘지 연락 |
-| 아르카노스 탑 | `workshop` | 마법협회 연구축 |
-| 봉인 제단 | `memory_site`, `sanctuary` | 오벨리스크 / 봉인 |
+| Place | Function | Related Track | Route Link | Resource Link |
+|---|---|---|---|---|
+| 골든마르크 | `market` | 자유도시 합법 상업권 | `merchant_road` | `trade_luxury` |
+| 포트 넥서스 | `threshold` | 자유도시 항만 / 밀수 | `sea_lane`, `underpath` | `food_water`, `trade_luxury` |
+| 머시너리 게이트 | `threshold` | 용병 길드 / 중재 | `merchant_road` | `institutional_asset` |
+| 검은 고양이 | `underworld_node` | 암시장 연락점 | `underpath` | `secret` |
+| 공식 경매장 | `market` | 감정 / 거래 / 소문 | `merchant_road` | `trade_luxury`, `relic_material` |
+| 네크로 우물 | `memory_site`, `underworld_node` | 사령 통신 / 묘지 연락 | `arcane_route` | `suppressed_record` |
+| 아르카노스 탑 | `workshop` | 마법협회 연구축 | `arcane_route` | `knowledge_asset` |
+| 봉인 제단 | `memory_site`, `sanctuary` | 오벨리스크 / 봉인 | `pilgrim_road` | `relic_material` |
 
 ## Routing Rule
 
@@ -148,4 +148,3 @@ FS Lore Engine에서 장소는
 
 기능이 없는 장소는
 지도에 그려도 서사적으로 죽은 장소가 될 수 있다.
-

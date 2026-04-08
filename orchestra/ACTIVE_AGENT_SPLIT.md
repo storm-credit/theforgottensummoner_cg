@@ -2,15 +2,28 @@
 
 ## How Agents Operate Here
 
-이 저장소의 에이전트는 독립 자동 프로세스가 아니라,
-Conductor가 역할을 분리해 같은 작업 흐름 안에서 세분화하여 운용하는 방식이다.
+이 저장소의 에이전트는 상시 자동 프로세스가 아니라,
+Conductor가 필요 배치마다 실제 서브에이전트를 호출하거나
+역할 렌즈를 내부적으로 적용하는 혼합 운용 방식이다.
 
 즉:
 
 - 역할은 실제로 분리된다
 - 판단 기준도 분리된다
+- 실제 서브에이전트가 필요한 경우 배치 단위로 띄운다
+- 실제 배치 기록은 `orchestra/AGENT_DISPATCH_LOG.md`에 남긴다
 - 산출물도 역할별로 남긴다
 - 최종 통합만 Conductor가 한다
+
+## Current Real Subagent Batch
+
+현재 실제로 띄운 배치는 `orchestra/AGENT_DISPATCH_LOG.md`를 본다.
+
+현재 활성 확인 대상:
+
+- FS Lore Engine Auditor
+- FS Archive Routing Auditor
+- FS Story / Media Mode Auditor
 
 ## Current Segmentation
 

@@ -35,6 +35,8 @@
 
 ### 1. Source Priority Register
 
+Status: `built`
+
 역할:
 
 - 어떤 문서가 더 상위 근거인지 고정한다.
@@ -54,6 +56,8 @@
 
 ### 2. State Label Register
 
+Status: `built`
+
 역할:
 
 - 항목 상태를 표준 라벨로 관리한다.
@@ -72,6 +76,8 @@
 - 초안, 소문, 보류, 레거시가 정본처럼 섞이는 걸 막는다.
 
 ### 3. Revision Gate Checklist
+
+Status: `built`
 
 역할:
 
@@ -93,6 +99,8 @@
 
 ### 4. Place Function Register
 
+Status: `built`
+
 역할:
 
 - 장소가 어떤 장면을 여는지 기록한다.
@@ -110,6 +118,8 @@
 
 ### 5. Asset / Secret Register
 
+Status: `built`
+
 역할:
 
 - 유물, 계약서, 비밀 문서, 혈통 정보, 금고 열쇠, 장부 같은
@@ -120,6 +130,8 @@
 - 누가 무엇을 쥐고 있는지가 서사를 실제로 움직일 때 많다.
 
 ### 6. Institution Memory Register
+
+Status: `built`
 
 역할:
 
@@ -135,6 +147,8 @@
 
 ### 7. Travel & Logistics Register
 
+Status: `built`
+
 역할:
 
 - 항로, 육로, 우회로, 이동 비용, 위험 구간, 계절 영향 기록
@@ -145,6 +159,8 @@
 
 ### 8. Ecological / Resource Register
 
+Status: `built`
+
 역할:
 
 - 희귀 약초, 광물, 용혈, 식량, 물류 핵심 자원과 산지를 추적한다.
@@ -154,6 +170,8 @@
 - 연금술, 대장간, 도시 경제, 세력 충돌이 물리적 근거를 가진다.
 
 ### 9. Rumor vs Fact Register
+
+Status: `built`
 
 역할:
 
