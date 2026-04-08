@@ -92,6 +92,7 @@
 - `audit/Section_15_Oceanic_Named_Candidate_Search_Queue.md`
 - `audit/Section_15_Oceanic_Search_Findings_Batch_01.md`
 - `audit/Section_15_Oceanic_Search_Findings_Batch_02.md`
+- `audit/Section_15_Oceanic_Role_Slot_Narrowing.md`
 - `audit/Section_15_Named_Notables_Obelisk_Scout.md`
 - `audit/Section_14_15_Obelisk_Boundary_Batch_02.md`
 - `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
