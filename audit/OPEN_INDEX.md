@@ -21,8 +21,11 @@
 
 - `workflow/11_FS_Engine.md`
 - `workflow/11_Writer_Engine.md`
+- `workflow/15_FS_Lore_Engine.md`
+- `workflow/16_FS_Story_Engine.md`
 - `audit/FS_Engine_Core_Consensus.md`
 - `audit/FS_Engine_Writing_Craft_Map.md`
+- `audit/FS_Engine_Mode_Routing.md`
 - `workflow/14_FS_Media_Engine.md`
 - `audit/FS_Media_Engine_Consensus.md`
 - `audit/FS_Canon_Tier_Register.md`

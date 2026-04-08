@@ -6,6 +6,13 @@
 
 ## FS Engine Two-Layer Structure
 
+현재 운용 문서:
+
+- `workflow/15_FS_Lore_Engine.md`
+- `workflow/16_FS_Story_Engine.md`
+- `workflow/14_FS_Media_Engine.md`
+- `audit/FS_Engine_Mode_Routing.md`
+
 ### Layer 1. Lore Operations
 
 설정집을 섞이지 않게 유지하는 층이다.

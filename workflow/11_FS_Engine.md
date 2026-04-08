@@ -26,6 +26,15 @@
 오케스트라가 실제로 어떤 렌즈를 먼저 적용할지 정하는
 실행 엔진이다.
 
+운용상 FS 엔진은 아래 세 하위 엔진으로 나누어 쓴다.
+
+- `workflow/15_FS_Lore_Engine.md`
+- `workflow/16_FS_Story_Engine.md`
+- `workflow/14_FS_Media_Engine.md`
+
+현재 설정집 정리 단계에서는
+`FS Lore Engine`을 기본 주 엔진으로 쓴다.
+
 ## Engine Philosophy
 
 FS 엔진은 특정 작가 한 명의 공식이나
@@ -368,3 +377,6 @@ FS 엔진의 실제 운용 장부는 아래를 본다.
 
 FS 엔진의 작법 층과 운영 층을 한 번에 보는 문서는
 `audit/FS_Engine_Writing_Craft_Map.md`를 우선한다.
+
+엔진 전환 기준은
+`audit/FS_Engine_Mode_Routing.md`를 본다.
