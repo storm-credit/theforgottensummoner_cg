@@ -80,6 +80,20 @@
 | `아리안 블레이즈하트` | 현자 회의 / 대사제 | `15 Named Notables` | `collect_more_context` |
 | `엘다라` | 대현자 / 고대 정령어 권위자 | `15 Named Notables` | `collect_more_context` |
 
+## Tier D. Named Notables Recovery Candidates
+
+`프로스트 / 해양 / 오벨리스크` 정찰에서 새로 확인된 경계 후보다.
+상세 배치는 `Section_15_Named_Notables_Recovery_Batch_01.md`에 둔다.
+
+| Name | Current Signal | Likely Route | Verification Need | Current Action |
+|---|---|---|---|---|
+| `울프릭` | 빙하의 주술사 / 부족의 장로 / 전설 주술 영웅록 | `15 Named Notables` 또는 `keep_14` | 전설 영웅록 출처와 액트 중심성 확인 | `verify_before_15` |
+| `미다스` | 바다의 연금술사 / 침묵의 금괴 / 황금 함대 전설 영웅록 | `15 Named Notables` 또는 `keep_14` | 연금술 명사인지 전설 영웅인지 확인 | `verify_before_15` |
+| `해양 실비아` | 해류의 지휘관 / 은빛 항해사 / 황금 함대 전설 영웅록 | `15 Named Notables` 또는 `keep_14` | 키르케 계열 `실비아`와 이름 충돌 확인 | `verify_before_15 / name_collision` |
+| `바리온` | 금서의 룬마스터 / 룬의 집행관 / 봉인 수호단 전설 영웅록 | `15 Named Notables` 또는 `keep_14` | 금서 명사인지 전설 영웅인지 확인 | `verify_before_15` |
+| `아이기스` | 절대 방벽의 현자 / 장벽의 수호자 / 봉인 수호단 전설 영웅록 | `15 Named Notables` 또는 `item / keep_14` | 인물명인지 유물명인지 확인 | `verify_before_15 / item_name_collision` |
+| `카론` | 원혼 인도자 / 영혼의 목자 / 망자의 왕국 전설 영웅록 | `15 Named Notables` 또는 `keep_14` | 전승 명사인지 전설 영웅인지 확인 | `verify_before_15` |
+
 ## Verification Steps
 
 각 인물 검증 순서:

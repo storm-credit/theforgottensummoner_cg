@@ -45,6 +45,7 @@
 현재 정찰 결과는 `Section_15_Named_Notables_Gap_Scout.md`에 둔다.
 프로스트는 이름 있는 인물 대부분이 14 신호가 강하고,
 해양/오벨리스크는 아직 개인명보다 기관/장소 신호가 먼저 보인다.
+추가 경계 후보는 `Section_15_Named_Notables_Recovery_Batch_01.md`에 분리한다.
 
 ## Conductor Rule
 
