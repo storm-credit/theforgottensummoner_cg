@@ -141,6 +141,12 @@ FS Lore Engine에서 장소는
 | 네크로 우물 | `memory_site`, `underworld_node` | 사령 통신 / 묘지 연락 | `arcane_route` | `suppressed_record` |
 | 아르카노스 탑 | `workshop` | 마법협회 연구축 | `arcane_route` | `knowledge_asset` |
 | 봉인 제단 | `memory_site`, `sanctuary` | 오벨리스크 / 봉인 | `pilgrim_road` | `relic_material` |
+| 드래곤포지 | `workshop` | 울프가르 / 용의 후예 제작축 | `mountain_forge_route` | `relic_material`, `craft_secret` |
+| 프라이멀 엠버 | `workshop`, `memory_site` | 용의 불꽃 단조 / 고대 화염 기억 | `mountain_forge_route` | `relic_material`, `knowledge_asset` |
+| 엘드라칸 학자 구역 | `memory_site` | 에리온 / 엘드라칸 고대어 해석 | `scholar_road` | `knowledge_asset` |
+| 용언 도서관 | `memory_site` | 에리온 / 용언 기록 / 금서 해석 | `scholar_road`, `arcane_route` | `knowledge_asset`, `suppressed_record` |
+| 몽상가의 바위 | `memory_site`, `sanctuary` | 오그마 / 고룡 조언 / 오래된 기억 | `pilgrim_road` | `knowledge_asset` |
+| 지혜의 샘 | `memory_site`, `sanctuary` | 오그마 / 엘드라칸 전승 / 숨 고르기 | `pilgrim_road` | `knowledge_asset` |
 
 ## Routing Rule
 

@@ -54,9 +54,9 @@
 작업:
 
 - 시트의 `Archive Routing` 블록 유지
-- `FS_State_Label_Register`와 연결
-- `FS_Relationship_Ledger`에 관계 훅을 등록할 후보 추출
-- `FS_Place_Function_Register`에 장소 기능 후보 추출
+- `FS_State_Label_Register`와 연결: `done`
+- `FS_Relationship_Ledger`에 관계 훅 등록: `done`
+- `FS_Place_Function_Register`에 장소 기능 후보 등록: `done`
 
 ### Step 2. Boundary Review Continuation
 
@@ -115,4 +115,3 @@
 - 안정 후보 3명이 이미 정해졌다.
 - 템플릿과 FS 엔진 라우팅 규칙도 갱신됐다.
 - 이제 이 3명을 FS 장부와 연결하면 15번 백과 구조가 더 단단해진다.
-

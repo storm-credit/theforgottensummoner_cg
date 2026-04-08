@@ -77,3 +77,4 @@ Follow-up actions:
 - `Section_15_Named_Notable_Template`에 `Archive Routing` 블록과 14 경계 신호 규칙을 추가해 이후 모든 Named Notables 시트가 같은 라우팅 기준을 따르게 했다.
 - FS Lore Engine과 상위 FS Engine의 Named Notables 라우팅 규칙에도 `14 신호 우선 검증`과 `대륙 -> 세력 / 도시 / 조직` 앵커 원칙을 연결했다.
 - 다음 순차 진행표를 추가해 안정 15 후보 3명, 경계 보류 후보, 다음 FS 장부 연결 순서를 명시했다.
+- 울프가르/에리온/오그마 안정 후보를 FS State Label, Relationship Ledger, Place Function Register에 연결하고 장소 기능 후보를 등록했다.

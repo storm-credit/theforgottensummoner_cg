@@ -33,6 +33,8 @@
 | `세실리아 메르카토르` | `로렌조 카르미네` | `enemy` | `two_way` | `contact table` | `노예/생체 거래 충돌` | `active` | 윤리선 최전면 대립 |
 | `에리온 드라코비스` | `오그마` | `mentor` | `two_way_reverent` | `named notable seed` | `엘드라칸 전승 축` | `active` | 기록자와 기억 원천 |
 | `울프가르 드래곤포지` | `드락사르 블레이즈포지` | `ally` | `two_way` | `named notable seed` | `드래곤포지 제작 축` | `active` | 단조와 연금의 접점 |
+| `울프가르 드래곤포지` | `에리온 드라코비스` | `ally` | `two_way` | `named notable routing test` | `고대 기술 해석과 제작 지식 연결` | `active` | 용언/고대 기술을 제작 현장으로 옮기는 접점 |
+| `오그마` | `울프가르 드래곤포지` | `asymmetric_awareness` | `one_way_reverent` | `named notable routing test` | `전승과 장인 문화의 느슨한 접점` | `quiet` | 오그마는 기억의 원천, 울프가르는 물건으로 기억을 남기는 장인 |
 | `실비아` | `멜리산드르` | `ally` | `hierarchical` | `named notable seed` | `시약 계량체계 확립` | `active` | 상층 의지의 기록화 |
 | `그림자 정보단 현장 관리자 계열` | `이리나 폰 루즈` | `ally` | `hierarchical` | `operational lines` | `지부 운영 구조` | `active` | 정보망 실무층 |
 | `철의 금융 연맹 집행관 계열` | `칼리크 디트리히` | `ally` | `hierarchical` | `operational lines` | `현장 집행 구조` | `active` | 금융 강제 실무층 |

@@ -167,4 +167,6 @@
 | `Hidden Exchange` 등 Operational Group | `display_canon_candidate` | 세계 안 명칭은 `은막 교역회` 같은 후보로 별도 관리 |
 | 자유도시 실무 라인 | `operational_line` | 정본명은 별도 검토 |
 | `모이라/레이나/이사벨` 계열 | `verify_before_15` | 14 신호 확인 필요 |
+| `울프가르/에리온/오그마` | `named_notable_candidate` | 크림슨 안정 15 시트 시험 후보 |
+| `벨라나/아리안` | `verify_before_15` | 현자회 명사 가치가 있으나 SS/S급 신호가 강함 |
 | 손상 범대륙 루트 | `legacy_hold` | 바로 정본화 금지 |
