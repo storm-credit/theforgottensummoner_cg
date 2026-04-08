@@ -216,3 +216,30 @@
   - `망각의 회랑`
   - `봉인의 제단`
   - `정화의 사원`
+
+#### Obelisk Place / Institution Sidecar
+
+- `템플 오브 바운더리`
+  - 장소 기능: 봉인 기록, 전선 기억 보존, 기록 유출 장면
+  - 연결 후보 슬롯: `베스 스크롤 / 기록의 수호자`
+  - 연결 문서: `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
+- `경계의 보루`
+  - 장소 기능: 관측탑, 경보실, 오벨리스크 상태 계측
+  - 연결 후보 슬롯: `이안 옵저버 / 관측대장`
+  - 연결 문서: `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
+- `기억 경매장`
+  - 장소 기능: 이름, 잔향, 사후 권리 거래
+  - 연결 후보 슬롯: `기억 경매장 중개자`
+  - 연결 문서: `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
+- `영원의 기록탑`
+  - 장소 기능: 사후 기록 분류, 이름 보관, 기억 제의실
+  - 연결 후보 슬롯: `사후 서기관 / 레티시아 계열`
+  - 연결 문서: `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
+- `망각의 회랑`
+  - 장소 기능: 거짓 기록 편집, 잊힌 이름 추적, 망명자 동선
+  - 연결 후보 슬롯: `레보니아 / 우로스 / 망각의 조율자`
+  - 연결 문서: `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
+- `그림자 도서관`
+  - 장소 기능: 이단 지식, 사라진 기록, 학술 암투
+  - 연결 후보 슬롯: `카트린 / 금서 학자층`
+  - 연결 문서: `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`

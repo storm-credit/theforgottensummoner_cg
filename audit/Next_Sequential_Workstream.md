@@ -22,6 +22,7 @@
 14. 에테르 마법협회/정령연합 경계 후보 2차 근거를 보강하고 이름 드리프트를 분리
 15. 해양 명사형 후보 7명의 2차 근거를 보강하고 전원 `verify_before_15` 유지
 16. 오벨리스크 기록/봉인/망각/영혼 후보 7명의 2차 근거를 보강하고 전원 `verify_before_15` 유지
+17. 오벨리스크 장소-기관 슬롯을 `FS_Place_Function_Register`와 `Spatial_Backlog`에 연결
 
 ## Current Stable 15 Profile Test Set
 
@@ -135,8 +136,8 @@
 
 ## Conductor Decision
 
-다음 실제 작업은 `Step 2. Boundary Review Continuation`을 일단 닫고,
-오벨리스크의 장소-기관 슬롯을 `Place Function`과 `Spatial_Backlog`로 옮기는 것이다.
+다음 실제 작업은 `15 Named Notables`의 안정 후보와 경계 후보를
+대륙별 상태표로 다시 압축하는 것이다.
 
 이유:
 
@@ -147,4 +148,5 @@
 - 에테르 탑주/정령연합 후보도 2차 근거와 이름 드리프트를 보강했다.
 - 해양 명사형 후보도 2차 근거를 보강했고, 새 15 확정 없이 `verify_before_15`를 유지했다.
 - 오벨리스크 명사형 후보도 2차 근거를 보강했고, 새 15 확정 없이 `verify_before_15`를 유지했다.
-- 이제 오벨리스크는 인물 확정보다 장소-기관 슬롯 보강으로 넘어가는 편이 안전하다.
+- 오벨리스크 장소-기관 슬롯도 Place Function / Spatial Backlog에 연결했다.
+- 이제 크림슨/에테르/해양/오벨리스크 판단이 흩어지지 않도록 대륙별 상태표로 압축한다.

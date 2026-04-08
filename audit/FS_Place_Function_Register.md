@@ -147,6 +147,12 @@ FS Lore Engine에서 장소는
 | 용언 도서관 | `memory_site` | 에리온 / 용언 기록 / 금서 해석 | `scholar_road`, `arcane_route` | `knowledge_asset`, `suppressed_record` |
 | 몽상가의 바위 | `memory_site`, `sanctuary` | 오그마 / 고룡 조언 / 오래된 기억 | `pilgrim_road` | `knowledge_asset` |
 | 지혜의 샘 | `memory_site`, `sanctuary` | 오그마 / 엘드라칸 전승 / 숨 고르기 | `pilgrim_road` | `knowledge_asset` |
+| 템플 오브 바운더리 | `memory_site`, `sanctuary` | 베스 스크롤 / 기록의 수호자 / 봉인 기록 | `pilgrim_road`, `frontier_watch` | `suppressed_record`, `institutional_asset` |
+| 경계의 보루 | `threshold`, `memory_site` | 이안 옵저버 / 관측대 / 오벨리스크 상태 계측 | `frontier_watch` | `knowledge_asset`, `suppressed_record` |
+| 기억 경매장 | `market`, `underworld_node` | 기억 경매장 중개자 / 이름과 잔향 거래 | `underpath`, `merchant_road` | `secret`, `trade_luxury` |
+| 영원의 기록탑 | `memory_site` | 사후 서기관 / 이름 보관 / 사후 기록 분류 | `scholar_road`, `pilgrim_road` | `knowledge_asset`, `suppressed_record` |
+| 망각의 회랑 | `memory_site`, `underworld_node` | 레보니아 / 우로스 / 망각의 조율자 | `underpath`, `scholar_road` | `suppressed_record`, `secret` |
+| 그림자 도서관 | `memory_site`, `underworld_node` | 카트린 / 금서 학자층 / 사라진 기록 | `scholar_road`, `underpath` | `knowledge_asset`, `secret` |
 
 ## Routing Rule
 
