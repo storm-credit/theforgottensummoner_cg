@@ -72,6 +72,7 @@
 | 네크로 우물 연락망 | 죽은 자의 잔향 정보 | `secret` | `soft_canon` |
 | 15 Named Notables | 저술서, 감정법, 공방 계보 | `knowledge_asset` | `named_notable_candidate` |
 | 자유도시 항만층 | 입항 허가와 밀수 통로 | `institutional_asset` | `operational_line` |
+| 파브리스 가문 | 전비 어음과 관세율 | `institutional_asset` | `verify_before_15_context` |
 
 ## Use Rule
 
@@ -80,4 +81,3 @@
 
 관계를 바꾸는 비밀은
 `FS_Relationship_Ledger.md`에도 연결한다.
-
