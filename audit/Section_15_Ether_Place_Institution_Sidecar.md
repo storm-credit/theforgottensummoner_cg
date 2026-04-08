@@ -130,6 +130,16 @@
 | `지식수호장` | 칭호성은 좋지만 조금 추상적이다. | `대서고 수호장`, `지식전당 수호장` 검토 |
 | `영묘 이름새김꾼` | 정령연합의 자연/숲 톤보다 묘역 톤이 강할 수 있다. | `숲무덤 이름새김꾼`, `정령묘 이름새김꾼` 검토 |
 
+## Polish Resolution
+
+| Original Candidate | Updated Preferred Candidate | State |
+|---|---|---|
+| `마나로 장인장` | `비전로 장인장` | `preferred_display_candidate` |
+| `성검 무장장` | `성검 병장관` | `preferred_display_candidate` |
+| `흑감옥 무기지기` | `옵시디안 무기지기` | `preferred_display_candidate` |
+| `지식수호장` | `대서고 수호장` | `preferred_display_candidate` |
+| `영묘 이름새김꾼` | `정령묘 이름새김꾼` | `preferred_display_candidate` |
+
 ## Conductor Note
 
 에테르는 `세계관 명사형 영웅`이 가장 잘 자랄 수 있는 대륙이지만,

@@ -82,6 +82,7 @@
 - `audit/Section_15_Named_Notables_Recovery_Batch_01.md`
 - `audit/Section_15_Named_Notables_Ether_Scout.md`
 - `audit/Section_15_Ether_Place_Institution_Sidecar.md`
+- `audit/Section_15_Ether_Named_Candidate_Search_Queue.md`
 - `audit/Section_15_Crimson_Wise_Council_Evidence.md`
 - `audit/Section_14_15_Crimson_Boundary_Batch_02.md`
 - `audit/Section_14_15_Ether_Boundary_Batch_02.md`
