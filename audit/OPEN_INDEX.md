@@ -80,6 +80,7 @@
 - `audit/Section_15_Named_Notables_Recovery_Batch_01.md`
 - `audit/Section_15_Named_Notables_Frost_Scout.md`
 - `audit/Section_15_Named_Notables_Oceanic_Scout.md`
+- `audit/Section_15_Named_Notables_Obelisk_Scout.md`
 - `audit/Section_15_Named_Notables_Name_Collision_Register.md`
 - `audit/Section_15_Named_Notables_First_Pass.md`
 - `audit/Section_15_Named_Notable_Template.md`

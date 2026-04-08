@@ -43,6 +43,13 @@
 | `바리온` | `금서의 룬마스터 / 룬의 집행관` | `오벨리스크 / 봉인 수호단` | `룬마스터 / 금서 명사` | `verify_before_15` | `legendary herobook signal` | `hold_until_14_check` | 명사형 가치가 크지만 전설 마도 영웅록 출처다. |
 | `아이기스` | `절대 방벽의 현자 / 장벽의 수호자` | `오벨리스크 / 봉인 수호단` | `현자 / 방벽` | `verify_before_15` | `item_name_collision` | `route_to_collision_register` | 인물명, 성씨, 아이템명, 결계명이 섞여 있어 별도 검증. |
 | `카론` | `원혼 인도자 / 영혼의 목자` | `오벨리스크 / 망자의 왕국 / 잊힌 자들의 전술 문서` | `영혼 인도자 / 전승 명사` | `verify_before_15` | `repeated legendary signal` | `hold_until_14_check` | 반복 신호가 있으나 전설/전술 축과 겹친다. |
+| `베스 스크롤` | `기록 수호자 / 서고단 대표` | `오벨리스크 / 봉인 수호단` | `기록자 / 서고단` | `verify_before_15` | `archive notable with 14-table signal` | `hold_until_14_check` | 기록 수호자라 15 가치가 크지만 B급 인물표 신호가 있다. |
+| `이안 옵저버` | `관측대장 / 오벨리스크 관측자` | `오벨리스크 / 봉인 수호단` | `관측자 / 기록자` | `verify_before_15` | `archive notable with 14-table signal` | `hold_until_14_check` | 관측대장으로 명사 가치가 있으나 B급 인물표 신호가 있다. |
+| `카트린 라베로스` | `잊힌 서고의 학자 / 역사 조작범` | `오벨리스크 / 잊힌 자들의 연합 / 고대 유산단` | `학자 / 암호 해독자` | `verify_before_15` | `hero-grade signal` | `hold_until_14_check` | 고대 암호와 함정 해제 명사 가치가 크지만 히어로급 표기가 있다. |
+| `레보니아 셰이드` | `거짓의 직조자 / 언어학자` | `오벨리스크 / 잊힌 자들의 연합 / 망각의 조율자` | `언어학자 / 서사 조작자` | `verify_before_15` | `hero-grade signal` | `hold_until_14_check` | 언어와 기록 왜곡 명사 가치가 있으나 조직 핵심 히어로급 신호가 있다. |
+| `우로스 디 모르간` | `먹물 뿌리는 자 / 지식 강탈자` | `오벨리스크 / 잊힌 자들의 연합 / 망각의 조율자` | `지식 강탈자 / 서고 침입자` | `verify_before_15` | `underworld knowledge signal` | `hold_until_14_check` | 도서관 침투와 지식 강탈 기능이 강하지만 14/조직 핵심 여부 확인 필요. |
+| `세르반 알테르만` | `망자의 감시자 / 영혼 착취관` | `오벨리스크 / 망자의 왕국 / 망령의 손길` | `영혼 기록자 / 감시자` | `verify_before_15` | `underworld soul-archive signal` | `hold_until_14_check` | 영혼 보관과 비밀 추출 명사 가치가 크지만 조직 흑막 신호가 있다. |
+| `레티시아 모르투스` | `망자의 학자 / 사령 괴수 도감 제작자` | `오벨리스크 / 망자의 왕국 / 죽음의 행진단` | `학자 / 도감 제작자` | `verify_before_15` | `necromantic scholar signal` | `hold_until_14_check` | 사령 괴수 도감 제작자라는 15 가치가 있으나 사령 부대 핵심 신호가 강하다. |
 
 ## Conductor Note
 

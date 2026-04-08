@@ -104,6 +104,13 @@
 | `바리온` | 금서의 룬마스터 / 룬의 집행관 / 봉인 수호단 전설 영웅록 | `15 Named Notables` 또는 `keep_14` | 금서 명사인지 전설 영웅인지 확인 | `verify_before_15` |
 | `아이기스` | 절대 방벽의 현자 / 장벽의 수호자 / 봉인 수호단 전설 영웅록 | `15 Named Notables` 또는 `item / keep_14` | 인물명인지 유물명인지 확인 | `verify_before_15 / item_name_collision` |
 | `카론` | 원혼 인도자 / 영혼의 목자 / 망자의 왕국 전설 영웅록 / 잊힌 자들의 전술 문서 | `15 Named Notables` 또는 `keep_14` | 전승 명사인지 전설 영웅인지 확인 | `verify_before_15` |
+| `베스 스크롤` | B급 / 기록 수호자 / 서고단 / 템플 오브 바운더리 | `15 Named Notables` 또는 `keep_14` | 14 독립 영웅인지, 기록 명사인지 확인 | `verify_before_15` |
+| `이안 옵저버` | B급 / 관측대장 / 경계의 보루 | `15 Named Notables` 또는 `keep_14` | 관측 명사인지 14 관측대장 영웅인지 확인 | `verify_before_15` |
+| `카트린 라베로스` | 잊힌 서고의 학자 / 고대 암호 해제 / 히어로급 표기 | `15 Named Notables` 또는 `keep_14` | 학자 명사인지 조직 핵심 영웅인지 확인 | `verify_before_15` |
+| `레보니아 셰이드` | 대륙 최고의 언어학자 / 거짓의 직조자 / 히어로급 표기 | `15 Named Notables` 또는 `keep_14` | 언어학 명사인지 이데올로기 조작 핵심 영웅인지 확인 | `verify_before_15` |
+| `우로스 디 모르간` | 먹물 뿌리는 자 / 지식 강탈자 / 도서관 침투 | `15 Named Notables` 또는 `keep_14` | 지식 강탈 명사인지 조직 핵심 인물인지 확인 | `verify_before_15` |
+| `세르반 알테르만` | 망자의 감시자 / 영혼 착취관 / 유리병 영혼 보관 | `15 Named Notables` 또는 `keep_14` | 영혼 기록 명사인지 조직 흑막인지 확인 | `verify_before_15` |
+| `레티시아 모르투스` | 망자의 학자 / 사령 괴수 도감 제작 | `15 Named Notables` 또는 `keep_14` | 도감 제작 학자인지 사령 부대 핵심 인물인지 확인 | `verify_before_15` |
 
 ## Verification Steps
 
