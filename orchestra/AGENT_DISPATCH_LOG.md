@@ -124,3 +124,5 @@ Follow-up actions:
 - `15-A Named Notables / 15-B Operational Lines / 15-C Need Named Candidate Slots` 가상 폴더 구조 초안을 문서로 작성했다.
 - 폴더 구조 초안에 Revision Gate를 적용해, 설계 문서로는 사용 가능하지만 실제 파일 이동은 아직 금지한다고 판정했다.
 - 15번 열람용 인덱스 초안을 작성해 Named Notables, Operational Lines, Need Named Candidate Slots, 경계 후보, 이름 충돌 감시 순서를 정리했다.
+- 8번 spine과 15번 가상 폴더 구조의 호환성을 감사하고, 실제 이동은 아직 보류하되 설계 문서로는 사용 가능하다고 판정했다.
+- 안정 15 후보 5명을 8번 세력/도시/조직 앵커와 다시 연결하는 색인을 작성했다.
