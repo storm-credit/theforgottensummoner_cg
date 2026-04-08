@@ -99,6 +99,8 @@
 - `audit/Section_14_15_Ether_Boundary_Batch_02.md`
 - `audit/Section_15_Named_Notables_Frost_Scout.md`
 - `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `audit/Section_15_Frost_Search_Synthesis.md`
+- `audit/Section_15_Frost_Need_Named_Candidate_Index.md`
 - `audit/Section_15_Named_Notables_Oceanic_Scout.md`
 - `audit/Section_14_15_Oceanic_Boundary_Batch_02.md`
 - `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`

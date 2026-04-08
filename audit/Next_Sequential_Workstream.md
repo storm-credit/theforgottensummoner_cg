@@ -219,3 +219,5 @@
 - `엘다라` 시트에 큐 9 근거를 보강했고, 에테르 `need_named_candidate` 장소-기관 색인을 작성했다.
 - `Section_15_Named_Notables_Status_Compass`를 갱신해 에테르 큐 1-9가 닫힌 상태임을 반영했다.
 - 다음 실제 작업은 에테르를 더 파지 않고, `프로스트 / 해양 / 오벨리스크` 중 아직 압축표가 약한 대륙부터 같은 방식으로 닫는 것이다.
+- 프로스트를 먼저 닫기 위해 `Section_15_Frost_Search_Synthesis`와 `Section_15_Frost_Need_Named_Candidate_Index`를 작성했다.
+- 다음 실제 작업은 `Status Compass`에 프로스트 압축 완료 상태를 반영하고, 그다음 해양 또는 오벨리스크 압축으로 넘어가는 것이다.
