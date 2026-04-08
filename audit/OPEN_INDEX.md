@@ -51,6 +51,9 @@
 - `audit/FS_Travel_Logistics_Register.md`
 - `audit/FS_Ecology_Resource_Register.md`
 - `audit/FS_Rumor_Fact_Register.md`
+- `audit/FS_Decision_Ruling_Register.md`
+- `audit/FS_Cross_Chronicle_Firewall.md`
+- `audit/FS_Slot_Maturation_Register.md`
 
 ## Section 14
 

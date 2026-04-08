@@ -258,4 +258,13 @@
 - Wolfgar/Erion 이름 충돌 레지스터와 명칭 정규화 맵에 충돌 가드를 추가했다.
 - 프로스트 `원로 사냥꾼 / 묘지기 장로 / 대예언자 / 수석 기술자 / 별의 샤먼 / 아이스포지 장인` 슬롯을 8번 spine 기준으로 다시 묶는 감사표를 추가했다.
 - 프로스트 슬롯의 `display canon` 후보를 `서리길 원로 사냥꾼 / 빙묘 수호장 / 오로라 예언장 / 빙철 공방장 / 오로라 별술사 / 서리벼림 장인` 축으로 1차 보정했다.
+- FS 엔진 재점검 후 `Decision Ruling Register`, `Cross-Chronicle Firewall`, `Slot Maturation Register`를 새 코어 보강 장부로 추가했다.
 - 다음 실제 작업은 이 프로스트 우선 후보를 `FS_Place_Function_Register`와 더 직접 연결하는 것이다.
+
+## Engine Upgrade Next
+
+엔진 쪽 다음 우선순위:
+
+1. `Canon Change Log` 초안
+2. `Story-to-Lore Handoff Gate` 초안
+3. 기존 `verify_before_15` 항목 중 일부를 `Decision Ruling Register`와 연결

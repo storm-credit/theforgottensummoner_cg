@@ -194,6 +194,22 @@ Status: `built`
 8. `FS_Ecology_Resource_Register.md`
 9. `FS_Rumor_Fact_Register.md`
 
+## New Upgrade Pass
+
+현재 장부가 충분히 생긴 뒤,
+다음 단계에서 정말 필요한 업그레이드는 아래 3개로 압축된다.
+
+1. `FS_Decision_Ruling_Register.md`
+2. `FS_Cross_Chronicle_Firewall.md`
+3. `FS_Slot_Maturation_Register.md`
+
+이유:
+
+- 큰 설정집은 `판정 기억`이 없으면 다시 흔들린다.
+- 아스트라리스는 `다른 크로니클과의 경계`를 유지해야 한다.
+- `need_named_candidate` 슬롯이 많아지면서
+  이름 없는 구조가 실제 named notable 후보로 자라는 과정을 추적할 장부가 필요해졌다.
+
 ## Build Status
 
 Priority A and B are now represented as live registers.

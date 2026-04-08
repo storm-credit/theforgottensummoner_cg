@@ -69,6 +69,12 @@ FS 엔진의 필수 코어 합의안은
 10. `Faction / House / Clan / Guild Layer`
 11. `Legacy Quarantine`
 
+현재 점검 후 바로 붙인 업그레이드:
+
+12. `Decision / Ruling Register`
+13. `Cross-Chronicle Firewall`
+14. `Slot Maturation Register`
+
 ## Method Modules
 
 ### 1. Reverse Design Module
@@ -254,6 +260,45 @@ FS 엔진의 필수 코어 합의안은
 - 중복 구조 보류
 - 자동 인용 방지
 
+### 15. Decision / Ruling Module
+
+역할:
+
+- Conductor가 내린 핵심 판정을 짧게 남긴다.
+- 같은 문제를 다시 처음부터 논의하는 비용을 줄인다.
+
+주 사용처:
+
+- 14/15 경계 판정
+- 이름 충돌
+- deferred expansion
+- grade_caution 기록
+
+### 16. Cross-Chronicle Firewall Module
+
+역할:
+
+- 다른 크로니클의 톤, 어휘, 서사 문법이
+  아스트라리스 판타지 버전으로 새지 않게 막는다.
+
+주 사용처:
+
+- 동양/무협 차단
+- 현대 직설 용어 완화
+- 과열된 초월 서사 차단
+
+### 17. Slot Maturation Module
+
+역할:
+
+- `need_named_candidate` 슬롯이
+  언제 실제 named notable 후보로 자라는지 추적한다.
+
+주 사용처:
+
+- 프로스트 / 해양 / 에테르의 이름 없는 명사층
+- display canon 후보에서 실제 인명 후보로 올라가는 과정
+
 ## Engine Routing
 
 ### 세계관
@@ -374,6 +419,9 @@ FS 엔진의 실제 운용 장부는 아래를 본다.
 - `audit/FS_Travel_Logistics_Register.md`
 - `audit/FS_Ecology_Resource_Register.md`
 - `audit/FS_Rumor_Fact_Register.md`
+- `audit/FS_Decision_Ruling_Register.md`
+- `audit/FS_Cross_Chronicle_Firewall.md`
+- `audit/FS_Slot_Maturation_Register.md`
 
 ## Writing Craft Map
 

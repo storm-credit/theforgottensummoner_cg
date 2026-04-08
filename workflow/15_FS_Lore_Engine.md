@@ -115,6 +115,16 @@ FS Lore Engine이 담당하는 것:
 - `audit/FS_Ecology_Resource_Register.md`
 - `audit/FS_Rumor_Fact_Register.md`
 
+### 8. Decision / Firewall / Slot Growth
+
+반복 판단과 누수 방지를 위한 보조 코어.
+
+연결 장부:
+
+- `audit/FS_Decision_Ruling_Register.md`
+- `audit/FS_Cross_Chronicle_Firewall.md`
+- `audit/FS_Slot_Maturation_Register.md`
+
 ## Operating Sequence
 
 설정 항목을 볼 때 기본 순서:
@@ -154,6 +164,9 @@ FS Lore Engine이 실제로 쓰는 장부:
 - `audit/FS_Travel_Logistics_Register.md`
 - `audit/FS_Ecology_Resource_Register.md`
 - `audit/FS_Rumor_Fact_Register.md`
+- `audit/FS_Decision_Ruling_Register.md`
+- `audit/FS_Cross_Chronicle_Firewall.md`
+- `audit/FS_Slot_Maturation_Register.md`
 
 ## Conductor Note
 
