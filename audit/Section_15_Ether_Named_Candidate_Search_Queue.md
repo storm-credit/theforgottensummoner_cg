@@ -46,3 +46,4 @@
 | Priority | Result |
 |---|---|
 | 1 | `done`. `대런 크레센트`는 `verify_before_15` 유지, `봉인서고지기 / 금서 검인관`은 `need_named_candidate` 유지. |
+| 2 | `done`. `에드가 룬워커`는 A급/Act 신호 때문에 `verify_before_15` 유지, `대장로 / 무기 상인 / 비전로 장인장 / 비전 제작관`은 `need_named_candidate` 유지. |
