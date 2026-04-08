@@ -225,3 +225,5 @@
 - 다음 실제 작업은 `Status Compass`에 해양 압축 완료 상태를 반영하고, 그다음 오벨리스크 압축으로 넘어가는 것이다.
 - 오벨리스크를 닫기 위해 `Section_15_Obelisk_Search_Synthesis`와 `Section_15_Obelisk_Need_Named_Candidate_Index`를 작성했다.
 - 다음 실제 작업은 5대륙 Named Notables 압축 종료표 작성이다.
+- `Section_15_Five_Continent_Closure_Table`을 작성해 5대륙 15번 후보/보류/역할 슬롯을 한 번 닫았다.
+- 다음 실제 작업은 `8번 세력 아카이브`와 15번 앵커를 다시 연결하는 것이다.

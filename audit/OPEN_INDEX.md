@@ -118,6 +118,7 @@
 - `audit/Section_15_Obelisk_Need_Named_Candidate_Index.md`
 - `audit/Section_15_Named_Notables_Continent_Synthesis.md`
 - `audit/Section_15_Named_Notables_Status_Compass.md`
+- `audit/Section_15_Five_Continent_Closure_Table.md`
 - `audit/Section_15_Foldering_Test_Crimson.md`
 - `audit/Section_15_Named_Notables_Name_Collision_Register.md`
 - `audit/Section_15_Named_Notables_First_Pass.md`
