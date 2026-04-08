@@ -221,3 +221,13 @@ Conductor decision:
 2. `Crimson` 안정 후보로 실제 `15번 폴더링 시험`을 준비한다.
 3. `Frost / Oceanic / Obelisk`는 역할 슬롯을 유지하고, 14번 중복 신호 검증 뒤 확정한다.
 4. `Supranational`은 후기 확장 구역으로 보류한다.
+
+## Compressed Status
+
+현재 압축 상태표는 `Section_15_Named_Notables_Status_Compass.md`에 둔다.
+
+최신 지휘 판단:
+
+- 크림슨은 안정 후보 3명만 실제 15 시트 시험에 사용한다.
+- 에테르, 해양, 오벨리스크는 2차 근거 보강을 마쳤고 새 15 확정자는 만들지 않는다.
+- 다음 배치는 프로스트 역할 슬롯을 장소-기관 중심으로 정리한다.
