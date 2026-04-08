@@ -76,6 +76,7 @@
 - `audit/Section_15_Named_Notables_Anchor_Map.md`
 - `audit/Section_15_Named_Notables_Gap_Scout.md`
 - `audit/Section_15_Named_Notables_Recovery_Batch_01.md`
+- `audit/Section_15_Named_Notables_Name_Collision_Register.md`
 - `audit/Section_15_Named_Notables_First_Pass.md`
 - `audit/Section_15_Named_Notable_Template.md`
 - `audit/Section_15_Named_Notable_Erion_Dracovis.md`
