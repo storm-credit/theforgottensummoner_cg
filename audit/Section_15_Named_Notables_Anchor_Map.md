@@ -31,22 +31,34 @@
 - `크림슨` 쪽 Named Notables 후보가 가장 많다.
 - `범대륙 / 후기 확장` 후보는 키르케 계열이지만, 범대륙 자체가 후순위라 15 확정도 천천히 간다.
 - `에테르` 쪽은 현재 `엘다라`가 정령연합 내부 전승층의 대표 후보로 보인다.
-- `프로스트`, `오벨리스크`, `해양` 쪽 Named Notables는 아직 추가 수집이 필요하다.
+- `프로스트`, `오벨리스크`, `해양` 쪽은 안정 15 후보보다 장소-기관 역할 슬롯이 강하다.
+
+## Section 8 Bridge Update
+
+`Section_8_to_15_Notable_Anchor_Bridge.md` 기준으로
+15번 후보는 아래처럼 읽는다.
+
+| Continent | Routing Reading |
+|---|---|
+| `크림슨` | 부족/씨족 spine과 생존 경제 spine이 본체. 안정 15 후보는 용의 후예/엘드라칸 쪽에 둔다. |
+| `에테르` | state_house/guild_market spine이 본체이며, 정령연합만 tribe_clan 특수축으로 본다. 엘다라는 정령연합/루미라 앵커. |
+| `프로스트` | tribe_clan/frontier survival 감각으로 읽고, 확정 인물보다 오로라 평원/빙하의 성소/아이스포지 슬롯을 보존한다. |
+| `해양` | state_house/guild_market spine이 본체. 포트 아우렐리온/크로스윈드 포트/오라클 바지 같은 도시 기능형 슬롯을 보존한다. |
+| `오벨리스크` | frontier_survival/guild_market spine이 본체. 기록/기억/봉인/망각 장소-기관 슬롯을 먼저 보존한다. |
+| `범대륙 / 후기 확장` | 현재 후순위. 키르케 외 확장 세력은 표면명/위상 안정화 뒤 다시 본다. |
 
 ## Next Recovery Targets
 
 다음 수집에서는 아래 결손층을 먼저 본다.
 
-1. `프로스트`의 현자, 장인, 전승 보관자
-2. `오벨리스크`의 기억, 장례, 봉인, 기록 명사
-3. `해양`의 항해사, 조선공, 지도 제작자, 항구 명사
-4. `에테르`의 마법협회 비영웅 명사
-5. `범대륙` 후기 확장 계열의 키르케 외 명사 후보
+1. 8번 spine과 15번 후보/슬롯 브리지 검토
+2. 안정 15 후보의 대륙/세력/도시 앵커 고정
+3. `need_named_candidate` 슬롯의 장소-기관 색인 유지
+4. 14/15 경계 후보는 14 확인 전 확정 금지
+5. 실제 폴더 초안은 브리지 검토 이후에만 작성
 
-현재 정찰 결과는 `Section_15_Named_Notables_Gap_Scout.md`에 둔다.
-프로스트는 이름 있는 인물 대부분이 14 신호가 강하고,
-해양/오벨리스크는 아직 개인명보다 기관/장소 신호가 먼저 보인다.
-추가 경계 후보는 `Section_15_Named_Notables_Recovery_Batch_01.md`에 분리한다.
+현재 정찰 결과는 `Section_15_Five_Continent_Closure_Table.md`와
+`Section_8_to_15_Notable_Anchor_Bridge.md`를 우선 기준으로 삼는다.
 
 ## Conductor Rule
 

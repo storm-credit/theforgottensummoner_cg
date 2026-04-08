@@ -119,6 +119,7 @@
 - `audit/Section_15_Named_Notables_Continent_Synthesis.md`
 - `audit/Section_15_Named_Notables_Status_Compass.md`
 - `audit/Section_15_Five_Continent_Closure_Table.md`
+- `audit/Section_8_to_15_Notable_Anchor_Bridge.md`
 - `audit/Section_15_Foldering_Test_Crimson.md`
 - `audit/Section_15_Named_Notables_Name_Collision_Register.md`
 - `audit/Section_15_Named_Notables_First_Pass.md`

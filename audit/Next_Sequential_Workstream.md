@@ -227,3 +227,5 @@
 - 다음 실제 작업은 5대륙 Named Notables 압축 종료표 작성이다.
 - `Section_15_Five_Continent_Closure_Table`을 작성해 5대륙 15번 후보/보류/역할 슬롯을 한 번 닫았다.
 - 다음 실제 작업은 `8번 세력 아카이브`와 15번 앵커를 다시 연결하는 것이다.
+- `Section_8_to_15_Notable_Anchor_Bridge`를 작성해 8번 대륙별 spine과 15번 후보/역할 슬롯을 연결했다.
+- 다음 실제 작업은 기존 `Section_15_Named_Notables_Anchor_Map`을 이 브리지 기준으로 보강하는 것이다.
