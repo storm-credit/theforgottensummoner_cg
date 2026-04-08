@@ -22,6 +22,19 @@
 - current judgment:
   - `strong_15 / borderline_14_15 / hold`
 
+## 1-1. Archive Routing
+
+- continent_anchor:
+  - `대륙`
+- faction_anchor:
+  - `세력 / 도시 / 조직`
+- city_or_place_anchor:
+  - `핵심 장소`
+- secondary_index:
+  - `현자 / 장인 / 기록자 / 감정사 / 연금술사 / 공방주`
+- routing_state:
+  - `route_test_ok / verify_before_15 / hold_for_dual_review`
+
 ## 2. Why Remembered
 
 - 왜 이 인물을 사람들이 기억하는가
@@ -60,3 +73,11 @@
 - 14와 겹칠 위험
 - 나중에 더 읽어야 할 것
 ```
+
+## Conductor Rule
+
+- 직업별 폴더링을 본체로 삼지 않는다.
+- 본체는 항상 `대륙 -> 세력 / 도시 / 조직` 앵커다.
+- `secondary_index`는 검색과 보조 색인용으로만 둔다.
+- `SS / S / A급`, `Act 중심성`, `전설 영웅록`, `독립 14 파일` 신호가 있으면 `verify_before_15`로 둔다.
+- 강한 명사 가치가 있어도 14 신호가 강하면 먼저 경계 큐에 보낸다.
