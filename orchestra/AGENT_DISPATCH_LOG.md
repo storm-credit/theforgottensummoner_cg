@@ -120,3 +120,7 @@ Follow-up actions:
 - 오벨리스크는 안정 15 후보 없이 기록/봉인/기억/망각/영혼 슬롯 중심으로 압축했고, 초월 서사로 과열되지 않도록 장소-기관 기능으로 먼저 낮춰 읽었다.
 - 5대륙 `15 Named Notables` 1차 압축 종료표를 작성해 안정 후보, 경계 후보, 이름 없는 역할 슬롯을 한 문서로 묶었다.
 - `8번 세력 아카이브`의 대륙별 spine과 `15 Named Notables` 후보/역할 슬롯을 연결하는 브리지를 작성했다.
+- 실제 파일 이동 전, 15번 후보를 대륙/세력/도시/조직 기준으로 배치하는 가상 라우팅 계획을 작성했다.
+- `15-A Named Notables / 15-B Operational Lines / 15-C Need Named Candidate Slots` 가상 폴더 구조 초안을 문서로 작성했다.
+- 폴더 구조 초안에 Revision Gate를 적용해, 설계 문서로는 사용 가능하지만 실제 파일 이동은 아직 금지한다고 판정했다.
+- 15번 열람용 인덱스 초안을 작성해 Named Notables, Operational Lines, Need Named Candidate Slots, 경계 후보, 이름 충돌 감시 순서를 정리했다.

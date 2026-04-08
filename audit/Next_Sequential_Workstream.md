@@ -229,3 +229,11 @@
 - 다음 실제 작업은 `8번 세력 아카이브`와 15번 앵커를 다시 연결하는 것이다.
 - `Section_8_to_15_Notable_Anchor_Bridge`를 작성해 8번 대륙별 spine과 15번 후보/역할 슬롯을 연결했다.
 - 다음 실제 작업은 기존 `Section_15_Named_Notables_Anchor_Map`을 이 브리지 기준으로 보강하는 것이다.
+- `Section_15_Folder_Draft_Routing_Plan`을 작성해 실제 이동 전 가상 폴더 라우팅을 잡았다.
+- 다음 실제 작업은 `15번 실제 폴더 초안 구조`를 문서로만 그리는 것이다.
+- `Section_15_Folder_Structure_Draft`를 작성해 15-A/15-B/15-C 가상 구조를 그렸다.
+- 다음 실제 작업은 이 폴더 초안의 Revision Gate 점검이다.
+- `Section_15_Folder_Revision_Gate`를 작성해 폴더 초안의 안전성을 점검했다.
+- 다음 실제 작업은 `Section_15_Index_Draft` 작성이다.
+- `Section_15_Index_Draft`를 작성해 15번 열람용 인덱스 초안을 만들었다.
+- 다음 실제 작업은 8번 세력 아카이브 쪽으로 돌아가 15번 인덱스가 세력 spine과 맞는지 점검하는 것이다.
