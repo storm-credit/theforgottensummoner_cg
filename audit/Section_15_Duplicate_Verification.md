@@ -18,6 +18,8 @@
 | `이사벨 카르도` | `inline hero-style reference` | `자유도시연합` 본문 인덱스와 `페어딜러 상단` 문서에서 직접 호명됨 | `14 signal present` |
 | `대런 크레센트` | `institutional named role` | `마법협회`, `아르카디아`, `서고단` 문서에서 실무 권력자로 반복 등장 | `verify before 15` |
 | `칼레스트 나이트쉐이드` | `institutional named role` | `마법협회`, `아르카디아` 문서에서 집행부 책임자로 반복 등장 | `verify before 15` |
+| `이리나 폰 루즈` | `orphan 14 hero file` | `[현존] 정보단 여왕` 14 영웅 파일과 `그림자 정보단` 수장 앵커가 동시에 확인됨 | `keep 14 / anchor review` |
+| `칼리크 디트리히` | `orphan 14 hero file` | `[현존] 카르텔 수장` 14 영웅 파일과 `침묵의 카르텔` 수장 앵커가 동시에 확인됨 | `keep 14 / naming review` |
 | `벤투라 모레티` | `organization-only named role` | 현재 작업본에서는 `숨은 거래단` 문서 안에서만 확인 | `safe 15 candidate` |
 | `엘리자베스 로슈포르` | `organization-only named role` | 현재 작업본에서는 `숨은 거래단` 문서 안에서만 확인 | `safe 15 candidate` |
 | `리카르도 살바토레` | `organization-only named role` | 현재 작업본에서는 `숨은 거래단` 문서 안에서만 확인 | `safe 15 candidate` |
@@ -50,6 +52,9 @@
 - `모이라 와일드웨이브`는 `B급`, `Act 1, 4`, `파도의 속삭임`, 해적 연락책으로 직접 호명되어 14 신호가 있다.
 - `이사벨 카르도`는 `B급`, `Act 1, 3`, `철의 마부`, 운송 길드장으로 직접 호명되어 14 신호가 있다.
 - 세 인물 모두 조직 연결은 유지하되, 15 확정은 보류한다.
+- `대런 크레센트`는 `A+급`, `Act 1~3`, 부탑주, `협회의 살림꾼`으로 확인되어 실무층 이상의 14 신호가 있다.
+- `칼레스트 나이트쉐이드`는 `A급`, `Act 1, 2`, 집행관, `침묵의 칼날`로 확인되어 실무층 이상의 14 신호가 있다.
+- `이리나 폰 루즈`와 `칼리크 디트리히`는 이미 `phase1_orphans`에 14 현존 영웅 파일로 존재하므로 15 회수 대상이 아니라 14 앵커/명칭 보정 대상이다.
 
 ## Practical Use
 
