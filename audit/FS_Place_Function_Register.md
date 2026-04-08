@@ -134,7 +134,7 @@ FS Lore Engine에서 장소는
 | Place | Function | Related Track | Route Link | Resource Link |
 |---|---|---|---|---|
 | 골든마르크 | `market` | 자유도시 합법 상업권 | `merchant_road` | `trade_luxury` |
-| 포트 넥서스 | `threshold` | 자유도시 항만 / 밀수 | `sea_lane`, `underpath` | `food_water`, `trade_luxury` |
+| 포트 넥서스 | `threshold`, `underworld_node` | 자유도시 항만 / 밀수 / 항만 인장관 / 밀수 통로 기록관 | `sea_lane`, `underpath` | `food_water`, `trade_luxury`, `secret` |
 | 머시너리 게이트 | `threshold` | 용병 길드 / 중재 | `merchant_road` | `institutional_asset` |
 | 검은 고양이 | `underworld_node` | 암시장 연락점 | `underpath` | `secret` |
 | 공식 경매장 | `market` | 감정 / 거래 / 소문 | `merchant_road` | `trade_luxury`, `relic_material` |
@@ -171,6 +171,15 @@ FS Lore Engine에서 장소는
 | 폭풍의 만 | `threshold`, `workshop` | 조선공 길드 장인 / 검은 돛 조선공 / 해적식 선박 개조 | `sea_lane`, `supply_road` | `craft_secret`, `institutional_asset` |
 | 고대의 악기실 | `memory_site`, `sanctuary` | 진혼의 합창단 악기 보관인 / 전설 악기 / 소라 고둥 | `pilgrim_road`, `sea_lane` | `relic_material`, `knowledge_asset` |
 | 유령선의 안식처 | `memory_site`, `underworld_node` | 죽은 선장의 항해일지 / 잃어버린 항로 / 유령선 소문 | `sea_lane`, `underpath` | `suppressed_record`, `secret` |
+| 금서 도서관 | `memory_site`, `sanctuary` | 금서 도서관 사서장 / 금서 관리국 검열관 | `scholar_road`, `arcane_route` | `knowledge_asset`, `suppressed_record` |
+| 마나 공방 | `workshop` | 마나 공방 공방장 / 마도 제작 감독관 | `arcane_route`, `supply_road` | `craft_secret`, `relic_material` |
+| 아스트랄 관측소 | `memory_site`, `workshop` | 아스트랄 관측장 / 별의 예언 기록관 | `scholar_road`, `arcane_route` | `knowledge_asset`, `suppressed_record` |
+| 아스트라르 중앙 도서관 | `memory_site`, `sanctuary` | 중앙 도서관 학장 / 지식의 수호자 대표 | `scholar_road`, `pilgrim_road` | `knowledge_asset`, `suppressed_record` |
+| 루멘 성채 | `sanctuary`, `threshold` | 성채 결계관 / 순교자 묘역 관리 사제 | `pilgrim_road`, `frontier_watch` | `institutional_asset`, `suppressed_record` |
+| 브룬발트 대성채 | `threshold`, `memory_site` | 대성채 병참관 / 성벽 설계 기록관 | `frontier_watch`, `supply_road` | `institutional_asset`, `knowledge_asset` |
+| 머시너리 게이트 | `threshold`, `market` | 계약문 보관관 / 용병 중재 서기관 | `merchant_road`, `supply_road` | `institutional_asset`, `secret` |
+| 잠든 정령의 숲 | `sanctuary`, `memory_site` | 침묵의 감시자 / 정령의 무덤 이름 새김꾼 | `pilgrim_road`, `hunter_trail` | `knowledge_asset`, `suppressed_record` |
+| 루미라 | `sanctuary`, `memory_site` | 정령 계약 해석자 / 대현자 보좌 기록관 | `pilgrim_road`, `scholar_road` | `knowledge_asset`, `institutional_asset` |
 
 ## Routing Rule
 
