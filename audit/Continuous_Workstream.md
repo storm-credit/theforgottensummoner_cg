@@ -72,9 +72,11 @@
 11. `15번 Named Notables` 축 별도 착수
 12. Named Notables와 Operational Lines의 명칭 정책 분리
 13. FS Engine 코어를 실제 장부로 하강
-14. `safe 15 candidate`와 `verify before 15` 분리 유지
-15. 자유도시 도시망의 사람-장소-기능 결합 강화
-16. 그다음 `Tier 2`로 자연스럽게 확장
+14. FS Lore Engine의 출처 우선순위 / 상태 라벨 / 수정 게이트 장부 추가
+15. 장소 기능 / 자산과 비밀 / 기관 기억 장부 추가
+16. `safe 15 candidate`와 `verify before 15` 분리 유지
+17. 자유도시 도시망의 사람-장소-기능 결합 강화
+18. 그다음 `Tier 2`로 자연스럽게 확장
 
 ## Conductor Rule
 

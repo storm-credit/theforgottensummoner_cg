@@ -354,6 +354,12 @@ FS 엔진의 실제 운용 장부는 아래를 본다.
 - `audit/FS_Relationship_Ledger.md`
 - `audit/FS_Act_Outcome_Ledger.md`
 - `audit/FS_Foreshadow_Payoff_Register.md`
+- `audit/FS_Source_Priority_Register.md`
+- `audit/FS_State_Label_Register.md`
+- `audit/FS_Revision_Gate_Checklist.md`
+- `audit/FS_Place_Function_Register.md`
+- `audit/FS_Asset_Secret_Register.md`
+- `audit/FS_Institution_Memory_Register.md`
 
 ## Writing Craft Map
 

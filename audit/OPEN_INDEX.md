@@ -30,6 +30,12 @@
 - `audit/FS_Act_Outcome_Ledger.md`
 - `audit/FS_Foreshadow_Payoff_Register.md`
 - `audit/FS_Lore_Engine_Gap_Audit.md`
+- `audit/FS_Source_Priority_Register.md`
+- `audit/FS_State_Label_Register.md`
+- `audit/FS_Revision_Gate_Checklist.md`
+- `audit/FS_Place_Function_Register.md`
+- `audit/FS_Asset_Secret_Register.md`
+- `audit/FS_Institution_Memory_Register.md`
 
 ## Section 14
 
@@ -131,3 +137,4 @@
 - 원본은 안 건드린다.
 - 실제 정리는 모두 `cg` 안에서만 한다.
 - 이름 교체는 지금 `display canon` 후보만 누적 중이다.
+- 정본 선언 전에는 `Source Priority -> State Label -> Revision Gate`를 통과한다.
