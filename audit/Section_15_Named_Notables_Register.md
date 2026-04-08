@@ -23,8 +23,8 @@
 | `오그마` | `고룡 / 살아있는 도서관` | `엘드라칸` | `현자 / 전승 보관자` | `named_notable_candidate` | `strong 15 notable candidate` | `promote_to_named_notables` | 조언자형 전승 존재로, 이름값과 세계관 심도가 높다. |
 | `드락사르 블레이즈포지` | `불꽃 연금술사` | `용의 후예` | `연금술사 / 공방주` | `verify_before_15` | `borderline 14-15` | `review_after_named_seed` | 유명 장인/연금술사 감각이 강하지만 전투 서열에도 걸쳐 있다. |
 | `카사르 더 시어` | `용의 예언자 / 최고 조언자` | `용의 후예` | `현자 / 예언자` | `verify_before_15` | `14 crossover risk` | `hold_for_dual_review` | 예언자이자 조언자지만 현재 자료상 영웅축 비중이 높다. |
-| `벨라나 스톰브링어` | `현자 회의 소속 주술사 / 사제 / 고고학자` | `붉은 사막 부족` | `현자 / 기록자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 현자 회의 축이라 Named Notables 후보 가치가 높다. |
-| `아리안 블레이즈하트` | `현자 회의 소속` | `붉은 사막 부족` | `현자 / 전승 보존자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 사막 부족 현자층의 얼굴로 쓸 가능성이 있다. |
+| `벨라나 스톰브링어` | `현자 회의 소속 주술사 / 사제 / 고고학자 / 폭풍의 여왕` | `붉은 사막 부족` | `현자 / 기록자 / 대주술사` | `verify_before_15` | `SS-grade hero signal` | `hold_until_14_check` | 현자 회의 축이라 15 가치가 있지만 SS급, 정신적 지도자, 모래폭풍 결계 신호가 강하다. |
+| `아리안 블레이즈하트` | `현자 회의 소속 / 불의 사제` | `붉은 사막 부족` | `현자 / 전승 보존자 / 대사제` | `verify_before_15` | `S-grade hero signal` | `hold_until_14_check` | 사막 부족 현자층 가치가 있지만 S급, 대사제, 정신적 지도자 신호가 강하다. |
 | `엘다라` | `대현자 / 고대 정령어 권위자 / 의장` | `정령연합 / 루미라` | `현자 / 언어 권위자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 에테르 정령연합 내부의 부족/전승층을 사람 얼굴로 보강한다. |
 | `울프릭` | `빙하의 주술사 / 부족의 장로` | `프로스트본 연합 / 전설적 주술 영웅록` | `주술사 / 장로` | `verify_before_15` | `legendary herobook signal` | `hold_until_14_check` | 명사형 가치가 있지만 전설 영웅록 출처라 15 확정 금지. |
 | `시그리드 프로스트하트` | `퍼마프로스트 공성단장 / 냉기 공성 기술자` | `프로스트본 연합 / 퍼마프로스트 공성단` | `공성 장인 / 마도공학 / 지휘관` | `verify_before_15` | `strong role-slot but possible 14 signal` | `hold_until_14_check` | 공방주와 전술 기술자 명사 가치가 크지만 공성단장 신호가 있어 14 확인 전 15 확정 금지. |

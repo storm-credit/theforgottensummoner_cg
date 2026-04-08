@@ -80,6 +80,7 @@
 - `audit/Section_15_Named_Notables_Gap_Scout.md`
 - `audit/Section_15_Named_Notables_Recovery_Batch_01.md`
 - `audit/Section_15_Named_Notables_Ether_Scout.md`
+- `audit/Section_15_Crimson_Wise_Council_Evidence.md`
 - `audit/Section_15_Named_Notables_Frost_Scout.md`
 - `audit/Section_15_Named_Notables_Oceanic_Scout.md`
 - `audit/Section_15_Named_Notables_Obelisk_Scout.md`

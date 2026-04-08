@@ -76,8 +76,8 @@
 | `울프가르 드래곤포지` | 용의 대장장이 / 공방장 | `15 Named Notables` | `promote_to_named_notables` |
 | `에리온 드라코비스` | 고대어 해석가 / 대현자 / 관리자 | `15 Named Notables` | `promote_to_named_notables` |
 | `오그마` | 고룡 / 살아있는 도서관 | `15 Named Notables` | `promote_to_named_notables` |
-| `벨라나 스톰브링어` | 현자 회의 / 대주술사 | `15 Named Notables` | `collect_more_context` |
-| `아리안 블레이즈하트` | 현자 회의 / 대사제 | `15 Named Notables` | `collect_more_context` |
+| `벨라나 스톰브링어` | 현자 회의 / 대주술사 / SS급 폭풍의 여왕 | `15 Named Notables` 또는 `keep_14` | `verify_before_15` |
+| `아리안 블레이즈하트` | 현자 회의 / 대사제 / S급 불의 사제 | `15 Named Notables` 또는 `keep_14` | `verify_before_15` |
 | `엘다라` | 대현자 / 고대 정령어 권위자 | `15 Named Notables` | `collect_more_context` |
 
 ## Tier D. Named Notables Recovery Candidates
