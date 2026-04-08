@@ -47,6 +47,10 @@
 - `대경매장 주인`과 `늙은 감정사`가 같은 인물인지 분리한다.
 - `항해사 길드장`의 이름이 다른 문서에 있는지 찾는다.
 
+2차 결과:
+
+- `Section_15_Oceanic_Search_Findings_Batch_02.md`에 기록한다.
+
 ## Routing Update
 
 - `크리스토퍼 델마르`를 `Section_14_15_Boundary_Verification_Queue.md`에 `verify_before_15`로 등록한다.
