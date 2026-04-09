@@ -1697,3 +1697,308 @@ Follow-up actions:
 
 - 메인 본선 다음 실제 작업은 `프로스트`의 `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼` read-only narrowing
 - 오벨리스크는 `렌/라일`, `루가르` strong-link note를 유지한 채 closure sync만 추가
+
+### 2026-04-09 KST - Frost First Narrowing Batch
+
+목적:
+
+- `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼`을 원본 import 기준으로 read-only 확인한다.
+- direct named holder가 없으면 새 이름을 만들지 않고 role slot으로 유지한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Epicurus`, `Faraday` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Epicurus` | Frost Narrowing Scout A | `원로 사냥꾼`, `묘지기 장로` direct holder 여부 확인 | `timed_out -> conductor local evidence fallback` |
+| `Faraday` | Frost Narrowing Scout B | `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼` direct holder 여부 확인 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `프로스트본 연합`, `얼음무덤 언덕`, `오로라 평원`, `푸른 폭풍 요새` import를 직접 읽어 다섯 slot 모두 기능/설명만 있고 direct named holder가 없음을 확인한다.
+- `묘지기 장로`는 바로 아래 `스카디`와 별도 항목이라는 점을 확인하고 병합하지 않는다.
+- `대예언자`, `별의 샤먼`, `수석 기술자`도 각각 `프리야`, `카이라`, `마리안`, `시그리드`와 병합하지 않는다.
+- `Section_15_Frost_Search_Findings_Batch_01.md`를 새로 만들고, `Frost Need Named Candidate Index`, `Frost Search Synthesis`, `Status Compass`, `Coverage Matrix`, `Five Continent Closure Table`, `Workstream`을 같이 맞춘다.
+
+Integrated actions:
+
+- `audit/Section_15_Frost_Search_Findings_Batch_01.md` 작성
+- `audit/Section_15_Frost_Need_Named_Candidate_Index.md`, `audit/Section_15_Frost_Search_Synthesis.md`에 1차 narrowing 결과 반영
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md`에 프로스트 1차 narrowing note 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 다음 `아이스포지 병기소 장인` batch 기준으로 이동
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `아이스포지 병기소 장인` read-only narrowing
+- 그 다음 프로스트 closure sync를 추가하고 다음 대륙 우선순위를 재평가
+
+### 2026-04-09 KST - Frost Second Narrowing Batch
+
+목적:
+
+- `아이스포지 병기소 장인`을 원본 import 기준으로 read-only 확인한다.
+- 공성단장/불법 장인 인접 신호가 있어도 named artisan direct holder로 섣불리 승격하지 않는다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Laplace`, `Lorentz` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Laplace` | Frost Narrowing Scout C | `아이스포지 병기소 장인`, `시그리드 프로스트하트` holder 관계 확인 | `completed -> conductor sync confirmed` |
+| `Lorentz` | Frost Narrowing Scout D | `아이스포지 병기소 장인`, `브로만 아이스포지` contamination 여부 확인 | `completed -> conductor sync confirmed` |
+
+Conductor action:
+
+- `퍼마프로스트 공성단`, `프로스트본 연합`, `프리즌윈드 부족`, `얼음 독점단` import를 직접 교차 읽어 `아이스포지 병기소 장인`의 named holder가 없음을 확인한다.
+- `퍼마프로스트 요새`는 지휘/보급 앵커, `아이스포지 병기소`는 workshop/memory-site 앵커로 읽고 person-first notable로 승격하지 않는다.
+- `시그리드 프로스트하트`는 공성단장 adjacency로만 남기고 병기소 artisan direct holder로 병합하지 않는다.
+- `브로만 아이스포지`는 암시장/불법 장인 축이라 합법 공방 slot과 섞지 않는다.
+
+Integrated actions:
+
+- `audit/Section_15_Frost_Search_Findings_Batch_02.md` 작성
+- `audit/Section_15_Frost_Need_Named_Candidate_Index.md`, `audit/Section_15_Frost_Search_Synthesis.md`에 2차 narrowing 결과 반영
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md`에 프로스트 unnamed slot 6개 closure note 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 다음 `5대륙 closure sync / ROI 재판정` 기준으로 이동
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 5대륙 closure sync와 ROI 재판정
+- 실제 원고 입력이 생기면 live handoff case가 이 흐름보다 우선
+
+### 2026-04-09 KST - Post-Closure ROI Re-Priority Batch
+
+목적:
+
+- 프로스트 2차 narrowing과 5대륙 closure sync 이후, 다음 메인 본선이 새 대륙 narrowing인지 안정 후보 실행인지 재판정한다.
+- 가장 안전한 stable 15 candidate 작업선을 다시 전면으로 올릴지 결정한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Ohm`, `Dirac` read-only ROI scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Ohm` | ROI Priority Scout | closure 이후 다음 메인 본선이 `크림슨 안정 3명`인지 다른 대륙 batch인지 비교 | `timed_out -> conductor local evidence fallback` |
+| `Dirac` | Stable Candidate Safety Scout | `울프가르`, `에리온`, `오그마`, `엘다라`의 현재 안전도와 본선 적합성 재확인 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `Status Compass`, `Five Continent Closure Table`, `Stable Candidate Profile QA`, `Stable Candidate 8 Anchor Index`, `Foldering Test Crimson`, `Continent Synthesis`를 직접 교차 읽는다.
+- 전역 closure 이후 추가 대륙 narrowing보다 `울프가르`, `에리온`, `오그마`의 실제 15 시트 hardening / foldering test가 가장 안전한 다음 ROI라고 판정한다.
+- `엘다라`는 강한 보조 후보로 유지하되 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Five_Continent_Closure_Table.md`, `audit/Section_15_Named_Notables_Continent_Synthesis.md`에 다음 메인 본선을 `크림슨 안정 3명`으로 갱신
+- `audit/Section_15_Stable_Candidate_Profile_QA.md`, `audit/Section_15_Stable_Candidate_8_Anchor_Index.md`, `audit/Section_15_Foldering_Test_Crimson.md`에 stable 15 hardening 재가동 반영
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 `울프가르 / 에리온 / 오그마` 본선 기준으로 이동
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `울프가르`, `에리온`, `오그마` stable 15 sheet hardening / foldering test
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Crimson Stable 15 Sheet Hardening Batch
+
+목적:
+
+- `울프가르`, `에리온`, `오그마`의 개별 15 시트 문구를 실제 본선 기준으로 더 단단히 잠근다.
+- route test만 있는 상태를 넘겨 `Boundary Guard`, `merge_guard`, `place_function_lock`까지 직접 적는다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Aristotle`, `Carson` read-only stable-sheet scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Aristotle` | Stable Sheet Scout A | `울프가르`, `에리온` 시트의 hardening 누락 요소 점검 | `timed_out -> conductor local evidence fallback` |
+| `Carson` | Stable Sheet Scout B | `오그마` 시트와 크림슨 앵커 문구의 hardening 누락 요소 점검 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `Section_15_Named_Notable_Wolfgar_Dragonforge.md`, `Section_15_Named_Notable_Erion_Dracovis.md`, `Section_15_Named_Notable_Oghma.md`를 직접 읽고 hardening 누락 요소를 보강한다.
+- `울프가르`에는 `grade_caution`, collision 감시, `드래곤포지 / 프라이멀 엠버` place_function_lock을 더 분명히 적는다.
+- `에리온`에는 `에리온 베르날리스` merge_guard, `엘드라칸 학자 구역 / 용언 도서관` place_function_lock, `grade_caution`을 더 분명히 적는다.
+- `오그마`에는 `soft_open_with_act_watch`, Act 중심성 재점검 규칙, `몽상가의 바위 / 지혜의 샘` place_function_lock을 더 분명히 적는다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notable_Wolfgar_Dragonforge.md`, `audit/Section_15_Named_Notable_Erion_Dracovis.md`, `audit/Section_15_Named_Notable_Oghma.md`에 `Hardening Guard`와 `Boundary Guard` 직접 추가
+- `audit/Section_15_Stable_Candidate_Profile_QA.md`에 `hardening_guard_added` 반영
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 stable 15 triad hardening 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 stable 15 triad의 후속 consistency check 또는 commit/push 판단
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Crimson Stable 15 Consistency Pass Batch
+
+목적:
+
+- stable 15 triad의 개별 시트와 요약 장부가 같은 강도로 읽히는지 점검한다.
+- `에리온`, `오그마` 상위 앵커와 triad 현재 단계 표기가 흔들리지 않게 고정한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Raman`, `Oghma scout` read-only consistency 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Raman` | Triad Consistency Scout A | `울프가르`, `에리온` 시트와 요약 장부의 wording drift 점검 | `timed_out -> conductor local evidence fallback` |
+| `Carson` | Triad Consistency Scout B | `오그마` 시트와 요약 장부의 anchor / risk drift 점검 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `Section_15_Named_Notables_Register.md`, `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Foldering_Test_Crimson.md`, `Section_15_Stable_Candidate_Profile_QA.md`, `Next_Sequential_Workstream.md`를 직접 교차 읽는다.
+- `에리온` 상위 앵커는 `엘드라칸 / 학술-전승층`으로, `오그마` 상위 앵커는 `엘드라칸 / 전승 보관층`으로 통일한다.
+- stable 15 triad의 현재 단계 표기는 `sheet hardening`에서 `consistency check / route freeze` 단계로 한 단계 넘긴다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notables_Register.md`, `audit/Section_15_Named_Notables_Anchor_Map.md`, `audit/Section_15_Folder_Draft_Routing_Plan.md`의 triad 앵커 문구 통일
+- `audit/Section_15_Foldering_Test_Crimson.md`, `audit/Section_15_Stable_Candidate_Profile_QA.md`, `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`의 현재 단계 문구를 consistency check 기준으로 이동
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 stable 15 triad consistency check 마감 후 commit/push 여부 판단
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Stable 15 Register Consistency Pass
+
+목적:
+
+- stable 15 triad 개별 시트와 중앙 등록부의 문구 강도를 맞춘다.
+- `strong candidate -> 즉시 승격`처럼 읽히는 표현을 현재 canon-safe 수준으로 낮춘다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Aristotle`, `Carson` read-only consistency scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Aristotle` | Register Consistency Scout A | `울프가르`, `에리온` 개별 시트와 요약 장부 사이 문구 강도 비교 | `timed_out -> conductor local evidence fallback` |
+| `Carson` | Register Consistency Scout B | `오그마` 및 stable triad 전체의 register wording drift 비교 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `Section_15_Named_Notables_Register.md`와 triad 개별 시트를 직접 교차 읽어 register 쪽 문구가 과하게 승격형인지 확인한다.
+- `울프가르`, `에리온`은 `stable_workset + grade/name caution`, `오그마`는 `stable_workset + act_watch` 수준으로 낮춰 시트와 register의 강도를 맞춘다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notables_Register.md`의 triad 행을 현재 hardening 상태에 맞게 조정
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 register consistency pass 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 stable 15 triad의 최종 consistency check 또는 commit/push 판단
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Stable 15 Triad Global Consistency Lock
+
+목적:
+
+- stable 15 triad hardening 결과를 앵커맵, 라우팅 플랜, 크림슨 감사표까지 같은 강도로 동기화한다.
+- `즉시 승격`처럼 읽히는 잔여 요약 문구를 현재 canon-safe route freeze 상태로 정리한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Galileo`, `Socrates` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Galileo` | Anchor / Route Drift Scout | `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Folder_Draft_Routing_Plan.md`의 triad 앵커 / route wording drift 점검 | `completed -> conductor integrated safe phrasing` |
+| `Socrates` | Audit / Workstream Drift Scout | `Section_8_Crimson_Notable_Anchor_Audit.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`의 stale next-action wording 점검 | `completed/closed -> conductor local evidence lock` |
+
+Conductor action:
+
+- `울프가르`, `에리온`, `오그마`의 현재 상태를 `stable_15_workset + caution / act_watch` 기준으로 요약 문서까지 통일한다.
+- `에리온` 상위 앵커는 `엘드라칸 / 학술-전승층`, `오그마` 상위 앵커는 `엘드라칸 / 전승 보관층`으로 고정한다.
+- 다음 메인 본선 문구는 `triad consistency lock 완료 -> commit/push 판단 또는 엘다라 consistency sweep`으로 넘긴다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notables_Anchor_Map.md`의 triad 행을 hardening 기준으로 보정
+- `audit/Section_15_Folder_Draft_Routing_Plan.md`의 triad route state와 conductor decision을 현재 단계로 갱신
+- `audit/Section_8_Crimson_Notable_Anchor_Audit.md`, `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`의 stale next-action 문구를 현재 기준으로 정리
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 commit/push 여부 판단 또는 `엘다라` consistency sweep
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Eldara Support-Candidate Consistency Sweep
+
+목적:
+
+- `엘다라`의 개별 시트 강도와 중앙 요약 문서의 강도를 맞춘다.
+- `정령연합 전체 14 확인 전 Hard Canon 보류` 규칙이 register / anchor / compass / workstream에 동일하게 보이게 한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Noether`, `Popper` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Noether` | Eldara Summary Drift Scout | `Section_15_Named_Notable_Eldara.md`, `Register`, `Anchor Map`, `8 Anchor Index`, `Status Compass`의 wording drift 점검 | `running during write -> conductor local evidence lock` |
+| `Popper` | Ether Follow-up Drift Scout | `Ether Search Synthesis`, `Next`, `Continuous`의 next-action / hold wording 점검 | `running during write -> conductor local evidence lock` |
+
+Conductor action:
+
+- `엘다라`를 `named_notable_candidate / verify_source_before_profile` 상태의 가장 강한 보조 후보로 요약 문서에 통일한다.
+- `정령연합 전체 14 확인 전 Hard Canon 승격 보류`를 register, anchor, compass, workstream에 같은 강도로 반영한다.
+- 다음 실제 작업선을 `엘다라 sweep 완료 -> commit/push 판단`으로 넘긴다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notables_Register.md`, `audit/Section_15_Named_Notables_Anchor_Map.md`, `audit/Section_15_Named_Notables_Status_Compass.md`의 엘다라 행과 요약 메모를 보정
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`의 다음 작업선을 commit/push 판단으로 이동
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 commit/push 여부 판단
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류

@@ -22,7 +22,7 @@
 |---|---|---|---|
 | Crimson | `strongest` | 용, 대장간, 고대 현자, 부족/제국 잔재 명사층이 이미 강하다. | 실제 15번 폴더링 시험에 가장 적합하다. |
 | Ether | `thin with strong place-institution slots` | 마법협회 탑주, 성국 도서관/성채, 정령연합 의식/계약 슬롯이 강하지만 14번 중복 위험이 크다. 장소-기관 슬롯은 먼저 보존한다. | 표면명 보정 후 14번 중복 확인. |
-| Frost | `thin with strong place-institution slots` | 인물 확정보다 오로라 평원, 얼음무덤 언덕, 아이스포지 병기소, 빙하의 성소 슬롯이 강하다. | 14 검증 후 역할 슬롯 보강. |
+| Frost | `thin with strong place-institution slots` | 인물 확정보다 오로라 평원, 얼음무덤 언덕, 아이스포지 병기소, 빙하의 성소 슬롯이 강하다. unnamed slot 6개는 direct holder 없이 role slot 유지로 한 번 닫혔다. | 새 인물 회수보다 closure sync가 우선이다. |
 | Oceanic | `thin with many boundary signals and strong place-institution slots` | 후보 이름은 많지만 제독, A급, 히어로급 신호가 많다. 신탁 방주, 해로 장부관, 흑조 감정관, 심연 장부관 슬롯은 보존한다. | 성급한 15 확정 금지. |
 | Obelisk | `thin with dense archive slots` | 기록, 기억, 묘역, 봉인, 사후 행정 명사층이 강하다. | 기록/기관 기억 축으로 보강. |
 | Supranational | `deferred expansion` | 후기 확장 구역이라 강한 후보도 바로 중심축으로 올리지 않는다. | 이름 톤과 앵커 안정화 뒤 처리. |
@@ -112,17 +112,17 @@ Conductor decision:
 
 | Slot | State | Note |
 |---|---|---|
-| 전승 보존회 원로 사냥꾼 | `need_named_candidate` | 생존 지식과 전승 보존 기능. |
-| 묘지기 장로 | `need_named_candidate` | 죽음/기억/공동체 의례 기능. |
-| 대예언자 | `need_named_candidate` | 예언과 의식 권위. |
-| 수석 기술자 / 드워프 장인 | `need_named_candidate` | 공방/기술 명사층. |
-| 별의 샤먼 | `need_named_candidate` | 하늘/징조/부족 의식 기능. |
-| 아이스포지 병기소 장인 | `need_named_candidate` | 무구/공방/방어선 기능. |
+| 전승 보존회 원로 사냥꾼 | `need_named_candidate / role_slot_confirmed` | 생존 지식과 전승 보존 기능. |
+| 묘지기 장로 | `need_named_candidate / role_slot_confirmed` | 죽음/기억/공동체 의례 기능. |
+| 대예언자 | `need_named_candidate / role_slot_confirmed` | 예언과 의식 권위. |
+| 수석 기술자 / 드워프 장인 | `need_named_candidate / role_slot_confirmed` | 공방/기술 명사층. |
+| 별의 샤먼 | `need_named_candidate / role_slot_confirmed` | 하늘/징조/부족 의식 기능. |
+| 아이스포지 병기소 장인 | `need_named_candidate / role_slot_confirmed` | 무구/공방/방어선 기능. |
 
 Conductor decision:
 
 프로스트는 새 이름을 만들기보다 역할 슬롯을 유지하고,
-14번 후보 중복 여부를 더 확인한 뒤 15번 명사층을 확정한다.
+unnamed slot 6개를 한 번 닫은 상태에서 14번 후보 중복 여부를 더 확인한 뒤 15번 명사층을 확정한다.
 
 ## Oceanic
 
@@ -219,9 +219,9 @@ Conductor decision:
 
 ## Next Priority
 
-1. `Ether` 마법협회 / 성국 / 정령연합 쪽 장소-기관 슬롯 표면명 기본값을 잠갔고, low-priority auxiliary slot만 읽기 전용 확인 대상으로 남긴다.
-2. `Crimson` 안정 후보로 실제 `15번 폴더링 시험`을 준비한다.
-3. `Frost / Oceanic / Obelisk`는 장소-기관 슬롯을 유지하고, 14번 중복 신호 검증 뒤 확정한다.
+1. `Crimson` 안정 후보 3명을 실제 `15번 시트 hardening / 폴더링 시험` 본선으로 올린다.
+2. `엘다라`는 보조 후보로 유지하되 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
+3. `Frost / Oceanic / Obelisk`는 장소-기관 슬롯을 유지한 채 closure 상태를 보존하고, 14번 중복 신호 검증 뒤 확정한다.
 4. `Supranational`은 후기 확장 구역으로 보류한다.
 
 ## Compressed Status
@@ -233,4 +233,4 @@ Conductor decision:
 - 크림슨은 안정 후보 3명만 실제 15 시트 시험에 사용한다.
 - 에테르, 해양, 오벨리스크는 2차 근거 보강을 마쳤고 새 15 확정자는 만들지 않는다.
 - 프로스트, 해양, 에테르의 역할 슬롯은 장소-기관 중심으로 정리했다.
-- 이번 배치에서 에테르 슬롯의 표면명 기본값을 잠갔고, 다음 배치는 압축표와 색인 초안에 이 잠금을 반영한다.
+- 이번 배치에서 프로스트 unnamed slot 6개 closure까지 반영됐고, 다음 배치는 `울프가르`, `에리온`, `오그마`의 실제 15 시트 hardening / 폴더링 시험이다.

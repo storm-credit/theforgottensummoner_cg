@@ -10,7 +10,10 @@
 - type:
   - `Named Notable`
 - current judgment:
-  - `strong_15`
+  - `named_notable_candidate`
+  - `grade_caution`
+  - `name_collision_watch`
+  - `route_test_ok`
 
 ## 1-1. Archive Routing
 
@@ -28,6 +31,19 @@
   - `관리자`
 - routing_state:
   - `route_test_ok`
+
+## 1-2. Hardening Guard
+
+- stable_working_state:
+  - `stable_15_workset`
+- hard_canon_state:
+  - `defer_until_14_check`
+- boundary_guard:
+  - A급/세력 핵심표/기록관 신호가 실제 14 독립 파일로 이어지면 즉시 15 확정을 멈춘다.
+- merge_guard:
+  - `에리온 베르날리스`와 병합하지 않고, `에리온 드라코비스`의 크림슨 앵커를 우선 유지한다.
+- place_function_lock:
+  - `엘드라칸 학자 구역`은 학술 anchor, `용언 도서관`은 기록/번역 anchor로 유지한다.
 
 ## 2. Why Remembered
 
@@ -68,6 +84,12 @@
   - `enemy`
   - 지워진 역사나 봉인된 기록을 노리는 자들과 충돌한다.
 
+## 5-1. Boundary / Collision Guard
+
+- 현재 읽기는 `엘드라칸의 대표 대현자형 명사`이지 `14 중심 영웅` 확정이 아니다.
+- A급/세력 핵심표 신호는 경계 주의로만 보존하고, 실제 14 독립 파일 확인 전 Hard Canon 승격을 보류한다.
+- `에리온 베르날리스`와는 기존 name collision watch를 유지하며 병합하지 않는다.
+
 ## 6. Archive Use
 
 - `14 중심 영웅`보다 `15 Named Notables`에 둘 때
@@ -80,6 +102,7 @@
   - 엘드라칸의 대표 대현자형 인물이라는 점
   - 용언 도서관과 강하게 결합된다는 점
 - 14와 겹칠 위험:
-  - 현재 작업본 기준 `낮음`
+  - 현재 작업본 기준 `grade_caution`
 - 나중에 더 읽어야 할 것:
   - 독자 문서가 실제로 어느 정도 전투/영웅 서사까지 갖는지
+  - `에리온 베르날리스`와 병합 금지 상태를 계속 유지할 것

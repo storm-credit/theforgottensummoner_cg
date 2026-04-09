@@ -32,12 +32,12 @@
 
 | Slot | Anchor | Function | State |
 |---|---|---|---|
-| `전승 보존회 원로 사냥꾼` | `오로라 평원 / 전승 보존회` | 이동 경로, 생존 기술, 구전 전승 회수. | `need_named_candidate` |
-| `묘지기 장로` | `얼음무덤 언덕` | 죽은 자의 기록, 족보, 잊힌 전설/유물 단서. | `need_named_candidate` |
-| `대예언자` | `오로라 평원 / 겨울회의 의장막` | 하늘 징조, 운명 예언, 부족 결의 중재. | `need_named_candidate` |
-| `수석 기술자 / 드워프 장인` | `푸른 폭풍 요새` | 방어선, 생산 구역, 공성 병기 제작. | `need_named_candidate` |
-| `별의 샤먼` | `오로라 평원` | 오로라 징조 해석, 의식 전파. | `need_named_candidate` |
-| `아이스포지 병기소 장인` | `퍼마프로스트 요새 / 아이스포지 병기소` | 얼음 공성심장, 냉기 병기, 공방 전승. | `need_named_candidate` |
+| `전승 보존회 원로 사냥꾼` | `오로라 평원 / 전승 보존회` | 이동 경로, 생존 기술, 구전 전승 회수. | `need_named_candidate / role_slot_confirmed` |
+| `묘지기 장로` | `얼음무덤 언덕` | 죽은 자의 기록, 족보, 잊힌 전설/유물 단서. | `need_named_candidate / role_slot_confirmed` |
+| `대예언자` | `오로라 평원 / 겨울회의 의장막` | 하늘 징조, 운명 예언, 부족 결의 중재. | `need_named_candidate / role_slot_confirmed` |
+| `수석 기술자 / 드워프 장인` | `푸른 폭풍 요새` | 방어선, 생산 구역, 공성 병기 제작. | `need_named_candidate / role_slot_confirmed` |
+| `별의 샤먼` | `오로라 평원` | 오로라 징조 해석, 의식 전파. | `need_named_candidate / role_slot_confirmed` |
+| `아이스포지 병기소 장인` | `퍼마프로스트 요새 / 아이스포지 병기소` | 얼음 공성심장, 냉기 병기, 공방 전승. | `need_named_candidate / role_slot_confirmed` |
 
 ## Place / Institution Anchors
 
@@ -58,10 +58,13 @@
 
 - `시그리드`, `마리안`, `울프릭`은 15 후보가 아니라 `verify_before_15`.
 - `프리야`, `카이라`는 고위 지도부 신호 때문에 `keep_14_or_verify`.
-- 이름 없는 슬롯들은 후속 설정에서 개인명이 확인될 때까지 역할 슬롯으로만 보존한다.
+- `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`은 1차 read-only narrowing에서도 direct named holder가 없어 역할 슬롯으로만 보존한다.
+- `아이스포지 병기소 장인`도 2차 narrowing에서 named artisan 없이 workshop slot으로 확인돼 역할 슬롯으로만 보존한다.
+- `시그리드 프로스트하트`는 공성단장 adjacency, `브로만 아이스포지`는 불법 장인 축이라 둘 다 direct holder로 올리지 않는다.
 
 ## Next Action
 
-프로스트는 이제 다음 mainline으로 올린다.
+프로스트 unnamed slot 6개 read-only narrowing을 한 번 닫는다.
 
-다음 배치는 `전승 보존회 원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼` read-only narrowing이다.
+다음 배치는 새 인물 회수가 아니라
+프로스트 closure 결과를 5대륙 압축표와 진행표에 다시 동기화하는 것이다.

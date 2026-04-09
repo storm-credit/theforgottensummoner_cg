@@ -10,7 +10,9 @@
 - type:
   - `Named Notable`
 - current judgment:
-  - `strong_15`
+  - `named_notable_candidate`
+  - `grade_caution`
+  - `route_test_ok`
 
 ## 1-1. Archive Routing
 
@@ -28,6 +30,19 @@
   - `무구 제작`
 - routing_state:
   - `route_test_ok`
+
+## 1-2. Hardening Guard
+
+- stable_working_state:
+  - `stable_15_workset`
+- hard_canon_state:
+  - `defer_until_14_check`
+- boundary_guard:
+  - A급/전설 영웅록 신호가 실제 14 독립 파일로 이어지면 즉시 15 확정을 멈춘다.
+- merge_guard:
+  - `울프가르` 계열 이름 충돌은 계속 감시하고, 타 대륙 동명이인과 병합하지 않는다.
+- place_function_lock:
+  - `드래곤포지`는 장인/단조 anchor, `프라이멀 엠버`는 재료/화염 전승 anchor로 유지한다.
 
 ## 2. Why Remembered
 
@@ -69,6 +84,12 @@
   - `enemy`
   - 진짜 장인과 위조 장인의 대비축을 만들 수 있다.
 
+## 5-1. Boundary / Collision Guard
+
+- 현재 읽기는 `용의 후예의 대표 장인형 명사`이지 `14 중심 영웅` 확정이 아니다.
+- A급/전설 영웅록 신호는 경계 주의로만 보존하고, 실제 14 독립 파일 확인 전 Hard Canon 승격을 보류한다.
+- `울프가르` 이름군은 기존 collision ruling을 유지하며 타 대륙 인물과 병합하지 않는다.
+
 ## 6. Archive Use
 
 - `14`보다 `15 Named Notables`에 둘 때
@@ -81,6 +102,7 @@
   - 용의 후예 쪽 대표 장인 명사라는 점
   - 드래곤포지와 프라이멀 엠버에 강하게 묶인다는 점
 - 14와 겹칠 위험:
-  - 현재 작업본 기준 `중간 이하`
+  - 현재 작업본 기준 `grade_caution`
 - 나중에 더 읽어야 할 것:
   - 독자 문서에서 전투 비중이 얼마나 큰지
+  - A급/전설 영웅록 신호가 실제 14 독립 파일로 이어지는지

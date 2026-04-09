@@ -140,8 +140,8 @@
 이번 턴에서 해양 잔여 unnamed slot read-only pass를 마쳤다.
 
 다음 실제 작업은 실제 원고 입력이 없으면
-`프로스트`를 다음 메인 본선으로 올리고,
-`원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼`을 read-only로 좁히는 것이다.
+stable 15 triad consistency lock과 `엘다라` consistency sweep 완료 상태를 기준으로
+commit/push 여부를 판단하는 것이다.
 
 실제 원고 입력이 생기면
 그때 seed가 아니라 live handoff case로 승격한다.
@@ -188,15 +188,23 @@
 - 이번 턴에서 `기록의 수호자`, `오벨리스크 관측대장`이 각각 `베스 / 이안`과 강하게 연결되지만 direct holder로는 확정되지 않는다는 점을 잠갔고, `기억 경매장 중개자`, `사후 서기관`은 direct holder 없이 role slot 유지로 잠갔다.
 - 이번 턴에서 `신성 기록소 관리 사제`, `묘역 감독관`은 single named holder 없이 role slot 유지로 닫혔다.
 - `기억 지기`는 `렌 / 라일` 복수 holder 구조, `심연 계약 중개자`는 `루가르` strong-link verify 상태로 잠갔다.
-- 따라서 오벨리스크 핵심 slot narrowing은 2차까지 한 번 닫혔고, 다음 batch는 `프로스트`를 실제 mainline으로 올리는 편이 더 효율적이다.
-- `프로스트`는 `대예언자`, `원로 사냥꾼`, `묘지기 장로`, `별의 샤먼`이 모두 원로단/지도부/전설 신호와 가깝지만, 이번 턴은 인물 확정이 아니라 place-first role slot read만 하므로 오염을 통제할 수 있다.
+- 따라서 오벨리스크 핵심 slot narrowing은 2차까지 한 번 닫혔고, 다음 batch는 `프로스트`를 실제 mainline으로 올리는 편이 더 효율적이라고 판정했다.
+- 이번 턴에서 `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼`은 모두 place-first read-only pass로 direct named holder 없이 닫혔다.
+- `아이스포지 병기소 장인`도 `퍼마프로스트 요새 / 아이스포지 병기소`의 workshop-led slot으로만 확인됐고, `시그리드`나 `브로만 아이스포지`와 병합하지 않았다.
+- 따라서 프로스트 unnamed slot 6개 read-only narrowing은 한 번 closure 상태로 본다.
+- 이 상태에서 새 대륙 narrowing보다 `울프가르`, `에리온`, `오그마`의 실제 15 시트 consistency check와 route freeze가 ROI가 가장 높다고 판정했다.
+- `엘다라`는 보조 후보로 유지하되 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
 
 ## Engine Upgrade Next
 
 엔진 쪽 다음 우선순위:
-1. `프로스트` next narrowing batch 실행: `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼`
+1. `울프가르`, `에리온`, `오그마` stable 15 triad consistency lock은 완료 상태로 보고 commit/push 여부를 판단
 2. `오벨리스크`는 `렌/라일`, `루가르` strong-link note를 유지한 채 closure sync만 추가
-3. 실제 원고 입력이 생기면 handoff seed가 아니라 live handoff case로 승격
+3. `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+4. stable 15 triad 시트에는 `Hardening Guard`와 `Boundary Guard`를 직접 넣어 본선 문구를 더 단단히 잠금
+5. `Section_15_Named_Notables_Register.md`, `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Folder_Draft_Routing_Plan.md`까지 triad를 `stable_workset + caution / act_watch` 문구로 정렬
+6. `엘다라` consistency sweep까지 마친 뒤 다음 배치는 commit/push 판단을 우선한다
 
 ## Parallel Side Track
 

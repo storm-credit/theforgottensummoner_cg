@@ -164,6 +164,17 @@
 103. `심연 계약 중개자`는 `루가르 드 바네스카` strong-link verify 상태로 잠그고 direct final merge는 보류
 104. 다음 메인 본선은 `프로스트`로 고정
 105. 프로스트 next narrowing batch는 `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼` read-only 확인
+106. 프로스트 1차 narrowing에서 `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼`은 모두 direct named holder 없이 role slot 유지
+107. 프로스트 2차 narrowing에서 `아이스포지 병기소 장인`도 `퍼마프로스트 요새 / 아이스포지 병기소` workshop slot으로 확인되고 direct named holder 없이 role slot 유지
+108. `시그리드 프로스트하트`는 공성단장 adjacency, `브로만 아이스포지`는 불법 장인 축이라 `아이스포지 병기소 장인` direct holder로 병합하지 않음
+109. 프로스트 unnamed slot 6개 read-only narrowing이 한 번 닫혀 전역 closure sync가 가능해짐
+110. 전역 closure sync 이후 다음 메인 본선은 `울프가르`, `에리온`, `오그마` stable 15 sheet hardening / foldering test로 이동
+111. `엘다라`는 보조 후보로 유지하되 정령연합 전체 14 확인 전 Hard Canon 승격은 보류
+112. `울프가르`, `에리온`, `오그마` 시트 본문에 `Hardening Guard`, `Boundary Guard`, `place_function_lock`을 직접 추가해 본선 문구를 강화
+113. triad consistency pass에서 `에리온 = 엘드라칸 / 학술-전승층`, `오그마 = 엘드라칸 / 전승 보관층` 기준을 더 선명하게 맞춤
+114. `Section_15_Named_Notables_Register.md`의 triad 행도 `promote_to_named_notables`에서 `stable_workset + caution` 문구로 정렬해 시트와 등록부의 강도 차이를 제거
+115. `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_8_Crimson_Notable_Anchor_Audit.md`도 triad consistency lock 기준으로 동기화
+116. stable 15 triad consistency lock에 이어 `엘다라` consistency sweep도 완료했고, 다음 메인 본선은 commit/push 판단 단계로 넘긴다
 
 ## Conductor Rule
 

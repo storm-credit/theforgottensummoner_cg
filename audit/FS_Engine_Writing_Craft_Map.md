@@ -44,6 +44,7 @@
 - `Relationship Network`
 - `Plausibility`
 - `Expansion Control`
+- `Episode Volume Gate`
 
 이 층의 질문:
 
@@ -52,6 +53,7 @@
 3. 이 관계는 왜 엇갈리는가
 4. 이 액트는 무엇을 감정적으로 끝내는가
 5. 이 확장은 메인 줄기를 해치지 않는가
+6. 이 회차는 최소 분량 기준을 넘겼는가
 
 ### Mode 3. Media Brief / Review
 
@@ -126,6 +128,16 @@
   - `Naming Normalization`
   - `Canon Tier`
 
+### 회차 / 에피소드 집필
+
+- 먼저:
+  - `Episode Volume Gate`
+  - `Scene and Consequence Engine`
+  - `Character Arc`
+- 그다음:
+  - `Reverse Design`
+  - `Plausibility`
+
 ## Core Understanding
 
 FS 엔진은
@@ -138,6 +150,7 @@ FS 엔진은 동시에
 - 운영 실무 라인인가
 - 이 관계가 살아 있는가
 - 이 복선이 나중에 회수될 가치가 있는가
+- 이 회차가 분량 미달 없이 독립적으로 서는가
 
 를 판단하는 `작법 엔진`이다.
 
@@ -153,5 +166,6 @@ FS 엔진은 동시에
 - 개연성을 심사하고
 - 복선을 심고
 - 회수 경로를 남기는
+- 분량 미달 회차를 재작성으로 되돌리는
 
 지휘자다.

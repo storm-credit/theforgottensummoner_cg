@@ -133,6 +133,8 @@
 - `audit/Section_15_Frost_Display_Canon_Candidates.md`
 - `audit/Section_15_Frost_Core_Register_Link.md`
 - `audit/Section_15_Frost_Need_Named_Candidate_Index.md`
+- `audit/Section_15_Frost_Search_Findings_Batch_01.md`
+- `audit/Section_15_Frost_Search_Findings_Batch_02.md`
 - `audit/Section_15_Named_Notables_Oceanic_Scout.md`
 - `audit/Section_14_15_Oceanic_Boundary_Batch_02.md`
 - `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`

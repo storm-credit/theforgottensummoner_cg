@@ -10,7 +10,8 @@
 - type:
   - `Named Notable`
 - current judgment:
-  - `strong_15`
+  - `named_notable_candidate`
+  - `route_test_ok`
 
 ## 1-1. Archive Routing
 
@@ -28,6 +29,19 @@
   - `조언자`
 - routing_state:
   - `route_test_ok`
+
+## 1-2. Hardening Guard
+
+- stable_working_state:
+  - `stable_15_workset`
+- hard_canon_state:
+  - `soft_open_with_act_watch`
+- boundary_guard:
+  - 특정 연대기 개입도나 Act 중심성이 급격히 커지면 14 경계를 다시 점검한다.
+- merge_guard:
+  - 현 시점에 직접적인 동명이인 충돌은 없지만, 고룡/전승 존재를 영웅 주연축으로 과상승시키지 않는다.
+- place_function_lock:
+  - `몽상가의 바위`는 대면/조언 anchor, `지혜의 샘`은 기억/전승 anchor로 유지한다.
 
 ## 2. Why Remembered
 
@@ -66,6 +80,12 @@
   - `enemy`
   - 너무 많은 기억을 알고 있다는 이유만으로 표적이 될 수 있다.
 
+## 5-1. Boundary Guard
+
+- 현재 읽기는 `엘드라칸의 전승 보관자형 명사`이며, 강한 주연 영웅축으로 밀지 않는다.
+- 특정 Act 핵심 개입도가 커질 경우에만 14 경계를 다시 연다.
+- 현 단계에서는 셋 중 가장 안정적이지만, 그 안정성은 `느린 조언자 / 살아있는 도서관` 읽기 위에서만 유지된다.
+
 ## 6. Archive Use
 
 - `14 중심 영웅`보다 `15 Named Notables`에서
@@ -78,6 +98,7 @@
   - 엘드라칸의 대표 전승 존재라는 점
   - 몽상가의 바위와 지혜의 샘에 강하게 묶인다는 점
 - 14와 겹칠 위험:
-  - 현재 작업본 기준 `낮음`
+  - 현재 작업본 기준 `낮음, 단 Act 중심성 급상승 시 재점검`
 - 나중에 더 읽어야 할 것:
   - 특정 연대기 개입도가 얼마나 큰지
+  - 영웅 주연축으로 과상승하지 않는지

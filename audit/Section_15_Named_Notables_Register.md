@@ -18,14 +18,14 @@
 |---|---|---|---|---|---|---|---|
 | `멜리산드르` | `플라스크의 여제 / 수석 대약제사` | `키르케 영약회` | `연금술사 / 약제사` | `verify_before_15` | `14 crossover risk` | `hold_for_dual_review` | 세력 최고위이자 S+급이라 명사형이지만 14와 겹칠 가능성이 높다. |
 | `실비아` | `고통의 기록자 / 시약 계량관` | `키르케 영약회` | `기록자 / 약제사` | `named_notable_candidate` | `strong 15 notable candidate` | `promote_to_named_notables` | 영웅성보다 기록과 계량 기능, 조직 기억 축이 강하다. |
-| `울프가르 드래곤포지` | `용의 대장장이 / 공방장` | `용의 후예` | `대장장이 / 공방주` | `named_notable_candidate` | `strong 15 notable candidate` | `promote_to_named_notables` | 이름난 장인형 인물로, 게임식 유명 NPC 감각이 강하다. |
-| `에리온 드라코비스` | `고대어 해석가 / 대현자 / 관리자` | `엘드라칸 / 용의 후예` | `현자 / 기록자` | `named_notable_candidate` | `strong 15 notable candidate` | `promote_to_named_notables` | 대현자, 해석가, 관리자 역할이 모두 명사형 NPC에 가깝다. |
-| `오그마` | `고룡 / 살아있는 도서관` | `엘드라칸` | `현자 / 전승 보관자` | `named_notable_candidate` | `strong 15 notable candidate` | `promote_to_named_notables` | 조언자형 전승 존재로, 이름값과 세계관 심도가 높다. |
+| `울프가르 드래곤포지` | `용의 대장장이 / 공방장` | `용의 후예` | `대장장이 / 공방주` | `named_notable_candidate / grade_caution / stable_15_workset` | `stable 15 candidate with grade caution` | `continue_sheet_hardening_then_recheck_14` | 이름난 장인형 인물로 강한 15 후보지만 A급/전설 영웅록 신호가 있어 Hard Canon 승격은 보류한다. |
+| `에리온 드라코비스` | `고대어 해석가 / 대현자 / 관리자` | `엘드라칸 / 학술-전승층` | `현자 / 기록자` | `named_notable_candidate / grade_caution / name_collision_watch / stable_15_workset` | `stable 15 candidate with grade caution` | `consistency_check_then_recheck_14` | 대현자, 해석가, 관리자 역할이 모두 명사형 NPC에 가깝지만 A급/세력 핵심표 신호와 `에리온 베르날리스` 충돌 감시를 유지한다. |
+| `오그마` | `고룡 / 살아있는 도서관` | `엘드라칸 / 전승 보관층` | `현자 / 전승 보관자` | `named_notable_candidate / stable_15_workset / act_watch` | `stable 15 candidate` | `consistency_check_with_act_watch` | 조언자형 전승 존재로 이름값과 세계관 심도가 높다. 다만 특정 Act 중심성 급상승 시 14 경계를 다시 점검한다. |
 | `드락사르 블레이즈포지` | `불꽃 연금술사` | `용의 후예` | `연금술사 / 공방주` | `verify_before_15` | `borderline 14-15` | `review_after_named_seed` | 유명 장인/연금술사 감각이 강하지만 전투 서열에도 걸쳐 있다. |
 | `카사르 더 시어` | `용의 예언자 / 최고 조언자` | `용의 후예` | `현자 / 예언자` | `verify_before_15` | `14 crossover risk` | `hold_for_dual_review` | 예언자이자 조언자지만 현재 자료상 영웅축 비중이 높다. |
 | `벨라나 스톰브링어` | `현자 회의 소속 주술사 / 사제 / 고고학자 / 폭풍의 여왕` | `붉은 사막 부족` | `현자 / 기록자 / 대주술사` | `verify_before_15` | `SS-grade hero signal` | `hold_until_14_check` | 현자 회의 축이라 15 가치가 있지만 SS급, 정신적 지도자, 모래폭풍 결계 신호가 강하다. |
 | `아리안 블레이즈하트` | `현자 회의 소속 / 불의 사제` | `붉은 사막 부족` | `현자 / 전승 보존자 / 대사제` | `verify_before_15` | `S-grade hero signal` | `hold_until_14_check` | 사막 부족 현자층 가치가 있지만 S급, 대사제, 정신적 지도자 신호가 강하다. |
-| `엘다라` | `대현자 / 고대 정령어 권위자 / 의장` | `정령연합 / 루미라` | `현자 / 언어 권위자` | `named_notable_candidate` | `named notable candidate` | `collect_more_context` | 에테르 정령연합 내부의 부족/전승층을 사람 얼굴로 보강한다. |
+| `엘다라` | `대현자 / 고대 정령어 권위자 / 의장` | `정령연합 / 루미라` | `현자 / 언어 권위자` | `named_notable_candidate / verify_source_before_profile` | `secondary stable 15 support candidate` | `keep_as_support_candidate_until_spirit_union_14_review` | 에테르 정령연합 내부의 부족/전승층을 사람 얼굴로 보강하는 가장 강한 보조 후보다. 다만 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다. |
 | `울프릭` | `빙하의 주술사 / 부족의 장로` | `프로스트본 연합 / 전설적 주술 영웅록` | `주술사 / 장로` | `verify_before_15` | `legendary herobook signal` | `hold_until_14_check` | 명사형 가치가 있지만 전설 영웅록 출처라 15 확정 금지. |
 | `시그리드 프로스트하트` | `퍼마프로스트 공성단장 / 냉기 공성 기술자` | `프로스트본 연합 / 퍼마프로스트 공성단` | `공성 장인 / 마도공학 / 지휘관` | `verify_before_15` | `strong role-slot but possible 14 signal` | `hold_until_14_check` | 공방주와 전술 기술자 명사 가치가 크지만 공성단장 신호가 있어 14 확인 전 15 확정 금지. |
 | `마리안 더 윈터콜러` | `오로라 평원의 A급 정령술사` | `프로스트본 연합 / 오로라 평원` | `정령술사 / 주술사` | `verify_before_15` | `possible 14 signal` | `hold_until_14_check` | 오로라 평원 명사 가치가 있으나 A급 영웅 신호가 강하다. |

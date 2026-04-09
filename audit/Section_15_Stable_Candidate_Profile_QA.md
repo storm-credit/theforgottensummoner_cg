@@ -14,9 +14,9 @@
 
 | Candidate | Archive Routing | Section 8 Anchor | 14 Boundary Note | Name Collision Note | Current Result |
 |---|---|---|---|---|---|
-| `울프가르 드래곤포지` | `present` | `크림슨 / 용의 후예 / 드래곤포지` | `A급/전설 영웅록 신호 확인` | `Wolfgar 다중 이름 충돌` | `pass_with_grade_caution` |
-| `에리온 드라코비스` | `present` | `크림슨 / 엘드라칸 / 용언 도서관` | `A급/기록관/세력 핵심표 신호 확인` | `Erion 다중 이름 충돌` | `pass_with_grade_caution` |
-| `오그마` | `present` | `크림슨 / 엘드라칸 / 몽상가의 바위 / 지혜의 샘` | `낮음` | 없음 | `pass` |
+| `울프가르 드래곤포지` | `present` | `크림슨 / 용의 후예 / 드래곤포지` | `A급/전설 영웅록 신호 확인` | `Wolfgar 다중 이름 충돌` | `pass_with_grade_caution / hardening_guard_added` |
+| `에리온 드라코비스` | `present` | `크림슨 / 엘드라칸 / 용언 도서관` | `A급/기록관/세력 핵심표 신호 확인` | `Erion 다중 이름 충돌` | `pass_with_grade_caution / hardening_guard_added` |
+| `오그마` | `present` | `크림슨 / 엘드라칸 / 몽상가의 바위 / 지혜의 샘` | `낮음` | 없음 | `pass / hardening_guard_added` |
 | `엘다라` | `present` | `에테르 / 정령연합 / 루미라` | `정령연합 전체 14 확인 전 Hard Canon 금지` | 없음 | `pass_with_source_caution` |
 | `실비아` | `added_this_batch` | `범대륙 후기 확장 / 키르케 영약회 / 고통의 증류탑` | `낮음` | `실비아 다중 충돌` | `pass_with_deferred_zone` |
 
@@ -34,6 +34,12 @@
 
 현재 안정 후보 5명의 시트는 설계 단계에서 사용할 수 있다.
 
+이번 배치에서 `울프가르`, `에리온`, `오그마` 시트에는
+`Hardening Guard`, `Boundary Guard`, `place_function_lock` 계열 문구를 직접 추가했다.
+
 실제 15번 폴더 이동은 아직 하지 않는다.
-다음 작업은 8번 세력 spine 쪽으로 돌아가
-`범대륙 후기 확장`이 메인 흐름을 흔들지 않도록 별도 보류선을 더 분명히 하는 것이다.
+다음 작업은 `울프가르`, `에리온`, `오그마` 3명을 기준으로
+개별 시트와 요약 장부의 consistency check를 끝내고 commit/push 여부를 판단하는 것이다.
+
+`엘다라`는 보조 후보로 유지하되,
+정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
