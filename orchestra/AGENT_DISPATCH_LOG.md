@@ -1984,8 +1984,8 @@ Follow-up actions:
 
 | Agent | Role | Scope | Status |
 |---|---|---|---|
-| `Noether` | Eldara Summary Drift Scout | `Section_15_Named_Notable_Eldara.md`, `Register`, `Anchor Map`, `8 Anchor Index`, `Status Compass`의 wording drift 점검 | `running during write -> conductor local evidence lock` |
-| `Popper` | Ether Follow-up Drift Scout | `Ether Search Synthesis`, `Next`, `Continuous`의 next-action / hold wording 점검 | `running during write -> conductor local evidence lock` |
+| `Noether` | Eldara Summary Drift Scout | `Section_15_Named_Notable_Eldara.md`, `Register`, `Anchor Map`, `8 Anchor Index`, `Status Compass`의 wording drift 점검 | `completed/closed -> conductor local evidence lock` |
+| `Popper` | Ether Follow-up Drift Scout | `Ether Search Synthesis`, `Next`, `Continuous`의 next-action / hold wording 점검 | `completed/closed -> conductor local evidence lock` |
 
 Conductor action:
 
@@ -2002,3 +2002,274 @@ Follow-up actions:
 
 - 메인 본선 다음 실제 작업은 commit/push 여부 판단
 - `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Post-Push Folder Draft Structure Turnover
+
+목적:
+
+- commit/push까지 끝난 뒤 다음 실제 메인 본선을 stable triad actual folder draft structure 검토로 넘긴다.
+- `route freeze`와 `실제 폴더 초안 구조` 단계를 문서상 명확히 분리한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: ambiguity가 낮아 conductor local evidence turnover로 처리
+- `Hooks`: `pre_scope_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+Conductor action:
+
+- `Section_15_Folder_Structure_Draft.md`를 stable triad actual draft 기준으로 갱신한다.
+- `Foldering Test Crimson`, `Stable Candidate Profile QA`, `Status Compass`, `Next`, `Continuous`를 post-push 단계에 맞게 이동한다.
+- `엘다라`는 여전히 separate hold로 유지해 triad actual draft에 즉시 합류시키지 않는다.
+
+Integrated actions:
+
+- `audit/Section_15_Folder_Structure_Draft.md`를 actual draft stage 기준으로 보정
+- `audit/Section_15_Foldering_Test_Crimson.md`, `audit/Section_15_Stable_Candidate_Profile_QA.md`를 actual draft 단계로 이동
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`, `audit/Section_15_Named_Notables_Status_Compass.md`에 post-push 다음 작업선 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 stable triad actual folder draft structure 기준 bridge / routing sync
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Actual Folder Draft Bridge Sync Batch
+
+목적:
+
+- stable triad actual folder draft stage를 bridge / routing / continent synthesis 문서까지 같은 강도로 동기화한다.
+- `엘다라`는 별도 support hold로 유지해 triad actual draft와 섞이지 않게 한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Lovelace`, `Sagan` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Lovelace` | Bridge / Routing Drift Scout | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Continent Synthesis`, `Coverage Matrix`의 post-push drift 점검 | `running during write -> conductor local evidence lock` |
+| `Sagan` | Summary Drift Scout | `Five Continent Closure Table`, `Status Compass`, `Next`, `Continuous`의 next-action drift 점검 | `running during write -> conductor local evidence lock` |
+
+Conductor action:
+
+- stable triad를 `actual folder draft structure` 단계로, `엘다라`를 `support hold` 단계로 summary docs에 통일한다.
+- `Section_8_to_15_Notable_Anchor_Bridge.md`의 triad 앵커를 `드래곤포지 공방 / 학술-전승층 / 전승 보관층` 기준으로 더 선명히 고정한다.
+- 다음 실제 작업선을 `actual folder draft structure 기준 bridge / routing sync`로 잠근다.
+
+Integrated actions:
+
+- `audit/Section_8_to_15_Notable_Anchor_Bridge.md`, `audit/Section_15_Folder_Draft_Routing_Plan.md`, `audit/Section_15_Named_Notables_Continent_Synthesis.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md`를 post-push 단계에 맞게 갱신
+- `orchestra/AGENT_DISPATCH_LOG.md`에 actual folder draft bridge sync batch 기록 추가
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 stable triad actual folder draft structure 기준 bridge / routing 세부 잠금 마감
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Folder Revision Gate Hardening Batch
+
+목적:
+
+- actual folder draft stage를 `Revision Gate`까지 확장해 실제 이동 전 안전 조건을 더 구체화한다.
+- stable triad route safety와 `엘다라 support hold` 분리 조건을 문서상 명시한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: ambiguity가 낮아 conductor local evidence hardening으로 처리
+- `Hooks`: `pre_scope_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+Conductor action:
+
+- `Section_15_Folder_Revision_Gate.md`에 `G8 Stable Triad Route Safety`, `G9 Support Hold Separation`, `G10 Move Freeze Safety`를 추가한다.
+- `Section_15_Folder_Draft_Routing_Plan.md`에서 `엘다라`를 `support_hold / verify_source_before_profile`로 더 정확히 표기한다.
+- `Next`, `Continuous`, `Anchor Bridge`에 revision gate hardening이 다음 실제 작업선에 포함됐음을 남긴다.
+
+Integrated actions:
+
+- `audit/Section_15_Folder_Revision_Gate.md`에 actual draft stage 전용 gate와 risk 추가
+- `audit/Section_15_Folder_Draft_Routing_Plan.md`, `audit/Section_8_to_15_Notable_Anchor_Bridge.md`에 actual draft / support hold 세부 문구 보정
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 revision gate hardening 추가
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 stable triad actual draft bridge / routing sync와 revision gate 세부 잠금 마감
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Route Hierarchy Lock Pass
+
+목적:
+
+- stable triad actual draft 단계에서 상위 route anchor와 보조 place lock을 같은 층위로 읽는 혼용을 막는다.
+- `울프가르 / 에리온 / 오그마`의 route hierarchy와 `엘다라 support hold`를 QA와 draft 문서에 더 선명히 적는다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: ambiguity가 낮아 conductor local evidence lock으로 처리
+- `Hooks`: `pre_scope_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+Conductor action:
+
+- `Section_15_Folder_Structure_Draft.md`와 `Section_15_Foldering_Test_Crimson.md`에 `Upper Route / Place Lock` 구조를 명시한다.
+- `Section_15_Stable_Candidate_Profile_QA.md`의 anchor 열을 `Primary Route Anchor`와 `Place Lock / Detail`로 분리한다.
+- `Section_15_Folder_Revision_Gate.md`에 `G11 Route Hierarchy Consistency`를 추가한다.
+
+Integrated actions:
+
+- triad actual draft 문서군에 route hierarchy lock 표 추가
+- QA 표를 route / place 이중 축으로 재정리
+- `Next`, `Continuous`에 hierarchy lock 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 stable triad actual draft bridge / routing sync와 route hierarchy lock 세부 잠금 마감
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Actual Draft Wording Closure Pass
+
+목적:
+
+- post-push actual draft 단계에서 남아 있던 `structure`, `support candidate hold` 같은 변형 표현을 하나의 용어로 통일한다.
+- stable triad는 `actual draft bridge / routing sync`, `엘다라`는 `support hold` 기준으로만 읽히게 한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Harvey`, `Jason` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+Conductor action:
+
+- `Section_15_Folder_Structure_Draft.md`, `Section_15_Foldering_Test_Crimson.md`, `Section_15_Stable_Candidate_Profile_QA.md`, `Section_15_Named_Notables_Continent_Synthesis.md`, `Section_15_Named_Notables_Coverage_Matrix.md`의 잔여 drift를 정리한다.
+- `support candidate hold`를 `support hold`로 압축하고, `actual draft structure`를 `actual draft bridge / routing sync`로 통일한다.
+
+Integrated actions:
+
+- actual draft / support hold 용어를 remaining summary docs에 통일
+- `orchestra/AGENT_DISPATCH_LOG.md`에 wording closure pass 기록 추가
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 stable triad actual draft bridge / routing sync와 revision gate 세부 잠금 마감
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Actual Draft Route-State Closure Pass
+
+목적:
+
+- stable triad actual draft 단계에서 남아 있던 `route_test_ok` 계열 문구를 현재 `stable_15_workset / route_hierarchy_locked` 기준으로 닫는다.
+- triad 개별 시트, 크림슨 폴더링 테스트, QA, 대륙 종합표가 같은 route-state를 따르게 맞춘다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Rawls`, `Pauli` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Rawls` | Route-State Drift Scout A | triad 개별 시트와 `Section_15_Stable_Candidate_Profile_QA.md`의 stale route-state 점검 | `timed_out -> conductor local evidence fallback` |
+| `Pauli` | Route-State Drift Scout B | `Section_15_Foldering_Test_Crimson.md`, `Continent Synthesis`, `Folder Draft Routing Plan`의 stale route-state 점검 | `completed -> conductor integrated` |
+
+Conductor action:
+
+- triad 개별 시트의 `route_test_ok`를 제거하고 `stable_15_workset / route_hierarchy_locked` 기준으로 재표기한다.
+- `Section_15_Foldering_Test_Crimson.md`의 legacy route test 결과를 현재 actual draft route-state로 닫고, 상위 route 이름을 `드래곤포지 공방 / 학술-전승층 / 전승 보관층`으로 통일한다.
+- `실비아`의 범대륙 보류 상태는 `deferred_expansion_hold / name_collision_watch`로 낮춰 summary drift를 줄인다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notable_Wolfgar_Dragonforge.md`, `audit/Section_15_Named_Notable_Erion_Dracovis.md`, `audit/Section_15_Named_Notable_Oghma.md`의 route-state 및 upper route/place lock 표현 보정
+- `audit/Section_15_Foldering_Test_Crimson.md`, `audit/Section_15_Stable_Candidate_Profile_QA.md`, `audit/Section_15_Folder_Draft_Routing_Plan.md`, `audit/Section_15_Named_Notables_Continent_Synthesis.md`의 stale wording 정리
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`의 다음 작업선을 commit/push 또는 actual draft package freeze 판단으로 이동
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 post-push 후속 묶음의 commit/push 여부 판단 또는 stable triad actual draft package freeze
+- `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
+
+### 2026-04-09 KST - Summary Split Closure Pass
+
+목적:
+
+- triad / support hold / deferred expansion hold가 상위 summary 계층에서도 같은 상태어로 읽히게 한다.
+- `엘다라`, `실비아`, stable triad를 live pool처럼 보이게 만드는 broad summary wording을 줄인다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Rawls` 결과를 summary drift scout로 추가 통합
+- `Hooks`: `pre_scope_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Rawls` | Summary Drift Scout | `Status Compass`, `Five Continent Closure Table`, `Continent Synthesis`, `Coverage Matrix`의 broad wording drift 점검 | `completed -> conductor integrated` |
+
+Conductor action:
+
+- `엘다라`를 요약 계층에서 `support hold`로만 읽히게 하고 `가장 강한 보조 후보` 표현을 줄인다.
+- `실비아`는 `deferred expansion hold`로 통일해 범대륙 후기 확장 보류 상태를 더 선명하게 고정한다.
+- stable triad는 `actual draft bridge / routing sync` 단계로 summary docs에만 남기고 live safe pool처럼 보이는 표현은 제거한다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Five_Continent_Closure_Table.md`, `audit/Section_15_Named_Notables_Continent_Synthesis.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`의 summary wording 보정
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 summary split closure 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 post-push 후속 묶음의 commit/push 여부 판단 또는 stable triad actual draft package freeze
+- `엘다라`는 `support hold`, `실비아`는 `deferred expansion hold`로 유지
+
+### 2026-04-09 KST - Actual Draft Package Freeze Pass
+
+목적:
+
+- stable triad actual draft 묶음을 별도 freeze 시트로 잠가 commit/push 직전의 package 경계를 명확히 한다.
+- triad 본체와 `엘다라 / 실비아` hold queue를 문서 차원에서 분리 고정한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Parfit`, `Hubble` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Parfit` | Package Freeze Scout A | `Revision Gate`, `Folder Structure`, `Routing Plan`, `QA`의 freeze readiness 점검 | `timed_out -> conductor local evidence fallback` |
+| `Hubble` | Package Freeze Scout B | `Anchor Bridge`, `Anchor Map`, `Foldering Test`, `Status Compass`, `Next`의 freeze wording 점검 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `Section_15_Actual_Draft_Package_Freeze.md`를 새로 만들어 triad freeze scope, frozen core, hold queue, blocked adjustments를 명시한다.
+- `Section_15_Folder_Revision_Gate.md`에 `G12. Package Freeze Completeness`를 추가한다.
+- `Status Compass`, `Coverage Matrix`, `Five Continent Closure Table`, `Continent Synthesis`, `Anchor Bridge`, `Routing Plan`의 다음 작업선을 `actual draft package freeze` 기준으로 통일한다.
+
+Integrated actions:
+
+- `audit/Section_15_Actual_Draft_Package_Freeze.md` 작성
+- `audit/Section_15_Folder_Revision_Gate.md`, `audit/Section_15_Folder_Structure_Draft.md`, `audit/Section_15_Folder_Draft_Routing_Plan.md`, `audit/Section_8_to_15_Notable_Anchor_Bridge.md`의 freeze 연동 보정
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Five_Continent_Closure_Table.md`, `audit/Section_15_Named_Notables_Continent_Synthesis.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`의 다음 작업선 동기화
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 post-push 후속 묶음의 commit/push 판단
+- `엘다라`는 `support hold`, `실비아`는 `deferred expansion hold`로 유지

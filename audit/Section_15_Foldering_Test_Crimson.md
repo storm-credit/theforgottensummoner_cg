@@ -50,8 +50,8 @@
 
 대신 아래처럼 세계 구조를 유지한다.
 
-- `크림슨 -> 용의 후예 -> 드래곤포지 계열 -> 울프가르`
-- `크림슨 -> 엘드라칸 -> 대현자층 -> 에리온`
+- `크림슨 -> 용의 후예 -> 드래곤포지 공방 -> 울프가르`
+- `크림슨 -> 엘드라칸 -> 학술-전승층 -> 에리온`
 - `크림슨 -> 엘드라칸 -> 전승 보관층 -> 오그마`
 - `크림슨 -> 붉은 사막 부족 -> 현자 회의 -> 벨라나`
 - `크림슨 -> 붉은 사막 부족 -> 현자 회의 -> 아리안`
@@ -60,13 +60,24 @@
 
 | Candidate | Proposed Route | Secondary Index | State |
 |---|---|---|---|
-| 울프가르 드래곤포지 | `15 / 크림슨 / 용의 후예 / 드래곤포지 계열` | `장인`, `대장장이`, `공방주`, `무구 제작` | `route_test_ok` |
-| 에리온 드라코비스 | `15 / 크림슨 / 엘드라칸 / 대현자층` | `현자`, `고대어`, `해석가`, `관리자` | `route_test_ok` |
-| 오그마 | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `살아있는 도서관`, `전승`, `조언자` | `route_test_ok` |
-| 벨라나 스톰브링어 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `주술사`, `사제`, `고고학자` | `route_test_deferred / verify_before_15` |
-| 아리안 블레이즈하트 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `전승 보존자`, `사제`, `현자` | `route_test_deferred / verify_before_15` |
+| 울프가르 드래곤포지 | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `장인`, `대장장이`, `공방주`, `무구 제작` | `stable_15_workset / route_hierarchy_locked` |
+| 에리온 드라코비스 | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `현자`, `고대어`, `해석가`, `관리자` | `stable_15_workset / route_hierarchy_locked` |
+| 오그마 | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `살아있는 도서관`, `전승`, `조언자` | `stable_15_workset / route_hierarchy_locked` |
+| 벨라나 스톰브링어 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `주술사`, `사제`, `고고학자` | `legacy_route_test_complete / verify_before_15` |
+| 아리안 블레이즈하트 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `전승 보존자`, `사제`, `현자` | `legacy_route_test_complete / verify_before_15` |
 | 드락사르 블레이즈포지 | `hold` | `연금술사`, `공병`, `공방주` | `verify_before_15` |
 | 카사르 더 시어 | `hold` | `예언자`, `조언자` | `hold_for_dual_review` |
+
+## Route vs Place Lock
+
+크림슨 actual draft 단계에서는
+상위 route와 보조 place lock을 아래처럼 분리해 읽는다.
+
+| Candidate | Upper Route | Place Lock |
+|---|---|---|
+| `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `드래곤포지`, `프라이멀 엠버` |
+| `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` |
+| `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `몽상가의 바위`, `지혜의 샘` |
 
 ## Display Name Notes
 
@@ -94,6 +105,6 @@
 
 다음 액션:
 
-1. `울프가르`, `에리온`, `오그마`를 기준으로 개별 15 시트 consistency check와 route freeze를 먼저 끝낸다.
+1. `울프가르`, `에리온`, `오그마`는 legacy route test를 닫고 `Section_15_Folder_Structure_Draft.md` 기준 `stable_15_workset / route_hierarchy_locked` actual draft bridge / routing sync로 유지한다.
 2. `벨라나`, `아리안`은 SS/S급 핵심 인물 신호가 확인되어 시트화를 보류하고 14 경계 검증으로 되돌린다.
 3. `드락사르`, `카사르`는 14 경계 큐에 유지한다.

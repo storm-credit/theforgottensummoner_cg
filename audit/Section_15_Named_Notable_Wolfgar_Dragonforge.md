@@ -11,8 +11,9 @@
   - `Named Notable`
 - current judgment:
   - `named_notable_candidate`
+  - `stable_15_workset`
   - `grade_caution`
-  - `route_test_ok`
+  - `route_hierarchy_locked`
 
 ## 1-1. Archive Routing
 
@@ -20,7 +21,9 @@
   - `크림슨`
 - faction_anchor:
   - `용의 후예`
-- city_or_place_anchor:
+- upper_route_anchor:
+  - `크림슨 / 용의 후예 / 드래곤포지 공방`
+- place_lock:
   - `드래곤포지`
   - `프라이멀 엠버`
 - secondary_index:
@@ -29,7 +32,7 @@
   - `공방주`
   - `무구 제작`
 - routing_state:
-  - `route_test_ok`
+  - `route_hierarchy_locked`
 
 ## 1-2. Hardening Guard
 

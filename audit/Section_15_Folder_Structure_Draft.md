@@ -1,10 +1,12 @@
 # Section 15 Folder Structure Draft
 
-이 문서는 `15 Named Notables`의 가상 폴더 구조 초안이다.
+이 문서는 `15 Named Notables`의 실제 폴더 초안 구조를
+문서 레벨에서 먼저 잠그는 설계도다.
 
 중요:
 
 - 실제 폴더 생성/이동은 하지 않는다.
+- 이 문서는 `route freeze` 이후의 actual draft stage를 기록한다.
 - 이 문서는 `cg` 안의 설계도다.
 - 원본 저장소는 수정하지 않는다.
 - 구조 기준은 직업이 아니라 `대륙 -> 세력 / 도시 / 조직`이다.
@@ -47,6 +49,7 @@
   엘드라칸
     학술-전승층
       에리온 드라코비스
+    전승 보관층
       오그마
   붉은 사막 부족
     현자 회의
@@ -60,7 +63,7 @@
 에테르
   정령연합
     루미라
-      엘다라
+      엘다라 [support hold]
     기록 / 노래술사 경계
       엘라라 문힘 [verify_before_15]
     자연 율법회 / 생명의 의회 경계
@@ -168,9 +171,22 @@ Need Named Candidate Slots
     템플 오브 바운더리 / 경계의 보루 / 기억 경매장 / 영원의 기록탑 / 망각의 회랑
 ```
 
+## Route Hierarchy Lock
+
+actual draft 단계에서는
+`상위 route anchor`와 `보조 place lock`을 섞지 않는다.
+
+| Candidate | Upper Route Anchor | Place Lock | Rule |
+|---|---|---|---|
+| `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `드래곤포지`, `프라이멀 엠버` | 폴더 route는 `드래곤포지 공방`까지로 고정하고, 개별 시트에서만 재료/화염 전승 place lock을 병기한다. |
+| `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` | 폴더 route는 `학술-전승층`으로 고정하고, 학자 구역/용언 도서관은 기능성 place lock으로만 둔다. |
+| `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `몽상가의 바위`, `지혜의 샘` | 폴더 route는 `전승 보관층`으로 고정하고, 대면/조언과 기억/전승 place lock은 개별 시트에만 둔다. |
+| `엘다라` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | 현재는 `support hold`이므로 route 후보만 보존하고 actual draft triad에 합류시키지 않는다. |
+
 ## Conductor Decision
 
-현재 구조는 `draft only`다.
+현재 구조는 `stable triad actual draft bridge / routing sync` 기준으로 본다.
 
 다음 작업은 실제 폴더 생성이 아니라,
-이 초안에 대해 `Revision Gate`를 통과할 수 있는지 점검하는 것이다.
+이 초안을 `bridge / routing / revision gate / package freeze` 문서들과 맞춰
+실제 이동 전 검증 가능한 상태로 잠그는 것이다.

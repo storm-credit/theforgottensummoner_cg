@@ -35,9 +35,9 @@
 
 | Candidate | Current State | Note |
 |---|---|---|
-| 울프가르 드래곤포지 | `15 candidate strong` | 장인/대장장이 명사층으로 강하다. |
-| 에리온 드라코비스 | `15 candidate strong` | 현자/지식 계열 명사층으로 강하다. |
-| 오그마 | `15 candidate strong` | 기록/지식/전승 계열 후보로 유지한다. |
+| 울프가르 드래곤포지 | `stable_15_workset / grade_caution` | 장인/대장장이 명사층으로 강하고 actual draft bridge / routing sync 단계로 올라갔다. |
+| 에리온 드라코비스 | `stable_15_workset / grade_caution / name_collision_watch` | 현자/지식 계열 명사층으로 강하며 `엘드라칸 / 학술-전승층` actual draft bridge / routing sync 기준을 따른다. |
+| 오그마 | `stable_15_workset / act_watch` | 기록/지식/전승 계열 후보로 유지하며 `엘드라칸 / 전승 보관층` actual draft bridge / routing sync 기준을 따른다. |
 | 벨라나 스톰브링어 | `verify_before_15` | 현자 회의 명사 가치가 있지만 SS급 폭풍의 여왕 신호가 강함. |
 | 아리안 블레이즈하트 | `verify_before_15` | 현자 회의 명사 가치가 있지만 S급 불의 사제 신호가 강함. |
 
@@ -62,7 +62,7 @@ Conductor decision:
 
 | Candidate | Current State | Note |
 |---|---|---|
-| 엘다라 | `15 candidate` | 에테르 쪽 명사 후보로 유지한다. |
+| 엘다라 | `named_notable_candidate / verify_source_before_profile / support_hold` | 에테르 쪽 `support hold`로 유지한다. |
 
 검증 후보:
 
@@ -209,7 +209,7 @@ Conductor decision:
 
 | Candidate | Current State | Note |
 |---|---|---|
-| 실비아 | `15 candidate strong / deferred expansion` | 키르케 영약회 계열 강한 후보지만 범대륙 후기 확장 구역이라 후순위. |
+| 실비아 | `deferred_expansion_hold / name_collision_watch` | 키르케 영약회 계열 후보지만 범대륙 후기 확장 구역이라 후순위 hold로 유지한다. |
 | 멜리산드르 | `verify_before_15` | 명사형 가치가 크지만 14 신호 확인 필요. |
 
 Conductor decision:
@@ -219,8 +219,8 @@ Conductor decision:
 
 ## Next Priority
 
-1. `Crimson` 안정 후보 3명을 실제 `15번 시트 hardening / 폴더링 시험` 본선으로 올린다.
-2. `엘다라`는 보조 후보로 유지하되 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
+1. `Crimson` 안정 후보 3명을 `actual draft package freeze` 본선으로 올린다.
+2. `엘다라`는 `support hold`로 유지하되 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
 3. `Frost / Oceanic / Obelisk`는 장소-기관 슬롯을 유지한 채 closure 상태를 보존하고, 14번 중복 신호 검증 뒤 확정한다.
 4. `Supranational`은 후기 확장 구역으로 보류한다.
 
@@ -233,4 +233,4 @@ Conductor decision:
 - 크림슨은 안정 후보 3명만 실제 15 시트 시험에 사용한다.
 - 에테르, 해양, 오벨리스크는 2차 근거 보강을 마쳤고 새 15 확정자는 만들지 않는다.
 - 프로스트, 해양, 에테르의 역할 슬롯은 장소-기관 중심으로 정리했다.
-- 이번 배치에서 프로스트 unnamed slot 6개 closure까지 반영됐고, 다음 배치는 `울프가르`, `에리온`, `오그마`의 실제 15 시트 hardening / 폴더링 시험이다.
+- 이번 배치에서 프로스트 unnamed slot 6개 closure까지 반영됐고, 다음 배치는 `울프가르`, `에리온`, `오그마`의 actual draft package freeze와 bridge 문구 정리다.

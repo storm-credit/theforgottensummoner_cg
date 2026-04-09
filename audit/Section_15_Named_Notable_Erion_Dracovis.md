@@ -11,9 +11,10 @@
   - `Named Notable`
 - current judgment:
   - `named_notable_candidate`
+  - `stable_15_workset`
   - `grade_caution`
   - `name_collision_watch`
-  - `route_test_ok`
+  - `route_hierarchy_locked`
 
 ## 1-1. Archive Routing
 
@@ -21,7 +22,9 @@
   - `크림슨`
 - faction_anchor:
   - `엘드라칸`
-- city_or_place_anchor:
+- upper_route_anchor:
+  - `크림슨 / 엘드라칸 / 학술-전승층`
+- place_lock:
   - `엘드라칸 학자 구역`
   - `용언 도서관`
 - secondary_index:
@@ -30,7 +33,7 @@
   - `해석가`
   - `관리자`
 - routing_state:
-  - `route_test_ok`
+  - `route_hierarchy_locked`
 
 ## 1-2. Hardening Guard
 

@@ -13,12 +13,12 @@
 
 | Area | Stable 15 Candidates | Boundary Hold | Main Risk | Next Action |
 |---|---|---|---|---|
-| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | SS/S/A급, 영웅록, 공병대장/예언자 신호 | stable 15 triad hardening과 global consistency lock까지 완료됐다. `울프가르`, `에리온`은 `grade_caution`, `오그마`는 `act_watch`를 유지한 채 commit/push 판단 또는 보조 후보 sweep으로 넘긴다. |
-| `에테르` | `엘다라` | `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 탑주, A/S급, Act 신호, 이름 드리프트, 동명이인 충돌 | `Ravenfell`, `Mera`, `Sylas` 병합 금지. 에테르 surface-name baseline 잠금 완료. 엘다라는 `named_notable_candidate / verify_source_before_profile` 상태의 가장 강한 보조 후보로 유지하고, 나머지는 14/검증/역할 슬롯으로 분리한다. low-priority auxiliary slot 9개는 모두 direct holder 미확인 또는 집단 직함 확인으로 role slot 유지가 닫혔다. |
+| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | SS/S/A급, 영웅록, 공병대장/예언자 신호 | stable 15 triad hardening, global consistency lock까지 완료됐다. 이제 actual draft bridge / routing sync로 넘긴다. |
+| `에테르` | `엘다라 [support hold]` | `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 탑주, A/S급, Act 신호, 이름 드리프트, 동명이인 충돌 | `Ravenfell`, `Mera`, `Sylas` 병합 금지. 에테르 surface-name baseline 잠금 완료. 엘다라는 `named_notable_candidate / verify_source_before_profile` 상태의 `support hold`로 유지하고, 나머지는 14/검증/역할 슬롯으로 분리한다. low-priority auxiliary slot 9개는 모두 direct holder 미확인 또는 집단 직함 확인으로 role slot 유지가 닫혔다. |
 | `프로스트` | 없음 | `울프릭`, `시그리드`, `마리안`, `프리야`, `카이라` | 전설/핵심 영웅 신호, 원로단 지도부 신호 | 압축표 + 코어 장부 direct link 완료. `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`, `아이스포지 병기소 장인`까지 6개 slot이 모두 role slot 유지로 닫혔다. 다음 mainline은 5대륙 closure sync와 ROI 재판정이다. |
 | `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | A급, SS급, 히어로급, 제독/단장, 실비아 이름 충돌, 거상 연합 권력축 | `신탁 방주` top 5, `city-role batch`, `tail unnamed slot batch`까지 닫혔다. `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`은 role slot 유지, named boundary와 병합 금지 메모만 남겼다. 다음은 `오벨리스크` mainline, `프로스트`는 그 다음 재평가다. |
 | `오벨리스크` | 없음 | `바리온`, `아이기스`, `카론`, `베스`, `이안`, `카트린`, `레보니아`, `우로스`, `세르반`, `레티시아`, `렌`, `라일`, `루가르` | 전설 영웅록, 아이기스 충돌, 히어로급, 조직 핵심 | 압축표 작성 완료. `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 slot 유지다. `기억 지기`는 `렌 / 라일` existing holder, `심연 계약 중개자`는 `루가르` strong link로 잠갔다. 다음은 closure sync 뒤 `프로스트` 재평가다. |
-| `범대륙 / 후기 확장` | `실비아` | `멜리산드르` | 후기 증설 구역, 키르케 위상 과확정 위험 | 메인 진행 후순위. 이름 톤과 앵커 안정화 뒤 재검토. |
+| `범대륙 / 후기 확장` | `실비아 [deferred expansion hold]` | `멜리산드르` | 후기 증설 구역, 키르케 위상 과확정 위험 | 메인 진행 후순위. 이름 톤과 앵커 안정화 뒤 재검토. |
 
 ## Stable Working Set
 
@@ -30,13 +30,13 @@
 
 보조 후보:
 
-- `엘다라`
-- `실비아`
+- `엘다라 [support hold]`
+- `실비아 [deferred expansion hold]`
 
 주의:
 
-- `엘다라`는 에테르의 가장 강한 보조 후보이며, 큐 9에서 루미라 대현자/고대 정령어 권위자 근거가 보강됐다. 단, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
-- `실비아`는 키르케 계열 강한 15 후보지만 범대륙 후기 확장 구역이라 후순위다.
+- `엘다라`는 에테르 `support hold`이며, 큐 9에서 루미라 대현자/고대 정령어 권위자 근거가 보강됐다. 단, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
+- `실비아`는 키르케 계열 `deferred expansion hold`이며 범대륙 후기 확장 구역이라 후순위다.
 
 ## Hard Holds
 
@@ -58,8 +58,7 @@
 ## Next Orchestrated Move
 
 다음 배치는 `15번` 후보를 더 늘리는 작업이 아니다.
-전역 closure sync를 마친 뒤,
-가장 안전한 `크림슨 안정 3명`을 실제 15 작업선으로 올리는 작업이다.
+이제 가장 안전한 `크림슨 안정 3명`의 actual draft package freeze를 문서 레벨에서 맞추는 작업이다.
 
 이유:
 
@@ -78,7 +77,7 @@
 - 이번 턴의 1차 narrowing에서는 다섯 항목 모두 direct named holder 없이 role slot 유지로 닫혔다.
 - 이번 턴에서 `아이스포지 병기소 장인`도 named artisan 없이 workshop slot으로 닫혔다.
 - 따라서 프로스트 unnamed slot 6개 read-only narrowing은 한 번 closure 상태로 본다.
-- 이 상태에서 다음 ROI는 새 대륙 narrowing보다 stable 15 triad consistency lock을 commit/push 판단 단계로 넘기거나 보조 후보 `엘다라`를 점검하는 쪽이다.
-- `엘다라`는 `named_notable_candidate / verify_source_before_profile` 상태의 강한 보조 후보지만 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
+- 이 상태에서 다음 ROI는 새 대륙 narrowing보다 stable 15 triad의 actual draft bridge / routing sync를 정리하는 쪽이다.
+- `엘다라`는 `named_notable_candidate / verify_source_before_profile` 상태의 `support hold`지만 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
 - 이번에도 새 이름을 발명하지 않고, 존재 증거가 없으면 role slot 상태를 유지한다.
 - 실제 원고 입력이 생기면 이 확인보다 live handoff case가 우선한다.

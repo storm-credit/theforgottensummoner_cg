@@ -14,10 +14,10 @@
 
 | Candidate | Draft Route | State | Reason |
 |---|---|---|---|
-| `울프가르 드래곤포지` | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `draft_route_ready / grade_caution` | 용의 대장장이/공방주. 장소와 조직 앵커는 분명하지만 14 재확인 전 Hard Canon route로 고정하지 않는다. |
-| `에리온 드라코비스` | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `draft_route_ready / grade_caution / name_collision_watch` | 고대어 해석가/대현자. 엘드라칸 학술-전승층으로 읽되 `에리온 베르날리스` 충돌 감시를 유지한다. |
-| `오그마` | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `draft_route_ready / act_watch` | 살아있는 도서관/고룡 조언자. 현재는 전승 보관층 route를 우선 기준으로 고정한다. |
-| `엘다라` | `15 / 에테르 / 정령연합 / 루미라` | `draft_route_ready_but_verify_source` | 루미라 대현자/고대 정령어 권위자. 정령연합 전체 14 확인 전 Hard Canon 금지. |
+| `울프가르 드래곤포지` | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `stable_15_workset / route_hierarchy_locked / grade_caution` | 용의 대장장이/공방주. 상위 route와 place lock을 분리한 actual draft 기준을 따르되 14 재확인 전 Hard Canon route로 고정하지 않는다. |
+| `에리온 드라코비스` | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` | 고대어 해석가/대현자. 엘드라칸 학술-전승층을 상위 route로 읽되 `에리온 베르날리스` 충돌 감시를 유지한다. |
+| `오그마` | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `stable_15_workset / route_hierarchy_locked / act_watch` | 살아있는 도서관/고룡 조언자. 전승 보관층 route와 place lock을 분리한 actual draft 기준을 우선한다. |
+| `엘다라` | `15 / 에테르 / 정령연합 / 루미라` | `support_hold / verify_source_before_profile` | 루미라 대현자/고대 정령어 권위자. 정령연합 전체 14 확인 전 Hard Canon 금지, stable triad actual draft에는 즉시 합류시키지 않는다. |
 | `실비아` | `15 / 범대륙 후기 확장 / 키르케 영약회` | `draft_route_deferred` | 강한 15 후보지만 범대륙 후기 확장이라 메인 진행 후순위. |
 
 ## Boundary Candidate Routing
@@ -67,5 +67,5 @@
 
 아직 실제 이동은 하지 않는다.
 
-다음 실작업은 stable 15 triad consistency lock을 바탕으로
-commit/push 여부를 판단하거나 보조 후보 consistency sweep으로 넘기는 것이다.
+다음 실작업은 stable 15 triad의 actual draft `package freeze`를 마감하고,
+필요하면 commit/push 판단으로 넘기는 것이다.

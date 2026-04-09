@@ -18,20 +18,25 @@
 | `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | 오라클, 항로/해도, 조선소, 감정사, 금고, 경매장, 은행, 세관, 무역왕, 폭풍추적대, 검은 돛 조선공, 진혼 악기, 유령선 기록 슬롯. `top 5 slot`, `city-role batch`, `tail unnamed slot batch` read-only pass 완료 | `closed_for_now` |
 | `오벨리스크` | 없음 | `바리온`, `아이기스`, `카론`, `베스`, `이안`, `카트린`, `레보니아`, `우로스`, `세르반`, `레티시아`, `렌`, `라일`, `루가르` | `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 slot 유지. `기억 지기 = 렌/라일`, `심연 계약 중개자 = 루가르 strong link` | `closed_for_now` |
 
-## Current Safe 15 Work Set
+## Current Stable Split
 
-현재 실제 15번 시트 시험에 가장 안전한 후보:
+현재 실제 15번 시트 시험에 바로 쓰는 축과 hold 축은 분리한다.
+
+Stable Triad Actual Draft Package Freeze:
 
 1. `울프가르 드래곤포지`
 2. `에리온 드라코비스`
 3. `오그마`
-4. `엘다라`
-5. `실비아`
+
+Hold Queue:
+
+1. `엘다라 [support hold]`
+2. `실비아 [deferred expansion hold]`
 
 주의:
 
-- `실비아`는 키르케/범대륙 후기 확장 축이라 메인 진행 후순위다.
-- `엘다라`는 에테르 정령연합의 강한 15 후보지만, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
+- `실비아`는 키르케/범대륙 후기 확장 축의 `deferred expansion hold`라 메인 진행 후순위다.
+- `엘다라`는 에테르 정령연합의 `support hold`지만, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
 
 ## Hard Hold Clusters
 
@@ -70,5 +75,5 @@
 - 따라서 오벨리스크 핵심 slot read-only narrowing은 2차까지 한 번 닫혔고, 프로스트를 mainline으로 올리는 편이 효율이 높다고 판정했다.
 - `프로스트`는 원로단/대예언자/장로 신호가 강하지만, `오로라 평원 / 얼음무덤 언덕 / 푸른 폭풍 요새 / 겨울회의 의장막 / 퍼마프로스트 요새 / 아이스포지 병기소` 앵커 기준의 place-first role slot pass로 오염을 통제할 수 있다는 점을 확인했다.
 - 이번 턴에 `아이스포지 병기소 장인`까지 named holder 없이 role slot으로 닫혀 프로스트 unnamed slot 6개 closure가 한 번 완료됐다.
-- 따라서 다음 batch는 새 인물 회수가 아니라 `울프가르`, `에리온`, `오그마`의 실제 15 시트 hardening / foldering test다.
-- `엘다라`는 보조 후보로 유지하되 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
+- 따라서 다음 batch는 새 인물 회수가 아니라 `울프가르`, `에리온`, `오그마`의 actual draft package freeze다.
+- `엘다라`는 `support hold`로 유지하되 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.

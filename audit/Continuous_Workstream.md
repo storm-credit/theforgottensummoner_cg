@@ -174,7 +174,14 @@
 113. triad consistency pass에서 `에리온 = 엘드라칸 / 학술-전승층`, `오그마 = 엘드라칸 / 전승 보관층` 기준을 더 선명하게 맞춤
 114. `Section_15_Named_Notables_Register.md`의 triad 행도 `promote_to_named_notables`에서 `stable_workset + caution` 문구로 정렬해 시트와 등록부의 강도 차이를 제거
 115. `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_8_Crimson_Notable_Anchor_Audit.md`도 triad consistency lock 기준으로 동기화
-116. stable 15 triad consistency lock에 이어 `엘다라` consistency sweep도 완료했고, 다음 메인 본선은 commit/push 판단 단계로 넘긴다
+116. stable 15 triad consistency lock에 이어 `엘다라` consistency sweep도 완료했고, post-push turnover까지 끝났다
+117. 다음 메인 본선은 `Section_15_Folder_Structure_Draft.md`를 기준으로 stable triad actual folder draft bridge / routing sync를 맞추는 단계다
+118. `Section_15_Folder_Revision_Gate.md`에도 stable triad route safety와 `엘다라 support hold` 분리 조건을 추가해 실제 이동 전 마지막 안전장치를 문서화한다
+119. triad 상위 route anchor와 보조 place lock을 분리한 route hierarchy lock도 추가해 actual draft 단계의 계층 혼용을 막는다
+120. triad 개별 시트와 `Section_15_Foldering_Test_Crimson.md`의 stale `route_test_ok` 문구를 `stable_15_workset / route_hierarchy_locked`로 닫고 upper route / place lock 분리를 시트 단위까지 내린다
+121. `실비아`의 범대륙 후기 확장 보류 상태도 `deferred_expansion_hold / name_collision_watch`로 조정해 summary drift를 줄인다
+122. `Status Compass`, `Five Continent Closure Table`, `Continent Synthesis`, `Coverage Matrix`까지 같은 상태어로 닫아 triad / support hold / deferred expansion hold 요약 drift를 마무리한다
+123. stable triad actual draft 묶음을 `Section_15_Actual_Draft_Package_Freeze.md` 기준으로 별도 freeze package로 잠그고, 그 뒤에만 commit/push 판단으로 넘긴다
 
 ## Conductor Rule
 

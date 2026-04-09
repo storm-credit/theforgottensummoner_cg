@@ -137,11 +137,11 @@
 
 ## Conductor Decision
 
-이번 턴에서 해양 잔여 unnamed slot read-only pass를 마쳤다.
+이번 턴에서 stable triad actual draft route-state closure를 마쳤다.
 
 다음 실제 작업은 실제 원고 입력이 없으면
-stable 15 triad consistency lock과 `엘다라` consistency sweep 완료 상태를 기준으로
-commit/push 여부를 판단하는 것이다.
+stable triad actual draft package freeze를 문서 기준으로 마감하고,
+그 다음 post-push 후속 묶음의 commit/push 여부를 판단하는 것이다.
 
 실제 원고 입력이 생기면
 그때 seed가 아니라 live handoff case로 승격한다.
@@ -194,17 +194,22 @@ commit/push 여부를 판단하는 것이다.
 - 따라서 프로스트 unnamed slot 6개 read-only narrowing은 한 번 closure 상태로 본다.
 - 이 상태에서 새 대륙 narrowing보다 `울프가르`, `에리온`, `오그마`의 실제 15 시트 consistency check와 route freeze가 ROI가 가장 높다고 판정했다.
 - `엘다라`는 보조 후보로 유지하되 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
+- 이번 턴에서 triad 개별 시트와 `Section_15_Foldering_Test_Crimson.md`의 구형 route-test 문구를 `stable_15_workset / route_hierarchy_locked` 기준으로 닫고, 상위 route anchor와 place lock을 분리했다.
+- `실비아`는 구형 강후보 표기 대신 `deferred_expansion_hold / name_collision_watch`로 낮춰 범대륙 후기 확장 보류 상태를 더 정확히 고정했다.
+- `Status Compass`, `Five Continent Closure Table`, `Continent Synthesis`, `Coverage Matrix`도 같은 기준으로 닫아 `엘다라 = support hold`, `실비아 = deferred expansion hold`, `크림슨 triad = actual draft package freeze` 상태를 summary 계층까지 동기화했다.
 
 ## Engine Upgrade Next
 
 엔진 쪽 다음 우선순위:
-1. `울프가르`, `에리온`, `오그마` stable 15 triad consistency lock은 완료 상태로 보고 commit/push 여부를 판단
+1. `울프가르`, `에리온`, `오그마` stable 15 triad actual draft route-state closure는 완료됐고, 다음은 actual draft package freeze
 2. `오벨리스크`는 `렌/라일`, `루가르` strong-link note를 유지한 채 closure sync만 추가
 3. `엘다라`는 보조 후보 유지, 정령연합 전체 14 확인 전 Hard Canon 승격 보류
 
 4. stable 15 triad 시트에는 `Hardening Guard`와 `Boundary Guard`를 직접 넣어 본선 문구를 더 단단히 잠금
 5. `Section_15_Named_Notables_Register.md`, `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Folder_Draft_Routing_Plan.md`까지 triad를 `stable_workset + caution / act_watch` 문구로 정렬
-6. `엘다라` consistency sweep까지 마친 뒤 다음 배치는 commit/push 판단을 우선한다
+6. 다음 배치는 `Section_15_Folder_Structure_Draft.md` 기준 actual draft package freeze 정리
+7. `Section_15_Folder_Revision_Gate.md`에 stable triad route safety와 `엘다라 support hold` 분리 조건을 같이 잠금
+8. triad 상위 route anchor와 보조 place lock의 계층을 분리한 route hierarchy lock까지 잠금
 
 ## Parallel Side Track
 
