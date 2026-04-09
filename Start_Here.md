@@ -35,7 +35,8 @@
 22. `orchestra/MASTER_PLAN.md`
 23. `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
 24. `orchestra/EXECUTION_HARNESS_LOCK.md`
-25. `audit/Audit_Queue.md`
+25. `orchestra/MODEL_ROLE_SPLIT_LOCK.md`
+26. `audit/Audit_Queue.md`
 
 ## 운영 원칙
 

@@ -64,7 +64,10 @@
 현재 Ether 메모:
 
 - `Section_15_Ether_Place_Institution_Sidecar.md` 기준 표면명 기본값은 잠겼다.
-- 남은 확인 대상은 `탑서기`, `왕실 의전서기`, `성벽 설계서기`, `상단 조율관`, `항만 인장관`, `탐사 기록관`, `연구소 보존관`, `대현자 보좌 기록관`, `침묵의 감시자` 같은 low-priority auxiliary slot의 개인명 유무뿐이다.
+- `탑서기`, `왕실 의전서기`, `성벽 설계서기`, `상단 조율관`, `항만 인장관`, `탐사 기록관`, `연구소 보존관`은 read-only pass에서 direct holder를 못 찾아 role slot 유지로 잠갔다.
+- `대현자 보좌 기록관`은 direct holder를 못 찾았고, `엘다라`나 `엘라라 문힘`에 덮어씌우지 않기로 잠갔다.
+- `침묵의 감시자`는 개인명 아니라 `Silent Watchers` 집단 직함으로만 확인돼 role slot 유지로 잠갔다.
+- 따라서 Ether low-priority auxiliary slot 9개 read-only closure는 완료됐다.
 - 세부 확인 큐는 `Section_15_Ether_Need_Named_Candidate_Index.md`, `Section_15_Ether_Named_Candidate_Search_Queue.md`를 따른다.
 원칙:
 
@@ -111,4 +114,4 @@
 
 다음 작업은 `8번 세력 아카이브` 재점검이 아니라,
 이 인덱스 초안과 상태 나침반이 Ether surface-name baseline 잠금 상태를 같은 문구로 유지한 채
-low-priority auxiliary slot의 개인명 유무만 read-only로 더 확인하는 것이다.
+low-priority auxiliary slot 9개 closure 결과를 coverage / closure / anchor bridge 압축표에 반영하는 것이다.

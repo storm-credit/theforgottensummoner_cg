@@ -138,6 +138,32 @@
 77. 메인선과 별도로 `Species Framework Audit` 사이드트랙을 병렬 개설
 78. 종족 관련 내용은 당분간 `race / bloodline / state / monster` 감사와 리스크 잠금으로만 다루고 정본 선언은 보류
 79. `Race_Species_Term_Crosswalk.md`, `Race_Species_First_Pass.md`를 추가해 종족 용어 교차표와 1차 판정 메모를 분리
+80. `Race_Species_Evidence_Log.md`, `Race_Species_Boundary_Guard.md`를 추가해 raw evidence와 side-track 경계 규칙을 분리
+81. `요정`은 Ether/Spirit Union 내부에서 ally/community 신호가 강해졌지만 global standalone species dossier는 아직 보류로 잠금
+82. `오크`는 thin people signal 유지, `고블린`은 bloodline/integration signal only, `나가`는 one-character signal only로 refined hold를 기록
+83. Ether low-priority auxiliary slot read-only pass에서 `탑서기`, `왕실 의전서기`, `성벽 설계서기`, `상단 조율관`, `항만 인장관`, `탐사 기록관`, `연구소 보존관`은 direct holder 미확인으로 role slot 유지
+84. 메인 본선 다음 실제 작업을 `대현자 보좌 기록관`, `침묵의 감시자` 두 슬롯 read-only 확인으로 축소
+85. `대현자 보좌 기록관`은 `엘다라`, `엘라라 문힘`에 덮어씌우지 않고 role slot 유지, `침묵의 감시자`는 개인명 아니라 집단 직함으로 확인해 Ether low-priority auxiliary slot 9개 closure 완료
+86. 메인 본선 다음 실제 작업을 Ether closure 결과의 coverage / closure / anchor bridge 동기화로 이동
+87. `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_15_Named_Notables_Anchor_Map.md`에 Ether low-priority auxiliary slot 9개 closure 결과를 동기화
+88. 메인 본선 다음 실제 작업을 Ether closure 결과의 status / coverage / anchor map 미세 조정으로 이동
+89. Ether closure sync를 마친 뒤 다음 대륙 우선순위를 `해양`으로 재고정
+90. 다음 메인 본선 read-only 대상은 `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`, `심연 장부관`
+91. 해양 `top 5 slot` read-only pass에서 `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`은 direct holder 미확인 role slot, `심연 장부관`은 `이소벨` adjacency only로 정리
+92. 다음 메인 본선 read-only 대상은 `항해사 길드장`, `마스터 쉽라이트`, `수석 기상관`, `대경매장 주인`, `은행장`, `세관장`
+93. 해양 2열 도시 실무층 `항해사 길드장`, `마스터 쉽라이트`, `수석 기상관`, `대경매장 주인`, `은행장`, `세관장`도 direct holder 미확인 role slot으로 정리
+94. 다음 메인 본선 read-only 대상은 `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`
+95. 해양 잔여 unnamed slot read-only pass에서 `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`은 모두 direct holder 미확인 role slot으로 정리
+96. 다음 메인 본선은 `오벨리스크`로 고정
+97. 오벨리스크 next narrowing batch는 `기록의 수호자`, `오벨리스크 관측대장`, `기억 경매장 중개자`, `사후 서기관` 우선 read-only 확인
+98. 프로스트는 원로단/예언/지도부 충돌 밀도가 더 높아 그 다음 재평가
+99. 오벨리스크 1차 narrowing에서 `기록의 수호자`, `오벨리스크 관측대장`은 각각 `베스 스크롤`, `이안 옵저버`와 강하게 연결되지만 direct slot holder 확정은 보류
+100. `기억 경매장 중개자`, `사후 서기관`은 direct holder 없이 role slot confirmed로 유지하고 각각 `타르갈`, `고르고스 페일`과 병합하지 않음
+101. 오벨리스크 2차 narrowing에서 `신성 기록소 관리 사제`, `묘역 감독관`은 direct holder 없이 role slot 유지
+102. `기억 지기`는 `렌 블랭크`, `라일 템플러` two-holder existing structure로 읽고 새 이름 탐색보다 verify 연동을 우선
+103. `심연 계약 중개자`는 `루가르 드 바네스카` strong-link verify 상태로 잠그고 direct final merge는 보류
+104. 다음 메인 본선은 `프로스트`로 고정
+105. 프로스트 next narrowing batch는 `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼` read-only 확인
 
 ## Conductor Rule
 

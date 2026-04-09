@@ -1150,3 +1150,550 @@ Follow-up actions:
 
 - 메인선은 그대로 Ether low-priority auxiliary slot read-only 확인 유지
 - 사이드트랙은 `해양 merfolk`, `하피`, `라미아`, `거인`, `요정`의 peoplehood 근거를 read-only로 더 점검
+
+### 2026-04-09 KST - Species Side-Track Boundary Guard Batch
+
+목적:
+
+- `merfolk`, `harpy`, `lamia`, `giant`, `fairy`, `orc` 신호를 raw evidence 층과 경계 규칙 층으로 분리한다.
+- side-track이 메인 `14/15` 선을 오염시키지 않도록 escalation rule을 더 명확히 잠근다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에는 직접 쓸 리소스 없음으로 `skip`
+- `Skills gate`: 현재 저장소 작업에 직접 맞는 로컬 스킬 부재로 `skip`
+- `Agents`: `Kant`, `Poincare`, `Tesla` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Kant` | Oceanic Peoplehood Scout | `merfolk`, `sea-native`, `underwater civilization` 신호 점검 | `timed_out -> conductor local evidence fallback` |
+| `Poincare` | Harpy / Lamia Boundary Scout | `harpy`, `lamia`, `naga`, `birdfolk` peoplehood vs monster 점검 | `timed_out -> conductor local evidence fallback` |
+| `Tesla` | Giant / Fairy / Orc Signal Scout | `giant`, `fairy`, `orc`, `goblin` peoplehood 강도 점검 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `Race_Species_Evidence_Log.md`를 만들어 raw evidence를 문맥 단위로 먼저 저장한다.
+- `Race_Species_Boundary_Guard.md`를 만들어 `species clue only`, `social unit impact`, `individual biography impact`, `mixed or contradictory` 규칙을 잠근다.
+- `Race_Species_First_Pass.md`, `Race_Species_Term_Crosswalk.md`도 해양/하피/거인/요정/오크 판정으로 보강한다.
+- 메인 `14/15` 선은 변경하지 않는다.
+
+Integrated actions:
+
+- `working/drafts/Race_Species_Evidence_Log.md` 작성
+- `audit/Race_Species_Boundary_Guard.md` 작성
+- `audit/Race_Species_First_Pass.md`, `working/crosswalks/Race_Species_Term_Crosswalk.md` 보강
+- `audit/OPEN_INDEX.md`, `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 side-track 문서 연결 추가
+
+Follow-up actions:
+
+- 메인선은 그대로 Ether low-priority auxiliary slot read-only 확인 유지
+- 사이드트랙은 `merfolk sovereignty`, `fairy peoplehood`, `orc/goblin social structure`, `lamia/naga stable society` 증거를 더 점검
+
+### 2026-04-09 KST - Species Side-Track Specialist Refinement Batch
+
+목적:
+
+- 늦게 도착한 종족 전문가 scout 결과를 side-track 문서에 반영한다.
+- `fairy`, `orc`, `goblin`, `naga`의 현재 guard call을 더 세밀하게 잠근다.
+- 메인 `14/15` 본선 우선순위는 그대로 유지한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Newton`, `Zeno`, `Halley`, `Bernoulli` late-arrival read-only scout 결과 반영
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Newton` | Oceanic Peoplehood Scout | `merfolk sovereignty`와 해양계 사회 구조 | `completed -> no new write beyond prior reserved_family hold` |
+| `Zeno` | Fairy Peoplehood Scout | `fairy`, `fae`, `pixie`, `sprite` peoplehood 강도 점검 | `completed` |
+| `Halley` | Orc / Goblin Structure Scout | `orc`, `goblin`의 사회 구조와 통합 신호 점검 | `completed` |
+| `Bernoulli` | Lamia / Naga Boundary Scout | `lamia`, `naga`, 사행계 안정 공동체 여부 점검 | `completed` |
+
+Conductor action:
+
+- `Race_Species_Evidence_Log.md`에 `정령연합` 내부 요정 공동체 신호, `고블린혼혈`, `나가족(반인반사)` 단일 개체 근거를 추가한다.
+- `Race_Species_First_Pass.md`에서 `요정`을 `ally/community in Ether, hold globally`로 refinement하고, `고블린`, `나가` 상태를 분리한다.
+- `Race_Species_Boundary_Guard.md`, `Race_Species_Term_Crosswalk.md`에서 `고블린`, `나가`, `요정` guard call을 더 정확히 고정한다.
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에는 이 결과를 side-track refinement로만 연결하고, 다음 실제 작업은 여전히 메인 Ether low-priority auxiliary slot 확인으로 유지한다.
+
+Integrated actions:
+
+- `working/drafts/Race_Species_Evidence_Log.md`에 `fairy`, `goblin`, `naga` raw evidence 추가
+- `audit/Race_Species_First_Pass.md`에 `요정`, `고블린`, `나가` refined read 반영
+- `audit/Race_Species_Boundary_Guard.md`, `working/crosswalks/Race_Species_Term_Crosswalk.md` 보강
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 side-track follow-up 정밀화
+
+Follow-up actions:
+
+- 메인선은 그대로 Ether low-priority auxiliary slot의 개인명 실존 여부 read-only 확인 유지
+- 사이드트랙은 `merfolk sovereignty`, `요정 standalone dossier`, `오크/고블린 사회 구조`, `라미아/나가 안정 공동체`를 더 점검
+
+### 2026-04-09 KST - Ether Low-Priority Auxiliary Slot Partial Closure Batch
+
+목적:
+
+- Ether low-priority auxiliary slot의 개인명 실존 여부를 read-only로 확인한다.
+- 이름이 안 보이는 슬롯은 억지 승격 없이 role slot으로 유지한다.
+- 메인 본선 다음 실제 작업을 남은 소수 슬롯으로 줄인다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Schrodinger`, `Huygens` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Schrodinger` | Ether Auxiliary Slot Scout A | `탑서기`, `왕실 의전서기`, `성벽 설계서기`, `상단 조율관` direct holder 확인 | `completed` |
+| `Huygens` | Ether Auxiliary Slot Scout B | `항만 인장관`, `탐사 기록관`, `연구소 보존관` direct holder 확인 | `completed` |
+
+Conductor action:
+
+- `Section_15_Ether_Need_Named_Candidate_Index.md`의 해당 7개 슬롯에 `read-only pass에서 direct holder 미확인` 메모를 직접 남긴다.
+- `Section_15_Ether_Named_Candidate_Search_Queue.md`에 low-priority auxiliary follow-up 결과 표를 추가한다.
+- `Section_15_Index_Draft.md`, `Section_15_Named_Notables_Status_Compass.md`에서 에테르 잔여 작업선을 `대현자 보좌 기록관`, `침묵의 감시자` 두 슬롯으로 축소한다.
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에는 메인 본선 다음 작업이 위 두 슬롯 read-only 확인이라는 점만 남긴다.
+
+Integrated actions:
+
+- `audit/Section_15_Ether_Need_Named_Candidate_Index.md`에 7개 슬롯 `direct holder 미확인` 메모 추가
+- `audit/Section_15_Ether_Named_Candidate_Search_Queue.md`에 low-priority auxiliary 결과 표 추가
+- `audit/Section_15_Index_Draft.md`, `audit/Section_15_Named_Notables_Status_Compass.md`에 남은 Ether 작업선을 2개 슬롯으로 축소
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 mainline next action 축소 반영
+
+Follow-up actions:
+
+- 메인선 다음 실제 작업은 `대현자 보좌 기록관`, `침묵의 감시자` read-only 확인
+- 둘도 direct holder가 없으면 Ether low-priority auxiliary slot 9개 closure pass를 압축표에 반영
+
+### 2026-04-09 KST - Model Role Split Lock Batch
+
+목적:
+
+- 이 저장소에서 `ChatGPT형 판단`과 `Codex형 실행`의 경계를 운영 문서로 잠근다.
+- `설정 판단`과 `파이프라인 반영`을 같은 모델에 무리하게 몰지 않도록 기준을 고정한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 외부 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Darwin`, `James` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+Conductor action:
+
+- 기존 `EXECUTION_HARNESS_LOCK`, `RUNBOOK`, `ACTIVE_AGENT_SPLIT`, `Start_Here`, `OPEN_INDEX`, `FS_Engine_Writing_Craft_Map`을 교차 읽어 이 저장소에 맞는 모델 분담 기준을 정리한다.
+- 새 기준서는 `orchestra/MODEL_ROLE_SPLIT_LOCK.md`로 잠그고, `Start_Here`, `OPEN_INDEX`, `RUNBOOK`에 바로 연결한다.
+- 기준은 `ChatGPT-first = Story Craft judgement`, `Codex-first = file-grounded lore operations`, `Hybrid = judgment memo + repo integration`으로 고정한다.
+
+Integrated actions:
+
+- `orchestra/MODEL_ROLE_SPLIT_LOCK.md` 작성
+- `orchestra/RUNBOOK.md`에 model route 추가
+- `Start_Here.md`, `audit/OPEN_INDEX.md`에 새 기준서 링크 추가
+
+Follow-up actions:
+
+- 방향 판단이 먼저인 세계관 이슈는 ChatGPT-first 검토를 먼저 거친 뒤 Codex가 저장소에 반영
+- 메인 본선의 문서 감사, queue/register/crosswalk, branch/commit/push는 계속 Codex-first로 진행
+
+### 2026-04-09 KST - Ether Low-Priority Auxiliary Slot Final Closure Batch
+
+목적:
+
+- Ether low-priority auxiliary slot의 마지막 2개 `대현자 보좌 기록관`, `침묵의 감시자`를 read-only로 확인한다.
+- 둘도 direct holder가 없으면 Ether low-priority auxiliary slot 9개 closure를 확정한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Euler`, `Ampere` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Euler` | Ether Auxiliary Slot Final Scout A | `대현자 보좌 기록관` direct holder 확인 | `timed_out -> conductor local evidence fallback` |
+| `Ampere` | Ether Auxiliary Slot Final Scout B | `침묵의 감시자` direct holder 확인 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `루미라` import에서 `엘다라`는 `대현자`, `엘라라 문힘`은 `기록관/도서관장`으로만 보인다는 점을 확인하고, `대현자 보좌 기록관` direct holder는 미확인으로 잠근다.
+- `잠든 정령의 숲` import에서 `침묵의 감시자 (Silent Watchers)`가 개인이 아니라 집단 직함이라는 점을 확인하고, role slot 유지로 잠근다.
+- `Section_15_Ether_Need_Named_Candidate_Index.md`, `Section_15_Ether_Named_Candidate_Search_Queue.md`, `Section_15_Index_Draft.md`, `Section_15_Named_Notables_Status_Compass.md`를 Ether low-priority auxiliary slot 9개 closure 완료 문구로 맞춘다.
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`는 다음 실제 작업을 closure 결과의 coverage/closure/anchor bridge 동기화로 이동시킨다.
+
+Integrated actions:
+
+- `audit/Section_15_Ether_Need_Named_Candidate_Index.md`에 `대현자 보좌 기록관`, `침묵의 감시자` final read 반영
+- `audit/Section_15_Ether_Named_Candidate_Search_Queue.md`에 9개 closure 완료 반영
+- `audit/Section_15_Index_Draft.md`, `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md` 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 다음 작업선 이동 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 Ether closure 결과를 `Coverage Matrix`, `Five Continent Closure Table`, `8-to-15 Anchor Bridge`에 동기화
+- 실제 원고 입력이 생기면 이 흐름보다 live handoff case가 우선
+
+### 2026-04-09 KST - Ether Closure Bridge Sync Batch
+
+목적:
+
+- Ether low-priority auxiliary slot 9개 closure 결과를 `8-to-15 Anchor Bridge`와 anchor/coverage 압축표에 동기화한다.
+- 다음 메인 본선을 `재확인`이 아니라 `미세 조정` 단계로 넘긴다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Maxwell`, `Gauss` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Maxwell` | Ether Bridge Gap Scout | `Section_8_to_15_Notable_Anchor_Bridge`의 Ether 미동기화 지점 점검 | `timed_out -> conductor local evidence fallback` |
+| `Gauss` | Ether Sync Surface Scout | `Coverage Matrix`, `Anchor Map`, `Status Compass` 동기화 포인트 점검 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `Section_8_to_15_Notable_Anchor_Bridge.md`의 Ether routing note에 low-priority auxiliary slot 9개 closure 결과를 직접 반영한다.
+- `Section_15_Named_Notables_Coverage_Matrix.md`와 `Section_15_Named_Notables_Anchor_Map.md`의 Ether 행/설명도 같은 문구로 맞춘다.
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`는 다음 메인 본선을 `status / coverage / anchor map 미세 조정` 단계로 이동시킨다.
+
+Integrated actions:
+
+- `audit/Section_8_to_15_Notable_Anchor_Bridge.md` Ether row 동기화
+- `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Named_Notables_Anchor_Map.md` Ether note 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 다음 작업선 재고정
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 Ether closure 결과의 status / coverage / anchor map 미세 조정
+- 그 다음 필요 시 8번 spine과 15번 앵커 브리지의 다음 대륙 우선순위를 재고정
+
+### 2026-04-09 KST - Post-Ether Next Continent Priority Batch
+
+목적:
+
+- Ether low-priority auxiliary slot closure 이후, 다음 메인 본선을 어느 대륙으로 넘길지 고정한다.
+- `해양`, `오벨리스크`, `프로스트` 중 가장 효율적인 다음 read-only 배치를 고른다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: next-continent priority scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+Conductor action:
+
+- `Coverage Matrix`, `Five Continent Closure Table`, `Status Compass`, `Need Named Candidate` 문서를 교차 읽어 다음 대륙 우선순위를 직접 판정한다.
+- `해양`은 need named candidate slot 밀도가 가장 높고, 다음 read-only 대상이 이미 `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`, `심연 장부관`으로 선명해 우선 배치로 잠근다.
+- `오벨리스크`는 충돌 밀도가 더 높고, `프로스트`는 legend/원로단 신호가 강해 다음 효율은 `해양`보다 낮다고 기록한다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notables_Coverage_Matrix.md`의 next priority에서 `해양` 1순위를 유지하고 Ether sync 완료를 명시
+- `audit/Section_15_Five_Continent_Closure_Table.md`, `audit/Section_15_Named_Notables_Status_Compass.md`에 다음 대륙을 `해양`으로 고정
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 다음 실제 read-only 대상 5개를 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `해양` 대륙의 `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`, `심연 장부관` read-only 확인
+- 그 다음 필요 시 `오벨리스크` 또는 `프로스트` 중 다음 대륙 우선순위를 재고정
+
+### 2026-04-09 KST - Oceanic Top 5 Role Slot Read-Only Batch
+
+목적:
+
+- `해양` 대륙의 `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`, `심연 장부관`을 원본 import 기준으로 read-only 확인한다.
+- direct holder가 없으면 새 이름을 만들지 않고 role slot 또는 boundary adjacency로만 잠근다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Descartes`, `Linnaeus` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Descartes` | Oceanic Top 5 Slot Scout A | `신탁 방주`, `해로 장부관` read-only 확인 | `dispatched -> conductor local evidence integrated` |
+| `Linnaeus` | Oceanic Top 5 Slot Scout B | `왕실 선공장 수석장`, `흑조 감정관`, `심연 장부관` read-only 확인 | `completed -> conductor sync confirmed` |
+
+Conductor action:
+
+- `오라클 바지`, `골든 앵커 하버`, `크로스윈드 포트`, `볼트 오브 아우룸`, `블랙워터 항구`, `붉은 해골 섬` 원본을 직접 교차 읽는다.
+- `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`은 direct holder 없이 role slot으로 유지한다.
+- `심연 장부관`은 `이소벨 골드리프`가 `볼트 오브 아우룸` 상위 재무 권력축으로만 인접하므로 direct keeper로 승격하지 않는다.
+- `Section_15_Oceanic_Search_Findings_Batch_03.md`를 새로 만들고, `Search Queue`, `Need Named Candidate Index`, `Search Synthesis`, `Status Compass`, `Coverage Matrix`, `Five Continent Closure Table`, `Workstream`을 같이 맞춘다.
+
+Integrated actions:
+
+- `audit/Section_15_Oceanic_Search_Findings_Batch_03.md` 작성
+- `audit/Section_15_Oceanic_Named_Candidate_Search_Queue.md`에 top 5 slot `read_only_pass_done` 반영
+- `audit/Section_15_Oceanic_Need_Named_Candidate_Index.md`, `audit/Section_15_Oceanic_Search_Synthesis.md`에 slot별 판정 메모 반영
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md`에 해양 1차 pass 결과 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 다음 해양 2열 도시 실무층 batch 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `항해사 길드장`, `마스터 쉽라이트`, `수석 기상관`, `대경매장 주인`, `은행장`, `세관장` read-only 확인
+- 그 다음 필요 시 `오벨리스크` 또는 `프로스트` 중 다음 대륙 우선순위를 재고정
+
+### 2026-04-09 KST - Oceanic City-Role Narrowing Batch
+
+목적:
+
+- `해양` 대륙의 2열 도시 실무층 `항해사 길드장`, `마스터 쉽라이트`, `수석 기상관`, `대경매장 주인`, `은행장`, `세관장`을 read-only로 확인한다.
+- 실명이 없으면 억지 승격 없이 role slot으로 유지하고, 기존 boundary candidate와 혼동하지 않게 잠근다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Mencius`, `Kepler` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Mencius` | Oceanic City-Role Scout A | `항해사 길드장`, `마스터 쉽라이트`, `수석 기상관` read-only 확인 | `dispatched -> conductor local evidence integrated` |
+| `Kepler` | Oceanic City-Role Scout B | `대경매장 주인`, `은행장`, `세관장` read-only 확인 | `completed -> conductor sync confirmed` |
+
+Conductor action:
+
+- `크로스윈드 포트` import에서 `항해사 길드장`, `마스터 쉽라이트`, `수석 기상관`이 모두 핵심 인물 슬롯 표로만 보이고 실명은 없다는 점을 확인한다.
+- `포트 아우렐리온` import에서 `대경매장 주인`, `은행장`, `세관장`이 모두 핵심 인물 슬롯 표로만 보이고 실명은 없다는 점을 확인한다.
+- `phase4_oceanic_trade_flow.md`, `황금 함대 주요 교역로 및 무역 거점.md`를 교차 읽어 `은행장`의 금융 권력 문맥은 강화하되 direct holder로는 승격하지 않는다.
+- `크리스토퍼 델마르`는 `대경매장 주인`과 병합하지 않고, `이소벨 골드리프`는 `은행장` direct holder로 병합하지 않는다.
+
+Integrated actions:
+
+- `audit/Section_15_Oceanic_Search_Findings_Batch_04.md` 작성
+- `audit/Section_15_Oceanic_Search_Synthesis.md`, `audit/Section_15_Oceanic_Named_Candidate_Search_Queue.md`, `audit/Section_15_Oceanic_Need_Named_Candidate_Index.md`에 city-role batch 결과 반영
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md`에 해양 city-role batch 완료 문구 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 다음 해양 잔여 unnamed slot batch 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관` read-only 확인
+- 그 다음 필요 시 `오벨리스크` 또는 `프로스트` 중 다음 대륙 우선순위를 재고정
+
+### 2026-04-09 KST - Oceanic Tail Unnamed Slot Closure Batch
+
+목적:
+
+- `해양` 대륙의 잔여 unnamed slot `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`을 원본 import 기준으로 read-only 확인한다.
+- 실명이 없으면 role slot으로 닫고, 상위 named boundary 인접만 보이면 slot holder로 섣불리 승격하지 않는다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Curie`, `Ramanujan` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Curie` | Oceanic Tail Slot Scout A | `수석 무역왕`, `스톰 체이서 대장` read-only 확인 | `completed -> conductor sync confirmed` |
+| `Ramanujan` | Oceanic Tail Slot Scout B | `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관` read-only 확인 | `completed -> conductor sync confirmed` |
+
+Conductor action:
+
+- `포트 아우렐리온`, `크로스윈드 포트`, `폭풍의 만`, `진혼의 합창단`, `유령선의 안식처` 원본을 직접 교차 읽는다.
+- `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`는 direct holder 없이 role slot으로 닫는다.
+- `망자항해 기록관`은 `모로스 제독이 ... 항해일지를 수집한다`는 문장을 확인했지만, source상 archivist direct holder는 아니므로 role slot으로 잠그고 `모로스`, `데드먼 콜`과 병합하지 않는다.
+- `Section_15_Oceanic_Search_Findings_Batch_05.md`를 새로 만들고, `Search Queue`, `Need Named Candidate Index`, `Search Synthesis`, `Status Compass`, `Coverage Matrix`, `Five Continent Closure Table`, `Workstream`을 같이 맞춘다.
+
+Integrated actions:
+
+- `audit/Section_15_Oceanic_Search_Findings_Batch_05.md` 작성
+- `audit/Section_15_Oceanic_Need_Named_Candidate_Index.md`에 5슬롯 최종 상태와 `Read-Only Pass - Batch 05` 반영
+- `audit/Section_15_Oceanic_Named_Candidate_Search_Queue.md`, `audit/Section_15_Oceanic_Search_Synthesis.md`에 해양 unnamed slot 1차 마감 반영
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md`에 해양 closure note 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 다음 작업선을 `오벨리스크`/`프로스트` 우선순위 재고정으로 이동
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `오벨리스크`와 `프로스트` 중 다음 대륙 우선순위를 재고정
+- 실제 원고 입력이 생기면 live handoff case가 이 흐름보다 우선
+
+### 2026-04-09 KST - Post-Oceanic Next Continent Re-Priority Batch
+
+목적:
+
+- 해양 unnamed slot read-only pass가 닫힌 뒤, 다음 메인 본선을 `오벨리스크`와 `프로스트` 중 어디로 넘길지 다시 판정한다.
+- 다음 턴에서 바로 실행 가능한 read-only batch가 더 선명한 쪽을 고른다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Locke`, `Wegener` read-only priority scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Locke` | Obelisk Priority Scout | 오벨리스크 next batch 선명도, slot clarity, collision guard 점검 | `completed -> conductor sync confirmed` |
+| `Wegener` | Frost Priority Scout | 프로스트 next batch 선명도, legend/elder collision risk 점검 | `completed -> conductor sync confirmed` |
+
+Conductor action:
+
+- `Status Compass`, `Coverage Matrix`, `Five Continent Closure Table`, `Obelisk/Frost Search Synthesis`, `Need Named Candidate Index`를 교차 읽는다.
+- `오벨리스크`는 `베스 / 이안` verify 축과 `기록의 수호자 / 오벨리스크 관측대장 / 기억 경매장 중개자 / 사후 서기관` 슬롯을 같은 턴에 같이 좁힐 수 있어 다음 mainline으로 고정한다.
+- `프로스트`는 `대예언자`, `원로 사냥꾼`, `묘지기 장로`, `별의 샤먼`이 원로단/지도부/전설 신호와 더 가까워 이번 턴에는 boundary 오염 위험이 더 크고, 다음 mainline 후보 2순위로 남긴다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notables_Status_Compass.md`에 다음 mainline을 `오벨리스크`로 고정
+- `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md`에 오벨리스크 우선 사유 반영
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 오벨리스크 next narrowing batch 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `오벨리스크`의 `기록의 수호자`, `오벨리스크 관측대장`, `기억 경매장 중개자`, `사후 서기관` read-only narrowing
+- 그 다음 필요 시 `프로스트`를 다시 mainline 후보로 재평가
+
+### 2026-04-09 KST - Obelisk First Narrowing Batch
+
+목적:
+
+- `기록의 수호자`, `오벨리스크 관측대장`, `기억 경매장 중개자`, `사후 서기관`을 원본 import 기준으로 read-only 확인한다.
+- `베스 / 이안` verify 축과 unnamed slot 축을 분리해, 새 인물 발명 없이 실제 holder가 있는지 먼저 닫는다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Singer`, `Peirce` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Singer` | Obelisk Narrowing Scout A | `기록의 수호자`, `오벨리스크 관측대장`, `베스 / 이안` holder 관계 확인 | `completed -> conductor correction synced` |
+| `Peirce` | Obelisk Narrowing Scout B | `기억 경매장 중개자`, `사후 서기관` direct holder 여부 확인 | `completed -> conductor sync confirmed` |
+
+Conductor action:
+
+- `봉인 수호단`, `서고단 파벌`, `기록의 수호자` import를 직접 교차 읽고, 이후 Singer 결과까지 합쳐 `기록의 수호자`가 `베스`와 강하게 연결되지만 전용 유닛 문서의 `지도자 미정` 때문에 unresolved slot으로 남는다고 수정 잠근다.
+- 같은 축에서 `오벨리스크 관측대장`도 `이안`과 강하게 연결되지만 전용 유닛 문서의 `지도자 미정` 때문에 unresolved slot으로 남는다고 수정 잠근다.
+- `기억 경매장` import에서는 direct named broker가 없음을 확인하고 `타르갈`과 병합하지 않는다.
+- `망자의 왕국`, `영원의 기록탑` import에서는 `사후 서기관`이 다수 역할군임을 확인하고 `고르고스 페일`과 병합하지 않는다.
+- `Section_15_Obelisk_Search_Findings_Batch_01.md`를 새로 만들고, `Need Named Candidate Index`, `Search Synthesis`, `Status Compass`, `Coverage Matrix`, `Five Continent Closure Table`, `Workstream`을 같이 맞춘다.
+
+Integrated actions:
+
+- `audit/Section_15_Obelisk_Search_Findings_Batch_01.md` 작성
+- `audit/Section_15_Obelisk_Need_Named_Candidate_Index.md`에 `베스 / 이안` strong-link unresolved slot과 role slot confirmed 반영
+- `audit/Section_15_Obelisk_Search_Synthesis.md`에 1차 narrowing 결과와 다음 batch 반영
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md`에 오벨리스크 1차 narrowing note 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 다음 오벨리스크 batch를 `신성 기록소 관리 사제`, `기억 지기`, `묘역 감독관`, `심연 계약 중개자`로 이동
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `신성 기록소 관리 사제`, `기억 지기`, `묘역 감독관`, `심연 계약 중개자` read-only narrowing
+- 그 다음 필요 시 `프로스트`를 다시 mainline 후보로 재평가
+
+### 2026-04-09 KST - Obelisk Second Narrowing Batch
+
+목적:
+
+- `신성 기록소 관리 사제`, `기억 지기`, `묘역 감독관`, `심연 계약 중개자`를 원본 import 기준으로 read-only 확인한다.
+- direct named holder가 없으면 role slot으로 유지하고, existing holder가 확인되면 무리한 단일화 없이 verify link만 남긴다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Russell`, `Feynman` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Russell` | Obelisk Narrowing Scout C | `신성 기록소 관리 사제`, `기억 지기` holder 구조 확인 | `timed_out -> conductor local evidence fallback` |
+| `Feynman` | Obelisk Narrowing Scout D | `묘역 감독관`, `심연 계약 중개자` holder 구조 확인 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `봉인의 수호자 주요 교역로 및 무역 거점`, `봉인의 사제단` import를 교차 읽어 `신성 기록소 관리 사제`는 plural function만 있고 single named holder가 없음을 확인한다.
+- `잊힌 자들의 연합` import에서 `기억 지기 = 렌 / 라일` two-holder 구조를 직접 확인하고, 새 이름 탐색보다 existing holder verify 연동이 우선이라고 잠근다.
+- `네크로폴리스 프라임`, `망자의 왕국` import를 교차 읽어 `묘역 감독관`은 도시 실무층 role만 있고 direct named holder가 없음을 확인한다.
+- `심연의 장사꾼` import에서 `루가르 드 바네스카`가 `심연 계약` 협상 전문 타짜로 직접 적힌다는 점을 확인하고, `심연 계약 중개자`의 strongest existing fit로만 잠근다.
+- `Section_15_Obelisk_Search_Findings_Batch_02.md`를 새로 만들고, `Need Named Candidate Index`, `Search Synthesis`, `Status Compass`, `Coverage Matrix`, `Five Continent Closure Table`, `Workstream`을 같이 맞춘다.
+
+Integrated actions:
+
+- `audit/Section_15_Obelisk_Search_Findings_Batch_02.md` 작성
+- `audit/Section_15_Obelisk_Need_Named_Candidate_Index.md`, `audit/Section_15_Obelisk_Search_Synthesis.md`에 2차 narrowing 상태 반영
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md`에 오벨리스크 2차 narrowing note 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 다음 `프로스트` 재평가 기준으로 이동
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `프로스트`를 다시 mainline 후보로 재평가
+- 오벨리스크는 `렌/라일`, `루가르` strong-link note를 유지한 채 closure sync만 추가
+
+### 2026-04-09 KST - Post-Obelisk Frost Mainline Re-Lock Batch
+
+목적:
+
+- 오벨리스크 2차 narrowing 이후, 다음 메인 본선을 `프로스트`로 실제 고정할지 판정한다.
+- `프로스트`의 원로/예언/공방 축이 위험하더라도 place-first read-only batch로 통제 가능한지 본다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Kuhn`, `Pascal` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Kuhn` | Frost Priority Re-Lock Scout | `프로스트` next batch 선명도와 boundary risk 점검 | `timed_out -> conductor local evidence fallback` |
+| `Pascal` | Obelisk Residual ROI Scout | `오벨리스크` 추가 pass ROI와 `프로스트` 우선 전환 타당성 점검 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `Section_15_Frost_Search_Synthesis`, `Section_15_Frost_Need_Named_Candidate_Index`, `Section_15_Named_Notables_Frost_Scout`와 관련 imports를 직접 읽는다.
+- `프로스트`는 여전히 위험하지만, `오로라 평원`, `얼음무덤 언덕`, `푸른 폭풍 요새`, `겨울회의 의장막` 앵커가 선명해 `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`을 place-first read-only batch로 자를 수 있다고 판정한다.
+- `오벨리스크`는 핵심 slot narrowing이 2차까지 닫혀 현재 ROI가 더 낮다고 정리한다.
+- `Status Compass`, `Coverage Matrix`, `Five Continent Closure Table`, `Next_Sequential_Workstream`, `Continuous_Workstream`, `Section_15_Frost_Search_Synthesis`를 `프로스트 next mainline` 기준으로 갱신한다.
+
+Integrated actions:
+
+- `audit/Section_15_Frost_Search_Synthesis.md`의 next action을 `프로스트` actual next batch 기준으로 수정
+- `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`, `audit/Section_15_Five_Continent_Closure_Table.md`에 `프로스트 next mainline` 반영
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 `원로 사냥꾼 / 묘지기 장로 / 대예언자 / 수석 기술자 / 별의 샤먼` read-only narrowing 기준으로 이동
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `프로스트`의 `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼` read-only narrowing
+- 오벨리스크는 `렌/라일`, `루가르` strong-link note를 유지한 채 closure sync만 추가

@@ -39,6 +39,13 @@
 - `Registers`는 판정과 상태 이동의 장기 기억 장부다.
 - 세부 기준은 `orchestra/EXECUTION_HARNESS_LOCK.md`를 따른다.
 
+## Model Route
+
+- `서사 개연성`, `감정선`, `세계관 철학`, `확장 억제`, `무엇이 더 작품다운가` 같은 판단은 ChatGPT-first 검토를 우선한다.
+- `queue`, `register`, `crosswalk`, `index`, `naming normalization`, `branch/commit/push`는 Codex-first로 처리한다.
+- 애매하면 `ChatGPT형 판단 메모 -> Codex evidence 수집/반영` 또는 `Codex evidence bundle -> ChatGPT형 판정 -> Codex 반영`의 hybrid route를 쓴다.
+- 세부 기준은 `orchestra/MODEL_ROLE_SPLIT_LOCK.md`를 따른다.
+
 ## 언제 병렬 분할을 켜는가
 
 아래 중 둘 이상이 걸리면 오케스트라 분할을 우선한다.

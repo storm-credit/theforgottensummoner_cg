@@ -39,6 +39,8 @@
 31. `엘다라` 시트에 `루미라 / 현자 의회 / 고대수 도서관 / 정령왕 계약서 사본` 근거를 보강하고, 분리 규칙을 더 선명하게 잠금
 32. 에테르 `탑주 묶음` 1차 `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`를 direct ruling backfill로 연결
 33. `Ravenfell / Corvus`와 `이사도르 템페스트 / 이사도르 솔레아`를 이름 드리프트 / 분리 판정으로 정밀화
+34. `해양` `top 5 slot` read-only pass에서 `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`은 direct holder 미확인 role slot, `심연 장부관`은 `이소벨` adjacency only로 잠금
+35. `해양` 잔여 unnamed slot read-only pass에서 `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`은 direct holder 미확인 role slot으로 잠금
 
 ## Current Stable 15 Profile Test Set
 
@@ -135,11 +137,11 @@
 
 ## Conductor Decision
 
-이번 턴에서 `Section_15_Index_Draft`, `Section_15_Named_Notables_Status_Compass`까지
-에테르 surface-name lock 압축 반영을 마쳤다.
+이번 턴에서 해양 잔여 unnamed slot read-only pass를 마쳤다.
 
 다음 실제 작업은 실제 원고 입력이 없으면
-Ether low-priority auxiliary slot의 개인명 실존 여부를 read-only로 확인하는 것이다.
+`프로스트`를 다음 메인 본선으로 올리고,
+`원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼`을 read-only로 좁히는 것이다.
 
 실제 원고 입력이 생기면
 그때 seed가 아니라 live handoff case로 승격한다.
@@ -178,14 +180,22 @@ Ether low-priority auxiliary slot의 개인명 실존 여부를 read-only로 확
 - 이번 턴에서 에테르 sidecar와 operational display 표의 표면명 후보를 `preferred_display_candidate` 기준으로 잠그고, polish 해결분을 본표에 접어 넣었다.
 - `FS_Slot_Maturation_Register.md`에도 Ether 대표 슬롯이 최신 `preferred_display_candidate`를 따른다는 메모를 추가했다.
 - 이번 턴에서 low-priority auxiliary slot 목록도 `탑서기`, `왕실 의전서기`, `성벽 설계서기`, `상단 조율관`, `항만 인장관`, `탐사 기록관`, `연구소 보존관`, `대현자 보좌 기록관`, `침묵의 감시자`로 닫았고, 제외할 항목은 두지 않았다.
-- 이번 턴에서 `Section_15_Index_Draft`, `Section_15_Named_Notables_Status_Compass`까지 Ether surface-name lock 압축 반영을 마쳤다.
-- 따라서 다음 실제 배치는 위 low-priority auxiliary slot의 개인명 실존 여부를 read-only로 확인하는 편이 가장 효율적이라고 잠갔다.
+- `오라클 바지`, `골든 앵커 하버`, `크로스윈드 포트`, `블랙워터 항구`, `붉은 해골 섬`, `볼트 오브 아우룸` 원본에서 top 5 role slot을 다시 확인했다.
+- `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`은 direct holder 없이 role slot으로 남기고, `심연 장부관`은 `이소벨 골드리프`를 direct keeper로 올리지 않고 boundary adjacency로만 유지했다.
+- `크로스윈드 포트`, `포트 아우렐리온` 원본에서 `항해사 길드장`, `마스터 쉽라이트`, `수석 기상관`, `대경매장 주인`, `은행장`, `세관장`도 direct holder 없이 role slot으로만 확인했다.
+- 이번 턴에서 `포트 아우렐리온`, `크로스윈드 포트`, `폭풍의 만`, `진혼의 합창단`, `유령선의 안식처` 원본을 더 읽어 `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`은 모두 direct holder 미확인 role slot으로 닫고, `모로스`, `데드먼 콜` 등 상위 named candidate와 병합하지 않도록 메모를 남겼다.
+- 따라서 해양 unnamed slot read-only pass는 1차 마감됐고, 다음 실제 배치는 `오벨리스크`의 기록/관측/거래 슬롯을 더 좁히는 편이 가장 효율적이라고 잠갔다.
+- 이번 턴에서 `기록의 수호자`, `오벨리스크 관측대장`이 각각 `베스 / 이안`과 강하게 연결되지만 direct holder로는 확정되지 않는다는 점을 잠갔고, `기억 경매장 중개자`, `사후 서기관`은 direct holder 없이 role slot 유지로 잠갔다.
+- 이번 턴에서 `신성 기록소 관리 사제`, `묘역 감독관`은 single named holder 없이 role slot 유지로 닫혔다.
+- `기억 지기`는 `렌 / 라일` 복수 holder 구조, `심연 계약 중개자`는 `루가르` strong-link verify 상태로 잠갔다.
+- 따라서 오벨리스크 핵심 slot narrowing은 2차까지 한 번 닫혔고, 다음 batch는 `프로스트`를 실제 mainline으로 올리는 편이 더 효율적이다.
+- `프로스트`는 `대예언자`, `원로 사냥꾼`, `묘지기 장로`, `별의 샤먼`이 모두 원로단/지도부/전설 신호와 가깝지만, 이번 턴은 인물 확정이 아니라 place-first role slot read만 하므로 오염을 통제할 수 있다.
 
 ## Engine Upgrade Next
 
 엔진 쪽 다음 우선순위:
-1. Ether low-priority auxiliary slot의 개인명 실존 여부 read-only 확인
-2. 그 다음 필요 시 Ether low-priority auxiliary slot 확인 결과를 status/coverage 요약표에 미세 조정
+1. `프로스트` next narrowing batch 실행: `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자 / 드워프 장인`, `별의 샤먼`
+2. `오벨리스크`는 `렌/라일`, `루가르` strong-link note를 유지한 채 closure sync만 추가
 3. 실제 원고 입력이 생기면 handoff seed가 아니라 live handoff case로 승격
 
 ## Parallel Side Track
@@ -203,5 +213,6 @@ Ether low-priority auxiliary slot의 개인명 실존 여부를 read-only로 확
 
 1. `Species_Framework_Audit_Sidecar.md` 기준 1차 anchor case 정리
 2. `Race_Species_Term_Crosswalk.md`, `Race_Species_First_Pass.md`를 기준으로 용어 교차표와 1차 강도 판정 잠금
-3. `Species_Framework_Risk_Register.md` 기준 금지선 점검
-4. `하피`, `라미아`, `수중/해양계`, `용인`, `거인`, `요정`은 `reserved_family` 후보로만 유지
+3. `Race_Species_Evidence_Log.md`, `Race_Species_Boundary_Guard.md`를 기준으로 raw evidence와 escalation rule 잠금
+4. `Species_Framework_Risk_Register.md` 기준 금지선 점검
+5. `merfolk sovereignty`, `요정 standalone dossier`, `오크/고블린 사회 구조`, `라미아/나가 안정 공동체` 근거를 read-only로 더 점검

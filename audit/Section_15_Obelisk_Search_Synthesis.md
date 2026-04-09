@@ -39,12 +39,12 @@
 | `기록의 수호자` | `템플 오브 바운더리 / 봉인 수호단` | 전선 기록, 봉인 기록, 기록 유출 장면. | `need_named_candidate_or_verify_beth` |
 | `오벨리스크 관측대장` | `경계의 보루` | 흑오벨리스크 계측, 경보 발령, 관측 자료 관리. | `need_named_candidate_or_verify_ian` |
 | `대봉인관 대행 / 원로 군관` | `봉인 수호단` | 공석인 대봉인관을 대신하는 최전선 결단자. | `keep_14_or_verify` |
-| `신성 기록소 관리 사제` | `봉인의 수호자 / 신성 기록소` | 봉인 해제 코드, 금단 도면, 기록 유출 훅. | `need_named_candidate` |
-| `기억 지기` | `잊힌 자들의 연합 / 망각의 회랑` | 구역 통치, 자원 배분, 기억 크레딧과 망명 네트워크. | `need_named_candidate_or_verify_existing` |
-| `기억 경매장 중개자` | `기억 경매장` | 영혼 계약, 사후 권리 계약, 이름/잔향 거래. | `need_named_candidate` |
-| `사후 서기관` | `영원의 기록탑` | 기억 기록, 분류, 보관, 이름 맡김 체계. | `need_named_candidate` |
-| `묘역 감독관` | `네크로폴리스 프라임` | 하위 기록관과 관리인을 통솔하는 도시 실무층. | `need_named_candidate` |
-| `심연 계약 중개자` | `심연의 장사꾼` | 영혼 담보 계약, 금단 유물 거래, 흑마술 지식 경매. | `need_named_candidate_or_verify_rugar` |
+| `신성 기록소 관리 사제` | `봉인의 수호자 / 신성 기록소` | 봉인 해제 코드, 금단 도면, 기록 유출 훅. | `need_named_candidate / role_slot_confirmed` |
+| `기억 지기` | `잊힌 자들의 연합 / 망각의 회랑` | 구역 통치, 자원 배분, 기억 크레딧과 망명 네트워크. | `verify_existing_holders_ren_ryle` |
+| `기억 경매장 중개자` | `기억 경매장` | 영혼 계약, 사후 권리 계약, 이름/잔향 거래. | `need_named_candidate / role_slot_confirmed` |
+| `사후 서기관` | `영원의 기록탑` | 기억 기록, 분류, 보관, 이름 맡김 체계. | `need_named_candidate / role_slot_confirmed` |
+| `묘역 감독관` | `네크로폴리스 프라임` | 하위 기록관과 관리인을 통솔하는 도시 실무층. | `need_named_candidate / role_slot_confirmed` |
+| `심연 계약 중개자` | `심연의 장사꾼` | 영혼 담보 계약, 금단 유물 거래, 흑마술 지식 경매. | `need_named_candidate_or_verify_rugar / strong_link` |
 
 ## Place / Institution Anchors
 
@@ -70,12 +70,17 @@
 오벨리스크는 지금 사람을 확정하지 않는다.
 
 - 이름 있는 후보는 전원 `verify_before_15` 또는 충돌 감시.
-- 이름 없는 슬롯은 장소-기관 기능으로 유지.
+- `기록의 수호자`, `오벨리스크 관측대장`은 `베스 / 이안`과 강한 연결 신호가 있지만, 전용 유닛 문서의 `지도자 미정` 상태 때문에 unresolved slot으로 유지한다.
+- `신성 기록소 관리 사제`, `묘역 감독관`은 기능은 선명하지만 single named holder가 없어 role slot으로 유지한다.
+- `기억 지기`는 `렌 / 라일` 복수 holder 구조가 source에 직접 확인돼 existing holder 연동으로 읽는다.
+- `심연 계약 중개자`는 `루가르`와 강하게 연결되지만, 이번 단계에서는 verify link까지만 둔다.
+- `기억 경매장 중개자`, `사후 서기관`은 direct holder 없이 장소-기관 기능 role slot으로 유지한다.
 - 다음에 실제 인물 승격을 하더라도 `기록 / 기억 / 거래 / 죄책감 / 망명` 기능을 먼저 통과시킨다.
 
 ## Next Action
 
-오벨리스크도 한 번 닫는다.
+오벨리스크 1차 narrowing을 한 번 닫는다.
 
-다음 배치는 `5대륙 Named Notables 압축 종료표`를 작성해
-에테르/프로스트/해양/오벨리스크/크림슨의 현재 상태를 하나로 묶는다.
+오벨리스크 핵심 slot 2차 narrowing도 한 번 닫는다.
+
+다음 배치는 이 2차 결과를 압축표와 진행표에 동기화하고, 필요 시 `프로스트` mainline 재평가로 넘긴다.

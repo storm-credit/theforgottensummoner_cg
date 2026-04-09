@@ -59,3 +59,19 @@
 
 - 이번 pass에서 `봉인서고지기`, `비전로 장인장`, `성좌 관측장`, `대서고 학장`, `성채 봉인관`, `성검 병장관`, `서약의회 기록관`, `그늘항로 기록관`, `정령서약 해석자` 계열을 표면 기본값으로 잠갔다.
 - 이후 검색 로그와 후속 배치는 working label보다 위 표면명 후보를 우선해서 쓴다.
+
+## Low-Priority Auxiliary Follow-Up
+
+| Slot | Read-Only Result | Keep State |
+|---|---|---|
+| `탑서기` | direct holder 미확인. 탑주/협회 핵심축 실명과만 인접함. | `need_named_candidate` |
+| `왕실 의전서기` | direct holder 미확인. `레온하르트` 및 익명 `의회 서기장`과 분리 유지. | `need_named_candidate` |
+| `성벽 설계서기` | direct holder 미확인. `에드몬드 듀락`, `제라르드 파브리스`와 분리 유지. | `need_named_candidate` |
+| `상단 조율관` | direct holder 미확인. `세실리아 메르카토르`와 분리 유지. | `need_named_candidate` |
+| `항만 인장관` | direct holder 미확인. `드레이크 루가`, `셀레나 와일드웨이브`와 분리 유지. | `need_named_candidate` |
+| `탐사 기록관` | direct holder 미확인. `발타자르`, `에드윈`, `에드가 룬워커`와 분리 유지. | `need_named_candidate` |
+| `연구소 보존관` | direct holder 미확인. 표본/보존 책임 실명 앵커 없음. | `need_named_candidate` |
+| `대현자 보좌 기록관` | direct holder 미확인. `엘다라` 및 `엘라라 문힘`과 역할 축이 다르다. | `need_named_candidate` |
+| `침묵의 감시자` | 개인명 미확인. `Silent Watchers` 집단 직함으로만 확인됨. | `need_named_candidate` |
+
+Ether low-priority auxiliary slot 9개 read-only closure가 완료됐다.

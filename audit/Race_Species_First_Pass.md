@@ -68,11 +68,13 @@
 ### 6. 해양 종은 있다, 하지만 수중 문명은 아직 얇다
 
 - 인어/merfolk, 바다 뱀, 수중 전력 신호는 보인다.
+- `세레니아`에는 `인어의 쉼터`, `인어 공주`, `이종족 대표`가 보이고,
+  `물의 정령 기사단`에는 인어 전사와 심해 순찰대가 직접 편제된다.
 - 그러나 현재 문서 상태만으로는 `독립 해양 문명권`을 강하게 잠그기 어렵다.
 
 판정:
 
-- `수중/해양계`: `reserved_family with thin evidence`
+- `수중/해양계`: `reserved_family with localized enclave signal`
 
 ### 7. 하피는 아직 몬스터/변이 쪽이 우세하다
 
@@ -85,11 +87,27 @@
 
 ### 8. 라미아/나가는 아직 근거가 부족하다
 
-- import층에서 안정적인 사회 구조 증거가 거의 안 잡힌다.
+- `라미아`, `메두사`, `고르곤`, `serpentfolk` 계열은 안정적인 사회 구조 증거가 아직 없다.
+- 현재 explicit humanoid-serpent 신호는 암약 조직 내부의 `나가족(반인반사)` 단일 개체 1건이 전부다.
 
 판정:
 
-- `라미아/나가`: `open question`
+- `라미아`: `open question`
+- `나가`: `single-character signal only`
+
+### 9. 거인, 요정, 오크는 존재 신호는 있으나 peoplehood 강도는 제각각이다
+
+- `거인`은 고대 유해, 위협 개체, 전장 신화로는 반복되지만 현존 공동체 증거는 약하다.
+- `요정`은 포획 대상과 자원 문맥도 많지만, `정령연합` 내부에서는 공동체/피난처/평의/정치 질서에 연결되는 사례가 반복된다.
+- `오크 부락`은 people signal이 있으나 구조 설명이 아직 얇고, 전장 맥락이 우세하다.
+- `고블린`은 오크보다 더 약하며, 현재는 `고블린혼혈` 같은 통합/혼혈 신호만 있고 독립 부족/정체/사회 구조는 안 보인다.
+
+판정:
+
+- `거인계`: `thin -> mythic/threat first`
+- `요정계`: `mixed -> ally/community in Ether, hold globally`
+- `오크`: `thin people signal`
+- `고블린`: `integration/bloodline signal only`
 
 ## First Working Rule
 
@@ -104,4 +122,5 @@
 
 - `해양` 문서에서 merfolk/sea-native civilization 증거가 실제로 얼마나 반복되는지 점검
 - `오벨리스크` import에서 언데드 내부 계층이 `state`를 넘는 peoplehood를 갖는지 점검
-- `거인`, `요정`, `오크`, `고블린`, `라미아`의 안정적 공동체 근거가 있는지 점검
+- `요정`의 `정령연합 내부 공동체`가 전역 standalone species dossier로 확장 가능한지 점검
+- `오크`, `고블린`, `라미아`, `나가`의 안정적 공동체 근거가 실제로 있는지 점검

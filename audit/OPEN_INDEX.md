@@ -9,6 +9,7 @@
 - `orchestra/AGENT_DISPATCH_LOG.md`
 - `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
 - `orchestra/EXECUTION_HARNESS_LOCK.md`
+- `orchestra/MODEL_ROLE_SPLIT_LOCK.md`
 - `Today_Workstream.md`
 - `Surface_Naming_Audit_Findings.md`
 - `Supranational_Display_Canon.md`
@@ -22,6 +23,7 @@
 - `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
 - `orchestra/ACTIVE_AGENT_SPLIT.md`
 - `orchestra/RUNBOOK.md`
+- `orchestra/MODEL_ROLE_SPLIT_LOCK.md`
 - `orchestra/AGENT_DISPATCH_LOG.md`
 
 ## Naming
@@ -73,7 +75,9 @@
 - `audit/Species_Framework_Audit_Sidecar.md`
 - `audit/Species_Framework_Risk_Register.md`
 - `audit/Race_Species_First_Pass.md`
+- `audit/Race_Species_Boundary_Guard.md`
 - `working/crosswalks/Race_Species_Term_Crosswalk.md`
+- `working/drafts/Race_Species_Evidence_Log.md`
 
 ## Section 14
 

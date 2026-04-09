@@ -30,7 +30,7 @@
 
 - `크림슨` 쪽 Named Notables 후보가 가장 많다.
 - `범대륙 / 후기 확장` 후보는 키르케 계열이지만, 범대륙 자체가 후순위라 15 확정도 천천히 간다.
-- `에테르` 쪽은 현재 `엘다라`가 정령연합 내부 전승층의 대표 후보로 보인다.
+- `에테르` 쪽은 현재 `엘다라`가 정령연합 내부 전승층의 대표 후보로 보이고, low-priority auxiliary slot 9개는 각 도시/기관 앵커 아래 role slot 유지로 closure를 마쳤다.
 - `프로스트`, `오벨리스크`, `해양` 쪽은 안정 15 후보보다 장소-기관 역할 슬롯이 강하다.
 
 ## Section 8 Bridge Update
@@ -41,7 +41,7 @@
 | Continent | Routing Reading |
 |---|---|
 | `크림슨` | 부족/씨족 spine과 생존 경제 spine이 본체. 안정 15 후보는 용의 후예/엘드라칸 쪽에 둔다. |
-| `에테르` | state_house/guild_market spine이 본체이며, 정령연합만 tribe_clan 특수축으로 본다. 엘다라는 정령연합/루미라 앵커. |
+| `에테르` | state_house/guild_market spine이 본체이며, 정령연합만 tribe_clan 특수축으로 본다. 엘다라는 정령연합/루미라 앵커이고, low-priority auxiliary slot 9개는 각 도시/기관 앵커 아래 role slot 유지로 읽는다. |
 | `프로스트` | tribe_clan/frontier survival 감각으로 읽고, 확정 인물보다 오로라 평원/빙하의 성소/아이스포지 슬롯을 보존한다. |
 | `해양` | state_house/guild_market spine이 본체. 포트 아우렐리온/크로스윈드 포트/오라클 바지 같은 도시 기능형 슬롯을 보존한다. |
 | `오벨리스크` | frontier_survival/guild_market spine이 본체. 기록/기억/봉인/망각 장소-기관 슬롯을 먼저 보존한다. |
@@ -51,7 +51,7 @@
 
 다음 수집에서는 아래 결손층을 먼저 본다.
 
-1. 8번 spine과 15번 후보/슬롯 브리지 검토
+1. Ether low-priority auxiliary slot 9개 closure 결과를 8번 spine과 15번 후보/슬롯 브리지에 반영
 2. 안정 15 후보의 대륙/세력/도시 앵커 고정
 3. `need_named_candidate` 슬롯의 장소-기관 색인 유지
 4. 14/15 경계 후보는 14 확인 전 확정 금지
