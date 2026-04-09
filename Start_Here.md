@@ -33,7 +33,9 @@
 20. `orchestra/AGENT_ROSTER.md`
 21. `orchestra/Active_Agent_Split.md`
 22. `orchestra/MASTER_PLAN.md`
-23. `audit/Audit_Queue.md`
+23. `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
+24. `orchestra/EXECUTION_HARNESS_LOCK.md`
+25. `audit/Audit_Queue.md`
 
 ## 운영 원칙
 
@@ -41,6 +43,7 @@
 - 원본 로컬 클론 `X:\theforgottensummoner`는 읽기 전용 참조 경로다.
 - 원본 저장소는 바로 고치지 않는다.
 - 먼저 `cg` 저장소에서 기준과 이슈를 정리한다.
+- 실행은 `MCP -> Skills -> Agents -> Hooks -> Registers -> Conductor final integration` 순서를 기본으로 한다.
 - 모든 판단은 `인간 서사 중심`, `액트 단위 여운`, `엇갈린 관계망`, `초월전 비중 제한` 원칙을 따른다.
 - 확정되지 않은 내용은 삭제하지 않고 `Soft Canon` 혹은 `Open Question`으로 보류한다.
 - 폴더별 에이전트 분할보다 `기능별 전문가 + 총괄 Conductor` 구조를 우선한다.

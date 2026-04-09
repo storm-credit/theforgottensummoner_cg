@@ -15,15 +15,53 @@ Conductor가 필요 배치마다 실제 서브에이전트를 호출하거나
 - 산출물도 역할별로 남긴다
 - 최종 통합만 Conductor가 한다
 
+## Locked Orchestra Advantages
+
+오케스트라 방식의 이점은 아래처럼 고정한다.
+
+1. `병렬 진단`
+   같은 대상을 여러 관점으로 동시에 읽어, 긴 문서를 한 번에 닫는 속도를 높인다.
+2. `판단과 반영의 분리`
+   에이전트는 읽기/진단/제안까지만 맡고, 최종 반영은 Conductor만 한다.
+3. `충돌 조기 발견`
+   라우팅, 이름 톤, 서사 등급, 장소 기능 충돌을 한 문서 안에서 늦게 발견하지 않고 배치 단계에서 분리한다.
+4. `전문 렌즈 고정`
+   대륙, 세력, 관계, 장소, 엔진 같은 축을 한 사람이 한 번에 섞어 읽지 않게 한다.
+5. `책임 추적 가능`
+   어떤 배치가 어떤 판단을 냈는지 `AGENT_DISPATCH_LOG.md`와 산출물 문서로 되짚을 수 있다.
+
+## Split Trigger
+
+아래 조건이면 Conductor는 오케스트라 분할을 우선 검토한다.
+
+- 같은 대상에 `라우팅`, `이름`, `등급`, `장소 기능`이 한꺼번에 걸려 있을 때
+- 여러 대륙 또는 여러 장부를 같이 만져야 할 때
+- `verify_before_15`, `need_named_candidate`, `display_canon_candidate`가 동시에 얽힐 때
+- 긴 압축표를 닫으면서 다음 작업선까지 같이 정해야 할 때
+
+## Harness Reading
+
+오케스트라 분할은 단독으로 돌지 않는다.
+
+항상 아래 하네스 안에서 읽는다.
+
+1. `MCP`가 문맥을 모은다.
+2. `Skills`가 반복 절차를 고정한다.
+3. `Agents`가 관점별 병렬 진단을 맡는다.
+4. `Hooks`가 전환 누락과 기록을 강제한다.
+5. `Registers`가 상태와 판정을 기억한다.
+6. `Conductor`가 최종 통합과 반영을 맡는다.
+
 ## Current Real Subagent Batch
 
 현재 실제로 띄운 배치는 `orchestra/AGENT_DISPATCH_LOG.md`를 본다.
 
 현재 활성 확인 대상:
 
-- FS Lore Engine Auditor
-- FS Archive Routing Auditor
-- FS Story / Media Mode Auditor
+- Orchestra Advantage Auditor
+- Frost Core Register Link Auditor
+- Workstream Sync Auditor
+- FS Lore Engine Consistency Specialist
 
 ## Current Segmentation
 

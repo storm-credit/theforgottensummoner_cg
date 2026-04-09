@@ -46,11 +46,16 @@
 | Priority | Result |
 |---|---|
 | 1 | `done`. `대런 크레센트`는 `verify_before_15` 유지, `봉인서고지기 / 금서 검인관`은 `need_named_candidate` 유지. |
-| 2 | `done`. `에드가 룬워커`는 A급/Act 신호 때문에 `verify_before_15` 유지, `대장로 / 무기 상인 / 비전로 장인장 / 비전 제작관`은 `need_named_candidate` 유지. |
-| 3 | `done`. `칼리스트`는 A+/Act/대예언자 신호 때문에 `verify_before_15` 유지, `수석 점성가 / 관측관 / 점성술사 / 망원경 관리자 / 미친 예언가`는 `need_named_candidate` 유지. |
+| 2 | `done`. `에드가 룬워커`는 A급/Act 신호 때문에 `verify_before_15` 유지, `비전로 장인장 / 비전 제작관`은 `need_named_candidate` 유지. |
+| 3 | `done`. `칼리스트`는 A+/Act/대예언자 신호 때문에 `verify_before_15` 유지, `성좌 관측장 / 별기록관`은 `need_named_candidate` 유지. |
 | 4 | `done`. `래퍼티 아르카디아`는 A급/Act/도서관장 신호 때문에 `verify_before_15` 유지, `라파엘 아르카디아`는 이름 드리프트 확인 대상으로 분리, `대서고 학장 / 대서고 수호장`은 `need_named_candidate` 유지. |
 | 5 | `done`. `대사제 요한`은 루멘 성채 총괄/결계 공명 신호 때문에 `verify_before_15` 유지, `발레리우스 / 헬렌`은 로컬 이름 슬롯 확인 대상으로 분리, `성채 봉인관 / 순교묘역 사제장`은 `need_named_candidate` 유지. |
-| 6 | `done`. `알렉산드로 발렌티안`은 SS급 총단장 신호 때문에 `keep_14`, `실라스 블랙쏜`은 S급 고문관/감옥 관리자 신호 때문에 `keep_14_likely`, `무기 장인 / 성검 병장관 / 옵시디안 무기지기`는 `need_named_candidate` 유지. |
-| 7 | `done`. `레온하르트 / 제라르드`는 14 유지, `리아나 실버레이크`는 왕국연합 핵심표 신호 때문에 `verify_before_15`, `의회 서기장 / 서약의회 기록관 / 전비 장부관`은 `need_named_candidate` 유지. |
-| 8 | `done`. `드레이크 루가`는 14 유지, `셀레나 와일드웨이브 / 레온 벨가르드`는 `verify_before_15`, `조선소장 / 교관 / 대집행관 / 그늘항로 기록관 / 서약문 보관관`은 `need_named_candidate` 유지. |
+| 6 | `done`. `알렉산드로 발렌티안`은 SS급 총단장 신호 때문에 `keep_14`, `실라스 블랙쏜`은 S급 고문관/감옥 관리자 신호 때문에 `keep_14_likely`, `성검 병장관 / 옵시디안 무기지기`는 `need_named_candidate` 유지. |
+| 7 | `done`. `레온하르트 / 제라르드`는 14 유지, `리아나 실버레이크`는 왕국연합 핵심표 신호 때문에 `verify_before_15`, `서약의회 기록관 / 전비 장부관`은 `need_named_candidate` 유지. |
+| 8 | `done`. `드레이크 루가`는 14 유지, `셀레나 와일드웨이브 / 레온 벨가르드`는 `verify_before_15`, `그늘항로 기록관 / 서약문 보관관`은 `need_named_candidate` 유지. |
 | 9 | `done`. `엘다라`는 루미라 대현자/고대 정령어 권위자로 15 후보 유지, `실바리온`은 14 유지, `엘라라 / 드라이덴 / 메라 / 실라스 나이트쉐이드`는 `verify_before_15`, `정령서약 해석자 / 정령묘 이름새김꾼`은 `need_named_candidate` 유지. |
+
+## Post Surface-Name Lock
+
+- 이번 pass에서 `봉인서고지기`, `비전로 장인장`, `성좌 관측장`, `대서고 학장`, `성채 봉인관`, `성검 병장관`, `서약의회 기록관`, `그늘항로 기록관`, `정령서약 해석자` 계열을 표면 기본값으로 잠갔다.
+- 이후 검색 로그와 후속 배치는 working label보다 위 표면명 후보를 우선해서 쓴다.

@@ -22,6 +22,7 @@
 | `FS-FP-006` | `line` | `Section_15_Subline_Profile_Signet_Forger_Line.md` | `허가문 위조 / 잠입 회수` | `seeded` | `15 Operational Lines` | 문서 위조 축 |
 | `FS-FP-007` | `line` | `Section_15_Subline_Profile_Grave_Inscription_Decoder_Line.md` | `죽은 메시지 해독 회수` | `seeded` | `15 Operational Lines` | 침묵의 상회 축 |
 | `FS-FP-008` | `relationship` | `FS_Relationship_Ledger.md` | `세실리아-벤투라 긴장 회수` | `seeded` | `relationship` | 공적/비합법 교차 |
+| `FS-FP-009` | `item_pressure` | `FS_Story_to_Lore_Handoff_Seed_Cases.md / FS-HANDOFF-SEED-001` | `전설 무구 후보가 이름을 얻기 전 제작 책임과 사용자 손상 확인` | `handoff_test` | `Story-to-Lore` | 정본 아이템명 생성 금지 |
 
 ## Conductor Rule
 

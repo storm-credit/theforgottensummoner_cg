@@ -197,6 +197,22 @@
 - 지금은 Conductor가 직접 통합하는 편이 더 빠르다
 - 반복 루틴이 충분히 굳은 뒤에 분리하는 편이 안전하다
 
+## Harness Position
+
+이 문서의 skill 후보들은
+항상 아래 경계 안에서만 쓴다.
+
+- `MCP`는 문맥 수집
+- `Skill`은 반복 절차 고정
+- `Agent`는 병렬 진단
+- `Hook`은 전환 누락 방지
+- `Register`는 장기 기억
+
+즉 skill은
+`판단 주체`가 아니라
+`같은 절차를 다시 설명하지 않게 해 주는 층`
+이다.
+
 ## Trigger To Convert Into Real Skills
 
 아래 중 2개 이상이 반복되면 실제 스킬화 검토:

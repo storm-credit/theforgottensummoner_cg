@@ -17,22 +17,22 @@
 
 | Place / Institution | Function Type | Candidate Slot | Story Use | Current State |
 |---|---|---|---|---|
-| `금서 도서관` | `memory_site`, `sanctuary` | `금서 도서관 사서장 / 금서 관리국 검열관` | 금서 분류, 숨겨진 연구 기록, 금지된 예언, 14/15 경계 후보 대런과 연결 | `need_named_candidate` |
-| `마나 공방` | `workshop` | `마나 공방 공방장 / 마도 제작 감독관` | 마도 장비, 실험 실패, 제작 비밀, 아이템 소진행 연결 | `need_named_candidate` |
-| `아스트랄 관측소` | `memory_site`, `workshop` | `아스트랄 관측장 / 별의 예언 기록관` | 별의 예언자단, 시간/공간 징조, 칼리스트 경계 신호 | `need_named_candidate` |
-| `아르카노스 탑` | `workshop`, `memory_site` | `학파 탑 서기관 / 탑 회의 기록관` | 7개 학파 탑, 탑주 경계 후보, 마법협회 행정 기록 | `need_named_candidate` |
-| `아스트라르 중앙 도서관` | `memory_site`, `sanctuary` | `중앙 도서관 학장 / 지식의 수호자 대표` | 래퍼티 경계 후보, 성국 기록 권위, 금서/고대 마법 연구 | `need_named_candidate` |
-| `루멘 성채` | `sanctuary`, `threshold` | `성채 결계관 / 순교자 묘역 관리 사제` | 대사제 요한 경계 후보, 결계, 순교자 지하 묘지, 신성 방어 | `need_named_candidate` |
-| `옵시디안` | `workshop`, `threshold` | `성검 요새 무기 장인 / 감옥 무기고 관리관` | 감옥 도시, 무기 제작, 성국의 어두운 권력 장치 | `need_named_candidate` |
-| `레갈리아` | `market`, `threshold` | `연합 의회 기록관 / 왕실 의전 서기관` | 왕국연합 수도, 귀족 의회, 서약과 외교 문서 | `need_named_candidate` |
-| `아덴브루크` | `market` | `상업 조정관 / 전비 어음 기록관` | 상업 허브, 전비 어음, 파브리스식 금융 권력 | `need_named_candidate` |
-| `브룬발트 대성채` | `threshold`, `memory_site` | `대성채 병참관 / 성벽 설계 기록관` | 서부 방어선, 듀락 가문, 요새 건축 전승 | `need_named_candidate` |
-| `골든마르크` | `market` | `상단 조정관 / 외교 연회 기록관` | 자유도시 합법 상업권, 외교 중재, 세실리아 접점 | `need_named_candidate` |
-| `포트 넥서스` | `threshold`, `underworld_node` | `항만 인장관 / 밀수 통로 기록관` | 항구, 밀수, 제3 부두, 검은 고양이, 자유도시 음지망 | `need_named_candidate` |
-| `머시너리 게이트` | `threshold`, `market` | `계약문 보관관 / 용병 중재 서기관` | 용병 계약, 분쟁 중재, 명예의 전당, 다리안 계열 접점 | `need_named_candidate` |
-| `아크브릿지 연구소` | `workshop`, `memory_site` | `탐사 기록관 / 연구소 보존관` | 탐사 도시, 연구 기록, 마법협회-자유도시 접점 | `need_named_candidate` |
-| `잠든 정령의 숲` | `sanctuary`, `memory_site` | `침묵의 감시자 / 정령의 무덤 이름 새김꾼` | 정령의 무덤, 숲의 재판식, 정령연합의 기억과 금기 | `need_named_candidate` |
-| `루미라` | `sanctuary`, `memory_site` | `정령 계약 해석자 / 대현자 보좌 기록관` | 엘다라 후보, 고대 정령어, 정령 계약 해석 | `named_notable_candidate / collect_more_context` |
+| `금서 도서관` | `memory_site`, `sanctuary` | `봉인서고지기 / 금서 검인관` | 금서 분류, 숨겨진 연구 기록, 금지된 예언, 14/15 경계 후보 대런과 연결 | `need_named_candidate / slot_with_display_candidate` |
+| `마나 공방` | `workshop` | `비전로 장인장 / 비전 제작관` | 마도 장비, 실험 실패, 제작 비밀, 아이템 소진행 연결 | `need_named_candidate / slot_with_display_candidate` |
+| `아스트랄 관측소` | `memory_site`, `workshop` | `성좌 관측장 / 별기록관` | 별의 예언자단, 시간/공간 징조, 칼리스트 경계 신호 | `need_named_candidate / slot_with_display_candidate` |
+| `아르카노스 탑` | `workshop`, `memory_site` | `탑서기 / 탑 회의 기록관` | 7개 학파 탑, 탑주 경계 후보, 마법협회 행정 기록 | `need_named_candidate / slot_with_display_candidate` |
+| `아스트라르 중앙 도서관` | `memory_site`, `sanctuary` | `대서고 학장 / 대서고 수호장` | 래퍼티 경계 후보, 성국 기록 권위, 금서/고대 마법 연구 | `need_named_candidate / slot_with_display_candidate` |
+| `루멘 성채` | `sanctuary`, `threshold` | `성채 봉인관 / 순교묘역 사제장` | 대사제 요한 경계 후보, 결계, 순교자 지하 묘지, 신성 방어 | `need_named_candidate / slot_with_display_candidate` |
+| `옵시디안` | `workshop`, `threshold` | `성검 병장관 / 옵시디안 무기지기` | 감옥 도시, 무기 제작, 성국의 어두운 권력 장치 | `need_named_candidate / slot_with_display_candidate` |
+| `레갈리아` | `market`, `threshold` | `서약의회 기록관 / 왕실 의전서기` | 왕국연합 수도, 귀족 의회, 서약과 외교 문서 | `need_named_candidate / slot_with_display_candidate` |
+| `아덴브루크` | `market` | `전비 장부관 / 전비 어음 기록관` | 상업 허브, 전비 어음, 파브리스식 금융 권력 | `need_named_candidate / slot_with_display_candidate` |
+| `브룬발트 대성채` | `threshold`, `memory_site` | `대성채 병참관 / 성벽 설계서기` | 서부 방어선, 듀락 가문, 요새 건축 전승 | `need_named_candidate / slot_with_display_candidate` |
+| `골든마르크` | `market` | `상단 조율관 / 외교 연회 기록관` | 자유도시 합법 상업권, 외교 중재, 세실리아 접점 | `need_named_candidate / slot_with_display_candidate` |
+| `포트 넥서스` | `threshold`, `underworld_node` | `항만 인장관 / 그늘항로 기록관` | 항구, 밀수, 제3 부두, 검은 고양이, 자유도시 음지망 | `need_named_candidate / slot_with_display_candidate` |
+| `머시너리 게이트` | `threshold`, `market` | `서약문 보관관 / 용병 중재 서기관` | 용병 계약, 분쟁 중재, 명예의 전당, 다리안 계열 접점 | `need_named_candidate / slot_with_display_candidate` |
+| `아크브릿지 연구소` | `workshop`, `memory_site` | `탐사 기록관 / 연구소 보존관` | 탐사 도시, 연구 기록, 마법협회-자유도시 접점 | `need_named_candidate / slot_with_display_candidate` |
+| `잠든 정령의 숲` | `sanctuary`, `memory_site` | `침묵의 감시자 / 정령묘 이름새김꾼` | 정령의 무덤, 숲의 재판식, 정령연합의 기억과 금기 | `need_named_candidate / slot_with_display_candidate` |
+| `루미라` | `sanctuary`, `memory_site` | `정령서약 해석자 / 대현자 보좌 기록관` | 엘다라 후보, 고대 정령어, 정령 계약 해석 | `named_notable_candidate / collect_more_context / slot_with_display_candidate` |
 
 ## Map Brief Seeds
 
@@ -86,7 +86,7 @@
 ## Naming and Tone Guard
 
 - `관리자`, `검열관`, `서기관`은 작업용 라벨이다.
-- 표면명 후보는 나중에 `서고지기`, `봉인문서관`, `별기록관`, `항만 인장관`, `계약문 보관관`처럼 더 판타지 톤으로 낮춘다.
+- 표면명 후보는 이번 pass에서 `봉인서고지기`, `금서 검인관`, `성좌 관측장`, `대서고 학장`, `성채 봉인관`, `그늘항로 기록관`, `정령서약 해석자` 계열로 우선 잠근다.
 - `마법협회 탑주`와 `성국 도서관장` 계열은 14번 영웅 신호가 강하므로 개인명 확정 전에 반드시 14 중복 여부를 확인한다.
 - `엘다라`는 에테르 15 후보로 유지하지만 아직 `collect_more_context` 상태다.
 
@@ -99,17 +99,17 @@
 |---|---|---|---|
 | `금서 도서관 사서장` | `봉인서고지기` | `preferred_display_candidate` | 금서와 봉인의 권위를 살리면서 행정어를 줄인다. |
 | `금서 관리국 검열관` | `금서 검인관` | `preferred_display_candidate` | 검열의 현대적 느낌보다 봉인 문서 검인 기능을 앞세운다. |
-| `마나 공방 공방장` | `마나로 장인장` | `preferred_display_candidate` | 공방 기능과 장인 위계를 동시에 살린다. |
+| `마나 공방 공방장` | `비전로 장인장` | `preferred_display_candidate` | 마법협회 제작로와 장인 위계를 함께 살린다. |
 | `마도 제작 감독관` | `비전 제작관` | `preferred_display_candidate` | 감독관보다 마법 제작 기관 직함처럼 읽힌다. |
 | `아스트랄 관측장` | `성좌 관측장` | `preferred_display_candidate` | 별/운명/관측 이미지를 분명하게 한다. |
 | `별의 예언 기록관` | `별기록관` | `preferred_display_candidate` | 예언 기록 기능을 짧고 오래된 직함처럼 만든다. |
 | `학파 탑 서기관` | `탑서기` | `preferred_display_candidate` | 학파 탑의 문서 실무층을 간결하게 표시한다. |
 | `중앙 도서관 학장` | `대서고 학장` | `preferred_display_candidate` | 성국 기록 권위를 살리면서 표면명을 정돈한다. |
-| `지식의 수호자 대표` | `지식수호장` | `preferred_display_candidate` | 직역 설명보다 칭호처럼 보인다. |
+| `지식의 수호자 대표` | `대서고 수호장` | `preferred_display_candidate` | 아스트라르 중앙 도서관의 장소성을 더 분명하게 받는다. |
 | `성채 결계관` | `성채 봉인관` | `preferred_display_candidate` | 루멘 성채의 신성 방어와 봉인 기능을 받는다. |
 | `순교자 묘역 관리 사제` | `순교묘역 사제장` | `preferred_display_candidate` | 묘역 관리 기능과 성직 위계를 함께 담는다. |
-| `성검 요새 무기 장인` | `성검 무장장` | `preferred_display_candidate` | 무기 장인의 기능을 성국식 위계로 낮춘다. |
-| `감옥 무기고 관리관` | `흑감옥 무기지기` | `preferred_display_candidate` | 옵시디안의 어두운 권력 장치를 더 판타지 톤으로 표현한다. |
+| `성검 요새 무기 장인` | `성검 병장관` | `preferred_display_candidate` | 성국의 무기/병장 위계를 더 직접적으로 받는다. |
+| `감옥 무기고 관리관` | `옵시디안 무기지기` | `preferred_display_candidate` | 장소 앵커를 직접 드러내면서도 판타지 톤을 유지한다. |
 | `연합 의회 기록관` | `서약의회 기록관` | `preferred_display_candidate` | 왕국연합의 서약/의회 기능을 붙인다. |
 | `왕실 의전 서기관` | `왕실 의전서기` | `preferred_display_candidate` | 지나치게 현대적이지 않고 행정 직함으로 유지 가능하다. |
 | `상업 조정관` | `전비 장부관` | `preferred_display_candidate` | 아덴브루크의 전비 어음/상업 권력과 연결된다. |
@@ -118,9 +118,9 @@
 | `밀수 통로 기록관` | `그늘항로 기록관` | `preferred_display_candidate` | 밀수를 직접 말하지 않고 항로/그늘 이미지로 우회한다. |
 | `계약문 보관관` | `서약문 보관관` | `preferred_display_candidate` | 용병 계약을 더 고전적인 서약 톤으로 낮춘다. |
 | `정령 계약 해석자` | `정령서약 해석자` | `preferred_display_candidate` | 계약보다 서약의 판타지 톤이 더 맞다. |
-| `정령의 무덤 이름 새김꾼` | `영묘 이름새김꾼` | `preferred_display_candidate` | 정령 묘역과 기억 기능을 간결하게 표현한다. |
+| `정령의 무덤 이름 새김꾼` | `정령묘 이름새김꾼` | `preferred_display_candidate` | 정령연합의 숲/묘역 앵커를 더 직접적으로 붙인다. |
 
-## Needs Polish
+## Historical Polish Trail
 
 | Candidate | Reason | Direction |
 |---|---|---|
@@ -130,7 +130,7 @@
 | `지식수호장` | 칭호성은 좋지만 조금 추상적이다. | `대서고 수호장`, `지식전당 수호장` 검토 |
 | `영묘 이름새김꾼` | 정령연합의 자연/숲 톤보다 묘역 톤이 강할 수 있다. | `숲무덤 이름새김꾼`, `정령묘 이름새김꾼` 검토 |
 
-## Polish Resolution
+## Resolved Polish Decisions
 
 | Original Candidate | Updated Preferred Candidate | State |
 |---|---|---|

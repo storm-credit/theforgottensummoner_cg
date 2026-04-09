@@ -181,9 +181,27 @@ FS Lore Engine에서 장소는
 | 잠든 정령의 숲 | `sanctuary`, `memory_site` | 침묵의 감시자 / 정령의 무덤 이름 새김꾼 | `pilgrim_road`, `hunter_trail` | `knowledge_asset`, `suppressed_record` |
 | 루미라 | `sanctuary`, `memory_site` | 정령 계약 해석자 / 대현자 보좌 기록관 | `pilgrim_road`, `scholar_road` | `knowledge_asset`, `institutional_asset` |
 
+## Frost Direct Link Pass
+
+프로스트는 현재 `안정 15 후보`보다
+`장소가 먼저 여는 명사형 슬롯`이 더 강한 대륙이다.
+
+따라서 아래 슬롯은
+실명 확인 전까지 장소 기능과 표면명 후보를 먼저 붙든다.
+
+| Place | Slot | Preferred Display Candidate | Function Focus | Register State | Next Gate |
+|---|---|---|---|---|---|
+| `오로라 평원` | `전승 보존회 원로 사냥꾼` | `서리길 원로 사냥꾼` | 구전 전승, 사냥길, 생존 지식, 귀환 동선 | `slot_with_display_candidate` | 실제 개인명 확인 |
+| `오로라 평원` | `별의 샤먼` | `오로라 별술사` | 오로라 징조, 별빛 의식, 공동체 예언 전파 | `slot_with_display_candidate` | 샤먼/주술사 실명 확인 |
+| `겨울회의 의장막 + 오로라 평원` | `대예언자` | `오로라 예언장` | 부족 결의, 징조 해석, 예언 검증 | `slot_with_display_candidate` | 예언 지도부 실명 확인 |
+| `얼음무덤 언덕` | `묘지기 장로` | `빙묘 수호장` | 족보, 묘역 수호, 죽은 자의 이름, 유물 단서 | `slot_with_display_candidate` | 기록/묘역 인명 확인 |
+| `푸른 폭풍 요새` | `수석 기술자 / 드워프 장인` | `빙철 공방장` | 공성 병기, 공방 운영, 요새 정비 | `slot_with_display_candidate` | 공방/병기 장인 실명 확인 |
+| `아이스포지 병기소` | `아이스포지 병기소 장인` | `서리벼림 장인` | 냉기 병기, 공성심장, 공방 전승 | `slot_with_display_candidate` | 병기소 장인 실명 확인 |
+
 ## Routing Rule
 
 지도 후보가 생기면 먼저 이 장부에 기능을 붙인다.
 
 기능이 없는 장소는
 지도에 그려도 서사적으로 죽은 장소가 될 수 있다.
+

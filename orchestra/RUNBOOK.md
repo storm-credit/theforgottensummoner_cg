@@ -22,6 +22,39 @@
 - 현재 기본 분할은 `Continent Adequacy Scout`, `Faction Cartographer`, `House and Lineage Auditor`, `Clan and Tribe Auditor`, `Guild and Economy Auditor`, `Hero Curator`다.
 - 병렬 역할은 증거 수집과 1차 판단만 하고, 최종 우선순위와 정본 판단은 Conductor가 통합한다.
 
+## 오케스트라 고정 원칙
+
+- 병렬 운용의 목표는 `더 많이 부르기`가 아니라 `더 빨리 분리해서 더 늦게 섞지 않기`다.
+- 같은 파일을 여러 역할이 동시에 수정하지 않는다.
+- 같은 대상을 여러 역할이 읽더라도, 서로 다른 질문만 맡긴다.
+- Conductor는 항상 마지막에 `판정 통합 -> 문서 반영 -> 다음 작업선 고정` 순서로 끝낸다.
+
+## 실행 하네스
+
+- 기본 실행층은 `MCP -> Skills -> Agents -> Hooks -> Registers -> Conductor final integration`이다.
+- `MCP`는 조회와 문맥 수집을 맡고, 정본 판단은 하지 않는다.
+- `Skills`는 반복 절차와 출력 형식을 고정하고, 정책 변경은 하지 않는다.
+- `Agents`는 병렬 진단과 제안을 맡고, 최종 반영은 하지 않는다.
+- `Hooks`는 전환 누락 방지용 검사/기록 층이다.
+- `Registers`는 판정과 상태 이동의 장기 기억 장부다.
+- 세부 기준은 `orchestra/EXECUTION_HARNESS_LOCK.md`를 따른다.
+
+## 언제 병렬 분할을 켜는가
+
+아래 중 둘 이상이 걸리면 오케스트라 분할을 우선한다.
+
+- `대륙 spine`과 `엔진 장부`를 같이 건드린다.
+- `Named Notables`, `Operational Lines`, `Place Register`가 같이 엮인다.
+- 상태 라벨 변경과 이름 톤 조정이 동시에 필요하다.
+- 다음 작업선까지 바로 정해야 한다.
+
+## 기대 이점
+
+- 조사 속도: 긴 문서를 역할별로 쪼개 병렬 진단한다.
+- 판단 품질: 라우팅, 톤, 장소 기능, 관계 충돌을 초기에 분리한다.
+- 운영 안정성: 최종 반영 권한을 Conductor 하나로 묶어 문서 drift를 줄인다.
+- 회수 용이성: 배치 기록과 역할 산출물이 남아 다음 턴 이어받기가 쉬워진다.
+
 ## FS Engine Routing
 
 - 세계관, 대륙, 세력, 인물, 관계망, 아이템, 지도는 모두 같은 방식으로 읽지 않는다.

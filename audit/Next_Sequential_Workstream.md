@@ -7,45 +7,38 @@
 최근 완료된 작업:
 
 1. 5대륙 Named Notables 종합표 작성
-2. 에테르 Named Notables 스카우트
-3. 에테르 14/15 경계 후보 Tier E 추가
-4. 세리오스 벤타리스 `keep_14_likely` 보정
-5. 래퍼티 / 대런 / 칼리스트 / 엘라라 추가 증거 보강
-6. 크림슨 15번 폴더링 시험표 작성
-7. 울프가르 / 에리온 / 오그마 시트에 Archive Routing 블록 추가
-8. 벨라나 / 아리안은 SS/S급 신호 때문에 `verify_before_15`로 보정
-9. `15 Named Notable Template`과 FS Lore Engine에 라우팅 규칙 연결
-10. Operational Lines의 표면명 후보를 한 차례 더 판타지 톤으로 낮춤
-11. 크림슨 안정 15 후보 3명의 장소/지도 사이드카 작성
-12. 크림슨 14/15 경계 후보 4명(`드락사르`, `카사르`, `벨라나`, `아리안`)의 추가 근거를 배치 문서로 분리
-13. 벨라나 / 아리안 개별 시트와 앵커맵의 상태 라벨을 `verify_before_15`로 보정
-14. 에테르 마법협회/정령연합 경계 후보 2차 근거를 보강하고 이름 드리프트를 분리
-15. 해양 명사형 후보 7명의 2차 근거를 보강하고 전원 `verify_before_15` 유지
-16. 오벨리스크 기록/봉인/망각/영혼 후보 7명의 2차 근거를 보강하고 전원 `verify_before_15` 유지
-17. 오벨리스크 장소-기관 슬롯을 `FS_Place_Function_Register`와 `Spatial_Backlog`에 연결
-18. 대륙별 `15 Named Notables` 상태를 `Status Compass`로 압축
-19. 프로스트 역할 슬롯을 장소-기관 사이드카로 연결
-20. 해양 항로/오라클/조선/감정/금고 슬롯을 장소-기관 사이드카로 연결
-21. 해양 장소-기관 슬롯의 작업용 라벨을 판타지 표면명 후보로 낮춤
-22. 해양 장소-기관 슬롯을 Status Compass / Coverage Matrix / Continent Synthesis에 반영
-23. 해양 장소-기관 슬롯별 실제 후보명 탐색 큐 작성
-24. 해양 후보명 1차 검색 결과 정리
-25. 해양 후보명 2차 검색 결과 정리
-26. 해양 포트 아우렐리온 / 크로스윈드 포트 unnamed role slot 좁히기
-27. 해양 unnamed role slot 3차 검색 결과 정리
-28. 에테르 장소-기관 슬롯 사이드카 작성
-29. 에테르 장소-기관 슬롯 표면명 후보 보정
-30. 에테르 표면명 후보 `Needs Polish` 분리
-31. 에테르 슬롯별 실제 후보명 탐색 큐 작성
-32. 에테르 큐 1번 `금서 도서관 / 마법 서고단 / 대런 크레센트` 검색 결과 정리
-33. 에테르 큐 2번 `마나 공방 / 에드가 룬워커 / 비전 제작관` 검색 결과 정리
-34. 에테르 큐 3번 `아스트랄 관측소 / 별의 예언자단 / 칼리스트` 검색 결과 정리
-35. 에테르 큐 4번 `아스트라르 중앙 도서관 / 래퍼티 / 대서고 수호장` 검색 결과 정리
-36. 에테르 큐 5번 `루멘 성채 / 대사제 요한 / 성채 봉인관` 검색 결과 정리
-37. 에테르 큐 6번 `옵시디안 / 성검 요새 / 성검 병장관` 검색 결과 정리
-38. 에테르 큐 7번 `레갈리아 / 아덴브루크 / 전비 장부관` 검색 결과 정리
-39. 에테르 큐 8번 `포트 넥서스 / 머시너리 게이트 / 그늘항로 기록관` 검색 결과 정리
-40. 에테르 큐 9번 `루미라 / 엘다라 / 정령묘 이름새김꾼` 검색 결과 정리
+2. 에테르 Named Notables 스카우트와 큐 1-9 압축 정리
+3. 크림슨 안정 15 후보 3명 시트/장소 연동 유지
+4. 크림슨 14/15 경계 후보 4명 보강 및 `verify_before_15` 유지
+5. 해양 장소-기관 슬롯 정리, 표면명 후보 보정, unnamed role slot 좁히기
+6. 오벨리스크 장소-기관 슬롯 정리와 압축 종료
+7. 15번 가상 폴더 구조, Revision Gate, Index Draft 정리
+8. 8번 세력 spine과 15번 앵커 호환성 감사
+9. 범대륙 deferred expansion / display canon guard 고정
+10. 크림슨 안정 후보 8번 앵커 재점검
+11. 프로스트 슬롯을 8번 spine 기준으로 다시 묶고 display canon 1차 보정
+12. `FS_Decision_Ruling_Register`, `FS_Cross_Chronicle_Firewall`, `FS_Slot_Maturation_Register`를 코어 보강 장부로 추가
+13. 프로스트 우선 슬롯 6개를 `FS_Place_Function_Register` direct link pass로 연결
+14. `Section_15_Frost_Core_Register_Link.md` 작성
+15. `FS_Slot_Maturation_Register`의 프로스트 표에 `Primary Anchor`, `Register Gate` 추가
+16. `FS_Decision_Ruling_Register`에 프로스트 `place_first` / `dual_anchor_slot` 판정 추가
+17. `FS_Canon_Change_Log.md` 초안 작성
+18. 오케스트라 운용 이점을 `ACTIVE_AGENT_SPLIT.md`, `RUNBOOK.md`에 고정
+19. `MCP / Skills / Agents / Hooks / Registers` 실행 하네스를 `EXECUTION_HARNESS_LOCK.md`로 고정
+20. `FS_Story_to_Lore_Handoff_Gate.md` 초안 작성 및 Story/Lore/Revision 문서에 연결
+21. `벨라나`, `드락사르`, `칼리스트`의 `verify_before_15` 유지 판정을 `FS_Decision_Ruling_Register`와 `FS_Canon_Change_Log.md`에 직접 연결
+22. `FS-HANDOFF-SEED-001`을 `FS-AQ-004 -> item_hold -> Asset/Foreshadow register` 경로로 시험 적용
+23. `카사르`, `세리오스`, `Ravenfell/Corvus`, `해양 경계 후보군`, `오벨리스크/Aegis`의 14/15 경계 변동분을 `FS_Canon_Change_Log.md`에 backfill
+24. `FS_Story_to_Lore_Live_Handoff_Queue.md`를 빈 queue 상태로 추가해 seed/live case를 분리
+25. `크리스토퍼 델마르 / 검은 동전`과 `메라 라일윈드 / 메라 실피드`의 개별 이름 충돌 backfill
+26. `Rafferty / Raphael Arcadia`와 `Sylas` 계열 이름 충돌 backfill
+27. `Valerius`, `Drake Ruga / Rawson`, `Selena` 계열 이름 충돌 backfill
+28. `Name Collision Register closure pass`로 `Sylvia`, `Wolfgar`, `Erion` 직접 연결 누락분 backfill
+29. `Aegis / 아이기스` person-item-concept split refinement를 기존 item name collision crosswalk와 연결
+30. `아리안`, `대런`, `시그리드`를 다음 `verify_before_15` 대표군으로 직접 연결
+31. `엘다라` 시트에 `루미라 / 현자 의회 / 고대수 도서관 / 정령왕 계약서 사본` 근거를 보강하고, 분리 규칙을 더 선명하게 잠금
+32. 에테르 `탑주 묶음` 1차 `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`를 direct ruling backfill로 연결
+33. `Ravenfell / Corvus`와 `이사도르 템페스트 / 이사도르 솔레아`를 이름 드리프트 / 분리 판정으로 정밀화
 
 ## Current Stable 15 Profile Test Set
 
@@ -109,14 +102,6 @@
 - 전설 영웅록 신호 확인
 - 15 확정하지 않고 `verify_before_15` 유지
 
-최근 진행:
-
-- 크림슨 4명은 `Section_14_15_Crimson_Boundary_Batch_02.md`로 보강했다.
-- `드락사르`: A급 / 공병대장 / 위험 실험 / 신무기 테스트 의뢰 신호로 `verify_before_15` 유지
-- `카사르`: S급 / 최고 조언자 / 예언자 / 시험의 탑 / 영웅록 신호로 `hold_for_dual_review` 유지
-- `벨라나`: SS급 / 폭풍의 여왕 / 대주술사 / 정신적 지도자 신호로 `verify_before_15` 유지
-- `아리안`: S급 / 대사제 / 정신적 지도자 신호로 `verify_before_15` 유지
-
 ### Step 3. Operational Lines Display Canon
 
 대상:
@@ -130,141 +115,93 @@
 - 현대적인 이름을 정통 판타지 톤으로 낮추기: `in_progress`
 - 단, 실제 정본명 선언은 아직 하지 않기
 
-최근 진행:
-
-- 상위 그룹명에 `preferred display candidate`를 붙였다.
-- 세부 직능명에도 `Functional Preferred Candidate Pass`를 추가했다.
-- `위조 장인의 우두머리`, `하수로 짐꾼`처럼 직역감이 강한 후보를 더 판타지 톤으로 보정했다.
-
-### Step 4. Map / Place Sidecar
+### Step 4. Frost Role Slot Hardening
 
 대상:
 
-- 드래곤포지
-- 엘드라칸 학자 구역
-- 용언 도서관
-- 몽상가의 바위
-- 지혜의 샘
+- `전승 보존회 원로 사냥꾼`
+- `묘지기 장로`
+- `대예언자`
+- `수석 기술자 / 드워프 장인`
+- `별의 샤먼`
+- `아이스포지 병기소 장인`
 
 작업:
 
-- `Spatial_Backlog` 또는 Place Function Register에 장소 기능 연결
-- 지도 제작이 아니라 지도 후보 브리프만 축적
-
-상태:
-
-- `done`
-- `Section_15_Crimson_Place_Sidecar.md` 작성
-- `Spatial_Backlog`에 크림슨 명사형 인물별 장소 앵커 반영
+- `FS_Place_Function_Register` direct link pass 유지: `done`
+- `FS_Decision_Ruling_Register` 판정 연결 유지: `done`
+- `FS_Slot_Maturation_Register` 앵커 게이트 유지: `done`
+- 실명 확인 전 `verify_before_15` 또는 `need_named_candidate` 선 유지: `done`
 
 ## Conductor Decision
 
-다음 실제 작업은 해양을 잠시 닫고,
-오벨리스크 또는 에테르의 장소-기관 슬롯 보강으로 넘어가는 것이다.
+이번 턴에서 `Section_15_Index_Draft`, `Section_15_Named_Notables_Status_Compass`까지
+에테르 surface-name lock 압축 반영을 마쳤다.
+
+다음 실제 작업은 실제 원고 입력이 없으면
+Ether low-priority auxiliary slot의 개인명 실존 여부를 read-only로 확인하는 것이다.
+
+실제 원고 입력이 생기면
+그때 seed가 아니라 live handoff case로 승격한다.
 
 이유:
 
-- Step 1 안정 후보 장부 연결은 완료됐다.
-- Step 3 표면명 보정은 1차 후보 우선순위까지 진행됐다.
-- Step 4 크림슨 장소 사이드카도 완료됐다.
-- 크림슨 4명의 경계 판단은 보강 완료됐다.
-- 에테르 탑주/정령연합 후보도 2차 근거와 이름 드리프트를 보강했다.
-- 해양 명사형 후보도 2차 근거를 보강했고, 새 15 확정 없이 `verify_before_15`를 유지했다.
-- 오벨리스크 명사형 후보도 2차 근거를 보강했고, 새 15 확정 없이 `verify_before_15`를 유지했다.
-- 오벨리스크 장소-기관 슬롯도 Place Function / Spatial Backlog에 연결했다.
-- 크림슨/에테르/해양/오벨리스크 판단이 흩어지지 않도록 대륙별 상태표로 압축했다.
-- 프로스트의 `원로 사냥꾼 / 묘지기 장로 / 대예언자 / 수석 기술자 / 별의 샤먼 / 아이스포지 장인` 슬롯을 장소-기관 중심으로 연결했다.
-- 해양의 `수석 오라클 / 항로 기록관 / 조선소 수석 공병 / 장물 감정사 / 심해 금고 보관인` 슬롯을 장소-기관 중심으로 연결했다.
-- `오라클 바지`, `장물 감정사`, `심해 금고 보관인` 같은 작업용 라벨을 `신탁 방주`, `흑조 감정관`, `심연 장부관` 계열의 display canon 후보로 낮췄다.
-- 이 해양 후보들을 `15 Named Notables` 실제 후보명 없이도 장소-기관 슬롯 기준으로 추적할 수 있도록 `Status Compass`, `Coverage Matrix`, `Continent Synthesis`에 반영했다.
-- `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`, `심연 장부관` 슬롯별 실제 후보명 탐색 큐를 만들었다.
-- `바다의 교단 / 오라클 바지`에서 `수석 오라클 -> 파도 신탁장` 후보명을 1차 확인했다.
-- 결과: 수석 오라클은 직함만 있고 개인명은 아직 없으며, 오라클 바지와 연결된 `세일블레스 마리아`는 A급 제독이라 15 확정 금지다.
-- `항해사 길드장`, `대경매장 주인`, `늙은 감정사`는 역할 슬롯으로 확인됐고, `크리스토퍼 델마르`는 새 경계 후보로 잡혔다.
-- `크리스토퍼 델마르`를 경계 큐, Named Notables 등록부, 앵커맵에 `verify_before_15`로 반영했다.
-- 2차 검색에서 `크리스토퍼 델마르`는 거상 연합 개요에서만 직접 확인되고 14 독립 파일은 현재 작업본에 보이지 않는다.
-- `대경매장 주인`은 포트 아우렐리온의 unnamed role slot이고, `항해사 길드장`도 현재는 unnamed role slot으로 유지한다.
-- `크로스윈드 포트`는 `마스터 쉽라이트`, `수석 기상관`, `항해사 길드장`, `스톰 체이서 대장` 슬롯으로 좁혔다.
-- `포트 아우렐리온`은 `수석 무역왕`, `대경매장 주인`, `은행장`, `세관장` 슬롯으로 좁혔다.
-- 3차 검색에서 위 슬롯들은 모두 개인명 없이 역할 슬롯으로만 재확인됐다.
-- 해양은 새 15 확정자를 만들지 않고 `need_named_candidate` 상태로 유지한다.
-- 에테르는 `금서 도서관`, `마나 공방`, `아스트랄 관측소`, `아스트라르 중앙 도서관`, `루멘 성채`, `브룬발트 대성채`, `잠든 정령의 숲`, `루미라` 같은 장소-기관 슬롯으로 먼저 받친다.
-- 에테르에서도 새 15 확정자는 만들지 않고 `need_named_candidate`와 `verify_before_15`를 유지한다.
-- 에테르 슬롯의 표면명 후보를 `봉인서고지기`, `금서 검인관`, `마나로 장인장`, `성좌 관측장`, `대서고 학장`, `성채 봉인관`, `서약의회 기록관`, `그늘항로 기록관`, `정령서약 해석자` 계열로 낮췄다.
-- `마나로 장인장`, `성검 무장장`, `흑감옥 무기지기`, `지식수호장`, `영묘 이름새김꾼`은 말맛/앵커 확인이 필요해 `Needs Polish`로 분리했다.
-- `Needs Polish` 후보를 `비전로 장인장`, `성검 병장관`, `옵시디안 무기지기`, `대서고 수호장`, `정령묘 이름새김꾼`으로 보정했다.
-- 에테르 슬롯별 실제 후보명 탐색 큐를 작성했다.
-- 큐 1번 검색 결과, `대런 크레센트`는 A+ 부탑주/행정총무/서고단 관장 신호가 강해 `verify_before_15`를 유지하고, `봉인서고지기 / 금서 검인관`은 별도 개인명 없이 `need_named_candidate`로 유지한다.
-- 큐 2번 검색 결과, `에드가 룬워커`는 마나 공방/고대 룬 마법단/마법협회 핵심표에서 반복 확인되지만 A급/Act 신호가 있어 `verify_before_15`를 유지한다.
-- `대장로`, `무기 상인`, `비전로 장인장`, `비전 제작관`은 별도 개인명 없이 `need_named_candidate`로 유지한다.
-- 큐 3번 검색 결과, `칼리스트`는 황금의 탑 탑주/별의 예언자단 지휘자/A+/Act 신호가 강해 `verify_before_15`를 유지한다.
-- `수석 점성가`, `관측관`, `점성술사`, `망원경 관리자`, `미친 예언가`는 별도 개인명 없이 `need_named_candidate`로 유지한다.
-- 큐 4번 검색 결과, `래퍼티 아르카디아`는 성국 핵심표의 A급 도서관장/Act 신호 때문에 `verify_before_15`를 유지한다.
-- `라파엘 아르카디아`는 아스트라르 도시 문서의 도서관장으로 보여 `래퍼티`와 이름 드리프트 또는 별도 인물 여부를 확인해야 한다.
-- `대서고 학장`, `대서고 수호장`은 별도 개인명 없이 `need_named_candidate`로 유지한다.
-- 큐 5번 검색 결과, `대사제 요한`은 루멘 성채 총괄/결계 공명 신호 때문에 `verify_before_15`를 유지한다.
-- `발레리우스`, `헬렌`은 루멘 성채의 로컬 이름 슬롯으로 확인되지만 독립 인물/기존 이름과의 충돌 여부를 확인해야 하므로 보류한다.
-- `성채 봉인관`, `순교묘역 사제장`은 별도 개인명 없이 `need_named_candidate`로 유지한다.
-- 큐 6번 검색 결과, `알렉산드로 발렌티안`은 SS급 총단장 신호 때문에 `keep_14`, `실라스 블랙쏜`은 S급 고문관/감옥 관리자 신호 때문에 `keep_14_likely`로 둔다.
-- `무기 장인`, `성검 병장관`, `옵시디안 무기지기`는 별도 개인명 없이 `need_named_candidate`로 유지한다.
-- 큐 7번 검색 결과, `레온하르트 카멜로스`와 `제라르드 파브리스`는 14 유지, `리아나 실버레이크`는 `verify_before_15`로 둔다.
-- `의회 서기장`, `서약의회 기록관`, `전비 장부관`은 별도 개인명 없이 `need_named_candidate`로 유지한다.
-- `전비 어음`은 경제/서사 자산 슬롯으로 보존한다.
-- 큐 8번 검색 결과, `드레이크 루가`는 14 유지, `셀레나 와일드웨이브`와 `레온 벨가르드`는 `verify_before_15`로 둔다.
-- `조선소장`, `교관`, `대집행관`, `그늘항로 기록관`, `서약문 보관관`은 별도 개인명 없이 `need_named_candidate`로 유지한다.
-- `제3 부두`와 `검은 고양이`는 현재 검색 범위에서 직접 확인되지 않아 원본 전체/기존 도시 매트릭스 확인 대상으로 남긴다.
-- 큐 9번 검색에서 루미라는 정령연합 학술/전승 도시로 확인했고, 엘다라는 대현자/고대 정령어 권위자로 15 후보 유지, 실바리온은 14 유지, 엘라라/드라이덴/메라/실라스 나이트쉐이드는 `verify_before_15`로 유지했다.
-- `정령서약 해석자`와 `정령묘 이름새김꾼`은 별도 개인명 없이 `need_named_candidate` 슬롯으로 유지한다.
-- 에테르 큐 1-9번을 `Section_15_Ether_Search_Synthesis.md`로 압축했다.
-- `엘다라` 시트에 큐 9 근거를 보강했고, 에테르 `need_named_candidate` 장소-기관 색인을 작성했다.
-- `Section_15_Named_Notables_Status_Compass`를 갱신해 에테르 큐 1-9가 닫힌 상태임을 반영했다.
-- 다음 실제 작업은 에테르를 더 파지 않고, `프로스트 / 해양 / 오벨리스크` 중 아직 압축표가 약한 대륙부터 같은 방식으로 닫는 것이다.
-- 프로스트를 먼저 닫기 위해 `Section_15_Frost_Search_Synthesis`와 `Section_15_Frost_Need_Named_Candidate_Index`를 작성했다.
-- 다음 실제 작업은 `Status Compass`에 프로스트 압축 완료 상태를 반영하고, 그다음 해양 또는 오벨리스크 압축으로 넘어가는 것이다.
-- 해양을 닫기 위해 `Section_15_Oceanic_Search_Synthesis`와 `Section_15_Oceanic_Need_Named_Candidate_Index`를 작성했다.
-- 다음 실제 작업은 `Status Compass`에 해양 압축 완료 상태를 반영하고, 그다음 오벨리스크 압축으로 넘어가는 것이다.
-- 오벨리스크를 닫기 위해 `Section_15_Obelisk_Search_Synthesis`와 `Section_15_Obelisk_Need_Named_Candidate_Index`를 작성했다.
-- 다음 실제 작업은 5대륙 Named Notables 압축 종료표 작성이다.
-- `Section_15_Five_Continent_Closure_Table`을 작성해 5대륙 15번 후보/보류/역할 슬롯을 한 번 닫았다.
-- 다음 실제 작업은 `8번 세력 아카이브`와 15번 앵커를 다시 연결하는 것이다.
-- `Section_8_to_15_Notable_Anchor_Bridge`를 작성해 8번 대륙별 spine과 15번 후보/역할 슬롯을 연결했다.
-- 다음 실제 작업은 기존 `Section_15_Named_Notables_Anchor_Map`을 이 브리지 기준으로 보강하는 것이다.
-- `Section_15_Folder_Draft_Routing_Plan`을 작성해 실제 이동 전 가상 폴더 라우팅을 잡았다.
-- 다음 실제 작업은 `15번 실제 폴더 초안 구조`를 문서로만 그리는 것이다.
-- `Section_15_Folder_Structure_Draft`를 작성해 15-A/15-B/15-C 가상 구조를 그렸다.
-- 다음 실제 작업은 이 폴더 초안의 Revision Gate 점검이다.
-- `Section_15_Folder_Revision_Gate`를 작성해 폴더 초안의 안전성을 점검했다.
-- 다음 실제 작업은 `Section_15_Index_Draft` 작성이다.
-- `Section_15_Index_Draft`를 작성해 15번 열람용 인덱스 초안을 만들었다.
-- 다음 실제 작업은 8번 세력 아카이브 쪽으로 돌아가 15번 인덱스가 세력 spine과 맞는지 점검하는 것이다.
-- `Section_8_15_Spine_Compatibility_Audit`를 작성해 15번 가상 구조가 8번 spine과 호환된다고 판정했다.
-- 다음 실제 작업은 안정 15 후보의 8번 앵커 색인 작성이다.
-- `Section_15_Stable_Candidate_8_Anchor_Index`를 작성해 안정 후보 5명의 8번 앵커를 묶었다.
-- 다음 실제 작업은 안정 15 후보 시트 품질 점검이다.
-- `Section_15_Stable_Candidate_Profile_QA`를 작성하고, 실비아 시트에 Archive Routing 블록을 보강했다.
-- 다음 실제 작업은 8번 세력 spine 쪽으로 돌아가 범대륙 후기 확장 보류선을 더 분명히 하는 것이다.
-- `Supranational_Deferred_Expansion_Guard`를 작성해 범대륙/후기 확장 구역을 보존하되 후순위로 두는 원칙을 고정했다.
-- 다음 실제 작업은 범대륙 루트를 `display canon / deferred expansion` 관점으로 다시 읽는 것이다.
-- `Supranational_Root_Deferred_Read`를 작성해 범대륙 루트의 display canon / deferred expansion 판정을 정리했다.
-- 다음 실제 작업은 `15-B Operational Lines`의 표면명 후보가 이 guard와 충돌하지 않는지 점검하는 것이다.
-- `Operational_Display_Guard_Audit`를 작성해 15-B 표면명 후보가 범대륙 guard와 대체로 호환된다고 판정했다.
-- 다음 실제 작업은 `Section_15_Index_Draft`에 guard 결과를 반영하는 것이다.
-- `Section_15_Index_Draft`에 Operational Display Guard 결과를 반영했다.
-- 다음 실제 작업은 이 범대륙/운영명 guard 묶음을 커밋하고, 이후 8번 루트 후속 검토로 넘어가는 것이다.
-- `Section_8_Next_Audit_Targets`를 작성해 8번 다음 감사 순서를 정했다.
-- 다음 실제 작업은 `크림슨 / 용의 후예 / 엘드라칸` 앵커 감사다.
-- `Section_8_Crimson_Notable_Anchor_Audit`를 작성해 울프가르/에리온/오그마의 8번 앵커를 재점검했다.
-- 울프가르와 에리온은 A급/전설 영웅록/세력 핵심표 신호 때문에 `grade_caution`을 붙였고, 오그마는 명사형 NPC 성격이 가장 선명하다고 판정했다.
-- Wolfgar/Erion 이름 충돌 레지스터와 명칭 정규화 맵에 충돌 가드를 추가했다.
-- 프로스트 `원로 사냥꾼 / 묘지기 장로 / 대예언자 / 수석 기술자 / 별의 샤먼 / 아이스포지 장인` 슬롯을 8번 spine 기준으로 다시 묶는 감사표를 추가했다.
-- 프로스트 슬롯의 `display canon` 후보를 `서리길 원로 사냥꾼 / 빙묘 수호장 / 오로라 예언장 / 빙철 공방장 / 오로라 별술사 / 서리벼림 장인` 축으로 1차 보정했다.
-- FS 엔진 재점검 후 `Decision Ruling Register`, `Cross-Chronicle Firewall`, `Slot Maturation Register`를 새 코어 보강 장부로 추가했다.
-- 다음 실제 작업은 이 프로스트 우선 후보를 `FS_Place_Function_Register`와 더 직접 연결하는 것이다.
+- 프로스트 슬롯 6개는 `Place Function -> Decision Ruling -> Slot Maturation` 코어까지 직접 연결했다.
+- `FS_Canon_Change_Log.md` 초안과 `FS_Story_to_Lore_Handoff_Gate.md`가 생겨 상태 이동과 교차 엔진 handoff가 고정됐다.
+- `verify_before_15` 유지 판정도 일부 직접 연결해 판정 기억이 더 촘촘해졌다.
+- `FS-HANDOFF-SEED-001`로 실제 story-born 압력 1건을 `item_hold`와 장부 기록까지 시험했다.
+- 14/15 경계 변동분 중 핵심 대표군 5건도 change log에 backfill했다.
+- `FS_Story_to_Lore_Live_Handoff_Queue.md`를 비워 둔 상태로 추가해 실제 입력과 seed case를 섞지 않게 했다.
+- `크리스토퍼 델마르`와 `Mera / 메라` drift는 개별 병합 금지 판정으로 backfill했다.
+- `Rafferty / Raphael Arcadia`와 `Sylas` 계열도 개별 병합 금지 판정으로 backfill했다.
+- `Valerius`, `Drake Ruga / Rawson`, `Selena` 계열도 개별 병합 금지 판정으로 backfill했다.
+- `Name Collision Register closure pass`에서 `Sylvia`, `Wolfgar`, `Erion`의 직접 연결 누락분을 backfill했다.
+- `Aegis`는 새 문서 생성 없이 기존 `working/crosswalks/Item_Name_Collision_Register.md`와 교차 참조해 인물/아이템/개념 분리를 정밀화했다.
+- `아리안`, `대런`, `시그리드`를 다음 `verify_before_15` 대표군으로 Decision Ruling에 직접 연결했다.
+- `이소벨 골드리프`, `카론`, `엘라라 문힘`도 개별 backfill 필요로 판정해 Decision Ruling과 Canon Change Log에 직접 연결했다.
+- `대사제 요한`, `에드가 룬워커`, `레온 벨가르드`도 개별 backfill 필요로 판정해 Decision Ruling과 Canon Change Log에 직접 연결했다.
+- 이번 배치는 `MCP gate check -> Skills skip -> Agents dispatch -> pre_write_hook -> post_write_hook -> pre_close_hook` 순서로 하네스를 실제 실행했다.
+- `리아나 실버레이크`, `드라이덴 썬더루트`, `바리온`도 개별 backfill 필요로 판정해 Decision Ruling과 Canon Change Log에 직접 연결했다.
+- 이번 배치도 `MCP gate check -> Skills skip -> Agents dispatch -> pre_write_hook -> post_write_hook -> pre_close_hook` 순서로 하네스를 실제 실행했다.
+- `더글라스 레가스`는 `Section_15_Ether_Search_Findings_Batch_07`의 경계 후보 보존 상태를 유지하고, 이번에는 직접 backfill하지 않았다.
+- `베스 스크롤`, `이안 옵저버`는 개별 backfill 필요로 판정해 Decision Ruling과 Canon Change Log에 직접 연결했다.
+- `카트린 라베로스`, `레보니아 셰이드`, `세르반 알테르만`도 개별 backfill 필요로 판정해 Decision Ruling과 Canon Change Log에 직접 연결했다.
+- `우로스 디 모르간`, `레티시아 모르투스`도 개별 backfill 필요로 판정해 Decision Ruling과 Canon Change Log에 직접 연결했다.
+- `더글라스 레가스`는 재판단 결과 `근거 부족`이 아니라 `likely_keep_14` 우세로 보고 direct backfill 비추천을 유지했다.
+- 오벨리스크는 direct backfill 관점에서 핵심 후보 10개가 모두 중앙 장부에 직접 연결되어, 잔여 큐를 사실상 닫아도 된다고 판정했다.
+- 에테르는 `엘다라` 근거 보강을 완료했고, `루미라`의 학술 도시성, `현자 의회`, `고대수 도서관`, `초대 정령왕의 계약서 사본` 축을 시트에 직접 반영했다.
+- 이번 보강은 `15 확정`이 아니라 `named_notable_candidate / verify_source_before_profile` 상태를 더 단단히 잠그는 작업으로 유지했다.
+- `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`는 탑주 / S급 / Act / 조직 핵심축 신호가 강해 모두 `verify_before_15` direct ruling으로 잠갔다.
+- `마르쿠스 레이븐펠`은 phase3 주앵커 `맥스웰 레이븐펠`과 분리해 drift 표기로만 보존하고, `마르쿠스 코르부스`는 별도 14 개체로 더 선명하게 잠갔다.
+- `이사도르 템페스트`는 청색 탑 / 템페스트 가문 축으로 보존하고, `이사도르 솔레아`와 병합 금지를 직접 판정으로 연결했다.
+- 에테르 arcane drift 후속 동기화를 `Ether Search Synthesis`, `Boundary Verification Queue`, `Ether Boundary Evidence`, `Continent Synthesis`, `Coverage Matrix`까지 같은 문구로 맞췄다.
+- 이번 턴에서 에테르 sidecar와 operational display 표의 표면명 후보를 `preferred_display_candidate` 기준으로 잠그고, polish 해결분을 본표에 접어 넣었다.
+- `FS_Slot_Maturation_Register.md`에도 Ether 대표 슬롯이 최신 `preferred_display_candidate`를 따른다는 메모를 추가했다.
+- 이번 턴에서 low-priority auxiliary slot 목록도 `탑서기`, `왕실 의전서기`, `성벽 설계서기`, `상단 조율관`, `항만 인장관`, `탐사 기록관`, `연구소 보존관`, `대현자 보좌 기록관`, `침묵의 감시자`로 닫았고, 제외할 항목은 두지 않았다.
+- 이번 턴에서 `Section_15_Index_Draft`, `Section_15_Named_Notables_Status_Compass`까지 Ether surface-name lock 압축 반영을 마쳤다.
+- 따라서 다음 실제 배치는 위 low-priority auxiliary slot의 개인명 실존 여부를 read-only로 확인하는 편이 가장 효율적이라고 잠갔다.
 
 ## Engine Upgrade Next
 
 엔진 쪽 다음 우선순위:
+1. Ether low-priority auxiliary slot의 개인명 실존 여부 read-only 확인
+2. 그 다음 필요 시 Ether low-priority auxiliary slot 확인 결과를 status/coverage 요약표에 미세 조정
+3. 실제 원고 입력이 생기면 handoff seed가 아니라 live handoff case로 승격
 
-1. `Canon Change Log` 초안
-2. `Story-to-Lore Handoff Gate` 초안
-3. 기존 `verify_before_15` 항목 중 일부를 `Decision Ruling Register`와 연결
+## Parallel Side Track
+
+메인선과 별도로,
+`Species Framework Audit` 사이드트랙을 병렬로 연다.
+
+원칙:
+
+- 메인 `14/15` workstream은 그대로 유지한다.
+- 종족 관련 내용은 아직 정본 선언이 아니라 `감사 / 분류 / 리스크 잠금`으로만 다룬다.
+- 기본 분류축은 `race / people`, `bloodline / lineage`, `state / transformation`, `monster / ecological`로 둔다.
+
+다음 사이드트랙 작업:
+
+1. `Species_Framework_Audit_Sidecar.md` 기준 1차 anchor case 정리
+2. `Race_Species_Term_Crosswalk.md`, `Race_Species_First_Pass.md`를 기준으로 용어 교차표와 1차 강도 판정 잠금
+3. `Species_Framework_Risk_Register.md` 기준 금지선 점검
+4. `하피`, `라미아`, `수중/해양계`, `용인`, `거인`, `요정`은 `reserved_family` 후보로만 유지

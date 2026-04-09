@@ -101,16 +101,16 @@
 |---|---|---|---|
 | `금서 도서관 사서장` | `봉인서고지기` | `preferred_display_candidate` | 금서와 봉인의 권위를 살린다. |
 | `금서 관리국 검열관` | `금서 검인관` | `preferred_display_candidate` | 검열의 현대적 느낌을 줄이고 문서 검인 기능을 남긴다. |
-| `마나 공방 공방장` | `마나로 장인장` | `preferred_display_candidate` | 마법 공방과 장인 위계가 같이 보인다. |
+| `마나 공방 공방장` | `비전로 장인장` | `preferred_display_candidate` | 마법협회 제작로와 장인 위계를 함께 살린다. |
 | `마도 제작 감독관` | `비전 제작관` | `preferred_display_candidate` | 감독관보다 마법 제작 기관 직함처럼 읽힌다. |
 | `아스트랄 관측장` | `성좌 관측장` | `preferred_display_candidate` | 별/운명/관측 이미지를 분명하게 한다. |
 | `별의 예언 기록관` | `별기록관` | `preferred_display_candidate` | 짧고 오래된 직함처럼 보인다. |
 | `중앙 도서관 학장` | `대서고 학장` | `preferred_display_candidate` | 성국 기록 권위를 살린다. |
-| `지식의 수호자 대표` | `지식수호장` | `preferred_display_candidate` | 칭호성이 강하다. |
+| `지식의 수호자 대표` | `대서고 수호장` | `preferred_display_candidate` | 아스트라르 중앙 도서관의 장소성을 더 선명하게 받는다. |
 | `성채 결계관` | `성채 봉인관` | `preferred_display_candidate` | 신성 방어와 봉인 기능을 받는다. |
 | `순교자 묘역 관리 사제` | `순교묘역 사제장` | `preferred_display_candidate` | 묘역 관리 기능과 성직 위계를 함께 담는다. |
-| `성검 요새 무기 장인` | `성검 무장장` | `preferred_display_candidate` | 성국식 무장 직함으로 낮춘다. |
-| `감옥 무기고 관리관` | `흑감옥 무기지기` | `preferred_display_candidate` | 옵시디안의 어두운 권력 장치를 살린다. |
+| `성검 요새 무기 장인` | `성검 병장관` | `preferred_display_candidate` | 성국의 무기/병장 위계를 더 직접적으로 받는다. |
+| `감옥 무기고 관리관` | `옵시디안 무기지기` | `preferred_display_candidate` | 장소 앵커를 직접 드러내면서도 판타지 톤을 유지한다. |
 | `연합 의회 기록관` | `서약의회 기록관` | `preferred_display_candidate` | 왕국연합의 서약/의회 기능을 붙인다. |
 | `상업 조정관` | `전비 장부관` | `preferred_display_candidate` | 아덴브루크의 전비 어음/상업 권력과 연결된다. |
 | `성벽 설계 기록관` | `성벽 설계서기` | `preferred_display_candidate` | 브룬발트 대성채의 요새 건축 전승을 받는다. |
@@ -118,27 +118,17 @@
 | `밀수 통로 기록관` | `그늘항로 기록관` | `preferred_display_candidate` | 밀수라는 직접어를 피한다. |
 | `계약문 보관관` | `서약문 보관관` | `preferred_display_candidate` | 용병 계약을 더 고전적인 서약 톤으로 낮춘다. |
 | `정령 계약 해석자` | `정령서약 해석자` | `preferred_display_candidate` | 정령연합의 의식/계약 톤을 받는다. |
-| `정령의 무덤 이름 새김꾼` | `영묘 이름새김꾼` | `preferred_display_candidate` | 정령 묘역과 기억 기능을 간결하게 표현한다. |
+| `정령의 무덤 이름 새김꾼` | `정령묘 이름새김꾼` | `preferred_display_candidate` | 정령연합의 숲/묘역 앵커를 더 직접적으로 붙인다. |
 
-### Ether Needs Polish
+### Ether Polish Resolved
 
-| Candidate | Reason | Direction |
-|---|---|---|
-| `마나로 장인장` | 말맛이 조금 뭉친다. | `마나화로 장인장`, `비전로 장인장` 검토 |
-| `성검 무장장` | 직함이 약간 딱딱하다. | `성검 병장관`, `성검 무기지기` 검토 |
-| `흑감옥 무기지기` | 옵시디안과의 직접 연결 확인 필요. | `옵시디안 무기지기`, `흑요 감옥 무기지기` 검토 |
-| `지식수호장` | 조금 추상적이다. | `대서고 수호장`, `지식전당 수호장` 검토 |
-| `영묘 이름새김꾼` | 정령연합 자연/숲 톤보다 묘역 톤이 강할 수 있다. | `숲무덤 이름새김꾼`, `정령묘 이름새김꾼` 검토 |
-
-### Ether Polish Resolution
-
-| Original Candidate | Updated Preferred Candidate | State |
-|---|---|---|
-| `마나로 장인장` | `비전로 장인장` | `preferred_display_candidate` |
-| `성검 무장장` | `성검 병장관` | `preferred_display_candidate` |
-| `흑감옥 무기지기` | `옵시디안 무기지기` | `preferred_display_candidate` |
-| `지식수호장` | `대서고 수호장` | `preferred_display_candidate` |
-| `영묘 이름새김꾼` | `정령묘 이름새김꾼` | `preferred_display_candidate` |
+| Previous Candidate | Updated Preferred Candidate | State | Reason |
+|---|---|---|---|
+| `마나로 장인장` | `비전로 장인장` | `preferred_display_candidate` | 말맛과 제작로 앵커를 함께 안정시킨다. |
+| `성검 무장장` | `성검 병장관` | `preferred_display_candidate` | 성국 무기/병장 위계를 더 직접적으로 받는다. |
+| `흑감옥 무기지기` | `옵시디안 무기지기` | `preferred_display_candidate` | 장소 앵커를 직접 드러낸다. |
+| `지식수호장` | `대서고 수호장` | `preferred_display_candidate` | 추상도를 낮추고 장소성을 높인다. |
+| `영묘 이름새김꾼` | `정령묘 이름새김꾼` | `preferred_display_candidate` | 정령연합 숲/묘역 앵커를 더 직접적으로 붙인다. |
 
 ## Functional Line -> Display Canon Candidates
 

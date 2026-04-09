@@ -130,6 +130,16 @@ FS Story Engine이 담당하는 것:
 
 - `audit/FS_Act_Outcome_Ledger.md`
 
+### 8. Story-to-Lore Handoff
+
+장면이나 액트에서 새 설정이 튀어나오면
+바로 정본처럼 쓰지 않고
+Lore Engine으로 handoff를 건다.
+
+연결 장부:
+
+- `audit/FS_Story_to_Lore_Handoff_Gate.md`
+
 ## Live Story Registers
 
 - `audit/FS_Story_Act_Question_Register.md`
@@ -138,6 +148,7 @@ FS Story Engine이 담당하는 것:
 - `audit/FS_Relationship_Ledger.md`
 - `audit/FS_Foreshadow_Payoff_Register.md`
 - `audit/FS_Act_Outcome_Ledger.md`
+- `audit/FS_Story_to_Lore_Handoff_Gate.md`
 
 ## Operating Sequence
 
@@ -150,6 +161,7 @@ FS Story Engine이 담당하는 것:
 5. 복선과 회수 타이밍을 본다.
 6. 독자에게 공개할 정보와 숨길 정보를 나눈다.
 7. 액트 결과 장부에 남길 변화를 정한다.
+8. story-born 신규 설정이면 handoff gate를 건다.
 
 ## Lore Engine Cross-Check
 
@@ -164,6 +176,10 @@ Story Engine이 장면을 제안할 때도
 - 장거리 이동
 - 세계 안 유명인 추가
 - 소문을 사실로 바꾸는 순간
+
+연결 게이트:
+
+- `audit/FS_Story_to_Lore_Handoff_Gate.md`
 
 ## Conductor Note
 

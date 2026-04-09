@@ -102,7 +102,7 @@ FS 엔진의 뼈대는 이미 충분히 강하다.
 
 상태:
 
-- `recommended_next`
+- `draft_built`
 
 ### Upgrade E. Story-to-Lore Handoff Gate
 
@@ -134,3 +134,8 @@ FS 엔진의 뼈대는 이미 충분히 강하다.
 - 슬롯에서 named notable로 올라가는 성장선
 
 이 세 가지가 안정된다.
+
+그다음 우선이던 `Canon Change Log` 초안도 붙였다.
+
+이제 다음 엔진 보강은
+`Story-to-Lore Handoff Gate`다.

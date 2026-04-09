@@ -111,6 +111,27 @@
 - 다음 작업 큐 정리
 - 모든 수정은 `왜 지금 고쳤는지`와 `왜 보류했는지`를 함께 남김
 
+## Harness Layer Roles
+
+아래는 사람 역할이 아니라
+오케스트라가 기대는 실행층 역할이다.
+
+### MCP Steward
+
+- 필요한 문맥과 리소스를 먼저 읽어 온다.
+- 조회만 맡고 정본 판단은 맡지 않는다.
+
+### Skill Router
+
+- 반복 작업에 어떤 skill 절차를 먼저 적용할지 정한다.
+- 출력 형식을 안정화하되 정책은 바꾸지 않는다.
+
+### Hook Keeper
+
+- `preflight`, `dispatch`, `integration`, `register write`, `next-step freeze`
+  같은 누락 방지 동작을 강제한다.
+- hook은 창작자가 아니라 전환 수호자다.
+
 ## Item Archivist
 
 아이템 소진행 전담.

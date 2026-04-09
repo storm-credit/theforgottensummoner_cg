@@ -73,6 +73,7 @@
 | 15 Named Notables | 저술서, 감정법, 공방 계보 | `knowledge_asset` | `named_notable_candidate` |
 | 자유도시 항만층 | 입항 허가와 밀수 통로 | `institutional_asset` | `operational_line` |
 | 파브리스 가문 | 전비 어음과 관세율 | `institutional_asset` | `verify_before_15_context` |
+| `FS-HANDOFF-SEED-001` | 전설 무구 후보가 필요해지는 압력 | `material_asset` | `handoff_test / no_canon_name` |
 
 ## Use Rule
 

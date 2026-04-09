@@ -57,6 +57,7 @@ FS Lore Engine이 담당하는 것:
 연결 장부:
 
 - `audit/FS_Revision_Gate_Checklist.md`
+- `audit/FS_Story_to_Lore_Handoff_Gate.md`
 
 ### 4. Archive Routing
 
@@ -115,7 +116,7 @@ FS Lore Engine이 담당하는 것:
 - `audit/FS_Ecology_Resource_Register.md`
 - `audit/FS_Rumor_Fact_Register.md`
 
-### 8. Decision / Firewall / Slot Growth
+### 8. Decision / Firewall / Slot Growth / Change Log
 
 반복 판단과 누수 방지를 위한 보조 코어.
 
@@ -124,6 +125,17 @@ FS Lore Engine이 담당하는 것:
 - `audit/FS_Decision_Ruling_Register.md`
 - `audit/FS_Cross_Chronicle_Firewall.md`
 - `audit/FS_Slot_Maturation_Register.md`
+- `audit/FS_Canon_Change_Log.md`
+
+### 9. Story-to-Lore Intake
+
+Story Engine에서 올라온 새 설정은
+바로 정본 장부로 쓰지 않고
+handoff packet으로 먼저 받는다.
+
+연결 장부:
+
+- `audit/FS_Story_to_Lore_Handoff_Gate.md`
 
 ## Operating Sequence
 
@@ -135,6 +147,7 @@ FS Lore Engine이 담당하는 것:
 4. 이름 톤이 맞는지 본다.
 5. 관계, 시간, 장소, 자산, 소문과 연결되는지 본다.
 6. 수정하려면 Revision Gate를 통과한다.
+7. story-born 신규 설정이면 handoff packet과 register write를 같이 남긴다.
 
 ## Current Priority
 
@@ -158,6 +171,7 @@ FS Lore Engine이 실제로 쓰는 장부:
 - `audit/FS_Source_Priority_Register.md`
 - `audit/FS_State_Label_Register.md`
 - `audit/FS_Revision_Gate_Checklist.md`
+- `audit/FS_Story_to_Lore_Handoff_Gate.md`
 - `audit/FS_Place_Function_Register.md`
 - `audit/FS_Asset_Secret_Register.md`
 - `audit/FS_Institution_Memory_Register.md`
@@ -167,6 +181,7 @@ FS Lore Engine이 실제로 쓰는 장부:
 - `audit/FS_Decision_Ruling_Register.md`
 - `audit/FS_Cross_Chronicle_Firewall.md`
 - `audit/FS_Slot_Maturation_Register.md`
+- `audit/FS_Canon_Change_Log.md`
 
 ## Conductor Note
 

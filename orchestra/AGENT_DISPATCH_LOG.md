@@ -15,6 +15,636 @@
 
 ## Active Dispatch
 
+### 2026-04-08 KST - Orchestra Lock / Frost Register Batch
+
+목적:
+
+- 오케스트라 방식의 이점을 문서로 고정한다.
+- 프로스트 슬롯을 코어 장부에 직접 연결한다.
+- 현재 진행표와 엔진 색인을 최신 상태로 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Carson` | Orchestra Advantage Auditor | `ACTIVE_AGENT_SPLIT`, `RUNBOOK`, `AGENT_DISPATCH_LOG`, 오케스트라 이점 잠금안 | `dispatched` |
+| `Peirce` | Frost Core Register Link Auditor | 프로스트 슬롯과 `FS_Place_Function_Register`, `FS_Decision_Ruling_Register`, `FS_Slot_Maturation_Register` 정합성 점검 | `dispatched` |
+| `Boyle` | Workstream Sync Auditor | `Next_Sequential_Workstream`, `Continuous_Workstream`, `Status Compass`, `OPEN_INDEX`, `FS Lore Engine` 갱신안 점검 | `completed` |
+
+Conductor action:
+
+- 오케스트라 이점은 별도 잠금 문서와 운용 문서에 함께 고정한다.
+- 프로스트 슬롯 direct link와 Canon Change Log는 Conductor가 직접 반영한다.
+- 실제 배치가 끝나면 다음 턴부터도 같은 규칙으로 재사용한다.
+
+Integrated actions:
+
+- `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md` 작성
+- `orchestra/EXECUTION_HARNESS_LOCK.md` 작성
+- `ACTIVE_AGENT_SPLIT.md`, `RUNBOOK.md`에 오케스트라 이점과 분할 트리거를 고정
+- `Start_Here.md`, `OPEN_INDEX.md`, `AGENT_ROSTER.md`, `SKILL_CANDIDATES.md`에 하네스 연결을 추가
+- 프로스트 슬롯 6개를 `Place Function -> Decision Ruling -> Slot Maturation` 코어에 직접 연결
+- `FS_Canon_Change_Log.md` 초안 작성
+- `Next_Sequential_Workstream.md`를 현재 작업선 기준으로 재정리
+
+Follow-up actions:
+
+- `Story-to-Lore Handoff Gate` 초안 작성
+- 기존 `verify_before_15` 항목 중 일부를 `Decision Ruling Register`와 더 직접 연결
+- `FS_Canon_Change_Log.md`에 14/15 경계 변동분 backfill 추가
+
+### 2026-04-08 KST - Story-to-Lore Handoff Gate Batch
+
+목적:
+
+- Story Engine에서 나온 새 설정 요소를 Lore Engine으로 되돌리는 게이트를 고정한다.
+- Revision Gate, Change Log, Workstream이 같은 기준을 따르게 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `McClintock` | Story-to-Lore Gate Auditor | Story / Lore / Revision / Harness 문서 기준 검토 | `completed` |
+| `Wegener` | Engine Register Sync Auditor | Change Log / Workstream / Dispatch Log 연결 검토 | `completed` |
+
+Conductor action:
+
+- handoff gate 문서는 Conductor가 직접 작성한다.
+- Story, Lore, Revision, Change Log, Workstream 연결은 같은 턴에 함께 반영한다.
+
+Integrated actions:
+
+- `audit/FS_Story_to_Lore_Handoff_Gate.md` 작성
+- `workflow/16_FS_Story_Engine.md`, `workflow/15_FS_Lore_Engine.md`, `audit/FS_Revision_Gate_Checklist.md`에 gate 연결
+- `audit/FS_Canon_Change_Log.md`, `audit/OPEN_INDEX.md`, `audit/Next_Sequential_Workstream.md`를 현재 기준으로 갱신
+- `orchestra/EXECUTION_HARNESS_LOCK.md`에 `story_to_lore_handoff_hook`를 명시
+
+Follow-up actions:
+
+- `FS_Canon_Change_Log.md`에 14/15 경계 변동분 backfill 추가
+
+### 2026-04-08 KST - Verify-Before-15 Decision Link Batch
+
+목적:
+
+- 반복되는 `verify_before_15` 판정을 `FS_Decision_Ruling_Register`에 직접 연결한다.
+- Canon Change Log에 왜 보류했는지 복원 가능한 변화 기록을 남긴다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Franklin` | Crimson / Ether Boundary Ruling Scout | 크림슨 / 에테르 `verify_before_15` 대표 후보 추천 | `completed` |
+| `Hegel` | Frost / Oceanic / Obelisk Boundary Ruling Scout | 프로스트 / 해양 / 오벨리스크 `verify_before_15` 대표 후보 추천 | `closed_without_merge` |
+
+Conductor action:
+
+- Franklin의 읽기 전용 제안 중 `벨라나`, `드락사르`, `칼리스트`만 이번 턴에 반영한다.
+- Hegel은 결과가 오기 전에 종료되어 이번 반영에는 합치지 않는다.
+- 최종 문서 반영은 Conductor가 직접 수행한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `story-born 신규 설정`, `벨라나`, `드락사르`, `칼리스트` 판정을 추가
+- `FS_Canon_Change_Log.md`에 세 후보의 `verify_before_15` 직접 연결 기록 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`의 다음 작업선을 handoff seed 시험 후 Canon Change backfill로 이동
+- `FS_Story_to_Lore_Handoff_Seed_Cases.md`를 작성하고 `FS-HANDOFF-SEED-001`을 `item_hold`로 시험 적용
+- `FS_Asset_Secret_Register.md`, `FS_Foreshadow_Payoff_Register.md`에 seed case의 register write를 남김
+
+Follow-up actions:
+
+- `FS_Canon_Change_Log.md`에 14/15 경계 변동분 backfill 추가
+- 프로스트 / 해양 / 오벨리스크 쪽 `verify_before_15` 대표군은 다음 추가 연결 후보로 보존
+
+### 2026-04-08 KST - Canon Change Boundary Backfill Batch
+
+목적:
+
+- 14/15 경계 후보의 상태 이동을 `FS_Canon_Change_Log.md`에 복원 가능하게 남긴다.
+- 이미 로그에 있는 `벨라나`, `드락사르`, `칼리스트`와 중복하지 않는다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `James` | Crimson / Ether Change Backfill Scout | 크림슨 / 에테르 경계 변동 로그 후보 추천 | `completed` |
+| `Kepler` | Frost / Oceanic / Obelisk Change Backfill Scout | 프로스트 / 해양 / 오벨리스크 경계 변동 로그 후보 추천 | `completed` |
+
+Conductor action:
+
+- James 제안 중 `카사르`, `세리오스`, `Ravenfell / Corvus drift`를 반영한다.
+- Kepler 제안 중 `해양 경계 후보군`, `오벨리스크 경계 후보군 / 아이기스`를 반영한다.
+- `크리스토퍼 델마르` 개별 행은 해양 경계 후보군 안에 흡수하고 다음 세부 후보로 보존한다.
+- 프로스트는 이미 Change Log에 `unnamed slots 6종`과 `명사층 판정`이 있으므로 이번 backfill에서는 제외한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 5개 대표 판정 추가
+- `FS_Canon_Change_Log.md`에 5개 14/15 경계 변동 backfill 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 live handoff case 대기 상태로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 생기면 seed가 아니라 live handoff case로 승격
+- 개별 이름 충돌 후보는 다음 세부 backfill에서 필요할 때만 추가
+
+### 2026-04-08 KST - Live Handoff Queue Prep Batch
+
+목적:
+
+- 실제 원고 입력이 아직 없는 상태에서 live case를 발명하지 않는다.
+- seed case와 live case가 섞이지 않도록 빈 intake queue를 따로 잠근다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Feynman` | Live Handoff Intake Queue Auditor | handoff gate, seed cases, workstream, index 연결 점검 | `completed` |
+
+Conductor action:
+
+- Feynman의 읽기 전용 제안에 따라 `FS_Story_to_Lore_Live_Handoff_Queue.md`를 새로 만든다.
+- queue는 실제 원고 입력이 없으므로 비워 둔다.
+- 예시 행은 live case로 오염될 수 있어 넣지 않는다.
+
+Integrated actions:
+
+- `audit/FS_Story_to_Lore_Live_Handoff_Queue.md` 작성
+- `FS_Story_to_Lore_Handoff_Gate.md`에 Live Queue 링크 추가
+- `OPEN_INDEX.md`, `FS_Canon_Change_Log.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md` 연결 갱신
+
+Follow-up actions:
+
+- 실제 원고 입력이 들어오면 `FS-LIVE-HANDOFF-###` 형식으로 live case 생성
+- 실제 입력이 없으면 개별 이름 충돌 후보 세부 backfill로 진행
+
+### 2026-04-08 KST - Individual Name Drift Backfill Batch
+
+목적:
+
+- 대표군에 흡수돼 있던 개별 이름 충돌 후보를 별도 병합 금지 판정으로 남긴다.
+- role slot과 named boundary candidate가 섞이지 않게 한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Descartes` | Christopher Delmar Distinction Scout | `크리스토퍼 델마르 / 검은 동전`과 해양 role slot 오인 방지 | `completed` |
+| `Hubble` | Mera Drift Scout | `메라 라일윈드 / 메라 실피드` 병합 금지 근거 점검 | `completed` |
+
+Conductor action:
+
+- Descartes 제안을 반영해 `크리스토퍼 델마르`를 `대경매장 주인`, `항해사 길드장`과 병합하지 않도록 고정한다.
+- Hubble 제안을 반영해 `메라 라일윈드`와 `메라 실피드`를 이름만으로 병합하지 않도록 고정한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 두 개별 병합 금지 판정 추가
+- `FS_Canon_Change_Log.md`에 두 개별 backfill 기록 추가
+- `Section_15_Named_Notables_Name_Collision_Register.md`에 `Christopher Delmar / Role Slot Distinction` 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 다음 이름 충돌 세부 후보로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 `Rafferty / Raphael Arcadia` 또는 `Sylas` 계열 이름 충돌 후보 세부 backfill로 진행
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-08 KST - Arcadia / Sylas Name Drift Backfill Batch
+
+목적:
+
+- 에테르 성국/아스트라르 도서관장 축과 정령연합/성국 `Sylas` 축을 병합하지 않게 고정한다.
+- 개인명 없는 role slot을 기존 이름 있는 후보의 실명으로 확정하지 않게 한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Parfit` | Arcadia Drift Scout | `Rafferty / Raphael Arcadia` 이름 드리프트 점검 | `completed` |
+| `Zeno` | Sylas Collision Scout | `실라스 블랙쏜 / 실라스 나이트쉐이드` 앵커 분리 점검 | `completed` |
+
+Conductor action:
+
+- Parfit 제안을 반영해 `래퍼티`와 `라파엘`을 이름 유사성과 도서관장 역할만으로 병합하지 않도록 고정한다.
+- Zeno 제안을 반영해 `실라스 블랙쏜`과 `실라스 나이트쉐이드`를 세력 앵커별로 분리한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `Rafferty / Raphael Arcadia drift`, `Sylas / 실라스 collision` 판정 추가
+- `FS_Canon_Change_Log.md`에 두 이름 충돌 backfill 기록 추가
+- `Section_15_Named_Notables_Name_Collision_Register.md`에 role slot 확정 금지 문구 보강
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 다음 이름 충돌 세부 후보로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 `Valerius`, `Drake Ruga / Rawson`, `Selena` 계열 이름 충돌 후보 세부 backfill로 진행
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-08 KST - Valerius / Drake / Selena Name Drift Backfill Batch
+
+목적:
+
+- 에테르 성국/루멘 성채 `Valerius` 축, 자유도시 `Drake Ruga / Rawson` 축, `Selena` 축을 이름만으로 병합하지 않게 고정한다.
+- 개인명 없는 role slot을 기존 이름 있는 후보의 실명으로 확정하지 않게 한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Jason` | Valerius Collision Scout | `레오니스 발레리우스 / Valerius the Lightbringer` 앵커 분리 점검 | `completed` |
+| `Dalton` | Drake Ruga / Rawson Drift Scout | `Drake Ruga / Drake Rawson` 표기 흔들림 점검 | `completed` |
+| `Lovelace` | Selena Drift Scout | `셀레나 아르시엔 / 셀레나 와일드웨이브` 병합 금지 근거 점검 | `completed` |
+
+Conductor action:
+
+- Jason 제안을 반영해 `레오니스 발레리우스`와 `Valerius the Lightbringer`를 원본 전체 표기 확인 전 병합하지 않도록 고정한다.
+- Dalton 제안을 반영해 14 파일명 `Drake Ruga`를 우선 앵커로 두고 `Rawson`은 링크 표기 흔들림으로 보존한다.
+- Lovelace 제안을 반영해 `셀레나 아르시엔`과 `셀레나 와일드웨이브`를 세력/역할 앵커별로 분리한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `Valerius`, `Drake Ruga / Rawson`, `Selena` 판정 추가
+- `FS_Canon_Change_Log.md`에 세 이름 충돌 backfill 기록 추가
+- `Section_15_Named_Notables_Name_Collision_Register.md`에 role slot 확정 금지 문구 보강
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 `Name Collision Register closure pass`로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 `Name Collision Register closure pass`로 남은 충돌군의 직접 연결 여부를 닫는다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-09 KST - Name Collision Register Closure Pass Batch
+
+목적:
+
+- `Section_15_Named_Notables_Name_Collision_Register.md`의 충돌군이 `FS_Decision_Ruling_Register.md`와 `FS_Canon_Change_Log.md`에 직접 연결됐는지 닫는다.
+- 대표군 흡수로 충분한 항목과 개별 backfill이 필요한 항목을 분리한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Planck` | Front Collision Closure Scout | `Sylvia`, `Aegis`, `Ravenfell`, `Mera`, `Christopher Delmar` 직접 연결 점검 | `completed` |
+| `Erdos` | Rear Collision Closure Scout | `Rafferty`, `Valerius`, `Drake`, `Selena`, `Sylas`, `Wolfgar`, `Erion` 직접 연결 점검 | `completed` |
+
+Conductor action:
+
+- Planck 제안 중 `Sylvia` 직접 행만 반영하고, `Aegis`는 대표군 행으로 최소 closure 기준을 통과한 것으로 둔다.
+- Erdos 제안 중 `Wolfgar`, `Erion` 직접 collision 행을 반영한다.
+- 이미 충분한 `Ravenfell`, `Mera`, `Christopher`, `Rafferty`, `Valerius`, `Drake`, `Selena`, `Sylas`는 중복 행을 추가하지 않는다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `Sylvia`, `Wolfgar`, `Erion` collision 판정 추가
+- `FS_Canon_Change_Log.md`에 세 collision closure backfill 기록 추가
+- `Section_15_Named_Notables_Name_Collision_Register.md`에 closure note 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 다음 정밀화 후보로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 `Aegis person / item / concept split refinement` 필요 여부를 판단한다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-09 KST - Aegis Person / Item / Concept Split Refinement Batch
+
+목적:
+
+- `Aegis / 아이기스 / 이지스`가 인물명, 성씨, 유물명, 결계 기능어로 섞이는 지점을 정밀하게 분리한다.
+- 새 장부를 만들지 않고 기존 item name collision crosswalk와 직접 연결한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Chandrasekhar` | Aegis Split Scout | `Aegis`의 인물/아이템/개념 사용 분류 | `completed` |
+| `Herschel` | Aegis Crosswalk Link Scout | 기존 item name collision 장부와 누락 연결 점검 | `completed` |
+
+Conductor action:
+
+- Chandrasekhar 제안을 반영해 `Aegis`를 인물명, 성씨, 유물명, 기능어로 분리하는 직접 판정을 추가한다.
+- Herschel 제안을 반영해 새 `FS_Item_Name_Collision_Register.md`를 만들지 않고 기존 `working/crosswalks/Item_Name_Collision_Register.md`를 교차 참조한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `Aegis / 아이기스 person-item-concept split` 판정 추가
+- `FS_Canon_Change_Log.md`에 Aegis 정밀화 기록 추가
+- `Section_15_Named_Notables_Name_Collision_Register.md`에 item name collision crosswalk 참조 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 다음 `verify_before_15` 대표군 직접 연결로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 다음 `verify_before_15` 대표군 2~3건을 `Decision Ruling Register`에 추가 연결한다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-09 KST - Verify-Before-15 Representative Direct Link Batch 02
+
+목적:
+
+- 아직 개별 Decision 행이 없는 `verify_before_15` 대표 후보 중 2-3건만 직접 연결한다.
+- 이미 직접 연결된 후보나 대표군 행으로 충분한 후보는 중복 추가하지 않는다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Pasteur` | Crimson / Ether Verify Scout | `아리안`, `대런`, `엘라라`, `요한`, `에드가` 우선순위 점검 | `completed` |
+| `Bacon` | Frost / Oceanic / Obelisk Verify Scout | `이소벨`, `카론`, `시그리드` 등 비에테르 대표 후보 점검 | `completed` |
+
+Conductor action:
+
+- Pasteur 제안 중 `아리안`, `대런`을 반영한다.
+- Bacon 제안 중 프로스트 보강 가치가 큰 `시그리드`를 반영한다.
+- 이번 사이클은 3건으로 제한하고 `이소벨`, `카론`, `엘라라`는 다음 후보로 보존한다.
+- 이미 직접 연결된 `벨라나`, `드락사르`, `칼리스트`, `카사르`, `래퍼티`는 중복하지 않는다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `아리안`, `대런`, `시그리드` 판정 추가
+- `FS_Canon_Change_Log.md`에 세 후보의 direct ruling backfill 기록 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 다음 개별 backfill 후보로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 `이소벨 골드리프`, `카론`, `엘라라 문힘` 중 필요한 개별 backfill을 검토한다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-09 KST - Verify-Before-15 Representative Direct Link Batch 03
+
+목적:
+
+- Batch 02에서 보존한 `이소벨 골드리프`, `카론`, `엘라라 문힘`의 개별 backfill 필요 여부를 확인한다.
+- 대표군 행에 흡수하지 않고, 기능축이 뚜렷한 후보만 직접 판정으로 남긴다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Oceanic / Obelisk Verify Scout | `이소벨 골드리프`, `카론`의 해양/오벨리스크 경계 신호 점검 | `completed` |
+| `Turing` | Ether Verify Scout | `엘라라 문힘`의 에테르 기록/노래 전승 축 점검 | `completed` |
+
+Conductor action:
+
+- Heisenberg 제안에 따라 `이소벨 골드리프`를 `finance_power_hold`, `카론`을 `soul_guide_hold`로 직접 연결한다.
+- Turing 제안에 따라 `엘라라 문힘`을 `bardic_archive_hold`로 직접 연결한다.
+- 세 후보 모두 15 확정자가 아니라 `verify_before_15` 보류 후보로 유지한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `이소벨 골드리프`, `카론`, `엘라라 문힘` 판정 추가
+- `FS_Canon_Change_Log.md`에 세 후보의 direct ruling backfill 기록 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 다음 대표 후보 판단으로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 남은 `verify_before_15` 대표 후보 중 `대사제 요한`, `에드가 룬워커`, `레온 벨가르드`의 직접 연결 필요 여부를 판단한다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-09 KST - Verify-Before-15 Representative Direct Link Batch 04
+
+목적:
+
+- `MCP / Skills / Agents / Hooks / Registers` 하네스를 실제 실행 순서대로 밟으면서 남은 에테르 대표 후보 3건을 직접 판정한다.
+- 대표군 상태만으로는 판정 기억이 약한 후보를 개별 Decision / Change Log 행으로 잠근다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Oceanic / Ether Verify Scout | `대사제 요한`, `레온 벨가르드`의 직접 backfill 필요 여부 점검 | `completed` |
+| `Turing` | Ether Forge Verify Scout | `에드가 룬워커`의 직접 backfill 필요 여부 점검 | `completed` |
+
+Harness execution:
+
+- `MCP gate`: `list_mcp_resources` / `list_mcp_resource_templates` 확인, 현재 배치에 직접 쓸 프로젝트형 MCP 자원 없음으로 `skip`
+- `Skills gate`: 현재 작업과 직접 맞는 로컬 스킬 없음으로 `skip`
+- `pre_scope_hook`: 대상 `대사제 요한`, `에드가 룬워커`, `레온 벨가르드`와 반영 장부 범위 고정
+- `pre_dispatch_hook`: `요한/레온`과 `에드가`로 분리해 병렬 scout 배치
+- `pre_write_hook`: source/state/route/naming/register 연결 확인 후 direct backfill 승인
+- `post_write_hook`: Decision, Change Log, Workstream, Dispatch Log 갱신 확인
+- `pre_close_hook`: 다음 실제 작업선을 `리아나 실버레이크`, `드라이덴 썬더루트`, `바리온` 판단으로 고정
+
+Conductor action:
+
+- Heisenberg 제안에 따라 `대사제 요한`을 `holy_barrier_hold`, `레온 벨가르드`를 `mercenary_guild_hold`로 직접 연결한다.
+- Turing 제안에 따라 `에드가 룬워커`를 `rune_forge_hold`로 직접 연결한다.
+- 세 후보 모두 15 확정자가 아니라 `verify_before_15` 보류 후보로 유지한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `대사제 요한`, `에드가 룬워커`, `레온 벨가르드` 판정 추가
+- `FS_Canon_Change_Log.md`에 세 후보의 direct ruling backfill 기록 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 다음 대표 후보 판단으로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 남은 `verify_before_15` 대표 후보 중 `리아나 실버레이크`, `드라이덴 썬더루트`, `바리온`의 직접 연결 필요 여부를 판단한다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-09 KST - Verify-Before-15 Representative Direct Link Batch 05
+
+목적:
+
+- 하네스 순서를 유지한 채 `리아나 실버레이크`, `드라이덴 썬더루트`, `바리온`의 직접 backfill 필요 여부를 판정한다.
+- 대표군 요약만으로는 약한 후보를 개별 Decision / Change Log 행으로 잠근다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Ether Verify Scout | `리아나 실버레이크`, `드라이덴 썬더루트`의 직접 backfill 필요 여부 점검 | `completed` |
+| `Turing` | Obelisk Verify Scout | `바리온`의 직접 backfill 필요 여부 점검 | `completed` |
+
+Harness execution:
+
+- `MCP gate`: `list_mcp_resources` / `list_mcp_resource_templates` 확인, 현재 배치에 직접 쓸 프로젝트형 MCP 자원 없음으로 `skip`
+- `Skills gate`: 이 저장소에 직접 맞는 로컬 스킬 없음으로 `skip`
+- `pre_scope_hook`: 대상 `리아나 실버레이크`, `드라이덴 썬더루트`, `바리온`과 반영 장부 범위 고정
+- `pre_dispatch_hook`: `리아나/드라이덴`과 `바리온`으로 분리해 병렬 scout 배치
+- `pre_write_hook`: source/state/route/naming/register 연결 확인 후 direct backfill 승인
+- `post_write_hook`: Decision, Change Log, Workstream, Dispatch Log 갱신 확인
+- `pre_close_hook`: 다음 실제 작업선을 `더글라스 레가스`, `베스 스크롤`, `이안 옵저버` 판단으로 고정
+
+Conductor action:
+
+- Heisenberg 제안에 따라 `리아나 실버레이크`를 `banking_power_hold`, `드라이덴 썬더루트`를 `great_druid_hold`로 직접 연결한다.
+- Turing 제안에 따라 `바리온`을 `rune_forbidden_text_hold`로 직접 연결한다.
+- 세 후보 모두 15 확정자가 아니라 `verify_before_15` 보류 후보로 유지한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `리아나 실버레이크`, `드라이덴 썬더루트`, `바리온` 판정 추가
+- `FS_Canon_Change_Log.md`에 세 후보의 direct ruling backfill 기록 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 다음 대표 후보 판단으로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 남은 `verify_before_15` 대표 후보 중 `더글라스 레가스`, `베스 스크롤`, `이안 옵저버`의 직접 연결 필요 여부를 판단한다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-09 KST - Verify-Before-15 Representative Direct Link Batch 06
+
+목적:
+
+- `더글라스 레가스`, `베스 스크롤`, `이안 옵저버`를 같은 배치로 점검하되, 직접 backfill 필요 여부가 갈릴 경우 선별 반영한다.
+- 하네스 기준상 직접 잠글 가치가 있는 후보만 Register에 남긴다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Ether Verify Scout | `더글라스 레가스`의 직접 backfill 필요 여부 점검 | `completed` |
+| `Turing` | Obelisk Verify Scout | `베스 스크롤`, `이안 옵저버`의 직접 backfill 필요 여부 점검 | `completed` |
+
+Harness execution:
+
+- `MCP gate`: `list_mcp_resources` / `list_mcp_resource_templates` 확인, 현재 배치에 직접 쓸 프로젝트형 MCP 자원 없음으로 `skip`
+- `Skills gate`: 이 저장소에 직접 맞는 로컬 스킬 없음으로 `skip`
+- `pre_scope_hook`: 대상 `더글라스 레가스`, `베스 스크롤`, `이안 옵저버`와 반영 장부 범위 고정
+- `pre_dispatch_hook`: `더글라스`와 `베스/이안`으로 분리해 병렬 scout 배치
+- `pre_write_hook`: `더글라스 레가스`는 현 단계 유지, `베스 스크롤`, `이안 옵저버`는 direct backfill 승인
+- `post_write_hook`: Decision, Change Log, Workstream, Dispatch Log 갱신 확인
+- `pre_close_hook`: 다음 실제 작업선을 `카트린 라베로스`, `레보니아 셰이드`, `세르반 알테르만` 판단으로 고정
+
+Conductor action:
+
+- Heisenberg 제안에 따라 `더글라스 레가스`는 현재 단계에서 direct backfill하지 않고 경계 후보 보존 상태를 유지한다.
+- Turing 제안에 따라 `베스 스크롤`을 `archive_notable_hold`, `이안 옵저버`를 `watcher_notable_hold`로 직접 연결한다.
+- `베스`, `이안`은 15 확정자가 아니라 `verify_before_15` 보류 후보로 유지한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `베스 스크롤`, `이안 옵저버` 판정 추가
+- `FS_Canon_Change_Log.md`에 두 후보의 direct ruling backfill 기록 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에 `더글라스 레가스` 현 단계 유지와 다음 대표 후보 판단을 반영
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 남은 `verify_before_15` 대표 후보 중 `카트린 라베로스`, `레보니아 셰이드`, `세르반 알테르만`의 직접 연결 필요 여부를 판단한다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-09 KST - Verify-Before-15 Representative Direct Link Batch 07
+
+목적:
+
+- 오벨리스크 중층 후보 `카트린 라베로스`, `레보니아 셰이드`, `세르반 알테르만`을 직접 판정으로 잠글지 판단한다.
+- import 근거와 synthesis 근거가 함께 있는 후보를 중앙 장부까지 끌어올린다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Obelisk Archive / Language Verify Scout | `카트린 라베로스`, `레보니아 셰이드`의 직접 backfill 필요 여부 점검 | `completed` |
+| `Turing` | Obelisk Deathwatch Verify Scout | `세르반 알테르만`의 직접 backfill 필요 여부 점검 | `completed` |
+
+Harness execution:
+
+- `MCP gate`: `list_mcp_resources` / `list_mcp_resource_templates` 확인, 현재 배치에 직접 쓸 프로젝트형 MCP 자원 없음으로 `skip`
+- `Skills gate`: 이 저장소에 직접 맞는 로컬 스킬 없음으로 `skip`
+- `pre_scope_hook`: 대상 `카트린 라베로스`, `레보니아 셰이드`, `세르반 알테르만`과 반영 장부 범위 고정
+- `pre_dispatch_hook`: `카트린/레보니아`와 `세르반`으로 분리해 병렬 scout 배치
+- `pre_write_hook`: boundary, synthesis, register, import 근거를 대조해 세 후보 모두 direct backfill 승인
+- `post_write_hook`: Decision, Change Log, Workstream, Dispatch Log 갱신 확인
+- `pre_close_hook`: 다음 실제 작업선을 `우로스 디 모르간`, `레티시아 모르투스`, `더글라스 레가스 재판단`으로 고정
+
+Conductor action:
+
+- Heisenberg 제안에 따라 `카트린 라베로스`를 `archive_cipher_hold`, `레보니아 셰이드`를 `language_memory_hold`로 직접 연결한다.
+- Turing 제안에 따라 `세르반 알테르만`을 `soul_archive_watch_hold`로 직접 연결한다.
+- 세 후보 모두 15 확정자가 아니라 `verify_before_15` 보류 후보로 유지한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `카트린 라베로스`, `레보니아 셰이드`, `세르반 알테르만` 판정 추가
+- `FS_Canon_Change_Log.md`에 세 후보의 direct ruling backfill 기록 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 다음 대표 후보 판단으로 이동
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 남은 `verify_before_15` 대표 후보 중 `우로스 디 모르간`, `레티시아 모르투스`, `더글라스 레가스 재판단` 필요 여부를 판단한다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-09 KST - Verify-Before-15 Representative Direct Link Batch 08
+
+목적:
+
+- `우로스 디 모르간`, `레티시아 모르투스`, `더글라스 레가스 재판단`을 한 배치로 검토하되, direct backfill과 비추천 유지를 분리해 판정한다.
+- 오벨리스크 쪽은 import 근거까지 반영하고, 에테르 쪽은 `likely_keep_14` 우세 여부를 분명히 남긴다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Obelisk Deep Verify Scout | `우로스 디 모르간`, `레티시아 모르투스`의 직접 backfill 필요 여부 점검 | `completed` |
+| `Turing` | Ether Reconsideration Scout | `더글라스 레가스` direct backfill 비추천 유지 여부 점검 | `completed` |
+
+Harness execution:
+
+- `MCP gate`: `list_mcp_resources` / `list_mcp_resource_templates` 확인, 현재 배치에 직접 쓸 프로젝트형 MCP 자원 없음으로 `skip`
+- `Skills gate`: 이 저장소에 직접 맞는 로컬 스킬 없음으로 `skip`
+- `pre_scope_hook`: 대상 `우로스 디 모르간`, `레티시아 모르투스`, `더글라스 레가스 재판단`과 반영 장부 범위 고정
+- `pre_dispatch_hook`: `우로스/레티시아`와 `더글라스 재판단`으로 분리해 병렬 scout 배치
+- `pre_write_hook`: `우로스`, `레티시아`는 direct backfill 승인, `더글라스 레가스`는 `likely_keep_14` 우세로 비추천 유지 확인
+- `post_write_hook`: Decision, Change Log, Workstream, Dispatch Log 갱신 확인
+- `pre_close_hook`: 다음 실제 작업선을 `잔여 오벨리스크 후보`와 `에테르 보류 후보 재점검` 우선순위 재정렬로 고정
+
+Conductor action:
+
+- Heisenberg 제안에 따라 `우로스 디 모르간`을 `archive_infiltration_hold`, `레티시아 모르투스`를 `necromantic_bestiary_hold`로 직접 연결한다.
+- Turing 제안에 따라 `더글라스 레가스`는 direct backfill 비추천을 유지하고, 이유를 `likely_keep_14` 우세로 정리한다.
+- `우로스`, `레티시아`는 15 확정자가 아니라 `verify_before_15` 보류 후보로 유지한다.
+
+Integrated actions:
+
+- `FS_Decision_Ruling_Register.md`에 `우로스 디 모르간`, `레티시아 모르투스` 판정 추가
+- `FS_Canon_Change_Log.md`에 두 후보의 direct ruling backfill 기록 추가
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에 `더글라스 레가스` 재판단 결과와 다음 우선순위 재정렬 단계 반영
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 남은 `verify_before_15` 후보를 `잔여 오벨리스크 후보`와 `에테르 보류 후보 재점검`으로 다시 정렬한다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
+### 2026-04-09 KST - Residual Queue Priority Reorder Batch
+
+목적:
+
+- direct backfill 연속 배치 이후 남은 큐를 다시 정렬한다.
+- 오벨리스크는 direct backfill 큐를 닫을지 판단하고, 에테르는 다음 실제 배치 대상을 고정한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Obelisk Residual Queue Auditor | 오벨리스크 direct backfill 잔여 핵심 대상 존재 여부 점검 | `completed` |
+| `Turing` | Ether Residual Queue Auditor | 에테르 보류 후보의 다음 실제 배치 묶음 추천 | `completed` |
+
+Harness execution:
+
+- `MCP gate`: `list_mcp_resources` / `list_mcp_resource_templates` 확인, 현재 배치에 직접 쓸 프로젝트형 MCP 자원 없음으로 `skip`
+- `Skills gate`: 이 저장소에 직접 맞는 로컬 스킬 없음으로 `skip`
+- `pre_scope_hook`: 대상 `잔여 오벨리스크 후보`, `에테르 보류 후보`와 반영 장부 범위 고정
+- `pre_dispatch_hook`: 오벨리스크 잔여 큐 감사와 에테르 후속 배치 추천으로 역할 분리
+- `pre_write_hook`: 오벨리스크 핵심 direct queue 종료 여부와 에테르 다음 배치 우선순위 잠금 승인
+- `post_write_hook`: Workstream, Dispatch Log 갱신 확인
+- `pre_close_hook`: 다음 실제 작업선을 `엘다라` 근거 보강 -> 에테르 `탑주 묶음` 1차 배치로 고정
+
+Conductor action:
+
+- Heisenberg 제안에 따라 오벨리스크 direct backfill 핵심 큐는 사실상 종료로 본다.
+- Turing 제안에 따라 에테르는 `엘다라` 근거 보강을 먼저 두고, 그 다음 배치를 `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`로 자른다.
+- `마르쿠스 레이븐펠`과 `이사도르 템페스트`는 이름 드리프트/분리 확인 비용이 있어 후속 배치로 넘긴다.
+
+Integrated actions:
+
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에 오벨리스크 direct queue 종료와 에테르 후속 우선순위 반영
+- `AGENT_DISPATCH_LOG.md`에 priority reorder batch 기록 추가
+
+Follow-up actions:
+
+- 실제 원고 입력이 없으면 `엘다라` 근거 보강을 먼저 수행한다.
+- 그 다음 에테르 `탑주 묶음` 1차 배치 `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`를 점검한다.
+- 실제 원고 입력이 들어오면 live handoff case로 전환
+
 ### 2026-04-08 KST - FS Engine Consistency Batch
 
 목적:
@@ -137,3 +767,386 @@ Follow-up actions:
 - 프로스트는 안정 15 후보를 늘리기보다 `오로라 평원 / 얼음무덤 언덕 / 푸른 폭풍 요새 / 아이스포지 병기소 / 빙하의 성소 / 겨울회의 의장막` 슬롯을 8번 spine 기준으로 다시 묶는 편이 안전하다고 판정했다.
 - 프로스트 슬롯의 작업용 라벨을 `서리길 원로 사냥꾼 / 빙묘 수호장 / 오로라 예언장 / 빙철 공방장 / 오로라 별술사 / 서리벼림 장인` 축으로 1차 보정해, 다음 배치에서 Place Function Register와 직접 연결할 준비를 마쳤다.
 - FS 엔진 재점검 결과, 새 이론보다 `판정 기억`, `다른 크로니클 누수 방지`, `이름 없는 슬롯의 성장 추적`이 더 시급하다고 판단해 `Decision Ruling`, `Cross-Chronicle Firewall`, `Slot Maturation` 장부를 추가했다.
+
+### 2026-04-08 KST - Orchestra Lock / Frost Core Link Batch
+
+목적:
+
+- 오케스트라 방식의 운영 이점을 문서로 고정한다.
+- 프로스트 슬롯을 Place / Decision / Slot Maturation 코어에 직접 연결한다.
+- 최근 상태 이동을 Canon Change Log로 남길 기반을 만든다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Carson` | Orchestra Operations Auditor | `ACTIVE_AGENT_SPLIT`, `RUNBOOK`, `ORCHESTRA_ADVANTAGE_LOCK`, `AGENT_DISPATCH_LOG` 정합성 점검 | `dispatched` |
+| `Peirce` | Frost Core Link Auditor | 프로스트 슬롯의 Place / Decision / Slot Maturation 연결안 점검 | `dispatched` |
+
+Conductor action:
+
+- 실제 문서 반영은 Conductor가 단독으로 수행한다.
+- 에이전트 결과는 read-only 진단으로만 사용하고, 충돌 제안은 후속 큐로 분리한다.
+
+### 2026-04-09 KST - Ether Eldara Evidence Reinforcement Batch
+
+목적:
+
+- 에테르의 가장 안정적인 15 후보 `엘다라`의 근거를 `루미라` 장소 문서 기준으로 더 단단히 잠근다.
+- 이번 배치를 `15 확정`이 아니라 `named_notable_candidate / verify_source_before_profile` 보강으로 한정한다.
+- 다음 실제 작업선을 에테르 `탑주 묶음` 1차 배치로 넘긴다.
+
+하네스:
+
+- `MCP gate`: `notion` 문서형 리소스만 확인되어 이번 배치에는 `skip`
+- `Skills gate`: 현재 저장소 작업에 직접 맞는 로컬 스킬 부재로 `skip`
+- `Agents`: `Heisenberg`, `Turing` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Eldara Evidence Scout | `Section_15_Named_Notable_Eldara`, `Section_15_Ether_Search_Synthesis`, `Section_15_Ether_Place_Institution_Sidecar`, `루미라` import 근거 보강 포인트 추출 | `completed` |
+| `Turing` | Eldara Sync Scout | `Next_Sequential_Workstream`, `Continuous_Workstream`, `AGENT_DISPATCH_LOG` 포함 동기화 포인트와 과한 확정 위험 점검 | `completed` |
+
+Conductor action:
+
+- `Heisenberg` 제안에 따라 `루미라`의 학술 도시성, `현자 의회`, `고대수 도서관`, `초대 정령왕의 계약서 사본` 축을 `엘다라` 시트에 직접 반영한다.
+- `엘라라 문힘`, `드라이덴`, `정령서약 해석자 / 정령묘 이름새김꾼`은 분리 규칙으로 더 선명하게 잠근다.
+- `Turing` 제안에 따라 이번 턴은 `Section_15_Ether_Place_Institution_Sidecar.md`를 건드리지 않고, `Eldara -> Search Synthesis -> Workstream -> Dispatch Log`만 동기화한다.
+- `pre_write_hook`에서 `15 확정` 문구를 금지하고 `verify_source_before_profile` 상태 유지로 잠근다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notable_Eldara.md`에 `루미라 / 현자 의회 / 고대수 도서관 / 계약서 사본` 근거와 separation guard를 추가
+- `audit/Section_15_Ether_Search_Synthesis.md`의 `Stable 15 Candidate`와 `Next Action`을 이번 배치 완료 기준으로 갱신
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 `엘다라 보강 완료 -> 에테르 탑주 묶음 1차 배치` 순서로 갱신
+
+Follow-up actions:
+
+- 다음 실제 배치는 에테르 `탑주 묶음` 1차 `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스` 점검
+- 이후 `마르쿠스 레이븐펠`, `이사도르 템페스트`는 이름 드리프트/분리 확인을 붙여 후속 배치로 이동
+
+### 2026-04-09 KST - Ether Tower Bundle Direct Ruling Batch
+
+목적:
+
+- 에테르 `탑주 묶음` 1차 `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`를 중앙 장부에 direct ruling으로 연결한다.
+- 이번 배치도 `15 확정`이 아니라 `verify_before_15` 보류 잠금으로 한정한다.
+- 다음 실제 작업선을 `마르쿠스 레이븐펠 / 이사도르 템페스트` 분리 검토로 넘긴다.
+
+하네스:
+
+- `MCP gate`: `notion` 문서형 리소스만 확인되어 이번 배치에는 `skip`
+- `Skills gate`: 현재 저장소 작업에 직접 맞는 로컬 스킬 부재로 `skip`
+- `Agents`: `Heisenberg`, `Turing` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Ether Tower Bundle Ruling Scout | `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`의 direct ruling 필요 여부와 short label 점검 | `completed` |
+| `Turing` | Ether Tower Bundle Sync Scout | `Decision Ruling`, `Canon Change`, `Workstream`, `Dispatch Log` 동기화 범위와 과한 확정 위험 점검 | `completed` |
+
+Conductor action:
+
+- `Heisenberg` 제안에 따라 `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`를 모두 direct ruling 대상으로 승인한다.
+- `white_tower_barrier_hold`, `abyss_blood_taboo_hold`, `shadow_intelligence_hold` 라벨을 각각 부여한다.
+- `Turing` 제안에 따라 이번 턴은 `15 확정` 문구를 피하고, `Search Synthesis`는 `verify_before_15` 표와 `Next Action`만 최소 동기화한다.
+- `pre_close_hook`에서 다음 실제 배치를 `마르쿠스 레이븐펠 / 이사도르 템페스트` 분리 검토로 고정한다.
+
+Integrated actions:
+
+- `audit/FS_Decision_Ruling_Register.md`에 세 후보의 direct ruling 추가
+- `audit/FS_Canon_Change_Log.md`에 세 후보의 backfill 기록 추가
+- `audit/Section_15_Ether_Search_Synthesis.md`에 세 후보를 `verify_before_15` 표로 연결하고 다음 작업선을 전진
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 `마르쿠스 레이븐펠 / 이사도르 템페스트` 후속 검토로 갱신
+
+Follow-up actions:
+
+- 다음 실제 배치는 `마르쿠스 레이븐펠`, `이사도르 템페스트`를 이름 드리프트 / 분리 확인 전제로 재검토
+- 필요 시 레이븐펠 / 템페스트 축의 `keep_14`, `verify_before_15`, `name_drift` 판정을 재정렬
+
+### 2026-04-09 KST - Ether Arcane Drift Refinement Batch
+
+목적:
+
+- `Ravenfell / Corvus`와 `이사도르 템페스트 / 이사도르 솔레아`를 이름 드리프트 / 분리 판정으로 더 선명하게 잠근다.
+- 이번 배치도 `15 확정`이 아니라 `verify_before_15`, `name_drift`, `separate_entity` 정밀화로 한정한다.
+- 다음 실제 작업선을 에테르 arcane drift 후속 동기화로 넘긴다.
+
+하네스:
+
+- `MCP gate`: `notion` 문서형 리소스만 확인되어 이번 배치에는 `skip`
+- `Skills gate`: 현재 저장소 작업에 직접 맞는 로컬 스킬 부재로 `skip`
+- `Agents`: `Heisenberg`, `Turing` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Ravenfell / Corvus Drift Scout | `마르쿠스 레이븐펠`, `맥스웰 레이븐펠`, `마르쿠스 코르부스`의 주앵커와 분리 판정 점검 | `completed` |
+| `Turing` | Tempest / Solea Split Scout | `이사도르 템페스트`, `이사도르 솔레아`의 분리 판정과 문서 동기화 범위 점검 | `completed` |
+
+Conductor action:
+
+- `Heisenberg` 제안에 따라 `맥스웰 레이븐펠`을 phase3 흑색 탑 주앵커로 읽고, `마르쿠스 레이븐펠`은 drift 표기로만 보존한다.
+- `마르쿠스 코르부스`는 phase2 직접 14 영웅 파일 기준 별도 개체로 더 선명하게 잠근다.
+- `Turing` 제안에 따라 `이사도르 템페스트`와 `이사도르 솔레아`를 병합 금지하고, `템페스트`는 청색 탑 / 템페스트 가문 축의 `verify_before_15`로 유지한다.
+- `pre_write_hook`에서 `템페스트 = 15 확정` 또는 `마르쿠스 레이븐펠 = 정본명 확정` 문구를 금지한다.
+
+Integrated actions:
+
+- `audit/FS_Decision_Ruling_Register.md`에 arcane drift refinement 판정 추가
+- `audit/FS_Canon_Change_Log.md`에 `Ravenfell / Corvus`, `이사도르 템페스트 / 이사도르 솔레아` refinement 기록 추가
+- `audit/Section_15_Named_Notables_Name_Collision_Register.md`에 `Isador Tempest / Isadore Solea Split` 섹션 추가 및 `Ravenfell` 판정 보강
+- `audit/Section_15_Named_Notables_Register.md`, `audit/Section_15_Named_Notables_Status_Compass.md`를 최신 분리 기준으로 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 arcane drift 후속 동기화 기준으로 갱신
+
+Follow-up actions:
+
+- 다음 실제 배치는 에테르 `Named Notables Register / Status Compass`의 arcane drift 후속 동기화
+- 필요 시 `맥스웰 레이븐펠`, `이사도르 템페스트` 기준 anchor 문구를 에테르 종합표와 경계 큐에 재정렬
+
+### 2026-04-09 KST - Ether Arcane Drift Sync Batch
+
+목적:
+
+- 이미 잠근 `Ravenfell / Corvus`, `이사도르 템페스트 / 이사도르 솔레아` 판정을 에테르 종합표와 경계 큐 문구까지 동기화한다.
+- 새 판정을 만들지 않고 `맥스웰 레이븐펠` 주앵커, `마르쿠스 레이븐펠` drift 보존, `마르쿠스 코르부스` 분리, `이사도르 템페스트 / 이사도르 솔레아` 병합 금지를 문서 전반에 같은 표현으로 맞춘다.
+
+하네스:
+
+- `MCP gate`: `notion` 문서형 리소스만 보여 이번 배치에는 `skip`
+- `Skills gate`: 현재 저장소 작업에 직접 맞는 로컬 스킬 부재로 `skip`
+- `Agents`: `Lagrange`, `Fermat` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Lagrange` | Ravenfell / Corvus Wording Sync Scout | `Ether Search Synthesis`, `Boundary Verification Queue`, `Boundary Evidence`, `Coverage Matrix`의 Marcus-only drift wording 점검 | `completed` |
+| `Fermat` | Tempest / Solea Split Sync Scout | `Ether Search Synthesis`, `Boundary Verification Queue`, `Boundary Evidence`, `Continent Synthesis`의 Isador split wording 점검 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `pre_write_hook`에서 새 15 확정자 추가 없이 wording sync만 허용한다.
+- `맥스웰 레이븐펠`을 phase3 흑색의 탑 주앵커로, `마르쿠스 레이븐펠`을 drift 표기로, `마르쿠스 코르부스`를 phase2 14 별도 개체로 문구 고정한다.
+- `이사도르 템페스트`는 청색의 탑 / 템페스트 가문 축으로, `이사도르 솔레아`는 phase2 14 영웅 축으로 분리 고정한다.
+- `Lagrange`의 read-only 제안을 반영하고, `Fermat` 범위는 timeout 이후 로컬 증거 재확인으로 마감한다.
+- 두 scout 모두 write 권한 없이 문구 정렬 범위만 허용하고, 최종 write는 Conductor가 단일 책임으로 처리한다.
+
+Integrated actions:
+
+- `audit/Section_15_Ether_Search_Synthesis.md`의 `Name Drift / Collision Watch`, `Next Action` 동기화
+- `audit/Section_14_15_Boundary_Verification_Queue.md`, `audit/Section_14_15_Ether_Boundary_Evidence.md`의 Marcus / Isador 경계 문구 동기화
+- `audit/Section_15_Named_Notables_Continent_Synthesis.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md`의 에테르 요약 문구 동기화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 다음 장소-기관 슬롯 표면명 정리 작업선으로 이동
+
+Follow-up actions:
+
+- 다음 실제 배치는 에테르 장소-기관 슬롯의 표면명 후보 정리
+- 실제 원고 입력이 생기면 handoff seed가 아니라 live handoff case로 승격
+
+### 2026-04-09 KST - Ether Surface-Name Lock Batch
+
+목적:
+
+- 에테르 place-institution sidecar와 operational display 표에서 이미 해결된 표면명 후보를 본표 기준으로 잠근다.
+- old working label이 다시 표면명처럼 읽히지 않게 하고, 다음 작업선을 low-priority anchor wording closure pass로 넘긴다.
+
+하네스:
+
+- `MCP gate`: `notion` 문서형 리소스만 보여 이번 배치에는 `skip`
+- `Skills gate`: 현재 저장소 작업에 직접 맞는 로컬 스킬 부재로 `skip`
+- `Agents`: `Mendel`, `Confucius` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Mendel` | Ether Slot Consistency Scout | `Sidecar`, `Need Named Candidate Index`, `Search Queue`, `Slot Maturation`의 slot/display sync 점검 | `completed` |
+| `Confucius` | Ether Tone Risk Scout | `Sidecar`, `Operational Display`, `Guard Audit`, `Continent Synthesis`의 naming-tone risk 점검 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `pre_write_hook`에서 새 인물 확정이나 새 실명 발명을 금지하고, 이미 `preferred_display_candidate`로 잠긴 표면명만 본표에 접어 넣는다.
+- `Section_15_Ether_Place_Institution_Sidecar.md`의 place/institution slot과 display candidate pass를 최신 표면명 기준으로 갱신한다.
+- `Section_15_Operational_Display_Canon_Candidates.md`의 Ether 후보표도 같은 기준으로 맞추고, `Ether Needs Polish`를 해결 완료 표로 전환한다.
+- `FS_Slot_Maturation_Register.md`에는 Ether 대표 슬롯이 최신 `preferred_display_candidate`를 따른다는 메모만 최소 추가한다.
+- `Mendel`의 read-only 제안을 반영하고, `Confucius` 범위는 timeout 이후 로컬 증거 재확인으로 마감한다.
+
+Integrated actions:
+
+- `audit/Section_15_Ether_Place_Institution_Sidecar.md`에서 resolved slot에 `slot_with_display_candidate` 상태를 병기하고 candidate slot을 최신 표면명으로 갱신
+- `audit/Section_15_Operational_Display_Canon_Candidates.md`의 Ether 표면명 후보와 polish 섹션을 최신 해결분 기준으로 정렬
+- `audit/Section_15_Ether_Need_Named_Candidate_Index.md`, `audit/Section_15_Ether_Named_Candidate_Search_Queue.md`를 low-priority auxiliary slot까지 확장
+- `audit/FS_Slot_Maturation_Register.md`에 Ether 대표 슬롯의 name layer 기준과 display candidate row를 확장
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 다음 low-priority closure pass 기준으로 이동
+
+Follow-up actions:
+
+- 다음 실제 배치는 에테르 place-institution 축의 low-priority anchor wording closure pass
+- 실제 원고 입력이 생기면 handoff seed가 아니라 live handoff case로 승격
+
+### 2026-04-09 KST - Ether Low-Priority Closure Pass Batch
+
+목적:
+
+- summary-layer 문서가 아직 `표면명 후보 보정` 단계에 머물러 있는 표현을 지우고, 이미 잠긴 surface-name baseline과 low-priority auxiliary slot 확인 단계로 맞춘다.
+
+하네스:
+
+- `MCP gate`: `notion` 문서형 리소스만 보여 이번 배치에는 `skip`
+- `Skills gate`: 현재 저장소 작업에 직접 맞는 로컬 스킬 부재로 `skip`
+- `Agents`: carry-forward scout findings + conductor local evidence
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+Conductor action:
+
+- `pre_write_hook`에서 새 후보명이나 새 실명 발명을 금지한다.
+- `Continent Synthesis`, `Coverage Matrix`의 요약 문구를 `surface-name baseline locked + low-priority auxiliary slot confirmation` 기준으로 닫는다.
+- `pre_close_hook`에서 다음 실제 배치를 `Section_15_Index_Draft`류 압축표 반영으로 넘긴다.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notables_Continent_Synthesis.md`의 `Next Priority`, `Compressed Status` 문구 정리
+- `audit/Section_15_Named_Notables_Coverage_Matrix.md`의 Ether reading / next priority 문구 정리
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 다음 `Index Draft` 반영 작업선으로 이동
+
+Follow-up actions:
+
+- 다음 실제 배치는 `Section_15_Index_Draft`류 압축표에 Ether surface-name lock 반영
+- 실제 원고 입력이 생기면 handoff seed가 아니라 live handoff case로 승격
+
+### 2026-04-09 KST - Ether Compressed Summary Reflection Batch
+
+목적:
+
+- 이미 잠긴 Ether surface-name baseline을 `Index Draft`, `Status Compass` 같은 압축표 문서에 반영한다.
+- 다음 실제 작업선을 `low-priority auxiliary slot` 개인명 실존 여부 확인 배치로 넘긴다.
+
+하네스:
+
+- `MCP gate`: `notion` 문서형 리소스만 보여 이번 배치에는 `skip`
+- `Skills gate`: 현재 저장소 작업에 직접 맞는 로컬 스킬 부재로 `skip`
+- `Agents`: `Gibbs`, `Averroes`, `Plato`, `Helmholtz` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Gibbs` | Open Index Necessity Scout | `OPEN_INDEX` 수정 필요 여부 판단 | `completed -> no change needed` |
+| `Averroes` | Summary Consistency Scout | `Index Draft`, `Status Compass`의 최소 수정 문구 제안 | `completed` |
+| `Plato` | Index Draft Reflection Scout | `Section_15_Index_Draft.md`의 Ether 압축 반영 검토 | `completed -> no additional blocker surfaced` |
+| `Helmholtz` | Status Compass Sync Scout | `Status Compass`, `Next/Continuous` 동기화 검토 | `errored -> usage limit, conductor local evidence fallback` |
+
+Conductor action:
+
+- `pre_write_hook`에서 새 후보명과 새 실명 발명을 금지한다.
+- `Section_15_Index_Draft.md`에 Ether surface-name baseline lock과 low-priority auxiliary slot 대기 목록을 압축 메모로 보강한다.
+- `Section_15_Named_Notables_Status_Compass.md`의 Ether row와 `Next Orchestrated Move`를 최신 작업선으로 갱신한다.
+- `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`를 다음 read-only 확인 배치 기준으로 이동한다.
+
+Integrated actions:
+
+- `audit/Section_15_Index_Draft.md`에 Ether surface-name lock 압축 메모와 새 `Conductor Decision` 반영
+- `audit/Section_15_Named_Notables_Status_Compass.md`의 Ether row / `Next Orchestrated Move` 갱신
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 low-priority auxiliary slot read-only 확인 작업선으로 이동
+
+Follow-up actions:
+
+- 다음 실제 배치는 `탑서기`, `왕실 의전서기`, `성벽 설계서기`, `상단 조율관`, `항만 인장관`, `탐사 기록관`, `연구소 보존관`, `대현자 보좌 기록관`, `침묵의 감시자`의 개인명 실존 여부 read-only 확인
+- 실제 원고 입력이 생기면 handoff seed가 아니라 live handoff case로 승격
+
+### 2026-04-09 KST - Species Framework Side-Track Opening Batch
+
+목적:
+
+- 메인 `14/15` workstream을 건드리지 않고, 종족 관련 공백을 병렬 감사 트랙으로 분리한다.
+- `종족 / 혈통 / 상태 / 몬스터`의 기본 분류축과 위험 구간을 먼저 잠근다.
+
+하네스:
+
+- `MCP gate`: `notion` 문서형 리소스만 보여 이번 배치에는 `skip`
+- `Skills gate`: 현재 저장소 작업에 직접 맞는 로컬 스킬 부재로 `skip`
+- `Agents`: `Euclid`, `Leibniz`, `Goodall`, `Ptolemy`, `Dalton` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Euclid` | Species Intake Framework Scout | 상위 종족 분류 프레임 제안 | `timed_out -> conductor local evidence fallback` |
+| `Leibniz` | Evidence and Risk Scout | 인외/혈통/변이 단서와 조기 확정 위험 점검 | `timed_out -> conductor local evidence fallback` |
+| `Goodall` | Side-Track Structure Scout | 병렬 문서 구조 제안 | `timed_out -> conductor local evidence fallback` |
+| `Ptolemy` | Minimal Classification Scout | `race / bloodline / state / monster` 최소 분류 검토 | `timed_out -> conductor local evidence fallback` |
+| `Dalton` | Parallel Document Setup Scout | 메인선 분리 운영 구조 검토 | `timed_out -> conductor local evidence fallback` |
+
+Conductor action:
+
+- `pre_write_hook`에서 메인 캐논과 `14/15` workstream을 건드리지 않는다는 원칙을 먼저 잠근다.
+- `Species_Framework_Audit_Sidecar.md`를 만들어 판타지 종족 수용용 상위 그릇과 `race / bloodline / state / monster` 분류축을 정리한다.
+- `Species_Framework_Risk_Register.md`를 만들어 `언데드`, `정령화`, `혼혈`, `하피`, `라미아`, `해양 종`의 성급한 종족 승격을 금지선으로 기록한다.
+- `OPEN_INDEX.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에는 이 작업을 `parallel side-track`으로만 연결한다.
+
+Integrated actions:
+
+- `audit/Species_Framework_Audit_Sidecar.md` 작성
+- `audit/Species_Framework_Risk_Register.md` 작성
+- `audit/OPEN_INDEX.md`에 `Species Side Track` 섹션 추가
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 병렬 트랙 연결
+
+Follow-up actions:
+
+- 메인선은 예정대로 Ether low-priority auxiliary slot read-only 확인을 유지
+- 사이드트랙은 `하이엘프`, `드워프 장인`, `수인 부족`, `언데드`, `정령화` 1차 anchor case 정리로 이어감
+
+### 2026-04-09 KST - Species Side-Track Evidence Hardening Batch
+
+목적:
+
+- 늦게 도착한 종족 전문가 scout 결과를 side-track 문서에 흡수한다.
+- `용어 교차표`, `1차 판정 메모`, `layered intake card`까지 분리해 둔다.
+
+하네스:
+
+- `MCP gate`: `notion` 문서형 리소스만 보여 이번 배치에는 `skip`
+- `Skills gate`: 현재 저장소 작업에 직접 맞는 로컬 스킬 부재로 `skip`
+- `Agents`: `Euclid`, `Leibniz`, `Goodall`, `Ptolemy`, `Dalton` late-arrival read-only scout 결과 반영
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Euclid` | Species Intake Framework Scout | layered intake card와 분류축 제안 | `completed` |
+| `Leibniz` | Evidence and Risk Scout | 수인, 용혈, 언데드, 해양, 하피 근거 수집 | `completed` |
+| `Goodall` | Side-Track Structure Scout | sidecar 패턴과 mainline 분리 원칙 제안 | `completed` |
+| `Ptolemy` | Minimal Classification Scout | `race / bloodline / state / monster` 최소 규칙 제안 | `completed` |
+| `Dalton` | Parallel Document Setup Scout | crosswalk / first pass 중심의 문서 구조 제안 | `completed` |
+
+Conductor action:
+
+- 기존 `Species_Framework_Audit_Sidecar.md`를 layered intake card와 1차 anchor reading까지 확장한다.
+- `Race_Species_Term_Crosswalk.md`를 만들어 `하이엘프`, `드워프 장인`, `수인 부족`, `Dragonborn`, `언데드`, `정령화`, `Merfolk`, `Siren Harpy` 등을 층위별로 분리한다.
+- `Race_Species_First_Pass.md`를 만들어 strong / medium / thin 신호를 압축 요약한다.
+- 메인 `14/15` 선은 그대로 유지하고, 사이드트랙 문서만 확장한다.
+
+Integrated actions:
+
+- `audit/Species_Framework_Audit_Sidecar.md`에 `Layered Intake Card`, `First Anchor Readings` 추가
+- `working/crosswalks/Race_Species_Term_Crosswalk.md` 작성
+- `audit/Race_Species_First_Pass.md` 작성
+- `audit/OPEN_INDEX.md`, `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`에 사이드트랙 문서 추가 연결
+
+Follow-up actions:
+
+- 메인선은 그대로 Ether low-priority auxiliary slot read-only 확인 유지
+- 사이드트랙은 `해양 merfolk`, `하피`, `라미아`, `거인`, `요정`의 peoplehood 근거를 read-only로 더 점검

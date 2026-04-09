@@ -86,6 +86,20 @@
 - 원본은 읽기 전용이다.
 - 복사본, 분석표, 장부만 `cg`에서 수정한다.
 
+## Gate 7. Story-to-Lore Handoff
+
+수정 전 확인:
+
+- 이 요소가 Story Engine에서 새로 제안된 것인가?
+- 새 지명, 새 세력, 새 아이템, 새 유명인, 새 소속, 소문의 사실화가 걸려 있는가?
+- `audit/FS_Story_to_Lore_Handoff_Gate.md` 기준으로 되돌려 보냈는가?
+
+통과 조건:
+
+- `story_source`, `trigger_type`, `proposed_element`, `expected_lore_target`가 적혀 있다.
+- Lore Engine route와 필요한 register write가 정해져 있다.
+- Story Engine의 장면 제안이 정본 선언보다 먼저 가지 않는다.
+
 ## Required Audit Trace
 
 정본 선언, 라우팅 변경, 이름 변경 후보에는 아래 흔적을 남긴다.
@@ -97,6 +111,8 @@
 | `route` | 14, 15 Named Notables, 15 Operational Lines, 8, 지도, 아이템, hold 중 어디인가 |
 | `naming_state` | 표면명 확정인지 display canon 후보인지 |
 | `relation_time_impact` | 관계, 액트, 연표, 복선에 영향을 주는가 |
+| `story_source` | 어떤 장면/액트/스토리 초안에서 이 요소가 나왔는가 |
+| `handoff_trigger` | 왜 Story-to-Lore handoff를 걸었는가 |
 
 ## Fast Decision Table
 
@@ -108,6 +124,7 @@
 | 아이템을 백과로 회수하고 싶다 | Gate 1, 2, 3, 5 |
 | 지도/도시/건물 내부 맵 후보를 추가한다 | Gate 1, 2, 3, 5 |
 | 범대륙 후기 확장을 올린다 | Gate 1, 2, 3, 4, 5 |
+| 원고에서 새 설정이 바로 튀어나왔다 | Gate 1, 2, 3, 5, 7 |
 
 ## Conductor Note
 

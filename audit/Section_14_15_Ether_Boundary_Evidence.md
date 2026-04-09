@@ -19,8 +19,8 @@
 |---|---|---|---|
 | 대런 크레센트 | `no_direct_14_match` | `verify_before_15` 유지 | 마법 서고단 대표 / 부탑주 신호는 있으나 현재 import된 14 독립 파일은 보이지 않는다. |
 | 엘드린 문브링어 | `no_direct_14_match` | `verify_before_15` 유지 | 백색의 탑 탑주. 현재 import된 14 독립 파일은 보이지 않는다. |
-| 마르쿠스 레이븐펠 | `no_direct_14_match` | `verify_before_15` 유지 | 흑색의 탑 탑주. 현재 import된 14 독립 파일은 보이지 않는다. |
-| 이사도르 템페스트 | `no_direct_14_match` | `verify_before_15` 유지 | 청색의 탑 탑주. `이사도르 솔레아`와 별개 여부 확인 필요. |
+| 마르쿠스 레이븐펠 | `no_direct_14_match` | `verify_before_15 / name_drift` 유지 | 흑색의 탑 주앵커는 phase3 기준 `맥스웰 레이븐펠`로 읽고, `마르쿠스 레이븐펠`은 drift 표기로만 보존한다. `마르쿠스 코르부스`와 병합하지 않는다. |
+| 이사도르 템페스트 | `no_direct_14_match` | `verify_before_15 / name_split_hold` 유지 | 청색의 탑 / 템페스트 가문 축으로 보존하고, phase2 직접 14 파일 `이사도르 솔레아`와 병합하지 않는다. |
 | 세리오스 벤타리스 | `direct_14_match` | `keep_14_likely` | `phase2_section14_current_ether/4. 마법협회/07. 세리오스 벤타리스`가 직접 확인된다. 태그도 `hero, s_rank`다. |
 | 네리사 블러드위버 | `no_direct_14_match` | `verify_before_15` 유지 | 적색의 탑 탑주. 현재 import된 14 독립 파일은 보이지 않는다. |
 | 다미엔 이클립스 | `no_direct_14_match` | `verify_before_15` 유지 | 은색의 탑 탑주. 현재 import된 14 독립 파일은 보이지 않는다. |
@@ -85,7 +85,8 @@
 | Candidate | Additional Evidence | Updated Judgment |
 |---|---|---|
 | `엘드린 문브링어` | Top 2 백색의 탑주, S급, Act 1~3, 치유/방어 학파, 비전 결계단 책임자로 확인된다. | `verify_before_15` 유지. |
-| `마르쿠스 레이븐펠 / 맥스웰 레이븐펠` | 기존 스카우트에는 `마르쿠스 레이븐펠`로 기록됐지만 세력 문서에서는 Top 3 흑색의 탑주가 `맥스웰 레이븐펠`로 보인다. 동시에 `마르쿠스 코르부스`는 별도 14 현존 영웅 파일이다. | `name_drift / verify_before_15`. 병합 금지. |
+| `마르쿠스 레이븐펠 / 맥스웰 레이븐펠 / 마르쿠스 코르부스` | 기존 스카우트에는 `마르쿠스 레이븐펠`로 기록됐지만, phase3 세력 문서에서는 Top 3 흑색의 탑 주앵커가 `맥스웰 레이븐펠`로 읽힌다. `마르쿠스 레이븐펠`은 drift 표기로만 보존하고, `마르쿠스 코르부스`는 별도 phase2 14 현존 영웅 파일이다. | `name_drift / verify_before_15`. `맥스웰` anchor 고정, `코르부스` merge-ban. |
+| `이사도르 템페스트 / 이사도르 솔레아` | phase3 세력 문서에서는 `이사도르 템페스트`가 청색의 탑 / 템페스트 가문 축의 현재 앵커로 읽히고, `이사도르 솔레아`는 별도 phase2 14 현존 영웅 파일이다. | `name_split_hold / verify_before_15`. 병합 금지. |
 | `네리사 블러드위버` | Top 6 적색의 탑주, S급, Act 1/3, 생체/금기 학파, 심연 연구단 연결이 보인다. | `verify_before_15` 유지. |
 | `다미엔 이클립스` | Top 7 은색의 탑주, S급, Act 1~5, 정보/환영 학파, 어둠술사단 연결이 보인다. | `verify_before_15` 유지. |
 | `드라이덴 썬더루트` | 엘더 루트, 생명의 의회, 정령연합 관계도에서 대드루이드, 뿌리의 수호자, 정책 조언자, 전설 마도 영웅록 신호가 보인다. | `verify_before_15` 유지. |

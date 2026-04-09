@@ -7,6 +7,8 @@
 - `Continuous_Workstream.md`
 - `Next_Sequential_Workstream.md`
 - `orchestra/AGENT_DISPATCH_LOG.md`
+- `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
+- `orchestra/EXECUTION_HARNESS_LOCK.md`
 - `Today_Workstream.md`
 - `Surface_Naming_Audit_Findings.md`
 - `Supranational_Display_Canon.md`
@@ -14,6 +16,13 @@
 - `Supranational_Root_Deferred_Read.md`
 - `Operational_Display_Guard_Audit.md`
 - `Key_Character_Contact_Table.md`
+
+## Orchestra
+
+- `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
+- `orchestra/ACTIVE_AGENT_SPLIT.md`
+- `orchestra/RUNBOOK.md`
+- `orchestra/AGENT_DISPATCH_LOG.md`
 
 ## Naming
 
@@ -35,6 +44,9 @@
 - `audit/FS_Story_Act_Question_Register.md`
 - `audit/FS_Scene_Pressure_Checklist.md`
 - `audit/FS_Reveal_Control_Register.md`
+- `audit/FS_Story_to_Lore_Handoff_Gate.md`
+- `audit/FS_Story_to_Lore_Handoff_Seed_Cases.md`
+- `audit/FS_Story_to_Lore_Live_Handoff_Queue.md`
 - `workflow/14_FS_Media_Engine.md`
 - `audit/FS_Media_Engine_Consensus.md`
 - `audit/FS_Canon_Tier_Register.md`
@@ -54,6 +66,14 @@
 - `audit/FS_Decision_Ruling_Register.md`
 - `audit/FS_Cross_Chronicle_Firewall.md`
 - `audit/FS_Slot_Maturation_Register.md`
+- `audit/FS_Canon_Change_Log.md`
+
+## Species Side Track
+
+- `audit/Species_Framework_Audit_Sidecar.md`
+- `audit/Species_Framework_Risk_Register.md`
+- `audit/Race_Species_First_Pass.md`
+- `working/crosswalks/Race_Species_Term_Crosswalk.md`
 
 ## Section 14
 
@@ -107,6 +127,7 @@
 - `audit/Section_15_Frost_Place_Institution_Sidecar.md`
 - `audit/Section_15_Frost_Search_Synthesis.md`
 - `audit/Section_15_Frost_Display_Canon_Candidates.md`
+- `audit/Section_15_Frost_Core_Register_Link.md`
 - `audit/Section_15_Frost_Need_Named_Candidate_Index.md`
 - `audit/Section_15_Named_Notables_Oceanic_Scout.md`
 - `audit/Section_14_15_Oceanic_Boundary_Batch_02.md`

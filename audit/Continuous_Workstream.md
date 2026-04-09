@@ -87,7 +87,57 @@
 26. 에테르 14/15 경계 후보의 1차 증거를 보강
 27. 크림슨 안정 후보로 실제 15번 폴더링 규칙을 시험
 28. 안정 15 후보 3명을 FS 장부와 연결
-29. 그다음 `Tier 2`로 자연스럽게 확장
+29. 프로스트 역할 슬롯을 `Place Function / Decision / Slot Maturation` 코어에 직접 연결
+30. `FS_Canon_Change_Log` 초안으로 상태 이동 이력 고정
+31. `Story-to-Lore Handoff Gate` 초안으로 집필발 신규 설정 유입 경로 고정
+32. `MCP / Skills / Agents / Hooks / Registers` 실행 하네스 잠금
+33. 기존 `verify_before_15` 항목 중 일부를 `Decision Ruling Register`와 더 직접 연결
+34. handoff seed case 1건을 실제 Lore route와 register write로 시험 적용
+35. `FS_Canon_Change_Log.md`에 14/15 경계 변동분 backfill 추가
+36. 실제 원고 입력이 생기면 seed가 아니라 live handoff case로 승격
+37. `FS_Story_to_Lore_Live_Handoff_Queue`를 빈 queue 상태로 잠가 seed/live 오염 방지
+38. 실제 입력이 없을 때는 개별 이름 충돌 후보 세부 backfill로 이어가기
+39. `크리스토퍼 델마르`와 `Mera / 메라` drift를 개별 병합 금지 판정으로 backfill
+40. 다음 이름 충돌 세부 후보는 `Rafferty / Raphael Arcadia` 또는 `Sylas` 계열로 이동
+41. `Rafferty / Raphael Arcadia`와 `Sylas` 계열 병합 금지 판정 backfill
+42. 다음 이름 충돌 세부 후보는 `Valerius`, `Drake Ruga / Rawson`, `Selena` 계열로 이동
+43. `Valerius`, `Drake Ruga / Rawson`, `Selena` 계열 병합 금지 판정 backfill
+44. 다음 순서는 `Name Collision Register closure pass`로 이동해 누락된 충돌군의 Decision / Change Log 연결 여부를 점검
+45. `Name Collision Register closure pass`에서 `Sylvia`, `Wolfgar`, `Erion` 직접 연결 누락분 backfill
+46. 다음 순서는 실제 원고 입력이 없으면 `Aegis person / item / concept split refinement` 또는 다음 `verify_before_15` 대표군 직접 연결로 이동
+47. `Aegis person / item / concept split refinement`를 기존 `working/crosswalks/Item_Name_Collision_Register.md`와 교차 참조해 새 문서 생성 없이 잠금
+48. 다음 순서는 실제 원고 입력이 없으면 다음 `verify_before_15` 대표군 직접 연결로 이동
+49. `아리안`, `대런`, `시그리드`를 `verify_before_15` 대표군 직접 연결로 backfill
+50. 다음 순서는 실제 원고 입력이 없으면 `이소벨 골드리프`, `카론`, `엘라라 문힘` 중 필요한 개별 backfill로 이동
+51. `이소벨 골드리프`, `카론`, `엘라라 문힘`을 개별 `verify_before_15` 판정으로 backfill
+52. 다음 순서는 실제 원고 입력이 없으면 남은 `verify_before_15` 대표 후보 중 `대사제 요한`, `에드가 룬워커`, `레온 벨가르드` 직접 연결 필요 여부 판단
+53. `대사제 요한`, `에드가 룬워커`, `레온 벨가르드`를 개별 `verify_before_15` 판정으로 backfill
+54. 다음 순서는 실제 원고 입력이 없으면 남은 `verify_before_15` 대표 후보 중 `리아나 실버레이크`, `드라이덴 썬더루트`, `바리온` 직접 연결 필요 여부 판단
+55. `리아나 실버레이크`, `드라이덴 썬더루트`, `바리온`을 개별 `verify_before_15` 판정으로 backfill
+56. 다음 순서는 실제 원고 입력이 없으면 `더글라스 레가스`는 현 단계 유지로 두고, `베스 스크롤`, `이안 옵저버` 직접 연결 필요 여부 판단
+57. `베스 스크롤`, `이안 옵저버`를 개별 `verify_before_15` 판정으로 backfill하고 `더글라스 레가스`는 현 단계 유지
+58. 다음 순서는 실제 원고 입력이 없으면 남은 `verify_before_15` 대표 후보 중 `카트린 라베로스`, `레보니아 셰이드`, `세르반 알테르만` 직접 연결 필요 여부 판단
+59. `카트린 라베로스`, `레보니아 셰이드`, `세르반 알테르만`을 개별 `verify_before_15` 판정으로 backfill
+60. 다음 순서는 실제 원고 입력이 없으면 남은 `verify_before_15` 대표 후보 중 `우로스 디 모르간`, `레티시아 모르투스`, `더글라스 레가스 재판단` 필요 여부 판단
+61. `우로스 디 모르간`, `레티시아 모르투스`를 개별 `verify_before_15` 판정으로 backfill하고 `더글라스 레가스`는 `likely_keep_14` 우세로 현 단계 유지
+62. 다음 순서는 실제 원고 입력이 없으면 남은 `verify_before_15` 대표 후보 중 `우로스/레티시아 이후 잔여 오벨리스크 후보`와 `에테르 보류 후보 재점검` 우선순위 재정렬
+63. 오벨리스크 direct backfill 핵심 큐는 사실상 종료로 잠그고 `아이기스 collision`, place/institution, lower-priority 보류 트랙만 유지
+64. 에테르 다음 실제 작업은 `엘다라` 근거 보강을 먼저 수행
+65. 그 다음 배치는 에테르 `탑주 묶음`으로 전환하고 1차 대상은 `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`로 고정
+66. `엘다라` 근거 보강을 완료하고 `루미라`, `현자 의회`, `고대수 도서관`, `초대 정령왕 계약서 사본` 축을 시트에 직접 반영
+67. `엘다라`는 `15 확정`이 아니라 `named_notable_candidate / verify_source_before_profile` 상태를 더 단단히 잠그고, 다음 실제 배치는 에테르 `탑주 묶음` 1차 점검으로 전환
+68. 에테르 `탑주 묶음` 1차 `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`를 direct ruling backfill로 연결하고 모두 `verify_before_15`로 잠금
+69. 다음 실제 배치는 `마르쿠스 레이븐펠`, `이사도르 템페스트`의 이름 드리프트 / 분리 확인 후속 검토로 전환
+70. `Ravenfell / Corvus`는 `맥스웰 레이븐펠` 주앵커, `마르쿠스 레이븐펠` drift 표기, `마르쿠스 코르부스` 14 별도 개체로 refinement
+71. `이사도르 템페스트`와 `이사도르 솔레아`는 가문/역할/출처가 다른 별도 개체로 잠그고 병합 금지
+72. 에테르 arcane drift 후속 동기화를 `Ether Search Synthesis`, `Boundary Verification Queue`, `Ether Boundary Evidence`, `Continent Synthesis`, `Coverage Matrix`까지 마무리
+73. 에테르 sidecar와 operational display 표의 surface-name 후보를 `preferred_display_candidate` 기준으로 잠그고 polish 해결분을 본표에 접어 넣음
+74. 에테르 low-priority auxiliary slot 목록을 `탑서기`, `왕실 의전서기`, `성벽 설계서기`, `상단 조율관`, `항만 인장관`, `탐사 기록관`, `연구소 보존관`, `대현자 보좌 기록관`, `침묵의 감시자`로 닫고 제외 항목 없이 유지
+75. `Section_15_Index_Draft`, `Section_15_Named_Notables_Status_Compass`까지 Ether surface-name lock 압축 반영을 마침
+76. 다음 실제 배치는 Ether low-priority auxiliary slot의 개인명 실존 여부 read-only 확인으로 전환
+77. 메인선과 별도로 `Species Framework Audit` 사이드트랙을 병렬 개설
+78. 종족 관련 내용은 당분간 `race / bloodline / state / monster` 감사와 리스크 잠금으로만 다루고 정본 선언은 보류
+79. `Race_Species_Term_Crosswalk.md`, `Race_Species_First_Pass.md`를 추가해 종족 용어 교차표와 1차 판정 메모를 분리
 
 ## Conductor Rule
 
