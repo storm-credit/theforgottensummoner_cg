@@ -38,6 +38,8 @@
 - 이 register는 subline family와 우선순위를 정리하는 상위 입구이고,
   exact guard wording authority는 각 subline profile card의 `3-1. Policy Guard`에 남긴다.
 - parent/subline summary는 downstream profile guard text를 대체하지 않는다.
+- exact operational guard wording authority는 각 downstream `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 register는 그 wording source를 subline family 층에서만 참조한다.
 
 ## Conductor Rule
 

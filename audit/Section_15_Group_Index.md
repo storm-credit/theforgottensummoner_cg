@@ -53,6 +53,8 @@ operational active 판단은
   exact guard wording authority는 downstream profile card의 `3-1. Policy Guard`에 남긴다.
 - 따라서 group index가 free-city나 obelisk family를 적더라도,
   하위 profile guard text를 축약하거나 대체하지 않는다.
+- exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 group index는 그 wording source를 group/reference 층에서만 추적한다.
 
 ### 1. Hidden Exchange
 
@@ -244,6 +246,8 @@ reference상 자연스럽게 늘어날 후보 묶음:
   `Subline Draft`로 다시 쪼개는 확장 흐름으로 읽는다.
 - group index의 state label은 canonical 상태어 참고용이고,
   해석선은 각 profile/template의 `Policy Guard`와 함께 읽는다.
+- exact operational guard wording authority도 상위 group index가 아니라
+  각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
 
 이 순서를 기준으로 읽으면
 `15번`이 다시 뒤엉키지 않게 관리할 수 있다.
