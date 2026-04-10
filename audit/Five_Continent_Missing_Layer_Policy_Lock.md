@@ -1,7 +1,7 @@
 # Five Continent Missing Layer Policy Lock
 
-이 문서는 `Continents_Framework.md`의 `Conductor Lock`에 남아 있던
-결손층 5개를 실제 정책 문장으로 닫기 위한 락 문서다.
+이 문서는 `Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
+결손층 5개를 실제 정책 문장으로 잠그는 policy component 문서다.
 
 목적:
 
@@ -176,7 +176,8 @@
 ## Conductor Decision
 
 `Continents_Framework.md`에 남아 있던 결손층 5개는
-이제 `빈칸`이 아니라 `정책적으로 어디까지 허용하는 얇은 층인가`로 잠근다.
+이제 `Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
+`정책적으로 어디까지 허용하는 얇은 층인가`를 잠근 component로 읽는다.
 
 즉 다음 보강은
 이 다섯 층을 새 설정 발명으로 키우는 일이 아니라,

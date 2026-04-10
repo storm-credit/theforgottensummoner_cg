@@ -154,6 +154,7 @@
 ## Conductor Decision
 
 1차 샘플 기준으로는
+`Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
 다섯 얇은 층 모두 `정책상 허용된 thin/support 범위` 안에서만 읽는 게 맞다.
 
 즉 다음 패스는

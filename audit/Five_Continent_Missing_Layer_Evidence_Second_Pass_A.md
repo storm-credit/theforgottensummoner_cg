@@ -148,6 +148,7 @@
 ## Conductor Decision
 
 `Second Pass A` 기준으로도
+`Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
 다섯 대륙 모두 `thin/support` 판정이 맞고,
 반복 증거는 `승격 근거`가 아니라 `안정화 근거`로만 읽는다.
 
