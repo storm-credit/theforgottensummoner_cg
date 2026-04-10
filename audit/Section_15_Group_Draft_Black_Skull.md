@@ -82,6 +82,9 @@
 - 노예 유통, 생체 거래, 약물 제조, 포획선 인계는 해양 `토착 공동체층` 본체나 혈통 공동체 복원 근거가 아니다.
 - 즉 `검은 해골단`은 자유도시 그림자경제의 인간 상품화 끝점으로만 읽고,
   전통 국가기관이나 해양 부족 질서의 대표 증거로 올리지 않는다.
+- 이 group draft는 family-level carryover만 정리하고,
+  exact guard wording authority는 연결되는 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
 
 ## Relation Hooks
 
@@ -108,3 +111,6 @@
 검은 해골단 묶음은
 자유도시의 밤이 단순 음지 경제가 아니라
 `인간 자체가 상품이 되는 구역`임을 보여준다.
+
+다만 named notable 승인 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.

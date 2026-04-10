@@ -70,6 +70,9 @@
   전통 국가 정보기관이나 귀족 비밀경찰 복원 근거가 아니다.
 - 즉 `그림자 첩보망`은 비정상적 도시-기관 네트워크로만 읽고,
   정규 국가기관형 첩보 조직으로 단순 환원하지 않는다.
+- 이 group draft는 family-level carryover만 요약하고,
+  exact guard wording authority는 연결되는 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 상위 draft가 downstream profile guard text를 대체하지 않는다.
 
 ## Relation Hooks
 
@@ -94,3 +97,6 @@
 
 이 묶음은
 `정보는 어떻게 도시 안을 흐르는가`를 사람 단위로 복구하는 데 핵심이다.
+
+다만 named notable 승인 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.

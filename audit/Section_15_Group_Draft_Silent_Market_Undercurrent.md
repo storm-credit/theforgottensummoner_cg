@@ -70,6 +70,9 @@
   정규 국가기관이나 전통 귀족국가형 상층 복원 근거가 아니다.
 - 즉 `침묵의 상회`는 자유도시와 범대륙 음지세계에 붙은 괴이 기관으로만 읽고,
   5대륙 본선의 정상 제도층으로 승격하지 않는다.
+- 이 group draft는 family-level carryover만 요약하고,
+  exact guard wording authority는 연결되는 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
 
 ## Relation Hooks
 
@@ -93,3 +96,6 @@
 이 묶음은
 자유도시와 범대륙 음지세계가
 `죽은 자의 통신`까지 활용하는 비정상적 문명이라는 걸 보여주는 데 유용하다.
+
+다만 named notable 승인 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.

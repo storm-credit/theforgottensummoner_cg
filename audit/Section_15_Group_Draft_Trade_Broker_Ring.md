@@ -71,6 +71,9 @@
   혈통 귀족 가문이나 전통 왕국형 `state_house strong` 복원 근거가 아니다.
 - 즉 `대륙 무역 연맹` 현장 중개층은 상업-유통 제도 엘리트의 실무면으로만 읽고,
   국가 상층이나 부족 공동체 본체로 끌어올리지 않는다.
+- 이 group draft는 family-level carryover만 요약하고,
+  exact guard wording authority는 연결되는 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 상위 draft가 downstream profile guard text를 다시 쓰지 않는다.
 
 ## Relation Hooks
 
@@ -96,3 +99,6 @@
 이 묶음은
 범대륙 무역이 추상 설정이 아니라
 `현장에서 누가 타협하고 누가 막고 누가 우회시키는가`로 보이게 만드는 데 핵심이다.
+
+다만 named notable 승인 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.
