@@ -138,7 +138,7 @@ Operational Lines guard:
 현재 메인 본선은 `8번 세력 아카이브` 재점검이나
 stable triad package 재가동이 아니라,
 이 인덱스 초안과 상태 나침반이 closure sync / carryover watch 기준으로
-같은 문구를 유지하는 것이다.
+같은 authority 분리 문장을 유지하는 것이다.
 
 named notable index는 상위 요약층으로만 읽고,
 operational profile의 `3-1. Policy Guard`는 하위 카드층에 그대로 남겨 둔다.
