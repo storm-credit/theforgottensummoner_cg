@@ -6,6 +6,10 @@
 현재 결손층 본선 entry는
 `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 우선 기준으로 읽는다.
 
+이 점검 시트의 대륙별 `policy note`는
+master lock 아래 component chain을 요약한 shorthand이지,
+결손층 thin/support 판정을 이 문서가 새로 확정하는 것은 아니다.
+
 ## Status Labels
 
 - `enough`

@@ -55,6 +55,9 @@
 3. admissible class에 들어와도 즉시 승격하지 않고 `first/second pass` 방향과 같은지 본다.
 4. 마지막으로 `firewall`을 통과하는지 확인한 뒤에만 safe read를 보강한다.
 5. `summary / bridge / watch / profile / place-pressure` 문서는 이 master lock을 넘어서 대륙 본체를 재정의하지 않는다.
+6. 이 문서 아래의 `policy / register / first pass / second pass / firewall` component는
+   로컬 shorthand를 가질 수는 있어도,
+   결손층 5개 본선의 단일 entry authority를 master lock 밖으로 옮기지 않는다.
 
 ## Conductor Decision
 

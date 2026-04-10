@@ -52,6 +52,9 @@ Hold Queue:
 
 - `결손층 5개`의 thin/support 판정은 이 closure 표가 새로 확정하지 않고,
   `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
+- 이 표의 대륙별 closure 메모는
+  master lock 아래 component chain을 요약하는 shorthand일 뿐,
+  결손층 판정 authority 자체를 로컬에서 다시 만들지 않는다.
 - `크림슨` 대표 named notable 카드군은 씨족 중심 질서와 현자/장인/전승 상층만 보강하고,
   `state_house strong` 근거로 올리지 않는다.
 - `해양` 자유도시 프로필 카드군은 도시-항만 그림자경제와 부채/암시장/검은항로를 보강할 뿐,
