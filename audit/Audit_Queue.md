@@ -34,6 +34,8 @@
    `admissible evidence class / reject class / safe record` 순서로만 다룬다
 17. `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`를
    1차 샘플 기준으로 유지하고, 같은 방향의 반복 증거만 추가한다
+18. `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md`를
+   반복 증거 안정화 기준으로 유지하고, 승격이 아니라 overread 차단 쪽으로만 확장한다
 
 ## Ordered Watch Snapshot
 
