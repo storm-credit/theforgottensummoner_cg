@@ -62,6 +62,10 @@
 - 이 카드를 해양의 `토착 공동체층`이나 원주민 공동체 근거로 읽지 않는다.
 - 즉 에블린은 `urban_market identity-forging` 범위에서만 읽는다.
 
+- 이 `3-1. Policy Guard`는 이 카드의 exact guard wording authority다.
+- 상위 group/subline/index 문서는 family-level carryover를 요약할 수는 있어도,
+  이 카드의 guard prose를 축약하거나 대체하지 않는다.
+
 ## 6. Conductor Note
 
 - 이 시점에 확정할 것:

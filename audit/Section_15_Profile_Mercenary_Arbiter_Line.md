@@ -56,6 +56,10 @@
 - 중재 법정, 심리실, 추방 절차 같은 내부 공간 서사에 강하다.
 - 배신, 오판, 누명, 복권 같은 장기 관계 요소를 심는 데 유용하다.
 
+- 이 `3-1. Policy Guard`는 이 카드의 exact guard wording authority다.
+- 상위 group/subline/index 문서는 family-level carryover를 요약할 수는 있어도,
+  이 카드의 guard prose를 축약하거나 대체하지 않는다.
+
 ## 6. Conductor Note
 
 - 이 시점에 확정할 것:

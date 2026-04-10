@@ -34,6 +34,8 @@
 
 - `울프가르 / 에리온 / 오그마`의 QA pass는 크림슨 씨족 중심 질서와 학술/전승/공방 thin-support 범위 안에서만 유효하다.
 - 이 QA pass를 전통 귀족국가형 `state_house strong` 승격 근거로 사용하지 않는다.
+- 이 QA 문서는 profile card의 `3-1. Policy Guard`를 참조해 판정할 뿐,
+  exact guard wording authority를 대체하지 않는다.
 - `엘다라`는 정령연합 내부 예외축 `support_hold`로만 QA pass를 인정한다.
 - `실비아`는 `deferred_expansion_hold` 내부 카드로만 QA pass를 인정하고, 5대륙 본선 대표 카드로 올리지 않는다.
 

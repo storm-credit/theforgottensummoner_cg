@@ -57,6 +57,10 @@
 - 시장 거리, 상권 회의실, 감시 발코니 같은 공간에 잘 맞는다.
 - 상권 다툼, 회색 거래 묵인, 도시별 상업 분위기 차이를 보강하는 데 강하다.
 
+- 이 `3-1. Policy Guard`는 이 카드의 exact guard wording authority다.
+- 상위 group/subline/index 문서는 family-level carryover를 요약할 수는 있어도,
+  이 카드의 guard prose를 축약하거나 대체하지 않는다.
+
 ## 6. Conductor Note
 
 - 이 시점에 확정할 것:

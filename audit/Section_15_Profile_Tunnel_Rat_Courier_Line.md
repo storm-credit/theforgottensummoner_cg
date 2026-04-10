@@ -56,6 +56,10 @@
 - 하수구, 교차점, 지하 창고, 제3 부두 동선을 살리는 데 유용하다.
 - 추적, 잠입, 운반 사고, 물류선 배신 서사에 강하다.
 
+- 이 `3-1. Policy Guard`는 이 카드의 exact guard wording authority다.
+- 상위 group/subline/index 문서는 family-level carryover를 요약할 수는 있어도,
+  이 카드의 guard prose를 축약하거나 대체하지 않는다.
+
 ## 6. Conductor Note
 
 - 이 시점에 확정할 것:

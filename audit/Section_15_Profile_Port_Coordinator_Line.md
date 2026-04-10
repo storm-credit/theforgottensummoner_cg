@@ -55,6 +55,10 @@
 - 부두 검문대, 입항 관리 구역, 선적 허가선 같은 공간 서사에 강하다.
 - 도시맵과 해상 유통망을 실제 사람 얼굴로 묶는 데 유용하다.
 
+- 이 `3-1. Policy Guard`는 이 카드의 exact guard wording authority다.
+- 상위 group/subline/index 문서는 family-level carryover를 요약할 수는 있어도,
+  이 카드의 guard prose를 축약하거나 대체하지 않는다.
+
 ## 6. Conductor Note
 
 - 이 시점에 확정할 것:

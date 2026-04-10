@@ -58,6 +58,10 @@
 - 이 계열 시트를 해양의 `토착 공동체층`이나 `tribe_clan` 본체 증거로 읽지 않는다.
 - 즉 이 계열은 `urban_market / counterfeit infrastructure` 범위에서만 읽는다.
 
+- 이 `3-1. Policy Guard`는 이 카드의 exact guard wording authority다.
+- 상위 group/subline/index 문서는 family-level carryover를 요약할 수는 있어도,
+  이 카드의 guard prose를 축약하거나 대체하지 않는다.
+
 ## 6. Conductor Note
 
 - 이 시점에 확정할 것:
