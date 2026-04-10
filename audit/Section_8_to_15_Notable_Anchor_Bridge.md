@@ -84,6 +84,8 @@ sidecar/register handoff를 먼저 존중한다.
    오벨리스크 `dark institution / nontraditional elite thin-support` 문구는
    operational profile cluster를 통해서만 이어지고,
    named notable 승인 근거로 직접 수입하지 않는다.
+8. exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
+   `3-1. Policy Guard`에 남고, bridge는 그 wording source를 구조 브리지 층에서만 참조한다.
 
 ## Card Layer Separation
 

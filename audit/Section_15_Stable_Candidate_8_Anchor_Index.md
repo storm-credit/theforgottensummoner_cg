@@ -43,6 +43,8 @@
 8. 자유도시/오벨리스크 operational profile 문구는
    stable candidate 승격 근거로 역수입하지 않고,
    별도 profile-side carryover로만 참조한다.
+9. exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
+   `3-1. Policy Guard`에 남고, 이 색인은 그 wording source를 route/reference 층에서만 읽는다.
 
 ## Routing Consequence
 

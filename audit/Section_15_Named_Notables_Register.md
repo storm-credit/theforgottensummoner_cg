@@ -85,6 +85,8 @@
   형식층은 분리해서 유지한다.
 - 상위 register/coverage/bridge는 lower-card authority를 요약만 하며,
   하위 profile의 `3-1. Policy Guard`를 재정의하지 않는다.
+- exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 register는 그 wording source를 참조만 한다.
 
 ## Conductor Note
 
