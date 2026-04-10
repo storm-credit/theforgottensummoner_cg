@@ -58,6 +58,9 @@
 - 이 `3-1. Policy Guard`는 이 카드의 exact guard wording authority다.
 - 상위 group/subline/index 문서는 family-level carryover를 요약할 수는 있어도,
   이 카드의 guard prose를 축약하거나 대체하지 않는다.
+- downstream subline이 실제로 분화된 경우에는
+  각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`가 그 하위 라인의 exact wording authority이고,
+  이 parent line card는 port-coordinator line 축의 상위 기준만 유지한다.
 
 ## 6. Conductor Note
 

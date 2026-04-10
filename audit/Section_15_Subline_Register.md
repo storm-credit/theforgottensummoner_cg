@@ -40,6 +40,8 @@
 - parent/subline summary는 downstream profile guard text를 대체하지 않는다.
 - exact operational guard wording authority는 각 downstream `Section_15_Subline_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, 이 register는 그 wording source를 subline family 층에서만 참조한다.
+- parent `Section_15_Profile_*` line card와 downstream `Section_15_Subline_Profile_*` card는
+  서로의 exact wording authority를 대체하지 않고, line axis와 refined subline axis를 나눠 가진다.
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
   draft/profile 교차감사가 닫힌 sample로 유지하고,
   새 wording-source drift가 생길 때만 해당 pair를 국소 재대조한다.
