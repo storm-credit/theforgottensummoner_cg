@@ -65,6 +65,8 @@ Hold Queue:
   `Section_15_Profile_*` 32개 전부 `3-1. Policy Guard` 형식으로 유지한다.
 - 따라서 이 closure table은 named notable split을 다루되,
   operational profile 해석은 하위 profile card의 `3-1. Policy Guard`를 따른다.
+- 자유도시/오벨리스크 operational profile cluster 문구는
+  named notable 승격 근거가 아니라 profile-side carryover reference로만 유지한다.
 
 ## Routing Rule
 

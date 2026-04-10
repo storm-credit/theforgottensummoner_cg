@@ -83,6 +83,9 @@
   `Section_15_Profile_*` 32개 전부 `3-1. Policy Guard` 형식으로 유지한다.
 - 따라서 named notable compass는 profile layer를 대신하지 않고,
   named card와 profile card가 같은 carryover rule 아래 있는지만 감시한다.
+- 자유도시/오벨리스크 operational profile 문구는
+  named notable 승인 논리로 역수입하지 않고,
+  lower-card authority로만 참조한다.
 
 Reference ROI:
 

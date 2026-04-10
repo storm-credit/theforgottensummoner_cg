@@ -40,6 +40,9 @@
 6. stable triad와 hold 카드에 내려간 개별 `Policy Guard`는 이 색인보다 아래 카드층의 해석 우선권을 가진다.
 7. operational profile layer의 `3-1. Policy Guard` 형식도
    이 색인의 route/reference 판정보다 아래 카드층에서 그대로 우선한다.
+8. 자유도시/오벨리스크 operational profile 문구는
+   stable candidate 승격 근거로 역수입하지 않고,
+   별도 profile-side carryover로만 참조한다.
 
 ## Routing Consequence
 

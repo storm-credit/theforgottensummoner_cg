@@ -53,6 +53,8 @@
 8. 자유도시/오벨리스크 operational profile cluster는 triad package 바깥에서만 유지하고, 각각 `urban_market` 또는 `nontraditional elite thin-support / dark institution` 범위를 넘겨 읽지 않는다.
 9. canonical state는 `Section_15_State_Vocabulary_Guard.md`를 따르고, policy carryover 문장은 별도 prose guard로 함께 유지한다.
 10. operational profile card는 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
+11. package freeze summary는 lower-card authority를 재정의하지 않고,
+    operational profile의 `3-1. Policy Guard`를 참조만 한다.
 
 ## Allowed Adjustments
 
@@ -80,6 +82,7 @@
 3. 구형 route-test / folder-phase / broad safe-pool 표현이 핵심 문서군에서 제거된다.
 4. revision gate가 triad package freeze를 허용하는 상태다.
 5. 카드층의 policy guard와 index/folder/routing 문서의 carryover 문장이 서로 충돌하지 않는다.
+6. named notable freeze 문장이 operational profile guard 문장을 승격 논리로 역수입하지 않는다.
 
 ## Conductor Decision
 
