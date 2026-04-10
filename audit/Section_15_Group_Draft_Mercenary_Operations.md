@@ -75,6 +75,10 @@
 - 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
 - exact operational guard wording authority는 각 연결 profile 카드의 `3-1. Policy Guard`에 남고,
   이 group draft는 그 wording source를 mercenary-operations family 층에서만 요약한다.
+- subline 확장까지 내려간 경우에도
+  exact operational guard wording authority는 각 downstream `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고,
+  이 group draft는 그 wording source를 mercenary-operations family 층에서만 요약한다.
 
 ## Relation Hooks
 
