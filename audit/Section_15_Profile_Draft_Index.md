@@ -103,7 +103,8 @@
 
 ## Policy Subline Intake Guard
 
-- subline profile도 parent line의 `Policy Guard`를 그대로 물고 내려간다.
+- subline profile도 parent line의 guard family를 따라가되,
+  exact wording authority는 각 자기 카드의 `3-1. Policy Guard`에 남긴다.
 - 즉 `Port / Black Auction` 계열은 자유도시 `urban_market / shadow_port`,
   `Gravewell` 계열은 `dark institution / occult communications`,
   `Iron Finance` 계열은 `nontraditional elite thin-support / coercive finance`

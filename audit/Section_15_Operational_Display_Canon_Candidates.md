@@ -211,8 +211,10 @@ naming active 판단은
   직능어를 줄이고 상징어를 늘린다.
 - 상위 그룹명은 `Group Axis -> Display Canon Candidates` 표를 먼저 reference로 보고,
   세부 직능명은 `Functional Line -> Display Canon Candidates` 표를 reference로 본다.
-- 표면명은 바뀔 수 있어도 policy carryover 문장은 같이 유지한다.
-- subline draft와 subline profile 단계에서도 같은 policy carryover를 그대로 유지한다.
+- 표면명은 바뀔 수 있어도 policy carryover family는 유지하되,
+  exact wording authority는 각 profile/subline profile 카드의 `3-1. Policy Guard`에 남긴다.
+- subline draft와 subline profile 단계에서도 같은 policy carryover family를 유지하되,
+  exact wording authority는 각 profile/subline profile 카드의 `3-1. Policy Guard`에 남긴다.
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair도
   닫힌 subline 교차감사 샘플로만 읽고,
   표면명 후보는 그 exact wording source를 대체하지 않는다.
