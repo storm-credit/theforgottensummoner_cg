@@ -45,6 +45,12 @@
    별도 profile-side carryover로만 참조한다.
 9. exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
    `3-1. Policy Guard`에 남고, 이 색인은 그 wording source를 route/reference 층에서만 읽는다.
+10. subline 확장까지 내려간 경우에도
+    exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+    `3-1. Policy Guard`에 남고, 이 색인은 그 wording source를 route/reference 층에서만 읽는다.
+11. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+    닫힌 subline 교차감사 샘플로 유지하고,
+    stable candidate 색인은 그 closure 상태를 stable/hold routing 층에서만 참조한다.
 
 ## Routing Consequence
 

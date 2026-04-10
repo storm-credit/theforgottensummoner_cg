@@ -68,6 +68,13 @@ operational profile-side carryover reference로만 유지한다.
 5. 상위 `named notable` summary와 bridge는
    하위 operational profile 카드의 `3-1. Policy Guard`를 참조하되,
    카드 해석선을 재정의하지 않는다.
+6. subline 확장까지 내려간 경우에도
+   exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+   `3-1. Policy Guard`에 남고,
+   spine compatibility audit은 그 wording source를 호환성 층에서만 참조한다.
+7. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+   닫힌 subline 교차감사 샘플로 유지하고,
+   compatibility audit은 그 closure 상태를 named notable spine 판정과 분리해 읽는다.
 
 ## Foldering Gate Result
 
@@ -88,3 +95,5 @@ operational profile-side carryover reference로만 유지한다.
 4. 현재 carryover mainline은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 `5대륙 closure sync / Section 8 -> 15 carryover watch`로 유지한다.
 5. 현재 메인 본선은 stable triad package 재개방이 아니라 closure sync / carryover watch 유지다.
 6. named notable coverage 표와 bridge 요약은 operational profile 카드가 이미 잠근 `3-1. Policy Guard`를 존중하는 상위 reference층으로만 유지한다.
+7. named notable coverage 표와 bridge 요약은 `Section_15_Subline_Profile_*` 카드가 잠근
+   `3-1. Policy Guard`도 같은 lower-card authority로 존중하는 상위 reference층으로만 유지한다.

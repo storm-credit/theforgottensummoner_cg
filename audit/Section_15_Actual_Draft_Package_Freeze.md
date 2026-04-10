@@ -57,6 +57,12 @@
     operational profile의 `3-1. Policy Guard`를 참조만 한다.
 12. 즉 exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
     `3-1. Policy Guard`에 남고, freeze 문서는 그 wording source를 대체하지 않는다.
+13. subline 확장까지 내려간 경우에도
+    exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+    `3-1. Policy Guard`에 남고, freeze 문서는 그 wording source를 대체하지 않는다.
+14. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+    닫힌 subline 교차감사 샘플로 유지하고,
+    package freeze는 그 closure 상태를 package watch 층에서만 참조한다.
 
 ## Allowed Adjustments
 

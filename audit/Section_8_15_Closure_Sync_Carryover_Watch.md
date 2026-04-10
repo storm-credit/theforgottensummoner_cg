@@ -41,6 +41,9 @@
 10. 대표 `subline draft / subline profile` 교차감사
     (`Black Auction / Port Authority / Gravewell / Counterfeit Workshop`)는
     closure 상태로 유지하고, 새 drift가 생길 때만 국소 재개한다.
+11. stable candidate / package freeze / compatibility audit도
+    `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`를
+    exact wording source로만 읽고, named notable 승인 논리로 역수입하지 않는다.
 
 ## Watch Table
 
