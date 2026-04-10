@@ -30,6 +30,12 @@
 - `범대륙`은 후기 확장축이라 메인 정리보다 뒤로 둔다.
 - named notable coverage 표는 상위 분포 요약층이다.
   개별 operational profile 카드의 `3-1. Policy Guard`를 덮어쓰지 않고 참조만 한다.
+- subline 확장까지 내려간 경우에도
+  exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, coverage matrix는 그 wording source를 분포 요약층에서만 참조한다.
+- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+  닫힌 subline 교차감사 샘플로 유지하고,
+  named notable coverage 판단은 그 closure 상태를 참조만 한다.
 
 ## Watch Priority Snapshot
 
@@ -60,3 +66,5 @@
   policy 해석은 lower-card authority를 넘겨 재정의하지 않는다.
 - exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, coverage matrix는 그 wording source를 분포 요약층에서만 참조한다.
+- exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에도 남고, coverage matrix는 그 wording source를 분포 요약층에서만 참조한다.

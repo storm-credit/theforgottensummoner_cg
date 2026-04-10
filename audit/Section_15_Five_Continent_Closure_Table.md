@@ -69,6 +69,12 @@ Hold Queue:
   named notable 승격 근거가 아니라 profile-side carryover reference로만 유지한다.
 - exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, 이 closure table은 그 wording source를 요약하거나 대체하지 않는다.
+- subline 확장까지 내려간 경우에도
+  exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 closure table은 그 wording source를 요약하거나 대체하지 않는다.
+- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+  닫힌 subline 교차감사 샘플로 유지하고,
+  이 closure table은 그 closure 상태를 5대륙 summary 층에서만 참조한다.
 
 ## Routing Rule
 

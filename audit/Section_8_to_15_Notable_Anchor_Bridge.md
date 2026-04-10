@@ -86,6 +86,12 @@ sidecar/register handoff를 먼저 존중한다.
    named notable 승인 근거로 직접 수입하지 않는다.
 8. exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
    `3-1. Policy Guard`에 남고, bridge는 그 wording source를 구조 브리지 층에서만 참조한다.
+9. subline 확장까지 내려간 경우에도
+   exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+   `3-1. Policy Guard`에 남고, bridge는 그 wording source를 구조 브리지 층에서만 참조한다.
+10. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+    닫힌 subline 교차감사 샘플로 유지하고,
+    bridge는 그 closure 상태를 named notable routing 근거와 분리해 읽는다.
 
 ## Card Layer Separation
 
