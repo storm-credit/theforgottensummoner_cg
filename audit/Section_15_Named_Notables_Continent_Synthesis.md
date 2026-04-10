@@ -257,3 +257,9 @@ Conductor decision:
   `Section_15_Profile_*` 카드의 `3-1. Policy Guard` exact wording을 대체하지 않는다.
 - named notable card의 `Policy Guard / Separation Guard`와 operational profile의 `3-1. Policy Guard`는
   parallel but non-substitutable layer로 유지한다.
+- subline 확장까지 내려간 경우에도
+  exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 synthesis는 그 wording source를 대체하지 않는다.
+- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+  닫힌 subline 교차감사 샘플로 유지하고,
+  이 synthesis는 그 closure 상태를 대륙 합성층에서만 참조한다.

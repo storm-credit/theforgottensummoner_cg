@@ -123,3 +123,10 @@
   operational profile guard wording authority는 오직 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
 - 자유도시/오벨리스크 경계 문장을 named-notable 카드에서 언급할 때도,
   그것은 named-notable routing safeguard일 뿐 operational profile guard text를 대신하지 않는다.
+- subline 확장까지 내려간 경우에도
+  operational exact wording authority는 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고,
+  named notable template는 그 wording source를 대체하거나 흡수하지 않는다.
+- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+  닫힌 subline 교차감사 샘플로 유지하고,
+  named notable template는 그 closure 상태를 템플릿 참고 규칙으로만 읽는다.
