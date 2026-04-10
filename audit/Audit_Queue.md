@@ -7,6 +7,7 @@
 3. 대륙별 `가문 / 부족 / 길드` 충분성 점검 기준 고정
 4. `1~5 대륙 Section 8 spine sample` 1차 사이클 완료
 5. `1~5 대륙 결손층 5개` 정책 lock 완료
+6. `1~5 대륙 결손층 5개` evidence intake register 완료
 
 ## Focus Snapshot
 
@@ -27,6 +28,10 @@
 13. 새 drift가 생길 때만 해당 subline pair를 국소 재대조한다
 14. `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`가
    exact wording source로 유지되고, 상위 summary / bridge / watch 문서가 이를 재정의하지 않는지 확인
+15. `결손층 5개`는 `policy lock + evidence intake register` 기준으로만 보강하고,
+   새 설정 발명이나 강한 층 승격으로 바로 넘기지 않는다
+16. 설정집 본선으로 돌아갈 때도 `결손층 보강`은
+   `admissible evidence class / reject class / safe record` 순서로만 다룬다
 
 ## Ordered Watch Snapshot
 

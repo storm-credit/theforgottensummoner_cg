@@ -94,6 +94,10 @@
 - 해양의 토착 공동체는 `support range`
 - 오벨리스크의 가문층은 `nontraditional elite thin-support`
 
+이 얇은 층 5개가 실제로 어떤 신호를 받을 수 있는지는
+`audit/Five_Continent_Missing_Layer_Evidence_Register.md`를
+증거 intake 기준으로 함께 본다.
+
 ## Conductor Decision
 
 다음부터는 `새로운 강점 발굴`보다
@@ -108,3 +112,6 @@
 5. 오벨리스크 nontraditional elite 정책 반영 여부 재검산
 
 이 문서를 이후 `8번 세력`, `14번 영웅`, `15번 중간 등장인물`, 지도 축의 기준판으로 사용한다.
+
+단, 결손층 보강은 이 종합 시트에서 바로 승격하지 않고,
+먼저 `policy lock + evidence register` 범위 안에서만 받아 적는다.

@@ -7,6 +7,10 @@
 `audit/Five_Continent_Missing_Layer_Policy_Lock.md`의
 `Oceanic Indigenous Community Policy`를 우선 따른다.
 
+증거 intake 기준은
+`audit/Five_Continent_Missing_Layer_Evidence_Register.md`의
+`Oceanic Indigenous Intake`를 우선 따른다.
+
 ## Main Conclusion
 
 현재 근거로는 `해양의 토착 공동체층`이 아직 약하다.
@@ -58,3 +62,7 @@
 
 현재까지는 `없다`고 확정하지 않고,
 `support range까지는 열어두되 아직 작업본에 충분한 반복 증거가 없다`로 남겨두는 편이 가장 안전하다.
+
+즉 이후 해양 토착 공동체 보강은
+새 해양 씨족을 발명하는 방식이 아니라,
+이 intake 기준에 맞는 반복 증거를 더 찾는 방식으로만 진행한다.

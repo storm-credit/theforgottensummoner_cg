@@ -141,6 +141,7 @@
 
 1. `Continents_Framework.md`와 같이 본다.
 2. `audit/Five_Continent_Missing_Layer_Policy_Lock.md`와 같이 본다.
-3. 각 대륙의 결손층은 `빈칸`이 아니라 `허용된 thin/support 범위`로 먼저 읽는다.
-4. 부족한 층은 새 설정 발명보다 먼저 `정책 범위 안의 증거 부족`으로 기록한다.
-5. 이후 `8. 세력 아카이브`와 `14/15`는 이 정책 범위를 넘지 않는 선에서만 보강한다.
+3. `audit/Five_Continent_Missing_Layer_Evidence_Register.md`와 같이 본다.
+4. 각 대륙의 결손층은 `빈칸`이 아니라 `허용된 thin/support 범위`로 먼저 읽는다.
+5. 부족한 층은 새 설정 발명보다 먼저 `정책 범위 안의 증거 부족`으로 기록한다.
+6. 이후 `8. 세력 아카이브`와 `14/15`는 이 정책 범위와 evidence intake 기준을 넘지 않는 선에서만 보강한다.

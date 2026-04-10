@@ -70,6 +70,7 @@ reference 순서표로 보여주는 진행표다.
 3. Ether hold continuation 3종
 4. `Section 8 -> 15` carryover wording sync가 끝난 closure 항목
 5. `1~5 대륙 결손층 5개` 정책 lock
+6. `1~5 대륙 결손층 5개` evidence intake register
 6. 대표 `subline draft / subline profile` 교차감사 결과
 
 ## Conditional Backlog

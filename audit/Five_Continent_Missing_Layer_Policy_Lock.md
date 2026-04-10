@@ -10,6 +10,8 @@
   각 대륙의 얇은 층을 어디까지 인정할지 고정한다.
 - 이후 `인물`, `세력`, `place-pressure`, `14/15 boundary`가
   이 얇은 층을 과독해하지 못하게 한다.
+- 실제 admissible evidence class와 reject class는
+  `audit/Five_Continent_Missing_Layer_Evidence_Register.md`에서 함께 잠근다.
 
 ## Input
 
@@ -178,4 +180,4 @@
 
 즉 다음 보강은
 이 다섯 층을 새 설정 발명으로 키우는 일이 아니라,
-이미 잠근 정책 범위 안에서 증거를 더 모으는 일로 읽는다.
+이미 잠근 정책 범위와 evidence intake 기준 안에서 증거를 더 모으는 일로 읽는다.

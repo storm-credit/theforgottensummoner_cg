@@ -100,6 +100,10 @@ watch cycle이 안정된 뒤 조건부로 검토할 reference backlog다.
 `audit/Five_Continent_Missing_Layer_Policy_Lock.md`에서
 정책 잠금까지 마친 상태로 읽는다.
 
+실제 증거 intake 기준은
+`audit/Five_Continent_Missing_Layer_Evidence_Register.md`에서
+함께 잠근 상태로 읽는다.
+
 이 문서는 그 이력을 다시 순차 실행하는 문서가 아니라,
 그 결과가 본선 reference와 충돌하지 않게 유지하는 문서로 읽는다.
 

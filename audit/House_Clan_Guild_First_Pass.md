@@ -6,6 +6,7 @@
 - 현재 판단은 `working/imports`에 이미 가져온 작업본과 `reference/manifests`만 기준으로 한다.
 - 강한 확정 대신 `지금 증거로 말할 수 있는 범위`만 적는다.
 - 결손층 정책 잠금은 `audit/Five_Continent_Missing_Layer_Policy_Lock.md`를 우선 따른다.
+- 결손층 증거 intake는 `audit/Five_Continent_Missing_Layer_Evidence_Register.md`를 우선 따른다.
 
 ## Main Conclusion
 
@@ -131,3 +132,6 @@
 
 즉 결손층은 `확장 과제`가 아니라
 이미 잠근 정책 범위 안에서 증거를 더 모으는 후속 과제로 본다.
+
+이때 admissible evidence class와 reject class는
+`audit/Five_Continent_Missing_Layer_Evidence_Register.md`를 기준으로 읽는다.
