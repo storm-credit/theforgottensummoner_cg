@@ -59,6 +59,10 @@ Operational Lines guard:
 
 - 자유도시 shadow-market cluster는 `urban_market / shadow_port / debt-enforcement` 축으로만 읽고, 해양 `토착 공동체층` 근거와 섞지 않는다.
 - `철의 금융 연맹`, `그림자 첩보망`, `침묵의 상회`, `거울방` 계열은 `nontraditional elite thin-support` 또는 `dark institution` 범위에서만 읽는다.
+- 이 operational guard 문장은 lower-card authority를 따르며,
+  named notable 승인 논리로 역수입하지 않는다.
+- 이 인덱스는 cluster type을 분류만 하고,
+  정확한 operational guard 문구 권한은 각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
 
 ## 15-C. Need Named Candidate Slots
 
@@ -127,3 +131,7 @@ Operational Lines guard:
 stable triad package 재가동이 아니라,
 이 인덱스 초안과 상태 나침반이 closure sync / carryover watch 기준으로
 같은 문구를 유지하는 것이다.
+
+named notable index는 상위 요약층으로만 읽고,
+operational profile의 `3-1. Policy Guard`는 하위 카드층에 그대로 남겨 둔다.
+따라서 named notable summary는 operational profile guard 문장을 다시 써서 대체하지 않는다.

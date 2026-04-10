@@ -39,6 +39,10 @@
 - `해양` 프로필 앵커는 자유도시 shadow-market과 도시-항만 오염축을 정리하는 용도지, `토착 공동체층` 본체 맵이 아니다.
 - `오벨리스크` 앵커는 `nontraditional elite thin-support`와 `dark institution` 기능축을 정리하는 용도지, 전통 왕국/귀족국가 복원 맵이 아니다.
 - `실비아`는 `범대륙 후기 확장 / deferred_expansion_hold` 내부에서만 유지한다.
+- 해양/오벨리스크 operational profile 문구는
+  named notable 승인 근거가 아니라 lower-card authority를 가진 profile-side carryover reference다.
+- 이 앵커 가드는 named notable anchor safeguard일 뿐이고,
+  operational cluster guard text 권한은 `Section_15_Profile_Template.md`의 `3-1. Policy Guard`에 남는다.
 
 ## Section 8 Bridge Update
 
@@ -53,6 +57,9 @@
 | `해양` | state_house/guild_market spine이 본체. 포트 아우렐리온/크로스윈드 포트/오라클 바지 같은 도시 기능형 슬롯을 보존한다. |
 | `오벨리스크` | frontier_survival/guild_market spine이 본체. 기록/기억/봉인/망각 장소-기관 슬롯을 먼저 보존한다. |
 | `범대륙 / 후기 확장` | 후순위 reference. 키르케 외 확장 세력은 표면명/위상 안정화 뒤 다시 본다. |
+
+자유도시/오벨리스크 기관 슬롯 언급은 routing context일 뿐,
+operational profile guard 규칙 자체를 다시 정의하는 문장은 아니다.
 
 ## Recovery Guard Snapshot
 
@@ -73,3 +80,6 @@ Named Notables는 `대륙 -> 세력 / 도시 / 조직` 앵커로 보관한다.
 
 직업명은 찾기 쉬운 보조 태그로만 쓰고,
 정본 폴더링 기준으로 쓰지 않는다.
+
+이 앵커맵도 operational profile의 `3-1. Policy Guard`를 재정의하지 않고,
+상위 reference층으로만 유지한다.

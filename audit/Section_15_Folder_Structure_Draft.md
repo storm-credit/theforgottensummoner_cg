@@ -165,6 +165,11 @@
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
 - 즉 폴더 구조 초안은 named notable route와 operational profile route를 같이 보여주더라도,
   하위 profile의 policy carryover 형식을 별도로 유지하는 구조다.
+- 자유도시/오벨리스크 operational profile 문구는
+  named notable 승격 근거로 역수입하지 않고,
+  profile-side carryover reference로만 유지한다.
+- 폴더 구조 문서는 이 profile carryover 범주를 참조할 수는 있어도,
+  개별 operational profile의 정확한 guard 문장을 대신 정의하지 않는다.
 
 ```text
 Need Named Candidate Slots
@@ -196,6 +201,8 @@ actual draft 단계에서는
 - `해양` Operational Lines route는 도시-항만 그림자경제를 정리하는 용도지, `토착 공동체층` 본체 폴더가 아니다.
 - `오벨리스크` route는 `nontraditional elite thin-support` 또는 `dark institution` 기능축을 정리하는 용도지, 전통 왕국/귀족국가 복원 route가 아니다.
 - `범대륙 후기 확장` route는 5대륙 본선과 분리된 hold route이며, `실비아`도 그 범위에서만 유지한다.
+- 따라서 이 구간의 문장은 route-level reminder일 뿐,
+  개별 operational profile을 대체하는 policy text로 쓰지 않는다.
 
 ## Conductor Decision
 
@@ -205,3 +212,6 @@ actual draft 단계에서는
 현재 메인 본선은 실제 폴더 생성이나 triad package 재개방이 아니라,
 이 초안을 `bridge / routing / revision gate / package freeze` 문서들과 맞춰
 closure sync / carryover watch 기준으로 유지하는 것이다.
+
+이 초안은 lower-card authority를 재정의하지 않으며,
+operational profile의 `3-1. Policy Guard`는 하위 카드층에서 그대로 우선한다.

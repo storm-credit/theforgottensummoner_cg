@@ -59,6 +59,10 @@
 - `해양` 자유도시 profile route는 `urban_market / shadow_port / debt-enforcement` 축까지만 보존하고, `토착 공동체층` route와 섞지 않는다.
 - `오벨리스크` 제도 route는 `nontraditional elite thin-support` 또는 `dark institution` 축까지만 보존하고, 전통 귀족국가형 route로 해석하지 않는다.
 - `실비아`는 `범대륙 후기 확장 / 키르케 영약회` hold route로만 보존한다.
+- operational profile route 문장은 lower-card authority를 따르며,
+  named notable 승격 논리로 직접 역수입하지 않는다.
+- 이 routing plan은 허용된 route family만 적고,
+  operational cluster의 정확한 guard 문장은 하위 profile 카드의 `3-1. Policy Guard`에서 상속한다.
 
 ## Revision Gate
 
@@ -69,6 +73,7 @@
 3. 대륙 spine과 맞는지.
 4. 세력/도시/조직 앵커가 명확한지.
 5. `Hard Canon`이 아니라면 `draft_route` 또는 `verify_before_15`로 유지.
+6. named-notable route 결정이 operational profile guard 문장을 덮어쓰지 않는지.
 
 ## Conductor Decision
 
@@ -76,3 +81,6 @@
 
 현재 이 문서의 역할은 stable triad actual draft `package freeze`를 다시 여는 것이 아니라,
 freeze 밖 hold queue와 `Section 8 -> 15 carryover watch`를 유지하는 것이다.
+
+즉 routing plan은 상위 경로 설계층으로만 읽고,
+하위 operational profile의 `3-1. Policy Guard`를 재정의하지 않는다.
