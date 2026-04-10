@@ -41,6 +41,10 @@ naming active 판단은
   해당 축을 `state_house strong`, `토착 공동체층`, `정상 국가기관`으로 재해석하지 않는다.
 - 해석선은 각 profile/template의 `Policy Guard`와
   `Section_15_Operational_Lines_Track.md`의 carryover 규칙을 따른다.
+- 즉 display 후보표는 naming layer만 다루고,
+  operational profile의 정확한 guard 문장 권한은 하위 `3-1. Policy Guard`에 남긴다.
+- display naming 문서는 guard family를 참조할 수는 있어도,
+  그 family의 exact guard wording을 재정의하지 않는다.
 
 ## Profile Format Carryover
 
@@ -48,6 +52,9 @@ naming active 판단은
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한다.
 - 즉 이름을 바꿔도 profile card의 해석선은 바뀌지 않고,
   표면명은 card 아래의 policy guard를 덮어쓰지 않는다.
+- 상위 display canon 표는 lower-card authority를 재정의하지 않고,
+  profile-side carryover를 표면명 층에서만 참조한다.
+- 다시 말해 renaming은 exact policy text를 바꾸거나 대체할 수 없다.
 
 ## Preferred Candidate Reference Pass
 

@@ -55,6 +55,10 @@ reference용 `작업 구조 라벨`이다.
   전통 귀족국가형 `state_house strong` 근거로 읽지 않는다.
 - `Trade Broker Ring`은 범대륙/도시 상업 제도축으로 읽고,
   특정 대륙 본체의 혈통/토착/왕국 상층으로 오독하지 않는다.
+- 이 track은 cluster-level carryover family만 요약하고,
+  exact guard wording authority는 각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`가 가진다.
+- 따라서 `Iron Finance Field`, `Shadow Field Network` 같은 상위 라벨도
+  하위 카드의 guard text를 대체하지 않는다.
 
 ## Profile Format Snapshot
 
@@ -62,6 +66,8 @@ reference용 `작업 구조 라벨`이다.
   모두 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한다.
 - 따라서 operational track은 라인 축만 요약하고,
   개별 profile의 해석 세부는 하위 카드의 `3-1. Policy Guard`가 직접 담당한다.
+- 이 track은 operational cluster type을 분류하는 상위 reference층이지,
+  개별 profile의 정확한 guard 문장을 다시 써서 대체하는 문서가 아니다.
 
 ## Conductor Note
 
@@ -69,3 +75,6 @@ reference용 `작업 구조 라벨`이다.
 
 사용자가 말한 `유명 NPC층`과 분리해서,
 보조 축으로 계속 읽는다.
+
+따라서 named notable summary나 group index가 이 track을 참조하더라도,
+operational profile의 `3-1. Policy Guard` 권한선을 덮어쓰지 않는다.

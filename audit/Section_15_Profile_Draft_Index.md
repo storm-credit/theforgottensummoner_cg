@@ -69,6 +69,12 @@
 - 개별 profile은 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
 - 즉 profile draft index는 이름 목록만 모으는 문서가 아니라,
   하위 profile들이 같은 policy carryover 형식을 유지하는지 보는 입구다.
+- 이 index는 draft family를 묶는 상위 reference층이지,
+  개별 profile의 exact guard wording을 다시 정의하는 문서가 아니다.
+- 따라서 named notable/route/index 문서가 이 색인을 참조하더라도,
+  lower-card authority는 각 profile 카드의 `3-1. Policy Guard`에 남긴다.
+- 이 index는 lower card가 valid `3-1. Policy Guard`를 달고 있는지 추적할 뿐,
+  exact guard wording의 source가 되지는 않는다.
 
 ## Subline Draft Snapshot
 
@@ -94,6 +100,10 @@
   `Gravewell` 계열은 `dark institution / occult communications`,
   `Iron Finance` 계열은 `nontraditional elite thin-support / coercive finance`
   범위에서만 세분화한다.
+- 이 subline intake도 parent profile의 guard를 상속만 할 뿐,
+  상위 draft index가 새로운 policy text를 덮어쓰지는 않는다.
+- 각 subline profile은 parent summary 아래에 있더라도
+  자기 카드의 `3-1. Policy Guard`를 authoritative text로 유지한다.
 
 ## Conductor Rule
 
