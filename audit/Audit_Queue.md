@@ -36,6 +36,8 @@
    1차 샘플 기준으로 유지하고, 같은 방향의 반복 증거만 추가한다
 18. `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md`를
    반복 증거 안정화 기준으로 유지하고, 승격이 아니라 overread 차단 쪽으로만 확장한다
+19. `Five_Continent_Missing_Layer_Overread_Firewall.md`를
+   대륙별 reject class firewall로 유지하고, 새 evidence도 이 차단선 안에서만 받는다
 
 ## Ordered Watch Snapshot
 
