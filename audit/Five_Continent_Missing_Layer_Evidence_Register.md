@@ -7,7 +7,8 @@
 목적:
 
 - `얇은 층 5개`를 새 설정 발명으로 키우지 않는다.
-- 어떤 신호를 `thin/support` 증거로 받을 수 있는지 미리 잠근다.
+- `Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
+  어떤 신호를 `thin/support` 증거로 받을 수 있는지 미리 잠근다.
 - `Section 8`, `14/15`, place-pressure, profile layer가
   이 얇은 층을 과독해하지 못하게 한다.
 
@@ -138,6 +139,7 @@
 ## Conductor Decision
 
 `얇은 층 5개`는 이제
+`Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
 `정책 문장`과 `증거 intake 기준`이 둘 다 잠긴 상태다.
 
 즉 다음 보강은

@@ -5,7 +5,8 @@
 `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`,
 `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md`
 까지 확보한 샘플을 바탕으로,
-어디서 overread가 발생하는지를 대륙별 firewall 형태로 잠근 문서다.
+`Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
+어디서 overread가 발생하는지를 대륙별 firewall component로 잠근 문서다.
 
 목적:
 
@@ -161,7 +162,7 @@
 `first pass sample`,
 `second pass repetition`,
 `overread firewall`
-까지 한 세트로 잠겼다.
+까지 한 세트로 잠겼다는 component read를 유지한다.
 
 다음 보강은
 새 층을 만드는 작업이 아니라,

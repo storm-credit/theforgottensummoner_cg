@@ -10,7 +10,8 @@
 - `thin/support` 판정을 승격하지 않는다.
 - `1차 샘플`에서 잡은 읽기 방향이 다른 문서 family에서도 반복되는지만 본다.
 - 반복 신호가 있어도 `enough` 승격이 아니라
-  `safe read가 안정적`이라는 결론까지만 잠근다.
+  `Five_Continent_Missing_Layer_Master_Lock.md` 아래의
+  `safe read가 안정적`이라는 component 결론까지만 잠근다.
 
 ## Input
 
@@ -149,7 +150,7 @@
 
 `Second Pass A` 기준으로도
 `Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
-다섯 대륙 모두 `thin/support` 판정이 맞고,
+다섯 대륙 모두 `thin/support` 판정이 맞다는 component read를 유지하고,
 반복 증거는 `승격 근거`가 아니라 `안정화 근거`로만 읽는다.
 
 즉 다음 패스는

@@ -11,7 +11,8 @@
 - 이후 `인물`, `세력`, `place-pressure`, `14/15 boundary`가
   이 얇은 층을 과독해하지 못하게 한다.
 - 실제 admissible evidence class와 reject class는
-  `audit/Five_Continent_Missing_Layer_Evidence_Register.md`에서 함께 잠근다.
+  `Five_Continent_Missing_Layer_Master_Lock.md` 아래
+  `audit/Five_Continent_Missing_Layer_Evidence_Register.md` component에서 함께 잠근다.
 
 ## Input
 
