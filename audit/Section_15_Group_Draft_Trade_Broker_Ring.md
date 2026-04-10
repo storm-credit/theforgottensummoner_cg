@@ -76,6 +76,13 @@
 - 따라서 상위 draft가 downstream profile guard text를 다시 쓰지 않는다.
 - exact operational guard wording authority는 각 연결 profile 카드의 `3-1. Policy Guard`에 남고,
   이 group draft는 그 wording source를 trade-broker family 층에서만 요약한다.
+- subline 확장까지 내려간 경우에도
+  exact operational guard wording authority는 각 downstream `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고,
+  이 group draft는 그 wording source를 trade-broker family 층에서만 요약한다.
+- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair 같은
+  닫힌 subline 교차감사 샘플은 operational sample reference로만 읽고,
+  이 group draft의 승인/승격 논리로 직접 역수입하지 않는다.
 
 ## Relation Hooks
 
