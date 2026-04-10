@@ -260,6 +260,9 @@ reference상 자연스럽게 늘어날 후보 묶음:
   해석선은 각 profile/template의 `Policy Guard`와 함께 읽는다.
 - exact operational guard wording authority도 상위 group index가 아니라
   각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
+- subline 확장까지 내려간 경우에도
+  exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 group index는 그 wording source를 reference로만 읽는다.
 
 이 순서를 기준으로 읽으면
 `15번`이 다시 뒤엉키지 않게 관리할 수 있다.

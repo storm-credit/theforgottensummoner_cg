@@ -58,7 +58,7 @@ naming active 판단은
 - 즉 이름을 바꿔도 profile card의 해석선은 바뀌지 않고,
   표면명은 card 아래의 policy guard를 덮어쓰지 않는다.
 - 상위 display canon 표는 lower-card authority를 재정의하지 않고,
-  profile-side carryover를 표면명 층에서만 참조한다.
+  lower-card carryover를 표면명 층에서만 참조한다.
 - 다시 말해 renaming은 exact policy text를 바꾸거나 대체할 수 없다.
 - 따라서 display canon 문서는 exact guard wording source가 아니라
   lower-card authority를 비가공 reference로 읽는 상위 naming layer다.
