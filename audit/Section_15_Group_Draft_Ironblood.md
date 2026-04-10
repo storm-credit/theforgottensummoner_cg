@@ -82,6 +82,11 @@
   전통 귀족국가형 `state_house strong` 복원 근거가 아니다.
 - 즉 `철혈 보증단`은 자유도시 금융-폭력 결합의 증거로만 읽고,
   정통 국가 사법 체계나 왕국형 행정 질서로 승격하지 않는다.
+- 이 group draft는 family-level carryover만 정리하고,
+  exact guard wording authority는 연결되는 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
+- exact operational guard wording authority는 각 연결 profile 카드의 `3-1. Policy Guard`에 남고,
+  이 group draft는 그 wording source를 ironblood family 층에서만 요약한다.
 
 ## Relation Hooks
 
@@ -104,3 +109,6 @@
 
 철혈 보증단 묶음은
 `도시 경제가 왜 공포로 유지되는가`를 설명하는 데 핵심이다.
+
+다만 named notable 승인 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.

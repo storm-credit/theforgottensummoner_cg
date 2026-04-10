@@ -43,6 +43,8 @@
 - 이 subline draft는 family-level carryover만 요약하고,
   exact guard wording authority는 downstream subline/profile 카드의 `3-1. Policy Guard`에 남긴다.
 - 따라서 상위 draft가 downstream profile guard text를 대체하지 않는다.
+- exact operational guard wording authority는 각 downstream subline/profile 카드의
+  `3-1. Policy Guard`에 남고, 이 draft는 그 wording source를 gravewell subline 층에서만 요약한다.
 
 ## Conductor Note
 
