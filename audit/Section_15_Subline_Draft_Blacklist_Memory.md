@@ -40,6 +40,11 @@
 - 이 blacklist memory subline은 자유도시 `urban_market` 내부의 `contract order / guild discipline` 세분화로만 읽는다.
 - 복권 심사와 수배 명부 전달은 용병 사회의 기록 질서이지,
   전통 국가 사법기관이나 귀족국가 행정망 복원 근거가 아니다.
+- 이 subline draft는 family-level carryover만 요약하고,
+  exact guard wording authority는 downstream subline/profile 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
+- exact operational guard wording authority는 각 downstream subline/profile 카드의
+  `3-1. Policy Guard`에 남고, 이 draft는 그 wording source를 blacklist-memory subline 층에서만 요약한다.
 
 ## Conductor Note
 

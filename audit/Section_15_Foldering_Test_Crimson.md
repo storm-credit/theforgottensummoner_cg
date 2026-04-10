@@ -93,6 +93,8 @@
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
 - 즉 route 검증과 profile 해석 형식은 분리하고,
   폴더링 시험표가 하위 profile의 guard 형식을 덮어쓰지 않는다.
+- exact operational guard wording authority는 실제 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 foldering test는 그 wording source를 route 검증층에서만 참조한다.
 
 ## Display Name Notes
 
