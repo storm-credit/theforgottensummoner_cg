@@ -57,6 +57,9 @@ reference용 `작업 구조 라벨`이다.
   특정 대륙 본체의 혈통/토착/왕국 상층으로 오독하지 않는다.
 - 이 track은 cluster-level carryover family만 요약하고,
   exact guard wording authority는 각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`가 가진다.
+- subline 확장된 경우
+  exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남는다.
 - 따라서 `Iron Finance Field`, `Shadow Field Network` 같은 상위 라벨도
   하위 카드의 guard text를 대체하지 않는다.
 
@@ -87,5 +90,5 @@ reference용 `작업 구조 라벨`이다.
 
 따라서 named notable summary나 group index가 이 track을 참조하더라도,
 operational profile의 `3-1. Policy Guard` 권한선을 덮어쓰지 않는다.
-exact operational guard wording authority도 상위 track이 아니라
-각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
+subline 확장된 경우의 exact operational guard wording authority도 상위 track이 아니라
+각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
