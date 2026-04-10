@@ -41,9 +41,9 @@
 - 장물 감정, 비밀 입찰, 고객 등급 분리는 그림자 경매 질서의 기능 구획이지,
   해양 `토착 공동체층` 본체 근거가 아니다.
 - 이 subline draft는 family-level carryover만 요약하고,
-  exact guard wording authority는 downstream subline/profile 카드의 `3-1. Policy Guard`에 남긴다.
+  exact guard wording authority는 각 downstream `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
 - 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
-- exact operational guard wording authority는 각 downstream subline/profile 카드의
+- exact operational guard wording authority는 각 downstream `Section_15_Subline_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, 이 draft는 그 wording source를 black-auction subline 층에서만 요약한다.
 
 ## Conductor Note
