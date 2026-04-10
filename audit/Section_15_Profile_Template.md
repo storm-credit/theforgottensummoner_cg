@@ -41,6 +41,8 @@
 
 - 이 카드가 보강하는 운영층/기관층이 무엇인지 쓴다.
 - 동시에 무엇으로 과독해하면 안 되는지도 쓴다.
+- 상위 summary/index/folder 문서는 guard family를 참조할 수는 있어도,
+  exact operational guard wording은 각 profile card가 여기서 직접 작성하고 유지한다.
 
 예시:
 
@@ -83,6 +85,11 @@
 - 한 인물 시트가 길어지더라도
   `세계 기능`과 `공간 연결`은 반드시 남긴다.
 - canonical 상태어와 `Policy Guard` 문장은 서로 다른 층이므로 둘을 함께 유지한다.
+- 이 템플릿의 `3-1. Policy Guard`는 operational profile 카드의 exact guard wording authority다.
+- 상위 track/index/display/intake 문서는 이 가드 family를 참조할 수는 있어도,
+  여기 적힌 guard 문장을 대체하거나 축약 권한을 가지지 않는다.
+- 위 예시는 family-level guidance일 뿐이고,
+  실제 카드에서는 카드별 맥락에 맞는 exact prose를 다시 써야 한다.
 
 ## Recommended Use
 

@@ -47,6 +47,8 @@
 
 - 이 카드가 보강하는 층이 무엇인지 쓴다.
 - 동시에 무엇으로 과독해하면 안 되는지도 쓴다.
+- 이 구간은 named-notable guard logic이며,
+  operational profile 카드의 `3-1. Policy Guard`와는 parallel but non-substitutable layer다.
 
 예시:
 
@@ -112,3 +114,10 @@
 - `support_hold`, `deferred_expansion_hold`는 stable triad package와 섞지 않는다.
 - `Policy Guard` 문장은 canonical 상태어를 대체하지 않는다.
 - canonical 상태어와 policy carryover 문장을 같이 유지해야 한다.
+- 이 템플릿의 `Policy Guard`는 named notable 카드용 해석 가드다.
+- operational profile 카드의 `3-1. Policy Guard`와 guard family가 비슷해 보여도,
+  exact wording authority는 각 카드층에 따로 남기고 서로 대체하지 않는다.
+- 상위 문서가 named-notable guard family를 참조할 수는 있어도,
+  operational profile guard wording authority는 오직 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+- 자유도시/오벨리스크 경계 문장을 named-notable 카드에서 언급할 때도,
+  그것은 named-notable routing safeguard일 뿐 operational profile guard text를 대신하지 않는다.

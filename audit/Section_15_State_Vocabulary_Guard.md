@@ -93,6 +93,15 @@
 5. operational profile card는
    `Section_15_Profile_Template.md`의 `3-1. Policy Guard` heading 형식을 유지하고,
    named notable card의 `Policy Guard / Separation Guard`와 형식층을 섞지 않는다.
+6. template, track, index, display, intake 문서는
+   guard family를 요약할 수는 있어도 exact guard wording authority를 가져가지 않는다.
+7. exact guard wording authority는
+   `Section_15_Profile_*` operational card의 `3-1. Policy Guard`와
+   `Section_15_Named_Notable_*` 카드의 `Policy Guard / Separation Guard`에 남긴다.
+8. 상위 template/index/folder 문서는 operational guard text를
+   canonical summary 문장으로 압축해 lower card를 덮어쓰지 않는다.
+9. named-notable template guard text와 operational profile `3-1. Policy Guard`는
+   parallel but non-substitutable layer로 유지한다.
 
 ## Legacy Mapping
 
