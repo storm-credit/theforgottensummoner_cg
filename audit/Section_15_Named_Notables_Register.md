@@ -9,12 +9,12 @@
 
 ## Fields
 
-| Name | Title / Read | Source | Bucket | State Label | Recorded Judgment | Recommended Action | Note |
+| Name | Title / Read | Source | Bucket | State Label | Recorded Judgment | Reference Action | Note |
 |---|---|---|---|---|---|---|---|
 
 ## Register Snapshot
 
-| Name | Title / Read | Source | Bucket | State Label | Recorded Judgment | Recommended Action | Note |
+| Name | Title / Read | Source | Bucket | State Label | Recorded Judgment | Reference Action | Note |
 |---|---|---|---|---|---|---|---|
 | `멜리산드르` | `플라스크의 여제 / 수석 대약제사` | `키르케 영약회` | `연금술사 / 약제사` | `verify_before_15` | `14 crossover risk` | `hold_for_dual_review` | 세력 최고위이자 S+급이라 명사형이지만 14와 겹칠 가능성이 높다. |
 | `실비아` | `고통의 기록자 / 시약 계량관` | `키르케 영약회` | `기록자 / 약제사` | `deferred_expansion_hold / name_collision_watch` | `deferred_expansion_hold` | `keep_in_hold_queue_under_watch` | 영웅성보다 기록과 계량 기능, 조직 기억 축이 강하지만 범대륙 후기 확장축이라 triad package와 분리해 유지한다. |
@@ -83,6 +83,8 @@
 - `Section_15_Profile_*` operational card는 별도 템플릿에 따라 `3-1. Policy Guard`를 유지한다.
 - 즉 named notable 카드와 operational profile 카드는 같은 guard 원칙 아래 움직이되,
   형식층은 분리해서 유지한다.
+- 상위 register/coverage/bridge는 lower-card authority를 요약만 하며,
+  하위 profile의 `3-1. Policy Guard`를 재정의하지 않는다.
 
 ## Conductor Note
 

@@ -13,7 +13,7 @@ actual draft package freeze 단계의
 
 ## Gate Checklist
 
-| Gate | Question | Current Result |
+| Gate | Question | Recorded Result |
 |---|---|---|
 | `G1. Archive Split` | 14 중심 영웅과 15 명사형 인물이 분리되어 있는가? | `pass_with_holds` |
 | `G2. Folder Basis` | 직업별이 아니라 대륙 -> 세력/도시/조직 기준인가? | `pass` |
@@ -48,6 +48,8 @@ actual draft package freeze 단계의
 - operational profile card는 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지해야 한다.
 - 폴더/route/revision gate 문서는 이 하위 profile 형식을 덮어쓰지 않고,
   같은 carryover rule이 유지되는지만 검사한다.
+- named notable summary와 profile summary가 함께 보일 때도,
+  lower-card authority는 operational profile의 `3-1. Policy Guard`에 남겨 둔다.
 
 ## Gate Decision
 

@@ -11,6 +11,8 @@
 - `audit/Section_8_Status_Vocabulary_Guard.md`
 - `audit/Section_8_to_15_Notable_Anchor_Bridge.md`
 - `audit/Section_15_Stable_Candidate_8_Anchor_Index.md`
+- `audit/Section_15_Profile_Draft_Index.md`
+- `audit/Section_15_Operational_Lines_Track.md`
 - `audit/Section_8_15_Closure_Sync_Carryover_Watch.md`
 - `audit/Five_Continent_Missing_Layer_Policy_Lock.md`
 
@@ -26,6 +28,8 @@
 - 해양은 도시/항만/함대/교단/상단 앵커가 먼저다.
 - 오벨리스크는 인물보다 기록/기억/봉인/망각 장소-기관 앵커가 먼저다.
 - 결손층 5개는 policy lock이 허용한 thin/support 범위를 넘겨 읽지 않는다.
+- named notable 카드와 operational profile 카드는 같은 carryover 원칙 아래 움직이되,
+  하위 profile의 `3-1. Policy Guard`를 상위 summary가 덮어쓰지 않는다.
 
 ## Compatibility Table
 
@@ -37,6 +41,10 @@
 | `해양` | `state_house`, `guild_market`; tribe_clan weak | `해적 연합 = mixed_keep + port_power_as_tribe_clan`; `바다의 교단 = section_style_reclassify + place_pressure_strong / handoff_applied` | `황금 함대`, `거상 연합`, `해적 연합`, `바다의 교단`, 항구 도시 슬롯으로 라우팅되어 맞음. | `medium` | 도시 기능형 슬롯과 제독/히어로급 후보를 분리하고, 토착 공동체층은 `support range`를 넘겨 본체화하지 않는다. |
 | `오벨리스크` | `frontier_survival`, `guild_market`, nontraditional elite | `망자의 왕국 = section_style_reclassify + nontraditional_elite watch`; `잊힌 자들의 연합 = section_style_reclassify + watch_keep / handoff_applied`; `봉인 수호단 = section_style_reclassify + mismatch_clear` | `봉인 수호단`, `잊힌 자들의 연합`, `망자의 왕국`, 기록/기억 장소로 라우팅되어 맞음. | `medium` | 초월 어휘보다 기록/기억/거래 기능으로 낮춰 읽고, 가문/왕국 신호는 `nontraditional elite thin-support`를 넘겨 읽지 않는다. |
 | `범대륙 후기 확장` | deferred expansion | `canonical_root / quarantine_root / legacy_root` 분리와 `root_corruption` 경계 유지 | `키르케 영약회`만 후순위로 보존되어 맞음. | `medium` | 범대륙 전체 확정 금지. 루트 안정화 전 15 확장 금지. |
+
+해양 자유도시/오벨리스크 제도 사례는
+named notable 즉시 승인 근거가 아니라
+operational profile-side carryover reference로만 유지한다.
 
 ## Mismatch Watch
 
@@ -57,6 +65,9 @@
    내용 압력은 `place_pressure_strong` 또는 `watch_keep`로 별도 보존한다.
 4. `root_corruption`이 잠긴 범대륙 축은
    `15`에서 적극 확장하지 않고 deferred 상태로만 연결한다.
+5. 상위 `named notable` summary와 bridge는
+   하위 operational profile 카드의 `3-1. Policy Guard`를 참조하되,
+   카드 해석선을 재정의하지 않는다.
 
 ## Foldering Gate Result
 
@@ -67,12 +78,13 @@
 필요했던 작은 색인은
 `Section_15_Stable_Candidate_8_Anchor_Index.md`로 이미 잠겼다.
 
-## Next Action
+## Reference Watch Snapshot
 
-다음 작업:
+현재 watch 기준:
 
 1. `Section_15_Stable_Candidate_8_Anchor_Index.md`의 `stable triad / support_hold / deferred_expansion_hold` 상태를 bridge와 package freeze에서 계속 같은 상태어로 유지한다.
 2. `P2 place-pressure handoff`는 candidate index가 아니라 sidecar/register에서 계속 관리한다.
 3. 원본 접근이 가능해질 때까지는 새 candidate를 늘리지 않고 `P0 / P2 / carryover sync`만 유지한다.
 4. 현재 carryover mainline은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 `5대륙 closure sync / Section 8 -> 15 carryover watch`로 유지한다.
 5. 현재 메인 본선은 stable triad package 재개방이 아니라 closure sync / carryover watch 유지다.
+6. named notable coverage 표와 bridge 요약은 operational profile 카드가 이미 잠근 `3-1. Policy Guard`를 존중하는 상위 reference층으로만 유지한다.

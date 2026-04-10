@@ -19,6 +19,8 @@
 - `audit/Section_8_Place_Network_Handoff_Map.md`
 - `audit/Section_8_Status_Vocabulary_Guard.md`
 - `audit/Section_15_State_Vocabulary_Guard.md`
+- `audit/Section_15_Profile_Draft_Index.md`
+- `audit/Section_15_Operational_Lines_Track.md`
 
 ## Routing Rule
 
@@ -30,6 +32,8 @@
 4. 14번 영웅 신호 확인.
 5. `named_notable_candidate`, `stable_15_workset`, `verify_before_15`, `need_named_candidate`, `keep_14`, `support_hold`, `deferred_expansion_hold`, `hold_for_dual_review` 중 맞는 상태 라벨을 부여한다.
 6. 폴더링은 `대륙 -> 세력 / 도시 / 조직` 기준으로만 한다.
+7. operational profile 카드가 필요한 경우 하위 카드의 `3-1. Policy Guard`를 유지하고,
+   named notable 요약과 혼합하지 않는다.
 
 즉 `15` 라우팅은
 `Section 8` 구조 라벨을 무시하지 않고,
@@ -74,10 +78,23 @@ sidecar/register handoff를 먼저 존중한다.
    장소 압력이나 기능 압력이 사라졌다는 뜻은 아니다.
 4. `support_hold`와 `deferred_expansion_hold`는 stable triad actual draft package에 섞지 않는다.
 5. 개별 카드의 `Policy Guard`가 `state_house strong`, `토착 공동체층`, `전통 국가기관` 과독해를 막고 있으면 브리지도 그 해석선을 넘겨 읽지 않는다.
+6. 개별 operational profile 카드의 `3-1. Policy Guard`는 하위 권한선이다.
+   bridge는 그것을 요약해서 참조할 뿐, 다른 국가형/공동체형 본체 근거로 다시 승격하지 않는다.
+7. 자유도시 `urban_market / shadow_port / debt-enforcement`와
+   오벨리스크 `dark institution / nontraditional elite thin-support` 문구는
+   operational profile cluster를 통해서만 이어지고,
+   named notable 승인 근거로 직접 수입하지 않는다.
 
-## Conductor Decision
+## Card Layer Separation
 
-15번의 현재 실작업은 새 인물을 더 찾는 것이 아니라,
+- `Section_15_Named_Notable_*` 카드는 `Policy Guard` 또는 `Separation Guard`를 유지한다.
+- `Section_15_Profile_*` operational card는 `3-1. Policy Guard`를 유지한다.
+- bridge는 이 두 카드층을 같은 carryover 원칙 아래 묶되,
+  named notable card와 operational profile card를 같은 증거층으로 합치지 않는다.
+
+## Conductor Decision Snapshot
+
+15번의 recorded carryover focus는 새 인물을 더 찾는 것이 아니라,
 위 브리지와 `Section_15_Folder_Structure_Draft.md`를 기준으로
 이미 잠근 anchor / state wording을 closure sync / carryover watch 기준으로 유지하는 것이다.
 
