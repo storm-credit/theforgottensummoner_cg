@@ -70,6 +70,11 @@
   정규 국가군 지휘 체계나 전통 귀족국가 상층 복원 근거가 아니다.
 - 즉 `자유도시 용병 연맹` 실무층은 시장-계약 사회의 자치 장치로만 읽고,
   왕국형 군제나 혈통 기사단 본체로 과독해하지 않는다.
+- 이 group draft는 family-level carryover만 요약하고,
+  exact guard wording authority는 연결되는 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
+- exact operational guard wording authority는 각 연결 profile 카드의 `3-1. Policy Guard`에 남고,
+  이 group draft는 그 wording source를 mercenary-operations family 층에서만 요약한다.
 
 ## Relation Hooks
 
@@ -94,3 +99,6 @@
 
 이 묶음은
 자유도시의 용병 사회가 `싸움`보다 `계약`으로 굴러간다는 감각을 살리는 데 유용하다.
+
+다만 named notable 승인 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.
