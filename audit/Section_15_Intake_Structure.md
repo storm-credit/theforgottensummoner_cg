@@ -102,6 +102,10 @@
 - subline draft와 group draft도 이 intake rule 아래의 하위 문서로 읽는다.
 - operational profile로 실제 내려간 카드들은
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
+- representative subline pair
+  (`Port Authority / Black Auction / Gravewell / Counterfeit Workshop`)는
+  draft/profile 교차감사가 닫힌 샘플로 유지하고,
+  intake는 새 drift가 생길 때만 해당 pair를 다시 연다.
 - intake는 card를 어느 축으로 받을지 분류하는 입구일 뿐,
   operational profile의 정확한 guard 문장을 대신 작성하는 문서는 아니다.
 - 따라서 intake 문구는 lower-card authority를 참조만 하고,
@@ -112,6 +116,9 @@
   profile-level guard text 권한을 가져가지는 않는다.
 - exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, intake는 그 wording source를 intake classification 층에서만 참조한다.
+- subline 확장으로 실제 내려간 경우에는
+  exact operational guard wording authority가 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, intake는 그 wording source를 intake 층에서만 참조한다.
 
 ## Conductor Note
 

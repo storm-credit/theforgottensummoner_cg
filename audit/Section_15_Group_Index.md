@@ -227,6 +227,9 @@ reference상 아직 바로 `15` 확정으로 내리기보다
 - group index에서 잡혔다고 해서 곧바로 혈통층, 토착층, 전통 국가기관 근거로 승격하지 않는다.
 - group index는 intake family만 배정할 뿐,
   최종 policy prose는 각 profile card에서 유지한다.
+- subline 확장까지 내려간 경우에도
+  group index는 family intake만 배정할 뿐,
+  exact wording source는 각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
 
 ## Expansion Group Snapshot
 

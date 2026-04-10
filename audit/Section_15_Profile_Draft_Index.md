@@ -95,6 +95,12 @@
 - `Section_15_Subline_Profile_Grave_Inscription_Decoder_Line.md`
 - `Section_15_Subline_Profile_Signet_Forger_Line.md`
 
+## Representative Subline Closure Snapshot
+
+- `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+  draft/profile 교차감사가 닫힌 representative sample로 유지한다.
+- 새 wording-source drift가 생길 때만 해당 pair를 국소 재대조한다.
+
 ## Policy Subline Intake Guard
 
 - subline profile도 parent line의 `Policy Guard`를 그대로 물고 내려간다.
@@ -106,6 +112,9 @@
   상위 draft index가 새로운 policy text를 덮어쓰지는 않는다.
 - 각 subline profile은 parent summary 아래에 있더라도
   자기 카드의 `3-1. Policy Guard`를 authoritative text로 유지한다.
+- exact operational guard wording authority도
+  각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남고,
+  이 draft index는 그 wording source를 subline intake/reference 층에서만 추적한다.
 
 ## Conductor Rule
 

@@ -64,12 +64,19 @@ reference용 `작업 구조 라벨`이다.
 
 - 이 track 아래에서 읽는 `Section_15_Profile_*` 문서는
   모두 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한다.
+- representative subline pair
+  (`Port Authority / Black Auction / Gravewell / Counterfeit Workshop`)는
+  draft/profile 교차감사가 닫힌 샘플로 유지되고,
+  exact wording source는 각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
 - 따라서 operational track은 라인 축만 요약하고,
   개별 profile의 해석 세부는 하위 카드의 `3-1. Policy Guard`가 직접 담당한다.
 - 이 track은 operational cluster type을 분류하는 상위 reference층이지,
   개별 profile의 정확한 guard 문장을 다시 써서 대체하는 문서가 아니다.
 - exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, 이 track은 그 wording source를 cluster reference층에서만 읽는다.
+- subline 확장까지 내려간 경우에도
+  exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 track은 그 wording source를 상위 track 층에서만 읽는다.
 
 ## Conductor Note
 
