@@ -86,6 +86,8 @@
 - 자유도시/오벨리스크 operational profile 문구는
   named notable 승인 논리로 역수입하지 않고,
   lower-card authority로만 참조한다.
+- exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, compass는 그 wording source를 요약하거나 대체하지 않는다.
 
 Reference ROI:
 

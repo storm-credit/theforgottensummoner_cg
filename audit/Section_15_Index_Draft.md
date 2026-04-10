@@ -63,6 +63,8 @@ Operational Lines guard:
   named notable 승인 논리로 역수입하지 않는다.
 - 이 인덱스는 cluster type을 분류만 하고,
   정확한 operational guard 문구 권한은 각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+- 다시 말해 exact operational guard wording authority는 하위 profile 카드에 있고,
+  이 인덱스는 그 wording source를 reference로만 읽는다.
 
 ## 15-C. Need Named Candidate Slots
 
@@ -135,3 +137,5 @@ stable triad package 재가동이 아니라,
 named notable index는 상위 요약층으로만 읽고,
 operational profile의 `3-1. Policy Guard`는 하위 카드층에 그대로 남겨 둔다.
 따라서 named notable summary는 operational profile guard 문장을 다시 써서 대체하지 않는다.
+exact operational guard wording authority 역시 상위 index 문서가 아니라
+각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.

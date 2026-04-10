@@ -45,6 +45,8 @@ naming active 판단은
   operational profile의 정확한 guard 문장 권한은 하위 `3-1. Policy Guard`에 남긴다.
 - display naming 문서는 guard family를 참조할 수는 있어도,
   그 family의 exact guard wording을 재정의하지 않는다.
+- exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 표는 naming surface만 다룬다.
 
 ## Profile Format Carryover
 
@@ -55,6 +57,8 @@ naming active 판단은
 - 상위 display canon 표는 lower-card authority를 재정의하지 않고,
   profile-side carryover를 표면명 층에서만 참조한다.
 - 다시 말해 renaming은 exact policy text를 바꾸거나 대체할 수 없다.
+- 따라서 display canon 문서는 exact guard wording source가 아니라
+  lower-card authority를 비가공 reference로 읽는 상위 naming layer다.
 
 ## Preferred Candidate Reference Pass
 

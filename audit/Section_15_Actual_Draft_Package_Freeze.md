@@ -55,6 +55,8 @@
 10. operational profile card는 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
 11. package freeze summary는 lower-card authority를 재정의하지 않고,
     operational profile의 `3-1. Policy Guard`를 참조만 한다.
+12. 즉 exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
+    `3-1. Policy Guard`에 남고, freeze 문서는 그 wording source를 대체하지 않는다.
 
 ## Allowed Adjustments
 
