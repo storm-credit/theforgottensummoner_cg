@@ -35,6 +35,9 @@
 - 즉 subline이 늘어나도 전통 귀족국가형 `state_house strong`이나 정상 국가기관 복원 근거로 재상승시키지 않는다.
 - subline에서 실제 profile로 내려갈 때도
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한다.
+- 이 register는 subline family와 우선순위를 정리하는 상위 입구이고,
+  exact guard wording authority는 각 subline profile card의 `3-1. Policy Guard`에 남긴다.
+- parent/subline summary는 downstream profile guard text를 대체하지 않는다.
 
 ## Conductor Rule
 

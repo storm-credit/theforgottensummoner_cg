@@ -82,6 +82,9 @@
 - 이 묶음은 자유도시 `urban_market / shadow_port / debt-enforcement` 축을 보강하는 그룹이다.
 - 즉 `숨은 거래단`을 해양의 `토착 공동체층` 본체나 혈통 공동체 복원 근거로 읽지 않는다.
 - 익명 거래, 장부, 신원 세탁, 보복 집행은 모두 도시-항만 그림자경제의 작동 증거로만 읽는다.
+- 이 group draft는 family-level carryover만 정리하고,
+  exact guard wording authority는 연결되는 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
 
 ## Relation Hooks
 
@@ -109,3 +112,6 @@
 
 그래서 `15번` 실제 회수 초안도
 이 묶음부터 시작하는 게 자연스럽다.
+
+다만 named notable 승인 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.

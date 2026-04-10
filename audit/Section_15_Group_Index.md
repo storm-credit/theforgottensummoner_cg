@@ -49,6 +49,10 @@ operational active 판단은
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 따른다.
 - 즉 group index는 조직 묶음만 나열하는 문서가 아니라,
   하위 profile의 policy carryover가 group reading과 어긋나지 않는지 보는 상위 입구다.
+- 이 index는 group family와 reading만 요약하고,
+  exact guard wording authority는 downstream profile card의 `3-1. Policy Guard`에 남긴다.
+- 따라서 group index가 free-city나 obelisk family를 적더라도,
+  하위 profile guard text를 축약하거나 대체하지 않는다.
 
 ### 1. Hidden Exchange
 
@@ -219,6 +223,8 @@ reference상 아직 바로 `15` 확정으로 내리기보다
   오벨리스크형 제도 그룹은 `nontraditional elite thin-support / dark institution`
   범위에서만 intake한다.
 - group index에서 잡혔다고 해서 곧바로 혈통층, 토착층, 전통 국가기관 근거로 승격하지 않는다.
+- group index는 intake family만 배정할 뿐,
+  최종 policy prose는 각 profile card에서 유지한다.
 
 ## Expansion Group Snapshot
 

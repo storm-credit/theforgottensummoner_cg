@@ -67,6 +67,9 @@
 - 이 묶음은 오벨리스크형 `nontraditional elite thin-support`와 금융 통제 제도를 보강하는 그룹이다.
 - 다만 이를 전통 귀족국가형 `state_house strong` 복원 근거로 읽지는 않는다.
 - 압류, 금고, 채권, 유통 통제는 모두 비정통 상층 제도와 강제 금융 장치의 증거로만 읽는다.
+- 이 group draft는 family-level carryover만 요약하고,
+  exact guard wording authority는 연결되는 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 오벨리스크형 금융 라벨을 적더라도 downstream profile guard text를 대체하지 않는다.
 
 ## Relation Hooks
 
@@ -92,3 +95,6 @@
 이 묶음은
 `금융은 보이지 않지만 폭력적으로 작동한다`는 감각을
 사람과 장소 단위로 복구하는 데 유용하다.
+
+다만 named notable 승격 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.
