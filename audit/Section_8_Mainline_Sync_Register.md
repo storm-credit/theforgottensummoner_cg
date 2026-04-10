@@ -36,6 +36,7 @@
 | `closure_sync_watch` | `Section_8_15_Closure_Sync_Carryover_Watch.md` | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Audit_Queue.md` | 현재 본선이 `closure sync / carryover watch`인지, 이미 닫힌 hold cluster를 다시 active처럼 쓰지 않는지 |
 | `profile_format_carryover` | `Section_15_Profile_Template.md`, `Section_15_Profile_Draft_Index.md` | `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`, `Section_15_Folder_Revision_Gate.md` | operational profile layer가 `3-1. Policy Guard` 형식을 유지한 채 carryover rule을 공유하는지 |
 | `lower_card_authority` | `Section_15_Profile_Template.md`, `Section_15_Named_Notables_Register.md` | `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Audit_Queue.md`, `Continuous_Workstream.md` | 상위 summary/bridge/watch 문서가 named notable 카드와 operational profile 카드의 권한선을 섞지 않는지 |
+| `subline_profile_authority` | `Section_15_Profile_Draft_Index.md`, `Section_15_Subline_Register.md` | `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `Section_15_Subline_Profile_*`의 `3-1. Policy Guard`가 exact wording source로 유지되고, representative subline pair closure가 상위 문서에서 승인 논리로 역수입되지 않는지 |
 | `missing_layer_policy` | `Five_Continent_Missing_Layer_Policy_Lock.md` | `Continents_Framework.md`, `Continental_Adequacy_Map.md`, `Five_Continent_Synthesis.md`, related core faction layers | 에테르 변방 부족층, 크림슨 국가형 가문층, 프로스트 정주 귀족층, 해양 토착 공동체층, 오벨리스크 비정통 엘리트를 어디까지 thin/support로 허용하는지 |
 | `execution_priority` | `Next_Sequential_Workstream.md` | `Audit_Queue.md`, `Section_8_Next_Audit_Targets.md` | 지금 메인 본선이 실제로 어디에 있는지 |
 
@@ -51,6 +52,8 @@
 6. 메인 본선이 `closure sync / carryover watch` 밖 다른 축으로 넘어갈 때
 7. 결손층 메모가 policy lock 바깥의 새 설정 발명처럼 다시 적힐 때
 8. operational profile guard 문장이 named notable 승인 논리로 역수입될 때
+9. `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`가 상위 summary / bridge / watch 문서에서 재정의되거나,
+   representative subline pair closure가 named notable 승인 논리로 역수입될 때
 
 ## Conductor Checklist
 

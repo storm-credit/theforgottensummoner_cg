@@ -98,12 +98,18 @@
 7. exact guard wording authority는
    `Section_15_Profile_*` operational card의 `3-1. Policy Guard`와
    `Section_15_Named_Notable_*` 카드의 `Policy Guard / Separation Guard`에 남긴다.
-8. `Section_15_Profile_Template.md`와 `Section_15_Named_Notable_Template.md`는
+8. subline 확장까지 내려간 경우에도
+   exact operational guard wording authority는
+   `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
+9. `Section_15_Profile_Template.md`와 `Section_15_Named_Notable_Template.md`는
    각 카드층의 형식을 잠그는 설계 기준서이지, exact wording source 자체는 아니다.
-9. 상위 template/index/folder 문서는 operational guard text를
+10. 상위 template/index/folder 문서는 operational guard text를
    canonical summary 문장으로 압축해 lower card를 덮어쓰지 않는다.
-10. named-notable template guard text와 operational profile `3-1. Policy Guard`는
+11. named-notable template guard text와 operational profile `3-1. Policy Guard`는
    parallel but non-substitutable layer로 유지한다.
+12. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+    닫힌 subline 교차감사 샘플로 유지하고,
+    상위 summary / bridge / index / watch 문서는 그 closure 상태를 참조만 한다.
 
 ## Legacy Mapping
 
