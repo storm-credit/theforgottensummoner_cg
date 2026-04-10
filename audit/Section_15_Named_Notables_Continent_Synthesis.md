@@ -16,6 +16,9 @@
 - 빈 역할 슬롯에 새 이름을 즉시 발명하지 않는다.
 - `need_named_candidate` 슬롯은 후속 원본 문서 근거를 찾은 뒤 채운다.
 - 얇은 층 정책 잠금은 `Five_Continent_Missing_Layer_Policy_Lock.md`를 우선 따른다.
+- 이 synthesis는 대륙별 분포와 판정 요약을 다루는 상위 reference층이다.
+- exact guard wording authority는 개별 `Section_15_Named_Notable_*` 카드의 `Policy Guard / Separation Guard`와
+  `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남기고, 여기서는 재정의하지 않는다.
 
 ## Coverage Summary
 
@@ -54,6 +57,8 @@ Conductor decision:
 크림슨은 `15번 Named Notables` 실제 폴더링 시험에 가장 적합하다.
 다만 안정 시험 후보는 `울프가르`, `에리온`, `오그마`로 좁히고,
 벨라나, 아리안, 드락사르, 카사르는 먼저 14번 경계 검증을 통과해야 한다.
+자유도시/오벨리스크 운영층 문구는 named notable 승격 논리가 아니라
+profile-side carryover reference로만 유지한다.
 
 ## Ether
 
@@ -98,6 +103,7 @@ Conductor decision:
 에테르는 세계관 중심성이 높으므로 우선 스카우트 대상이다.
 마법협회와 성국의 비영웅 명사층은 장소-기관 슬롯으로 먼저 받친다.
 정령연합 바깥 부족층은 `frontier echo / border support` 범위를 넘겨 읽지 않는다.
+운영층 profile cluster에 걸린 guard family는 하위 `3-1. Policy Guard` authority를 따른다.
 
 ## Frost
 
@@ -167,6 +173,7 @@ Conductor decision:
 다만 작업용 라벨은 표면명 후보로 낮췄으므로,
 관련 slot은 `신탁 방주`, `해로 장부관`, `흑조 감정관`, `심연 장부관` 기준 reference로만 유지한다.
 토착 공동체층은 `support range`까지만 보존하고 대륙 본체 `tribe_clan`으로는 올리지 않는다.
+이때 operational profile wording은 named notable 판정문을 대신하지 않는다.
 
 ## Obelisk
 
@@ -206,6 +213,8 @@ Conductor decision:
 오벨리스크는 신, 죽음, 심연 쪽으로 과하게 밀리지 않게
 `기관 기억 / 기록 / 거래 / 죄책감 / 망명자` 중심으로 읽는다.
 가문/왕국/통치자 신호는 계속 `nontraditional elite thin-support` 우선으로 읽는다.
+자유도시/오벨리스크 profile family는 exact guard wording authority를
+하위 profile 카드에 남긴 채 여기서는 합성 요약으로만 참조한다.
 
 ## Supranational
 
@@ -240,3 +249,11 @@ Conductor decision:
 - 에테르, 해양, 오벨리스크는 2차 근거 보강을 마쳤고 새 15 확정자는 만들지 않는다.
 - 프로스트, 해양, 에테르의 역할 슬롯은 장소-기관 중심으로 정리했다.
 - 이 배치 snapshot에서 프로스트 unnamed slot 6개 closure까지 반영됐고, stable triad package 재개방이 아니라 `closure sync / carryover watch`를 유지한다.
+
+## Guard Authority Snapshot
+
+- named notable synthesis는 카드층의 guard family를 요약하는 상위 reference다.
+- operational profile-side carryover는 언급할 수 있지만,
+  `Section_15_Profile_*` 카드의 `3-1. Policy Guard` exact wording을 대체하지 않는다.
+- named notable card의 `Policy Guard / Separation Guard`와 operational profile의 `3-1. Policy Guard`는
+  parallel but non-substitutable layer로 유지한다.
