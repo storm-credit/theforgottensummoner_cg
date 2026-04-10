@@ -25,6 +25,8 @@ reference 순서표로 보여주는 진행표다.
 5. `P2 place-pressure handoff` owner는 candidate index가 아니라 sidecar/register에서만 유지한다.
 6. 카드층 `Policy Guard`는 `Section 15` summary/index/folder/routing 문서에 이미 흡수된 상태로 유지한다.
 7. named notable 카드와 operational profile 카드의 lower-card authority는 분리 유지한다.
+8. operational middle-layer wording-source sync는 닫힌 상태로 유지하고,
+   다음 본선은 draft/profile 교차감사로 넘긴다.
 
 ## Ordered Watch Sequence
 
@@ -54,6 +56,13 @@ reference 순서표로 보여주는 진행표다.
 22. `Audit_Queue.md`
 23. `Continuous_Workstream.md`
 24. `Section_15_Named_Notables_Register.md`
+25. `Section_15_Group_Index.md`
+26. `Section_15_Subline_Register.md`
+27. `Section_15_Subline_Profile_Black_Auction_Appraiser_Line.md`
+28. `Section_15_Subline_Profile_Dock_Inspection_Enforcer_Line.md`
+29. `Section_15_Subline_Profile_Grave_Inscription_Decoder_Line.md`
+30. `Section_15_Subline_Profile_Port_Entry_Licensor_Line.md`
+31. `Section_15_Subline_Profile_Signet_Forger_Line.md`
 
 ## What Stays Closed
 

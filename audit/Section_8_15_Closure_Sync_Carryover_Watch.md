@@ -36,6 +36,8 @@
 6. 카드층 `Policy Guard`는 summary / bridge / index / folder / routing 문서까지 흡수된 상태로 유지한다.
 7. canonical state drift와 policy carryover drift는 서로 다른 층으로 점검한다.
 8. named notable card와 operational profile card의 lower-card authority는 분리 유지한다.
+9. operational middle-layer는 family-level carryover만 요약하고,
+   exact wording source는 실제 profile/subline profile 카드의 `3-1. Policy Guard`에 남긴다.
 
 ## Watch Table
 
@@ -62,6 +64,7 @@
 7. 카드층 `Policy Guard`와 `Section 15` index/folder/routing 문서의 carryover 문장이 다시 어긋날 때
 8. canonical state가 prose guard 문장으로 대체되거나, 반대로 prose guard가 state label처럼 오기입될 때
 9. operational profile guard 문장이 named notable 승인 논리로 역수입될 때
+10. subline draft와 downstream subline profile 카드의 carryover 문장이 서로 어긋날 때
 
 ## Ordered Cycle
 
@@ -76,7 +79,8 @@
 7. `Section_8_Place_Network_Handoff_Map.md`와 sidecar/register owner를 대조해 `P2 place-pressure` owner drift가 없는지 확인한다.
 8. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에서 본선 reference가 같은 순서로 적혀 있는지 확인한다.
 9. `Section_15_Named_Notables_Register.md`와 `Section_15_Profile_Draft_Index.md`를 대조해 lower-card authority가 summary에 재정의되지 않는지 확인한다.
-10. 위 1~9가 모두 잠긴 뒤에만 다음 신규 closure batch나 subtree sampling 재개 여부를 판단한다.
+10. `Section_15_Subline_Draft_*`와 `Section_15_Subline_Profile_*`를 대조해 wording-source drift가 없는지 확인한다.
+11. 위 1~10이 모두 잠긴 뒤에만 다음 신규 closure batch나 subtree sampling 재개 여부를 판단한다.
 
 ## Conductor Checklist
 

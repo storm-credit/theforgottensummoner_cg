@@ -21,6 +21,8 @@
 9. operational profile layer의 `3-1. Policy Guard` 형식이 `Profile_Draft_Index / Operational_Lines_Track / Intake_Structure / Folder_Revision_Gate`에서 같은 규칙으로 유지되는지 확인
 10. 상위 summary / bridge / queue 문서가 lower-card authority를 재정의하지 않고,
    operational profile의 `3-1. Policy Guard`를 참조만 하는지 확인
+11. operational middle-layer (`Group Index / Group Draft / Subline Register / Subline Draft`)의 wording-source sync가 닫힌 상태로 유지되는지 확인
+12. 다음 본선은 subline draft와 `Section_15_Subline_Profile_*` 카드 본문이 같은 carryover 문장을 유지하는지 교차감사하는 것이다
 
 ## Ordered Watch Snapshot
 
@@ -35,6 +37,8 @@
 9. 관계 타입 표준과 영웅 정본 스키마 확정은 후순위 유지
 10. 흩어진 아이템 수집 파이프라인 검토는 메인선 뒤로 둔다
 11. summary / bridge 계층이 operational guard 문장을 named notable 승인 논리로 역수입하지 않게 유지
+12. operational middle-layer wording-source sync는 이미 닫힌 reference 상태로 유지하고,
+   새 drift가 생길 때만 국소 수정한다
 
 ## Conditional Backlog
 
