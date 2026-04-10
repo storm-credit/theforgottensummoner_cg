@@ -31,6 +31,9 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
    operational profile 카드의 `3-1. Policy Guard`를 재정의하지 않는다.
 11. operational middle-layer (`Group Index / Group Draft / Subline Register / Subline Draft`)는
    family-level carryover만 요약하고 exact wording source는 카드 본문에 남긴다.
+12. representative `Subline Draft / Subline Profile` pair
+    (`Black Auction / Port Authority / Gravewell / Counterfeit Workshop`)는
+    wording-source 교차감사가 닫힌 상태로 유지되며, 새 drift가 생길 때만 국소 재개한다.
 
 ## Ordered Cycle
 
@@ -45,7 +48,8 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 7. `Section_8_Place_Network_Handoff_Map.md`와 sidecar/register를 대조해 `P2 place-pressure` owner drift를 점검한다.
 8. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`가 같은 본선 reference를 가리키는지 확인한다.
 9. named notable 승인 논리와 operational profile guard 문장이 서로 역수입되지 않는지 확인한다.
-10. subline draft와 `Section_15_Subline_Profile_*` 카드 본문이 같은 carryover 규칙을 유지하는지 교차감사한다.
+10. representative subline draft/profile pair는 닫힌 교차감사 결과를 유지하고,
+    새 wording-source drift가 생길 때만 해당 pair를 국소 교차감사한다.
 
 ## Input Reference Set
 

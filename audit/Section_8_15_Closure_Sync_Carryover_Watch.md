@@ -38,6 +38,9 @@
 8. named notable card와 operational profile card의 lower-card authority는 분리 유지한다.
 9. operational middle-layer는 family-level carryover만 요약하고,
    exact wording source는 실제 profile/subline profile 카드의 `3-1. Policy Guard`에 남긴다.
+10. 대표 `subline draft / subline profile` 교차감사
+    (`Black Auction / Port Authority / Gravewell / Counterfeit Workshop`)는
+    closure 상태로 유지하고, 새 drift가 생길 때만 국소 재개한다.
 
 ## Watch Table
 
@@ -79,7 +82,9 @@
 7. `Section_8_Place_Network_Handoff_Map.md`와 sidecar/register owner를 대조해 `P2 place-pressure` owner drift가 없는지 확인한다.
 8. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에서 본선 reference가 같은 순서로 적혀 있는지 확인한다.
 9. `Section_15_Named_Notables_Register.md`와 `Section_15_Profile_Draft_Index.md`를 대조해 lower-card authority가 summary에 재정의되지 않는지 확인한다.
-10. `Section_15_Subline_Draft_*`와 `Section_15_Subline_Profile_*`를 대조해 wording-source drift가 없는지 확인한다.
+10. `Section_15_Subline_Draft_*`와 `Section_15_Subline_Profile_*`는
+    대표 짝 교차감사가 이미 닫힌 상태로 읽고,
+    wording-source drift가 생길 때만 국소 대조한다.
 11. 위 1~10이 모두 잠긴 뒤에만 다음 신규 closure batch나 subtree sampling 재개 여부를 판단한다.
 
 ## Conductor Checklist

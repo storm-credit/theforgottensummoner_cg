@@ -26,7 +26,7 @@ reference 순서표로 보여주는 진행표다.
 6. 카드층 `Policy Guard`는 `Section 15` summary/index/folder/routing 문서에 이미 흡수된 상태로 유지한다.
 7. named notable 카드와 operational profile 카드의 lower-card authority는 분리 유지한다.
 8. operational middle-layer wording-source sync는 닫힌 상태로 유지하고,
-   다음 본선은 draft/profile 교차감사로 넘긴다.
+   대표 subline draft/profile 교차감사도 닫힌 상태로 유지한다.
 
 ## Ordered Watch Sequence
 
@@ -58,11 +58,7 @@ reference 순서표로 보여주는 진행표다.
 24. `Section_15_Named_Notables_Register.md`
 25. `Section_15_Group_Index.md`
 26. `Section_15_Subline_Register.md`
-27. `Section_15_Subline_Profile_Black_Auction_Appraiser_Line.md`
-28. `Section_15_Subline_Profile_Dock_Inspection_Enforcer_Line.md`
-29. `Section_15_Subline_Profile_Grave_Inscription_Decoder_Line.md`
-30. `Section_15_Subline_Profile_Port_Entry_Licensor_Line.md`
-31. `Section_15_Subline_Profile_Signet_Forger_Line.md`
+27. representative `Section_15_Subline_Draft_* / Section_15_Subline_Profile_*` pair drift watch
 
 ## What Stays Closed
 
@@ -74,6 +70,7 @@ reference 순서표로 보여주는 진행표다.
 3. Ether hold continuation 3종
 4. `Section 8 -> 15` carryover wording sync가 끝난 closure 항목
 5. `1~5 대륙 결손층 5개` 정책 lock
+6. 대표 `subline draft / subline profile` 교차감사 결과
 
 ## Conditional Backlog
 
@@ -83,6 +80,7 @@ reference 순서표로 보여주는 진행표다.
 2. 실제 원고 입력이나 새 증거 drift가 생기면 live handoff case를 우선 승격한다.
 3. carryover watch가 흔들리면 해당 계층만 국소 재점검한다.
 4. watch cycle이 안정된 뒤에만 다음 신규 closure batch 진행 여부를 판단한다.
+5. subline pair wording drift가 생기면 해당 pair만 다시 교차감사한다.
 
 ## Conductor Decision
 
