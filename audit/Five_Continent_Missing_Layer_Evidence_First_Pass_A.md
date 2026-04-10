@@ -1,14 +1,15 @@
 # Five Continent Missing Layer Evidence First Pass A
 
 이 문서는
+`Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
 `Five_Continent_Missing_Layer_Evidence_Register.md`를
-실제 import 본문에 대조한 1차 샘플 패스다.
+실제 import 본문에 대조한 1차 sample component다.
 
 목적:
 
 - 얇은 층 5개를 `파일명 추정`이 아니라 `본문 근거` 위에서 읽는다.
 - 각 대륙마다 `admissible`, `still not enough`, `safe read`를
-  샘플 anchor로 한 번 실제 고정한다.
+  master lock 아래 샘플 anchor로 한 번 실제 고정한다.
 - 다음 패스부터는 이 샘플과 같은 방향의 반복 증거만 추가한다.
 
 ## Input
@@ -155,7 +156,8 @@
 
 1차 샘플 기준으로는
 `Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
-다섯 얇은 층 모두 `정책상 허용된 thin/support 범위` 안에서만 읽는 게 맞다.
+다섯 얇은 층 모두 `정책상 허용된 thin/support 범위` 안에서만 읽는다는
+component read를 유지한다.
 
 즉 다음 패스는
 새 층 승격이 아니라,
