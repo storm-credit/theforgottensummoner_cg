@@ -58,3 +58,5 @@
 - `Section_15_Named_Notable_*` 카드는 `Policy Guard` 또는 `Separation Guard`를 유지한다.
 - coverage matrix는 두 카드층을 한 표에서 같이 바라보더라도,
   policy 해석은 lower-card authority를 넘겨 재정의하지 않는다.
+- exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, coverage matrix는 그 wording source를 분포 요약층에서만 참조한다.

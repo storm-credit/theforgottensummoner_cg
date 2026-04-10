@@ -50,6 +50,8 @@ actual draft package freeze 단계의
   같은 carryover rule이 유지되는지만 검사한다.
 - named notable summary와 profile summary가 함께 보일 때도,
   lower-card authority는 operational profile의 `3-1. Policy Guard`에 남겨 둔다.
+- exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, revision gate는 그 wording source를 대체하지 않는다.
 
 ## Gate Decision
 
