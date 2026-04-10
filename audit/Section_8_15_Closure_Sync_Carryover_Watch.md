@@ -116,7 +116,7 @@
 
 오케스트라는
 `새 후보 발굴`보다
-`이미 잠근 판정이 같은 문장으로 유지되는가`를 먼저 본다.
+`이미 잠근 판정이 같은 authority 분리 문장으로 유지되는가`를 먼저 본다.
 
 즉 메인선 reference는
 `5대륙 closure sync / Section 8 -> 15 carryover watch`
