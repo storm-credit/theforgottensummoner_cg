@@ -68,6 +68,8 @@ reference용 `작업 구조 라벨`이다.
   개별 profile의 해석 세부는 하위 카드의 `3-1. Policy Guard`가 직접 담당한다.
 - 이 track은 operational cluster type을 분류하는 상위 reference층이지,
   개별 profile의 정확한 guard 문장을 다시 써서 대체하는 문서가 아니다.
+- exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 track은 그 wording source를 cluster reference층에서만 읽는다.
 
 ## Conductor Note
 
@@ -78,3 +80,5 @@ reference용 `작업 구조 라벨`이다.
 
 따라서 named notable summary나 group index가 이 track을 참조하더라도,
 operational profile의 `3-1. Policy Guard` 권한선을 덮어쓰지 않는다.
+exact operational guard wording authority도 상위 track이 아니라
+각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.

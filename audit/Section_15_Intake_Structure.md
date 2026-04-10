@@ -110,6 +110,8 @@
   최종 operational guard wording은 downstream `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에서 작성/유지한다.
 - group draft와 subline draft도 intake 방향을 상속할 뿐,
   profile-level guard text 권한을 가져가지는 않는다.
+- exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, intake는 그 wording source를 intake classification 층에서만 참조한다.
 
 ## Conductor Note
 
@@ -118,3 +120,5 @@
 
 즉 `14번`이 영웅의 첨탑이라면,
 `15번`은 그 첨탑 아래에 실제 세계를 떠받치는 사람들의 층이다.
+그리고 exact operational guard wording authority는 이 intake 문서가 아니라
+각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.

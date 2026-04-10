@@ -170,6 +170,8 @@
   profile-side carryover reference로만 유지한다.
 - 폴더 구조 문서는 이 profile carryover 범주를 참조할 수는 있어도,
   개별 operational profile의 정확한 guard 문장을 대신 정의하지 않는다.
+- exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 구조 초안은 그 wording source를 구조 설계층에서만 참조한다.
 
 ```text
 Need Named Candidate Slots
@@ -215,3 +217,5 @@ closure sync / carryover watch 기준으로 유지하는 것이다.
 
 이 초안은 lower-card authority를 재정의하지 않으며,
 operational profile의 `3-1. Policy Guard`는 하위 카드층에서 그대로 우선한다.
+exact operational guard wording authority도 상위 구조 초안이 아니라
+각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.

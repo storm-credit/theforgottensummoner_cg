@@ -43,6 +43,8 @@
   named notable 승인 근거가 아니라 lower-card authority를 가진 profile-side carryover reference다.
 - 이 앵커 가드는 named notable anchor safeguard일 뿐이고,
   operational cluster guard text 권한은 `Section_15_Profile_Template.md`의 `3-1. Policy Guard`에 남는다.
+- exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 앵커맵은 그 wording source를 anchor reference층에서만 읽는다.
 
 ## Section 8 Bridge Update
 
@@ -83,3 +85,5 @@ Named Notables는 `대륙 -> 세력 / 도시 / 조직` 앵커로 보관한다.
 
 이 앵커맵도 operational profile의 `3-1. Policy Guard`를 재정의하지 않고,
 상위 reference층으로만 유지한다.
+exact operational guard wording authority도 상위 anchor map이 아니라
+각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
