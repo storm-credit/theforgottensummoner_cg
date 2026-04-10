@@ -34,6 +34,7 @@
 | `place_network_handoff` | `Section_8_Place_Network_Handoff_Map.md` | `Section_8_Normalization_Status_Compass.md`, related sidecars/registers | 어느 후보가 어느 sidecar/register로 넘어갔는지 |
 | `section8_to_15_carryover` | `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md` | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Next_Sequential_Workstream.md`, related package freeze docs | stable triad / support_hold / deferred_expansion_hold와 `Section 8` carryover 상태 |
 | `closure_sync_watch` | `Section_8_15_Closure_Sync_Carryover_Watch.md` | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Audit_Queue.md` | 현재 본선이 `closure sync / carryover watch`인지, 이미 닫힌 hold cluster를 다시 active처럼 쓰지 않는지 |
+| `profile_format_carryover` | `Section_15_Profile_Template.md`, `Section_15_Profile_Draft_Index.md` | `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`, `Section_15_Folder_Revision_Gate.md` | operational profile layer가 `3-1. Policy Guard` 형식을 유지한 채 carryover rule을 공유하는지 |
 | `missing_layer_policy` | `Five_Continent_Missing_Layer_Policy_Lock.md` | `Continents_Framework.md`, `Continental_Adequacy_Map.md`, `Five_Continent_Synthesis.md`, related core faction layers | 에테르 변방 부족층, 크림슨 국가형 가문층, 프로스트 정주 귀족층, 해양 토착 공동체층, 오벨리스크 비정통 엘리트를 어디까지 thin/support로 허용하는지 |
 | `execution_priority` | `Next_Sequential_Workstream.md` | `Audit_Queue.md`, `Section_8_Next_Audit_Targets.md` | 지금 메인 본선이 실제로 어디에 있는지 |
 
@@ -64,6 +65,8 @@
 9. `Section_15_Stable_Candidate_8_Anchor_Index.md`
 10. `Section_8_15_Closure_Sync_Carryover_Watch.md`
 11. `Five_Continent_Missing_Layer_Policy_Lock.md`
+12. `Section_15_Profile_Draft_Index.md`
+13. `Section_15_Operational_Lines_Track.md`
 
 ## Conductor Decision
 

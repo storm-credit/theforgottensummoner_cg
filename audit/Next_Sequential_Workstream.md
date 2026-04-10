@@ -42,12 +42,16 @@ reference 순서표로 보여주는 진행표다.
 11. `Section_15_Folder_Revision_Gate.md`
 12. `Section_15_Named_Notables_Anchor_Map.md`
 13. `Section_15_Stable_Candidate_Profile_QA.md`
-14. `Section_15_Ether_Hold_Cluster_Continuation.md`
-15. `Section_15_Ether_Tower_Saint_Hold_Continuation.md`
-16. `Section_15_Ether_Spirit_Union_Hold_Continuation.md`
-17. `Section_8_Place_Network_Handoff_Map.md`
-18. `Audit_Queue.md`
-19. `Continuous_Workstream.md`
+14. `Section_15_Profile_Draft_Index.md`
+15. `Section_15_Operational_Lines_Track.md`
+16. `Section_15_Operational_Display_Canon_Candidates.md`
+17. `Section_15_Intake_Structure.md`
+18. `Section_15_Ether_Hold_Cluster_Continuation.md`
+19. `Section_15_Ether_Tower_Saint_Hold_Continuation.md`
+20. `Section_15_Ether_Spirit_Union_Hold_Continuation.md`
+21. `Section_8_Place_Network_Handoff_Map.md`
+22. `Audit_Queue.md`
+23. `Continuous_Workstream.md`
 
 ## What Stays Closed
 

@@ -18,6 +18,7 @@
 6. `Section_8_Status_Vocabulary_Guard.md`, `Section_15_State_Vocabulary_Guard.md` 기준으로 status vocabulary drift 제거
 7. `Section_8_Mainline_Sync_Register.md` 기준으로 sync group drift 제거
 8. 카드층 `Policy Guard`가 `Section 15`의 status / index / folder / routing 문서까지 같은 문장으로 흡수됐는지 유지
+9. operational profile layer의 `3-1. Policy Guard` 형식이 `Profile_Draft_Index / Operational_Lines_Track / Intake_Structure / Folder_Revision_Gate`에서 같은 규칙으로 유지되는지 확인
 
 ## Ordered Watch Snapshot
 
@@ -25,11 +26,12 @@
 2. `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Coverage_Matrix.md`의 summary wording drift 점검
 3. `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`의 carryover wording drift 점검
 4. `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`의 policy carryover drift 점검
-5. Ether hold cluster closure와 `support_hold / deferred_expansion_hold` separation 유지
-6. `P2 section_style_forced_on_place_network` handoff owner를 sidecar/register로 고정 유지
-7. `14. 인물 백과` 루트 구조 감사는 reference backlog로만 유지
-8. 관계 타입 표준과 영웅 정본 스키마 확정은 후순위 유지
-9. 흩어진 아이템 수집 파이프라인 검토는 메인선 뒤로 둔다
+5. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`의 operational profile `3-1. Policy Guard` drift 점검
+6. Ether hold cluster closure와 `support_hold / deferred_expansion_hold` separation 유지
+7. `P2 section_style_forced_on_place_network` handoff owner를 sidecar/register로 고정 유지
+8. `14. 인물 백과` 루트 구조 감사는 reference backlog로만 유지
+9. 관계 타입 표준과 영웅 정본 스키마 확정은 후순위 유지
+10. 흩어진 아이템 수집 파이프라인 검토는 메인선 뒤로 둔다
 
 ## Conditional Backlog
 

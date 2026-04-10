@@ -68,10 +68,11 @@
 2. `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Coverage_Matrix.md`에서 summary wording drift를 확인한다.
 3. `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`에서 carryover wording drift를 확인한다.
 4. `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`, `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Stable_Candidate_Profile_QA.md`에서 policy carryover drift를 확인한다.
-5. `Section_15_Ether_Hold_Cluster_Continuation.md`, `Section_15_Ether_Tower_Saint_Hold_Continuation.md`, `Section_15_Ether_Spirit_Union_Hold_Continuation.md`에서 hold cluster가 closure 상태로 유지되는지 확인한다.
-6. `Section_8_Place_Network_Handoff_Map.md`와 sidecar/register owner를 대조해 `P2 place-pressure` owner drift가 없는지 확인한다.
-7. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에서 본선 reference가 같은 순서로 적혀 있는지 확인한다.
-8. 위 1~7이 모두 잠긴 뒤에만 다음 신규 closure batch나 subtree sampling 재개 여부를 판단한다.
+5. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`에서 operational profile layer의 `3-1. Policy Guard` 형식 drift를 확인한다.
+6. `Section_15_Ether_Hold_Cluster_Continuation.md`, `Section_15_Ether_Tower_Saint_Hold_Continuation.md`, `Section_15_Ether_Spirit_Union_Hold_Continuation.md`에서 hold cluster가 closure 상태로 유지되는지 확인한다.
+7. `Section_8_Place_Network_Handoff_Map.md`와 sidecar/register owner를 대조해 `P2 place-pressure` owner drift가 없는지 확인한다.
+8. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에서 본선 reference가 같은 순서로 적혀 있는지 확인한다.
+9. 위 1~8이 모두 잠긴 뒤에만 다음 신규 closure batch나 subtree sampling 재개 여부를 판단한다.
 
 ## Conductor Checklist
 
@@ -87,6 +88,8 @@
 8. `Next_Sequential_Workstream.md`
 9. `Audit_Queue.md`
 10. `Section_8_Place_Network_Handoff_Map.md`
+11. `Section_15_Profile_Draft_Index.md`
+12. `Section_15_Operational_Lines_Track.md`
 
 ## Conductor Decision
 
