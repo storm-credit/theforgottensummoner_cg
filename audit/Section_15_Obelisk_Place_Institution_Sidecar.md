@@ -9,6 +9,10 @@
 - `기록`, `봉인`, `망각`, `영혼`, `금서` 기능을 장면 단위로 본다.
 - 신/심연/망자 어휘가 인간 서사를 밀어내지 않도록
   `기억`, `거래`, `기록`, `죄책감`, `망명` 기능으로 낮춰 읽는다.
+- `Five_Continent_Missing_Layer_Policy_Lock.md`의
+  `Obelisk Nontraditional Elite Policy`를 우선 따른다.
+- 가문/왕국/통치자 신호는 장소-기관 압력과 별개로
+  `nontraditional elite thin-support` 우선으로만 읽는다.
 
 ## Place / Institution Links
 
@@ -71,6 +75,23 @@
 - 거짓 기록 편집실
 - 이단 서가
 - 봉인 색인대
+
+## Section 8 Handoff Lock
+
+`Section_8_Place_Network_P2_Queue.md`와
+`Section_8_Place_Network_Handoff_Map.md` 기준으로
+오벨리스크 sidecar에는 아래 압력을 직접 보존한다.
+
+1. `본 마켓` 계열은 `market + supply + memory-trade` 압력이 강한 `P2` 후보다.
+2. `망자의 왕국`, `봉인 수호단`, `잊힌 자들의 연합`의 구조 라벨은
+   이미 `section_style` 쪽으로 잠겼다.
+3. 따라서 이 sidecar에서는 구조 재판정이 아니라
+   `보급 거점`, `기억 거래`, `망명 네트워크` 압력만 별도로 받는다.
+4. 즉 오벨리스크에서는 `frontier_survival` 본체와
+   `place pressure strong`을 같은 층으로 뭉개지 않는다.
+5. 다만 `잊힌 자들의 연합`의 `exile-network pressure` 주 기록처는
+   `FS_Place_Function_Register.md`이고,
+   이 sidecar는 주변 place/institution context만 보조한다.
 
 ## Conductor Note
 

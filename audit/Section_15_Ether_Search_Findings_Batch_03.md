@@ -1,4 +1,4 @@
-# Section 15 Ether Search Findings - Batch 03
+# Section 15 Ether Search Findings - Batch 03 Snapshot
 
 이 문서는 에테르 후보명 탐색 큐 3번,
 `아스트랄 관측소 / 별의 예언자단 / 칼리스트` 축의 검색 결과다.
@@ -40,19 +40,19 @@
 검색 중 `칼리스토`라는 은빛 그리폰 이름도 보였지만,
 이는 성국 쪽 탑승물 이름으로 보이며 `칼리스트`와 병합하지 않는다.
 
-## Conductor Decision
+## Conductor Reading
 
-이번 검색에서도 새 15 확정자는 만들지 않는다.
+이 검색 기록에서는 새 15 확정자가 확인되지 않았다.
 
 - `칼리스트`는 `verify_before_15` 유지.
 - `수석 점성가`, `관측관`, `점성술사`, `망원경 관리자`, `미친 예언가`는 `need_named_candidate` 유지.
 - `아스트랄 관측소`와 `별의 예언자단`은 에테르 예언/관측 장소-기관 슬롯으로 보존.
 
-## Next Action
+## Queue Snapshot
 
 큐 4번으로 넘어간다.
 
-다음 검색 대상:
+후속 reference 대상:
 
 - `아스트라르`
 - `중앙 도서관`

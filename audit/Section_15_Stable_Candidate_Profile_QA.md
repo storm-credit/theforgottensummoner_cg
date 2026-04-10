@@ -18,7 +18,7 @@
 | `에리온 드라코비스` | `present` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` | `A급/기록관/세력 핵심표 신호 확인` | `Erion 다중 이름 충돌` | `pass_with_grade_caution / stable_15_workset / hardening_guard_added / route_hierarchy_locked` |
 | `오그마` | `present` | `크림슨 / 엘드라칸 / 전승 보관층` | `몽상가의 바위`, `지혜의 샘` | `낮음` | 없음 | `pass / stable_15_workset / hardening_guard_added / route_hierarchy_locked` |
 | `엘다라` | `present` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | `정령연합 전체 14 확인 전 Hard Canon 금지` | 없음 | `pass_with_source_caution / support_hold` |
-| `실비아` | `added_this_batch` | `범대륙 후기 확장 / 키르케 영약회` | `고통의 증류탑` | `낮음` | `실비아 다중 충돌` | `pass_with_deferred_zone` |
+| `실비아` | `added_this_batch` | `범대륙 후기 확장 / 키르케 영약회` | `고통의 증류탑` | `낮음` | `실비아 다중 충돌` | `pass_with_deferred_expansion_hold / name_collision_watch` |
 
 ## Required Follow-up
 
@@ -30,6 +30,13 @@
 | `엘다라` | 정령연합 전체 14 파일 확인 전 Hard Canon으로 고정하지 않기. |
 | `실비아` | 범대륙 후기 확장축이므로 메인 진행 후순위 유지, 이름 충돌 계속 감시. |
 
+## Policy QA Guard
+
+- `울프가르 / 에리온 / 오그마`의 QA pass는 크림슨 씨족 중심 질서와 학술/전승/공방 thin-support 범위 안에서만 유효하다.
+- 이 QA pass를 전통 귀족국가형 `state_house strong` 승격 근거로 사용하지 않는다.
+- `엘다라`는 정령연합 내부 예외축 `support_hold`로만 QA pass를 인정한다.
+- `실비아`는 `deferred_expansion_hold` 내부 카드로만 QA pass를 인정하고, 5대륙 본선 대표 카드로 올리지 않는다.
+
 ## Conductor Decision
 
 현재 안정 후보 5명의 시트는 설계 단계에서 사용할 수 있다.
@@ -38,8 +45,9 @@
 `Hardening Guard`, `Boundary Guard`, `place_function_lock` 계열 문구를 직접 추가했다.
 
 실제 15번 폴더 이동은 아직 하지 않는다.
-다음 작업은 `울프가르`, `에리온`, `오그마` 3명을 기준으로
-`Section_15_Folder_Structure_Draft.md` 수준의 actual draft bridge / routing sync와 route hierarchy lock을 검토하는 것이다.
+현재 메인 본선은 `울프가르`, `에리온`, `오그마` 3명의 package를 다시 여는 것이 아니라,
+이미 잠근 package-frozen carryover 상태와 route hierarchy lock을
+closure sync / carryover watch 기준으로 유지하는 것이다.
 
 `엘다라`는 보조 후보로 유지하되,
 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.

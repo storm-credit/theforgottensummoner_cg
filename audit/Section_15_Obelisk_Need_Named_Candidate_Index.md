@@ -3,6 +3,12 @@
 이 문서는 오벨리스크 대륙에서 개인명이 아직 확정되지 않은
 유명 NPC형 역할 슬롯을 모아두는 색인이다.
 
+named-candidate active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Rule
 
 - 새 이름을 만들지 않는다.
@@ -27,7 +33,7 @@
 
 오벨리스크 슬롯은 `인물`보다 `장소가 여는 장면`을 먼저 본다.
 
-후속 작업 순서:
+후속 reference 순서:
 
 1. 장소-기관 앵커 유지.
 2. 실제 개인명 확인.

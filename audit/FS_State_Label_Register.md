@@ -13,7 +13,7 @@
 
 ### `hard_canon`
 
-현재 정본으로 강하게 고정한다.
+정본으로 강하게 고정한다.
 
 조건:
 
@@ -23,7 +23,7 @@
 
 ### `soft_canon`
 
-현재 유력하지만 바뀔 수 있다.
+유력하지만 바뀔 수 있다.
 
 조건:
 
@@ -32,7 +32,7 @@
 
 ### `active_working`
 
-현재 작업 기준으로 쓰지만 아직 정본 선언은 아니다.
+작업 기준으로 쓰지만 아직 정본 선언은 아니다.
 
 조건:
 
@@ -118,7 +118,7 @@
 
 조건:
 
-- 현재 증거로 확정하면 위험하다.
+- 현 증거로 확정하면 위험하다.
 - 사용자 의도, 액트 구조, 원본 대조가 더 필요하다.
 
 ### `duplicate_candidate`
@@ -157,7 +157,7 @@
 전역 상태 라벨이 필요할 때는
 이 문서의 `hard_canon`, `soft_canon`, `open_question`, `conflict` 등을 함께 붙인다.
 
-## Current Label Examples
+## Label Snapshot Examples
 
 | Target | Label | Note |
 |---|---|---|

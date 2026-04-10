@@ -2,7 +2,7 @@
 
 이 문서는 아이템 후보와 인물명/세력명/마법명이 겹치는 경우를 따로 관리한다.
 
-지금은 아이템 백과 본편을 확장하는 단계가 아니므로,
+이 단계는 아이템 백과 본편을 확장하는 단계가 아니므로,
 `Item_Candidate_Register.md`에 바로 병합하지 않고
 충돌 신호만 별도로 둔다.
 
@@ -12,9 +12,9 @@
 - 아이템 백과로 올리기 전, 실제 물건인지 기능어인지 확인한다.
 - 인물 백과와 아이템 백과 양쪽에서 같은 단어를 볼 수 있게 교차 참조를 남긴다.
 
-## Current Collisions
+## Collision Snapshot
 
-| Term | Item / Artifact Signals | Character / Name Signals | Current Judgment | Next Action |
+| Term | Item / Artifact Signals | Character / Name Signals | Recorded Judgment | Reference Action |
 |---|---|---|---|---|
 | `Aegis / 아이기스 / 이지스` | `Coat of the Unthinking Aegis`, `Aegis of Circulating Chlorophyll`, `Heartstone of the Aegis`, `Aegis Crystal`, 다수 방패/결계/방어구명 | `아이기스 (Aegis)`, `알렉산더 이지스`, `이지스 그림쉴드` | `item_name_collision` | 인물명, 성씨, 방패/결계/아이템명을 분리한다. |
 

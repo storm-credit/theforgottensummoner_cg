@@ -11,11 +11,11 @@
 `전설 영웅록`, `히어로급`, `단장`, `사제`, `망자/심연 조직 핵심` 신호를 함께 갖고 있어
 성급한 15 확정은 위험하다.
 
-현재 판정은 `thin with dense boundary and archive slots`로 둔다.
+recorded 판정은 `thin with dense boundary and archive slots`로 둔다.
 
 ## Named Boundary Candidates
 
-| Name | Anchor | Signal | State Label | Conductor Judgment |
+| Name | Anchor | Signal | State Label | Recorded Judgment |
 |---|---|---|---|---|
 | `바리온` | `봉인 수호단` | 금서의 룬마스터, 룬의 집행관 | `verify_before_15` | 기존 판단 유지. 금서 명사 가치가 크지만 전설 영웅록 신호가 강하다. |
 | `아이기스` | `봉인 수호단` | 절대 방벽의 현자, 장벽의 수호자 | `verify_before_15 / item_name_collision` | 인물명, 성씨, 방패/결계/아이템명이 섞여 있어 병합 금지. |
@@ -30,7 +30,7 @@
 
 ## Strong Role Slots
 
-| Role Slot | Anchor | Story Use | Current Action |
+| Role Slot | Anchor | Story Use | Recorded Action |
 |---|---|---|---|
 | `기록의 수호자` | `봉인 수호단 / 서고단` | 심연 패턴 분석, 역사 기록, 전선의 기억 보존 | `need_named_candidate_or_verify_beth` |
 | `오벨리스크 관측대장` | `봉인 수호단 / 경계의 보루` | 흑오벨리스크 상태 계측, 경보 발령, 관측 자료 관리 | `need_named_candidate_or_verify_ian` |
@@ -59,11 +59,11 @@
 - `네크로폴리스 프라임`: 이름 서고, 기억 귀족 회의실, 묘역 감독관.
 - `그림자 도서관`: 이단 지식, 사라진 기록, 학술 암투.
 
-## Conductor Rule
+## Conductor Reading Rule
 
 오벨리스크는 확정 인물보다 `검증 후보`와 `장소-기관 슬롯`을 먼저 세운다.
 
-다음 배치에서는 오벨리스크 후보 중
+후속 reference에서는 오벨리스크 후보 중
 `베스 스크롤`, `이안 옵저버`, `카트린 라베로스`, `레보니아 셰이드`가
 14 독립 영웅인지 15 Named Notables인지 추가 확인한다.
 

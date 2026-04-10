@@ -11,9 +11,9 @@
 
 ## Sylvia Collision
 
-현재 작업본에서 확인된 `실비아 / Sylvia` 계열:
+작업본 기준 확인된 `실비아 / Sylvia` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `실비아 (Sylvia)` | `범대륙 / 키르케 영약회` | 고통의 기록자, S급, 시약 계량관, 증류탑 | `named_notable_candidate` |
 | `실비아 아캄 (Sylvia Arkham)` | `에테르 / 마법협회 / 심연의 서고` | 차원 균열사, Void Caller | `separate_entity_candidate` |
@@ -28,9 +28,9 @@
 
 ## Aegis / 아이기스 Collision
 
-현재 작업본에서 확인된 `Aegis / 아이기스` 계열:
+작업본 기준 확인된 `Aegis / 아이기스` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `아이기스 (Aegis)` | `오벨리스크 / 봉인 수호단 / 전설 마도 영웅록` | 절대 방벽의 현자, 장벽의 수호자 | `verify_before_15 / item_name_collision` |
 | `알렉산더 이지스 (Alexander Aegis)` | `에테르 / 왕국연합` | 14 현존 영웅, 성씨 또는 가문명 신호 | `keep_14` |
@@ -45,7 +45,7 @@
 - `Aegis`는 너무 넓은 기능어라, 인물 정본명으로 쓰려면 보조 이름이나 성을 붙여야 한다.
 - 아이템/유물/결계명 충돌은 `working/crosswalks/Item_Name_Collision_Register.md`를 교차 참조한다.
 
-## Conductor Rule
+## Conductor Reading Rule
 
 `실비아`와 `아이기스`는 이름만 보고 15번에 넣지 않는다.
 
@@ -60,9 +60,9 @@ Closure note:
 
 ## Ravenfell / Marcus / Maxwell Drift
 
-현재 작업본에서 확인된 `Ravenfell / Marcus / Maxwell` 계열:
+작업본 기준 확인된 `Ravenfell / Marcus / Maxwell` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `마르쿠스 레이븐펠` | `에테르 / 마법협회 / 스카우트 기록` | 기존 스카우트 문서의 후보명 | `name_drift` |
 | `맥스웰 레이븐펠 (Maxwell Ravenfell)` | `에테르 / 마법협회 / 흑색의 탑` | Top 3 흑색의 탑주, S급, Act 1~4 | `verify_before_15` |
@@ -77,9 +77,9 @@ Closure note:
 
 ## Isador Tempest / Isadore Solea Split
 
-현재 작업본에서 확인된 `Isador / Isadore` 계열:
+작업본 기준 확인된 `Isador / Isadore` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `이사도르 템페스트 (Isador Tempest)` | `에테르 / 마법협회 / 청색의 탑 / 템페스트 학파` | Top 4 청색 탑주, S급, 번개 마법단 직할 | `verify_before_15 / separate_entity_candidate` |
 | `이사도르 솔레아 (Isadore Solea)` | `에테르 / 마법협회 / phase2 직접 14 영웅 파일` | 솔레아 가문, 치유·구호 전략 장로, hero / s_rank 태그 | `keep_14 / separate_entity` |
@@ -93,9 +93,9 @@ Closure note:
 
 ## Mera Drift
 
-현재 작업본에서 확인된 `Mera / 메라` 계열:
+작업본 기준 확인된 `Mera / 메라` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `메라 라일윈드 (Mera Lylewind)` | `에테르 / 정령연합 / 외교 사절단` | 외교관, 희귀 재료 교역 조건, 정보 제공 | `verify_before_15 / name_drift` |
 | `메라 실피드 (Mera Sylphid)` | `에테르 / 정령연합 / 14 현존 영웅` | 직접 14 영웅 파일, 바람의 사냥꾼 | `keep_14 / separate_or_same_unverified` |
@@ -107,9 +107,9 @@ Closure note:
 
 ## Christopher Delmar / Role Slot Distinction
 
-현재 작업본에서 확인된 `Christopher Delmar / 크리스토퍼 델마르` 계열:
+작업본 기준 확인된 `Christopher Delmar / 크리스토퍼 델마르` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `크리스토퍼 델마르 (Christopher Delmar)` | `해양 / 황금 함대 / 거상 연합` | 검은 동전, 도난품 장물 처리, 암시장 자금 담당 | `verify_before_15 / named_boundary_candidate` |
 | `대경매장 주인` | `해양 / 포트 아우렐리온` | 감정사, 정보상, 경매장 역할 슬롯 | `role_slot_confirmed / no_personal_name` |
@@ -123,9 +123,9 @@ Closure note:
 
 ## Rafferty / Raphael Arcadia Drift
 
-현재 작업본에서 확인된 `Rafferty / Raphael Arcadia` 계열:
+작업본 기준 확인된 `Rafferty / Raphael Arcadia` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `래퍼티 아르카디아 (Rafferty Arcadia)` | `에테르 / 성국 / 성국 핵심 인물표` | 도서관장, A급, Act 2/3, 금서/고대 마법 연구 | `verify_before_15` |
 | `라파엘 아르카디아 (Raphael Arcadia)` | `에테르 / 성국 / 아스트라르 도시 문서` | 도서관장, 에반의 이계 지식에 집착, 스승 후보 | `name_drift_or_duplicate_check` |
@@ -139,9 +139,9 @@ Closure note:
 
 ## Valerius Collision
 
-현재 작업본에서 확인된 `Valerius / 발레리우스` 계열:
+작업본 기준 확인된 `Valerius / 발레리우스` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `레오니스 발레리우스` | `에테르 / 성국 / 14 현존 영웅` | 성왕/핵심 영웅 축 | `keep_14` |
 | `발레리우스 (Valerius the Lightbringer)` | `에테르 / 성국 / 루멘 성채` | 성기사단장, 루멘 성채 로컬 핵심 인물 슬롯 | `local_named_slot_needs_identity_check` |
@@ -155,9 +155,9 @@ Closure note:
 
 ## Drake Ruga / Rawson Drift
 
-현재 작업본에서 확인된 `Drake` 계열:
+작업본 기준 확인된 `Drake` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `드레이크 루가 (Drake Ruga)` | `에테르 / 자유도시연합 / 14 현존 영웅` | 직접 14 파일, 포트 넥서스 제독, 해군 사령부 | `keep_14` |
 | `드레이크 루가 (Drake Rawson)` | `에테르 / 자유도시연합 / 포트 넥서스 관련 문서` | 지배자/보호자 링크 표기 | `name_drift` |
@@ -171,9 +171,9 @@ Closure note:
 
 ## Selena Drift
 
-현재 작업본에서 확인된 `Selena / 셀레나` 계열:
+작업본 기준 확인된 `Selena / 셀레나` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `셀레나 아르시엔 (Selena Arsienne)` | `에테르 / 왕국연합 / 14 현존 영웅` | 직접 14 파일, 사수/왕국연합 축 | `keep_14` |
 | `셀레나 와일드웨이브 (Selena Wildwave)` | `에테르 / 자유도시연합 / 포트 넥서스` | 정보원, 그림자 조합, 뒷골목 지배자, 밀항 루트 | `verify_before_15 / separate_or_drift_check` |
@@ -186,9 +186,9 @@ Closure note:
 
 ## Sylas Collision
 
-현재 작업본에서 확인된 `Sylas / 실라스` 계열:
+작업본 기준 확인된 `Sylas / 실라스` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `실라스 블랙쏜` | `에테르 / 성국 / 옵시디안` | 감옥 관리자, 고문관, S급, 옵시디안 지하 대감옥 축 | `keep_14_likely` |
 | `실라스 나이트쉐이드 (Sylas Nightshade)` | `에테르 / 정령연합 / 그늘까마귀단` | S급 암살자, 숲의 그림자, 잠든 정령의 숲 그림자 이동 시험 | `verify_before_15 / likely_keep_14` |
@@ -203,9 +203,9 @@ Closure note:
 
 ## Wolfgar Collision
 
-현재 작업본에서 확인된 `Wolfgar / 울프가르` 계열:
+작업본 기준 확인된 `Wolfgar / 울프가르` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `울프가르 드래곤포지 (Wolfgar Dragonforge)` | `크림슨 / 용의 후예 / 드래곤포지 공방` | A급, 공방장, 프라이멀 엠버 대장장이, 전설 영웅록 신호 | `named_notable_candidate / grade_caution` |
 | `울프가르 블레이즈프로스트 (Wulfgard Blazefrost)` | `프로스트 / role-slot scan` | 프로스트 인명 후보군, 냉염계 이름군 | `separate_entity_candidate / source_scan_only` |
@@ -221,9 +221,9 @@ Closure note:
 
 ## Erion Collision
 
-현재 작업본에서 확인된 `Erion / 에리온` 계열:
+작업본 기준 확인된 `Erion / 에리온` 계열:
 
-| Form | Anchor | Signal | Current Judgment |
+| Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
 | `에리온 드라코비스 (Erion Dracovis)` | `크림슨 / 엘드라칸 / 용언 도서관` | A급, 기록관, 용의 심장, 계약 증인, 세력 핵심표 신호 | `named_notable_candidate / grade_caution / name_collision_watch` |
 | `에리온 베르날리스 (Erion Vernalis)` | `에테르 / 정령연합 / 14 현존 영웅` | 직접 14 파일, 정령연합 영웅 축 | `keep_14 / separate_entity` |

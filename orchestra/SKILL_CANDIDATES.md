@@ -1,9 +1,9 @@
 # Skill Candidates
 
-이 문서는 현재 오케스트라 문서들을 나중에 별도 스킬로 분리할 때의 설계 초안이다.
+이 문서는 오케스트라 문서들을 별도 스킬로 분리할 때를 대비한 설계 초안이다.
 
-지금은 실제 Codex 스킬로 등록하지 않아도 된다.
-반복 작업이 많아질 때 바로 분리할 수 있도록 역할과 입력/출력을 정리해 둔다.
+이 문서는 실제 설치 상태를 선언하는 문서가 아니라,
+역할과 입력/출력을 설계 메모로 정리해 두는 reference 문서다.
 
 ## 1. lore-audit
 
@@ -21,7 +21,7 @@
 
 - 대상 경로
 - 상위 기준 문서
-- 현재 작업 단계
+- 작업 단계
 
 ### Outputs
 
@@ -32,7 +32,7 @@
 
 형식의 이슈 목록
 
-### Current Source Docs
+### Source Docs
 
 - `workflow/02_Lore_Audit_Rules.md`
 - `audit/Audit_Queue.md`
@@ -56,7 +56,7 @@
 - 핵심 접점
 - 관계 공백
 
-### Current Source Docs
+### Source Docs
 
 - `workflow/03_Relationship_Types.md`
 - `workflow/04_Hero_Canon_Schema.md`
@@ -77,9 +77,9 @@
 
 - 충분성 판정
 - 결손층 목록
-- 다음 import 제안
+- 후속 import 제안
 
-### Current Source Docs
+### Source Docs
 
 - `workflow/09_House_Clan_Guild_Adequacy.md`
 - `working/drafts/Continental_Adequacy_Map.md`
@@ -104,7 +104,7 @@
 - 보류 판정
 - 우선순위
 
-### Current Source Docs
+### Source Docs
 
 - `workflow/01_Canon_Policy.md`
 - `workflow/05_Naming_Normalization_Map.md`
@@ -129,7 +129,7 @@
 - 욕망 장치 태그
 - 백과 승격 후보
 
-### Current Source Docs
+### Source Docs
 
 - `workflow/07_Item_Canon_Schema.md`
 - `workflow/08_Item_Desire_Design.md`
@@ -159,7 +159,7 @@
 - 지도 backlog
 - 동선 후보
 
-### Current Source Docs
+### Source Docs
 
 - `workflow/10_Spatial_Map_Progression.md`
 - `working/drafts/Spatial_Backlog.md`
@@ -168,12 +168,12 @@
 
 ### Role
 
-- 지금 작업에 어떤 작가 엔진을 먼저 적용할지 결정
+- 해당 작업에 어떤 작가 엔진을 먼저 적용할지 결정
 - 구조, 갈등, 아크, 관계망, 장면성 중 무엇을 우선 볼지 라우팅
 
 ### Inputs
 
-- 현재 작업 단계
+- 작업 단계
 - 대상 문서
 
 ### Outputs
@@ -182,19 +182,19 @@
 - 보조 엔진
 - 보류 사유
 
-### Current Source Docs
+### Source Docs
 
 - `workflow/11_Writer_Engine.md`
 - `orchestra/RUNBOOK.md`
 
-## Current Decision
+## Repository Decision
 
-지금은 이 후보들을 실제 스킬로 쪼개지 않는다.
+이 저장소에서는 이 후보들을 자동으로 실제 스킬로 간주하지 않는다.
 
 이유:
 
 - 아직 구조가 계속 바뀌는 중이다
-- 지금은 Conductor가 직접 통합하는 편이 더 빠르다
+- 현 단계에서는 Conductor가 직접 통합하는 편이 더 빠르다
 - 반복 루틴이 충분히 굳은 뒤에 분리하는 편이 안전하다
 
 ## Harness Position
@@ -213,7 +213,7 @@
 `같은 절차를 다시 설명하지 않게 해 주는 층`
 이다.
 
-## Trigger To Convert Into Real Skills
+## Conversion Review Triggers
 
 아래 중 2개 이상이 반복되면 실제 스킬화 검토:
 

@@ -16,12 +16,12 @@
 
 ### Hard Canon
 
-- 현재 정본으로 바로 참조 가능한 정보
+- 정본으로 바로 참조하는 정보
 - 충돌 시 우선권이 높다
 
 ### Soft Canon
 
-- 현재 유력하지만 수정 가능성이 남아 있는 정보
+- 유력하나 수정 가능성이 남아 있는 정보
 - 인용 가능하나, 확정처럼 쓰지 않는다
 
 ### Open Question
@@ -41,13 +41,13 @@
 
 ## Register
 
-| Subject | Scope | Tier | Source Priority | Current Use | Next Action | Note |
+| Subject | Scope | Tier | Source Priority | Recorded Use | Recorded Action | Note |
 |---|---|---|---|---|---|---|
 | `14 = 서사 중심 영웅` | `archive policy` | `Hard Canon` | `workflow` | `active` | `maintain` | `14`는 중심 영웅축으로 유지 |
 | `15 = Named Notables + Operational Lines` | `archive policy` | `Hard Canon` | `workflow` | `active` | `maintain` | `15`는 이중 레이어로 운영 |
 | `동양 / 무협 제외` | `tone policy` | `Hard Canon` | `vision` | `active` | `maintain` | 다른 크로니클로 분리 |
 | `범대륙은 후기 확장` | `expansion policy` | `Hard Canon` | `master plan` | `active` | `maintain` | 메인 축보다 후순위 |
-| `에리온 드라코비스 = 15 Named Notable` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 현재 strong_15 |
+| `에리온 드라코비스 = 15 Named Notable` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 현재 `named_notable_candidate / stable_15_workset / grade_caution / name_collision_watch` |
 | `울프가르 드래곤포지 = 15 Named Notable` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 장인형 명사로 강함 |
 | `오그마 = 15 Named Notable` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 전승 보관자축 |
 | `실비아 = 15 Named Notable` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 기록자형 연금술 명사 |
@@ -56,7 +56,7 @@
 | `Operational Lines working labels` | `naming policy` | `Soft Canon` | `audit` | `active` | `replace_with_display_candidates` | 작업용 구조 라벨 |
 | `_Legacy_ / Backup 문서군` | `legacy handling` | `Deprecated / Legacy` | `legacy policy` | `quarantined conceptually` | `keep_isolated` | 참고만 허용 |
 
-## Conductor Rule
+## Conductor Reading Rule
 
 - 충돌을 발견하면 바로 고치지 않고 먼저 여기서 티어를 붙인다.
 - `Open Question`은 다른 문서에서 정본처럼 확장하지 않는다.

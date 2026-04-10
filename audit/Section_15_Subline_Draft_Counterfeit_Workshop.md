@@ -35,6 +35,12 @@
   - `장물 감정사 계열`
   - `수집가 귀족`
 
+## Policy Subline Guard
+
+- 이 counterfeit workshop subline은 자유도시 `urban_market / shadow_port` 내부 세분화로만 읽는다.
+- 인장 위조와 외장 조작은 그림자 거래를 성립시키는 기술 구획이지,
+  해양 `토착 공동체층` 본체나 전통 국가 문서기관 복원 근거가 아니다.
+
 ## Conductor Note
 
 위조 공방은

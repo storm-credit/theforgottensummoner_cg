@@ -9,8 +9,9 @@
   - `키르케 영약회`
 - type:
   - `Named Notable`
-- current judgment:
-  - `strong_15`
+- recorded judgment:
+  - `named_notable_candidate`
+  - `deferred_expansion_hold`
 
 ## 1-1. Archive Routing
 
@@ -27,7 +28,8 @@
   - `시약 계량관`
   - `임상 기록`
 - routing_state:
-  - `route_test_ok_but_deferred_zone`
+  - `deferred_expansion_hold`
+  - `name_collision_watch`
 
 주의:
 
@@ -80,12 +82,21 @@
   기록자형 연금술 명사로서의 색이 훨씬 강해진다.
 - 연금술, 금단 실험, 약제 통제, 기록 윤리, 고통의 장부 서사에 강하다.
 
+## 6-1. Policy Guard
+
+- 실비아의 `기록자 / 시약 계량관 / 임상 통제` 신호는
+  `키르케 영약회`라는 범대륙 후기 확장축 내부에서만 읽는다.
+- 즉 이 카드를 현재 5대륙 본선의 핵심 층 증거로 끌어오지 않고,
+  `deferred_expansion_hold` 범위에서만 유지한다.
+- 또한 이 기록-실험 권위를 오벨리스크 전통 귀족국가형 `state_house strong` 근거로 읽지 않는다.
+
 ## 7. Conductor Note
 
-- 지금 확정할 것:
+- 이 시점에 확정할 것:
   - 키르케 영약회의 대표 기록/계량 명사라는 점
   - 고통의 증류탑과 계량 기록실에 강하게 묶인다는 점
 - 14와 겹칠 위험:
-  - 현재 작업본 기준 `낮음`
-- 나중에 더 읽어야 할 것:
+  - 작업본 기준 `낮음`
+- 후속 판독축:
   - 독자 인물 문서가 존재하는지와 실제 전투 비중
+  - 범대륙 후기 확장축이 `deferred_expansion_hold`에서 올라올 근거가 더 있는지

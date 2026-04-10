@@ -35,6 +35,12 @@
   - `세실리아 메르카토르`
   - `검은 해골단`
 
+## Policy Subline Guard
+
+- 이 black auction subline은 자유도시 `urban_market / shadow_port` 내부 세분화로만 읽는다.
+- 장물 감정, 비밀 입찰, 고객 등급 분리는 그림자 경매 질서의 기능 구획이지,
+  해양 `토착 공동체층` 본체 근거가 아니다.
+
 ## Conductor Note
 
 검은 경매소는

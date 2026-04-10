@@ -1,7 +1,7 @@
 # Section 15 Oceanic Named Candidate Search Queue
 
 이 문서는 해양 대륙의 `15 Named Notables` 후보를
-실제 named candidate 탐색 단계로 내리기 위한 큐다.
+어떤 named candidate 탐색 순서로 확인했는지 남기는 reference queue다.
 
 ## Rule
 
@@ -37,11 +37,11 @@
 | `골드핑거 바스` | A급 암시장 조합장 | `흑조 감정관`, `밤항 선별관` |
 | `리나 웨이브서프` | 히어로급 복원 학자 | `심연 장부관`, `진혼 악기지기` 보조 참고 |
 
-## Search Order
+## Search Order Snapshot
 
 1. 해양 unnamed slot read-only pass는 여기서 1차 마감한다.
 2. `모로스`, `크리스토퍼 델마르`, `이소벨 골드리프`는 slot holder가 아니라 boundary-only 인접 후보로 유지한다.
-3. 다음 메인 본선은 `오벨리스크`와 `프로스트` 중 다음 대륙 우선순위를 재고정한다.
+3. 이 큐는 더 이상 대륙 메인 본선을 재고정하지 않고, carryover watch 입력으로만 유지한다.
 
 ## Batch 01 Result
 

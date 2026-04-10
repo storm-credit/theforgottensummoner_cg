@@ -6,7 +6,7 @@
 
 ## FS Engine Three-Mode Structure
 
-현재 운용 문서:
+운용 reference 문서:
 
 - `workflow/15_FS_Lore_Engine.md`
 - `workflow/16_FS_Story_Engine.md`
@@ -68,7 +68,7 @@
 
 이 층의 질문:
 
-1. 지금 보여줘도 되는 정보인가
+1. 이 시점에 보여줘도 되는 정보인가
 2. 이미지/음악/영상이 정본 톤과 충돌하지 않는가
 3. 장소와 인물이 실제 설정의 기능에 묶여 있는가
 4. 외부 제작 환경으로 넘길 때 스포일러가 새지 않는가

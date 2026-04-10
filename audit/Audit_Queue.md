@@ -1,30 +1,43 @@
 # Audit Queue
 
-## Now
+## Locked Just Now
 
 1. 세계관 코어 규칙 고정
 2. `1~5 대륙` 프레임 정리
 3. 대륙별 `가문 / 부족 / 길드` 충분성 점검 기준 고정
-4. `8. 세력 아카이브` 루트 구조 감사
-5. `14. 인물 백과` 루트 구조 감사
-6. `8번`과 `14번`의 명칭 연결 표 초안 작성
-7. 관계 타입 표준과 영웅 정본 스키마 확정
-8. 흩어진 아이템 수집 파이프라인 고정
-9. 1차 아이템 후보 등록부 검토
+4. `1~5 대륙 Section 8 spine sample` 1차 사이클 완료
+5. `1~5 대륙 결손층 5개` 정책 lock 완료
 
-## Next
+## Focus Snapshot
 
-1. `1~5 대륙` 잠정 판정 고정
-2. 해양의 토착 공동체 / 씨족 후보는 후속 탐색 대상으로 보류
-3. 오벨리스크의 비정통 엘리트 구조를 정식 축으로 인정할지 정책 결정
-4. `8번` 대륙 루트별 중복과 레거시 분리
-5. `8번`의 혼합 하위 구조를 표준 뼈대로 매핑
-6. 에테르 파일럿 기준으로 `14번` 성장/현존 영웅과 `8번` 세력 링크맵 확정
-7. 핵심 인물 접점 표 작성
-8. `14번`의 고아 인물 파일에 candidate anchor를 붙이고 `15번 후보`를 분리
-9. `범대륙` 분류명과 비공식 권력 조직명의 display canon 교체 후보를 연결
-10. `14번` 소속 서술에서 `Guilds / Syndicates / Megacorps / Shadow Intelligence` 참조를 새 display canon과 맞춘다.
-11. `15번` 후보를 `즉시 회수 / 검증 후 회수 / 보류` 순서로 우선순위화한다.
+1. `5대륙 closure sync / Section 8 -> 15 carryover watch`를 메인 본선 reference로 유지
+2. `Section_8_Root_Corruption_First_Pass_A.md`, `Section_8_Root_Subtree_Sampling_Queue.md`, `Section_8_Place_Network_Handoff_Map.md` 기준 `P0 / P2 / carryover`를 drift 없이 유지
+3. `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준으로 summary / bridge / queue / package의 기준 시점을 동기화
+4. `P2 place-network` handoff를 sidecar/register에서만 유지하고 candidate index가 재정의하지 않게 막기
+5. `Section_8_Normalization_Status_Compass.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`의 본선 reference 문구를 맞추기
+6. `Section_8_Status_Vocabulary_Guard.md`, `Section_15_State_Vocabulary_Guard.md` 기준으로 status vocabulary drift 제거
+7. `Section_8_Mainline_Sync_Register.md` 기준으로 sync group drift 제거
+8. 카드층 `Policy Guard`가 `Section 15`의 status / index / folder / routing 문서까지 같은 문장으로 흡수됐는지 유지
+
+## Ordered Watch Snapshot
+
+1. `Section_8_Normalization_Status_Compass.md` 기준 `root / structure / mismatch / P2 handoff` snapshot 상태를 먼저 확인
+2. `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Coverage_Matrix.md`의 summary wording drift 점검
+3. `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`의 carryover wording drift 점검
+4. `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`의 policy carryover drift 점검
+5. Ether hold cluster closure와 `support_hold / deferred_expansion_hold` separation 유지
+6. `P2 section_style_forced_on_place_network` handoff owner를 sidecar/register로 고정 유지
+7. `14. 인물 백과` 루트 구조 감사는 reference backlog로만 유지
+8. 관계 타입 표준과 영웅 정본 스키마 확정은 후순위 유지
+9. 흩어진 아이템 수집 파이프라인 검토는 메인선 뒤로 둔다
+
+## Conditional Backlog
+
+1. 원본 접근이 가능할 때만 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 subtree 샘플링 진행 여부를 다시 연다.
+2. `Section 8 -> 15` carryover watch가 충분히 안정된 뒤에만 다음 신규 closure batch 진행 여부를 판단한다.
+3. `P2 place-network` owner 체계는 현재 유지선이며, drift가 생길 때만 국소 수정한다.
+4. `14번` 링크맵, 접점 표, orphan candidate 분리는 live handoff나 새 증거 변화가 생길 때만 다시 올린다.
+5. `범대륙` display canon 교체와 `15번` 후보 재우선순위화는 현재 메인선이 아니라 후순위 backlog로 둔다.
 
 ## Later
 
@@ -36,7 +49,7 @@
 6. `15번` 축과 아이템 백과 편입
 7. 자유도시 도시망의 낮/밤 이중 지도 초안
 
-## Current Risks
+## Risk Snapshot
 
 - `8번`에 `_Legacy_` 폴더 존재
 - `8번`에 중복된 `6. 범대륙...` 폴더 존재
@@ -45,4 +58,4 @@
 - 가문, 부족, 길드 층이 비어 있으면 인물 출신과 세력 갈등이 평면화될 수 있음
 - 구조 안정화 전에 문체 개정을 하면 모순이 더 매끈해질 수 있음
 - `Aether` 계열 표기가 연쇄적으로 퍼져 있어 일괄 수정은 위험함
-- `범대륙`은 후기 증설 구역이라 현재 중심 축으로 다루면 전체 기준이 흔들릴 수 있음
+- `범대륙`은 후기 증설 구역이라 중심 축으로 다루면 전체 기준이 흔들릴 수 있음

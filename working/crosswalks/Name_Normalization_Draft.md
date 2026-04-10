@@ -1,6 +1,6 @@
 # Name Normalization Draft
 
-## Current Draft
+## Draft Snapshot
 
 | Conflict | Preferred Working Form | Status |
 |---|---|---|

@@ -3,6 +3,10 @@
 이 문서는 `해양 대륙`에 토착 공동체 / 원주민 / 섬 씨족 층이 실제로 있는지
 현재까지 import한 작업본 기준으로 점검한 메모다.
 
+정책 잠금 기준은
+`audit/Five_Continent_Missing_Layer_Policy_Lock.md`의
+`Oceanic Indigenous Community Policy`를 우선 따른다.
+
 ## Main Conclusion
 
 현재 근거로는 `해양의 토착 공동체층`이 아직 약하다.
@@ -36,9 +40,10 @@
 이건 모두 훌륭하지만,
 `바다에 원래부터 뿌리내린 공동체`와는 다르다.
 
-## What We Need Later
+## Support-Range Evidence We Would Accept
 
-나중에 해양 대륙을 더 보강할 때는 이런 후보가 필요하다.
+해양 대륙을 더 볼 때는 아래 같은 증거가 보여야
+`support range` 안에서만 토착 공동체층을 보존할 수 있다.
 
 1. 군도 원주민 연맹
 2. 산호섬 씨족
@@ -48,7 +53,8 @@
 
 ## Conductor Decision
 
-해양 대륙의 다음 결손 보강은 `토착 공동체층 발굴`이 핵심이다.
+해양 대륙의 토착 공동체층은
+지금 당장 새 설정으로 메우지 않는다.
 
 현재까지는 `없다`고 확정하지 않고,
-`아직 작업본에 안 들어왔다`로 남겨두는 편이 가장 안전하다.
+`support range까지는 열어두되 아직 작업본에 충분한 반복 증거가 없다`로 남겨두는 편이 가장 안전하다.

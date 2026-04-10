@@ -50,6 +50,15 @@
 - `지하 회랑 운반꾼` -> `회랑 운반자`
 - `환영 처형자` -> `환영 집행관`
 
+## Policy Carryover Note
+
+- 표면명 후보가 fantasy-safe하더라도
+  그 카드의 구조 해석은 별도로 잠근 `Policy Guard`를 따라야 한다.
+- 즉 `침묵의 상회`, `철의 금융 연맹`, `그림자 첩보망` 계열은
+  이름이 부드러워졌다는 이유로 전통 국가기관이나 귀족국가형 상층으로 재상승시키지 않는다.
+- `은막 교역회`, `흑골 교역단`, `붉은 장부 결사` 같은 자유도시 계열도
+  `urban_market / shadow_port / debt-enforcement` 범위를 넘겨 읽지 않는다.
+
 ## Conductor Decision
 
 Operational Lines 표면명 후보는 계속 사용 가능하다.

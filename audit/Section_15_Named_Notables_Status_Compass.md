@@ -7,22 +7,22 @@
 
 - 긴 스카우트 문서를 매번 다시 읽지 않는다.
 - 확정 15 후보와 `verify_before_15` 후보를 섞지 않는다.
-- 다음 배치가 어느 대륙에서 무엇을 해야 하는지 바로 보이게 한다.
+- watch cycle 기준으로 어느 대륙이 어떤 closure 상태인지 바로 보이게 한다.
 
-## Current Compass
+## Compass Snapshot
 
-| Area | Stable 15 Candidates | Boundary Hold | Main Risk | Next Action |
+| Area | Stable 15 Candidates | Boundary Hold | Main Risk | Reference Action |
 |---|---|---|---|---|
-| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | SS/S/A급, 영웅록, 공병대장/예언자 신호 | stable 15 triad hardening, global consistency lock까지 완료됐다. 이제 actual draft bridge / routing sync로 넘긴다. |
-| `에테르` | `엘다라 [support hold]` | `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 탑주, A/S급, Act 신호, 이름 드리프트, 동명이인 충돌 | `Ravenfell`, `Mera`, `Sylas` 병합 금지. 에테르 surface-name baseline 잠금 완료. 엘다라는 `named_notable_candidate / verify_source_before_profile` 상태의 `support hold`로 유지하고, 나머지는 14/검증/역할 슬롯으로 분리한다. low-priority auxiliary slot 9개는 모두 direct holder 미확인 또는 집단 직함 확인으로 role slot 유지가 닫혔다. |
-| `프로스트` | 없음 | `울프릭`, `시그리드`, `마리안`, `프리야`, `카이라` | 전설/핵심 영웅 신호, 원로단 지도부 신호 | 압축표 + 코어 장부 direct link 완료. `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`, `아이스포지 병기소 장인`까지 6개 slot이 모두 role slot 유지로 닫혔다. 다음 mainline은 5대륙 closure sync와 ROI 재판정이다. |
-| `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | A급, SS급, 히어로급, 제독/단장, 실비아 이름 충돌, 거상 연합 권력축 | `신탁 방주` top 5, `city-role batch`, `tail unnamed slot batch`까지 닫혔다. `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`은 role slot 유지, named boundary와 병합 금지 메모만 남겼다. 다음은 `오벨리스크` mainline, `프로스트`는 그 다음 재평가다. |
-| `오벨리스크` | 없음 | `바리온`, `아이기스`, `카론`, `베스`, `이안`, `카트린`, `레보니아`, `우로스`, `세르반`, `레티시아`, `렌`, `라일`, `루가르` | 전설 영웅록, 아이기스 충돌, 히어로급, 조직 핵심 | 압축표 작성 완료. `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 slot 유지다. `기억 지기`는 `렌 / 라일` existing holder, `심연 계약 중개자`는 `루가르` strong link로 잠갔다. 다음은 closure sync 뒤 `프로스트` 재평가다. |
-| `범대륙 / 후기 확장` | `실비아 [deferred expansion hold]` | `멜리산드르` | 후기 증설 구역, 키르케 위상 과확정 위험 | 메인 진행 후순위. 이름 톤과 앵커 안정화 뒤 재검토. |
+| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | SS/S/A급, 영웅록, 공병대장/예언자 신호 | stable triad package freeze는 닫힌 상태로 유지한다. hold cluster도 한 번 closure 상태로 본다. `벨라나 > 아리안`, `카사르 > 드락사르` 위험도 계층을 유지한 채 본선 reference는 `5대륙 closure sync / carryover watch`다. |
+| `에테르` | `엘다라 [support_hold]` | `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 탑주, A/S급, Act 신호, 이름 드리프트, 동명이인 충돌 | `Ravenfell`, `Mera`, `Sylas` 병합 금지. 에테르 surface-name baseline과 spirit-union hold closure가 모두 잠긴 상태다. 새 hold 확장보다 `5대륙 closure sync / carryover watch` 유지가 우선이다. |
+| `프로스트` | 없음 | `울프릭`, `시그리드`, `마리안`, `프리야`, `카이라` | 전설/핵심 영웅 신호, 원로단 지도부 신호 | 압축표와 코어 장부 direct link가 잠긴 상태다. `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`, `아이스포지 병기소 장인`까지 6개 slot은 모두 role slot 유지로 본다. closure sync watch 안에서만 유지한다. |
+| `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | A급, SS급, 히어로급, 제독/단장, 실비아 이름 충돌, 거상 연합 권력축 | `top 5`, `city-role batch`, `tail unnamed slot batch`는 모두 닫힌 상태로 본다. `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`은 role slot 유지와 named boundary 비병합 메모만 유지한다. |
+| `오벨리스크` | 없음 | `바리온`, `아이기스`, `카론`, `베스`, `이안`, `카트린`, `레보니아`, `우로스`, `세르반`, `레티시아`, `렌`, `라일`, `루가르` | 전설 영웅록, 아이기스 충돌, 히어로급, 조직 핵심 | 압축표와 핵심 slot narrowing은 닫힌 상태로 본다. `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 slot 유지다. `기억 지기 = 렌 / 라일`, `심연 계약 중개자 = 루가르 strong link` 메모만 유지한다. |
+| `범대륙 / 후기 확장` | `실비아 [deferred_expansion_hold]` | `멜리산드르` | 후기 증설 구역, 키르케 위상 과확정 위험 | 메인 진행 후순위. 이름 톤과 앵커 안정화 뒤 재검토. |
 
-## Stable Working Set
+## Stable Working Set Snapshot
 
-현재 실제 15번 시트 시험에 가장 안전한 후보:
+15번 시트 시험에 가장 안전한 후보 snapshot:
 
 1. `울프가르 드래곤포지`
 2. `에리온 드라코비스`
@@ -30,54 +30,57 @@
 
 보조 후보:
 
-- `엘다라 [support hold]`
-- `실비아 [deferred expansion hold]`
+- `엘다라 [support_hold]`
+- `실비아 [deferred_expansion_hold]`
 
 주의:
 
-- `엘다라`는 에테르 `support hold`이며, 큐 9에서 루미라 대현자/고대 정령어 권위자 근거가 보강됐다. 단, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
-- `실비아`는 키르케 계열 `deferred expansion hold`이며 범대륙 후기 확장 구역이라 후순위다.
+- `엘다라`는 에테르 `support_hold`이며, 큐 9에서 루미라 대현자/고대 정령어 권위자 근거가 보강됐다. 단, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
+- `실비아`는 키르케 계열 `deferred_expansion_hold`이며 범대륙 후기 확장 구역이라 후순위다.
 
-## Hard Holds
+## Policy Guard Snapshot
 
-현재 확정 금지 후보:
+- `크림슨` 대표 named notable 카드들은 이제 `tribe_clan core`와 `sage/artisan thin-support` 범위에서만 읽고,
+  전통 귀족국가형 `state_house strong` 근거로 올리지 않는다.
+- `해양` 자유도시 오염 네트워크 카드들은 `urban_market / shadow_port / debt-enforcement` 축으로만 읽고,
+  `토착 공동체층` 본체 근거로 올리지 않는다.
+- `오벨리스크` 제도 카드들은 `nontraditional elite thin-support` 또는 `dark institution` 범위에서만 읽는다.
+- `실비아`는 5대륙 본선 증거가 아니라 `deferred_expansion_hold` 내부 카드로만 유지한다.
 
-- `벨라나`, `아리안`: SS/S급 현자 회의 신호
-- `드락사르`, `카사르`: 공병대장/예언자/영웅록 신호
+## Hard Hold Snapshot
+
+확정 금지 후보 snapshot:
+
+- `벨라나`, `아리안`: SS/S급 현자 회의 신호, `벨라나 > 아리안`
+- `드락사르`, `카사르`: 공병대장/예언자/영웅록 신호, `카사르 > 드락사르`
 - `세리오스`: 직접 14 파일 확인
 - `이소벨`: SS급 재무 실권자
 - `아이기스`: 인물/성씨/아이템/결계 충돌
 - `메라`: 라일윈드/실피드 이름 드리프트
+- `드라이덴 / 메라 / 실라스 나이트쉐이드`: `great_druid_hold / spirit_envoy_hold / shadow_crow_hold`
 - `Ravenfell`: `맥스웰 레이븐펠` 주앵커, `마르쿠스 레이븐펠` 구형/로컬 표기, `마르쿠스 코르부스` 14 별도 개체
 - `Isador`: `이사도르 템페스트`와 `이사도르 솔레아` 병합 금지
 - `실라스`: 블랙쏜/나이트쉐이드 세력 앵커 충돌
 - `프리야 / 카이라`: 주술사 원로단 고위 지도부 신호
 - `해양 실비아`: 기존 실비아 계열과 병합 금지
 - `크리스토퍼 델마르`: 장물 금융 후보지만 대경매장 주인/항해사 길드장 이름으로 오인 금지
+- `래퍼티 / 대런 / 칼리스트 / 엘라라`: `library_core_hold / archive_admin_hold / tower_seer_hold / bardic_archive_hold`로 재잠금
+- `엘드린 / 네리사 / 다미엔 / 요한`: `white_tower_barrier_hold / abyss_blood_taboo_hold / shadow_intelligence_hold / holy_barrier_hold`로 재잠금
 
-## Next Orchestrated Move
+## Orchestrated Move Snapshot
 
-다음 배치는 `15번` 후보를 더 늘리는 작업이 아니다.
-이제 가장 안전한 `크림슨 안정 3명`의 actual draft package freeze를 문서 레벨에서 맞추는 작업이다.
+오케스트라는 `15번` 후보를 더 늘리지 않는다.
 
-이유:
+이 기준에서 하는 일은 아래 세 가지다.
 
-- 크림슨 안정 후보와 경계 후보 분리는 이미 끝났다.
-- 에테르는 sidecar, search queue, index draft, bridge 동기화까지 한 번 닫혔다.
-- `해양`의 `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`, `심연 장부관` 1차 read-only pass는 direct holder 없이 닫혔다.
-- 같은 대륙 안의 `항해사 길드장`, `마스터 쉽라이트`, `수석 기상관`, `대경매장 주인`, `은행장`, `세관장`도 direct holder 없이 닫혔다.
-- 이번 턴에서 `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`도 direct holder 미확인 role slot으로 닫혔다.
-- 이제 해양 unnamed slot read-only pass는 1차 마감 상태다.
-- `오벨리스크`는 `기록의 수호자`, `오벨리스크 관측대장`이 각각 `베스 / 이안`과 강하게 연결되지만, 전용 유닛 문서가 `지도자 미정`이라 direct holder 회수로는 닫지 않았다.
-- `기억 경매장 중개자`, `사후 서기관`은 direct named holder 없이 role slot confirmed로 잠갔다.
-- 이번 턴에서 `신성 기록소 관리 사제`, `묘역 감독관`도 single named holder 없이 role slot 유지로 닫혔다.
-- `기억 지기`는 `렌 / 라일` two-holder 구조를 확인했고, `심연 계약 중개자`는 `루가르` strong-link verify 상태로 잠갔다.
-- 따라서 오벨리스크 핵심 slot의 read-only narrowing은 2차까지 한 번 닫혔고, 프로스트를 실제 mainline으로 올리는 편이 자연스럽다고 판정했다.
-- `프로스트`는 risk가 크지만, `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`을 place-first role slot pass로 읽으면 오염을 통제할 수 있다는 점을 이번 배치에서 확인했다.
-- 이번 턴의 1차 narrowing에서는 다섯 항목 모두 direct named holder 없이 role slot 유지로 닫혔다.
-- 이번 턴에서 `아이스포지 병기소 장인`도 named artisan 없이 workshop slot으로 닫혔다.
-- 따라서 프로스트 unnamed slot 6개 read-only narrowing은 한 번 closure 상태로 본다.
-- 이 상태에서 다음 ROI는 새 대륙 narrowing보다 stable 15 triad의 actual draft bridge / routing sync를 정리하는 쪽이다.
-- `엘다라`는 `named_notable_candidate / verify_source_before_profile` 상태의 `support hold`지만 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
-- 이번에도 새 이름을 발명하지 않고, 존재 증거가 없으면 role slot 상태를 유지한다.
-- 실제 원고 입력이 생기면 이 확인보다 live handoff case가 우선한다.
+1. stable triad package freeze를 닫힌 상태로 유지한다.
+2. freeze 밖 hold queue와 Ether hold cluster를 closure 상태로 유지한다.
+3. `Section 8 -> 15 carryover watch`가 summary / bridge / queue 문서에서 같은 문장으로 읽히게 유지한다.
+
+Reference ROI:
+
+- `크림슨` 안정 3명은 frozen reference set으로 유지한다.
+- `엘다라`는 `support_hold`로만 유지한다.
+- `실비아`는 `deferred_expansion_hold`로만 유지한다.
+- 새 이름을 만들지 않고, 증거가 없으면 role slot 상태를 유지한다.
+- 실제 원고 입력이 생기면 summary drift보다 live handoff case가 우선한다.

@@ -1,7 +1,7 @@
 # Section 15 Ether Named Candidate Search Queue
 
 이 문서는 에테르 장소-기관 슬롯에 실제 개인명 후보가 있는지
-다음 배치에서 검색할 순서를 고정한다.
+이전에 어떤 순서로 확인했고 지금 무엇을 reference로 유지하는지 고정한다.
 
 원칙:
 
@@ -34,12 +34,13 @@
 | 8 | `그늘항로 기록관 / 서약문 보관관` | `포트 넥서스`, `머시너리 게이트`, `자유도시연합` | `포트 넥서스`, `제3 부두`, `검은 고양이`, `머시너리 게이트`, `계약문` | 자유도시 운영층 후보 확인 |
 | 9 | `정령서약 해석자 / 정령묘 이름새김꾼` | `루미라`, `잠든 정령의 숲`, `정령의 무덤` | `루미라`, `엘다라`, `정령 계약`, `잠든 정령의 숲`, `정령의 무덤`, `이름 새김` | 엘다라 후보 보강 또는 이름 없는 슬롯 유지 |
 
-## Current Decision
+## Decision Snapshot
 
 에테르는 이번 큐에서도 새 이름을 만들지 않는다.
 
-다음 배치는 위 검색어로 `working/imports`와 `audit` 안의 현재 작업본을 먼저 확인한다.
-결과가 없으면 원본 전체를 읽기 전용으로 검색하되, 원본 파일은 수정하지 않는다.
+현재 이 문서는 새 검색 배치를 여는 기준서가 아니라,
+위 검색어와 결과를 reference backlog로 유지하는 장부다.
+추가 검색은 live handoff나 새 증거 drift가 있을 때만 다시 연다.
 
 ## Search Progress
 
@@ -74,4 +75,5 @@
 | `대현자 보좌 기록관` | direct holder 미확인. `엘다라` 및 `엘라라 문힘`과 역할 축이 다르다. | `need_named_candidate` |
 | `침묵의 감시자` | 개인명 미확인. `Silent Watchers` 집단 직함으로만 확인됨. | `need_named_candidate` |
 
-Ether low-priority auxiliary slot 9개 read-only closure가 완료됐다.
+Ether low-priority auxiliary slot 9개 read-only closure가 완료됐고,
+현재는 이 결과를 closure sync / carryover watch 아래 reference로 유지한다.

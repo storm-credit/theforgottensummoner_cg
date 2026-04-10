@@ -96,10 +96,9 @@
 | 봉인 제단 | `spatial_pressure`, `moral_pressure` | `FS_Place_Function_Register.md` |
 | Named Notables 조언 장면 | `identity_pressure`, `truth_question` | `FS_Story_Act_Question_Register.md` |
 
-## Conductor Rule
+## Conductor Reading Rule
 
 설정 설명만 있는 장면은 보류한다.
 
 그 설정을 말하는 순간
 누군가의 선택, 관계, 시간, 비용이 달라져야 한다.
-

@@ -13,7 +13,7 @@
 
 ## Crosswind Port Slots
 
-| Slot | Display Candidate Direction | Anchor | Story Function | Current State |
+| Slot | Display Candidate Direction | Anchor | Story Function | State Snapshot |
 |---|---|---|---|---|
 | `마스터 쉽라이트` | `선공장 장인장 / 배말 장인` | `크로스윈드 포트 / 제1 국영 조선소` | 선박 개조, 수리, 배의 목소리를 듣는 노인 | `need_named_candidate` |
 | `수석 기상관` | `바람탑 관측장 / 풍향 예언관` | `바람의 탑` | 기상 예보, 출항권, 폭풍 조작 | `need_named_candidate` |
@@ -22,7 +22,7 @@
 
 ## Port Aurelion Slots
 
-| Slot | Display Candidate Direction | Anchor | Story Function | Current State |
+| Slot | Display Candidate Direction | Anchor | Story Function | State Snapshot |
 |---|---|---|---|---|
 | `수석 무역왕` | `대상왕 / 황금의 의장` | `무역왕의 궁전 / 7인의 무역왕` | 도시 실권자, 거래의 산, 넘어야 할 경제 권력 | `need_named_candidate` |
 | `대경매장 주인` | `대경매장 감정관 / 황금망치 주인` | `대경매장` | 희귀 아이템 감정, 정보상, 경매 입찰 게이트 | `need_named_candidate` |
@@ -39,7 +39,7 @@
 두 슬롯은 모두 감정 기능을 가지지만
 무대와 사회적 계층이 다르다.
 
-## Next Search Terms
+## Search Term Snapshot
 
 | Slot | Search Terms |
 |---|---|
@@ -54,7 +54,7 @@
 ## Conductor Decision
 
 해양 15 Named Notables는
-지금 당장 기존 named candidate를 확정하기보다
+기존 named candidate를 바로 확정하기보다
 아래 두 도시 슬롯을 먼저 보존한다.
 
 - `크로스윈드 포트`: 조선, 기상, 항해, 폭풍 구조.
@@ -70,4 +70,4 @@
 
 - `마스터 쉽라이트`, `수석 기상관`, `항해사 길드장`, `스톰 체이서 대장`은 모두 개인명 없이 역할 슬롯으로 유지한다.
 - `수석 무역왕`, `대경매장 주인`, `은행장`, `세관장`도 개인명 없이 역할 슬롯으로 유지한다.
-- 이번 배치에서 새 named candidate는 만들지 않는다.
+- 이 배치 snapshot에서는 새 named candidate를 만들지 않는다.

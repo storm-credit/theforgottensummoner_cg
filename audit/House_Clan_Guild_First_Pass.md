@@ -5,6 +5,7 @@
 - 원본은 수정하지 않았다.
 - 현재 판단은 `working/imports`에 이미 가져온 작업본과 `reference/manifests`만 기준으로 한다.
 - 강한 확정 대신 `지금 증거로 말할 수 있는 범위`만 적는다.
+- 결손층 정책 잠금은 `audit/Five_Continent_Missing_Layer_Policy_Lock.md`를 우선 따른다.
 
 ## Main Conclusion
 
@@ -75,7 +76,7 @@
 
 ### Frost Continent
 
-- 상태: `house thin / tribe enough / guild enough`
+- 상태: `state_house thin-support / tribe enough / guild enough`
 - 근거:
   - `working/imports/phase3_section8_frost_frostborn_tribes/프로스트본 연합 (Frostborn Tribes).md`
   - `working/imports/phase3_section8_frost_frostborn_tribes/3. 부족 (Tribes)`
@@ -83,12 +84,12 @@
   - `working/imports/phase3_section8_frost_frostborn_tribes/14. 생활양식/14-1. 귀족과 평민의 식생활 차이.md`
 - 판단:
   - 부족층은 강하게 보인다.
-  - `아이스블러드`, `울프스피릿`, `스톰베인`, `프리즌윈드` 같은 클랜 상층 덕분에 가문층은 `thin`까지 올릴 수 있다.
+  - `아이스블러드`, `울프스피릿`, `스톰베인`, `프리즌윈드` 같은 클랜 상층은 분명하지만, 이는 곧바로 정주 귀족 질서가 아니라 `state_house thin-support` 범위까지만 허용한다.
   - 상인 협회, 방어 협회, 얼음 독점단 같은 조직이 보여 길드층도 `enough`로 본다.
 
 ### Obelisk Continent
 
-- 상태: `house thin / tribe missing / guild enough`
+- 상태: `nontraditional_elite thin-support / tribe missing / guild enough`
 - 근거:
   - `working/imports/phase5_obelisk_trade_flow.md`
   - `working/imports/phase5_section8_obelisk_kingdom_of_dead/망자의 왕국 (Kingdom of the Dead).md`
@@ -117,15 +118,16 @@
 
 ## Conductor Decision
 
-다음 작업은 `새 import`보다 `결손층 보강 순서 확정`이 더 중요하다.
+이 문서는 이제 `결손층을 새로 발명하는 출발점`이 아니라
+`어느 대륙의 얇은 층이 어떤 정책 범위로 잠겼는지`를 확인하는 기준표로 읽는다.
 
-1. 에테르의 부족 / 변방 공동체 후보 찾기
-2. 크림슨의 가문 / 길드 후보 찾기
-3. 프로스트의 가문 / 길드 후보 찾기
-4. 오벨리스크의 전통 가문층을 더 볼지, 현재의 `비정통 엘리트 구조`를 정식 축으로 인정할지 결정
-5. 해양의 부족 / 토착 공동체 후보 찾기
+즉 다음 작업은:
 
-이 순서면:
+1. 에테르 outside `정령연합` 부족층을 `frontier echo / border support` 범위 안에서만 수집
+2. 크림슨의 국가형 가문층을 `씨족형 지배층과 분리된 thin-support` 범위 안에서만 수집
+3. 프로스트의 정주 귀족층을 `요새/보급/병기소 운영층` 범위 안에서만 수집
+4. 오벨리스크의 가문/왕국 신호를 `nontraditional elite thin-support` 우선으로 재확인
+5. 해양의 토착 공동체층을 `support range` 안에서만 보존
 
-- 이미 확보한 대륙 강점을 유지한 채 결손층만 메울 수 있고
-- `8번 세력 아카이브`와 `14/15번 인물 축` 연결 작업도 더 안정적으로 이어진다.
+즉 결손층은 `확장 과제`가 아니라
+이미 잠근 정책 범위 안에서 증거를 더 모으는 후속 과제로 본다.

@@ -12,6 +12,17 @@
 반면 독립 `부족층`은 정령연합 쪽에서만 부분적으로 강하게 보이고,
 대륙 전체 공통 축으로는 아직 약하다.
 
+## Spine Lock
+
+에테르의 현재 표준 읽기는 아래처럼 잠근다.
+
+- 주 spine: `state_house`
+- 보조 spine: `guild_market`
+- 특수 예외 spine: `tribe_clan` only inside `Spirit Union`
+
+즉 에테르는 `가문과 도시 질서가 중심인 대륙`이고,
+정령연합만 그 안에서 별도의 부족 질서를 강하게 보존하는 예외 축이다.
+
 ## 1. Saint Haven
 
 - 중간 사회층 성격:
@@ -82,6 +93,40 @@
   - `working/imports/phase3_section8_ether_spirit_union/정령연합 (Spirit Union).md`
   - `working/imports/phase3_section8_ether_spirit_union/8. 경제 및 상업 (Economy & Commerce)`
 
+## Closure Table
+
+| Target | state_house | guild_market | tribe_clan | Conductor Note |
+|---|---|---|---|---|
+| `성국` | `strong` | `medium` | `weak` | 성직 지배와 귀족 가문 질서가 core다. |
+| `왕국연합` | `strong` | `medium-strong` | `weak` | 봉건 귀족, 상업 귀족, 금융 가문이 동시에 선다. |
+| `자유도시연합` | `weak-traditional` | `very strong` | `weak` | 전통 귀족보다 도시 금융과 길드마스터가 상층이다. |
+| `마법협회` | `weak` | `strong` | `absent` | 귀족 질서보다 연구 질서와 후원 구조가 우세하다. |
+| `정령연합` | `weak` | `thin-medium` | `strong` | 에테르의 일반 규칙이 아니라 예외적 부족축으로 읽는다. |
+
+## Separation Rule
+
+앞으로 에테르 `Section 8`을 읽을 때는 아래를 분리한다.
+
+1. `대륙 공통 규칙`
+2. `정령연합 특수축`
+
+현재 확보 근거로는
+에테르 전체를 `state_house + guild_market` 대륙으로 읽는 것이 맞고,
+정령연합만 `tribe_clan strong` 예외로 둔다.
+
+따라서 숲, 정령, 수인족, 부족장, 자치 구역 신호가 보여도
+곧바로 에테르 전체의 부족층을 `enough`로 올리지 않는다.
+
+먼저 아래 질문을 통과해야 한다.
+
+- 그 신호가 정령연합 바깥에서도 반복되는가
+- 왕국연합 변방이나 국경 공동체에도 같은 생활 단위가 보이는가
+- 대륙 공통 중간 사회층으로 재등장하는가
+
+셋 중 다수가 없으면
+`정령연합 특수축`으로만 기록하고
+에테르 전체 부족층은 `thin`을 유지한다.
+
 ## Conductor Reading
 
 에테르 대륙은 한 대륙 안에서도 중간 사회층의 결이 다르다.
@@ -94,8 +139,8 @@
 즉 에테르는 `부족층이 얇다`기보다,
 `정령연합을 제외하면 대륙 공통 중간층이 가문/길드 쪽으로 치우친다`가 더 정확하다.
 
-## Next Move
+## Conductor Decision
 
-1. `Continents_Framework.md`에 에테르의 내부 결 차이를 짧게 반영
-2. `Spatial_Backlog.md`에 에테르의 수도 / 항구 / 연구 거점 / 숲 거점을 메모
-3. 해양 또는 오벨리스크를 다음 import 대상으로 골라 대륙 간 균형을 맞춘다
+- 이 문서는 `에테르 spine sample`로 유지한다.
+- `정령연합 = 에테르 전체 부족층의 증거`가 아니라 `에테르 내부 특수축`이라는 판정을 잠근다.
+- 다음 실제 감사는 `프로스트 / 프로스트본 연합`을 같은 형식으로 닫아 비교 기준을 늘리는 것이다.

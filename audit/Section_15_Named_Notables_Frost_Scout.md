@@ -11,11 +11,11 @@
 대신 `전승`, `빙하 성소`, `공성 공방`, `묘지 기록`, `오로라 예언`처럼
 명사형 NPC가 설 수 있는 역할 슬롯이 강하게 보인다.
 
-따라서 현재 판정은 `thin with strong role slots`로 둔다.
+따라서 recorded 판정은 `thin with strong role slots`로 둔다.
 
 ## Named Boundary Candidates
 
-| Name | Anchor | Signal | State Label | Conductor Judgment |
+| Name | Anchor | Signal | State Label | Recorded Judgment |
 |---|---|---|---|---|
 | `시그리드 프로스트하트` | `퍼마프로스트 공성단` | 공성단장, 냉기 마법과 공학 기술, 방어 시설/공성 병기 제작 축 | `verify_before_15` | 장인/공방주/전술 기술자 명사 가치가 크지만, 지휘관 신호도 강하므로 14 확인 전 15 확정 금지. |
 | `마리안 더 윈터콜러` | `오로라 평원 / 정령술사 축` | A급 정령술사, 오로라 평원과 성소 축에 반복 신호 | `verify_before_15` | 명사형 주술사 가치가 있으나 A급 영웅 신호가 있어 14 확인이 먼저다. |
@@ -28,7 +28,7 @@
 아래 항목은 이름을 새로 만들거나 원본에서 추가 확인하기 전까지
 `인물`이 아니라 `역할 슬롯`으로만 둔다.
 
-| Role Slot | Anchor | Story Use | Current Action |
+| Role Slot | Anchor | Story Use | Recorded Action |
 |---|---|---|---|
 | `전승 보존회 원로 사냥꾼` | `전승 보존회 / 오로라 평원` | 이동 경로, 생존 기술, 구전 전승을 사람 얼굴로 보여주는 슬롯 | `need_named_candidate` |
 | `묘지기 장로` | `얼음무덤 언덕` | 죽은 자의 기록, 족보, 잊힌 전설과 유물 단서 제공 | `need_named_candidate` |
@@ -45,14 +45,14 @@
 - `퍼마프로스트 요새 / 아이스포지 병기소`: 시그리드, 공성단, 냉기 병기 제작 축.
 - `빙하의 성소`: 주술사 원로단, 프리야, 카이라, 마리안 계열 검증 축.
 
-## Conductor Rule
+## Conductor Reading Rule
 
 프로스트는 이름을 억지로 만들지 않는다.
 
-현재는 `시그리드`, `마리안`, `울프릭`을 `verify_before_15`로 두고,
+reference상 `시그리드`, `마리안`, `울프릭`을 `verify_before_15`로 두고,
 나머지는 `role slot needing named candidate`로 관리한다.
 
-다음 배치에서는 해양도 같은 방식으로
+후속 reference에서는 해양도 같은 방식으로
 `항로 기록관`, `신탁관`, `장물 감정사`, `조선 장인` 슬롯을 분리한다.
 
 ## Place / Institution Sidecar

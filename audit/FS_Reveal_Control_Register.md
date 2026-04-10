@@ -45,7 +45,7 @@
 
 ## Seed Reveals
 
-| Reveal ID | Hidden Information | Category | Current State | Possible Payoff | Linked Register |
+| Reveal ID | Hidden Information | Category | Recorded State | Possible Payoff | Linked Register |
 |---|---|---|---|---|---|
 | `FS-RV-001` | 자유도시 그림자 경제의 실제 깊이 | `institution` | `hinted` | 세실리아의 공적 질서 인식 변화 | `FS_Story_Act_Question_Register.md` |
 | `FS-RV-002` | 검은 경매소 진품 목록 | `artifact` | `hidden` | 진품/가품 갈등 회수 | `FS_Foreshadow_Payoff_Register.md` |
@@ -53,7 +53,7 @@
 | `FS-RV-004` | 봉인 수호단 공식 전승과 실제 희생의 차이 | `institution` | `hidden` | 오벨리스크 축 재맥락화 | `FS_Institution_Memory_Register.md` |
 | `FS-RV-005` | Named Notables가 가진 저술/감정/제작법의 진짜 출처 | `identity`, `artifact` | `partial_reveal` | 조언자가 아니라 복선 소유자로 전환 | `FS_Asset_Secret_Register.md` |
 
-## Conductor Rule
+## Conductor Reading Rule
 
 설정집에 적혀 있다고 해서
 소설 초반에 모두 공개하지 않는다.
@@ -65,4 +65,3 @@
 - 소문과 사실의 차이
 - 15번 명사형 영웅의 과거 역할
 - 세력의 숨은 채무 관계
-

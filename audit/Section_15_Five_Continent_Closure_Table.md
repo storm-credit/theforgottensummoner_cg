@@ -6,7 +6,7 @@
 
 - 14번 영웅과 15번 명사형 인물을 섞지 않는다.
 - 안정 15 후보, 경계 후보, 이름 없는 역할 슬롯을 한눈에 본다.
-- 다음 배치가 새 이름 창작이 아니라 근거 기반 회수로 진행되게 한다.
+- watch cycle이 새 이름 창작이 아니라 근거 기반 유지로 읽히게 한다.
 
 ## Closure Summary
 
@@ -18,9 +18,9 @@
 | `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | 오라클, 항로/해도, 조선소, 감정사, 금고, 경매장, 은행, 세관, 무역왕, 폭풍추적대, 검은 돛 조선공, 진혼 악기, 유령선 기록 슬롯. `top 5 slot`, `city-role batch`, `tail unnamed slot batch` read-only pass 완료 | `closed_for_now` |
 | `오벨리스크` | 없음 | `바리온`, `아이기스`, `카론`, `베스`, `이안`, `카트린`, `레보니아`, `우로스`, `세르반`, `레티시아`, `렌`, `라일`, `루가르` | `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 slot 유지. `기억 지기 = 렌/라일`, `심연 계약 중개자 = 루가르 strong link` | `closed_for_now` |
 
-## Current Stable Split
+## Stable Split Snapshot
 
-현재 실제 15번 시트 시험에 바로 쓰는 축과 hold 축은 분리한다.
+15번 시트 시험에 바로 쓰는 축과 hold 축은 분리한다.
 
 Stable Triad Actual Draft Package Freeze:
 
@@ -30,13 +30,13 @@ Stable Triad Actual Draft Package Freeze:
 
 Hold Queue:
 
-1. `엘다라 [support hold]`
-2. `실비아 [deferred expansion hold]`
+1. `엘다라 [support_hold]`
+2. `실비아 [deferred_expansion_hold]`
 
 주의:
 
-- `실비아`는 키르케/범대륙 후기 확장 축의 `deferred expansion hold`라 메인 진행 후순위다.
-- `엘다라`는 에테르 정령연합의 `support hold`지만, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
+- `실비아`는 키르케/범대륙 후기 확장 축의 `deferred_expansion_hold`라 메인 진행 후순위다.
+- `엘다라`는 에테르 정령연합의 `support_hold`지만, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
 
 ## Hard Hold Clusters
 
@@ -48,6 +48,17 @@ Hold Queue:
 | `이름 충돌` | `실비아`, `아이기스`, `메라`, `Ravenfell`, `실라스`, `Selena`, `Valerius`, `Drake` 등 병합 금지. |
 | `개인명 없는 역할 슬롯` | 새 이름을 만들지 않고 장소-기관 슬롯으로 보존. |
 
+## Policy Carryover Snapshot
+
+- `크림슨` 대표 named notable 카드군은 씨족 중심 질서와 현자/장인/전승 상층만 보강하고,
+  `state_house strong` 근거로 올리지 않는다.
+- `해양` 자유도시 프로필 카드군은 도시-항만 그림자경제와 부채/암시장/검은항로를 보강할 뿐,
+  `토착 공동체층` 본체 근거로 쓰지 않는다.
+- `오벨리스크` 제도 카드군은
+  `nontraditional elite thin-support`와 `dark institution` 읽기 아래서만 유지한다.
+- `범대륙 / 후기 확장`의 `실비아`는 메인 5대륙 closure 표에 섞지 않고
+  `deferred_expansion_hold`로만 보존한다.
+
 ## Routing Rule
 
 앞으로 15번 후보는 아래 순서로만 처리한다.
@@ -58,22 +69,24 @@ Hold Queue:
 4. `named_notable_candidate`, `verify_before_15`, `need_named_candidate`, `keep_14` 중 하나로 상태 라벨 부여.
 5. 안정 후보만 15 Named Notables 개별 시트로 승격.
 
-## Next Orchestrated Move
+## Orchestrated Move Snapshot
 
-다음 큰 흐름은 전역 closure sync를 바탕으로
-`크림슨 안정 3명`의 실제 15 작업선을 재가동하는 것이다.
+큰 흐름 reference는
+전역 closure state를 같은 문장으로 유지하는 것이다.
 
-이유:
+점검 순서는 아래처럼 잠근다.
 
-- Ether low-priority auxiliary slot 9개 closure와 압축표 동기화가 완료됐다.
-- `해양`의 `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`, `심연 장부관`은 direct holder 없이 1차 pass가 닫혔다.
-- `항해사 길드장`, `마스터 쉽라이트`, `수석 기상관`, `대경매장 주인`, `은행장`, `세관장`도 direct holder 없이 city-role batch가 닫혔다.
-- 이번 턴에서 `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`도 direct holder 미확인 role slot으로 닫혔다.
-- 따라서 해양 unnamed slot read-only pass는 1차 마감 상태다.
-- `오벨리스크`는 2차 narrowing에서 `신성 기록소 관리 사제`, `묘역 감독관`도 direct holder 없이 role slot 유지로 닫았다.
-- `기억 지기`는 `렌 / 라일` 복수 existing holder, `심연 계약 중개자`는 `루가르` strong-link verify 상태로 읽힌다.
-- 따라서 오벨리스크 핵심 slot read-only narrowing은 2차까지 한 번 닫혔고, 프로스트를 mainline으로 올리는 편이 효율이 높다고 판정했다.
-- `프로스트`는 원로단/대예언자/장로 신호가 강하지만, `오로라 평원 / 얼음무덤 언덕 / 푸른 폭풍 요새 / 겨울회의 의장막 / 퍼마프로스트 요새 / 아이스포지 병기소` 앵커 기준의 place-first role slot pass로 오염을 통제할 수 있다는 점을 확인했다.
-- 이번 턴에 `아이스포지 병기소 장인`까지 named holder 없이 role slot으로 닫혀 프로스트 unnamed slot 6개 closure가 한 번 완료됐다.
-- 따라서 다음 batch는 새 인물 회수가 아니라 `울프가르`, `에리온`, `오그마`의 actual draft package freeze다.
-- `엘다라`는 `support hold`로 유지하되 정령연합 전체 14 확인 전 Hard Canon 승격은 보류한다.
+1. `Status Compass`
+2. `Five Continent Closure Table`
+3. `Coverage Matrix`
+4. `Continent Synthesis`
+5. `Bridge / Compatibility Audit / Stable Candidate Index`
+6. Ether hold cluster 3종
+7. `P2 place-pressure` owner drift
+
+Reading snapshot:
+
+- stable triad actual draft package freeze는 닫힌 상태로 유지한다.
+- `엘다라`는 `support_hold`, `실비아`는 `deferred_expansion_hold`로만 유지한다.
+- `해양`, `오벨리스크`, `프로스트`의 slot narrowing 결과는 새 batch가 아니라 closure state로 읽는다.
+- Ether hold queue는 한 번 closure 상태로 읽고, 새 증거 전까지 확장하지 않는다.

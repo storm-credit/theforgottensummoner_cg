@@ -9,7 +9,7 @@
 - 유명하다고 무조건 `14`에 넣지 않는다.
 - 명사형 영웅이지만 서사 중심 영웅이 아니면 `15 Named Notables` 후보가 될 수 있다.
 - 조직 실무층이면 `15 Operational Lines` 후보가 된다.
-- 현재 작업본에서 14 신호가 보이면 `verify_before_15`로 둔다.
+- 작업본 기준 14 신호가 보이면 `verify_before_15`로 둔다.
 
 ## Decision Labels
 
@@ -22,11 +22,11 @@
 | `hold_for_dual_review` | 14와 15 가치가 모두 커서 보류 |
 | `conflict` | 소속, 문맥, 명칭 충돌이 있어 별도 등록 필요 |
 
-## Tier A. Immediate Boundary Review
+## Tier A. Boundary Review Snapshot
 
 먼저 검증할 인물이다.
 
-| Name | Current Signal | Likely Route | Verification Need | Current Action |
+| Name | Recorded Signal | Likely Route | Verification Need | Recorded Action |
 |---|---|---|---|---|
 | `드락사르 블레이즈포지` | 연금술 공방 / A급 / 공병대장 / 신무기 테스트 | `15 Named Notables` 또는 `keep_14` | 14 독립 영웅 시트 존재 여부, 액트 중심성 확인 | `verify_before_15` |
 | `멜리산드르` | S+급 수석 대약제사 / 키르케 최고위 | `keep_14` 또는 `15 Named Notables` | 중심 영웅인지, 조직 명사인지 확인 | `hold_for_dual_review` |
@@ -35,7 +35,7 @@
 | `레이나 브라이트헤븐` | 자유도시 본문에서 영웅식 직접 호명 | `keep_14` 가능성 높음 | 14 독립 시트 확인 | `verify_before_15` |
 | `이사벨 카르도` | 자유도시 본문에서 영웅식 직접 호명 | `keep_14` 가능성 높음 | 14 독립 시트 확인 | `verify_before_15` |
 
-### Immediate Review Evidence
+### Boundary Review Evidence Snapshot
 
 | Name | Evidence Found | Updated Judgment |
 |---|---|---|
@@ -59,7 +59,7 @@
 
 조직 실무층과 명사형 인물 사이에 있는 후보.
 
-| Name | Current Signal | Likely Route | Verification Need | Current Action |
+| Name | Recorded Signal | Likely Route | Verification Need | Recorded Action |
 |---|---|---|---|---|
 | `대런 크레센트` | 마법협회 행정 실권자 반복 등장 | `15 Operational Lines` 또는 `15 Named Notables` | 협회 내 직능이 인물성보다 강한지 확인 | `verify_before_15` |
 | `칼레스트 나이트쉐이드` | 집행부 책임자 / 비밀 유지 축 | `15 Operational Lines` 또는 `keep_14` | 집행 영웅인지 실무 권력자인지 확인 | `verify_before_15` |
@@ -68,9 +68,9 @@
 
 ## Tier C. Named Notable Stable Candidates
 
-현재는 15 Named Notables 쪽이 더 자연스러운 후보.
+reference상 15 Named Notables 쪽이 더 자연스러운 후보.
 
-| Name | Current Signal | Likely Route | Current Action |
+| Name | Recorded Signal | Likely Route | Recorded Action |
 |---|---|---|---|
 | `실비아` | 기록자 / 시약 계량관 | `15 Named Notables` | `promote_to_named_notables` |
 | `울프가르 드래곤포지` | 용의 대장장이 / 공방장 | `15 Named Notables` | `promote_to_named_notables` |
@@ -85,7 +85,7 @@
 `프로스트 / 해양 / 오벨리스크` 정찰에서 새로 확인된 경계 후보다.
 상세 배치는 `Section_15_Named_Notables_Recovery_Batch_01.md`에 둔다.
 
-| Name | Current Signal | Likely Route | Verification Need | Current Action |
+| Name | Recorded Signal | Likely Route | Verification Need | Recorded Action |
 |---|---|---|---|---|
 | `울프릭` | 빙하의 주술사 / 부족의 장로 / 전설 주술 영웅록 | `15 Named Notables` 또는 `keep_14` | 전설 영웅록 출처와 액트 중심성 확인 | `verify_before_15` |
 | `시그리드 프로스트하트` | 퍼마프로스트 공성단장 / 냉기 마법과 공학 기술 / 공성 병기와 방어 시설 제작 축 | `15 Named Notables` 또는 `keep_14` | 공성단장으로서 14 지휘관인지, 공방주/기술 명사인지 확인 | `verify_before_15` |
@@ -118,7 +118,7 @@
 `에테르` 스카우트에서 새로 확인된 경계 후보다.
 상세 근거는 `Section_15_Named_Notables_Ether_Scout.md`에 둔다.
 
-| Name | Current Signal | Likely Route | Verification Need | Current Action |
+| Name | Recorded Signal | Likely Route | Verification Need | Recorded Action |
 |---|---|---|---|---|
 | `대런 크레센트` | 마법 서고단 대표 / 부탑주 / 협회 행정 실권자 | `15 Named Notables` 또는 `15 Operational Lines` 또는 `keep_14` | 14 독립 시트, Act 중심성, 서고단 기능 중심성 확인 | `verify_before_15` |
 | `엘드린 문브링어` | 백색의 탑 탑주 / 빛·치유·행정 학파 | `15 Named Notables` 또는 `keep_14` | 탑주가 14 핵심 영웅인지 학파 명사인지 확인 | `verify_before_15` |
@@ -142,7 +142,7 @@
 | `대런 크레센트`, `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`, `칼리스트`, `래퍼티 아르카디아`, `대사제 요한`, `엘라라 문힘`, `드라이덴 썬더루트`, `메라 라일윈드` | 현재 import된 `phase2_section14_current_ether`와 `phase1_section14_growth_aether` 범위에서는 직접 14 독립 파일명이 보이지 않는다. 다만 세력 문서 내부에서 탑주, 도서관장, 대사제, 노래술사, 장로, 외교관 신호가 있어 원본 전체 추가 확인이 필요하다. | `verify_before_15` 유지. 현재 범위만으로 15 확정하지 않는다. |
 | `마르쿠스 레이븐펠 / 맥스웰 레이븐펠 / 마르쿠스 코르부스` | phase3 흑색의 탑 문서에서는 `맥스웰 레이븐펠`이 현재 주앵커로 읽히고, `마르쿠스 레이븐펠`은 drift 표기로만 남는다. 동시에 `마르쿠스 코르부스`는 phase2 직접 14 영웅 파일이다. | `verify_before_15 / name_drift` 유지. `맥스웰` anchor 고정, `마르쿠스 코르부스` merge-ban. |
 | `이사도르 템페스트 / 이사도르 솔레아` | phase3 청색의 탑 문서에서는 `이사도르 템페스트`가 현재 탑주 축으로 읽히고, `이사도르 솔레아`는 phase2 직접 14 영웅 파일로 확인된다. | `verify_before_15 / name_split_hold` 유지. `템페스트`와 `솔레아`는 병합 금지. |
-| `래퍼티 아르카디아`, `대런 크레센트`, `칼리스트`, `엘라라 문힘` | 추가 검색에서 각각 성국 핵심표 A급 도서관장, 마법협회 A+ 부탑주/행정총무, 황금의 탑 A+ 대예언자, 정령연합 A급 기록/노래술사 및 전설 영웅록 신호가 확인된다. | 모두 `verify_before_15` 유지. 15 가치가 크지만 14급 신호가 강하다. |
+| `래퍼티 아르카디아`, `대런 크레센트`, `칼리스트`, `엘라라 문힘` | 추가 검색에서 각각 성국 핵심표 A급 도서관장 + `Rafferty / Raphael Arcadia` 드리프트, 마법협회 A+ 부탑주/행정총무/서고단 총괄, 황금의 탑 A+ 대예언자/전략 두뇌, 정령연합 A급 기록/노래술사 + 전설 영웅록 신호가 확인된다. | 모두 `verify_before_15` 유지. 세부 상태어는 `library_core_hold / archive_admin_hold / tower_seer_hold / bardic_archive_hold`로 정밀화한다. |
 
 ## Verification Steps
 
@@ -155,9 +155,9 @@
 5. 조직 기능을 대표하지만 개별 명사성보다 실무층이면 `15 Operational Lines`로 둔다.
 6. 판단이 갈리면 `hold_for_dual_review`로 남긴다.
 
-## Conductor Rule
+## Conductor Reading Rule
 
 경계 인물은 절대 성급히 이동하지 않는다.
 
-현재는 `cg` 안에서 큐와 판정표만 만들고,
+reference상 `cg` 안에서 큐와 판정표만 만들고,
 원본 저장소나 원본 클론은 수정하지 않는다.

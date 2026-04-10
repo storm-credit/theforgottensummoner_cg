@@ -1,4 +1,4 @@
-# Section 15 Ether Search Findings - Batch 09
+# Section 15 Ether Search Findings - Batch 09 Snapshot
 
 이 문서는 에테르 후보명 탐색 큐 9번,
 `루미라 / 엘다라 / 정령 계약 / 잠든 정령의 숲 / 정령묘 이름새김꾼` 축의 검색 결과다.
@@ -55,9 +55,9 @@
 `엘다라`는 현재 가장 안정적인 에테르 정령연합 15 Named Notables 후보지만,
 정령연합 전체 14 파일 확인 전에는 `Hard Canon`으로 고정하지 않는다.
 
-## Conductor Decision
+## Conductor Reading
 
-이번 검색에서도 새 15 확정자는 대량으로 만들지 않는다.
+이 검색 기록에서는 새 15 확정자가 대량으로 확인되지 않았다.
 
 - `엘다라`는 15 Named Notables 후보 유지.
 - `실바리온 엘도라`는 `keep_14`.
@@ -65,7 +65,7 @@
 - `정령서약 해석자`, `정령묘 이름새김꾼`은 개인명 없는 `need_named_candidate` 슬롯으로 유지.
 - `루미라`, `잠든 정령의 숲`, `정령의 무덤`은 장소-기관/의식 슬롯으로 보존.
 
-## Next Action
+## Queue Snapshot
 
 에테르 큐 1-9번을 한 번 압축한다.
 

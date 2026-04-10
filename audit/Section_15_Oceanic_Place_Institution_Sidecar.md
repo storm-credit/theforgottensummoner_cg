@@ -14,9 +14,15 @@
 `수석 오라클`, `항로 기록관`, `조선소 수석 공병`, `장물 감정사`,
 `심해 금고 보관인` 같은 슬롯을 장소-기관 축으로 먼저 묶는다.
 
+이 sidecar는
+`Five_Continent_Missing_Layer_Policy_Lock.md`의
+`Oceanic Indigenous Community Policy`를 우선 따른다.
+즉 항만/교단/함대 바깥 생활 흔적은 `support range`까지만 보존하고,
+토착 공동체층을 해양 대륙 공통 `tribe_clan` 근거로는 올리지 않는다.
+
 ## Place / Institution Slots
 
-| Place / Institution | Function Type | Candidate Slot | Story Use | Current State |
+| Place / Institution | Function Type | Candidate Slot | Story Use | State Snapshot |
 |---|---|---|---|---|
 | `오라클 바지` | `sanctuary`, `threshold` | `수석 오라클` | 이동형 예언 성소, 해상 재판, 거짓 신탁, 납치 훅 | `need_named_candidate` |
 | `골든 앵커 하버` | `market`, `threshold` | `항로 기록관 / 보험 서기관 / 항로 장부 보관인` | 보험 요율, 숨겨진 항로, 호위 스케줄, 황금 함대 재무 문맥 | `need_named_candidate` |
@@ -73,6 +79,20 @@
 | `심해 금고 보관인` | `심연 장부관` | 금고와 기록을 함께 묶는다. |
 | `진혼의 합창단 악기 보관인` | `진혼 악기지기` | 음악/성물 소진행을 간결하게 받는다. |
 | `죽은 선장의 항해일지 보관인` | `망자항해 기록관` | 유령선과 죽은 선장 기록 축을 유지한다. |
+
+## Section 8 Handoff Lock
+
+`Section_8_Place_Network_P2_Queue.md`와
+`Section_8_Place_Network_Handoff_Map.md` 기준으로
+해양 sidecar에는 아래 압력을 직접 보존한다.
+
+1. `바다의 교단`은 구조 라벨상 `section_style`로 유지한다.
+2. 다만 `신탁 방주`, `성지`, `감시 요새`, `항로 통제` 압력은
+   이 sidecar에서 `place-institution pressure`로 따로 받는다.
+3. 이 압력은 `tribe_clan` 근거가 아니다.
+4. 즉 해양에서는 `교단 구조`와 `성지/감시 장소망`을 같은 증거로 쓰지 않는다.
+5. `바다의 교단` 관련 `P2 place pressure`의 주 기록처는 이 sidecar다.
+6. 성지, 섬, 파도 신앙, 혈연 어휘가 보여도 토착 공동체 본체 증거로 승격하지 않는다.
 
 ## Conductor Note
 

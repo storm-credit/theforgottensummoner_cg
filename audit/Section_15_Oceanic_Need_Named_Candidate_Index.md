@@ -3,6 +3,12 @@
 이 문서는 해양 대륙에서 개인명이 아직 확인되지 않은
 유명 NPC형 역할 슬롯을 모아두는 색인이다.
 
+named-candidate active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Rule
 
 - 새 이름을 만들지 않는다.
@@ -65,7 +71,7 @@
 
 해양 슬롯은 도시 기능이 강하다.
 
-후속 작업은 다음 순서로 진행한다.
+후속 reference는 다음 순서로 읽는다.
 
 1. 포트/항구/선박/금고/경매장 장소 앵커 유지.
 2. 실제 개인명 확인.

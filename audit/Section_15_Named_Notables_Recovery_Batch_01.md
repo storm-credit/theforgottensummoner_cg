@@ -1,8 +1,14 @@
-# Section 15 Named Notables Recovery Batch 01
+# Section 15 Named Notables Recovery Batch 01 Snapshot
 
-이 문서는 `프로스트 / 해양 / 오벨리스크`에서 새로 확인한
+이 문서는 `프로스트 / 해양 / 오벨리스크`에서 확인된
 이름 있는 인물 신호를 `15 Named Notables` 후보로 바로 넣지 않고,
-먼저 14/15 경계값으로 분리하는 배치다.
+14/15 경계값으로 분리한 recovery snapshot이다.
+
+named-notables active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
 
 ## Rule
 
@@ -13,7 +19,7 @@
 
 ## Frost Candidates
 
-| Name | Anchor | Signal | Current Routing |
+| Name | Anchor | Signal | Recorded Routing |
 |---|---|---|---|
 | `울프릭` | `프로스트본 연합 / 전설적 주술 영웅록` | 빙하의 주술사, 부족의 장로 | `verify_before_15` |
 | `엘리나` | `프로스트본 연합 / 세력 핵심 영웅` | 빙하 마법사 히로인 | `keep_14_or_story_hero` |
@@ -26,7 +32,7 @@
 
 ## Oceanic Candidates
 
-| Name | Anchor | Signal | Current Routing |
+| Name | Anchor | Signal | Recorded Routing |
 |---|---|---|---|
 | `미다스` | `해양 / 황금 함대 / 전설 마도 영웅록` | 바다의 연금술사, 침묵의 금괴 | `verify_before_15` |
 | `실비아` | `해양 / 황금 함대 / 전설 마도 영웅록` | 해류의 지휘관, 은빛 항해사 | `verify_before_15 / name_collision` |
@@ -41,12 +47,12 @@
 해양 판정:
 
 - `미다스`는 연금술사 명사형 가치가 있지만 전설 영웅록 출처라 보류한다.
-- `실비아`는 키르케 계열, 마법협회 심연의 서고, 오벨리스크 망자의 왕국에도 변형이 있어 이름 충돌을 먼저 확인한다.
+- `실비아`는 키르케 계열, 마법협회 심연의 서고, 오벨리스크 망자의 왕국에도 변형이 있어 이름 충돌 확인이 선행 대상이다.
 - `코르테스`, `바르보사`, `로엔`은 직함부터 중심 영웅 신호가 강하다.
 
 ## Obelisk Candidates
 
-| Name | Anchor | Signal | Current Routing |
+| Name | Anchor | Signal | Recorded Routing |
 |---|---|---|---|
 | `바리온` | `오벨리스크 / 봉인 수호단 / 전설 마도 영웅록` | 금서의 룬마스터, 룬의 집행관 | `verify_before_15` |
 | `아이기스` | `오벨리스크 / 봉인 수호단 / 전설 마도 영웅록` | 절대 방벽의 현자, 장벽의 수호자 | `verify_before_15 / item_name_collision` |
@@ -60,16 +66,16 @@
 오벨리스크 판정:
 
 - `바리온`은 금서/룬마스터 명사형 가치가 가장 크다.
-- `아이기스`는 인물명, 성씨, 방패/결계/아이템명 사용이 모두 확인되므로 충돌 레지스터에서 먼저 분리한다.
+- `아이기스`는 인물명, 성씨, 방패/결계/아이템명 사용이 모두 확인되므로 충돌 레지스터 선분리 대상으로 기록한다.
 - `카론`, `모르투스`, `베리아`, `크루스`는 전설 영웅록 출처라 바로 15로 내리지 않는다.
 
 ## Collision Register
 
-이 배치의 핵심 충돌은 `Section_15_Named_Notables_Name_Collision_Register.md`에서 관리한다.
+이 배치의 핵심 충돌 기록은 `Section_15_Named_Notables_Name_Collision_Register.md`에 정리되어 있다.
 
-## Next Action
+## Queue Snapshot
 
-다음 단계에서는 아래 후보만 `15 Named Notables` 2차 경계 큐에 올린다.
+본 배치 기준 `15 Named Notables` 2차 경계 큐 대상은 아래 후보로 기록한다.
 
 1. `울프릭`
 2. `미다스`
@@ -78,13 +84,13 @@
 5. `아이기스`
 6. `카론`
 
-나머지는 우선 `keep_14_or_story_hero` 또는 `verify_before_15` 상태로 둔다.
+나머지는 `keep_14_or_story_hero` 또는 `verify_before_15` 유지 대상으로 기록한다.
 
 ## Additional Evidence Notes
 
-| Name | Extra Evidence | Updated Note |
+| Name | Extra Evidence | Snapshot Note |
 |---|---|---|
-| `울프릭` | 현재 작업본에서는 `프로스트본 연합 / 15-2. 전설적 영웅록`의 `빙하의 주술사` 항목으로 확인된다. | 1차 근거는 전설 영웅록 한 축이므로 15 확정 금지. |
+| `울프릭` | 작업본 기준 `프로스트본 연합 / 15-2. 전설적 영웅록`의 `빙하의 주술사` 항목으로 확인된다. | 1차 근거는 전설 영웅록 한 축이므로 15 확정 금지. |
 | `미다스` | `황금 함대 / 15-2. 전설적 마도 영웅록` 외에 `해양 상단 연합` 문서에서도 전설적인 대상으로 언급된다. | 반복 신호는 있으나 전설/신화 축이라 `verify_before_15` 유지. |
 | `바리온` | `봉인 수호단 / 15-2. 전설적 마도 영웅록`에서 금서의 룬마스터로 확인된다. | 명사형 가치가 크지만 전설 영웅록 출처라 보류. |
 | `카론` | `망자의 왕국 / 15-2. 전설적 마도 영웅록`과 `잊힌 자들의 연합 전술` 문서에서 모두 확인된다. | 반복 신호가 있어 중요하지만 전술/전설 축과 겹치므로 `verify_before_15` 유지. |

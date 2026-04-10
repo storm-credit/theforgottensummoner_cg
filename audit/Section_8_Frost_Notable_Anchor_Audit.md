@@ -45,6 +45,18 @@
 | `별의 샤먼` | `15-C / 프로스트 / 오로라 평원 / 주술층` | 오로라와 징조 해석 축을 여는 의식 슬롯. |
 | `아이스포지 병기소 장인` | `15-C / 프로스트 / 아이스포지 병기소 / 병기 전승층` | 냉기 병기와 공방 전승을 연결하는 장인 슬롯. |
 
+## P2 Place Pressure Lock
+
+`Section_8_Place_Network_P2_Queue.md`와
+`Section_8_Place_Network_Handoff_Map.md` 기준으로
+프로스트 anchor audit에서는 아래를 같이 잠근다.
+
+1. `오로라 평원`은 `memory_site + sanctuary` 압력이 강한 `P2` 후보다.
+2. `빙하의 성소`는 `sanctuary + ritual-validation` 압력이 강한 `P2` 후보다.
+3. 하지만 이 압력은 `프로스트본 연합` 구조 라벨을 `place_style`로 바꾸는 근거가 아니다.
+4. 즉 이 문서에서 관리하는 건 `장소가 먼저 여는 슬롯`이지,
+   세력 전체 구조 재분류가 아니다.
+
 ## Conductor Decision
 
 프로스트는 이번 배치에서도 새 15 확정자를 만들지 않는다.

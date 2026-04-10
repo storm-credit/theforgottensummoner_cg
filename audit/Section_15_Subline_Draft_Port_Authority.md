@@ -35,6 +35,12 @@
   - `땅굴쥐 운반책 계열`
   - `검은 부두 하역층`
 
+## Policy Subline Guard
+
+- 이 port authority subline은 자유도시 `urban_market`과 항만 `trade coordination`의 세분화로만 읽는다.
+- 입항 허가와 부두 검문은 항만 운영 질서의 기능 구획이지,
+  해양 `토착 공동체층` 본체나 전통 국가 관료제 복원 근거가 아니다.
+
 ## Conductor Note
 
 항만 계열은

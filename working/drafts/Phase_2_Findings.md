@@ -12,7 +12,7 @@
 - `자유도시연합 (Crossroad Cities)`
 - `정령 연합 (Spirit Union)`
 
-### Current Ether
+### Ether Snapshot
 
 - `1. 성국 (Saint Haven)`
 - `2. 왕국연합 (Allied Kingdoms)`

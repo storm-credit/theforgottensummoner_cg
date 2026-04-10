@@ -62,6 +62,12 @@
 - `금고 관리층`
   - 기축 통화 보관인 / 채권 관리자 계열
 
+## Policy Group Guard
+
+- 이 묶음은 오벨리스크형 `nontraditional elite thin-support`와 금융 통제 제도를 보강하는 그룹이다.
+- 다만 이를 전통 귀족국가형 `state_house strong` 복원 근거로 읽지는 않는다.
+- 압류, 금고, 채권, 유통 통제는 모두 비정통 상층 제도와 강제 금융 장치의 증거로만 읽는다.
+
 ## Relation Hooks
 
 - `칼리크 디트리히`

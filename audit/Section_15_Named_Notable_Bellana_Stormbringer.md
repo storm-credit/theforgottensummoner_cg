@@ -38,6 +38,13 @@
   - `FS_Place_Function_Register.md`
   - `FS_Story_Act_Question_Register.md`
 
+## Policy Guard
+
+- 벨라나의 `대주술사 / 현자 회의 / 본부족 정신적 지도자` 신호는
+  크림슨의 씨족형 상층과 의례 권위를 보여주는 증거다.
+- 다만 이것을 전통 귀족국가형 `state_house strong` 근거로 올리지는 않는다.
+- 즉 벨라나는 `tribe_clan core + thin state-house edge` 범위 안에서만 읽는다.
+
 ## Story Use
 
 - 부족의 전통과 전쟁 현실 사이의 균열을 얼굴로 보여준다.
@@ -46,7 +53,7 @@
 
 ## Conductor Note
 
-현재는 `verify_before_15`로 유지한다.
+현재는 `verify_before_15 / sage_queen_hold`로 유지한다.
 
 15 Named Notables 가치가 있지만,
 SS급과 정신적 지도자 신호가 강하므로

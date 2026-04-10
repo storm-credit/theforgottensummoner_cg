@@ -32,7 +32,7 @@
 - `workflow/16_FS_Story_Engine.md`
 - `workflow/14_FS_Media_Engine.md`
 
-현재 설정집 정리 단계에서는
+설정집 정리 단계에서는
 `FS Lore Engine`을 기본 주 엔진으로 쓴다.
 
 ## Engine Philosophy
@@ -55,7 +55,7 @@ FS 엔진은 특정 작가 한 명의 공식이나
 FS 엔진의 필수 코어 합의안은
 `audit/FS_Engine_Core_Consensus.md`를 기준으로 본다.
 
-현재 최소 코어:
+기준 최소 코어:
 
 1. `Reverse Design`
 2. `Canon Tier`
@@ -69,7 +69,7 @@ FS 엔진의 필수 코어 합의안은
 10. `Faction / House / Clan / Guild Layer`
 11. `Legacy Quarantine`
 
-현재 점검 후 바로 붙인 업그레이드:
+점검 후 바로 붙인 업그레이드 snapshot:
 
 12. `Decision / Ruling Register`
 13. `Cross-Chronicle Firewall`
@@ -83,7 +83,7 @@ FS 엔진의 필수 코어 합의안은
 
 - 이미 흩어진 설정과 문서를 보고
   나중에 `정본 구조`를 거꾸로 복원한다.
-- 현재 문서가 어떤 상위 구조를 암시하는지 읽어낸다.
+- 해당 문서가 어떤 상위 구조를 암시하는지 읽어낸다.
 
 주 사용처:
 
@@ -378,7 +378,7 @@ FS 엔진의 필수 코어 합의안은
 
 오케스트라는 FS 엔진을 이렇게 쓴다.
 
-1. 지금 정리 대상이 무엇인지 본다.
+1. 해당 정리 대상이 무엇인지 본다.
 2. FS 엔진 안에서 먼저 적용할 모듈을 고른다.
 3. 필요한 경우 여러 모듈을 순차 적용한다.
 4. 결과를 `14`, `15 Named Notables`, `15 Operational Lines`, `8`, `지도`, `아이템` 중 어디에 떨어뜨릴지 정한다.
@@ -387,9 +387,9 @@ FS 엔진의 필수 코어 합의안은
 즉 오케스트라는
 `적절하게 엔진 안의 방법론을 꺼내 쓰는 지휘자`다.
 
-## Current Use
+## Use Snapshot
 
-지금 오케스트라는 아래처럼 FS 엔진을 실제 적용 중이다.
+오케스트라는 아래처럼 FS 엔진을 적용한다.
 
 - `15 Named Notables`:
   - `에리온 드라코비스`, `울프가르`, `오그마`, `실비아` 같은 후보를
@@ -402,9 +402,9 @@ FS 엔진의 필수 코어 합의안은
 - `14번 영웅축`:
   - `Character Arc + Relationship Network`
 
-## Live Registers
+## Register Reference
 
-FS 엔진의 실제 운용 장부는 아래를 본다.
+FS 엔진의 운용 장부 reference는 아래를 본다.
 
 - `audit/FS_Canon_Tier_Register.md`
 - `audit/FS_Relationship_Ledger.md`

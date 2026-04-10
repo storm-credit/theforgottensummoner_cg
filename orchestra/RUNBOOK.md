@@ -21,6 +21,7 @@
 - Conductor는 필요할 때 역할을 더 세분화해서 같은 배치를 병렬 조사한다.
 - 현재 기본 분할은 `Continent Adequacy Scout`, `Faction Cartographer`, `House and Lineage Auditor`, `Clan and Tribe Auditor`, `Guild and Economy Auditor`, `Hero Curator`다.
 - 병렬 역할은 증거 수집과 1차 판단만 하고, 최종 우선순위와 정본 판단은 Conductor가 통합한다.
+- 어떤 역할을 먼저 부를지는 `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`를 기본 roster로 쓴다.
 
 ## 오케스트라 고정 원칙
 
@@ -31,13 +32,20 @@
 
 ## 실행 하네스
 
-- 기본 실행층은 `MCP -> Skills -> Agents -> Hooks -> Registers -> Conductor final integration`이다.
+- 기본 실행층은 `MCP -> Skills -> Agents -> Hooks -> Registers -> Conductor final integration -> Next Workstream lock`이다.
 - `MCP`는 조회와 문맥 수집을 맡고, 정본 판단은 하지 않는다.
 - `Skills`는 반복 절차와 출력 형식을 고정하고, 정책 변경은 하지 않는다.
 - `Agents`는 병렬 진단과 제안을 맡고, 최종 반영은 하지 않는다.
 - `Hooks`는 전환 누락 방지용 검사/기록 층이다.
 - `Registers`는 판정과 상태 이동의 장기 기억 장부다.
 - 세부 기준은 `orchestra/EXECUTION_HARNESS_LOCK.md`를 따른다.
+- `Agents`에 들어가기 전, 해당 배치의 필수 전문가 묶음은 `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`에서 먼저 고른다.
+
+## 필수 전문가 잠금
+
+- 오케스트라는 배치마다 전문가를 새로 발명하지 않는다.
+- `정본 / 엔진 / 구조 / 사회단위 / 경계 / 종족 / 집필` 축의 기본 전문가 roster는 고정한다.
+- 세부 목록과 expert matrix는 `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`를 따른다.
 
 ## 분량 게이트
 
@@ -85,19 +93,28 @@
 - 병렬 에이전트는 읽기와 진단만 맡고, 최종 반영은 Conductor가 한다.
 - 같은 파일을 동시에 편집하지 않는다.
 
-## 섹션 우선순위
+## 장기 섹션 우선순위
 
-### 먼저
+### 초기 build 순서
 
 - `8. 세력 아카이브` 루트 구조
 - `14. 인물 백과` 루트 구조
 
-### 다음
+### 중간 build 순서
 
 - `8번`의 대륙별 세력 루트
 - `14번`의 성장 영웅과 세력 연결
 
-### 마지막
+### 후반 build 순서
+
+## Mainline Note Reference
+
+현재 active mainline은 위 장기 순서를 다시 밟는 것이 아니라,
+`audit/Continuous_Workstream.md`,
+`audit/Next_Sequential_Workstream.md`,
+`audit/Audit_Queue.md`에 적힌
+`closure sync / Section 8 -> 15 carryover watch`
+기준을 따른다.
 
 - 문화, 경제, 예술, 생활상 세부 문서
 - 인물의 장비, 세부 이력, 확장 전승

@@ -1,6 +1,6 @@
 # Section 14 Link Findings
 
-## Current Focus
+## Focus Snapshot
 
 - `14번` 영웅 폴더명과 `8번` 세력 spine의 실제 연결성 점검
 - 파일럿 대륙: `Ether Continent`

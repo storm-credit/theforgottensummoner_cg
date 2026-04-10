@@ -19,8 +19,12 @@
   - `도시 / 세력 / 학파 / 공방`
 - type:
   - `Named Notable`
-- current judgment:
-  - `strong_15 / borderline_14_15 / hold`
+- recorded judgment:
+  - `named_notable_candidate`
+  - `verify_before_15`
+  - `support_hold`
+  - `deferred_expansion_hold`
+  - `hold_for_dual_review`
 
 ## 1-1. Archive Routing
 
@@ -33,7 +37,30 @@
 - secondary_index:
   - `현자 / 장인 / 기록자 / 감정사 / 연금술사 / 공방주`
 - routing_state:
-  - `route_test_ok / verify_before_15 / hold_for_dual_review`
+  - `stable_15_workset / route_hierarchy_locked`
+  - `verify_before_15`
+  - `support_hold`
+  - `deferred_expansion_hold`
+  - `hold_for_dual_review`
+
+## 1-2. Policy Guard
+
+- 이 카드가 보강하는 층이 무엇인지 쓴다.
+- 동시에 무엇으로 과독해하면 안 되는지도 쓴다.
+
+예시:
+
+- `크림슨` 카드면:
+  - 씨족 중심 질서와 학술/전승/공방 thin-support를 보강하지만,
+    전통 귀족국가형 `state_house strong` 근거로 읽지 않는다.
+- `해양` 자유도시 카드면:
+  - `urban_market / shadow_port / debt-enforcement` 축을 보강하지만,
+    `토착 공동체층` 본체 근거로 읽지 않는다.
+- `오벨리스크` 제도 카드면:
+  - `nontraditional elite thin-support` 또는 `dark institution` 축을 보강하지만,
+    전통 왕국/귀족국가 복원 근거로 읽지 않는다.
+- `범대륙 후기 확장` 카드면:
+  - `deferred_expansion_hold` 내부 카드로만 유지하고 5대륙 본선 증거로 끌어오지 않는다.
 
 ## 2. Why Remembered
 
@@ -69,9 +96,9 @@
 
 ## 7. Conductor Note
 
-- 지금 확정할 것
+- 이 시점에 확정할 것
 - 14와 겹칠 위험
-- 나중에 더 읽어야 할 것
+- 후속 판독축
 ```
 
 ## Conductor Rule
@@ -81,3 +108,7 @@
 - `secondary_index`는 검색과 보조 색인용으로만 둔다.
 - `SS / S / A급`, `Act 중심성`, `전설 영웅록`, `독립 14 파일` 신호가 있으면 `verify_before_15`로 둔다.
 - 강한 명사 가치가 있어도 14 신호가 강하면 먼저 경계 큐에 보낸다.
+- `stable_15_workset / route_hierarchy_locked`는 stable triad 같은 actual draft package에만 쓴다.
+- `support_hold`, `deferred_expansion_hold`는 stable triad package와 섞지 않는다.
+- `Policy Guard` 문장은 canonical 상태어를 대체하지 않는다.
+- canonical 상태어와 policy carryover 문장을 같이 유지해야 한다.

@@ -4,15 +4,15 @@
 `FS Lore Engine`, `FS Story Engine`, `FS Media Engine` 중
 어느 엔진을 먼저 쓸지 정하는 라우팅 표다.
 
-## Current Default
+## Default Routing Snapshot
 
-현재 설정집 정리 단계의 기본값:
+설정집 정리 단계의 기본값:
 
 1. `FS Lore Engine`
 2. `FS Story Engine`
 3. `FS Media Engine`
 
-즉 지금은 설정집 구조와 정합성이 먼저다.
+즉 이 단계에서는 설정집 구조와 정합성이 먼저다.
 
 ## Mode Table
 
@@ -66,12 +66,11 @@
 - 영상 컷 구조
 - 보여줘도 되는 정보와 숨겨야 하는 정보
 
-## Conductor Rule
+## Conductor Reading Rule
 
 엔진은 고정된 순서가 아니라
-현재 작업의 위험에 따라 선택한다.
+해당 작업의 위험에 따라 선택한다.
 
-하지만 지금 단계에서는
+하지만 이 단계에서는
 `설정집 안정화`가 우선이므로
 특별한 이유가 없으면 Lore Engine을 먼저 적용한다.
-

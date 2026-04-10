@@ -9,7 +9,7 @@
   - `엘드라칸`
 - type:
   - `Named Notable`
-- current judgment:
+- recorded judgment:
   - `named_notable_candidate`
   - `stable_15_workset`
   - `grade_caution`
@@ -93,6 +93,14 @@
 - A급/세력 핵심표 신호는 경계 주의로만 보존하고, 실제 14 독립 파일 확인 전 Hard Canon 승격을 보류한다.
 - `에리온 베르날리스`와는 기존 name collision watch를 유지하며 병합하지 않는다.
 
+## 5-2. Policy Guard
+
+- 에리온의 `대현자 / 고대어 해석 / 학술도시 기록권위` 신호는
+  크림슨의 씨족 중심 질서 위에 얹힌 학술-전승 상층을 보여주는 증거다.
+- 하지만 이를 전통 귀족국가형 `state_house strong` 근거로 곧바로 읽지는 않는다.
+- 즉 에리온은 `tribe_clan core + scholar-sage thin-support` 범위에서만 읽고,
+  국가형 가문층 승격 근거로 사용하지 않는다.
+
 ## 6. Archive Use
 
 - `14 중심 영웅`보다 `15 Named Notables`에 둘 때
@@ -101,11 +109,11 @@
 
 ## 7. Conductor Note
 
-- 지금 확정할 것:
+- 이 시점에 확정할 것:
   - 엘드라칸의 대표 대현자형 인물이라는 점
   - 용언 도서관과 강하게 결합된다는 점
 - 14와 겹칠 위험:
-  - 현재 작업본 기준 `grade_caution`
-- 나중에 더 읽어야 할 것:
+  - 작업본 기준 `grade_caution`
+- 후속 판독축:
   - 독자 문서가 실제로 어느 정도 전투/영웅 서사까지 갖는지
   - `에리온 베르날리스`와 병합 금지 상태를 계속 유지할 것

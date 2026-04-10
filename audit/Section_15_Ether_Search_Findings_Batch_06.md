@@ -1,4 +1,4 @@
-# Section 15 Ether Search Findings - Batch 06
+# Section 15 Ether Search Findings - Batch 06 Snapshot
 
 이 문서는 에테르 후보명 탐색 큐 6번,
 `옵시디안 / 성검 요새 / 성검 병장관 / 옵시디안 무기지기` 축의 검색 결과다.
@@ -42,20 +42,20 @@
 따라서 이번 큐에서는 `성국 / 옵시디안 도시` 앵커만 사용하고,
 아이템 재질명으로 쓰인 `Obsidian`과 병합하지 않는다.
 
-## Conductor Decision
+## Conductor Reading
 
-이번 검색에서도 새 15 확정자는 만들지 않는다.
+이 검색 기록에서는 새 15 확정자가 확인되지 않았다.
 
 - `알렉산드로 발렌티안`은 `keep_14`.
 - `실라스 블랙쏜`은 `keep_14_likely / verify_before_15`.
 - `무기 장인`, `성검 병장관`, `옵시디안 무기지기`는 개인명 없는 `need_named_candidate` 슬롯으로 유지.
 - `옵시디안`, `지하 대감옥`, `검은 대장간`, `성검의 요새`는 장소/기관 슬롯으로 보존.
 
-## Next Action
+## Queue Snapshot
 
 큐 7번으로 넘어간다.
 
-다음 검색 대상:
+후속 reference 대상:
 
 - `연합 의회`
 - `레갈리아`

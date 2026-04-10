@@ -87,7 +87,7 @@ FS Story Engine이 담당하는 것:
 
 - 같은 편
 - 한때 같은 편
-- 지금은 적
+- 관계축에서는 적
 - 서로 모름
 - 한쪽만 앎
 - 소문으로만 앎
@@ -140,7 +140,7 @@ Lore Engine으로 handoff를 건다.
 
 - `audit/FS_Story_to_Lore_Handoff_Gate.md`
 
-## Live Story Registers
+## Story Reference Registers
 
 - `audit/FS_Story_Act_Question_Register.md`
 - `audit/FS_Scene_Pressure_Checklist.md`
@@ -183,8 +183,8 @@ Story Engine이 장면을 제안할 때도
 
 ## Conductor Note
 
-현재 단계에서는 Story Engine은 보조 엔진이다.
+이 reference model에서는 Story Engine은 보조 엔진이다.
 
-하지만 액트 설계나 실제 원고 단계로 들어가면
+하지만 액트 설계와 실제 원고 기준에서는
 Story Engine이 주 엔진이 되고,
-Lore Engine은 정합성 검사 역할로 뒤에서 받친다.
+Lore Engine은 정합성 검사 레이어로 뒤에서 받친다.

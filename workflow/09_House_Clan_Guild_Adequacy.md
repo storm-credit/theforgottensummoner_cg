@@ -123,7 +123,7 @@
 - `missing_links`
 - `needs_rebuild`
 
-## Current Working Rule
+## Working Rule Snapshot
 
 - 지금 단계에서는 모든 가문, 부족, 길드를 다 만들지 않는다.
 - 대신 대륙별로 `어떤 층이 비어 있는지`부터 확인한다.

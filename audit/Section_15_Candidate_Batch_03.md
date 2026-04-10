@@ -1,7 +1,13 @@
-# Section 15 Candidate Batch 03
+# Section 15 Candidate Batch 03 Snapshot
 
 이 문서는 `자유도시연합 암약 조직`과 `마법협회 실무층`에서
-이름 있는 중간 인간층을 추가로 회수하기 위한 세 번째 배치다.
+이름 있는 중간 인간층을 추가로 회수하기 위한 세 번째 batch snapshot이다.
+
+candidate active 판단은
+`Section_15_Candidate_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
 
 ## Batch Theme
 
@@ -19,7 +25,7 @@
 
 - source:
   - `숨은 거래단`
-- current reading:
+- recorded reading:
   - 가면의 주인
   - 얼굴 없는 총수
   - 지하 익명 거래장 운영 흑막
@@ -32,7 +38,7 @@
 
 - source:
   - `숨은 거래단`
-- current reading:
+- recorded reading:
   - 계약의 서기
   - 절대 장부 기억 보유자
 - bucket:
@@ -44,7 +50,7 @@
 
 - source:
   - `숨은 거래단`
-- current reading:
+- recorded reading:
   - 거래의 감시자
   - 중재 타격대 수장
 - bucket:
@@ -56,7 +62,7 @@
 
 - source:
   - `숨은 거래단`
-- current reading:
+- recorded reading:
   - 신원 세탁과 위장술 전문가
   - 생체 위조 공학자
 - bucket:
@@ -68,7 +74,7 @@
 
 - source:
   - `철혈 보증단`
-- current reading:
+- recorded reading:
   - 철혈 재판관
   - 폭력 채권 회수 독재자
 - bucket:
@@ -80,7 +86,7 @@
 
 - source:
   - `철혈 보증단`
-- current reading:
+- recorded reading:
   - 사채왕
   - 도박장과 유흥업소 대출 장악
 - bucket:
@@ -92,7 +98,7 @@
 
 - source:
   - `철혈 보증단`
-- current reading:
+- recorded reading:
   - 징수자
   - 현장 폭력 집행 핵심
 - bucket:
@@ -104,7 +110,7 @@
 
 - source:
   - `철혈 보증단`
-- current reading:
+- recorded reading:
   - 강제 계약자
   - 처형인
 - bucket:
@@ -116,7 +122,7 @@
 
 - source:
   - `검은 해골단`
-- current reading:
+- recorded reading:
   - 죽음의 상인
   - 노예 카르텔 총수
 - bucket:
@@ -128,7 +134,7 @@
 
 - source:
   - `검은 해골단`
-- current reading:
+- recorded reading:
   - 붉은 뱀
   - 맹독성 약물 제조가
 - bucket:
@@ -140,7 +146,7 @@
 
 - source:
   - `검은 해골단`
-- current reading:
+- recorded reading:
   - 전장의 포식자
   - 불법 용병/검투 노예 무력 전위대장
 - bucket:
@@ -152,7 +158,7 @@
 
 - source:
   - `검은 해골단`
-- current reading:
+- recorded reading:
   - 심연의 교역자
   - 해적 연합과 노예 유통 관리자
 - bucket:
@@ -164,7 +170,7 @@
 
 - source:
   - `아르카디아 (Arcadia)` 기관 문서
-- current reading:
+- recorded reading:
   - 행정총무부장
   - 협회의 살림꾼
 - bucket:
@@ -176,7 +182,7 @@
 
 - source:
   - `아르카디아 (Arcadia)` 기관 문서
-- current reading:
+- recorded reading:
   - 집행관
   - 비밀 유지와 배신자 제거 담당
 - bucket:
@@ -184,9 +190,9 @@
 - recommendation:
   - `verify_existing_14_then_collect`
 
-## Conductor Judgment
+## Conductor Reading
 
-이번 배치는 `15번`의 결을 더 분명하게 한다.
+이 batch snapshot은 `15번`의 결을 더 분명하게 한다.
 
 - 자유도시 쪽에선 `돈, 장물, 위장, 폭력 회수`
 - 마법협회 쪽에선 `행정, 집행, 보안`

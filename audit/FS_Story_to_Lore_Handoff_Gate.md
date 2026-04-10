@@ -52,8 +52,8 @@ Story Engine 쪽에서 Lore Engine으로 넘길 최소 패킷:
 | `scene_or_act` | 어떤 단위에서 등장하는가 |
 | `proposed_new_element` | 무엇이 새로 생겼는가 |
 | `proposal_type` | place / faction / institution / named_person / operational_line / item / lineage / route / rumor_to_fact |
-| `working_name` | 현재 장면에서 쓰려는 작업명 |
-| `why_now` | 왜 지금 이 장면에 필요한가 |
+| `working_name` | 해당 장면에서 쓰는 작업명 |
+| `why_now` | 이 장면에 필요한 이유는 무엇인가 |
 | `expected_reader_effect` | 독자에게 어떤 효과를 주려는가 |
 | `lore_risk` | 이름 충돌, 등급 과열, 라우팅 흔들림, 톤 충돌 위험이 있는가 |
 | `suggested_route` | 14 / 15 Named Notables / 15 Operational Lines / 8 / 지도 / 아이템 / hold 중 어디로 보이는가 |
@@ -63,7 +63,7 @@ Story Engine 쪽에서 Lore Engine으로 넘길 최소 패킷:
 Lore Engine은 handoff를 받으면 아래를 확인한다.
 
 1. 기존 출처와 충돌하지 않는가
-2. 현재 상태 라벨은 무엇이어야 하는가
+2. 적용할 상태 라벨은 무엇인가
 3. 어느 route가 가장 자연스러운가
 4. 이름 톤이 세계 톤과 맞는가
 5. 관계, 액트, 연표, 복선에 영향을 주는가
@@ -73,12 +73,12 @@ Lore Engine은 handoff를 받으면 아래를 확인한다.
 
 | Outcome | Meaning |
 |---|---|
-| `accept_as_lore_candidate` | 현재 작업본에서 써도 되지만 아직 hard canon은 아니다 |
+| `accept_as_lore_candidate` | 작업본 기준 사용 가능하지만 아직 hard canon은 아니다 |
 | `hold_for_evidence` | route는 보이지만 근거가 약해 보류한다 |
 | `route_to_14_review` | 영웅 중심성이 강해 14 검토가 먼저다 |
 | `route_to_15_review` | 명사형 인물 가치가 있으나 경계 검토가 필요하다 |
 | `route_to_place_register` | 인물보다 장소 기능부터 잡아야 한다 |
-| `reject_or_reframe` | 현재 정본 구조와 충돌해 장면 해법을 바꿔야 한다 |
+| `reject_or_reframe` | 정본 구조와 충돌하므로 장면 해법을 재구성해야 한다 |
 
 ## Hook Points
 
@@ -86,7 +86,7 @@ Lore Engine은 handoff를 받으면 아래를 확인한다.
 
 - `pre_write_hook`: story-born 신규 설정이 바로 문서 반영되지 않게 막는다
 - `post_write_hook`: 반영 후 필요한 register와 change log가 갱신됐는지 본다
-- `pre_close_hook`: 이번 턴의 다음 실제 작업선에 handoff 후속이 남았는지 고정한다
+- `pre_close_hook`: 해당 배치의 후속 작업선에 handoff 후속이 남았는지 고정한다
 
 ## Fast Table
 
@@ -102,7 +102,7 @@ Lore Engine은 handoff를 받으면 아래를 확인한다.
 
 - `audit/FS_Story_to_Lore_Handoff_Seed_Cases.md`
 
-## Live Queue
+## Handoff Queue Reference
 
 - `audit/FS_Story_to_Lore_Live_Handoff_Queue.md`
 

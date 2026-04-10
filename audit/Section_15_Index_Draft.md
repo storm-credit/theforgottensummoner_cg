@@ -2,7 +2,7 @@
 
 이 문서는 `15. 인물백과`의 열람용 인덱스 초안이다.
 
-현재 단계에서는 실제 폴더나 원본 문서를 바꾸지 않는다.
+이 단계에서는 실제 폴더나 원본 문서를 바꾸지 않는다.
 이 문서는 `cg` 안에서 라우팅과 열람 순서를 점검하기 위한 설계도다.
 
 ## Top-Level Reading Order
@@ -19,11 +19,17 @@
 
 | Name | Route | State |
 |---|---|---|
-| `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `named_notable_candidate` |
-| `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `named_notable_candidate` |
-| `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `named_notable_candidate` |
-| `엘다라` | `에테르 / 정령연합 / 루미라` | `named_notable_candidate / verify_source_before_profile` |
-| `실비아` | `범대륙 후기 확장 / 키르케 영약회` | `named_notable_candidate / deferred_zone` |
+| `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `named_notable_candidate / stable_15_workset / route_hierarchy_locked / grade_caution` |
+| `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `named_notable_candidate / stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` |
+| `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `named_notable_candidate / stable_15_workset / route_hierarchy_locked / act_watch` |
+| `엘다라` | `에테르 / 정령연합 / 루미라` | `named_notable_candidate / verify_source_before_profile / support_hold` |
+| `실비아` | `범대륙 후기 확장 / 키르케 영약회` | `named_notable_candidate / deferred_expansion_hold / name_collision_watch` |
+
+Named Notables guard:
+
+- `크림슨` 대표 카드군은 씨족 중심 질서와 현자/장인/전승 thin-support만 보강하며, 전통 귀족국가형 `state_house strong` 근거로 올리지 않는다.
+- `엘다라`는 정령연합 내부 예외축 `support_hold`로만 유지하고 에테르 전체 부족층 일반화 근거로 쓰지 않는다.
+- `실비아`는 5대륙 본선이 아니라 `범대륙 후기 확장 / deferred_expansion_hold`로만 유지한다.
 
 ## 15-B. Operational Lines
 
@@ -48,6 +54,11 @@
 - 실제 개별 인물이 확인되면 Named Notables가 아니라 Operational Lines로 유지할지 다시 본다.
 - `Operational_Display_Guard_Audit.md` 기준으로 현재 표면명 후보는 대체로 사용 가능하다.
 - 후속 검토 후보는 `밤그물 첩보망`, `회랑 운반자`, `환영 집행관` 계열이다.
+
+Operational Lines guard:
+
+- 자유도시 shadow-market cluster는 `urban_market / shadow_port / debt-enforcement` 축으로만 읽고, 해양 `토착 공동체층` 근거와 섞지 않는다.
+- `철의 금융 연맹`, `그림자 첩보망`, `침묵의 상회`, `거울방` 계열은 `nontraditional elite thin-support` 또는 `dark institution` 범위에서만 읽는다.
 
 ## 15-C. Need Named Candidate Slots
 
@@ -112,6 +123,7 @@
 
 15번은 이제 `실제 이동 전 설계` 단계까지 왔다.
 
-다음 작업은 `8번 세력 아카이브` 재점검이 아니라,
-이 인덱스 초안과 상태 나침반이 Ether surface-name baseline 잠금 상태를 같은 문구로 유지한 채
-low-priority auxiliary slot 9개 closure 결과를 coverage / closure / anchor bridge 압축표에 반영하는 것이다.
+현재 메인 본선은 `8번 세력 아카이브` 재점검이나
+stable triad package 재가동이 아니라,
+이 인덱스 초안과 상태 나침반이 closure sync / carryover watch 기준으로
+같은 문구를 유지하는 것이다.

@@ -27,7 +27,7 @@
 
 | Candidate | Current Anchor | Treatment |
 |---|---|---|
-| `실비아` | `키르케 영약회` | `named_notable_candidate / deferred_zone` |
+| `실비아` | `키르케 영약회` | `named_notable_candidate / deferred_expansion_hold / name_collision_watch` |
 | `멜리산드르` | `키르케 영약회` | `verify_before_15 / hold_for_dual_review` |
 
 ## Operational Lines Impact

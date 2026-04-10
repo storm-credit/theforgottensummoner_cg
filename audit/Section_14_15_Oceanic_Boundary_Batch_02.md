@@ -1,11 +1,11 @@
-# Section 14 / 15 Oceanic Boundary Batch 02
+# Section 14 / 15 Oceanic Boundary Batch 02 Snapshot
 
 이 문서는 해양 대륙의 `14/15` 경계 후보를
 추가 근거 기준으로 다시 묶은 배치 노트다.
 
 ## Scope
 
-이번 배치 대상:
+이 batch snapshot 대상:
 
 - `미다스`
 - `해양 실비아`
@@ -45,9 +45,9 @@
 | `골드핑거 바스` | `해양 -> 해적 연합 -> 실버하트 / 암시장 조합` | 장물 / 밀수 / 암시장 | A급 영웅표 |
 | `리나 웨이브서프` | `해양 -> 해적 연합 -> 심해 탐사단` | 고문서 복원 / 심연 수식 / 연금술 | 히어로급 |
 
-## Conductor Decision
+## Conductor Reading
 
-이번 배치에서 해양 후보를 15로 확정하지 않는다.
+이 batch snapshot에서는 해양 후보를 15로 확정하지 않는 것으로 정리한다.
 
 대신 아래 세 축을 보존한다.
 
@@ -55,4 +55,4 @@
 - `trade_law_notable`: 마르코 / 엘레오노라
 - `underworld_artifact_notable`: 골드핑거 / 리나
 
-해양은 다음 단계에서 `14 독립 시트 확인`과 `표면명 톤 보정`을 같이 진행한다.
+해양은 후속 reference에서 `14 독립 시트 확인`과 `표면명 톤 보정`을 같이 읽는다.

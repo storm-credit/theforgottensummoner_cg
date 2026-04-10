@@ -24,7 +24,7 @@
 | `FS-FP-008` | `relationship` | `FS_Relationship_Ledger.md` | `세실리아-벤투라 긴장 회수` | `seeded` | `relationship` | 공적/비합법 교차 |
 | `FS-FP-009` | `item_pressure` | `FS_Story_to_Lore_Handoff_Seed_Cases.md / FS-HANDOFF-SEED-001` | `전설 무구 후보가 이름을 얻기 전 제작 책임과 사용자 손상 확인` | `handoff_test` | `Story-to-Lore` | 정본 아이템명 생성 금지 |
 
-## Conductor Rule
+## Conductor Reading Rule
 
 - 새 복선을 넣을 때는 먼저 여기 ID를 만든다.
 - `Status`는 최소한 `seeded`, `armed`, `paid_off`, `dropped`로 관리한다.

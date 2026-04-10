@@ -19,7 +19,17 @@
 3. `Agents`
 4. `Hooks`
 5. `Registers`
-6. `Next Workstream`
+6. `Conductor final integration`
+7. `Next Workstream lock`
+
+## Required Expert Check
+
+`Agents` 단계에 들어가기 전에
+이번 작업이 어느 `필수 전문가 묶음`을 써야 하는지 먼저 고른다.
+
+고정 기준:
+
+- `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`
 
 ## Responsibility Lock
 
@@ -76,7 +86,7 @@
 | Hook | Timing | Purpose |
 |---|---|---|
 | `pre_scope_hook` | 작업 시작 직후 | 현재 작업 단위, 대상 문서, 엔진 층을 고정 |
-| `pre_dispatch_hook` | 에이전트 분할 직전 | 정말 병렬이 필요한지, 어떤 역할로 나눌지 확정 |
+| `pre_dispatch_hook` | 에이전트 분할 직전 | 정말 병렬이 필요한지, 어떤 역할로 나눌지, 어떤 필수 전문가 묶음을 켤지 확정 |
 | `story_to_lore_handoff_hook` | Story Engine 신규 설정 제안 직후 | 장면 편의 설정을 Lore route와 register write로 되돌려 보낸다 |
 | `episode_volume_gate` | 각 화 초안 완료 직후, 최종 반영 직전 | 회차 분량이 최소 기준을 넘는지 강제 검사하고, 미달이면 재작성으로 되돌린다 |
 | `pre_write_hook` | 문서 반영 직전 | Source / State / Route / Naming / Register 연결 확인 |
@@ -107,7 +117,15 @@
 - `FS_Slot_Maturation_Register`
 - `FS_Place_Function_Register`
 
-### 6. Next Workstream
+### 6. Conductor Final Integration
+
+역할:
+
+- 병렬 진단을 하나의 판단으로 통합한다.
+- 충돌하는 권고 중 무엇을 반영할지 최종 승인한다.
+- 문서 반영 기준과 상태어를 고정한다.
+
+### 7. Next Workstream Lock
 
 모든 실행은 마지막에
 `다음 실제 작업이 무엇인가`
@@ -127,6 +145,11 @@
 4. `pre_write_hook`
 5. `post_write_hook`
 6. `pre_close_hook`
+
+추가 고정:
+
+- `Agents`를 쓰는 턴은 `pre_dispatch_hook`에서 먼저 `필수 전문가 묶음`을 체크한다.
+- 그 체크 없이 바로 scout를 띄우지 않는다.
 
 ## Conductor Note
 

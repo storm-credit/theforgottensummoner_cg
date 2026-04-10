@@ -3,7 +3,13 @@
 이 문서는 프로스트 대륙의 `need_named_candidate` 슬롯을
 더 정통 판타지 톤의 표면명 후보로 낮출 때 쓰는 후보표다.
 
-지금 단계에서는 정본명이 아니라 `preferred_display_candidate`만 정한다.
+naming active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
+이 문서에서는 정본명이 아니라 `preferred_display_candidate` reference만 남긴다.
 
 ## Place / Role -> Display Canon Candidates
 
@@ -16,7 +22,7 @@
 | `별의 샤먼` | `성광 샤먼` | `오로라 별술사` | `display_canon_candidate` | 오로라와 하늘 징조의 이미지가 살아난다. |
 | `아이스포지 병기소 장인` | `빙로 병기장` | `서리벼림 장인` | `display_canon_candidate` | 단순 아이스포지 직역보다 무기 전승 톤이 강하다. |
 
-## Preferred Candidate Pass
+## Preferred Candidate Reference Pass
 
 | Working Slot | Preferred Candidate | State | Reason |
 |---|---|---|---|
@@ -27,7 +33,7 @@
 | `별의 샤먼` | `오로라 별술사` | `preferred_display_candidate` | 샤먼보단 별술사 쪽이 세계 톤과 더 잘 맞는다. |
 | `아이스포지 병기소 장인` | `서리벼림 장인` | `preferred_display_candidate` | 아이스포지 직역을 피하면서 공방 전승 느낌을 살린다. |
 
-## Needs Polish
+## Polish Watchlist
 
 | Candidate | Reason | Direction |
 |---|---|---|
@@ -38,9 +44,9 @@
 | `오로라 별술사` | 좋지만 공동체 원로 느낌이 약하다. | `별빛 원로술사`, `오로라 원로술사` 검토 |
 | `서리벼림 장인` | 병기소의 권위가 조금 약하다. | `서리벼림 병기장`, `빙로 병기장` 검토 |
 
-## Conductor Decision
+## Conductor Reading
 
-프로스트 슬롯은 당분간 아래 우선 후보로 읽는다.
+프로스트 슬롯은 reference상 아래 preferred 후보로 읽는다.
 
 - `서리길 원로 사냥꾼`
 - `빙묘 수호장`
@@ -49,7 +55,7 @@
 - `오로라 별술사`
 - `서리벼림 장인`
 
-다음 실제 작업:
+Reference carryover:
 
 - 이 우선 후보를 `FS_Place_Function_Register`와 더 직접 연결한다.
-- 이후에만 실제 개인명이 확인된 슬롯을 `verify_before_15`로 올린다.
+- 이후에만 실제 개인명이 확인된 슬롯을 `verify_before_15`로 올리는 기준으로 읽는다.

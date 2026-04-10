@@ -84,6 +84,20 @@
 - 예언 검증석
 - 부족 대표 대기 구역
 
+## Section 8 Handoff Lock
+
+`Section_8_Place_Network_P2_Queue.md`와
+`Section_8_Place_Network_Handoff_Map.md` 기준으로
+프로스트 sidecar에는 아래 압력을 직접 보존한다.
+
+1. `오로라 평원`은 `memory_site + sanctuary` 압력이 강한 `P2` 후보다.
+2. `빙하의 성소`는 `sanctuary + ritual-validation` 압력이 강한 `P2` 후보다.
+3. 하지만 이 두 장소 압력을 근거로
+   `프로스트본 연합` 전체 구조를 `place_style`로 승격하지 않는다.
+4. 즉 프로스트에서는 `클랜/생존경제 spine`과 `성소/전승 장소망`을 분리 기록한다.
+5. 이 두 장소의 `P2 place pressure` 주 기록처는 이 sidecar이고,
+   `Section_8_Frost_Notable_Anchor_Audit.md`는 anchor projection 보조 문서로만 쓴다.
+
 ## Conductor Note
 
 프로스트는 아직 안전한 15 확정 후보가 부족하다.

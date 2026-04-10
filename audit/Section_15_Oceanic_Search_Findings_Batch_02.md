@@ -1,4 +1,4 @@
-# Section 15 Oceanic Search Findings Batch 02
+# Section 15 Oceanic Search Findings Batch 02 Snapshot
 
 이 문서는 해양 `15 Named Notables` 후보명 탐색의 2차 결과다.
 
@@ -19,9 +19,9 @@
 
 ## Findings
 
-| Target | Evidence Found | Current State | Conductor Judgment |
+| Target | Evidence Found | Recorded State | Recorded Judgment |
 |---|---|---|---|
-| `크리스토퍼 델마르` | `거상 연합 개요 및 강령`에서 `Christopher Delmar, the Black Coin`으로 확인된다. 도난품 장물 처리, 암시장 자금, 고급 살인 청부 의뢰 자금을 담당한다. | `verify_before_15` | 현재 작업본 안에서는 14 독립 파일명이 보이지 않는다. 다만 거상 연합 권력축 인물이므로 15 확정 금지. |
+| `크리스토퍼 델마르` | `거상 연합 개요 및 강령`에서 `Christopher Delmar, the Black Coin`으로 확인된다. 도난품 장물 처리, 암시장 자금, 고급 살인 청부 의뢰 자금을 담당한다. | `verify_before_15` | 작업본 기준 14 독립 파일명이 보이지 않는다. 다만 거상 연합 권력축 인물이므로 15 확정 금지. |
 | `대경매장 주인` | `포트 아우렐리온`에서 모든 물건의 가치를 꿰뚫는 감정사이자 정보상 역할로 확인된다. | `role_slot_confirmed` | 개인명 없음. `흑조 감정관`과 별도인 `대경매장 감정관` 슬롯으로 유지. |
 | `항해사 길드장` | 이번 2차 파일명/본문 재검색에서는 개인명 파일이 확인되지 않는다. 1차에서 `크로스윈드 포트`의 역할명으로만 보인다. | `role_slot_confirmed / no_named_candidate_yet` | `청해도 보관관` 또는 `해로 장부관` 후보 슬롯으로 유지. |
 
@@ -30,15 +30,15 @@
 `크리스토퍼 델마르`는 새로 이름이 보이는 후보지만,
 `대경매장 주인`이나 `항해사 길드장`의 이름은 아니다.
 
-따라서 현재 해양 15번 처리:
+따라서 이번 배치 기준 해양 15번 분류:
 
 - `크리스토퍼 델마르`: named boundary candidate
 - `대경매장 주인`: unnamed role slot
 - `항해사 길드장`: unnamed role slot
 
-## Next Search
+## Queue Snapshot
 
-다음에는 `포트 아우렐리온`과 `크로스윈드 포트`의 역할 슬롯을 더 좁힌다.
+후속 reference는 `포트 아우렐리온`과 `크로스윈드 포트`의 역할 슬롯을 더 좁히는 흐름으로 읽는다.
 
 목표:
 

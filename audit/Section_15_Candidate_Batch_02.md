@@ -1,7 +1,13 @@
-# Section 15 Candidate Batch 02
+# Section 15 Candidate Batch 02 Snapshot
 
 이 문서는 `자유도시연합` 쪽 문서에서 실제 이름과 직책이 보이는
-중간 인간층을 `15번` 후보로 회수하기 위한 두 번째 배치 시트다.
+중간 인간층을 `15번` 후보로 회수하기 위한 두 번째 batch snapshot 시트다.
+
+candidate active 판단은
+`Section_15_Candidate_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
 
 ## Batch Theme
 
@@ -19,7 +25,7 @@
 
 - source:
   - `working/imports/phase3_section8_ether_crossroad_cities/16. 예하 부대 및 기사단 (Military Units)/07. 밤의 무역상 (Traders of the Night).md`
-- current reading:
+- recorded reading:
   - 해적과 내륙을 잇는 핵심 `연락책`
 - bucket:
   - `Organization Mesh`
@@ -33,7 +39,7 @@
 
 - source:
   - `working/imports/phase3_section8_ether_crossroad_cities/3. 세력 (Factions)/1. 페어딜러 상단 (Fairdealer Syndicate).md`
-- current reading:
+- recorded reading:
   - 경매장 관리인
   - 왕국연합 명문 `브라이트헤븐` 백작가 출신
   - 자유도시와 왕국연합 사이의 비공식 외교 채널
@@ -49,7 +55,7 @@
 
 - source:
   - `working/imports/phase3_section8_ether_crossroad_cities/3. 세력 (Factions)/1. 페어딜러 상단 (Fairdealer Syndicate).md`
-- current reading:
+- recorded reading:
   - 드워프 출신 운송 길드장
   - 도시 전체 물류와 보급을 장악
 - bucket:
@@ -129,14 +135,14 @@
 - recommendation:
   - `collect_selectively`
 
-## Conductor Judgment
+## Conductor Reading
 
-이번 배치는 `15번`이 정말 필요한 이유를 보여준다.
+이 batch snapshot은 `15번`이 왜 필요한지 보여준다.
 
 - `14번`이 영웅의 불꽃이라면
 - `15번`은 도시와 거래망을 실제로 움직이는 체온이다.
 
-즉 앞으로 `15번`은
+즉 reference상 `15번`은
 그냥 주변 인물 창고가 아니라
 `도시 경제`, `밀수`, `계약`, `중개`, `비공식 외교`를
-인간 얼굴로 복구하는 구역으로 계속 확장하면 된다.
+인간 얼굴로 복구하는 구역으로 읽는다.

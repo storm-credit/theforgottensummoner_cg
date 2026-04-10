@@ -1,9 +1,15 @@
-# Section 15 Named Notables First Pass
+# Section 15 Named Notables First Pass Snapshot
 
-이 문서는 현재 작업본에서 먼저 떠오른
-`유명 NPC형 명사` 후보를 1차로 정리한 메모다.
+이 문서는 existing 작업본에서 먼저 떠올랐던
+`유명 NPC형 명사` 후보를 1차 snapshot으로 정리한 메모다.
 
-## First Strong Candidates
+named-notables active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
+## First Strong Candidate Snapshot
 
 ### 1. 에리온 드라코비스
 
@@ -44,32 +50,32 @@
   - 전투영웅보다 기록과 계량, 약제 통제의 상징성이 강하다.
   - 키르케 영약회의 분위기를 사람 얼굴로 보여주기에 좋다.
 
-## Second Pass Candidates
+## Second Pass Candidate Snapshot
 
 1. `드락사르 블레이즈포지`
 2. `벨라나 스톰브링어`
 3. `아리안 블레이즈하트`
 4. `엘다라`
 
-## Hold for Dual Review
+## Hold-for-Dual-Review Snapshot
 
 1. `멜리산드르`
 2. `카사르 더 시어`
 
 이 둘은 명사형 가치도 높지만
-현재 자료상 `14번 중심 영웅축`과 겹칠 가능성이 커서
-바로 `15`로 밀어넣지 않는다.
+existing 자료상 `14번 중심 영웅축`과 겹칠 가능성이 커서
+reference상 바로 `15`로 밀어넣지 않는다.
 
-## Seed Sheets
+## Seed Sheet Snapshot
 
-현재 바로 읽을 수 있는 1차 시드 시트:
+reference상 바로 읽을 수 있는 1차 시드 시트:
 
 - `Section_15_Named_Notable_Erion_Dracovis.md`
 - `Section_15_Named_Notable_Wolfgar_Dragonforge.md`
 - `Section_15_Named_Notable_Oghma.md`
 - `Section_15_Named_Notable_Sylvia.md`
 
-2차 시드 시트:
+2차 시드 시트 snapshot:
 
 - `Section_15_Named_Notable_Draxar_Blazeforge.md`
 - `Section_15_Named_Notable_Bellana_Stormbringer.md`

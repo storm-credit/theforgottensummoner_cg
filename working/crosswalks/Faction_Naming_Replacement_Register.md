@@ -17,7 +17,7 @@
 3. 한국어 자체가 현대적이면 한국어 표면명도 새 후보를 만든다.
 4. 아직 근거가 약하면 `Soft Canon`으로 둔다.
 
-## Current Candidate Register
+## Candidate Register Snapshot
 
 | Current Form | Internal Reading | Preferred Display Candidate | Status | Notes |
 |---|---|---|---|---|

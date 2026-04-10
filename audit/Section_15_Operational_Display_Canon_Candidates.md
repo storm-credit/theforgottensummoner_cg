@@ -3,7 +3,13 @@
 이 문서는 지금까지 만든 `Operational Lines`와 `Subline Profiles`의
 작업용 라벨을 더 판타지적인 표면 명칭으로 바꿀 때 쓸 후보표다.
 
-지금 단계에서는 확정이 아니라 `후보`다.
+naming active 판단은
+`Section_15_Group_Index.md`,
+`Section_15_Operational_Lines_Track.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
+이 문서는 확정이 아니라 `display reference 후보표`다.
 
 ## Functional Line -> Display Canon Candidates
 
@@ -20,16 +26,25 @@
 | `Mercenary Operations` | `자유검 용병회` | `용병 중재 평의회` | `display_canon_candidate` | 조직 운영층과 중재층을 분리 가능 |
 | `Silent Market Undercurrent` | `침묵의 상회` | `무언의 회랑` | `display_canon_candidate` | 침묵/비밀 계약 톤 유지 |
 
-## Display Selection Rule
+## Display Reference Rule
 
 1. 정식 세력명처럼 보일수록 `연맹`, `상회`, `평의회`, `결사`를 우선한다.
 2. 음지 네트워크는 `회랑`, `그늘`, `무언`, `밤`, `장부` 같은 상징어를 쓴다.
 3. 노예, 생체 거래, 암살 같은 기능은 표면명에 너무 직접적으로 쓰지 않는다.
 4. 작업용 라벨은 계속 남겨서 원래 기능을 잃지 않게 한다.
 
-## Preferred Candidate Pass
+## Policy Display Guard
 
-이 표는 현재 후보 중 어느 쪽을 먼저 밀지 정리한 것이다.
+- display canon 후보는 말맛과 표면 톤을 다루는 표지이지,
+  구조 해석을 승격하는 문서가 아니다.
+- 따라서 `은막 교역회`, `붉은 장부 결사`, `철의 금융 연맹`, `침묵의 상회` 같은 이름을 쓴다고 해서
+  해당 축을 `state_house strong`, `토착 공동체층`, `정상 국가기관`으로 재해석하지 않는다.
+- 해석선은 각 profile/template의 `Policy Guard`와
+  `Section_15_Operational_Lines_Track.md`의 carryover 규칙을 따른다.
+
+## Preferred Candidate Reference Pass
+
+이 표는 reference상 어느 쪽을 preferred로 읽을지 정리한 것이다.
 아직 정본명 확정이 아니라 `preferred display candidate`다.
 
 | Working Axis | Preferred Candidate | State | Reason |
@@ -43,7 +58,7 @@
 | `Mercenary Operations` | `용병 중재 평의회` | `preferred_display_candidate` | 용병 운영보다 중재와 제도 느낌이 살아난다. |
 | `Silent Market Undercurrent` | `침묵의 상회` | `preferred_display_candidate` | 짧고 기억되며 음지 상업 톤이 살아 있다. |
 
-## Needs Polish
+## Polish Watchlist
 
 | Candidate | Reason | Direction |
 |---|---|---|
@@ -53,7 +68,7 @@
 | `하수로 짐꾼` | 너무 생활어라 격이 낮아진다. | `지하 회랑 운반꾼`, `땅굴 짐꾼`, `회랑 운반자` 우선 |
 | `그림자 말소자` | 암살단 라벨로는 가능하지만 약간 게임 스킬명처럼 보인다. | `환영 처형자` 우선 |
 
-## Functional Preferred Candidate Pass
+## Functional Preferred Candidate Reference Pass
 
 | Working Label | Preferred Candidate | State | Reason |
 |---|---|---|---|
@@ -68,7 +83,7 @@
 | `땅굴쥐 운반책 계열` | `지하 회랑 운반꾼` | `preferred_display_candidate` | `하수로`보다 세계 안 통로와 은밀한 운반 기능이 잘 보인다. |
 | `환상 암살단 현장 집행자 계열` | `환영 처형자` | `preferred_display_candidate` | 기능이 선명하되 현대 암살조직 톤이 덜하다. |
 
-## Oceanic Place / Institution Preferred Candidate Pass
+## Oceanic Place / Institution Preferred Candidate Reference Pass
 
 해양 슬롯은 항해, 신탁, 해도, 금고, 장물, 악기 같은 말맛을 살린다.
 
@@ -91,7 +106,7 @@
 | `진혼의 합창단 악기 보관인` | `진혼 악기지기` | `preferred_display_candidate` | 음악/성물 소진행을 받으면서 직함이 과하게 길지 않다. |
 | `죽은 선장의 항해일지 보관인` | `망자항해 기록관` | `preferred_display_candidate` | 유령선, 죽은 선장, 잃어버린 항로의 톤을 한 번에 받는다. |
 
-## Ether Place / Institution Preferred Candidate Pass
+## Ether Place / Institution Preferred Candidate Reference Pass
 
 에테르 슬롯은 마법협회, 성국, 왕국연합, 자유도시, 정령연합의 기관 톤을 분리한다.
 
@@ -170,5 +185,7 @@
 - 실제 표면 문서나 정본명 후보를 쓸 때만 `Display Candidate`를 얹는다.
 - 너무 현대적인 냄새가 나면
   직능어를 줄이고 상징어를 늘린다.
-- 상위 그룹명은 `Group Axis -> Display Canon Candidates` 표를 먼저 보고,
-  세부 직능명은 `Functional Line -> Display Canon Candidates` 표를 본다.
+- 상위 그룹명은 `Group Axis -> Display Canon Candidates` 표를 먼저 reference로 보고,
+  세부 직능명은 `Functional Line -> Display Canon Candidates` 표를 reference로 본다.
+- 표면명은 바뀔 수 있어도 policy carryover 문장은 같이 유지한다.
+- subline draft와 subline profile 단계에서도 같은 policy carryover를 그대로 유지한다.

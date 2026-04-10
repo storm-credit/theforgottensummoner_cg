@@ -37,6 +37,13 @@
   - `FS_Institution_Memory_Register.md`
   - `FS_Story_Act_Question_Register.md`
 
+## Policy Guard
+
+- 아리안의 `현자 회의 / 대사제 / 부족 정신 지도` 신호는 크림슨의 `tribe_clan core`를 강화하지만,
+  이를 곧바로 `state_house strong` 근거로 읽지는 않는다.
+- 즉 이 카드는 `씨족형 지배층 + 의례 권위` 쪽 증거이지
+  전통 귀족국가형 가문층 승격 근거가 아니다.
+
 ## Story Use
 
 - 신앙이 사람을 살리는가, 혹은 부족의 폭력성을 정당화하는가를 묻는 장면에 쓸 수 있다.
@@ -45,7 +52,7 @@
 
 ## Conductor Note
 
-현재 판정은 `verify_before_15`다.
+현재 판정은 `verify_before_15 / fire_priest_hold`다.
 
 부족의 정신적 얼굴로 읽히는 장점은 유지하지만,
 S급 대사제와 현자 회의 핵심 신호 때문에

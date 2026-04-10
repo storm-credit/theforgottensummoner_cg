@@ -22,7 +22,7 @@
 | `working/imports/phase3_section8_ether_crossroad_cities/자유도시연합 (Crossroad Cities).md` | `고블린혼혈` | 자유도시권 안에서 고블린 계열이 bloodline/integration 맥락으로만 보인다 | `goblin integration signal` | 독립 부족, 자치권, 사회 구조가 전혀 보이지 않음 | `hold / side-track` |
 | `working/imports/phase3_section8_ether_spirit_union/9. 내부 암약 조직 (Clandestine Organizations)/3. 맹독의 숨결 (Breath of Venom)/1. 맹독의 숨결 개요 및 강령.md` | `나가족(반인반사)` | 암살 조직 내부에 나가 단일 개체가 등장한다 | `naga single-character species signal` | 개인 1건일 뿐, 사회/부족/정체 증거가 아님 | `hold / side-track` |
 
-## Current Read
+## Read Snapshot
 
 - `merfolk`: 세레니아 주변의 localized enclave와 외부 교류 신호는 강해졌지만, 아직 독립 해양 문명권보다 mixed-polity 협력층으로 읽히는 쪽이 안전하다.
 - `harpy`: 현재까지는 몬스터/이벤트 개체 우세다.

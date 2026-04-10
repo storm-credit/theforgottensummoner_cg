@@ -9,7 +9,7 @@
   - `드래곤포지`
 - type:
   - `Named Notable`
-- current judgment:
+- recorded judgment:
   - `named_notable_candidate`
   - `stable_15_workset`
   - `grade_caution`
@@ -93,6 +93,14 @@
 - A급/전설 영웅록 신호는 경계 주의로만 보존하고, 실제 14 독립 파일 확인 전 Hard Canon 승격을 보류한다.
 - `울프가르` 이름군은 기존 collision ruling을 유지하며 타 대륙 인물과 병합하지 않는다.
 
+## 5-2. Policy Guard
+
+- 울프가르의 `대장장이 / 공방장 / 드래곤포지 장인권위` 신호는
+  크림슨의 `tribe_clan core`와 공방형 상층을 보강하는 증거다.
+- 다만 이를 전통 귀족국가형 `state_house strong` 근거로 올리지는 않는다.
+- 즉 울프가르는 `씨족형 장인 권위 + 공방 상층` 범위에서만 읽고,
+  국가형 가문층 승격 근거로 사용하지 않는다.
+
 ## 6. Archive Use
 
 - `14`보다 `15 Named Notables`에 둘 때
@@ -101,11 +109,11 @@
 
 ## 7. Conductor Note
 
-- 지금 확정할 것:
+- 이 시점에 확정할 것:
   - 용의 후예 쪽 대표 장인 명사라는 점
   - 드래곤포지와 프라이멀 엠버에 강하게 묶인다는 점
 - 14와 겹칠 위험:
-  - 현재 작업본 기준 `grade_caution`
-- 나중에 더 읽어야 할 것:
+  - 작업본 기준 `grade_caution`
+- 후속 판독축:
   - 독자 문서에서 전투 비중이 얼마나 큰지
   - A급/전설 영웅록 신호가 실제 14 독립 파일로 이어지는지

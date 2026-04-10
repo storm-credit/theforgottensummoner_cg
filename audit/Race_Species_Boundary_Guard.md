@@ -93,7 +93,7 @@
 - `verify_before_15`, `named_notable_candidate`, `place-first slot`, `FS_*_Register` write는 자동 유입 금지다.
 - mainline으로 넘어가더라도 먼저 `evidence`나 `impact bridge` 단계가 있어야 한다.
 
-## Current Guard Calls
+## Guard Call Snapshot
 
 | Signal | Current Guard Call |
 |---|---|

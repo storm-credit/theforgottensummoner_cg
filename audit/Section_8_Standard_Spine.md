@@ -23,6 +23,16 @@
 3. `guild_market`
 4. `frontier_survival`
 
+루트 정규화에 되먹일 때는
+세력마다 아래 구조 라벨도 같이 붙인다.
+
+1. `section_style`
+2. `place_style`
+3. `mixed`
+
+즉 spine 라벨과 구조 라벨은 별개다.
+같은 `guild_market` 세력이라도 `section_style`일 수도 있고 `place_style`일 수도 있다.
+
 ## 1. Ether Spine
 
 - 우선 spine:
@@ -156,6 +166,12 @@
 1. 이 세력은 어느 대륙 spine에 속하는가
 2. 이 세력은 `state_house / tribe_clan / guild_market / frontier_survival` 중 어디에 가까운가
 3. 이 세력이 대륙의 강한 층을 대표하는가, 아니면 결손을 메워야 하는 예외인가
+
+루트 정규화 단계에서는 여기에 아래 질문을 추가한다.
+
+4. 이 경로는 `canonical root`, `quarantine root`, `legacy root` 중 어디에 속하는가
+5. 내부 구조는 `section_style`, `place_style`, `mixed exception` 중 무엇인가
+6. 예외라면 대륙 spine이 허용하는 예외인가, 아니면 구조 오염인가
 
 이 문서는 이후
 

@@ -6,7 +6,7 @@ FS Media Engine은
 음악, 이미지, 영상 작업을 위한
 `canon-safe brief and review engine`이다.
 
-이 엔진은 현재 단계에서
+이 엔진은 본 기준에서
 대량 생성보다 `검수와 브리프`를 우선한다.
 
 ## Core Principle
@@ -45,7 +45,7 @@ FS Media Engine은
 
 ## Priority
 
-현재 단계의 우선순위:
+우선 참조 축:
 
 1. 브리프 구조 만들기
 2. 금지 요소 / 스포일러 통제
@@ -58,9 +58,9 @@ FS Media Engine은
 
 - `audit/FS_Media_Engine_Consensus.md`
 
-## Live Media Registers
+## Media Reference Registers
 
-현재 Media Engine이 직접 참조하는 장부:
+Media Engine reference register set:
 
 - `audit/FS_Reveal_Control_Register.md`
 - `audit/FS_Place_Function_Register.md`
@@ -68,7 +68,7 @@ FS Media Engine은
 - `audit/FS_Rumor_Fact_Register.md`
 - `working/drafts/Spatial_Backlog.md`
 
-미래에 추가할 후보:
+후속 편입 후보:
 
 - `FS_Media_Brief_Gate.md`
 - `FS_Visual_Canon_Register.md`

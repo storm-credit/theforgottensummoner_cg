@@ -15,7 +15,7 @@
 
 ## Mode-Based Reading
 
-현재 저장소 기준으로는
+이 저장소에서는
 `FS Engine Writing Craft Map`의 세 모드를 기준으로 읽는 것이 가장 안전하다.
 
 ### 1. ChatGPT-First
@@ -93,21 +93,21 @@
 - 중복/충돌/표기 drift를 정리해야 한다
 - 브랜치, 커밋, 푸시, 자동화가 따라온다
 
-## Current Project Judgment
+## Repository-Fit Reading
 
-이 프로젝트의 현재 메인선은
-Codex 오케스트라가 특히 강한 구간에 있다.
+이 프로젝트는 아래와 같은 구조 때문에
+Codex 오케스트라가 특히 강점을 갖는 저장소 유형에 가깝다.
 
 이유:
 
 - `audit/` 문서군이 매우 크다
 - `register`, `queue`, `crosswalk`, `index`, `workstream`이 서로 강하게 연결돼 있다
 - 같은 판단을 여러 문서에 동시에 반영해야 한다
-- branch/commit/push까지 같은 턴에 이어지는 경우가 많다
+- branch/commit/push까지 같은 흐름으로 이어지는 경우가 많다
 
 즉,
-지금처럼 `14/15`, `Named Notables`, `slot`, `handoff`, `species side-track`을
-실제 문서로 잠그는 작업은 Codex가 메인인 편이 맞다.
+`14/15`, `Named Notables`, `slot`, `handoff`, `species side-track`처럼
+여러 장부와 구조 문서를 함께 잠그는 작업은 Codex가 메인인 편이 맞다.
 
 ## Where ChatGPT Adds More Value
 
@@ -135,9 +135,9 @@ Codex 오케스트라가 특히 강한 구간에 있다.
 - Codex는 방향이 불명확한 상태에서 혼자 세계관 철학을 과도하게 확정하지 않는다.
 - 불확실한 경우에는 `ChatGPT형 판단 -> Codex 반영` 순서를 우선한다.
 
-## Current Recommendation
+## Default Recommendation
 
-현재 이 저장소의 기본값은 아래로 둔다.
+이 저장소의 기본값은 아래로 둔다.
 
 1. `문서 감사 / 구조 정리 / 정합성 / 자동화 / 커밋`은 Codex-first
 2. `세계관 철학 / 종족 설계 / 서사 개연성 / 감정선`은 ChatGPT-first 검토 권장

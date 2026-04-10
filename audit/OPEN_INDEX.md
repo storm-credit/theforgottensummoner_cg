@@ -2,10 +2,11 @@
 
 파일이 잘 안 열릴 때 우선 이 문서부터 보면 된다.
 
-## Current Stream
+## Mainline Reading Reference
 
 - `Continuous_Workstream.md`
 - `Next_Sequential_Workstream.md`
+- `Historical_Batch_Reading_Guard.md`
 - `orchestra/AGENT_DISPATCH_LOG.md`
 - `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
 - `orchestra/EXECUTION_HARNESS_LOCK.md`
@@ -18,11 +19,16 @@
 - `Operational_Display_Guard_Audit.md`
 - `Key_Character_Contact_Table.md`
 
+이 묶음은 mainline reference와 historical reading rule을 같이 읽기 위한 시작점이다.
+특히 `orchestra/AGENT_DISPATCH_LOG.md`는 historical batch log로 읽는다.
+아래 섹션에 보이는 `queue / track / backlog` 이름은 파일 family명일 수 있으므로, active state 선언으로 바로 읽지 않는다.
+
 ## Orchestra
 
 - `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
 - `orchestra/ACTIVE_AGENT_SPLIT.md`
 - `orchestra/RUNBOOK.md`
+- `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`
 - `orchestra/MODEL_ROLE_SPLIT_LOCK.md`
 - `orchestra/AGENT_DISPATCH_LOG.md`
 
@@ -257,5 +263,6 @@
 
 - 원본은 안 건드린다.
 - 실제 정리는 모두 `cg` 안에서만 한다.
-- 이름 교체는 지금 `display canon` 후보만 누적 중이다.
+- 이름 교체는 `display canon` 후보를 누적하는 reference 흐름으로 읽는다.
 - 정본 선언 전에는 `Source Priority -> State Label -> Revision Gate`를 통과한다.
+- current queue나 active command 판단은 `Continuous_Workstream.md`, `Next_Sequential_Workstream.md`, `Audit_Queue.md`를 우선한다.

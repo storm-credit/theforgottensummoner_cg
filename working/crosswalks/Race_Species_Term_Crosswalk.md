@@ -3,7 +3,7 @@
 이 문서는 종족/혈통/상태/몬스터 용어를
 같은 층위로 오독하지 않기 위한 교차표다.
 
-현재 단계에서는 `정본명 선언`이 아니라
+이 단계에서는 `정본명 선언`이 아니라
 `normalized reading`과 `bucket`을 고정한다.
 
 | Source Term | Normalized Reading | Bucket | Continent/Faction Anchor | Source Path | Keep Separate From | Current Confidence | Note |

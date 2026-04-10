@@ -12,7 +12,7 @@
 
 ## Core Reference Bridge
 
-| Legacy / Observed Reference | Display Canon Candidate | Current Use |
+| Legacy / Observed Reference | Display Canon Candidate | Reference Use |
 |---|---|---|
 | `6-1. 국제 길드 연합 (Guilds)` | `국제 길드 연합 (Guild Leagues)` | 영웅 문서의 자격, 유통, 등급 서술 |
 | `6-2. 대륙 무역 상단 (Syndicates)` | `대륙 무역 연맹 (Trade Leagues)` | 영웅 문서의 매점매석, 밀거래, 후원 구조 서술 |

@@ -3,17 +3,25 @@
 이 문서는 오케스트라가 실제로 서브에이전트를 배치한 기록이다.
 
 역할표와 실제 배치를 혼동하지 않기 위해,
-앞으로 실제 에이전트를 띄운 경우 이곳에 남긴다.
+실제 에이전트를 띄운 경우 이곳에 남긴다.
 
-## Rule
+중요:
 
-- 서브에이전트는 항상 필요한 배치마다 호출한다.
+- 이 문서는 `활성 상태판`이 아니라 `historical batch log`다.
+- mainline reference는 `audit/Continuous_Workstream.md`, `audit/Next_Sequential_Workstream.md`, `audit/Audit_Queue.md`를 우선 본다.
+- 여기의 `post-push`, `next`, `follow-up` 표현은 당시 배치 시점 기록으로만 읽는다.
+- 아래 historical batch 본문에는 당시 wording을 보존하므로, active command나 active queue로 다시 해석하지 않는다.
+- `batch / findings / search` 계열 historical reading rule은 `audit/Historical_Batch_Reading_Guard.md`를 따른다.
+
+## Archive Reading Rule
+
+- 서브에이전트 호출은 필요 배치 기준으로 기록된다.
 - 상시 자동 실행 프로세스로 가정하지 않는다.
 - 서브에이전트는 읽기/진단/제안까지만 맡긴다.
 - 최종 문서 반영, 커밋, 푸쉬는 Conductor가 한다.
 - 원본 저장소는 어떤 에이전트도 수정하지 않는다.
 
-## Active Dispatch
+## Historical Dispatch Batches
 
 ### 2026-04-08 KST - Orchestra Lock / Frost Register Batch
 
@@ -21,7 +29,7 @@
 
 - 오케스트라 방식의 이점을 문서로 고정한다.
 - 프로스트 슬롯을 코어 장부에 직접 연결한다.
-- 현재 진행표와 엔진 색인을 최신 상태로 맞춘다.
+- 당시 진행표와 엔진 색인을 배치 기준에 맞춘다.
 
 배치:
 
@@ -45,7 +53,7 @@ Integrated actions:
 - `Start_Here.md`, `OPEN_INDEX.md`, `AGENT_ROSTER.md`, `SKILL_CANDIDATES.md`에 하네스 연결을 추가
 - 프로스트 슬롯 6개를 `Place Function -> Decision Ruling -> Slot Maturation` 코어에 직접 연결
 - `FS_Canon_Change_Log.md` 초안 작성
-- `Next_Sequential_Workstream.md`를 현재 작업선 기준으로 재정리
+- `Next_Sequential_Workstream.md`를 당시 작업선 기준으로 재정리
 
 Follow-up actions:
 
@@ -76,7 +84,7 @@ Integrated actions:
 
 - `audit/FS_Story_to_Lore_Handoff_Gate.md` 작성
 - `workflow/16_FS_Story_Engine.md`, `workflow/15_FS_Lore_Engine.md`, `audit/FS_Revision_Gate_Checklist.md`에 gate 연결
-- `audit/FS_Canon_Change_Log.md`, `audit/OPEN_INDEX.md`, `audit/Next_Sequential_Workstream.md`를 현재 기준으로 갱신
+- `audit/FS_Canon_Change_Log.md`, `audit/OPEN_INDEX.md`, `audit/Next_Sequential_Workstream.md`를 당시 기준으로 갱신
 - `orchestra/EXECUTION_HARNESS_LOCK.md`에 `story_to_lore_handoff_hook`를 명시
 
 Follow-up actions:
@@ -507,7 +515,7 @@ Harness execution:
 
 Conductor action:
 
-- Heisenberg 제안에 따라 `더글라스 레가스`는 현재 단계에서 direct backfill하지 않고 경계 후보 보존 상태를 유지한다.
+- Heisenberg 제안에 따라 `더글라스 레가스`는 당시 단계에서 direct backfill하지 않고 경계 후보 보존 상태를 유지한다.
 - Turing 제안에 따라 `베스 스크롤`을 `archive_notable_hold`, `이안 옵저버`를 `watcher_notable_hold`로 직접 연결한다.
 - `베스`, `이안`은 15 확정자가 아니라 `verify_before_15` 보류 후보로 유지한다.
 
@@ -1860,7 +1868,7 @@ Follow-up actions:
 목적:
 
 - stable 15 triad의 개별 시트와 요약 장부가 같은 강도로 읽히는지 점검한다.
-- `에리온`, `오그마` 상위 앵커와 triad 현재 단계 표기가 흔들리지 않게 고정한다.
+- `에리온`, `오그마` 상위 앵커와 triad 당시 단계 표기가 흔들리지 않게 고정한다.
 
 하네스:
 
@@ -1880,12 +1888,12 @@ Conductor action:
 
 - `Section_15_Named_Notables_Register.md`, `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Foldering_Test_Crimson.md`, `Section_15_Stable_Candidate_Profile_QA.md`, `Next_Sequential_Workstream.md`를 직접 교차 읽는다.
 - `에리온` 상위 앵커는 `엘드라칸 / 학술-전승층`으로, `오그마` 상위 앵커는 `엘드라칸 / 전승 보관층`으로 통일한다.
-- stable 15 triad의 현재 단계 표기는 `sheet hardening`에서 `consistency check / route freeze` 단계로 한 단계 넘긴다.
+- stable 15 triad의 당시 단계 표기는 `sheet hardening`에서 `consistency check / route freeze` 단계로 한 단계 넘긴다.
 
 Integrated actions:
 
 - `audit/Section_15_Named_Notables_Register.md`, `audit/Section_15_Named_Notables_Anchor_Map.md`, `audit/Section_15_Folder_Draft_Routing_Plan.md`의 triad 앵커 문구 통일
-- `audit/Section_15_Foldering_Test_Crimson.md`, `audit/Section_15_Stable_Candidate_Profile_QA.md`, `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`의 현재 단계 문구를 consistency check 기준으로 이동
+- `audit/Section_15_Foldering_Test_Crimson.md`, `audit/Section_15_Stable_Candidate_Profile_QA.md`, `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`의 당시 단계 문구를 consistency check 기준으로 이동
 
 Follow-up actions:
 
@@ -1958,7 +1966,7 @@ Conductor action:
 Integrated actions:
 
 - `audit/Section_15_Named_Notables_Anchor_Map.md`의 triad 행을 hardening 기준으로 보정
-- `audit/Section_15_Folder_Draft_Routing_Plan.md`의 triad route state와 conductor decision을 현재 단계로 갱신
+- `audit/Section_15_Folder_Draft_Routing_Plan.md`의 triad route state와 conductor decision을 당시 단계로 갱신
 - `audit/Section_8_Crimson_Notable_Anchor_Audit.md`, `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`의 stale next-action 문구를 현재 기준으로 정리
 
 Follow-up actions:
@@ -2273,3 +2281,172 @@ Follow-up actions:
 
 - 메인 본선 다음 실제 작업은 post-push 후속 묶음의 commit/push 판단
 - `엘다라`는 `support hold`, `실비아`는 `deferred expansion hold`로 유지
+
+### 2026-04-09 KST - Post-Push Package Freeze Turnover
+
+목적:
+
+- stable triad actual draft package freeze가 커밋/푸시된 뒤, 같은 package를 다시 열지 않도록 다음 작업선을 재지정한다.
+- 메인 본선을 freeze 밖 hold queue의 boundary review로 복귀시킨다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: ambiguity가 낮아 conductor local evidence turnover로 처리
+- `Hooks`: `pre_scope_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+Conductor action:
+
+- `Section_15_Actual_Draft_Package_Freeze.md`의 다음 작업을 `Boundary Hold Set` 재개로 바꾼다.
+- `Next`, `Continuous`, `Status Compass`, `Revision Gate`의 다음 작업선을 `벨라나 / 아리안 / 드락사르 / 카사르` hold cluster 재점검으로 넘긴다.
+- triad package는 freeze 상태로 유지하고, 이후 작업은 hold queue에서만 진행한다.
+
+Integrated actions:
+
+- `audit/Section_15_Actual_Draft_Package_Freeze.md`, `audit/Section_15_Folder_Revision_Gate.md`, `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`의 post-push turnover 반영
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `벨라나`, `아리안`, `드락사르`, `카사르` boundary hold continuation
+- stable triad package는 freeze 상태 유지
+
+### 2026-04-09 KST - Crimson Hold Cluster Continuation Pass
+
+목적:
+
+- stable triad package freeze 다음 메인 본선을 freeze 밖 크림슨 hold cluster로 넘긴다.
+- `벨라나 / 아리안 / 드락사르 / 카사르`를 한 장으로 묶어 왜 아직 hold인지 복원 가능하게 남긴다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Archimedes` next-step scout 결과 통합
+- `Hooks`: `pre_scope_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+Conductor action:
+
+- `Section_15_Crimson_Hold_Cluster_Continuation.md`를 작성해 4인 hold cluster의 snapshot, recheck rule, conductor decision을 한곳에 모은다.
+- `Section_15_Crimson_Wise_Council_Evidence.md`의 stale `route_test_deferred`를 현재 기준으로 정리한다.
+- `Next`, `Status Compass`를 hold cluster continuation 기준으로 보정한다.
+
+Integrated actions:
+
+- `audit/Section_15_Crimson_Hold_Cluster_Continuation.md` 작성
+- `audit/Section_15_Crimson_Wise_Council_Evidence.md`, `audit/Next_Sequential_Workstream.md`, `audit/Section_15_Named_Notables_Status_Compass.md` 보정
+
+Follow-up actions:
+
+- 메인 본선 다음 실제 작업은 `벨라나 / 아리안 / 드락사르 / 카사르`의 14 독립 시트 / Act 중심성 / 전략 핵심성 재점검
+- stable triad package freeze는 다시 열지 않는다
+
+### 2026-04-09 KST - Crimson Hold Cluster Recheck Lock
+
+목적:
+
+- `벨라나 / 아리안 / 드락사르 / 카사르`의 hold 유지 이유를 14 독립 시트, Act 압력, 전략/기관 핵심성 기준으로 다시 잠근다.
+- stable triad package를 열지 않고 freeze 밖 hold cluster만 정밀화한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Raman`, `Hooke` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Raman` | Wise Council Hold Scout | `벨라나`, `아리안`의 14 독립 시트, Act 중심성, 현자 회의 핵심성 점검 | `completed -> conductor integrated` |
+| `Hooke` | Dragon Hold Scout | `드락사르`, `카사르`의 14 독립 시트, 공병/예언/전략 핵심성 점검 | `completed -> conductor integrated` |
+
+Conductor action:
+
+- `벨라나 > 아리안`, `카사르 > 드락사르` 위험도 계층을 문서로 고정한다.
+- `Section_15_Crimson_Dragon_Hold_Evidence.md`와 `Section_15_Named_Notable_Kasar_the_Seer.md`를 추가해 dragon-side hold 근거를 분리 기록한다.
+- register / status / workstream이 같은 상태어를 따르게 맞춘다.
+
+Integrated actions:
+
+- `audit/Section_15_Crimson_Hold_Cluster_Continuation.md`에 recheck outcome / internal hierarchy 추가
+- `audit/Section_15_Crimson_Wise_Council_Evidence.md` 보강
+- `audit/Section_15_Crimson_Dragon_Hold_Evidence.md` 작성
+- `audit/Section_15_Named_Notable_Kasar_the_Seer.md` 작성
+- `audit/Section_15_Named_Notable_Bellana_Stormbringer.md`, `audit/Section_15_Named_Notable_Arian_Blazeheart.md`, `audit/Section_15_Named_Notable_Draxar_Blazeforge.md` 상태어 보정
+- `audit/Section_15_Named_Notables_Register.md`, `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md` 동기화
+
+Follow-up actions:
+
+- 다음 메인 본선은 `래퍼티 / 대런 / 칼리스트 / 엘라라` boundary continuation
+- stable triad package freeze는 계속 유지
+
+### 2026-04-09 KST - Ether Hold Cluster Continuation Lock
+
+목적:
+
+- `래퍼티 / 대런 / 칼리스트 / 엘라라` 4인을 에테르 freeze 밖 hold cluster로 다시 잠근다.
+- `14 직접 파일 미확인`, `Act 압력`, `기관 코어`, `남는 15 명사 가치`를 분리해 상태어 drift를 줄인다.
+
+하네스:
+
+- `MCP gate`: 이번 배치에 직접 쓸 프로젝트형 리소스가 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: `Raman`, `Hooke` read-only scout 배치
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Raman` | Ether Library/Admin Hold Scout | `래퍼티`, `대런`의 14 독립 시트, Act 압력, 기관 코어 점검 | `completed -> conductor integrated` |
+| `Hooke` | Ether Seer/Archive Hold Scout | `칼리스트`, `엘라라`의 14 독립 시트, 탑주/예언, archive-song 점검 | `completed -> conductor integrated` |
+
+Conductor action:
+
+- `Section_15_Ether_Hold_Cluster_Continuation.md`를 작성해 4인 snapshot, recheck outcome, hierarchy를 한곳에 묶는다.
+- register / boundary evidence / status / workstream이 `library_core_hold / archive_admin_hold / tower_seer_hold / bardic_archive_hold`를 같이 쓰게 맞춘다.
+- `대런 > 래퍼티`, `칼리스트 > 엘라라` 14 crossover 압력, `엘라라 > 칼리스트` 잔여 15 가치 차이를 함께 기록한다.
+
+Integrated actions:
+
+- `audit/Section_15_Ether_Hold_Cluster_Continuation.md` 작성
+- `audit/Section_15_Named_Notables_Register.md`, `audit/Section_15_Named_Notables_Status_Compass.md` 상태어 보정
+- `audit/Section_14_15_Ether_Boundary_Evidence.md`, `audit/Section_14_15_Boundary_Verification_Queue.md` 정밀화
+- `audit/Next_Sequential_Workstream.md`, `audit/Continuous_Workstream.md`를 다음 배치 기준으로 이동
+
+Follow-up actions:
+
+- 다음 메인 본선은 `엘드린 / 네리사 / 다미엔 / 요한` continuation
+- stable triad package freeze는 계속 유지
+
+### 2026-04-09 KST - Required Expert Roster Lock
+
+목적:
+
+- 오케스트라가 앞으로 `필요 전문가 누구였지?`를 잃어버리지 않게 한다.
+- 실제 서브에이전트 이름과 별개로, 먼저 켜야 하는 `역할 묶음`을 하네스에 고정한다.
+
+하네스:
+
+- `MCP gate`: 이번 배치는 프로젝트형 외부 리소스가 필요 없어 `skip`
+- `Skills gate`: 저장소 작업에 직접 맞는 로컬 스킬이 없어 `skip`
+- `Agents`: 실제 scout 추가 호출 없이 Conductor가 고정 roster 문서화를 수행
+- `Hooks`: `pre_scope_hook -> pre_dispatch_hook -> pre_write_hook -> post_write_hook -> pre_close_hook`
+
+Conductor action:
+
+- `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`를 새로 작성해 필수 전문가 묶음과 dispatch matrix를 고정한다.
+- `EXECUTION_HARNESS_LOCK`, `RUNBOOK`, `AGENT_ROSTER`, `ACTIVE_AGENT_SPLIT`, `ORCHESTRA_ADVANTAGE_LOCK`, `Start_Here`, `OPEN_INDEX`가 이 roster를 먼저 보게 연결한다.
+
+Integrated actions:
+
+- `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md` 작성
+- `orchestra/EXECUTION_HARNESS_LOCK.md`, `orchestra/RUNBOOK.md`, `orchestra/AGENT_ROSTER.md`, `orchestra/ACTIVE_AGENT_SPLIT.md`, `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md` 보강
+- `Start_Here.md`, `audit/OPEN_INDEX.md` 링크 추가
+
+Historical follow-up at batch time:
+
+- 이후 배치부터 오케스트라 배치는 `pre_dispatch_hook`에서 먼저 필수 전문가 묶음을 선언하는 기준으로 읽는다.
+- 실제 scout 이름이 바뀌어도 질문 묶음은 `REQUIRED_EXPERT_ROSTER_LOCK.md`를 따르는 기준으로 잠근다.

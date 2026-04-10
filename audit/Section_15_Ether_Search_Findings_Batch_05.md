@@ -1,4 +1,4 @@
-# Section 15 Ether Search Findings - Batch 05
+# Section 15 Ether Search Findings - Batch 05 Snapshot
 
 이 문서는 에테르 후보명 탐색 큐 5번,
 `루멘 성채 / 대사제 요한 / 성채 봉인관 / 순교묘역 사제장` 축의 검색 결과다.
@@ -42,20 +42,20 @@
 현재 문서에서는 `Valerius the Lightbringer`라는 성기사단장 슬롯으로만 보이며,
 독립 인물인지 구칭/이명인지 후속 확인이 필요하다.
 
-## Conductor Decision
+## Conductor Reading
 
-이번 검색에서도 새 15 확정자는 만들지 않는다.
+이 검색 기록에서는 새 15 확정자가 확인되지 않았다.
 
 - `대사제 요한`은 `verify_before_15` 유지.
 - `발레리우스`, `헬렌`은 `local_named_slot_needs_identity_check`로 둔다.
 - `성채 봉인관`, `순교묘역 사제장`은 개인명 없는 `need_named_candidate` 슬롯으로 유지.
 - `루멘 성채`, `순교자의 지하 묘지`, `태양의 거울`은 장소/자산 장부와 연결 가능한 성국 방어 슬롯으로 보존.
 
-## Next Action
+## Queue Snapshot
 
 큐 6번으로 넘어간다.
 
-다음 검색 대상:
+후속 reference 대상:
 
 - `옵시디안`
 - `성검 요새`

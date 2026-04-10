@@ -2,19 +2,19 @@
 
 이 문서는 프로스트 대륙의 `15 Named Notables` 후보와 역할 슬롯을 압축한 종합표다.
 
-프로스트는 현재 안전한 15 확정 후보가 적고,
+프로스트는 reference상 안전한 15 확정 후보가 적고,
 대신 전승, 묘역, 예언, 공방, 성소 같은 장소-기관 슬롯이 강하다.
 
-## Conductor Verdict
+## Conductor Reading
 
 프로스트에서는 새 15 확정자를 만들지 않는다.
 
-현재 이름 있는 후보들은 대부분 전설 영웅록, A/S급 신호, 지도부 신호와 겹치므로
+reference상 이름 있는 후보들은 대부분 전설 영웅록, A/S급 신호, 지도부 신호와 겹치므로
 `verify_before_15` 또는 `keep_14_or_verify`로 유지한다.
 
 ## Stable 15 Candidate
 
-현재 없음.
+안정 15 후보 없음.
 
 프로스트는 아직 안정 15 후보보다 `need_named_candidate` 슬롯이 더 중요하다.
 
@@ -51,9 +51,9 @@
 | `빙하의 성소` | `sanctuary`, `memory_site` | 마리안, 울프릭, 주술사 원로단 검증 축. |
 | `겨울회의 의장막` | `sanctuary`, `threshold` | 부족 간 조정, 대예언자/원로단 회의. |
 
-## Conductor Decision
+## Conductor Reading
 
-프로스트는 지금 인물명을 더 찾기보다
+프로스트는 인물명 추가 탐색보다
 장소-기관 슬롯을 유지하는 쪽이 안전하다.
 
 - `시그리드`, `마리안`, `울프릭`은 15 후보가 아니라 `verify_before_15`.
@@ -62,9 +62,9 @@
 - `아이스포지 병기소 장인`도 2차 narrowing에서 named artisan 없이 workshop slot으로 확인돼 역할 슬롯으로만 보존한다.
 - `시그리드 프로스트하트`는 공성단장 adjacency, `브로만 아이스포지`는 불법 장인 축이라 둘 다 direct holder로 올리지 않는다.
 
-## Next Action
+## Reference State Snapshot
 
-프로스트 unnamed slot 6개 read-only narrowing을 한 번 닫는다.
+프로스트 unnamed slot 6개 read-only narrowing은 한 번 닫힌 상태로 유지한다.
 
-다음 배치는 새 인물 회수가 아니라
-프로스트 closure 결과를 5대륙 압축표와 진행표에 다시 동기화하는 것이다.
+이 문서는 새 인물 회수 실행표가 아니라,
+프로스트 closure 결과를 5대륙 압축표와 진행표에 참조용으로 유지하는 종합표다.

@@ -1,4 +1,4 @@
-# Section 15 Oceanic Search Findings Batch 01
+# Section 15 Oceanic Search Findings Batch 01 Snapshot
 
 이 문서는 `Section_15_Oceanic_Named_Candidate_Search_Queue.md`의
 1차 검색 결과를 기록한다.
@@ -19,7 +19,7 @@
 
 ## Batch Findings
 
-| Search Slot | Result | State | Conductor Judgment |
+| Search Slot | Result | State | Recorded Judgment |
 |---|---|---|---|
 | `수석 오라클 / 파도 신탁장` | `오라클 바지` 문서에 `수석 오라클` 직함과 `12명의 타이드워커`가 보이나 개인명은 확인되지 않음. | `no_named_candidate_yet` | 새 이름 발명 금지. `수석 오라클` 슬롯 유지. |
 | `오라클 바지 관련 인물` | `세일블레스 마리아`가 `오라클 바지`와 연결되어 있으나 `A급`, `성스러운 함대 제독` 신호가 강함. | `verify_before_15` | 15 명사형 NPC가 아니라 14 경계 후보로 유지. |
@@ -32,14 +32,14 @@
 ## Evidence Notes
 
 - `오라클 바지`는 `떠다니는 예언선`의 구명칭을 가진 이동형 성소다.
-- `수석 오라클`은 존재하지만, 현재 import 범위에서는 개인명이 확인되지 않는다.
+- `수석 오라클`은 존재하지만, 검토한 import 범위에서는 개인명이 확인되지 않는다.
 - `세일블레스 마리아`는 `오라클 바지`와 연결되지만 A급 제독이라 15 확정 금지다.
 - `항해사 길드장`, `대경매장 주인`, `늙은 감정사`는 유명 NPC형 슬롯으로 쓸 수 있으나 아직 이름이 없다.
 - `크리스토퍼 델마르`는 새로 보이는 named boundary candidate다.
 
-## Next Search
+## Queue Snapshot
 
-다음 검색은 `크리스토퍼 델마르`, `대경매장 주인`, `항해사 길드장`을 중심으로 진행한다.
+후속 reference는 `크리스토퍼 델마르`, `대경매장 주인`, `항해사 길드장`을 중심으로 읽는다.
 
 목표:
 
@@ -51,7 +51,7 @@
 
 - `Section_15_Oceanic_Search_Findings_Batch_02.md`에 기록한다.
 
-## Routing Update
+## Routing Record
 
 - `크리스토퍼 델마르`를 `Section_14_15_Boundary_Verification_Queue.md`에 `verify_before_15`로 등록한다.
 - `Section_15_Named_Notables_Register.md`에는 `new boundary candidate`로 등록한다.

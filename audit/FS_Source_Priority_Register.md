@@ -9,13 +9,13 @@
 
 ## Priority Ladder
 
-### Tier 1. Active Canon Spine
+### Tier 1. Canon Spine Reference
 
 가장 우선한다.
 
-- 현재 오케스트라가 `Hard Canon` 또는 `Active Spine`으로 판정한 문서
+- 오케스트라가 `Hard Canon` 또는 `Active Spine`으로 판정한 문서
 - `workflow`와 `audit`에서 반복적으로 기준으로 쓰는 문서
-- 대륙, 세력, 14/15 라우팅의 현재 실행 기준
+- 대륙, 세력, 14/15 라우팅의 기준 reference
 
 사용 예:
 
@@ -25,9 +25,9 @@
 - `working/drafts/Five_Continent_Synthesis.md`
 - `audit/Section_8_Standard_Spine.md`
 
-### Tier 2. Current Imported Working Copy
+### Tier 2. Imported Working Copy Snapshot
 
-원본에서 복사해 온 현재 작업본이다.
+원본에서 복사해 온 작업본 snapshot이다.
 
 - `working/imports` 아래의 참조 복사본
 - 원본의 특정 구역을 비교하기 위해 가져온 문서
@@ -54,7 +54,7 @@
 주의:
 
 - 분석 문서는 원본보다 강하지 않다.
-- 다만 현재 작업 결정을 내릴 때는 분석 문서가 실행 기준이 된다.
+- 다만 실제 작업 결정을 내릴 때는 분석 문서가 실행 기준이 된다.
 
 ### Tier 4. Legacy / Backup / Corrupted Root
 
@@ -95,7 +95,7 @@
 
 Source Priority는 `무엇이 더 강한 증거인가`를 정한다.
 
-Derived Analysis는 `현재 작업에서 무엇을 할 것인가`를 정한다.
+Derived Analysis는 `해당 작업에서 무엇을 할 것인가`를 정한다.
 
 따라서:
 
@@ -104,9 +104,9 @@ Derived Analysis는 `현재 작업에서 무엇을 할 것인가`를 정한다.
 - 하지만 Derived Analysis가 더 높은 출처 증거와 충돌하면
   즉시 `conflict` 또는 `open_question`으로 낮춘다.
 
-## Current Notes
+## Recorded Notes
 
-| Topic | Higher Priority | Lower Priority | Current Action |
+| Topic | Higher Priority | Lower Priority | Recorded Action |
 |---|---|---|---|
 | `카르텔` 표면명 | Naming Tone Guide | 기존 기능 라벨 | `금융 연맹`, `침묵의 상회` 후보로 관리 |
 | `14/15` 분리 | Section 15 Split Policy | 기존 혼재 문맥 | `14` 유지, `15`는 Named Notables / Operational Lines로 분리 |

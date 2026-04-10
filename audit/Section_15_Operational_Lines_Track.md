@@ -2,9 +2,15 @@
 
 이 문서는 지금까지 정리한
 `조직 실무층 / 현장 라인 / 기능 계열`
-을 따로 묶어 보는 색인용 기준서다.
+을 따로 묶어 보는 reference track이다.
 
 이 축은 Named Notables와 별개다.
+
+current active state나 queue 판단은
+`Section_15_Operational_Display_Canon_Candidates.md`,
+`Section_15_Group_Index.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
 
 ## Purpose
 
@@ -12,7 +18,7 @@
 - 인물 관계망에 `기능의 얼굴`을 붙인다
 - Named Notables가 비어 있어도 세계가 작동하는 감각을 살린다
 
-## Current Functional Axes
+## Functional Axes Snapshot
 
 | Axis | State Label | Display Name State | Note |
 |---|---|---|---|
@@ -28,7 +34,7 @@
 ## Working Name Rule
 
 이 트랙의 많은 이름은
-현재 `작업용 구조 라벨`이다.
+reference용 `작업 구조 라벨`이다.
 
 예:
 
@@ -36,12 +42,23 @@
 - `채무 집행관 계열`
 - `장물 감정사 계열`
 
-이런 이름은 나중에
+이런 이름은 필요 시
 판타지 톤의 `display canon` 이름으로 다시 씌운다.
+
+## Policy Carryover Snapshot
+
+- `Hidden Exchange`, `Ironblood`, `Black Skull`, `Silent Market Undercurrent` 같은 자유도시 운영층은
+  `urban_market / shadow_port / debt-enforcement` 축으로만 읽고
+  해양 `토착 공동체층` 본체 근거로 읽지 않는다.
+- `Iron Finance Field`, `Shadow Field Network`는
+  오벨리스크형 `nontraditional elite thin-support` 또는 `dark institution` 축으로 읽고
+  전통 귀족국가형 `state_house strong` 근거로 읽지 않는다.
+- `Trade Broker Ring`은 범대륙/도시 상업 제도축으로 읽고,
+  특정 대륙 본체의 혈통/토착/왕국 상층으로 오독하지 않는다.
 
 ## Conductor Note
 
-이 트랙은 폐기하지 않는다.
+이 트랙은 폐기하지 않고 reference axis로 유지한다.
 
 사용자가 말한 `유명 NPC층`과 분리해서,
-두 번째 축으로 계속 유지한다.
+보조 축으로 계속 읽는다.

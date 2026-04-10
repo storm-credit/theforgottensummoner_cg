@@ -18,7 +18,7 @@
 | `에리온 드라코비스` | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` | 고대어 해석가/대현자. 엘드라칸 학술-전승층을 상위 route로 읽되 `에리온 베르날리스` 충돌 감시를 유지한다. |
 | `오그마` | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `stable_15_workset / route_hierarchy_locked / act_watch` | 살아있는 도서관/고룡 조언자. 전승 보관층 route와 place lock을 분리한 actual draft 기준을 우선한다. |
 | `엘다라` | `15 / 에테르 / 정령연합 / 루미라` | `support_hold / verify_source_before_profile` | 루미라 대현자/고대 정령어 권위자. 정령연합 전체 14 확인 전 Hard Canon 금지, stable triad actual draft에는 즉시 합류시키지 않는다. |
-| `실비아` | `15 / 범대륙 후기 확장 / 키르케 영약회` | `draft_route_deferred` | 강한 15 후보지만 범대륙 후기 확장이라 메인 진행 후순위. |
+| `실비아` | `15 / 범대륙 후기 확장 / 키르케 영약회` | `deferred_expansion_hold / name_collision_watch` | 강한 15 후보지만 범대륙 후기 확장이라 메인 진행 후순위. |
 
 ## Boundary Candidate Routing
 
@@ -53,6 +53,13 @@
 | `해양` | `해양 / 포트 아우렐리온 / 크로스윈드 포트 / 오라클 바지 / 블랙워터 항구 / 볼트 오브 아우룸` | 수석 오라클, 항해사 길드장, 마스터 쉽라이트, 대경매장 주인, 은행장, 세관장, 심해 금고 보관인 |
 | `오벨리스크` | `오벨리스크 / 템플 오브 바운더리 / 경계의 보루 / 기억 경매장 / 영원의 기록탑 / 망각의 회랑 / 그림자 도서관` | 기록의 수호자, 관측대장, 기억 경매장 중개자, 사후 서기관, 기억 지기, 신성 기록소 관리 사제 |
 
+## Policy Routing Guard
+
+- `크림슨` route는 씨족 중심 질서와 현자/장인/전승 thin-support까지만 보존하고, `state_house strong` route로 해석하지 않는다.
+- `해양` 자유도시 profile route는 `urban_market / shadow_port / debt-enforcement` 축까지만 보존하고, `토착 공동체층` route와 섞지 않는다.
+- `오벨리스크` 제도 route는 `nontraditional elite thin-support` 또는 `dark institution` 축까지만 보존하고, 전통 귀족국가형 route로 해석하지 않는다.
+- `실비아`는 `범대륙 후기 확장 / 키르케 영약회` hold route로만 보존한다.
+
 ## Revision Gate
 
 실제 폴더 초안을 만들기 전 반드시 확인한다.
@@ -67,5 +74,5 @@
 
 아직 실제 이동은 하지 않는다.
 
-다음 실작업은 stable 15 triad의 actual draft `package freeze`를 마감하고,
-필요하면 commit/push 판단으로 넘기는 것이다.
+현재 이 문서의 역할은 stable triad actual draft `package freeze`를 다시 여는 것이 아니라,
+freeze 밖 hold queue와 `Section 8 -> 15 carryover watch`를 유지하는 것이다.

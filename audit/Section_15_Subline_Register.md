@@ -3,7 +3,7 @@
 이 문서는 이미 확보한 `15번` 계열 시트를
 더 세부적인 파생 라인으로 쪼갤 필요가 있는 지점을 모아두는 등록부다.
 
-지금 단계에서는 모든 파생 라인을 곧바로 개별 인물로 내리기보다,
+이 단계에서는 모든 파생 라인을 곧바로 개별 인물로 내리기보다,
 어느 축이 나중에 더 자랄지를 먼저 고정하는 데 목적이 있다.
 
 ## Fields
@@ -11,7 +11,7 @@
 | Parent Line | Suggested Subline | Use | Priority | Note |
 |---|---|---|---|---|
 
-## Current Register
+## Register Snapshot
 
 | Parent Line | Suggested Subline | Use | Priority | Note |
 |---|---|---|---|---|
@@ -25,6 +25,14 @@
 | `네크로 우물 현장 연락책 계열` | `야간 봉수 인도자 계열` | 밤 경로 인도, 우회 연락 동선 | `medium` | 도시 지하 동선을 더 구체화한다. |
 | `모조품 장인 조합 공방장 계열` | `인장 위조 장인 계열` | 귀족 문장, 상단 인장, 통행 문서 위조 | `high` | 신분 세탁 축과 직접 연결된다. |
 | `모조품 장인 조합 공방장 계열` | `가짜 유물 외장사 계열` | 유물 바꿔치기, 표면 노화 처리 | `high` | 수집욕, 경매장, 가품 유통에 강하다. |
+
+## Policy Subline Guard
+
+- 자유도시 subline은 `urban_market / shadow_port / debt-enforcement` 하위 기능 라인으로만 읽고,
+  해양 `토착 공동체층` 본체나 부족층 복원 근거로 읽지 않는다.
+- `철의 금융 연맹`, `그림자 첩보망`, `침묵의 상회` 하위 subline은
+  `nontraditional elite thin-support` 또는 `dark institution` 하위 기능 라인으로만 읽는다.
+- 즉 subline이 늘어나도 전통 귀족국가형 `state_house strong`이나 정상 국가기관 복원 근거로 재상승시키지 않는다.
 
 ## Conductor Rule
 

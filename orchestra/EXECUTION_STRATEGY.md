@@ -12,7 +12,7 @@
 - `8번`과 `14번`은 규모가 커서 전체 복사는 곧 혼란이 된다.
 - 지금 중요한 것은 전체 보관이 아니라 `충돌을 풀 수 있는 최소 작업 단위`를 확보하는 것이다.
 
-## Fixed Order
+## Baseline Build Order
 
 ### Stage 1. 세계관
 
@@ -59,7 +59,7 @@
 - 첩보
 - 용병
 
-## Default Batch Sequence
+## Archived Batch Sequence
 
 ### Batch 1
 
@@ -86,6 +86,18 @@
 - 액트/관계 구조가 없는 상태에서 인물 개별 리라이트
 - 흩어진 아이템을 바로 정본 아이템 백과로 확정
 
+## Active Watch Strategy
+
+active 전략은
+초기 build batch를 다시 밟는 것이 아니라,
+`closure sync / carryover watch / wording drift guard`
+순서로 current 문서군을 유지하는 것이다.
+
+실제 current workstream은
+`audit/Continuous_Workstream.md`,
+`audit/Next_Sequential_Workstream.md`,
+`audit/Audit_Queue.md`를 기준으로 읽는다.
+
 ## Conductor Rule
 
 Conductor는 항상 다음 질문에 답할 수 있어야 한다.
@@ -93,4 +105,4 @@ Conductor는 항상 다음 질문에 답할 수 있어야 한다.
 - 왜 지금 이 배치를 가져오는가
 - 이 배치가 어떤 구조 충돌을 푸는가
 - 이 배치가 끝나면 어떤 Open Question이 줄어드는가
-- 이 배치가 `세계관 -> 대륙 -> 세력 -> 인물 -> 관계망 -> 확장` 순서에 맞는가
+- 이 판단이 현재 watch cycle과 충돌하지 않는가

@@ -149,9 +149,9 @@ handoff packet으로 먼저 받는다.
 6. 수정하려면 Revision Gate를 통과한다.
 7. story-born 신규 설정이면 handoff packet과 register write를 같이 남긴다.
 
-## Current Priority
+## Reference Priority
 
-현재 FS Lore Engine의 우선순위:
+FS Lore Engine reference priority:
 
 1. `14/15` 분리 기준 유지
 2. Named Notables와 Operational Lines를 섞지 않기
@@ -160,9 +160,9 @@ handoff packet으로 먼저 받는다.
 5. 이름은 판타지 표면명 후보로 따로 관리
 6. 소문과 사실을 섞지 않기
 
-## Live Lore Registers
+## Lore Reference Registers
 
-FS Lore Engine이 실제로 쓰는 장부:
+FS Lore Engine reference register set:
 
 - `audit/FS_Canon_Tier_Register.md`
 - `audit/FS_Relationship_Ledger.md`
@@ -185,7 +185,7 @@ FS Lore Engine이 실제로 쓰는 장부:
 
 ## Conductor Note
 
-FS Lore Engine은 지금 단계의 주 엔진이다.
+FS Lore Engine은 이 reference model의 주 엔진이다.
 
-설정집이 안정될 때까지는
+설정집 안정화 기준에서는
 `Story Engine`보다 `Lore Engine`을 우선 적용한다.

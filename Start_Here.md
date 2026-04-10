@@ -31,12 +31,19 @@
 18. `working/crosswalks/Character_Archive_Split.md`
 19. `working/crosswalks/Item_Encyclopedia_Pipeline.md`
 20. `orchestra/AGENT_ROSTER.md`
-21. `orchestra/Active_Agent_Split.md`
+21. `orchestra/ACTIVE_AGENT_SPLIT.md`
 22. `orchestra/MASTER_PLAN.md`
 23. `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
 24. `orchestra/EXECUTION_HARNESS_LOCK.md`
-25. `orchestra/MODEL_ROLE_SPLIT_LOCK.md`
-26. `audit/Audit_Queue.md`
+25. `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`
+26. `orchestra/MODEL_ROLE_SPLIT_LOCK.md`
+27. `audit/Audit_Queue.md`
+
+## Mainline Reading Reference
+
+- mainline reference는 `audit/Continuous_Workstream.md`, `audit/Next_Sequential_Workstream.md`, `audit/Audit_Queue.md`를 우선 본다.
+- historical batch / search / recovery 문서는 `audit/Historical_Batch_Reading_Guard.md` 기준으로 읽는다.
+- 실제 서브에이전트 배치 기록은 `orchestra/AGENT_DISPATCH_LOG.md`에 남기되, active command로 다시 읽지 않는다.
 
 ## 운영 원칙
 
@@ -45,6 +52,7 @@
 - 원본 저장소는 바로 고치지 않는다.
 - 먼저 `cg` 저장소에서 기준과 이슈를 정리한다.
 - 실행은 `MCP -> Skills -> Agents -> Hooks -> Registers -> Conductor final integration` 순서를 기본으로 한다.
+- `Agents`에 들어가기 전, 해당 배치의 필수 전문가 묶음은 `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`에서 먼저 고른다.
 - 모든 판단은 `인간 서사 중심`, `액트 단위 여운`, `엇갈린 관계망`, `초월전 비중 제한` 원칙을 따른다.
 - 확정되지 않은 내용은 삭제하지 않고 `Soft Canon` 혹은 `Open Question`으로 보류한다.
 - 폴더별 에이전트 분할보다 `기능별 전문가 + 총괄 Conductor` 구조를 우선한다.
@@ -56,7 +64,9 @@
 - 지도는 메인 진행을 막지 않는 선에서 세계 -> 대륙 -> 도시 -> 건물 순으로 점진적으로 붙인다.
 - 작법 이론은 참고용 메모가 아니라 `FS Engine`으로 통합해 실제 판단 순서에 사용한다.
 
-## 첫 실행
+## Bootstrap Reference Export Example
+
+필요 시 아래 예시처럼 참조 manifest를 다시 뽑아 읽을 수 있다.
 
 ```powershell
 python scripts/export_reference_manifest.py `
@@ -70,4 +80,6 @@ python scripts/export_reference_manifest.py `
   --output "reference/manifests/heroes_manifest.md"
 ```
 
-이후에는 `audit/Audit_Queue.md` 순서대로 섹션별 감사를 진행한다.
+이후에는 고정된 초기 순서표를 다시 밟기보다,
+`audit/Continuous_Workstream.md`, `audit/Next_Sequential_Workstream.md`, `audit/Audit_Queue.md`
+기준으로 mainline reference와 carryover watch를 읽는다.

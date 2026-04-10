@@ -129,7 +129,7 @@ FS Lore Engine에서 장소는
 - 청부
 - 조직망 노출
 
-## Current Seed Places
+## Seed Place Snapshot
 
 | Place | Function | Related Track | Route Link | Resource Link |
 |---|---|---|---|---|
@@ -180,6 +180,20 @@ FS Lore Engine에서 장소는
 | 머시너리 게이트 | `threshold`, `market` | 계약문 보관관 / 용병 중재 서기관 | `merchant_road`, `supply_road` | `institutional_asset`, `secret` |
 | 잠든 정령의 숲 | `sanctuary`, `memory_site` | 침묵의 감시자 / 정령의 무덤 이름 새김꾼 | `pilgrim_road`, `hunter_trail` | `knowledge_asset`, `suppressed_record` |
 | 루미라 | `sanctuary`, `memory_site` | 정령 계약 해석자 / 대현자 보좌 기록관 | `pilgrim_road`, `scholar_road` | `knowledge_asset`, `institutional_asset` |
+
+## Section 8 P2 Carryover
+
+`Section_8_Place_Network_P2_Queue.md`와
+`Section_8_Place_Network_Handoff_Map.md` 기준으로
+아래 항목은 구조 라벨이 아니라 `place pressure` 메모로만 유지한다.
+
+| Candidate / Place Cluster | Pressure Type | Carryover Rule |
+|---|---|---|
+| `바다의 교단` | `sanctuary + threshold + watch-fort` | 주 기록처는 `Section_15_Oceanic_Place_Institution_Sidecar.md`로 두고, 이 register에는 성지/감시/항로 통제 장면 기능 요약만 참조로 둔다 |
+| `오로라 평원` | `memory_site + sanctuary` | 프로스트 전체 구조 라벨 증거로 쓰지 않고, 전승/예언/샤먼 슬롯 장면 기능으로만 쓴다 |
+| `빙하의 성소` | `sanctuary + memory_site` | 성소 압력을 구조 승격 근거로 쓰지 않고, 의식/치유/검증 장면 기능으로만 쓴다 |
+| `본 마켓` 계열 | `market + underworld_node + memory_site` | 오벨리스크 `frontier_survival` 본체를 건드리지 않고, 기억 거래/보급/이름 시장 장면 기능으로만 쓴다 |
+| `잊힌 자들의 연합` | `threshold + memory_site + underworld_node` | 구조 라벨은 `section_style_reclassify`로 고정한 채, 거점/망명 네트워크 압력만 기능 메모로 보존한다. 이 항목의 주 기록처는 이 register다 |
 
 ## Frost Direct Link Pass
 

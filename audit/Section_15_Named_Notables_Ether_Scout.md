@@ -3,15 +3,21 @@
 이 문서는 에테르 대륙의 `15번 Named Notables` 후보를 스카우트한 결과다.
 
 목표는 새 이름을 발명하는 것이 아니라,
-현재 `cg` 작업본에 들어온 에테르 세력 문서에서
+existing `cg` 작업본에 들어온 에테르 세력 문서에서
 유명 NPC형 명사, 서고/학파/사제/장인/정령 계약 명사층을 확인하는 것이다.
+
+named-notables active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
 
 ## Conductor Reading
 
 에테르는 15번 명사층을 확정하기 좋은 대륙이지만,
 동시에 `14번 영웅표`와 겹치는 이름이 많다.
 
-따라서 이번 배치의 기본 판정은 다음과 같다.
+따라서 이 scout snapshot의 기본 판정은 다음과 같다.
 
 - 이미 14번 핵심 인물표에 걸리는 이름은 `verify_before_15`로 둔다.
 - 이름 없는 역할 슬롯은 `need_named_candidate`로 둔다.
@@ -104,15 +110,14 @@
 | 침묵의 감시자 | `need_named_candidate` | 잠든 정령의 숲 |
 | 정령의 무덤 이름 새김꾼 | `need_named_candidate` | 잠든 정령의 숲 / 정령의 무덤 |
 
-## Conductor Decision
+## Conductor Reading
 
 에테르는 `15번 Named Notables` 확장 우선순위가 높다.
 
-하지만 이번 배치에서 확정 15로 바로 올릴 새 이름은 거의 없다.
-대신 다음처럼 처리한다.
+하지만 이 scout snapshot에서 확정 15로 바로 올릴 새 이름은 거의 없다.
+대신 reference상 다음처럼 읽는다.
 
 1. `엘다라`는 기존 15 후보로 유지한다.
 2. `대런`, `래퍼티`, `요한`, 7개 탑주는 `verify_before_15`로 경계 큐에 둔다.
 3. 마법협회, 성국, 정령연합의 역할 슬롯은 `need_named_candidate`로 둔다.
-4. 다음 단계는 `에테르 14번 파일`과 대조해 이 이름들이 이미 영웅백과에 있는지 확인하는 것이다.
-
+4. 후속 reference는 `에테르 14번 파일`과 대조해 이 이름들이 이미 영웅백과에 있는지 확인하는 흐름이다.

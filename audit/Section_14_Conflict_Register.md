@@ -10,9 +10,9 @@
 - `context_conflict`: 파일 경로와 본문 문맥이 다른 축을 가리킴
 - `macro_overlink`: 범대륙 조직망 연결이 과반복되어 세계 구조인지 자동 확장 잔재인지 확인 필요
 
-## Current Register
+## Register Snapshot
 
-| Character / Node | Conflict Type | Current Path Reading | Competing Context | Current Judgment | Next Action |
+| Character / Node | Conflict Type | Path Reading Snapshot | Competing Context | Recorded Judgment | Reference Action |
 |---|---|---|---|---|---|
 | `왕국연합 (Allians)` | `label_conflict` | `왕국연합 (Allied Kingdoms)` 축 | 영문 철자 `Allians` | `Conflict` | display canon은 `Allied Kingdoms`로 유지 |
 | `정령 연합 (Elemental Alliance)` | `label_conflict` | `정령 연합 (Spirit Union)` 축 | 영문 `Elemental Alliance` | `Conflict` | 한국어 축 유지, 영문은 `Spirit Union` 우선 |
@@ -26,7 +26,7 @@
 
 ## Arcane Society Context Conflict Set
 
-현재 확인된 고위험 문맥 충돌 파일:
+이 기준에서 확인된 고위험 문맥 충돌 파일:
 
 - `01. 제레시스 아르카디아 (Jeresys Arcadia).md`
 - `02. 크세노스 아르카디아 (Xenos Arcadia).md`
@@ -46,10 +46,10 @@
 
 이 등록부에 올라온 항목은 다음 규칙을 따른다.
 
-1. 지금은 이동하지 않는다.
+1. 이 단계에서는 이동하지 않는다.
 2. 관계표에는 `Conflict` 상태를 붙인다.
 3. display canon만으로 덮어쓰지 않는다.
-4. 나중에 `14 유지 / 15 이동 / 별도 축 분리` 판단 전까지 보류한다.
+4. 후속 `14 유지 / 15 이동 / 별도 축 분리` 판단 전까지 보류한다.
 
 ## Latest Note
 

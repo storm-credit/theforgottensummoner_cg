@@ -3,6 +3,12 @@
 이 문서는 프로스트 대륙에서 아직 개인명이 없는
 `유명 NPC형 역할 슬롯`을 모아두는 색인이다.
 
+named-candidate active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Rule
 
 - 새 이름을 만들지 않는다.
@@ -24,7 +30,7 @@
 
 프로스트 슬롯은 이름보다 장소 기능이 먼저다.
 
-따라서 후속 작업은 다음 순서로만 진행한다.
+따라서 후속 reference는 다음 순서로만 읽는다.
 
 1. 장소/기관 기능 유지.
 2. 실제 개인명 확인.

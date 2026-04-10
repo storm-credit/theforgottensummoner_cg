@@ -3,6 +3,12 @@
 이 문서는 에테르 큐 1-9번에서 확인된
 `개인명 없는 유명 NPC 슬롯`을 장소-기관 앵커별로 묶은 색인이다.
 
+named-candidate active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 원칙:
 
 - 새 이름을 지금 만들지 않는다.
@@ -45,7 +51,7 @@
 ## Routing Notes
 
 이 색인은 15번 인물백과의 실제 인물 시트가 아니다.
-후속 설정에서 개인명이 확인되면 아래 순서로만 승격한다.
+후속 설정에서 개인명이 확인되면 아래 순서로만 승격 흐름을 읽는다.
 
 1. 원본 또는 작업본에서 개인명 확인.
 2. 14번 영웅 신호 확인.
@@ -55,7 +61,7 @@
 
 ## Low-Priority Follow-Up Progress
 
-이번 read-only pass에서 아래 7개는 direct holder가 확인되지 않아 role slot 유지로 잠갔다.
+이 read-only snapshot에서 아래 7개는 direct holder가 확인되지 않아 role slot 유지로 잠갔다.
 
 - `탑서기`
 - `왕실 의전서기`
@@ -65,13 +71,13 @@
 - `탐사 기록관`
 - `연구소 보존관`
 
-이번 read-only pass에서 아래 2개도 direct holder가 확인되지 않아 role slot 유지로 잠갔다.
+이 read-only snapshot에서 아래 2개도 direct holder가 확인되지 않아 role slot 유지로 잠갔다.
 
 - `대현자 보좌 기록관`
 - `침묵의 감시자`
 
-## Next Action
+## Reference State Snapshot
 
-이제 에테르 표면명 기본값은 한 번 잠갔다.
-low-priority auxiliary slot 9개는 read-only closure를 마쳤다.
-다음 배치에서는 이 closure 결과를 coverage / closure / anchor bridge 압축표에 동기화한다.
+에테르 표면명 기본값은 한 번 잠긴 상태로 유지한다.
+low-priority auxiliary slot 9개도 read-only closure를 마친 reference 결과로 유지한다.
+이 색인은 coverage / closure / anchor bridge 압축표를 보조하는 reference 장부로 읽는다.

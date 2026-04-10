@@ -201,7 +201,7 @@
 - 관련 세력
 - 수집 시 열리는 의미
 
-## Current Decision
+## Decision Snapshot
 
 지금 단계에서는 모든 아이템을 예쁘게 완성하지 않는다.
 

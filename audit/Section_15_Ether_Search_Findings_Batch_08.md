@@ -1,4 +1,4 @@
-# Section 15 Ether Search Findings - Batch 08
+# Section 15 Ether Search Findings - Batch 08 Snapshot
 
 이 문서는 에테르 후보명 탐색 큐 8번,
 `포트 넥서스 / 제3 부두 / 검은 고양이 / 머시너리 게이트 / 그늘항로 기록관` 축의 검색 결과다.
@@ -50,20 +50,20 @@
 현재 14 작업본에는 `셀레나 아르시엔`이 별도 확인된다.
 이름만 보고 병합하지 않는다.
 
-## Conductor Decision
+## Conductor Reading
 
-이번 검색에서도 새 15 확정자는 만들지 않는다.
+이 검색 기록에서는 새 15 확정자가 확인되지 않았다.
 
 - `드레이크 루가`는 `keep_14`.
 - `셀레나 와일드웨이브`와 `레온 벨가르드`는 `verify_before_15`.
 - `조선소장`, `교관`, `대집행관`, `그늘항로 기록관`, `서약문 보관관`은 개인명 없는 `need_named_candidate` 슬롯으로 유지.
 - `포트 넥서스`, `머시너리 게이트`, `황금 맹약의 신전`은 자유도시 장소-기관 슬롯으로 보존.
 
-## Next Action
+## Queue Snapshot
 
 큐 9번으로 넘어간다.
 
-다음 검색 대상:
+후속 reference 대상:
 
 - `루미라`
 - `엘다라`

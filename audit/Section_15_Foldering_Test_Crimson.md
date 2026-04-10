@@ -13,22 +13,22 @@
 
 ## Why Crimson First
 
-크림슨은 현재 `15 Named Notables` 후보가 가장 안정적으로 보이는 대륙이다.
+크림슨은 `15 Named Notables` 후보가 가장 안정적으로 보이는 대륙이다.
 
 다른 대륙은 후보가 대부분 `verify_before_15`에 걸려 있지만,
 크림슨은 아래 후보들이 비교적 15번 명사형 인물에 가깝다.
 
-| Candidate | Current State | Read |
+| Candidate | State Snapshot | Read |
 |---|---|---|
-| 울프가르 드래곤포지 | `named_notable_candidate` | 용의 대장장이 / 공방장 |
-| 에리온 드라코비스 | `named_notable_candidate` | 고대어 해석가 / 대현자 / 관리자 |
-| 오그마 | `named_notable_candidate` | 고룡 / 살아있는 도서관 |
+| 울프가르 드래곤포지 | `stable_15_workset / route_hierarchy_locked / grade_caution` | 용의 대장장이 / 공방장 |
+| 에리온 드라코비스 | `stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` | 고대어 해석가 / 대현자 / 관리자 |
+| 오그마 | `stable_15_workset / route_hierarchy_locked / act_watch` | 고룡 / 살아있는 도서관 |
 | 벨라나 스톰브링어 | `verify_before_15` | 현자 회의 / 주술사 / 고고학자 / SS급 폭풍의 여왕 |
 | 아리안 블레이즈하트 | `verify_before_15` | 현자 회의 / 전승 보존자 / S급 불의 사제 |
 
 경계 후보:
 
-| Candidate | Current State | Reason |
+| Candidate | State Snapshot | Reason |
 |---|---|---|
 | 드락사르 블레이즈포지 | `verify_before_15` | 불꽃 연금술사 가치가 있지만 A급 / 공병대장 / 신무기 테스트 신호가 있다. |
 | 카사르 더 시어 | `hold_for_dual_review` | 예언자 가치가 있지만 S급 / 최고 조언자 / 영웅록 신호가 있다. |
@@ -63,14 +63,14 @@
 | 울프가르 드래곤포지 | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `장인`, `대장장이`, `공방주`, `무구 제작` | `stable_15_workset / route_hierarchy_locked` |
 | 에리온 드라코비스 | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `현자`, `고대어`, `해석가`, `관리자` | `stable_15_workset / route_hierarchy_locked` |
 | 오그마 | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `살아있는 도서관`, `전승`, `조언자` | `stable_15_workset / route_hierarchy_locked` |
-| 벨라나 스톰브링어 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `주술사`, `사제`, `고고학자` | `legacy_route_test_complete / verify_before_15` |
-| 아리안 블레이즈하트 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `전승 보존자`, `사제`, `현자` | `legacy_route_test_complete / verify_before_15` |
+| 벨라나 스톰브링어 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `주술사`, `사제`, `고고학자` | `verify_before_15` |
+| 아리안 블레이즈하트 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `전승 보존자`, `사제`, `현자` | `verify_before_15` |
 | 드락사르 블레이즈포지 | `hold` | `연금술사`, `공병`, `공방주` | `verify_before_15` |
 | 카사르 더 시어 | `hold` | `예언자`, `조언자` | `hold_for_dual_review` |
 
 ## Route vs Place Lock
 
-크림슨 actual draft 단계에서는
+크림슨 route reference 단계에서는
 상위 route와 보조 place lock을 아래처럼 분리해 읽는다.
 
 | Candidate | Upper Route | Place Lock |
@@ -79,11 +79,19 @@
 | `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` |
 | `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `몽상가의 바위`, `지혜의 샘` |
 
+## Crimson Policy Guard
+
+- 이 crimson foldering test는 씨족 중심 질서 아래의 공방/학술/전승 thin-support route를 검증하는 용도다.
+- 즉 `울프가르 / 에리온 / 오그마 / 벨라나 / 아리안 / 드락사르 / 카사르`를
+  전통 귀족국가형 `state_house strong` 후보처럼 읽지 않는다.
+- `붉은 사막 부족 / 현자 회의`와 `용의 후예 / 엘드라칸` route는
+  모두 크림슨 `tribe_clan core` 아래의 분화축으로만 유지한다.
+
 ## Display Name Notes
 
-지금 단계에서는 표면 명칭을 과하게 새로 만들지 않는다.
+이 단계에서는 표면 명칭을 과하게 새로 만들지 않는다.
 
-다만 나중에 실제 문서명을 만들 때는 아래 톤을 우선한다.
+다만 후속 실제 문서명을 만들 때는 아래 톤을 우선한다.
 
 | Functional Read | Better Fantasy Surface |
 |---|---|
@@ -103,8 +111,8 @@
 
 다만 이 단계는 실제 이동이 아니라 라우팅 검증이다.
 
-다음 액션:
+후속 기준:
 
-1. `울프가르`, `에리온`, `오그마`는 legacy route test를 닫고 `Section_15_Folder_Structure_Draft.md` 기준 `stable_15_workset / route_hierarchy_locked` actual draft bridge / routing sync로 유지한다.
+1. `울프가르`, `에리온`, `오그마`는 route validation을 닫고 `Section_15_Folder_Structure_Draft.md` 기준 `stable_15_workset / route_hierarchy_locked` package-frozen carryover 상태로 유지한다.
 2. `벨라나`, `아리안`은 SS/S급 핵심 인물 신호가 확인되어 시트화를 보류하고 14 경계 검증으로 되돌린다.
 3. `드락사르`, `카사르`는 14 경계 큐에 유지한다.

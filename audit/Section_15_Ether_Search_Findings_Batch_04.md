@@ -1,4 +1,4 @@
-# Section 15 Ether Search Findings - Batch 04
+# Section 15 Ether Search Findings - Batch 04 Snapshot
 
 이 문서는 에테르 후보명 탐색 큐 4번,
 `아스트라르 중앙 도서관 / 래퍼티 / 대서고 수호장` 축의 검색 결과다.
@@ -44,29 +44,29 @@
 
 ## Name Drift Note
 
-이번 검색에서 `도서관장` 이름이 두 형태로 보인다.
+이 검색 기록에서는 `도서관장` 이름이 두 형태로 보인다.
 
 - `래퍼티 아르카디아 (Rafferty Arcadia)`: 성국 핵심 인물표, A급, Act 2/3.
 - `라파엘 아르카디아 (Raphael Arcadia)`: 아스트라르 도시 문서 핵심 인물 슬롯.
 
-현재 단계에서는 둘을 병합하지 않는다.
+이 단계에서는 둘을 병합하지 않는다.
 `래퍼티 / 라파엘`은 이름 드리프트 또는 별도 인물 가능성이 있으므로,
 명칭 정규화 큐에 올리고 `verify_before_15` 판단을 유지한다.
 
-## Conductor Decision
+## Conductor Reading
 
-이번 검색에서도 새 15 확정자는 만들지 않는다.
+이 검색 기록에서는 새 15 확정자가 확인되지 않았다.
 
 - `래퍼티 아르카디아`는 `verify_before_15` 유지.
 - `라파엘 아르카디아`는 `name_drift_or_duplicate_check`로 분리.
 - `대서고 학장`, `대서고 수호장`은 개인명 없는 `need_named_candidate` 슬롯으로 유지.
 - `아스트라르 중앙 도서관`은 에테르 학술/금서/기록 장소-기관 슬롯으로 보존.
 
-## Next Action
+## Queue Snapshot
 
 큐 5번으로 넘어간다.
 
-다음 검색 대상:
+후속 reference 대상:
 
 - `루멘 성채`
 - `대사제 요한`

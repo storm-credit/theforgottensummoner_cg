@@ -4,6 +4,12 @@
 곧바로 인물 확정으로 올리지 않고,
 먼저 장소와 기관 슬롯으로 고정하기 위한 사이드카다.
 
+이 sidecar는
+`Five_Continent_Missing_Layer_Policy_Lock.md`의
+`Ether Frontier Tribe Policy`를 우선 따른다.
+즉 정령연합 바깥 부족/변방 공동체 신호는
+`frontier echo / border support` 범위 안에서만 받는다.
+
 ## Conductor Reading
 
 에테르는 `15번` 명사형 인물층이 강하게 필요하지만,
@@ -15,7 +21,7 @@
 
 ## Place / Institution Slots
 
-| Place / Institution | Function Type | Candidate Slot | Story Use | Current State |
+| Place / Institution | Function Type | Candidate Slot | Story Use | State Snapshot |
 |---|---|---|---|---|
 | `금서 도서관` | `memory_site`, `sanctuary` | `봉인서고지기 / 금서 검인관` | 금서 분류, 숨겨진 연구 기록, 금지된 예언, 14/15 경계 후보 대런과 연결 | `need_named_candidate / slot_with_display_candidate` |
 | `마나 공방` | `workshop` | `비전로 장인장 / 비전 제작관` | 마도 장비, 실험 실패, 제작 비밀, 아이템 소진행 연결 | `need_named_candidate / slot_with_display_candidate` |

@@ -24,7 +24,7 @@
 
 ## Tested Profiles
 
-| Profile | Current Strength | Missing Field | Routing Read |
+| Profile | Strength Snapshot | Missing Field | Routing Read |
 |---|---|---|---|
 | 울프가르 드래곤포지 | 장인형 명사 가치가 매우 선명하다. | `continent_anchor`, `faction_anchor`, `secondary_index` | `크림슨 -> 용의 후예 -> 드래곤포지 계열` |
 | 에리온 드라코비스 | 대현자 / 고대어 해석가 가치가 선명하다. | `continent_anchor`, `faction_anchor`, `secondary_index` | `크림슨 -> 엘드라칸 -> 대현자층` |
@@ -48,8 +48,13 @@
   - `대장장이`
   - `공방주`
 - routing_state:
-  - `route_test_ok`
+  - `stable_15_workset`
+  - `route_hierarchy_locked`
 ```
+
+그리고 그 아래에는 짧은 `Policy Guard` 블록을 붙여,
+크림슨 카드가 씨족 중심 질서와 thin-support를 보강하는 것인지,
+아니면 `state_house strong` 승격 근거가 아닌지를 함께 적는 편이 좋다.
 
 ## Profile-Specific Notes
 
@@ -76,5 +81,9 @@
 기존 3개 시트는 유지한다.
 
 다만 다음 업데이트 때는 개별 시트 자체에 `Archive Routing` 블록을 추가해
-직업별 폴더링 오해를 줄인다.
+직업별 폴더링 오해를 줄이고,
+`stable_15_workset / route_hierarchy_locked` 상태를 직접 보이게 한다.
 
+또한 크림슨 카드들은
+`tribe_clan core + 학술/전승/공방 thin-support`
+범위 안에서만 읽는다는 `Policy Guard`를 같이 두는 편이 안전하다.

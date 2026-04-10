@@ -62,7 +62,7 @@
 - 사라진 혈통
 - 폐기된 실험
 
-## Current Seed Entries
+## Seed Entry Snapshot
 
 | Holder | Asset / Secret | Type | State |
 |---|---|---|---|

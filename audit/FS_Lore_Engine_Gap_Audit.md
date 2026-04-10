@@ -1,6 +1,6 @@
 # FS Lore Engine Gap Audit
 
-이 문서는 현재 FS 엔진 코어가 잡힌 뒤,
+이 문서는 FS 엔진 코어가 잡힌 뒤,
 `로어 엔진 전용`으로 아직 더 필요하거나
 강화가 필요한 모듈을 점검한 결과다.
 
@@ -10,7 +10,7 @@
 - 여기서는 그중 `설정집 구성과 백과 운영`에 필요한
   로어 엔진 쪽만 본다.
 
-## Current Strength
+## Strength Snapshot
 
 이미 확보된 강한 코어:
 
@@ -182,7 +182,7 @@ Status: `built`
 - 이 작품은 소문, 엇갈림, 비대칭 인지가 중요해서
   `rumor`를 적극 써야 하지만 곧바로 사실 취급하면 안 된다.
 
-## Recommended Next Build Order
+## Recorded Build Order Snapshot
 
 1. `FS_Source_Priority_Register.md`
 2. `FS_State_Label_Register.md`
@@ -196,7 +196,7 @@ Status: `built`
 
 ## New Upgrade Pass
 
-현재 장부가 충분히 생긴 뒤,
+장부가 충분히 생긴 뒤,
 다음 단계에서 정말 필요한 업그레이드는 아래 3개로 압축된다.
 
 1. `FS_Decision_Ruling_Register.md`
@@ -212,9 +212,9 @@ Status: `built`
 
 ## Build Status
 
-Priority A and B are now represented as live registers.
+Priority A and B are represented as registered modules.
 
-Priority C has also been opened as live registers so that
+Priority C has also been opened as registered modules so that
 large-scale continent, item, city, and rumor work can proceed
 without waiting for a later refactor.
 
@@ -222,7 +222,7 @@ without waiting for a later refactor.
 
 한 줄 결론:
 
-지금 FS 로어 엔진은 이미 강한 코어를 갖췄다.
+FS 로어 엔진은 이미 강한 코어를 갖췄다.
 
 이제 필요한 건
 `무엇이 정본인지 더 빠르게 고르는 장치`,

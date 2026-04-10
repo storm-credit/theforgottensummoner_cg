@@ -21,7 +21,7 @@
 
 ## Ledger
 
-| A | B | Type | Direction | Basis | Last Change Trigger | Current Status | Note |
+| A | B | Type | Direction | Basis | Last Change Trigger | Recorded Status | Note |
 |---|---|---|---|---|---|---|---|
 | `세실리아 메르카토르` | `대륙 무역 연맹` | `ally` | `two_way` | `contact table` | `공적 상업 질서 형성` | `active` | 자유도시 낮의 질서 축 |
 | `세실리아 메르카토르` | `철의 금융 연맹` | `intermittent_alignment` | `two_way` | `contact table` | `유통/금융 접점` | `unstable` | 협력과 압박이 교차 |
@@ -39,7 +39,7 @@
 | `그림자 정보단 현장 관리자 계열` | `이리나 폰 루즈` | `ally` | `hierarchical` | `operational lines` | `지부 운영 구조` | `active` | 정보망 실무층 |
 | `철의 금융 연맹 집행관 계열` | `칼리크 디트리히` | `ally` | `hierarchical` | `operational lines` | `현장 집행 구조` | `active` | 금융 강제 실무층 |
 
-## Conductor Rule
+## Conductor Reading Rule
 
 - 관계는 자유서술보다 이 장부를 먼저 업데이트한다.
 - 타입이 바뀌면 `Last Change Trigger`를 반드시 남긴다.

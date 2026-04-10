@@ -4,7 +4,7 @@
 기존 문서에 흩어진 단서를 안전하게 모아
 `종족 / 혈통 / 상태 / 몬스터`를 분리해 읽기 위한 병렬 감사용 sidecar다.
 
-현재 단계에서는 메인 `14/15`, `Named Notables`, `FS Lore Engine` 본선에
+이 단계에서는 메인 `14/15`, `Named Notables`, `FS Lore Engine` 본선에
 강제 반영하지 않는다.
 
 ## Purpose
@@ -81,7 +81,7 @@
 아래 축은 지금 당장 다 확정하는 표가 아니라,
 나중에 개별 후보를 받아 넣을 수 있는 상위 카테고리다.
 
-| Family | Current Reading | Status |
+| Family | Reading Snapshot | Status |
 |---|---|---|
 | `인간계` | 기본 인구축 | `implicit_core` |
 | `장생종` | 엘프, 하이엘프, 다크엘프류 수용 | `open_family` |
@@ -101,9 +101,9 @@
 - `정령` 자체는 개체/존재/소환체일 가능성이 커서, 곧바로 `종족`으로 고정하지 않는다.
 - `언데드`는 기본적으로 `state/transformation`으로 읽고, 독립 사회 구조가 반복 확인될 때만 별도 검토한다.
 
-## Current Evidence Already In Canon
+## Evidence Already In Canon Snapshot
 
-| Signal | Current Reading | File Evidence | Temporary Class |
+| Signal | Reading Snapshot | File Evidence | Temporary Class |
 |---|---|---|---|
 | `하이엘프` | 엘다라 개별 사례에서 장생종 단서 확인 | `Section_15_Named_Notable_Eldara.md` | `race_signal / not_globalized` |
 | `드워프 장인` | 프로스트 장인 슬롯에서 반복 | `FS_Place_Function_Register.md`, `FS_Slot_Maturation_Register.md` | `race_signal / slot_bound` |
@@ -154,7 +154,7 @@
 - 사이드트랙: 종족/혈통/상태/몬스터 프레임 감사
 - 합류 조건: 사례 3건 이상 + 세력/장소/인물 충돌 점검 + 오케스트라 승인
 
-## Next Side-Track Batch
+## Side-Track Batch Snapshot
 
 1. `하이엘프`, `드워프 장인`, `수인 부족`, `언데드`, `정령화`를 1차 anchor case로 고정
 2. `하피`, `라미아`, `수중/해양계`, `용인`, `거인`, `요정`을 `reserved_family` 후보로만 열어 둠

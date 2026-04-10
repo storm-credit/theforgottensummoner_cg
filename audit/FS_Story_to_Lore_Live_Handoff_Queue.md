@@ -1,20 +1,26 @@
-# FS Story-to-Lore Live Handoff Queue
+# FS Story-to-Lore Live Handoff Intake Template
 
 이 문서는 실제 원고나 장면 입력에서 나온 새 설정을
-Story Engine에서 Lore Engine으로 넘길 때 쓰는 live queue다.
+Story Engine에서 Lore Engine으로 넘길 때 쓰는 intake template이다.
 
 `seed case`와 `live case`를 섞지 않기 위해
-실제 입력이 없는 동안에는 queue를 비워 둔다.
+실제 입력이 없는 동안에는 watch-ready template로 비워 둔다.
 
-## Rule
+handoff active state는
+`Continuous_Workstream.md`,
+`Next_Sequential_Workstream.md`,
+`FS_Story_to_Lore_Handoff_Gate.md`
+기준으로 읽는다.
 
-- live case는 실제 원고 / 장면 입력이 있을 때만 만든다.
-- 새 고유명, 새 아이템명, 새 세력명은 이 문서에서 발명하지 않는다.
-- 모든 live case는 `FS_Story_to_Lore_Handoff_Gate.md`의 packet fields를 채운 뒤 Lore route로 넘긴다.
-- seed case는 `FS_Story_to_Lore_Handoff_Seed_Cases.md`에만 남긴다.
-- queue가 비어 있다는 사실은 `작업 없음`이 아니라 `실제 입력 대기` 상태다.
+## Intake Reference Rules
 
-## Intake Fields
+- live case는 실제 원고 / 장면 입력이 있을 때만 생성 대상으로 읽는다.
+- 새 고유명, 새 아이템명, 새 세력명은 이 문서에서 발명 대상으로 다루지 않는다.
+- live case가 생기면 `FS_Story_to_Lore_Handoff_Gate.md`의 packet fields를 채운 뒤 Lore route로 넘기는 기준으로 읽는다.
+- seed case는 `FS_Story_to_Lore_Handoff_Seed_Cases.md`에만 남기는 기준으로 분리한다.
+- table이 비어 있다는 사실은 `작업 없음`이 아니라 `실제 입력 대기` 상태를 뜻한다.
+
+## Intake Schema Reference
 
 | Field | Required | Note |
 |---|---|---|
@@ -33,25 +39,25 @@ Story Engine에서 Lore Engine으로 넘길 때 쓰는 live queue다.
 | `intake_status` | yes | 아래 Status Labels 기준 |
 | `next_register` | yes | 다음에 써야 할 장부 |
 
-## Queue
+## Intake Table Template
 
 | Case ID | Story Source | Trigger Type | Proposed Element | Suggested Route | Intake Status | Next Register |
 |---|---|---|---|---|---|---|
 
-## Status Labels
+## Reference Status Labels
 
 | Label | Meaning |
 |---|---|
-| `new` | 실제 원고 입력에서 막 들어온 상태 |
-| `needs_lore_review` | Lore Engine 검토가 필요하다 |
-| `routed_to_register` | 다음 장부가 정해졌다 |
-| `hold_for_evidence` | 근거가 약해 보류한다 |
-| `rejected_or_reframed` | 정본 구조와 충돌해 장면 해법을 바꾼다 |
-| `closed` | 필요한 장부 반영과 change log가 끝났다 |
+| `new` | 실제 원고 입력에서 막 들어온 상태로 기록한다 |
+| `needs_lore_review` | Lore Engine 검토가 필요한 상태로 읽는다 |
+| `routed_to_register` | 다음 장부가 정해진 상태로 읽는다 |
+| `hold_for_evidence` | 근거가 약해 보류한 상태로 읽는다 |
+| `rejected_or_reframed` | 정본 구조와 충돌해 장면 해법을 바꾼 상태로 읽는다 |
+| `closed` | 필요한 장부 반영과 change log가 끝난 상태로 읽는다 |
 
-## Close Checklist
+## Closure Reference Checklist
 
-live case를 닫기 전에 확인한다.
+live case를 닫을 때는 아래 기준을 확인한다.
 
 - `FS_Story_to_Lore_Handoff_Gate.md` packet fields가 채워졌는가
 - route가 14 / 15 / 8 / Place / Item / Hold 중 하나로 정리됐는가
@@ -61,7 +67,7 @@ live case를 닫기 전에 확인한다.
 
 ## Conductor Note
 
-이 queue는 상상 장면을 만들기 위한 곳이 아니다.
+이 intake template은 상상 장면을 만들기 위한 곳이 아니다.
 
-실제 원고 입력이 없으면 비워 둔다.
-실제 입력이 오면 그때 seed가 아니라 live case로 승격한다.
+실제 원고 입력이 없으면 template를 비워 둔다.
+실제 입력이 오면 그때 seed가 아니라 live case로 승격하는 기준으로 쓴다.

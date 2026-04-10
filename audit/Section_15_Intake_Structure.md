@@ -1,13 +1,13 @@
 # Section 15 Intake Structure
 
-이 문서는 나중에 만들 `15번 인물 백과`가
-어떤 방식으로 흩어진 인물을 회수할지 정하는 intake 기준서다.
+이 문서는 `15번 인물 백과`가
+어떤 방식으로 흩어진 인물을 회수할지 정한 intake 기준서다.
 
 핵심 원칙은 이미 고정되어 있다.
 
 - `14번`에 있는 인물은 빼지 않는다.
 - `15번`은 다른 문서에 흩어진 인물을 회수하는 축이다.
-- 지금은 실제 이동이 아니라 `회수 규칙`만 세운다.
+- 지금은 실제 이동이 아니라 `회수 규칙`만 유지한다.
 
 ## Intake Buckets
 
@@ -64,6 +64,7 @@
 - current status
 - relation usefulness
 - move now / hold / promote to 14
+- policy guard
 
 ## First Intake Rule
 
@@ -81,7 +82,7 @@
 2. 반복적으로 전투, 정치, 관계의 중심축에 선다.
 3. 독립 인물문서가 이미 있고 영웅 축에서 기능한다.
 
-## Immediate Candidates
+## Reference Candidates
 
 ### Hold in 14, Tag for 15 Review
 
@@ -89,6 +90,16 @@
 - `칼리크 디트리히`
 
 둘 다 지금은 `14번 보류`지만, 구조적으로는 `15번` 회수 판단 대상이다.
+
+## Policy Intake Rule
+
+- intake 단계에서도 candidate를 받는 순간
+  이 카드가 어떤 층을 보강하는지와 무엇으로 오독하면 안 되는지를 같이 적는다.
+- 자유도시 운영층이면 `urban_market / shadow_port / debt-enforcement` 축으로,
+  오벨리스크 제도 운영층이면 `nontraditional elite thin-support / dark institution` 축으로 먼저 읽는다.
+- 즉 intake는 단순 회수만 하는 문서가 아니라,
+  `policy guard` 없이 카드를 올리지 않는 입구로 유지한다.
+- subline draft와 group draft도 이 intake rule 아래의 하위 문서로 읽는다.
 
 ## Conductor Note
 

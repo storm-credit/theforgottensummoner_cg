@@ -2,9 +2,15 @@
 
 이 문서는 사용자가 의도한
 `영웅에는 없지만 기억될 만한 이름 있는 인물들`
-을 따로 모으기 위한 시작점이다.
+을 따로 모아 읽기 위한 reference axis다.
 
 이 축은 `게임의 유명 NPC층`에 가깝다.
+
+현재 active state나 queue 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
 
 ## Scope
 
@@ -54,12 +60,12 @@
 
 ## Conductor Note
 
-지금까지 진행한 `Operational Lines`는 유지한다.
+이미 진행한 `Operational Lines`는 reference 축으로 유지한다.
 
-하지만 앞으로 `15번`의 진짜 얼굴을 완성하려면
+하지만 `15번`의 얼굴을 읽을 때는
 이 `Named Notables` 축을 반드시 따로 키워야 한다.
 
-현재 실제 시작 문서는 아래를 기준으로 본다.
+current 시작 문서는 아래를 기준으로 본다.
 
 - `Section_15_Named_Notables_Register.md`
 - `Section_15_Named_Notables_First_Pass.md`

@@ -24,7 +24,7 @@
 - 길드/상단/금융/첩보/공방 축이 한꺼번에 과확장된다.
 - 15번 Named Notables가 범대륙 후보 중심으로 기울 수 있다.
 
-## Current Deferred Anchors
+## Deferred Anchor Snapshot
 
 | Anchor | Current Treatment | Notes |
 |---|---|---|
@@ -39,7 +39,7 @@
 
 | Candidate | Anchor | Treatment |
 |---|---|---|
-| `실비아` | `키르케 영약회` | `named_notable_candidate / deferred_zone` |
+| `실비아` | `키르케 영약회` | `named_notable_candidate / deferred_expansion_hold / name_collision_watch` |
 | `멜리산드르` | `키르케 영약회` | `verify_before_15 / hold_for_dual_review` |
 
 ## Conductor Decision

@@ -2,7 +2,7 @@
 
 이 문서는 대륙명, 세력명, 영문 표기의 흔들림을 잠정 정리하는 기준표다.
 
-## Current Watchlist
+## Watchlist Snapshot
 
 | Canon Form | Known Variant | Action |
 |---|---|---|

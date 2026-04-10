@@ -1,10 +1,16 @@
-# Section 15 Intake Priority
+# Section 15 Intake Priority Reference Map
 
 이 문서는 `15번 인물 백과` 후보를
-실제 실행 순서로 정렬한 우선순위표다.
+reference 우선순위표로 정렬한 문서다.
 
-이제부터 `15번`은 단순 후보 수집이 아니라
-`누구부터 회수할 것인가`를 기준으로 움직인다.
+intake active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
+이 문서는 `누구부터 회수할 것인가`에 대한
+기준 snapshot을 남기는 역할을 맡는다.
 
 ## Priority Rule
 
@@ -12,12 +18,12 @@
 
 1. 관계망 연결 가치가 높은가
 2. 도시/세력/조직이 실제로 돌아가는 감각을 주는가
-3. 현재 `14번`과 직접 충돌 위험이 낮은가
+3. existing `14번`과 직접 충돌 위험이 낮은가
 4. 지도 / 세력 / 경제 축과 동시에 연결되는가
 
-## Tier 1. Immediate Intake
+## Tier 1. Intake-Ready Reference Set
 
-바로 `15번` 설계축으로 회수해도 좋은 대상들이다.
+reference상 먼저 읽는 `15번` 설계축 대상들이다.
 
 | Name / Group | Why First | Risk |
 |---|---|---|
@@ -31,10 +37,10 @@
 | `그림자 정보단 현장 관리자 계열` | 이리나 아래의 실무 정보망을 사람으로 만들 수 있다 | `낮음` |
 | `철의 금융 연맹 집행관 계열` | 금융 지배 구조를 인간 얼굴로 복구한다 | `낮음` |
 
-## Tier 2. Secondary Intake
+## Tier 2. Intake-After-Mapping Reference Set
 
 가치가 높지만,
-바로 단독 문서화보다 1차 매핑 후 들어가면 좋은 대상들이다.
+reference상 1차 매핑 뒤 다음 순서로 읽는 대상들이다.
 
 | Name / Group | Why Second | Risk |
 |---|---|---|
@@ -49,13 +55,13 @@
 | `용병 중재 위원회 심판관 계열` | 계약 사회의 실제 질서를 세운다 | `낮음` |
 | `블랙리스트 기록관 계열` | 추적, 배신, 업계 제재를 구조적으로 묶는다 | `낮음` |
 
-## Tier 3. Verify Before Intake
+## Tier 3. Verify-Before-Intake Hold
 
 직접 회수 가치가 높지만
-현재 작업본에 `14 신호` 또는 `부분 중복 신호`가 있어
+existing 작업본에 `14 신호` 또는 `부분 중복 신호`가 있어
 먼저 확인이 필요한 대상들이다.
 
-| Name | Why Hold | Current Signal |
+| Name | Why Hold | Recorded Signal |
 |---|---|---|
 | `모이라 와일드웨이브` | 자유도시-해양 연결 가치가 매우 크다 | `14 signal present` |
 | `레이나 브라이트헤븐` | 상단, 가문, 외교를 함께 묶는다 | `14 signal present` |
@@ -63,19 +69,19 @@
 | `대런 크레센트` | 협회의 행정 실권자라 15 가치가 높다 | `부분 중복 신호` |
 | `칼레스트 나이트쉐이드` | 집행과 비밀 유지 축의 핵심이다 | `부분 중복 신호` |
 
-## Tier 4. Hold and Review
+## Tier 4. Hold-and-Review Reference Set
 
 중요도는 높지만
-당장 `15`로 내리기보다 현재 `14 보류` 상태를 유지해야 하는 대상들이다.
+reference상 바로 `15`로 내리기보다 existing `14 보류` 상태를 유지해야 하는 대상들이다.
 
 | Name | Why Hold |
 |---|---|
 | `이리나 폰 루즈` | 고아 인물이지만 세계 정보망 중심 노드라 성급한 분류가 위험하다 |
 | `칼리크 디트리히` | 금융/암시장/강령술이 한데 얽혀 있어 14와 15의 경계선에 서 있다 |
 
-## Conductor Execution Order
+## Reference Execution Order Snapshot
 
-실제 intake 작업은 아래 순서로 간다.
+기준 intake 순서는 아래 순서로 읽는다.
 
 1. `벤투라 모레티`
 2. `엘리자베스 로슈포르`
@@ -87,11 +93,11 @@
 8. `그림자 정보단 현장 관리자 계열`
 9. `철의 금융 연맹 집행관 계열`
 
-## Why This Order
+## Reference Reading Note
 
-- 먼저 `이름 있는 조직 심장부 인물`을 잡는다.
+- reference reading에서는 `이름 있는 조직 심장부 인물`을 먼저 둔다.
 - 그 다음 `현장 실무자 계열`을 붙인다.
-- `14 신호`가 있는 인물은 마지막까지 보류한다.
+- `14 신호`가 있는 인물은 마지막 구간까지 보류한다.
 
 이 순서가 가장 적은 충돌로
 `15번`을 살아 있는 인간층으로 키우기 좋다.

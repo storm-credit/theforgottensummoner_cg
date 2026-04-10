@@ -61,7 +61,7 @@
 6. 위조품이나 대체품이 있는가?
 7. 소문과 정본이 갈리는가?
 
-## Current Seed Resources
+## Seed Resource Snapshot
 
 | Resource | Type | Related Institution | Scarcity | Control | Conflict Use | State |
 |---|---|---|---|---|---|---|

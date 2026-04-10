@@ -10,11 +10,11 @@
 다만 대부분이 `제독`, `A급`, `히어로급`, `전설 영웅록` 신호를 함께 갖고 있어
 안전한 15 확정보다 `verify_before_15`가 먼저다.
 
-현재 판정은 `thin with many boundary signals`로 둔다.
+recorded 판정은 `thin with many boundary signals`로 둔다.
 
 ## Named Boundary Candidates
 
-| Name | Anchor | Signal | State Label | Conductor Judgment |
+| Name | Anchor | Signal | State Label | Recorded Judgment |
 |---|---|---|---|---|
 | `미다스` | `황금 함대` | 바다의 연금술사, 침묵의 금괴, 해양 상단 신화 반복 | `verify_before_15` | 연금술 명사 가치가 크지만 전설/신화 축이 강해 15 확정 금지. |
 | `해양 실비아` | `황금 함대` | 해류의 지휘관, 은빛 항해사 | `verify_before_15 / name_collision` | 키르케 실비아, 실비아 아캄, 실비아 팬텀과 병합 금지. |
@@ -32,7 +32,7 @@
 
 아래 항목은 현재 이름이 없거나, 이름이 있어도 표면 정본으로 바로 확정하기 어렵다.
 
-| Role Slot | Anchor | Story Use | Current Action |
+| Role Slot | Anchor | Story Use | Recorded Action |
 |---|---|---|---|
 | `수석 오라클` | `오라클 바지` | 이동형 예언 성소, 신탁 전달, 해상 재판과 축복 | `need_named_candidate` |
 | `항로 기록관 / 해도 보관인` | `골든 앵커 하버 / 크로스윈드 포트` | 정식 기록에 없는 항로, 심연 소문, 보험 요율과 호위 스케줄 관리 | `need_named_candidate` |
@@ -76,7 +76,7 @@
 - 해양의 이름 있는 후보는 당장 15 확정하지 않는다.
 - 먼저 장소-기관 슬롯을 고정하고, 나중에 실제 named candidate를 붙인다.
 
-## Conductor Rule
+## Conductor Reading Rule
 
 해양은 후보가 많아도 성급히 15로 승격하지 않는다.
 

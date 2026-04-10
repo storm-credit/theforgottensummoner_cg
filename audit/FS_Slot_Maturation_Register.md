@@ -19,9 +19,9 @@
 - 그다음 실제 이름 신호가 있는지 본다.
 - 등급/Act/영웅록/독립 14 파일 신호가 강하면 `verify_before_15` 또는 `hold`로 둔다.
 
-## Current Frost Slots
+## Frost Slot Snapshot
 
-| Slot | Primary Anchor | Current Stage | Current Name Layer | Register Gate | Next Check |
+| Slot | Primary Anchor | Snapshot Stage | Snapshot Name Layer | Register Gate | Next Check |
 |---|---|---|---|---|---|
 | `전승 보존회 원로 사냥꾼` | `오로라 평원 / 전승 보존회` | `slot_with_display_candidate` | `서리길 원로 사냥꾼` | `place_first` | 실제 개인명 확인 |
 | `묘지기 장로` | `얼음무덤 언덕` | `slot_with_display_candidate` | `빙묘 수호장` | `place_first` | 기록/묘역 인명 확인 |
@@ -30,9 +30,9 @@
 | `별의 샤먼` | `오로라 평원` | `slot_with_display_candidate` | `오로라 별술사` | `place_first` | 샤먼/주술사 실명 확인 |
 | `아이스포지 병기소 장인` | `아이스포지 병기소` | `slot_with_display_candidate` | `서리벼림 장인` | `place_first` | 병기소 장인 실명 확인 |
 
-## Current Oceanic Slots
+## Oceanic Slot Snapshot
 
-| Slot | Current Stage | Current Name Layer | Next Check |
+| Slot | Snapshot Stage | Snapshot Name Layer | Next Check |
 |---|---|---|---|
 | `수석 오라클` | `slot_with_display_candidate` | `파도 신탁장` | 개인명 확인 |
 | `항로 기록관` | `slot_with_display_candidate` | `해로 장부관` | 길드/항로 실무 인명 확인 |
@@ -40,12 +40,12 @@
 | `장물 감정사` | `slot_with_display_candidate` | `흑조 감정관` | 경매/감정 인명 확인 |
 | `심해 금고 보관인` | `slot_with_display_candidate` | `심연 장부관` | 금고/장부 관리자 실명 확인 |
 
-## Current Ether Slots
+## Ether Slot Snapshot
 
 대표 Ether 슬롯은 `Slot`에 작업용 anchor를 남기되,
-`Current Name Layer`는 최신 `preferred_display_candidate`를 따른다.
+`Snapshot Name Layer`는 최신 `preferred_display_candidate`를 따른다.
 
-| Slot | Current Stage | Current Name Layer | Next Check |
+| Slot | Snapshot Stage | Snapshot Name Layer | Next Check |
 |---|---|---|---|
 | `금서 도서관 사서장` | `slot_with_display_candidate` | `봉인서고지기` | 실명 확인 |
 | `금서 관리국 검열관` | `slot_with_display_candidate` | `금서 검인관` | 검인관 실명 확인 |

@@ -4,12 +4,47 @@
 
 전체 순서를 통제한다.
 
-- 현재 감사를 어느 섹션에서 시작할지 결정
+- 해당 배치 감사를 어느 섹션에서 시작할지 결정
 - 충돌하는 판단을 정리
 - 최종 보고서 승인
 - `8번` 구조 안정화 전에는 대규모 서사 수정 금지
 - `14번` 관계망 추출 전에는 영웅 개별 미화 금지
-- 현재 활성 역할 분업은 `orchestra/ACTIVE_AGENT_SPLIT.md`를 따른다
+- 활성 역할 분업 읽기는 `orchestra/ACTIVE_AGENT_SPLIT.md`를 따른다
+- 필수 전문가 roster 기준은 `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`를 따른다
+
+## Locked Required Experts
+
+아래는 앞으로 잃어버리면 안 되는 고정 전문가 묶음이다.
+
+- `Canon Architect`
+- `Engine Router`
+- `Hook Keeper`
+- `Report Clerk`
+- `Faction Cartographer`
+- `Hero Curator`
+- `Index Auditor`
+- `Legacy Surgeon`
+- `House and Lineage Auditor`
+- `Clan and Tribe Auditor`
+- `Guild and Economy Auditor`
+- `Relationship Mapper`
+- `Plausibility Judge`
+- `Naming Tone Auditor`
+- `Place-Function Auditor`
+- `Named Notables Curator`
+- `Boundary Hold Scout`
+- `Place-Institution Slot Scout`
+- `Collision Auditor`
+- `Species Classification Architect`
+- `Bloodline and Transformation Auditor`
+- `Monster Ecology Judge`
+- `Species Continuity Auditor`
+- `Writer Engine Steward`
+- `Episode Volume Gatekeeper`
+- `Scene Pressure Auditor`
+- `Story-to-Lore Handoff Auditor`
+
+상세 정의와 작업별 조합은 `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`에서 고정한다.
 
 ## Canon Architect
 
@@ -108,7 +143,7 @@
 
 - 이슈 로그 누적
 - 섹션별 보고서 표준화
-- 다음 작업 큐 정리
+- 후속 작업 큐 정리
 - 모든 수정은 `왜 지금 고쳤는지`와 `왜 보류했는지`를 함께 남김
 
 ## Harness Layer Roles
@@ -131,6 +166,68 @@
 - `preflight`, `dispatch`, `integration`, `register write`, `next-step freeze`
   같은 누락 방지 동작을 강제한다.
 - hook은 창작자가 아니라 전환 수호자다.
+
+### Engine Router
+
+- 해당 배치가 어떤 엔진 층인지 먼저 고른다.
+- `Lore / Story / Writer / Media / Handoff / Volume` 우선 적용 순서를 잠근다.
+
+### Naming Tone Auditor
+
+- 이름 드리프트와 톤 충돌을 먼저 경고한다.
+
+### Place-Function Auditor
+
+- 장소, 기관, 사람, 역할 슬롯이 한 덩어리로 오염되지 않게 분리한다.
+
+### Named Notables Curator
+
+- `Section 15 Named Notables` 후보, hold cluster, stable candidate를 관리한다.
+
+### Boundary Hold Scout
+
+- `verify_before_15`, `keep_14`, `hold_for_dual_review` 세부 상태어를 정밀화한다.
+
+### Place-Institution Slot Scout
+
+- direct named holder와 unnamed role slot을 분리한다.
+
+### Collision Auditor
+
+- 동명이인, drift, merge-ban, item/person/concept split을 관리한다.
+
+### Species Classification Architect
+
+- 종족 / 혈통 / 상태 / 몬스터 분류 프레임을 관리한다.
+
+### Bloodline and Transformation Auditor
+
+- 종족이 아닌 혈통, 축복, 저주, 변이, 상태 변환을 분리한다.
+
+### Monster Ecology Judge
+
+- monster-first, people-first, state-first를 구분한다.
+
+### Species Continuity Auditor
+
+- 종족 감사 결과가 기존 대륙, 세력, 인물 문서와 충돌하는지 본다.
+
+### Writer Engine Steward
+
+- 회차 집필과 집필엔진 적용 순서를 관리한다.
+
+### Episode Volume Gatekeeper
+
+- 1화마다 분량 검사를 무조건 건다.
+- 분량 미달은 통과가 아니라 재작성이다.
+
+### Scene Pressure Auditor
+
+- 장면 압력, reveal cost, pacing, act cost를 점검한다.
+
+### Story-to-Lore Handoff Auditor
+
+- 장면 편의 설정을 lore route와 register write로 되돌린다.
 
 ## Item Archivist
 

@@ -15,7 +15,7 @@
 - 상태 라벨, 라우팅, 판정, 표면명 층 변화만 남긴다.
 - 한 줄에 `날짜 / 대상 / 변화 / 이유 / 연결 장부`만 적는다.
 
-## Current Log
+## Change Log Snapshot
 
 | Date | Target | Change | Why | Linked Registers |
 |---|---|---|---|---|
@@ -31,7 +31,7 @@
 | `2026-04-08` | `드락사르 블레이즈포지` | `verify_before_15` 근거를 Decision Ruling에 직접 연결 | 공방 명사 가치가 커도 A급 공병대장, 실험 의뢰 축이 강하다 | `FS_Decision_Ruling_Register`, `Section_14_15_Crimson_Boundary_Batch_02`, `Section_15_Named_Notables_Status_Compass` |
 | `2026-04-08` | `칼리스트` | `verify_before_15` 근거를 Decision Ruling에 직접 연결 | A+ 탑주, 대예언자, Act 신호가 예언자형 명사 가치보다 먼저 잡힌다 | `FS_Decision_Ruling_Register`, `Section_14_15_Ether_Boundary_Evidence`, `Section_15_Named_Notables_Register` |
 | `2026-04-08` | `카사르 더 시어` | `hold_for_dual_review`로 별도 보류 고정 | S급 용의 예언자, 최고 조언자, 시험의 탑, 수호파 핵심, 전설 영웅록 신호가 동시에 강하다 | `FS_Decision_Ruling_Register`, `Section_14_15_Crimson_Boundary_Batch_02`, `Section_15_Named_Notables_Register` |
-| `2026-04-08` | `세리오스 벤타리스` | `verify_before_15 -> keep_14_likely` | 현재 import 범위에서 14 현존 영웅 파일과 hero/s_rank 태그가 직접 확인된다 | `FS_Decision_Ruling_Register`, `Section_14_15_Ether_Boundary_Evidence`, `Section_15_Named_Notables_Register` |
+| `2026-04-08` | `세리오스 벤타리스` | `verify_before_15 -> keep_14_likely` | 검토한 import 범위에서 14 현존 영웅 파일과 hero/s_rank 태그가 직접 확인된다 | `FS_Decision_Ruling_Register`, `Section_14_15_Ether_Boundary_Evidence`, `Section_15_Named_Notables_Register` |
 | `2026-04-08` | `Ravenfell / Corvus name drift` | `verify_before_15 -> name_drift / merge_ban` | `마르쿠스 레이븐펠`, `맥스웰 레이븐펠`, `마르쿠스 코르부스`가 서로 다른 문서 신호로 엇갈린다 | `FS_Decision_Ruling_Register`, `Section_14_15_Ether_Boundary_Batch_02`, `Section_15_Named_Notables_Status_Compass` |
 | `2026-04-09` | `Ravenfell / Corvus anchor split` | `name_drift -> maxwell_anchor / corvus_separate_entity` refinement | phase3 마법협회 세력 문서와 레이븐펠 학파 기준 흑색 탑 주앵커는 `맥스웰 레이븐펠`이고, `마르쿠스 레이븐펠`은 로컬/구형 표기, `마르쿠스 코르부스`는 직접 14 영웅 파일이다 | `FS_Decision_Ruling_Register`, `Section_15_Named_Notables_Name_Collision_Register`, `Section_14_15_Ether_Boundary_Evidence` |
 | `2026-04-09` | `이사도르 템페스트 / 이사도르 솔레아 split` | `name-adjacent risk -> split hold refinement` | `이사도르 템페스트`는 phase3의 청색 탑/템페스트 학파 탑주 축이고 `이사도르 솔레아`는 phase2의 직접 14 영웅 파일과 솔레아 가문 치유 장로 축이라 병합하면 안 된다 | `FS_Decision_Ruling_Register`, `Section_15_Named_Notables_Name_Collision_Register`, `Section_14_15_Boundary_Verification_Queue` |
@@ -62,6 +62,8 @@
 | `2026-04-09` | `레온 벨가르드` | `verify_before_15 -> mercenary_guild_hold backfill` | 머시너리 게이트 조합장과 용병 조합 지배자 신호가 강하지만 세력 핵심축 가능성이 커 14 확인 전 15 확정 금지가 필요하다 | `FS_Decision_Ruling_Register`, `Section_15_Ether_Search_Findings_Batch_08`, `Section_15_Ether_Search_Synthesis`, `Section_15_Named_Notables_Status_Compass` |
 | `2026-04-09` | `리아나 실버레이크` | `verify_before_15 -> banking_power_hold backfill` | 아덴브루크 재무/은행권 핵심 인물이지만 왕국연합 핵심표와 Act 신호가 겹쳐 14 확인 전 15 확정 금지가 필요하다 | `FS_Decision_Ruling_Register`, `Section_15_Ether_Search_Findings_Batch_07`, `Section_15_Ether_Search_Synthesis` |
 | `2026-04-09` | `드라이덴 썬더루트` | `verify_before_15 -> great_druid_hold backfill` | 정령연합 Top 3 대드루이드와 생명의 의회 의장 신호가 강해 독립 15 후보보다 14 핵심축 검증이 우선이다 | `FS_Decision_Ruling_Register`, `Section_15_Ether_Search_Findings_Batch_09`, `Section_15_Ether_Search_Synthesis`, `Section_15_Named_Notables_Status_Compass` |
+| `2026-04-10` | `메라 라일윈드` | `verify_before_15 / name_drift -> spirit_envoy_hold / name_collision_watch` | 정령연합 외교 사절단과 희귀 재료 교역 조건 명사 가치는 유지하되 `메라 실피드`와의 드리프트를 먼저 잠그는 편이 안전하다고 재판정했다 | `FS_Decision_Ruling_Register`, `Section_15_Ether_Spirit_Union_Hold_Continuation`, `Section_15_Named_Notables_Register`, `Section_15_Named_Notables_Status_Compass` |
+| `2026-04-10` | `실라스 나이트쉐이드` | `verify_before_15 / likely_keep_14 -> shadow_crow_hold / name_collision_watch` | 정령연합 `그늘까마귀단 / 잠든 정령의 숲` 축을 성국 `실라스 블랙쏜`과 분리해 보존하고, 15 승격보다 세력 앵커 분리를 우선한다 | `FS_Decision_Ruling_Register`, `Section_15_Ether_Spirit_Union_Hold_Continuation`, `Section_15_Named_Notables_Register`, `Section_15_Named_Notables_Status_Compass` |
 | `2026-04-09` | `바리온` | `verify_before_15 direct ruling backfill` | 금서 해석과 룬 기록의 명사 가치는 크지만 봉인 수호단/전설 영웅록 신호가 강해 15 확정 전 직접 보류 판정이 필요하다 | `FS_Decision_Ruling_Register`, `Section_14_15_Obelisk_Boundary_Batch_02`, `Section_15_Obelisk_Search_Synthesis` |
 | `2026-04-09` | `베스 스크롤` | `verify_before_15 direct ruling backfill` | 기록자/서고단 명사 가치는 크지만 봉인 수호단과 B급 인물표 신호가 있어 15 확정 전 직접 보류 판정이 필요하다 | `FS_Decision_Ruling_Register`, `Section_14_15_Obelisk_Boundary_Batch_02`, `Section_15_Obelisk_Search_Synthesis` |
 | `2026-04-09` | `이안 옵저버` | `verify_before_15 direct ruling backfill` | 관측/경보 명사 가치는 크지만 오벨리스크 관측대와 B급 인물표 신호가 있어 15 확정 전 직접 보류 판정이 필요하다 | `FS_Decision_Ruling_Register`, `Section_14_15_Obelisk_Boundary_Batch_02`, `Section_15_Obelisk_Search_Synthesis` |

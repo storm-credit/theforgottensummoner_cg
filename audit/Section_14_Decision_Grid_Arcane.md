@@ -18,7 +18,7 @@
 
 ## Arcane Hero Set
 
-| Name | Current Reading | Decision | Why |
+| Name | Reading Snapshot | Decision | Why |
 |---|---|---|---|
 | `제레시스 아르카디아` | `에테르 / 마법협회` 경로이나 `크림슨 / 아르카나 제국 잔재` 문맥이 섞임 | `Conflict` | 대표적인 `Arcane Crimson Drift Set`이다. |
 | `크세노스 아르카디아` | `에테르 / 마법협회` 경로이나 `크림슨 / 아르카나 제국 잔재` 문맥이 섞임 | `Conflict` | 아르카디아 기관 문서와도 충돌 가능성이 있어 별도 재검토가 필요하다. |

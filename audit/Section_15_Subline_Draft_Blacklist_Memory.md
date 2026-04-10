@@ -35,6 +35,12 @@
   - `항구 감독관 / 지부장 / 도시 조정관 계열`
   - `땅굴쥐 운반책 계열`
 
+## Policy Subline Guard
+
+- 이 blacklist memory subline은 자유도시 `urban_market` 내부의 `contract order / guild discipline` 세분화로만 읽는다.
+- 복권 심사와 수배 명부 전달은 용병 사회의 기록 질서이지,
+  전통 국가 사법기관이나 귀족국가 행정망 복원 근거가 아니다.
+
 ## Conductor Note
 
 블랙리스트 축은

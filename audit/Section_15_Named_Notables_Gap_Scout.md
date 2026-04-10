@@ -1,18 +1,24 @@
-# Section 15 Named Notables Gap Scout
+# Section 15 Named Notables Gap Scout Snapshot
 
 이 문서는 `15 Named Notables`의 빈 대륙 축을 찾기 위한 정찰 메모다.
 
-현재 기준:
+gap active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
+recorded 기준:
 
 - `크림슨`은 후보가 이미 많다.
 - `에테르`는 정령연합 쪽 후보가 1차로 보인다.
 - `프로스트`, `해양`, `오벨리스크`는 아직 Named Notables가 얇다.
 
-## Frost Scout
+## Frost Scout Snapshot
 
-현재 작업본에서 보이는 신호:
+existing 작업본에서 보이는 신호:
 
-| Signal | Source Reading | Current Judgment |
+| Signal | Source Reading | Recorded Judgment |
 |---|---|---|
 | `프리야 글래시아` | 주술사 원로단, 주술사 대장로, SS급, 빙하의 성녀 | 14 신호가 강하다. 15 확정 금지. |
 | `카이라 프리즌윈드` | 주술사 원로단, S급, 얼음 마녀 | 14 신호가 강하다. 15 확정 금지. |
@@ -25,11 +31,11 @@
 - 지금 보이는 개인명은 대부분 14 영웅표와 연결된다.
 - `15`로 바로 넣을 새 인물보다, 먼저 `전승 보존회`, `퍼마프로스트 공성단`, `빙하의 성소`에서 이름 있는 명사 후보를 더 찾아야 한다.
 
-## Oceanic Scout
+## Oceanic Scout Snapshot
 
-현재 작업본에서 보이는 신호:
+existing 작업본에서 보이는 신호:
 
-| Signal | Source Reading | Current Judgment |
+| Signal | Source Reading | Recorded Judgment |
 |---|---|---|
 | `포세이돈의 신탁단` | 항해사들이 출항 전 공물을 바치는 포세이돈의 제단 통제 | 신탁관 / 항해 의례 명사 후보 필요. 현재 개인명은 부족하다. |
 | `황금 함대` | 거대 해상 금융 제국, 함대 제독, 황금항 | 제독, 조선공, 항로 기록관 후보 필요. 현재 개인명은 부족하다. |
@@ -39,13 +45,13 @@
 해양 결론:
 
 - 장소와 기관은 강하지만, 이름 있는 NPC형 인물은 아직 얇다.
-- 다음 import는 `해양 대륙 인물`, `황금 함대`, `해적 연합`, `바다의 교단`의 하위 인물 파일이 우선이다.
+- reference import 우선순위는 `해양 대륙 인물`, `황금 함대`, `해적 연합`, `바다의 교단`의 하위 인물 파일이다.
 
-## Obelisk Scout
+## Obelisk Scout Snapshot
 
-현재 작업본에서 보이는 신호:
+existing 작업본에서 보이는 신호:
 
-| Signal | Source Reading | Current Judgment |
+| Signal | Source Reading | Recorded Judgment |
 |---|---|---|
 | `봉인의 수호자` | 보이지 않는 결계선, 질서의 탑, 봉인선 유지 | 봉인관 / 결계 기록자 / 탑 관리자 후보 필요. |
 | `잊힌 자들의 연합` | 봉인의 무덤, 금서와 고대 지식 거래 | 금서 기록자 / 무덤 안내자 / 망각 사서 후보 가능. |
@@ -55,7 +61,7 @@
 오벨리스크 결론:
 
 - 명사형 인물 후보는 `기억`, `봉인`, `장례`, `금서`, `사령 연금` 축에서 찾아야 한다.
-- 현재는 개인명보다 기관과 장소가 먼저 보인다.
+- 이 snapshot에서는 개인명보다 기관과 장소가 먼저 보인다.
 - `15` 후보를 만들기 전에, 8번 세력 하위 인물 또는 14번 오벨리스크 인물 import가 필요하다.
 
 ## Recovery Batch Link
@@ -67,9 +73,9 @@
 `Section_15_Named_Notables_Recovery_Batch_01.md`에서
 `verify_before_15` 중심으로 따로 관리한다.
 
-## Next Import Need
+## Reference Import Need Snapshot
 
-다음에 더 가져올 필요가 있는 범위:
+reference상 더 가져올 필요가 있는 범위:
 
 1. `프로스트본 연합 / 전승 보존회` 또는 관련 역사/구전 문서
 2. `프로스트본 연합 / 퍼마프로스트 공성단` 하위 장인층
@@ -78,9 +84,9 @@
 5. `오벨리스크 대륙 / 봉인의 수호자` 상세
 6. `오벨리스크 대륙 / 잊힌 자들의 연합` 상세
 
-## Conductor Rule
+## Conductor Reading Rule
 
 이 정찰 문서는 새 인물을 만들어내기 위한 문서가 아니다.
 
-현재 작업본에 `이름 있는 명사`가 부족한 대륙을 표시하고,
-어느 하위 세력에서 다음 후보를 찾아야 하는지 정하는 용도다.
+existing 작업본에 `이름 있는 명사`가 부족한 대륙을 표시하고,
+어느 하위 세력에서 reference 후보를 더 읽어야 하는지 정하는 용도다.

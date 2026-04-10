@@ -30,6 +30,14 @@ Conductor가 필요 배치마다 실제 서브에이전트를 호출하거나
 5. `책임 추적 가능`
    어떤 배치가 어떤 판단을 냈는지 `AGENT_DISPATCH_LOG.md`와 산출물 문서로 되짚을 수 있다.
 
+## Required Expert Startup Rule
+
+실제 배치를 시작할 때는 항상 아래 순서를 먼저 본다.
+
+1. 해당 배치가 어떤 작업 종류인지 고른다.
+2. 그 작업 종류에 맞는 `필수 전문가 묶음`을 `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`에서 고른다.
+3. 그 뒤에만 실제 서브에이전트를 배치한다.
+
 ## Split Trigger
 
 아래 조건이면 Conductor는 오케스트라 분할을 우선 검토한다.
@@ -52,22 +60,20 @@ Conductor가 필요 배치마다 실제 서브에이전트를 호출하거나
 5. `Registers`가 상태와 판정을 기억한다.
 6. `Conductor`가 최종 통합과 반영을 맡는다.
 
-## Current Real Subagent Batch
+## Real Subagent Reading
 
-현재 실제로 띄운 배치는 `orchestra/AGENT_DISPATCH_LOG.md`를 본다.
+실제로 띄운 배치는 `orchestra/AGENT_DISPATCH_LOG.md`와
+current workstream 문서 기준으로 본다.
 
-현재 활성 확인 대상:
+활성 역할은 고정 이름 배치가 아니라,
+current mainline에 맞는 `closure sync / carryover / mismatch / handoff drift`
+질문으로 다시 배정한다.
 
-- Orchestra Advantage Auditor
-- Frost Core Register Link Auditor
-- Workstream Sync Auditor
-- FS Lore Engine Consistency Specialist
-
-## Current Segmentation
+## Active Segmentation Reading
 
 ### 1. Conductor
 
-- 현재 메인 축 결정
+- current 메인 축 결정
 - 작업 순서 고정
 - 충돌 판단 최종 승인
 
@@ -114,16 +120,16 @@ Conductor가 필요 배치마다 실제 서브에이전트를 호출하거나
 
 ### 9. Item Archivist
 
-- 현재는 소진행
+- 현재 mainline에서는 소진행
 - 아이템 후보와 장기 분류를 유지하되 메인 축 안정화 이후 확장
 
 ### 10. Spatial Cartographer
 
-- 현재는 소진행
+- 현재 mainline에서는 소진행
 - 세계 / 대륙 / 도시 / 건물 / 실내 맵 backlog 유지
 - 메인 진행에서 나온 위치 정보를 지도 축으로 점진 축적
 
-## Current Main Track
+## Baseline Main Track
 
 1. 세계관
 2. 대륙
@@ -132,7 +138,14 @@ Conductor가 필요 배치마다 실제 서브에이전트를 호출하거나
 5. 인물
 6. 관계망
 
-## Current Side Track
+## Active Watch Track
+
+1. `closure sync`
+2. `Section 8 -> 15 carryover watch`
+3. `structure label / mismatch / P2 handoff owner drift`
+4. `summary / bridge / package / register wording consistency`
+
+## Active Side Track
 
 - 아이템 수집 파이프라인
 - 아이템 욕망 설계

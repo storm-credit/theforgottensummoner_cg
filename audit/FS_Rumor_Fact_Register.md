@@ -14,7 +14,7 @@
 
 ### `fact`
 
-현재 정본 사실.
+정본 사실.
 
 - 상위 캐논과 충돌하지 않는다.
 - 오케스트라가 실제 근거를 확인했다.
@@ -61,7 +61,7 @@
 5. 어떤 인물 관계를 바꾸는가?
 6. 회수될 복선인가, 분위기용 소문인가?
 
-## Current Seed Entries
+## Seed Entry Snapshot
 
 | Rumor / Claim | State | Related Track |
 |---|---|---|
@@ -77,4 +77,3 @@
 - 사실로 확정할 때는 `FS_Canon_Tier_Register.md`와 연결한다.
 - 관계 변화를 만들면 `FS_Relationship_Ledger.md`와 연결한다.
 - 복선이면 `FS_Foreshadow_Payoff_Register.md`와 연결한다.
-

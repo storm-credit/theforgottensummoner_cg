@@ -1,14 +1,14 @@
 # FS Engine Upgrade Audit
 
-이 문서는 현재 FS 엔진을 다시 점검하고,
-지금 시점에서 어떤 업그레이드가 실제로 필요한지 정리한 감사표다.
+이 문서는 FS 엔진을 다시 점검하고,
+이 단계에서 어떤 업그레이드가 실제로 필요한지 정리한 감사표다.
 
 기준:
 
 - 엔진의 `모듈 수`를 늘리는 것이 목적이 아니다.
 - 큰 설정집에서 반복적으로 같은 혼선이 생기는 지점을 줄이는 것이 목적이다.
 
-## Current Verdict
+## Verdict Snapshot
 
 FS 엔진의 뼈대는 이미 충분히 강하다.
 
@@ -26,7 +26,7 @@ FS 엔진의 뼈대는 이미 충분히 강하다.
 - `Place / Asset / Institution`
 - `Travel / Resource / Rumor`
 
-즉 지금 부족한 건 `큰 이론`이 아니라
+즉 이 단계에서 부족한 건 `큰 이론`이 아니라
 `반복 판단을 기억하고 누수 방지하는 장치`다.
 
 ## Upgrade Priority
@@ -76,7 +76,7 @@ FS 엔진의 뼈대는 이미 충분히 강하다.
 
 필요 이유:
 
-- 지금 `need_named_candidate` 슬롯이 많이 쌓였고,
+- `need_named_candidate` 슬롯이 많이 쌓였고,
   이 슬롯이 언제 `verify_before_15`로 올라가고,
   언제 실제 `Named Notable`이 되는지 추적 장치가 필요하다.
 
@@ -119,9 +119,9 @@ FS 엔진의 뼈대는 이미 충분히 강하다.
 
 - `recommended_next`
 
-## Conductor Decision
+## Conductor Decision Snapshot
 
-지금 바로 붙일 업그레이드는 아래 3개다.
+우선 적용 업그레이드 snapshot은 아래 3개다.
 
 1. `FS_Decision_Ruling_Register.md`
 2. `FS_Cross_Chronicle_Firewall.md`
@@ -137,5 +137,5 @@ FS 엔진의 뼈대는 이미 충분히 강하다.
 
 그다음 우선이던 `Canon Change Log` 초안도 붙였다.
 
-이제 다음 엔진 보강은
+후속 엔진 보강축은
 `Story-to-Lore Handoff Gate`다.

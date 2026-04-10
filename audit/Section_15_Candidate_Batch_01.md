@@ -1,7 +1,13 @@
-# Section 15 Candidate Batch 01
+# Section 15 Candidate Batch 01 Snapshot
 
 이 문서는 `15번 인물 백과`로 회수할 가능성이 높은
-첫 조직망 인간층 배치를 정리한 시트다.
+첫 조직망 인간층 배치를 정리한 snapshot 시트다.
+
+candidate active 판단은
+`Section_15_Candidate_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
 
 ## Batch Theme
 
@@ -17,7 +23,7 @@
 ### 1. 그림자 첩보망 계열
 
 - `이리나 폰 루즈`
-  - current status:
+  - recorded status:
     - `14 보류`
   - reason:
     - 이미 고아 인물로 독립 문서가 있고, 정보망의 중심 인물로 반복 연결된다.
@@ -43,7 +49,7 @@
 ### 2. 철의 금융 연맹 계열
 
 - `칼리크 디트리히`
-  - current status:
+  - recorded status:
     - `14 보류`
   - reason:
     - 금융-암시장-유통 연결의 핵심 얼굴이라 회수 우선도가 높다.
@@ -80,7 +86,7 @@
   - reason:
     - 조직의 기이한 통신 구조를 인물화하는 데 유리하다.
 
-## Priority
+## Priority Snapshot
 
 1. `이리나 폰 루즈`
 2. `칼리크 디트리히`

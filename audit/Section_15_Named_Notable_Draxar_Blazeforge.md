@@ -38,6 +38,14 @@
   - `FS_Asset_Secret_Register.md`
   - `FS_Foreshadow_Payoff_Register.md`
 
+## Policy Guard
+
+- 드락사르의 `공방 / 연금술 / 씨족 내부 기술권위` 신호는
+  크림슨의 `tribe_clan core`와 공방형 상층을 보강하는 증거다.
+- 다만 이를 전통 귀족국가형 `state_house strong` 근거로 올리지는 않는다.
+- 즉 이 카드는 `씨족형 전쟁기술자 + 공방 권위` 범위에서만 읽고,
+  국가형 가문층 승격 근거로 사용하지 않는다.
+
 ## Story Use
 
 - 전설 무구가 아니라 `위험한 강화제`와 `금지 실험` 쪽을 여는 인물.
@@ -48,4 +56,4 @@
 
 이 인물은 매력적이지만 바로 15로 밀면 14와 충돌할 수 있다.
 
-현재 판정은 `verify_before_15`다.
+현재 판정은 `verify_before_15 / war_artificer_hold`다.

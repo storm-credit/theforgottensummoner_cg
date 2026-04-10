@@ -1,18 +1,25 @@
-# Section 15 Candidate Register
+# Section 15 Candidate Register Snapshot
 
 이 문서는 `15번 인물 백과`로 회수할 가능성이 높은 인물들을
-실제 등록부 형태로 모으는 초안이다.
+reference 등록부 형태로 모으는 초안이다.
 
-지금은 이동표가 아니라 intake 대기표다.
+intake active 판단은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
+이 문서는 이동표라기보다
+candidate snapshot과 reference action을 남기는 register다.
 
 ## Fields
 
-| Name | Source | Candidate Anchor | Bucket | Current Status | Relation Usefulness | Recommended Action | Notes |
+| Name | Source | Candidate Anchor | Bucket | Recorded Status | Relation Usefulness | Reference Action | Notes |
 |---|---|---|---|---|---|---|---|
 
-## Current Register
+## Recorded Register Snapshot
 
-| Name | Source | Candidate Anchor | Bucket | Current Status | Relation Usefulness | Recommended Action | Notes |
+| Name | Source | Candidate Anchor | Bucket | Recorded Status | Relation Usefulness | Reference Action | Notes |
 |---|---|---|---|---|---|---|---|
 | `이리나 폰 루즈` | `phase1_orphans` | `그림자 정보단 / 그림자 첩보망` | `Orphan Recovery` | `14 보류` | `높음` | `hold_and_review` | 정보망 중심 노드라 관계 연결 가치가 높다. |
 | `칼리크 디트리히` | `phase1_orphans` | `철의 금융 연맹 / 침묵의 상회` | `Orphan Recovery` | `14 보류` | `높음` | `hold_and_review` | 금융-암시장-첩보 연결 노드로 유용하다. |
@@ -54,36 +61,36 @@
 | `항구 감독관 / 지부장 / 도시 조정관 계열` | `지역 / 생활상 문서` | `도시 / 상회 / 함대` | `Region Embedded` | `미수집` | `중간` | `collect_selectively` | 도시와 지도 축을 살릴 중간 인간층이다. |
 | `조약 체결자 / 반란 지도자 / 암살 대상 계열` | `외교 / 역사 / 사건 문서` | `사건별 세력 앵커` | `Event Embedded` | `미수집` | `중간` | `collect_selectively` | 액트 연결 고리 역할일 때만 우선 수집한다. |
 
-## First Operational Priority
+## Reference Intake Order Snapshot
 
-`15번` 후보 수집은 아래 순서로 들어간다.
+`15번` 후보 수집은 reference 순서상 아래처럼 읽는다.
 
 1. `Orphan Recovery`
 2. `Organization Mesh`
 3. `Region Embedded`
 4. `Event Embedded`
 
-## Why This Order
+## Reference Reading Note
 
-- 지금 가장 중요한 건 `14번` 바깥에 뜬 사람을 다시 인간 관계망에 묶는 것
+- reference상 가장 중요한 건 `14번` 바깥에 뜬 사람을 다시 인간 관계망에 묶는 것
 - 그다음은 `국제 길드 연합`, `대륙 무역 연맹`, `그림자 첩보망`, `철의 금융 연맹`처럼
   반복 등장하는 범대륙 조직에 인간 얼굴을 붙이는 것
 
-## Latest Intake Shift
+## Recorded Intake Shift
 
-- 이제 `15번` 후보는 추상 역할군만이 아니라
+- 이 snapshot에서는 `15번` 후보를 추상 역할군만이 아니라
   `모이라 와일드웨이브`, `레이나 브라이트헤븐`, `이사벨 카르도`처럼
-  이름 있는 중간 인간층까지 회수 후보에 올린다.
+  이름 있는 중간 인간층까지 포함해 읽는다.
 - 단, 기존 `14번`과 충돌할 수 있는 이름은
-  먼저 `verify_existing_14` 상태로 확인한다.
+  reference상 먼저 `verify_existing_14` 상태로 확인한다.
 
 ## Duplicate Verification Note
 
-- 현재 import 작업본 기준으로
+- existing import 작업본 기준으로
   `모이라`, `레이나`, `이사벨`, `대런`, `칼레스트`는
   standalone hero file은 아직 직접 안 보이지만
   본문 인덱스와 번호 체계에서 이미 `14 신호`가 보인다.
-- 자세한 판정은 `Section_15_Duplicate_Verification.md`에 누적한다.
+- 자세한 판정 기록은 `Section_15_Duplicate_Verification.md`에 누적해 읽는다.
 
 ## Conductor Note
 
