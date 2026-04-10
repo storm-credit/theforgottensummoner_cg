@@ -123,4 +123,4 @@
 이 묶음부터 시작하는 게 자연스럽다.
 
 다만 named notable 승인 논리와는 분리하고,
-operational profile-side carryover reference로만 유지한다.
+operational lower-card carryover reference로만 유지한다.

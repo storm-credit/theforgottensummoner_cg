@@ -107,4 +107,4 @@
 `죽은 자의 통신`까지 활용하는 비정상적 문명이라는 걸 보여주는 데 유용하다.
 
 다만 named notable 승인 논리와는 분리하고,
-operational profile-side carryover reference로만 유지한다.
+operational lower-card carryover reference로만 유지한다.

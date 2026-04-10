@@ -33,7 +33,8 @@
 3. Ether hold cluster는 `library_core_hold / archive_admin_hold / tower_seer_hold / bardic_archive_hold`, `white_tower_barrier_hold / abyss_blood_taboo_hold / shadow_intelligence_hold / holy_barrier_hold`, `great_druid_hold / spirit_envoy_hold / shadow_crow_hold`까지 한 번 closure 상태로 본다.
 4. `P2 place-pressure handoff`는 candidate index가 아니라 sidecar/register를 주 기록처로 유지한다.
 5. 메인 본선 reference는 새 후보 창출이 아니라 `5대륙 closure sync / Section 8 -> 15 carryover watch`다.
-6. 카드층 `Policy Guard`는 summary / bridge / index / folder / routing 문서까지 흡수된 상태로 유지한다.
+6. 카드층 `Policy Guard`는 summary / bridge / index / folder / routing 문서까지 반영하되,
+   exact wording source로 승격하지 않는다.
 7. canonical state drift와 policy carryover drift는 서로 다른 층으로 점검한다.
 8. named notable card와 operational profile card의 lower-card authority는 분리 유지한다.
 9. operational middle-layer는 family-level carryover만 요약하고,
@@ -42,8 +43,11 @@
     (`Black Auction / Port Authority / Gravewell / Counterfeit Workshop`)는
     closure 상태로 유지하고, 새 drift가 생길 때만 국소 재개한다.
 11. stable candidate / package freeze / compatibility audit도
-    `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`를
-    exact wording source로만 읽고, named notable 승인 논리로 역수입하지 않는다.
+    각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`를
+    exact wording source로 읽고,
+    subline 확장까지 내려간 경우에는 각 `Section_15_Subline_Profile_*` 카드의
+    `3-1. Policy Guard`를 exact wording source로 읽으며,
+    named notable 승인 논리로 역수입하지 않는다.
 
 ## Watch Table
 
@@ -53,7 +57,7 @@
 | `support / deferred hold` | `separated_from_triad` | `Section_15_Stable_Candidate_8_Anchor_Index.md` | triad package와 hold queue 혼용 | `support_hold`, `deferred_expansion_hold`만 사용 |
 | `Ether hold clusters` | `closed_round1_for_watch` | `Section_15_Ether_Hold_Cluster_Continuation.md`, `Section_15_Ether_Tower_Saint_Hold_Continuation.md`, `Section_15_Ether_Spirit_Union_Hold_Continuation.md` | 이미 닫힌 hold를 계속 next batch처럼 적는 것 | 새 증거 전까지 closure 상태 유지 |
 | `Section 8 carryover` | `bridge_locked` | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md` | 구조 라벨과 후보 상태 혼용 | structure label과 place pressure 분리 |
-| `lower-card authority` | `separated_and_respected` | `Section_15_Named_Notables_Register.md`, `Section_15_Profile_Draft_Index.md` | 상위 summary가 하위 `3-1. Policy Guard`를 재정의하는 것 | named notable summary와 operational profile guard를 병합하지 않는다 |
+| `lower-card authority` | `separated_and_respected` | `Section_15_Named_Notables_Register.md`, `Section_15_Profile_Draft_Index.md`, `Section_15_Profile_*`, `Section_15_Subline_Profile_*` | 상위 summary가 하위 `3-1. Policy Guard`를 재정의하는 것 | register/index는 비교 문서로만 쓰고, exact wording source는 각 profile/subline profile 카드에 남긴다 |
 | `P2 place-pressure` | `handoff_applied` | `Section_8_Place_Network_Handoff_Map.md` | candidate index나 summary에 place owner를 재정의하는 것 | owner는 sidecar/register만 가진다 |
 | `root / deferred axis` | `guarded` | `Section_8_Normalization_Status_Compass.md` | 범대륙 후기 확장을 메인 본선처럼 재상승 | deferred routing만 유지 |
 

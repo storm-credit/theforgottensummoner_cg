@@ -24,9 +24,9 @@
 - `에테르`는 정령연합의 엘다라를 `support_hold`로 두고, 마법협회 탑주/성국 도서관/정령 의식 슬롯이 강하지만 14번과 겹칠 위험이 커서 `verify_source_before_profile`과 hold가 먼저다. 장소-기관 슬롯은 `Section_15_Ether_Place_Institution_Sidecar.md`로 보존하고, 변방 부족층은 `frontier echo / border support` 범위를 넘겨 읽지 않는다.
 - `프로스트`는 후보가 거의 14 영웅표와 겹치지만, `오로라 평원`, `얼음무덤 언덕`, `푸른 폭풍 요새`, `아이스포지 병기소`, `빙하의 성소` 쪽의 장소-기관 슬롯이 강하다. `아이스포지 병기소 장인`까지 named holder 없이 닫혀 unnamed slot 6개 closure가 한 번 완료됐다.
 - `해양`은 항해/연금/항구/암시장 명사 후보가 많지만, 현재 후보 대부분은 전설 영웅록, 제독, A급, 히어로급 신호가 강해 `verify_before_15`가 먼저다. `신탁 방주`, `해로 장부관`, `왕실 선공장 수석장`, `흑조 감정관`, `심연 장부관`, `항해사 길드장`, `마스터 쉽라이트`, `수석 기상관`, `대경매장 주인`, `은행장`, `세관장`, `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`은 새 실명 없이 role slot으로 정리됐고, 토착 공동체층은 `support range`를 넘겨 본체화하지 않는다.
-- `해양` 자유도시 profile cluster는 도시-항만 그림자경제를 보강하는 profile-side carryover reference로 잠겼고, named notable 승격 근거나 `토착 공동체층` 근거와 섞지 않는다.
+- `해양` 자유도시 profile cluster는 도시-항만 그림자경제를 보강하는 lower-card carryover reference로 잠겼고, named notable 승격 근거나 `토착 공동체층` 근거와 섞지 않는다.
 - `오벨리스크`는 금서/봉인/영혼/기록 명사 후보가 매우 많지만, 인물/아이템/전설 영웅/조직 핵심 충돌이 커서 `verify_before_15` 중심으로 둔다. 2차 narrowing까지 반영하면 `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 role slot 유지, `기억 지기`는 `렌/라일` existing holder, `심연 계약 중개자`는 `루가르` strong-link verify 상태다. 가문/왕국 신호는 `nontraditional elite thin-support` 우선으로 읽는다.
-- `오벨리스크` 제도 profile cluster는 `nontraditional elite thin-support` 또는 `dark institution` profile-side carryover reference로 잠겼고, named notable 승격 근거나 전통 귀족국가형 상층 근거로는 읽지 않는다.
+- `오벨리스크` 제도 profile cluster는 `nontraditional elite thin-support` 또는 `dark institution` lower-card carryover reference로 잠겼고, named notable 승격 근거나 전통 귀족국가형 상층 근거로는 읽지 않는다.
 - `범대륙`은 후기 확장축이라 메인 정리보다 뒤로 둔다.
 - named notable coverage 표는 상위 분포 요약층이다.
   개별 operational profile 카드의 `3-1. Policy Guard`를 덮어쓰지 않고 참조만 한다.

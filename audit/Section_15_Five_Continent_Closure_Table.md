@@ -66,7 +66,7 @@ Hold Queue:
 - 따라서 이 closure table은 named notable split을 다루되,
   operational profile 해석은 하위 profile card의 `3-1. Policy Guard`를 따른다.
 - 자유도시/오벨리스크 operational profile cluster 문구는
-  named notable 승격 근거가 아니라 profile-side carryover reference로만 유지한다.
+  named notable 승격 근거가 아니라 lower-card carryover reference로만 유지한다.
 - exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, 이 closure table은 그 wording source를 요약하거나 대체하지 않는다.
 - subline 확장까지 내려간 경우에도

@@ -40,7 +40,7 @@
 - `오벨리스크` 앵커는 `nontraditional elite thin-support`와 `dark institution` 기능축을 정리하는 용도지, 전통 왕국/귀족국가 복원 맵이 아니다.
 - `실비아`는 `범대륙 후기 확장 / deferred_expansion_hold` 내부에서만 유지한다.
 - 해양/오벨리스크 operational profile 문구는
-  named notable 승인 근거가 아니라 lower-card authority를 가진 profile-side carryover reference다.
+  named notable 승인 근거가 아니라 lower-card authority를 가진 lower-card carryover reference다.
 - 이 앵커 가드는 named notable anchor safeguard일 뿐이고,
   operational cluster guard text 권한은 `Section_15_Profile_Template.md`의 `3-1. Policy Guard`에 남는다.
 - exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의

@@ -167,7 +167,7 @@
   하위 profile의 policy carryover 형식을 별도로 유지하는 구조다.
 - 자유도시/오벨리스크 operational profile 문구는
   named notable 승격 근거로 역수입하지 않고,
-  profile-side carryover reference로만 유지한다.
+  lower-card carryover reference로만 유지한다.
 - 폴더 구조 문서는 이 profile carryover 범주를 참조할 수는 있어도,
   개별 operational profile의 정확한 guard 문장을 대신 정의하지 않는다.
 - exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의

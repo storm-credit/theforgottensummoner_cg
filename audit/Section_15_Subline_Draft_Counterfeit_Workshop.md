@@ -53,4 +53,4 @@
 신분 서사와 아이템 서사가 동시에 선다.
 
 다만 named notable 승인 논리와는 분리하고,
-operational profile-side carryover reference로만 유지한다.
+operational subline-profile-side carryover reference로만 유지한다.

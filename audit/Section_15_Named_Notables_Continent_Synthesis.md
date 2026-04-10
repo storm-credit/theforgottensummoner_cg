@@ -58,7 +58,7 @@ Conductor decision:
 다만 안정 시험 후보는 `울프가르`, `에리온`, `오그마`로 좁히고,
 벨라나, 아리안, 드락사르, 카사르는 먼저 14번 경계 검증을 통과해야 한다.
 자유도시/오벨리스크 운영층 문구는 named notable 승격 논리가 아니라
-profile-side carryover reference로만 유지한다.
+lower-card carryover reference로만 유지한다.
 
 ## Ether
 
@@ -253,7 +253,7 @@ Conductor decision:
 ## Guard Authority Snapshot
 
 - named notable synthesis는 카드층의 guard family를 요약하는 상위 reference다.
-- operational profile-side carryover는 언급할 수 있지만,
+- operational lower-card carryover는 언급할 수 있지만,
   `Section_15_Profile_*` 카드의 `3-1. Policy Guard` exact wording을 대체하지 않는다.
 - named notable card의 `Policy Guard / Separation Guard`와 operational profile의 `3-1. Policy Guard`는
   parallel but non-substitutable layer로 유지한다.

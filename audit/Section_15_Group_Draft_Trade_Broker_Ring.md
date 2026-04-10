@@ -110,4 +110,4 @@
 `현장에서 누가 타협하고 누가 막고 누가 우회시키는가`로 보이게 만드는 데 핵심이다.
 
 다만 named notable 승인 논리와는 분리하고,
-operational profile-side carryover reference로만 유지한다.
+operational lower-card carryover reference로만 유지한다.

@@ -111,4 +111,4 @@
 `도시 경제가 왜 공포로 유지되는가`를 설명하는 데 핵심이다.
 
 다만 named notable 승인 논리와는 분리하고,
-operational profile-side carryover reference로만 유지한다.
+operational lower-card carryover reference로만 유지한다.

@@ -103,4 +103,4 @@
 사람과 장소 단위로 복구하는 데 유용하다.
 
 다만 named notable 승격 논리와는 분리하고,
-operational profile-side carryover reference로만 유지한다.
+operational lower-card carryover reference로만 유지한다.

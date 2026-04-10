@@ -44,7 +44,7 @@
 
 해양 자유도시/오벨리스크 제도 사례는
 named notable 즉시 승인 근거가 아니라
-operational profile-side carryover reference로만 유지한다.
+operational lower-card carryover reference로만 유지한다.
 
 ## Mismatch Watch
 
