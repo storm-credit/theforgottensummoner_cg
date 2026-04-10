@@ -97,8 +97,8 @@ watch cycle이 안정된 뒤 조건부로 검토할 reference backlog다.
 세부 이력은 이미 잠긴 참고 기록으로 본다.
 
 `1~5 대륙 결손층 5개`는
-`audit/Five_Continent_Missing_Layer_Policy_Lock.md`에서
-정책 잠금까지 마친 상태로 읽는다.
+`audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 따라
+정책, evidence, firewall까지 묶어 읽는다.
 
 실제 증거 intake 기준은
 `audit/Five_Continent_Missing_Layer_Evidence_Register.md`에서

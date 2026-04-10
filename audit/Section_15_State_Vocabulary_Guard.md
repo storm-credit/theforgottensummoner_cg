@@ -110,6 +110,9 @@
 12. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
     닫힌 subline 교차감사 샘플로 유지하고,
     상위 summary / bridge / index / watch 문서는 그 closure 상태를 참조만 한다.
+13. `결손층 5개`의 thin/support 판정과 overread firewall은
+    이 상태어 장부가 새로 정의하지 않고,
+    `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 
 ## Legacy Mapping
 

@@ -1,6 +1,7 @@
 # Five Continent Missing Layer Evidence Register
 
-이 문서는 `Five_Continent_Missing_Layer_Policy_Lock.md`를
+이 문서는 `Five_Continent_Missing_Layer_Master_Lock.md` 아래에서
+`Five_Continent_Missing_Layer_Policy_Lock.md`를
 실제 증거 intake 기준으로 바꿔 주는 register다.
 
 목적:
@@ -12,6 +13,7 @@
 
 ## Input
 
+- `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 - `audit/Five_Continent_Missing_Layer_Policy_Lock.md`
 - `working/drafts/Continents_Framework.md`
 - `working/drafts/Continental_Adequacy_Map.md`

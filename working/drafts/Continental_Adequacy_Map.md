@@ -3,8 +3,8 @@
 이 문서는 `1~5 대륙`이 인간 서사 중심 세계로 기능하기 위해
 `가문 / 부족 / 길드` 층이 얼마나 필요한지, 어디가 비어 있는지 먼저 표시하는 점검 시트다.
 
-현재 결손층 정책 잠금은
-`audit/Five_Continent_Missing_Layer_Policy_Lock.md`를 우선 기준으로 읽는다.
+현재 결손층 본선 entry는
+`audit/Five_Continent_Missing_Layer_Master_Lock.md`를 우선 기준으로 읽는다.
 
 ## Status Labels
 
@@ -140,7 +140,7 @@
 ## Immediate Use
 
 1. `Continents_Framework.md`와 같이 본다.
-2. `audit/Five_Continent_Missing_Layer_Policy_Lock.md`와 같이 본다.
+2. `audit/Five_Continent_Missing_Layer_Master_Lock.md`와 같이 본다.
 3. `audit/Five_Continent_Missing_Layer_Evidence_Register.md`와 같이 본다.
 4. 각 대륙의 결손층은 `빈칸`이 아니라 `허용된 thin/support 범위`로 먼저 읽는다.
 5. 부족한 층은 새 설정 발명보다 먼저 `정책 범위 안의 증거 부족`으로 기록한다.

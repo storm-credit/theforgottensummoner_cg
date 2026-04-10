@@ -9,6 +9,9 @@
 이미 닫힌 결과를 유지하는
 `5대륙 closure sync / Section 8 -> 15 carryover watch` 단계다.
 
+`결손층 5개`의 thin/support 판단과 overread 금지선은
+항상 `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 읽는다.
+
 이 문서에 남은 `다음 8번 감사` 서술은
 현재 active workstream이 아니라 reference backlog로 읽는다.
 

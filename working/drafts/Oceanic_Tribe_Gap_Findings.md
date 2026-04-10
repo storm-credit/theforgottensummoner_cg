@@ -4,8 +4,8 @@
 현재까지 import한 작업본 기준으로 점검한 메모다.
 
 정책 잠금 기준은
-`audit/Five_Continent_Missing_Layer_Policy_Lock.md`의
-`Oceanic Indigenous Community Policy`를 우선 따른다.
+`audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 따라
+그 아래 `Oceanic Indigenous Community Policy` chain을 우선 따른다.
 
 증거 intake 기준은
 `audit/Five_Continent_Missing_Layer_Evidence_Register.md`의

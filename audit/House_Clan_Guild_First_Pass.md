@@ -5,8 +5,8 @@
 - 원본은 수정하지 않았다.
 - 현재 판단은 `working/imports`에 이미 가져온 작업본과 `reference/manifests`만 기준으로 한다.
 - 강한 확정 대신 `지금 증거로 말할 수 있는 범위`만 적는다.
-- 결손층 정책 잠금은 `audit/Five_Continent_Missing_Layer_Policy_Lock.md`를 우선 따른다.
-- 결손층 증거 intake는 `audit/Five_Continent_Missing_Layer_Evidence_Register.md`를 우선 따른다.
+- 결손층 본선 단일 entry는 `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 우선 따른다.
+- 정책/증거 intake 세부는 그 아래 `policy lock / evidence register` 문서군으로 내려가 읽는다.
 
 ## Main Conclusion
 

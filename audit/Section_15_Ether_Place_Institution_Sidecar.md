@@ -5,8 +5,8 @@
 먼저 장소와 기관 슬롯으로 고정하기 위한 사이드카다.
 
 이 sidecar는
-`Five_Continent_Missing_Layer_Policy_Lock.md`의
-`Ether Frontier Tribe Policy`를 우선 따른다.
+`Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 따라
+그 아래 `Ether Frontier Tribe Policy` chain을 우선 따른다.
 즉 정령연합 바깥 부족/변방 공동체 신호는
 `frontier echo / border support` 범위 안에서만 받는다.
 

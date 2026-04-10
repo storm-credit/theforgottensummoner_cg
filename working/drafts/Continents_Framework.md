@@ -72,9 +72,8 @@
 
 - 현재 기준에서 `1~5 대륙`의 기본 무대 성격은 닫힌 것으로 본다.
 - 다음 보강은 `정체성 추가 발명`보다 `결손층 보강`을 우선한다.
-- 우선 결손 5개는 `audit/Five_Continent_Missing_Layer_Policy_Lock.md`에서 정책 잠금 완료로 읽는다.
-- 실제 증거 intake 기준은 `audit/Five_Continent_Missing_Layer_Evidence_Register.md`를 따른다.
-- 전체 묶음의 단일 진입점은 `audit/Five_Continent_Missing_Layer_Master_Lock.md`로 읽는다.
+- 우선 결손 5개는 `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 진입점으로 읽는다.
+- 정책 잠금과 실제 증거 intake 기준은 그 아래 `policy lock / evidence register` 문서군을 따른다.
 
 ## Missing Layer Policy Snapshot
 

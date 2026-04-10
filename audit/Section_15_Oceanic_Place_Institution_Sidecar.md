@@ -15,8 +15,8 @@
 `심해 금고 보관인` 같은 슬롯을 장소-기관 축으로 먼저 묶는다.
 
 이 sidecar는
-`Five_Continent_Missing_Layer_Policy_Lock.md`의
-`Oceanic Indigenous Community Policy`를 우선 따른다.
+`Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 따라
+그 아래 `Oceanic Indigenous Community Policy` chain을 우선 따른다.
 즉 항만/교단/함대 바깥 생활 흔적은 `support range`까지만 보존하고,
 토착 공동체층을 해양 대륙 공통 `tribe_clan` 근거로는 올리지 않는다.
 

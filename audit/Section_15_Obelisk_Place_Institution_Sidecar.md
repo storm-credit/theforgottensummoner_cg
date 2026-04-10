@@ -9,8 +9,8 @@
 - `기록`, `봉인`, `망각`, `영혼`, `금서` 기능을 장면 단위로 본다.
 - 신/심연/망자 어휘가 인간 서사를 밀어내지 않도록
   `기억`, `거래`, `기록`, `죄책감`, `망명` 기능으로 낮춰 읽는다.
-- `Five_Continent_Missing_Layer_Policy_Lock.md`의
-  `Obelisk Nontraditional Elite Policy`를 우선 따른다.
+- `Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 따라
+  그 아래 `Obelisk Nontraditional Elite Policy` chain을 우선 따른다.
 - 가문/왕국/통치자 신호는 장소-기관 압력과 별개로
   `nontraditional elite thin-support` 우선으로만 읽는다.
 

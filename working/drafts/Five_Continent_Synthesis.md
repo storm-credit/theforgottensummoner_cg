@@ -3,8 +3,8 @@
 이 문서는 현재까지 import한 작업본 기준으로
 `1~5 대륙`의 인간 서사 무대 성격과 `가문 / 부족 / 길드` 결손을 한 장으로 묶은 종합 시트다.
 
-결손층 정책 잠금은
-`audit/Five_Continent_Missing_Layer_Policy_Lock.md`를 우선 기준으로 읽는다.
+결손층 본선 entry는
+`audit/Five_Continent_Missing_Layer_Master_Lock.md`를 우선 기준으로 읽는다.
 
 ## Core Read
 
