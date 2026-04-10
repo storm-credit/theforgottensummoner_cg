@@ -88,10 +88,16 @@
 - 이 템플릿은 operational profile 카드의 `3-1. Policy Guard` 형식을 잠그는 설계 기준서다.
 - exact operational guard wording authority는 템플릿 자체가 아니라,
   실제 `Section_15_Profile_*` 카드에 작성되는 각 `3-1. Policy Guard`에 남는다.
+- subline 확장까지 내려간 경우에도
+  exact operational guard wording authority는
+  실제 `Section_15_Subline_Profile_*` 카드에 작성되는 각 `3-1. Policy Guard`에 남는다.
 - 상위 track/index/display/intake 문서는 이 가드 family를 참조할 수는 있어도,
   여기 적힌 guard 문장을 대체하거나 축약 권한을 가지지 않는다.
 - 위 예시는 family-level guidance일 뿐이고,
   실제 카드에서는 카드별 맥락에 맞는 exact prose를 다시 써야 한다.
+- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+  닫힌 subline 교차감사 샘플로 유지하고,
+  이 템플릿은 그 closure 상태를 형식 참고 규칙으로만 읽는다.
 
 ## Recommended Use
 

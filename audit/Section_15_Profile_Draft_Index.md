@@ -124,3 +124,6 @@
 - 그 과정에서도 canonical 상태어와 `3-1. Policy Guard` 문장을 함께 유지한다.
 - exact operational guard wording authority도 상위 draft index가 아니라
   각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
+- subline 확장까지 내려간 경우에도
+  exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 index는 그 wording source를 reference로만 유지한다.
