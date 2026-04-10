@@ -74,7 +74,7 @@
 7. 카드층 `Policy Guard`와 `Section 15` index/folder/routing 문서의 carryover 문장이 다시 어긋날 때
 8. canonical state가 prose guard 문장으로 대체되거나, 반대로 prose guard가 state label처럼 오기입될 때
 9. operational profile guard 문장이 named notable 승인 논리로 역수입될 때
-10. subline draft와 downstream subline profile 카드의 carryover 문장이 서로 어긋날 때
+10. subline draft와 각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard` 문장이 서로 어긋날 때
 
 ## Ordered Cycle
 

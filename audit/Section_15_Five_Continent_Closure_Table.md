@@ -89,7 +89,7 @@ Hold Queue:
 ## Orchestrated Move Snapshot
 
 큰 흐름 reference는
-전역 closure state를 같은 문장으로 유지하는 것이다.
+전역 closure state를 같은 authority 분리 문장으로 유지하는 것이다.
 
 점검 순서는 아래처럼 잠근다.
 

@@ -75,7 +75,7 @@
 
 1. stable triad package freeze를 닫힌 상태로 유지한다.
 2. freeze 밖 hold queue와 Ether hold cluster를 closure 상태로 유지한다.
-3. `Section 8 -> 15 carryover watch`가 summary / bridge / queue 문서에서 같은 문장으로 읽히게 유지한다.
+3. `Section 8 -> 15 carryover watch`가 summary / bridge / queue 문서에서 같은 authority 분리 문장으로 읽히게 유지한다.
 
 ## Profile Alignment Snapshot
 
