@@ -90,6 +90,9 @@
    `canonical state`와 `policy carryover sentence`를 함께 유지해야 한다.
 4. `state_house strong`, `토착 공동체층`, `전통 국가기관` 같은 표현은
    승격 선언이 아니라 금지/경계 문맥에서만 다시 등장할 수 있다.
+5. operational profile card는
+   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` heading 형식을 유지하고,
+   named notable card의 `Policy Guard / Separation Guard`와 형식층을 섞지 않는다.
 
 ## Legacy Mapping
 

@@ -43,6 +43,12 @@ actual draft package freeze 단계의
 | `package scope blur` | `medium` | stable triad와 hold queue를 `Section_15_Actual_Draft_Package_Freeze.md`에서 분리 유지한다. |
 | `policy overread recurrence` | `medium` | 카드층의 `Policy Guard`와 summary/folder carryover 문장을 같이 유지해 `state_house strong`, `토착 공동체층`, `전통 국가기관` 과독해를 막는다. |
 
+## Profile Format Gate
+
+- operational profile card는 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지해야 한다.
+- 폴더/route/revision gate 문서는 이 하위 profile 형식을 덮어쓰지 않고,
+  같은 carryover rule이 유지되는지만 검사한다.
+
 ## Gate Decision
 
 `Section_15_Folder_Structure_Draft.md`는

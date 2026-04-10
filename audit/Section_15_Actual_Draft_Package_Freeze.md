@@ -52,6 +52,7 @@
 7. stable triad의 카드별 `Policy Guard`는 package freeze 아래에서도 유효하며, `state_house strong` 승격 근거로 넘겨 읽지 않는다.
 8. 자유도시/오벨리스크 operational profile cluster는 triad package 바깥에서만 유지하고, 각각 `urban_market` 또는 `nontraditional elite thin-support / dark institution` 범위를 넘겨 읽지 않는다.
 9. canonical state는 `Section_15_State_Vocabulary_Guard.md`를 따르고, policy carryover 문장은 별도 prose guard로 함께 유지한다.
+10. operational profile card는 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
 
 ## Allowed Adjustments
 

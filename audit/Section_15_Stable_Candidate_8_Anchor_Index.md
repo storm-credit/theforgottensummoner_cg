@@ -38,6 +38,8 @@
 4. `structure label`과 `place pressure`는 같은 칸에 쓰지 않는다.
 5. 이 색인은 `Section 8 P2 place-pressure` owner를 가져오지 않고 route/reference만 유지한다.
 6. stable triad와 hold 카드에 내려간 개별 `Policy Guard`는 이 색인보다 아래 카드층의 해석 우선권을 가진다.
+7. operational profile layer의 `3-1. Policy Guard` 형식도
+   이 색인의 route/reference 판정보다 아래 카드층에서 그대로 우선한다.
 
 ## Routing Consequence
 

@@ -33,6 +33,8 @@
 - `철의 금융 연맹`, `그림자 첩보망`, `침묵의 상회` 하위 subline은
   `nontraditional elite thin-support` 또는 `dark institution` 하위 기능 라인으로만 읽는다.
 - 즉 subline이 늘어나도 전통 귀족국가형 `state_house strong`이나 정상 국가기관 복원 근거로 재상승시키지 않는다.
+- subline에서 실제 profile로 내려갈 때도
+  `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한다.
 
 ## Conductor Rule
 

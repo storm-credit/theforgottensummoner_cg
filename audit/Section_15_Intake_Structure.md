@@ -100,6 +100,8 @@
 - 즉 intake는 단순 회수만 하는 문서가 아니라,
   `policy guard` 없이 카드를 올리지 않는 입구로 유지한다.
 - subline draft와 group draft도 이 intake rule 아래의 하위 문서로 읽는다.
+- operational profile로 실제 내려간 카드들은
+  `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
 
 ## Conductor Note
 

@@ -66,6 +66,9 @@
   `nontraditional elite thin-support` 또는 `dark institution` 범위에서만 확장한다.
 - 즉 draft 수가 늘어나더라도
   전통 귀족국가형 `state_house strong`이나 정상 국가기관 복원 근거처럼 읽지 않는다.
+- 개별 profile은 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
+- 즉 profile draft index는 이름 목록만 모으는 문서가 아니라,
+  하위 profile들이 같은 policy carryover 형식을 유지하는지 보는 입구다.
 
 ## Subline Draft Snapshot
 
@@ -97,4 +100,4 @@
 - 개별 시트는 항상 `Profile Template` 기준으로 쓴다.
 - 새 시트를 만들면 먼저 이 색인에 올린다.
 - 그다음 `Group Index`와 연결한다.
-- 그 과정에서도 canonical 상태어와 `Policy Guard` 문장을 함께 유지한다.
+- 그 과정에서도 canonical 상태어와 `3-1. Policy Guard` 문장을 함께 유지한다.

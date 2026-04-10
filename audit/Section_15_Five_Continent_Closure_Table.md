@@ -59,6 +59,13 @@ Hold Queue:
 - `범대륙 / 후기 확장`의 `실비아`는 메인 5대륙 closure 표에 섞지 않고
   `deferred_expansion_hold`로만 보존한다.
 
+## Profile Layer Snapshot
+
+- 별도 operational profile layer는 named notable closure 표와 분리되어 있고,
+  `Section_15_Profile_*` 32개 전부 `3-1. Policy Guard` 형식으로 유지한다.
+- 따라서 이 closure table은 named notable split을 다루되,
+  operational profile 해석은 하위 profile card의 `3-1. Policy Guard`를 따른다.
+
 ## Routing Rule
 
 앞으로 15번 후보는 아래 순서로만 처리한다.

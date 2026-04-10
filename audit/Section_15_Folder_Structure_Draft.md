@@ -159,6 +159,13 @@
 `15-C`는 실제 이름 있는 인물 문서가 아니라,
 후속 회수용 슬롯 색인이다.
 
+## Profile Format Carryover
+
+- `15-B. Operational Lines` 아래로 내려가는 `Section_15_Profile_*` 문서는
+  `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
+- 즉 폴더 구조 초안은 named notable route와 operational profile route를 같이 보여주더라도,
+  하위 profile의 policy carryover 형식을 별도로 유지하는 구조다.
+
 ```text
 Need Named Candidate Slots
   에테르

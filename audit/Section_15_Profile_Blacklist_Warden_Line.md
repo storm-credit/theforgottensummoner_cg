@@ -29,6 +29,12 @@
 - route value:
   - `기록실 / 봉인실 / 게시벽 / 추적 의뢰 보관대`
 
+## 3-1. Policy Guard
+
+- 이 계열은 자유도시 `urban_market` 내부의 `contract order / guild discipline` 기록 질서를 보강한다.
+- 추방 명부와 복권 기록은 용병 사회의 낙인 관리 장치이지,
+  전통 국가 사법기관이나 귀족국가 행정망 복원 근거가 아니다.
+
 ## 4. Relation Hooks
 
 - `용병 중재 위원회 심판관 계열`

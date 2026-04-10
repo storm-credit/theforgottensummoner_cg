@@ -42,6 +42,13 @@ naming active 판단은
 - 해석선은 각 profile/template의 `Policy Guard`와
   `Section_15_Operational_Lines_Track.md`의 carryover 규칙을 따른다.
 
+## Profile Format Carryover
+
+- display 후보가 붙는 operational profile도
+  `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한다.
+- 즉 이름을 바꿔도 profile card의 해석선은 바뀌지 않고,
+  표면명은 card 아래의 policy guard를 덮어쓰지 않는다.
+
 ## Preferred Candidate Reference Pass
 
 이 표는 reference상 어느 쪽을 preferred로 읽을지 정리한 것이다.

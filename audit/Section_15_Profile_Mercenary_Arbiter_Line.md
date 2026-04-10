@@ -29,6 +29,12 @@
 - route value:
   - `중재 법정 / 심리실 / 증언 대기실 / 처분 게시벽`
 
+## 3-1. Policy Guard
+
+- 이 계열은 자유도시 `urban_market` 내부의 `contract order / guild discipline` 판정 질서를 보강한다.
+- 중재와 배신 심리는 용병 사회의 자치 법정 기능이지,
+  전통 국가 사법기관이나 왕국형 군제 복원 근거가 아니다.
+
 ## 4. Relation Hooks
 
 - `용병 길드 마스터 계열`

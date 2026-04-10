@@ -43,6 +43,13 @@ operational active 판단은
 - `Trade Broker Ring`은 범대륙/도시 상업 제도축으로 읽고,
   특정 대륙 혈통/왕국 상층 본체로 오독하지 않는다.
 
+## Profile Carryover Snapshot
+
+- 이 index 아래로 연결되는 `Section_15_Profile_*` 초안은
+  `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 따른다.
+- 즉 group index는 조직 묶음만 나열하는 문서가 아니라,
+  하위 profile의 policy carryover가 group reading과 어긋나지 않는지 보는 상위 입구다.
+
 ### 1. Hidden Exchange
 
 - file:

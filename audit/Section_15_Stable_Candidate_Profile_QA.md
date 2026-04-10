@@ -12,7 +12,7 @@
 
 ## QA Checklist
 
-| Candidate | Archive Routing | Primary Route Anchor | Place Lock / Detail | 14 Boundary Note | Name Collision Note | Current Result |
+| Candidate | Archive Routing | Primary Route Anchor | Place Lock / Detail | 14 Boundary Note | Name Collision Note | Recorded Result |
 |---|---|---|---|---|---|---|
 | `울프가르 드래곤포지` | `present` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `드래곤포지`, `프라이멀 엠버` | `A급/전설 영웅록 신호 확인` | `Wolfgar 다중 이름 충돌` | `pass_with_grade_caution / stable_15_workset / hardening_guard_added / route_hierarchy_locked` |
 | `에리온 드라코비스` | `present` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` | `A급/기록관/세력 핵심표 신호 확인` | `Erion 다중 이름 충돌` | `pass_with_grade_caution / stable_15_workset / hardening_guard_added / route_hierarchy_locked` |
@@ -20,7 +20,7 @@
 | `엘다라` | `present` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | `정령연합 전체 14 확인 전 Hard Canon 금지` | 없음 | `pass_with_source_caution / support_hold` |
 | `실비아` | `added_this_batch` | `범대륙 후기 확장 / 키르케 영약회` | `고통의 증류탑` | `낮음` | `실비아 다중 충돌` | `pass_with_deferred_expansion_hold / name_collision_watch` |
 
-## Required Follow-up
+## Reference Follow-up
 
 | Candidate | Follow-up |
 |---|---|

@@ -56,6 +56,9 @@
 크림슨 카드가 씨족 중심 질서와 thin-support를 보강하는 것인지,
 아니면 `state_house strong` 승격 근거가 아닌지를 함께 적는 편이 좋다.
 
+operational profile template을 쓰는 문서라면
+이 블록은 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 따르는 편이 좋다.
+
 ## Profile-Specific Notes
 
 ### 울프가르 드래곤포지

@@ -87,6 +87,13 @@
 - `붉은 사막 부족 / 현자 회의`와 `용의 후예 / 엘드라칸` route는
   모두 크림슨 `tribe_clan core` 아래의 분화축으로만 유지한다.
 
+## Profile Format Note
+
+- 이후 operational profile로 내려가는 카드가 생기면
+  `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
+- 즉 route 검증과 profile 해석 형식은 분리하고,
+  폴더링 시험표가 하위 profile의 guard 형식을 덮어쓰지 않는다.
+
 ## Display Name Notes
 
 이 단계에서는 표면 명칭을 과하게 새로 만들지 않는다.

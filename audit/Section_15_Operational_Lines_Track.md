@@ -56,6 +56,13 @@ reference용 `작업 구조 라벨`이다.
 - `Trade Broker Ring`은 범대륙/도시 상업 제도축으로 읽고,
   특정 대륙 본체의 혈통/토착/왕국 상층으로 오독하지 않는다.
 
+## Profile Format Snapshot
+
+- 이 track 아래에서 읽는 `Section_15_Profile_*` 문서는
+  모두 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한다.
+- 따라서 operational track은 라인 축만 요약하고,
+  개별 profile의 해석 세부는 하위 카드의 `3-1. Policy Guard`가 직접 담당한다.
+
 ## Conductor Note
 
 이 트랙은 폐기하지 않고 reference axis로 유지한다.

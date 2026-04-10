@@ -77,6 +77,13 @@
 2. freeze 밖 hold queue와 Ether hold cluster를 closure 상태로 유지한다.
 3. `Section 8 -> 15 carryover watch`가 summary / bridge / queue 문서에서 같은 문장으로 읽히게 유지한다.
 
+## Profile Alignment Snapshot
+
+- operational profile layer는 별도 축으로 분리되어 있고,
+  `Section_15_Profile_*` 32개 전부 `3-1. Policy Guard` 형식으로 유지한다.
+- 따라서 named notable compass는 profile layer를 대신하지 않고,
+  named card와 profile card가 같은 carryover rule 아래 있는지만 감시한다.
+
 Reference ROI:
 
 - `크림슨` 안정 3명은 frozen reference set으로 유지한다.

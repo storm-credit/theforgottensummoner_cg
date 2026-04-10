@@ -30,6 +30,12 @@
 - route value:
   - `본부 / 접수실 / 계약 게시벽 / 무기 반납실`
 
+## 3-1. Policy Guard
+
+- 이 계열은 자유도시 `urban_market` 내부의 `contract order / guild discipline` 운영층을 보강한다.
+- 지부 운영과 계약 게시 질서는 도시 용병 사회의 자치 장치이지,
+  정규 국가군 지휘 체계나 전통 귀족 전사층 복원 근거가 아니다.
+
 ## 4. Relation Hooks
 
 - `다리안 벨가르드`

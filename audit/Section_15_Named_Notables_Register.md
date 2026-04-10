@@ -77,6 +77,13 @@
 - `실비아`는 계속 `deferred_expansion_hold`로만 유지하고,
   5대륙 본선 증거 카드로 끌어오지 않는다.
 
+## Card Format Snapshot
+
+- `Section_15_Named_Notable_*` 카드는 `Policy Guard` 또는 `Separation Guard`를 유지한다.
+- `Section_15_Profile_*` operational card는 별도 템플릿에 따라 `3-1. Policy Guard`를 유지한다.
+- 즉 named notable 카드와 operational profile 카드는 같은 guard 원칙 아래 움직이되,
+  형식층은 분리해서 유지한다.
+
 ## Conductor Note
 
 - `Named Notables`는 `약한 영웅`이 아니라
