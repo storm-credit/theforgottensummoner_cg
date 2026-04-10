@@ -40,9 +40,15 @@
 - 이 counterfeit workshop subline은 자유도시 `urban_market / shadow_port` 내부 세분화로만 읽는다.
 - 인장 위조와 외장 조작은 그림자 거래를 성립시키는 기술 구획이지,
   해양 `토착 공동체층` 본체나 전통 국가 문서기관 복원 근거가 아니다.
+- 이 subline draft는 family-level carryover만 요약하고,
+  exact guard wording authority는 downstream subline/profile 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
 
 ## Conductor Note
 
 위조 공방은
 `문서 위조`와 `물건 위조`를 분리해야
 신분 서사와 아이템 서사가 동시에 선다.
+
+다만 named notable 승인 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.

@@ -40,6 +40,9 @@
 - 이 black auction subline은 자유도시 `urban_market / shadow_port` 내부 세분화로만 읽는다.
 - 장물 감정, 비밀 입찰, 고객 등급 분리는 그림자 경매 질서의 기능 구획이지,
   해양 `토착 공동체층` 본체 근거가 아니다.
+- 이 subline draft는 family-level carryover만 요약하고,
+  exact guard wording authority는 downstream subline/profile 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
 
 ## Conductor Note
 
@@ -47,3 +50,6 @@
 `감정`과 `입장 관리`가 분리될수록 더 설득력 있어진다.
 
 그래야 물건과 사람이 둘 다 계층화된다.
+
+다만 named notable 승인 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.

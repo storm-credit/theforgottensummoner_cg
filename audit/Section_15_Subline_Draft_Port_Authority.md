@@ -40,6 +40,9 @@
 - 이 port authority subline은 자유도시 `urban_market`과 항만 `trade coordination`의 세분화로만 읽는다.
 - 입항 허가와 부두 검문은 항만 운영 질서의 기능 구획이지,
   해양 `토착 공동체층` 본체나 전통 국가 관료제 복원 근거가 아니다.
+- 이 subline draft는 family-level carryover만 요약하고,
+  exact guard wording authority는 downstream subline/profile 카드의 `3-1. Policy Guard`에 남긴다.
+- 따라서 이 문서는 downstream profile guard text를 다시 써서 대체하지 않는다.
 
 ## Conductor Note
 
@@ -47,3 +50,6 @@
 `허가`와 `검문`을 분리해서 보는 편이 훨씬 좋다.
 
 그래야 상층 협상과 현장 충돌이 같이 살아난다.
+
+다만 named notable 승인 논리와는 분리하고,
+operational profile-side carryover reference로만 유지한다.
