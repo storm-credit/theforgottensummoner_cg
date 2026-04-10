@@ -116,6 +116,10 @@ overread 차단 기준은
 `audit/Five_Continent_Missing_Layer_Overread_Firewall.md`에서
 함께 유지한다.
 
+결손층 5개 전체 묶음의 단일 entry는
+`audit/Five_Continent_Missing_Layer_Master_Lock.md`에서
+함께 유지한다.
+
 이 문서는 그 이력을 다시 순차 실행하는 문서가 아니라,
 그 결과가 본선 reference와 충돌하지 않게 유지하는 문서로 읽는다.
 

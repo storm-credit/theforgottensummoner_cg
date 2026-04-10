@@ -74,6 +74,7 @@
 - 다음 보강은 `정체성 추가 발명`보다 `결손층 보강`을 우선한다.
 - 우선 결손 5개는 `audit/Five_Continent_Missing_Layer_Policy_Lock.md`에서 정책 잠금 완료로 읽는다.
 - 실제 증거 intake 기준은 `audit/Five_Continent_Missing_Layer_Evidence_Register.md`를 따른다.
+- 전체 묶음의 단일 진입점은 `audit/Five_Continent_Missing_Layer_Master_Lock.md`로 읽는다.
 
 ## Missing Layer Policy Snapshot
 
@@ -96,5 +97,6 @@
 ## Missing Layer Evidence Rule
 
 - 결손층 5개는 이제 `빈칸`이 아니라 `정책 + 증거 intake 기준`이 둘 다 잠긴 상태로 읽는다.
+- 단일 master entry는 `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 따른다.
 - admissible evidence class와 reject class는 `audit/Five_Continent_Missing_Layer_Evidence_Register.md`를 우선 따른다.
 - 따라서 이후 보강은 `강한 층 승격`보다 `thin/support 범위 안의 반복 증거 확보`를 먼저 본다.

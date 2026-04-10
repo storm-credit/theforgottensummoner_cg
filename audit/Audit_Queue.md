@@ -38,6 +38,8 @@
    반복 증거 안정화 기준으로 유지하고, 승격이 아니라 overread 차단 쪽으로만 확장한다
 19. `Five_Continent_Missing_Layer_Overread_Firewall.md`를
    대륙별 reject class firewall로 유지하고, 새 evidence도 이 차단선 안에서만 받는다
+20. `Five_Continent_Missing_Layer_Master_Lock.md`를
+   결손층 5개 본선의 단일 entry reference로 유지한다
 
 ## Ordered Watch Snapshot
 
