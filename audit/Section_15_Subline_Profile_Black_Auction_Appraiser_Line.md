@@ -29,6 +29,9 @@
 - 이 라인은 자유도시 `urban_market / shadow_port`의 장물 감정 실무를 보강한다.
 - 진위 판정과 위험 물건 격리는 그림자 경매 질서의 기능 구획이지,
   해양 `토착 공동체층` 본체 근거나 공식 국가 감정기관 복원 근거가 아니다.
+- 이 `3-1. Policy Guard`는 이 카드의 exact guard wording authority다.
+- 상위 group/subline draft는 family-level carryover를 요약할 수는 있어도,
+  이 카드의 guard prose를 축약하거나 대체하지 않는다.
 
 ## 4. Relation Hooks
 

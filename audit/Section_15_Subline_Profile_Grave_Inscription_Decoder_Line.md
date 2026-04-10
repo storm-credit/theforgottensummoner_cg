@@ -28,6 +28,9 @@
 - 이 라인은 `침묵의 상회`의 `dark institution / occult communications` 해독 실무를 보강한다.
 - 비문 해독과 잔향 판독은 죽은 메시지 질서의 기능 구획이지,
   전통 국가 기록기관이나 귀족국가 상층 복원 근거가 아니다.
+- 이 `3-1. Policy Guard`는 이 카드의 exact guard wording authority다.
+- 상위 group/subline draft는 family-level carryover를 요약할 수는 있어도,
+  이 카드의 guard prose를 축약하거나 대체하지 않는다.
 
 ## 4. Relation Hooks
 

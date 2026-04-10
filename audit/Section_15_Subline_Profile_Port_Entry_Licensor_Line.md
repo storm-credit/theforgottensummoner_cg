@@ -29,6 +29,9 @@
 - 이 라인은 자유도시 `urban_market`과 항만 `trade coordination`의 허가 실무를 보강한다.
 - 입항 우선권과 허가 절차는 상업-항만 운영 질서의 기능 구획이지,
   해양 `토착 공동체층` 본체나 전통 국가 관료제 복원 근거가 아니다.
+- 이 `3-1. Policy Guard`는 이 카드의 exact guard wording authority다.
+- 상위 group/subline draft는 family-level carryover를 요약할 수는 있어도,
+  이 카드의 guard prose를 축약하거나 대체하지 않는다.
 
 ## 4. Relation Hooks
 
