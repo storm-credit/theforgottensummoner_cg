@@ -19,6 +19,8 @@
 7. `Section_8_Mainline_Sync_Register.md` 기준으로 sync group drift 제거
 8. 카드층 `Policy Guard`가 `Section 15`의 status / index / folder / routing 문서까지 같은 문장으로 흡수됐는지 유지
 9. operational profile layer의 `3-1. Policy Guard` 형식이 `Profile_Draft_Index / Operational_Lines_Track / Intake_Structure / Folder_Revision_Gate`에서 같은 규칙으로 유지되는지 확인
+10. 상위 summary / bridge / queue 문서가 lower-card authority를 재정의하지 않고,
+   operational profile의 `3-1. Policy Guard`를 참조만 하는지 확인
 
 ## Ordered Watch Snapshot
 
@@ -32,6 +34,7 @@
 8. `14. 인물 백과` 루트 구조 감사는 reference backlog로만 유지
 9. 관계 타입 표준과 영웅 정본 스키마 확정은 후순위 유지
 10. 흩어진 아이템 수집 파이프라인 검토는 메인선 뒤로 둔다
+11. summary / bridge 계층이 operational guard 문장을 named notable 승인 논리로 역수입하지 않게 유지
 
 ## Conditional Backlog
 

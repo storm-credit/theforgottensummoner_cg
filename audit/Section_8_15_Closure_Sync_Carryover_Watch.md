@@ -35,6 +35,7 @@
 5. 메인 본선 reference는 새 후보 창출이 아니라 `5대륙 closure sync / Section 8 -> 15 carryover watch`다.
 6. 카드층 `Policy Guard`는 summary / bridge / index / folder / routing 문서까지 흡수된 상태로 유지한다.
 7. canonical state drift와 policy carryover drift는 서로 다른 층으로 점검한다.
+8. named notable card와 operational profile card의 lower-card authority는 분리 유지한다.
 
 ## Watch Table
 
@@ -44,6 +45,7 @@
 | `support / deferred hold` | `separated_from_triad` | `Section_15_Stable_Candidate_8_Anchor_Index.md` | triad package와 hold queue 혼용 | `support_hold`, `deferred_expansion_hold`만 사용 |
 | `Ether hold clusters` | `closed_round1_for_watch` | `Section_15_Ether_Hold_Cluster_Continuation.md`, `Section_15_Ether_Tower_Saint_Hold_Continuation.md`, `Section_15_Ether_Spirit_Union_Hold_Continuation.md` | 이미 닫힌 hold를 계속 next batch처럼 적는 것 | 새 증거 전까지 closure 상태 유지 |
 | `Section 8 carryover` | `bridge_locked` | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md` | 구조 라벨과 후보 상태 혼용 | structure label과 place pressure 분리 |
+| `lower-card authority` | `separated_and_respected` | `Section_15_Named_Notables_Register.md`, `Section_15_Profile_Draft_Index.md` | 상위 summary가 하위 `3-1. Policy Guard`를 재정의하는 것 | named notable summary와 operational profile guard를 병합하지 않는다 |
 | `P2 place-pressure` | `handoff_applied` | `Section_8_Place_Network_Handoff_Map.md` | candidate index나 summary에 place owner를 재정의하는 것 | owner는 sidecar/register만 가진다 |
 | `root / deferred axis` | `guarded` | `Section_8_Normalization_Status_Compass.md` | 범대륙 후기 확장을 메인 본선처럼 재상승 | deferred routing만 유지 |
 
@@ -59,6 +61,7 @@
 6. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Status Compass`가 서로 다른 본선 reference를 가리킬 때
 7. 카드층 `Policy Guard`와 `Section 15` index/folder/routing 문서의 carryover 문장이 다시 어긋날 때
 8. canonical state가 prose guard 문장으로 대체되거나, 반대로 prose guard가 state label처럼 오기입될 때
+9. operational profile guard 문장이 named notable 승인 논리로 역수입될 때
 
 ## Ordered Cycle
 
@@ -72,7 +75,8 @@
 6. `Section_15_Ether_Hold_Cluster_Continuation.md`, `Section_15_Ether_Tower_Saint_Hold_Continuation.md`, `Section_15_Ether_Spirit_Union_Hold_Continuation.md`에서 hold cluster가 closure 상태로 유지되는지 확인한다.
 7. `Section_8_Place_Network_Handoff_Map.md`와 sidecar/register owner를 대조해 `P2 place-pressure` owner drift가 없는지 확인한다.
 8. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에서 본선 reference가 같은 순서로 적혀 있는지 확인한다.
-9. 위 1~8이 모두 잠긴 뒤에만 다음 신규 closure batch나 subtree sampling 재개 여부를 판단한다.
+9. `Section_15_Named_Notables_Register.md`와 `Section_15_Profile_Draft_Index.md`를 대조해 lower-card authority가 summary에 재정의되지 않는지 확인한다.
+10. 위 1~9가 모두 잠긴 뒤에만 다음 신규 closure batch나 subtree sampling 재개 여부를 판단한다.
 
 ## Conductor Checklist
 
@@ -90,6 +94,7 @@
 10. `Section_8_Place_Network_Handoff_Map.md`
 11. `Section_15_Profile_Draft_Index.md`
 12. `Section_15_Operational_Lines_Track.md`
+13. `Section_15_Named_Notables_Register.md`
 
 ## Conductor Decision
 

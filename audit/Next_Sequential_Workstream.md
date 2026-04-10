@@ -24,6 +24,7 @@ reference 순서표로 보여주는 진행표다.
 4. stable triad package는 닫힌 상태로 유지하고, `support_hold`, `deferred_expansion_hold`, Ether hold cluster는 triad package 밖에서만 유지한다.
 5. `P2 place-pressure handoff` owner는 candidate index가 아니라 sidecar/register에서만 유지한다.
 6. 카드층 `Policy Guard`는 `Section 15` summary/index/folder/routing 문서에 이미 흡수된 상태로 유지한다.
+7. named notable 카드와 operational profile 카드의 lower-card authority는 분리 유지한다.
 
 ## Ordered Watch Sequence
 
@@ -52,6 +53,7 @@ reference 순서표로 보여주는 진행표다.
 21. `Section_8_Place_Network_Handoff_Map.md`
 22. `Audit_Queue.md`
 23. `Continuous_Workstream.md`
+24. `Section_15_Named_Notables_Register.md`
 
 ## What Stays Closed
 
