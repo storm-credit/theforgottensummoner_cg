@@ -48,6 +48,8 @@
     subline 확장까지 내려간 경우에는 각 `Section_15_Subline_Profile_*` 카드의
     `3-1. Policy Guard`를 exact wording source로 읽으며,
     named notable 승인 논리로 역수입하지 않는다.
+12. `결손층 5개`의 thin/support 판정은 이 watch 문서가 새로 확정하지 않고,
+    `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 
 ## Watch Table
 

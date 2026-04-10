@@ -68,6 +68,8 @@
 
 ## Register Guard Snapshot
 
+- `결손층 5개`의 thin/support 판정은 이 register가 새로 결정하지 않고,
+  `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 - `울프가르`, `에리온`, `오그마`, `드락사르`, `카사르`, `벨라나`, `아리안`은
   모두 크림슨 `tribe_clan core`와 학술/전승/공방/현자 thin-support 범위에서만 읽는다.
 - 자유도시 shadow-market profile cluster는

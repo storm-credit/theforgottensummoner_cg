@@ -63,6 +63,8 @@
 14. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
     닫힌 subline 교차감사 샘플로 유지하고,
     package freeze는 그 closure 상태를 package watch 층에서만 참조한다.
+15. `결손층 5개`의 thin/support 판정은 package freeze가 새로 확정하지 않고,
+    `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 
 ## Allowed Adjustments
 

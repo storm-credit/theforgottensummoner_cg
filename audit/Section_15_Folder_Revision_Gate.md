@@ -45,6 +45,8 @@ actual draft package freeze 단계의
 
 ## Profile Format Gate
 
+- `결손층 5개`의 thin/support 판정은 revision gate가 새로 확정하지 않고,
+  `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 - operational profile card는 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지해야 한다.
 - 폴더/route/revision gate 문서는 이 하위 profile 형식을 덮어쓰지 않고,
   같은 carryover rule이 유지되는지만 검사한다.

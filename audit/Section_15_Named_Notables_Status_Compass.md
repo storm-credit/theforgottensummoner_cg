@@ -40,6 +40,8 @@
 
 ## Policy Guard Snapshot
 
+- `결손층 5개`의 thin/support 판정은 이 문서가 새로 정의하지 않고,
+  `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 - `크림슨` 대표 named notable 카드들은 이제 `tribe_clan core`와 `sage/artisan thin-support` 범위에서만 읽고,
   전통 귀족국가형 `state_house strong` 근거로 올리지 않는다.
 - `해양` 자유도시 오염 네트워크 카드들은 `urban_market / shadow_port / debt-enforcement` 축으로만 읽고,
