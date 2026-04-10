@@ -32,6 +32,8 @@
    새 설정 발명이나 강한 층 승격으로 바로 넘기지 않는다
 16. 설정집 본선으로 돌아갈 때도 `결손층 보강`은
    `admissible evidence class / reject class / safe record` 순서로만 다룬다
+17. `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`를
+   1차 샘플 기준으로 유지하고, 같은 방향의 반복 증거만 추가한다
 
 ## Ordered Watch Snapshot
 
