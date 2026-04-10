@@ -3,8 +3,8 @@
 이 문서는 `15 Named Notables` 후보가
 5대륙과 범대륙 확장축에 얼마나 분포했는지 보는 커버리지 표다.
 
-얇은 층 정책 잠금은
-`Five_Continent_Missing_Layer_Policy_Lock.md`를 우선 기준으로 읽는다.
+얇은 층 정책 잠금과 evidence/firewall 묶음의 단일 entry는
+`Five_Continent_Missing_Layer_Master_Lock.md`를 우선 기준으로 읽는다.
 
 ## Coverage Table
 
@@ -27,6 +27,8 @@
 - `해양` 자유도시 profile cluster는 도시-항만 그림자경제를 보강하는 lower-card carryover reference로 잠겼고, named notable 승격 근거나 `토착 공동체층` 근거와 섞지 않는다.
 - `오벨리스크`는 금서/봉인/영혼/기록 명사 후보가 매우 많지만, 인물/아이템/전설 영웅/조직 핵심 충돌이 커서 `verify_before_15` 중심으로 둔다. 2차 narrowing까지 반영하면 `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 role slot 유지, `기억 지기`는 `렌/라일` existing holder, `심연 계약 중개자`는 `루가르` strong-link verify 상태다. 가문/왕국 신호는 `nontraditional elite thin-support` 우선으로 읽는다.
 - `오벨리스크` 제도 profile cluster는 `nontraditional elite thin-support` 또는 `dark institution` lower-card carryover reference로 잠겼고, named notable 승격 근거나 전통 귀족국가형 상층 근거로는 읽지 않는다.
+- `결손층 5개`의 thin/support 판정은 이 coverage matrix가 새로 확정하지 않고,
+  `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 - `범대륙`은 후기 확장축이라 메인 정리보다 뒤로 둔다.
 - named notable coverage 표는 상위 분포 요약층이다.
   개별 operational profile 카드의 `3-1. Policy Guard`를 덮어쓰지 않고 참조만 한다.

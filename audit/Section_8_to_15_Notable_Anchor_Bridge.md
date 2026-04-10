@@ -9,8 +9,8 @@
 - 후보마다 `대륙 -> 세력 / 도시 / 조직` 앵커를 먼저 잡는다.
 - 14번 영웅인지, 15번 명사형 인물인지, 아직 이름 없는 슬롯인지 분리한다.
 
-결손층 5개 정책 잠금은
-`Five_Continent_Missing_Layer_Policy_Lock.md`를 우선 따른다.
+결손층 5개 정책 잠금과 evidence/firewall 묶음의 단일 entry는
+`Five_Continent_Missing_Layer_Master_Lock.md`를 우선 따른다.
 
 ## Input
 
@@ -92,6 +92,8 @@ sidecar/register handoff를 먼저 존중한다.
 10. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
     닫힌 subline 교차감사 샘플로 유지하고,
     bridge는 그 closure 상태를 named notable routing 근거와 분리해 읽는다.
+11. `결손층 5개`의 thin/support 판정은 이 bridge가 새로 확정하지 않고,
+    `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 
 ## Card Layer Separation
 

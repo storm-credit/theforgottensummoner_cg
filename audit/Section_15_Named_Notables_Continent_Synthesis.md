@@ -15,7 +15,8 @@
 - 직업, 명사 유형, 기능은 보조 색인으로만 둔다.
 - 빈 역할 슬롯에 새 이름을 즉시 발명하지 않는다.
 - `need_named_candidate` 슬롯은 후속 원본 문서 근거를 찾은 뒤 채운다.
-- 얇은 층 정책 잠금은 `Five_Continent_Missing_Layer_Policy_Lock.md`를 우선 따른다.
+- 얇은 층 정책 잠금과 evidence/firewall 묶음의 단일 entry는
+  `Five_Continent_Missing_Layer_Master_Lock.md`를 우선 따른다.
 - 이 synthesis는 대륙별 분포와 판정 요약을 다루는 상위 reference층이다.
 - exact guard wording authority는 개별 `Section_15_Named_Notable_*` 카드의 `Policy Guard / Separation Guard`와
   `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남기고, 여기서는 재정의하지 않는다.
@@ -103,6 +104,8 @@ Conductor decision:
 에테르는 세계관 중심성이 높으므로 우선 스카우트 대상이다.
 마법협회와 성국의 비영웅 명사층은 장소-기관 슬롯으로 먼저 받친다.
 정령연합 바깥 부족층은 `frontier echo / border support` 범위를 넘겨 읽지 않는다.
+`결손층 5개`의 thin/support 판정은 이 synthesis가 새로 확정하지 않고,
+`audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 운영층 profile cluster에 걸린 guard family는 하위 `3-1. Policy Guard` authority를 따른다.
 
 ## Frost
