@@ -75,6 +75,8 @@
   lower-card authority는 각 profile 카드의 `3-1. Policy Guard`에 남긴다.
 - 이 index는 lower card가 valid `3-1. Policy Guard`를 달고 있는지 추적할 뿐,
   exact guard wording의 source가 되지는 않는다.
+- exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, 이 draft index는 그 wording source를 추적/참조만 한다.
 
 ## Subline Draft Snapshot
 
@@ -111,3 +113,5 @@
 - 새 시트를 만들면 먼저 이 색인에 올린다.
 - 그다음 `Group Index`와 연결한다.
 - 그 과정에서도 canonical 상태어와 `3-1. Policy Guard` 문장을 함께 유지한다.
+- exact operational guard wording authority도 상위 draft index가 아니라
+  각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.

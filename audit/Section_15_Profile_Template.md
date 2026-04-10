@@ -85,7 +85,9 @@
 - 한 인물 시트가 길어지더라도
   `세계 기능`과 `공간 연결`은 반드시 남긴다.
 - canonical 상태어와 `Policy Guard` 문장은 서로 다른 층이므로 둘을 함께 유지한다.
-- 이 템플릿의 `3-1. Policy Guard`는 operational profile 카드의 exact guard wording authority다.
+- 이 템플릿은 operational profile 카드의 `3-1. Policy Guard` 형식을 잠그는 설계 기준서다.
+- exact operational guard wording authority는 템플릿 자체가 아니라,
+  실제 `Section_15_Profile_*` 카드에 작성되는 각 `3-1. Policy Guard`에 남는다.
 - 상위 track/index/display/intake 문서는 이 가드 family를 참조할 수는 있어도,
   여기 적힌 guard 문장을 대체하거나 축약 권한을 가지지 않는다.
 - 위 예시는 family-level guidance일 뿐이고,

@@ -114,7 +114,9 @@
 - `support_hold`, `deferred_expansion_hold`는 stable triad package와 섞지 않는다.
 - `Policy Guard` 문장은 canonical 상태어를 대체하지 않는다.
 - canonical 상태어와 policy carryover 문장을 같이 유지해야 한다.
-- 이 템플릿의 `Policy Guard`는 named notable 카드용 해석 가드다.
+- 이 템플릿은 named notable 카드의 `Policy Guard` 형식을 잠그는 설계 기준서다.
+- exact named-notable guard wording authority는 템플릿 자체가 아니라,
+  실제 `Section_15_Named_Notable_*` 카드에 작성되는 `Policy Guard / Separation Guard`에 남는다.
 - operational profile 카드의 `3-1. Policy Guard`와 guard family가 비슷해 보여도,
   exact wording authority는 각 카드층에 따로 남기고 서로 대체하지 않는다.
 - 상위 문서가 named-notable guard family를 참조할 수는 있어도,
