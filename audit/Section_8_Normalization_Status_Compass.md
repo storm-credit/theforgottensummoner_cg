@@ -111,3 +111,8 @@
 5. 그 전까지는 `P2` 후보를 새로 늘리지 않고 현재 handoff가 sidecar/register에서 drift 없이 유지되는지 본다.
 6. `Section 8 -> 15`는 새 후보를 늘리기보다 `closure sync / carryover watch`가 summary, bridge, queue에서 같은 현재 시점을 가리키는지 먼저 본다.
 7. `1~5 대륙 결손층 5개`는 `Five_Continent_Missing_Layer_Policy_Lock.md` 기준 thin/support 범위를 넘겨 읽지 않는다.
+8. `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`는 exact wording source로 유지하고,
+   상위 summary / bridge / watch 문서가 이를 재정의하지 않는지 함께 본다.
+9. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+   닫힌 subline 교차감사 샘플로 유지하고,
+   새 drift가 생길 때만 국소 재대조한다.

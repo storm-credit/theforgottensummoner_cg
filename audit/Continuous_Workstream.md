@@ -34,6 +34,9 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 12. representative `Subline Draft / Subline Profile` pair
     (`Black Auction / Port Authority / Gravewell / Counterfeit Workshop`)는
     wording-source 교차감사가 닫힌 상태로 유지되며, 새 drift가 생길 때만 국소 재개한다.
+13. `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`는
+    exact wording source로 유지되고,
+    상위 summary / bridge / watch 문서는 그 wording source를 참조만 한다.
 
 ## Ordered Cycle
 
@@ -50,6 +53,9 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 9. named notable 승인 논리와 operational profile guard 문장이 서로 역수입되지 않는지 확인한다.
 10. representative subline draft/profile pair는 닫힌 교차감사 결과를 유지하고,
     새 wording-source drift가 생길 때만 해당 pair를 국소 교차감사한다.
+11. `subline_profile_authority` sync group이
+    `Section_15_State_Vocabulary_Guard.md`, `Section_8_Mainline_Sync_Register.md`,
+    summary / bridge / watch 문서에 같은 문장으로 유지되는지 확인한다.
 
 ## Input Reference Set
 

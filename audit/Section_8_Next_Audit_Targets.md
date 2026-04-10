@@ -129,5 +129,11 @@
 - `Section_8_Mainline_Sync_Register.md`는
   구조 라벨, mismatch, root, handoff, 진행표가
   어느 문서끼리 동기화되어야 하는지 확인하는 장부로 사용한다.
+- `Section_15_State_Vocabulary_Guard.md`와 `Section_8_Mainline_Sync_Register.md`가 잠근
+  `subline_profile_authority` sync group은
+  `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`를 exact wording source로 유지하게 한다.
+- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+  이미 닫힌 subline 교차감사 샘플로 보고,
+  새 drift가 생길 때만 해당 pair를 국소 재대조한다.
 - 실제 이동이나 원본 수정 없이 `cg` 안에서만 감사표를 작성한다.
 - 다만 현재 시점의 메인 유지선은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 closure sync / carryover watch다.

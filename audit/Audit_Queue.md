@@ -25,6 +25,8 @@
 12. 대표 `subline draft / Section_15_Subline_Profile_*` 교차감사는
    `Black Auction / Port Authority / Gravewell / Counterfeit Workshop` 짝 기준으로 닫힌 상태로 유지한다
 13. 새 drift가 생길 때만 해당 subline pair를 국소 재대조한다
+14. `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`가
+   exact wording source로 유지되고, 상위 summary / bridge / watch 문서가 이를 재정의하지 않는지 확인
 
 ## Ordered Watch Snapshot
 
@@ -43,6 +45,8 @@
    새 drift가 생길 때만 국소 수정한다
 13. subline draft/profile 교차감사도 이미 닫힌 reference 상태로 유지하고,
    새 drift가 생길 때만 국소 수정한다
+14. `subline_profile_authority` sync group이
+   status vocabulary / mainline sync / summary / bridge / watch 문서에 같은 문장으로 유지되는지 확인
 
 ## Conditional Backlog
 
