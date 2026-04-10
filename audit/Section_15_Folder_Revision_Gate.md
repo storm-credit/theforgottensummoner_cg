@@ -52,6 +52,12 @@ actual draft package freeze 단계의
   lower-card authority는 operational profile의 `3-1. Policy Guard`에 남겨 둔다.
 - exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, revision gate는 그 wording source를 대체하지 않는다.
+- subline 확장까지 내려간 경우에도
+  exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남고, revision gate는 그 wording source를 대체하지 않는다.
+- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+  닫힌 교차감사 샘플로 유지하며,
+  revision gate는 새 drift가 생길 때만 해당 pair를 다시 점검한다.
 
 ## Gate Decision
 
