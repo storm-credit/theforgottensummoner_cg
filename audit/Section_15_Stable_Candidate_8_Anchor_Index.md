@@ -32,6 +32,8 @@
 
 ## Guard Rules
 
+- `결손층 5개`의 thin/support 판정은 이 색인이 새로 확정하지 않고,
+  `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 1. stable triad는 `Section 8` 앵커가 먼저고, grade/act caution은 그다음이다.
 2. `mixed_keep`는 미완 판정이 아니라 살아 있는 구조 예외다.
 3. `support_hold`와 `deferred_expansion_hold`는 stable triad package에 섞지 않는다.

@@ -17,7 +17,7 @@
 - `audit/Section_8_Place_Network_Handoff_Map.md`
 - `audit/Section_8_15_Spine_Compatibility_Audit.md`
 - `audit/Section_8_15_Closure_Sync_Carryover_Watch.md`
-- `audit/Five_Continent_Missing_Layer_Policy_Lock.md`
+- `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 - `audit/Section_15_State_Vocabulary_Guard.md`
 - `audit/Section_15_Stable_Candidate_8_Anchor_Index.md`
 - `audit/Next_Sequential_Workstream.md`
@@ -37,7 +37,7 @@
 | `profile_format_carryover` | `Section_15_Profile_Template.md`, `Section_15_Profile_Draft_Index.md` | `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`, `Section_15_Folder_Revision_Gate.md` | operational profile layer가 `3-1. Policy Guard` 형식을 유지한 채 carryover rule을 공유하는지 |
 | `lower_card_authority` | `Section_15_Profile_Template.md`, `Section_15_Named_Notables_Register.md` | `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Audit_Queue.md`, `Continuous_Workstream.md` | 상위 summary/bridge/watch 문서가 named notable 카드와 operational profile 카드의 권한선을 섞지 않는지 |
 | `subline_profile_authority` | `Section_15_Profile_Draft_Index.md`, `Section_15_Subline_Register.md` | `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `Section_15_Subline_Profile_*`의 `3-1. Policy Guard`가 exact wording source로 유지되고, representative subline pair closure가 상위 문서에서 승인 논리로 역수입되지 않는지 |
-| `missing_layer_policy` | `Five_Continent_Missing_Layer_Policy_Lock.md` | `Continents_Framework.md`, `Continental_Adequacy_Map.md`, `Five_Continent_Synthesis.md`, related core faction layers | 에테르 변방 부족층, 크림슨 국가형 가문층, 프로스트 정주 귀족층, 해양 토착 공동체층, 오벨리스크 비정통 엘리트를 어디까지 thin/support로 허용하는지 |
+| `missing_layer_policy` | `Five_Continent_Missing_Layer_Master_Lock.md` | `Five_Continent_Missing_Layer_Policy_Lock.md`, `Five_Continent_Missing_Layer_Evidence_Register.md`, `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`, `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md`, `Five_Continent_Missing_Layer_Overread_Firewall.md`, `Continents_Framework.md`, `Continental_Adequacy_Map.md`, `Five_Continent_Synthesis.md`, related core faction layers | 에테르 변방 부족층, 크림슨 국가형 가문층, 프로스트 정주 귀족층, 해양 토착 공동체층, 오벨리스크 비정통 엘리트를 어디까지 thin/support로 허용하고 어떤 evidence/firewall 순서로 읽는지 |
 | `execution_priority` | `Next_Sequential_Workstream.md` | `Audit_Queue.md`, `Section_8_Next_Audit_Targets.md` | 지금 메인 본선이 실제로 어디에 있는지 |
 
 ## Drift Triggers
@@ -69,7 +69,7 @@
 8. `Section_15_State_Vocabulary_Guard.md`
 9. `Section_15_Stable_Candidate_8_Anchor_Index.md`
 10. `Section_8_15_Closure_Sync_Carryover_Watch.md`
-11. `Five_Continent_Missing_Layer_Policy_Lock.md`
+11. `Five_Continent_Missing_Layer_Master_Lock.md`
 12. `Section_15_Profile_Draft_Index.md`
 13. `Section_15_Operational_Lines_Track.md`
 14. `Section_15_Named_Notables_Register.md`

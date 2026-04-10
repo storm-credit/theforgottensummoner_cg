@@ -22,12 +22,14 @@
 
 단, 아래 원칙을 지켜야 한다.
 
+- 결손층 5개의 thin/support 판정은 이 compatibility audit이 새로 확정하지 않고,
+  `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 - 크림슨은 직업보다 부족/씨족/용의 후예 앵커가 먼저다.
 - 에테르는 정령연합을 제외하면 state_house/guild_market 앵커가 먼저다.
 - 프로스트는 이름보다 생존/전승/성소/요새 슬롯이 먼저다.
 - 해양은 도시/항만/함대/교단/상단 앵커가 먼저다.
 - 오벨리스크는 인물보다 기록/기억/봉인/망각 장소-기관 앵커가 먼저다.
-- 결손층 5개는 policy lock이 허용한 thin/support 범위를 넘겨 읽지 않는다.
+- 결손층 5개는 master lock이 허용한 thin/support 범위를 넘겨 읽지 않는다.
 - named notable 카드와 operational profile 카드는 같은 carryover 원칙 아래 움직이되,
   하위 profile의 `3-1. Policy Guard`를 상위 summary가 덮어쓰지 않는다.
 
