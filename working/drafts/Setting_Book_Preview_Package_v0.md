@@ -93,6 +93,7 @@ Preview v0 may claim:
 - the body and appendix are separated
 - the current prototype has a stable A-E appendix flow
 - major uncertainty areas are controlled rather than hidden
+- Appendix B/C now have sample-level evidence pointer checks for item and place promotion
 - `main push gate` has been added as a standing preservation rule
 
 Preview v0 should not claim:
@@ -126,5 +127,5 @@ Treat `preview_v0_readable` as the current shareable preview package.
 
 The package already has enough verification structure.
 The next gain is not another broad content pass.
-It comes from either adding targeted evidence notes for v1
+It comes from either adding only the still-needed row-level evidence notes for v1
 or deciding whether the package should be copied into a separate release-candidate file after v1 gates are tighter.

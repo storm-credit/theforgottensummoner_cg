@@ -80,7 +80,7 @@ hold로 봐야 하는 히트:
 | public assembly tone | pass for preview v0 | public assembly와 readable preview가 같은 톤 패밀리로 정렬되어 있다. |
 | core profile bridge | pass for preview v0 | 세력, 인물, 장소, 유물, 종족 중간 정리본이 본문과 기술 초안 사이를 받친다. |
 | appendix A-E structure | pass for preview v0 | A-E 표는 최종 확정표가 아니라 통제표로 고정되어 있다. |
-| source / evidence depth | strong partial pass for v1 | Appendix A-E now have source pointer lanes, and A/B/C/D/E each carry at least one targeted row-level evidence note for the highest-risk rows. |
+| source / evidence depth | strong partial pass for v1 | Appendix A-E now have source pointer lanes, A/B/C/D/E each carry targeted row-level evidence notes for high-risk rows, and B/C sample files carry their own evidence pointer checks. |
 | Opening / Part I source note | pass for preview v0 | 별도 Appendix F를 만들지 않고 Chapter 0/1과 source map으로 받치는 source note를 추가했다. |
 | front matter subtitle / cover tone | pass for preview v0 | `A Living World Companion`과 현재 cover-tone sentence를 v0 선택안으로 고정했다. |
 | final naming / layout | hold for v1 | 아직 release-candidate 파일명이나 상업용 판형까지 확정하지 않는다. |
@@ -117,7 +117,7 @@ reader-facing preview 후보를 넘어,
 
 1. release-candidate file trigger 네 조건이 실제로 충족됐는지 다시 판정한다.
 2. 상업용 layout 또는 협업용 production bible 방향을 분리할지 결정한다.
-3. 필요한 경우 Appendix B/C의 나머지 행에만 추가 evidence note를 덧붙인다.
+3. 필요한 경우 Appendix B/C의 나머지 행에만 추가 evidence note를 덧붙인다. 지금은 샘플 단위 evidence pointer check까지는 내려가 있다.
 
 ## Conductor Decision
 

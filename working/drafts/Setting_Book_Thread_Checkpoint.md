@@ -50,6 +50,7 @@
 - hub completion checklist의 기준 수와 preview 표현을 현재 구조에 맞게 정합화
 - release readiness에 스캔 해석 규칙을 추가해 정상 관리 문구와 실제 hold 표식을 분리
 - Appendix B/C 개별 샘플에도 evidence pointer check를 추가해 item/place 승격 기준을 하위 문서에 반영
+- preview package와 release readiness의 evidence-depth 표현을 B/C sample check 완료 상태에 맞게 정렬
 
 ## Core Files
 
