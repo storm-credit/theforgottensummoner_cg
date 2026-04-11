@@ -66,7 +66,7 @@
 1. `State Label`, `Package State`, `routing_state`, `Gate Result` 칸에는 underscored 상태어만 쓴다.
 2. prose에서는 자연어를 써도 되지만, state를 직접 다시 적을 때는 canonical 상태어를 그대로 쓴다.
 3. `support_hold`와 `deferred_expansion_hold`는 stable triad package와 섞지 않는다.
-4. `named_notable_candidate`는 후보 자격이고, `stable_15_workset`은 actual draft package 단계다.
+4. `named_notable_candidate`는 후보 자격이고, `stable_15_workset`은 stable package reference 단계다.
 5. `hold_for_dual_review`는 14/15 가치가 둘 다 큰 경우에만 쓴다.
 6. legacy 상태어는 이 문서의 `Legacy Mapping` 표나 명시적 history note에만 남길 수 있다. 현재 state table, heading, checklist, routing line에는 다시 올리지 않는다.
 
@@ -89,7 +89,7 @@
 3. summary / bridge / index / folder / routing 문서는
    `canonical state`와 `policy carryover sentence`를 함께 유지해야 한다.
 4. `state_house strong`, `토착 공동체층`, `전통 국가기관` 같은 표현은
-   승격 선언이 아니라 금지/경계 문맥에서만 다시 등장할 수 있다.
+   고정 선언이 아니라 금지/경계 문맥에서만 다시 등장할 수 있다.
 5. operational profile card는
    `Section_15_Profile_Template.md`의 `3-1. Policy Guard` heading 형식을 유지하고,
    named notable card의 `Policy Guard / Separation Guard`와 형식층을 섞지 않는다.
@@ -123,7 +123,7 @@
 | `deferred_zone` | `deferred_expansion_hold` | 범대륙 후기 확장 보류 상태는 이 라벨로 통일 |
 | `strong_15` | `named_notable_candidate` | 강후보 서술을 상태 라벨로 쓰지 않는다 |
 | `borderline_14_15` | `hold_for_dual_review` 또는 `verify_before_15` | 근거에 따라 둘 중 하나로 내린다 |
-| `route_test_ok` | `stable_15_workset / route_hierarchy_locked` | stable triad actual draft 문맥에서만 대체 |
+| `route_test_ok` | `stable_15_workset / route_hierarchy_locked` | stable triad package reference 문맥에서만 대체 |
 
 ## Conductor Decision
 
