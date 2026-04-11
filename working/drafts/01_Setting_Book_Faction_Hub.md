@@ -3,6 +3,7 @@
 ## 빠른 링크
 
 - [[00_Setting_Book_Hub]]
+- [[Setting_Book_Document_Roles_Map]]
 - [[Setting_Book_Preview_Readable_v0]]
 - [[Setting_Book_Faction_Core_Profiles_v0]]
 - [[02_Setting_Book_People_Hub]]
@@ -16,6 +17,7 @@
 이 허브는 설정집을 세력 기준으로 보기 위한 출발점이다.
 대륙별 본문, 세력 구조 초안, 부록을 오가며
 지금 어떤 세력이 어떻게 정리돼 있는지 빠르게 찾도록 돕는다.
+문서 역할부터 다시 정리해야 하면 `Setting_Book_Document_Roles_Map.md`로 먼저 돌아가면 된다.
 
 ## 이 문서부터 / 그다음 문서
 
@@ -29,6 +31,7 @@
 그다음 문서:
 
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- `Setting_Book_Document_Roles_Map.md`
 - `02_Setting_Book_People_Hub.md`
 - `03_Setting_Book_Items_Hub.md`
 - `04_Setting_Book_Places_Hub.md`
@@ -157,6 +160,7 @@
 - 세력별로 보려면 이 문서부터
 - 세계를 읽는 느낌은 `Setting_Book_Preview_Readable_v0.md`
 - 대표 세력 중간 정리본은 `Setting_Book_Faction_Core_Profiles_v0.md`
+- 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`
 - 세력 구조 판단은 `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
 - 대륙 맥락은 `Setting_Book_Chapter_1_Five_Continents_Draft.md`
 - 각 대륙 밑의 `바로 갈 문서`가 실제 다음 클릭 자리다

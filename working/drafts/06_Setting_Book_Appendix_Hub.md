@@ -3,6 +3,7 @@
 ## 빠른 링크
 
 - [[00_Setting_Book_Hub]]
+- [[Setting_Book_Document_Roles_Map]]
 - [[01_Setting_Book_Faction_Hub]]
 - [[02_Setting_Book_People_Hub]]
 - [[03_Setting_Book_Items_Hub]]
@@ -19,6 +20,7 @@
 "이 이름은 왜 함부로 합치면 안 되지?"
 "이 유물은 왜 아직 후보 상태지?"
 같은 질문이 생길 때 여기로 들어오면 된다.
+문서 역할부터 다시 구분해야 하면 `Setting_Book_Document_Roles_Map.md`를 먼저 본다.
 
 ## 이 문서부터 / 그다음 문서
 
@@ -30,6 +32,7 @@
 그다음 문서:
 
 - `Setting_Book_Preview_Readable_v0.md`
+- `Setting_Book_Document_Roles_Map.md`
 
 세부 sample 문서는 아래 Appendix A-E 섹션에서 바로 고르면 된다.
 
@@ -152,3 +155,4 @@
 - 장소 기능: `Appendix C`
 - 이름 충돌: `Appendix D`
 - 종족 분류: `Appendix E`
+- 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`

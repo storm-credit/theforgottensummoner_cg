@@ -3,6 +3,7 @@
 ## 빠른 링크
 
 - [[00_Setting_Book_Hub]]
+- [[Setting_Book_Document_Roles_Map]]
 - [[01_Setting_Book_Faction_Hub]]
 - [[02_Setting_Book_People_Hub]]
 - [[03_Setting_Book_Items_Hub]]
@@ -16,6 +17,7 @@
 이 허브는 설정집의 종족 축을 찾기 위한 출발점이다.
 사람들, 혈통, 상태, 괴물, 미확정 신호를 섞지 않도록
 관련 문서를 찾는 출발점 역할을 한다.
+문서 역할부터 다시 구분해야 하면 `Setting_Book_Document_Roles_Map.md`를 먼저 본다.
 
 ## 이 문서부터 / 그다음 문서
 
@@ -28,6 +30,7 @@
 그다음 문서:
 
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- `Setting_Book_Document_Roles_Map.md`
 - `Race_Species_Evidence_Log.md`
 
 ## 종족 축 핵심 구분
@@ -54,6 +57,7 @@
 
 ## 같이 보면 좋은 허브
 
+- `Setting_Book_Document_Roles_Map.md`
 - `01_Setting_Book_Faction_Hub.md`
 - `02_Setting_Book_People_Hub.md`
 - `03_Setting_Book_Items_Hub.md`
@@ -70,4 +74,5 @@
 - 종족/혈통으로 볼 때는 이 문서부터
 - 읽는 설명은 `Part V`
 - 대표 종족 중간 정리본은 `Setting_Book_Species_Core_Profiles_v0.md`
+- 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`
 - 검증은 `Appendix E`

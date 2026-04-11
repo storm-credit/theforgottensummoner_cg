@@ -44,7 +44,7 @@ release 후보로 묶기 전에 아래를 통과해야 한다.
 1. `public body`가 front matter와 같은 약속을 말한다.
 2. `readable preview`가 front matter와 public body의 중복 설명 없이 한 권처럼 읽힌다.
 3. `appendix assembly`가 A-E 흐름을 유지한다.
-4. `prototype v0`가 현재 대표본으로 최신 상태다.
+4. `Setting_Book_Preview_Readable_v0.md`는 현재 shareable preview로, `prototype v0`는 compressed reference로 각각 최신 상태다.
 5. 독자용 본문에 raw status label, 파일 경로 설명, audit jargon이 튀어나오지 않는다.
 6. 부록 표는 새 lore를 발명하지 않고, 검증과 승격 기준만 보존한다.
 7. 이름 충돌, 종족 승격, 아이템 승격은 각각 Appendix D, E, B를 통과한다.

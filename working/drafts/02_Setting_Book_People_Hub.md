@@ -3,6 +3,7 @@
 ## 빠른 링크
 
 - [[00_Setting_Book_Hub]]
+- [[Setting_Book_Document_Roles_Map]]
 - [[01_Setting_Book_Faction_Hub]]
 - [[Setting_Book_People_Core_Profiles_v0]]
 - [[03_Setting_Book_Items_Hub]]
@@ -16,6 +17,7 @@
 이 허브는 설정집의 인물 축을 찾기 위한 출발점이다.
 영웅 중심 서사와는 조금 다르게,
 세계 안에서 “왜 이 사람을 찾아가야 하는가”를 기준으로 인물 관련 문서를 찾도록 돕는다.
+문서 역할부터 다시 구분해야 하면 `Setting_Book_Document_Roles_Map.md`를 먼저 본다.
 
 ## 이 문서부터 / 그다음 문서
 
@@ -28,6 +30,7 @@
 그다음 문서:
 
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- `Setting_Book_Document_Roles_Map.md`
 
 ## 인물 축 핵심 구분
 
@@ -52,6 +55,7 @@
 
 ## 같이 보면 좋은 허브
 
+- `Setting_Book_Document_Roles_Map.md`
 - `01_Setting_Book_Faction_Hub.md`
 - `03_Setting_Book_Items_Hub.md`
 - `04_Setting_Book_Places_Hub.md`
@@ -68,4 +72,5 @@
 - 인물로 볼 때는 이 문서부터
 - 인물의 책 같은 설명은 `Setting_Book_Preview_Readable_v0.md`
 - 대표 인물 중간 정리본은 `Setting_Book_People_Core_Profiles_v0.md`
+- 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`
 - 검증은 `Appendix A`, `Appendix D`
