@@ -1,0 +1,92 @@
+# Setting Book Assembly Index
+
+## Purpose
+
+This index tracks the current setting-book recomposition package.
+
+It is not the final setting book. It is the conductor sheet for turning the chapter drafts into a cleaner, reader-facing setting book while preserving source discipline, canon tiers, and unresolved questions.
+
+## Current Package State
+
+| Chapter | Draft File | Current State | Assembly Role |
+| --- | --- | --- | --- |
+| 0. Canon Policy | `Setting_Book_Chapter_0_Canon_Policy_Draft.md` | first draft complete | Defines source priority, canon tier, archive routing, and story-first expansion control. |
+| 1. Five Continents | `Setting_Book_Chapter_1_Five_Continents_Draft.md` | first draft complete | Establishes continent identity, social spine, missing layers, and emotional tone. |
+| 2. Faction Archive Structure | `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md` | first draft complete | Separates root state, continent spine, structure label, place pressure, and 8-to-15 handoff. |
+| 3. Named Notables and Operational Lines | `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md` | first draft complete | Separates 14 hero axis from 15 named figures and organization operating layers. |
+| 4. Naming Normalization | `Setting_Book_Chapter_4_Naming_Normalization_Draft.md` | first draft complete | Defines display names, tone policy, faction replacements, and protected name collisions. |
+| 5. Items and Relics | `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md` | first draft complete | Turns item candidates into desire-first relic, gear, trade good, and collection structures. |
+| 6. Species Framework | `Setting_Book_Chapter_6_Species_Framework_Draft.md` | first draft complete | Separates species, bloodline, state, monster, and unclear evidence. |
+| 7. Spatial Map | `Setting_Book_Chapter_7_Spatial_Map_Draft.md` | first draft complete | Builds map logic through place function, travel route, and layer progression. |
+| 8. Register Appendix | `Setting_Book_Chapter_8_Register_Appendix_Draft.md` | first draft complete | Defines how registers, manifests, queues, conflicts, secrets, and appendices support the body. |
+
+## Support Files
+
+| File | Use |
+| --- | --- |
+| `Setting_Book_Reassembly_Source_Map.md` | Locks primary and secondary sources per chapter. |
+| `Setting_Book_Skeleton.md` | Holds the original chapter build plan and required sections. |
+
+## Assembly Principle
+
+The final setting book should not expose the whole audit engine to the reader.
+
+Use this split:
+
+| Layer | What It Should Do |
+| --- | --- |
+| Reader-facing body | Explain the world clearly, with clean names and strong narrative function. |
+| Technical appendix | Preserve evidence, labels, unresolved questions, and promotion gates. |
+| Audit archive | Keep historical reasoning, old routes, and rejected or deferred materials. |
+
+## Body-to-Appendix Routing
+
+Move material into the body when it answers:
+
+- What is this part of the world?
+- Why does it matter to characters?
+- What conflict, desire, memory, or movement does it create?
+- What can be safely stated without overcommitting?
+
+Move material into the appendix when it answers:
+
+- What evidence supports this?
+- What status label applies?
+- What still needs verification?
+- What names or variants are protected?
+- What future work should not be forgotten?
+
+Keep material in audit-only history when it answers:
+
+- Why did an old batch make a temporary decision?
+- Which route was deprecated?
+- Which prior wording should not return to display canon?
+- Which exploration branch is useful but not reader-facing?
+
+## Current Cleanliness Checks
+
+Completed checks:
+
+- 0-8 chapter draft files exist.
+- Current setting-book files do not contain the older `stable_triad_frozen_reference_set` label.
+- Current setting-book files do not use the old `watch-reference` phrasing.
+- Current setting-book files do not use `watch_keep` in display tables.
+- `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
+
+## Next Assembly Queue
+
+Recommended next sequence:
+
+1. Create a single reader-facing table of contents from the 0-8 draft package.
+2. Run a chapter-by-chapter body-vs-appendix separation pass.
+3. Convert Chapter 1 continent prose into a cleaner public-facing style sample.
+4. Build one appendix sample table for 14/15 boundary candidates.
+5. Build one appendix sample table for item promotion candidates.
+6. Decide whether the next output should be a polished setting-book manuscript or a production-facing bible.
+
+## Conductor Decision
+
+The setting-book recomposition has moved from source-map setup into full first-draft package state.
+
+The next meaningful work is not more raw expansion. It is controlled assembly: make the body easier to read, keep the appendix useful, and prevent audit vocabulary from leaking into public-facing prose.
+
