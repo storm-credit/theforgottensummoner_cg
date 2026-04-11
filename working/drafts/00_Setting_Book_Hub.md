@@ -26,11 +26,11 @@
 - 세력부터 보기: `01_Setting_Book_Faction_Hub.md`
 - 검증부터 보기: `06_Setting_Book_Appendix_Hub.md`
 
-## 1. 지금 가장 읽기 쉬운 대표본
+## 1. 지금 가장 읽기 쉬운 공유용 preview
 
 - `Setting_Book_Preview_Readable_v0.md`
 
-이 파일이 현재 가장 “책처럼” 읽히는 버전이다.
+이 파일이 현재 가장 “책처럼” 읽히는 공유용 preview다.
 누군가에게 먼저 보여 준다면 이 파일부터 본다.
 
 ## 2. 작업 관리와 원재료로 바로 가기
@@ -56,11 +56,11 @@
 
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 
-이 파일은 대표본 뒤에 붙는 부록이다.
+이 파일은 공유용 preview 뒤에 붙는 검증용 부록이다.
 왜 아직 확정하지 않은 항목이 있는지,
 이름 충돌, 유물 승격, 종족 분류를 어떻게 조심하는지 정리한다.
 
-## 5. 전체를 한 파일로 압축한 대표 참고본
+## 5. 전체를 한 파일로 압축한 reference
 
 - `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
 
@@ -91,7 +91,7 @@
 - `Setting_Book_Chapter_8_Register_Appendix_Draft.md`
 
 이 파일들은 설정집 원재료다.
-대표본이 어떻게 만들어졌는지 거슬러 올라가고 싶을 때 본다.
+현재 공유용 preview와 압축 reference가 어떻게 만들어졌는지 거슬러 올라가고 싶을 때 본다.
 
 ## 한 줄 요약
 

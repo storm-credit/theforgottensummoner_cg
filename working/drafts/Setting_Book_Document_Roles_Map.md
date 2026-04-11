@@ -7,7 +7,7 @@
 
 가장 중요한 기준은 아래 네 가지다.
 
-1. 지금 바로 읽히는 대표본인가
+1. 지금 바로 읽히는 공유용 preview인가
 2. 전체 구조를 압축 확인하는 reference인가
 3. 검증과 보류 판단을 위한 appendix인가
 4. 오케스트라가 진행을 관리하는 conductor 문서인가
@@ -37,7 +37,7 @@
 
 - `Setting_Book_Preview_Readable_v0.md`
 
-이 파일이 현재 가장 먼저 읽히는 대표본이다.
+이 파일이 현재 가장 먼저 읽히는 공유용 preview다.
 지금 단계에서 “설정집이 어떤 책처럼 읽히는가”를 가장 잘 보여 준다.
 
 ### 2. Compressed Reference
