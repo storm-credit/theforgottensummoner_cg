@@ -39,7 +39,7 @@
 
 ### Hold Family
 
-- `support_hold`
+- `source_check_hold`
 - `deferred_expansion_hold`
 - `hold_for_dual_review`
 
@@ -65,7 +65,7 @@
 
 1. `State Label`, `Package State`, `routing_state`, `Gate Result` 칸에는 underscored 상태어만 쓴다.
 2. prose에서는 자연어를 써도 되지만, state를 직접 다시 적을 때는 canonical 상태어를 그대로 쓴다.
-3. `support_hold`와 `deferred_expansion_hold`는 stable triad package와 섞지 않는다.
+3. `source_check_hold`와 `deferred_expansion_hold`는 stable triad package와 섞지 않는다.
 4. `named_notable_candidate`는 후보 자격이고, `stable_15_workset`은 stable package reference 단계다.
 5. `hold_for_dual_review`는 14/15 가치가 둘 다 큰 경우에만 쓴다.
 6. legacy 상태어는 이 문서의 `Legacy Mapping` 표나 명시적 history note에만 남길 수 있다. 현재 state table, heading, checklist, routing line에는 다시 올리지 않는다.
@@ -77,7 +77,7 @@
 
 즉 아래 구분을 유지한다.
 
-- `support_hold`, `deferred_expansion_hold`, `stable_15_workset` 같은 항목은 canonical state다.
+- `source_check_hold`, `deferred_expansion_hold`, `stable_15_workset` 같은 항목은 canonical state다.
 - `urban_market`, `shadow_port`, `dark institution`, `nontraditional elite thin-support`,
   `state_house strong 금지`, `토착 공동체층 본체 아님` 같은 문장은
   상태어가 아니라 해석 가드다.
@@ -118,7 +118,7 @@
 
 | Legacy Form | Canonical Form | Rule |
 |---|---|---|
-| `support hold` | `support_hold` | state label에서는 underscore로 통일 |
+| `source-check hold` | `source_check_hold` | state label에서는 underscore로 통일 |
 | `deferred expansion hold` | `deferred_expansion_hold` | state label에서는 underscore로 통일 |
 | `deferred_zone` | `deferred_expansion_hold` | 범대륙 후기 확장 보류 상태는 이 라벨로 통일 |
 | `strong_15` | `named_notable_candidate` | 강후보 서술을 상태 라벨로 쓰지 않는다 |

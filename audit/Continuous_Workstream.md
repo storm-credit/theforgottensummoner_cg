@@ -7,7 +7,7 @@
 ## Mainline Reference
 
 메인 본선 reference는
-`5대륙 closure sync / Section 8 -> 15 carryover watch`
+`5대륙 closure sync / Section 8 -> 15 watch-reference`
 유지다.
 
 즉 새 후보 발굴이나 triad package 재개방보다
@@ -23,7 +23,7 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 3. `Section_8_Spine_Mismatch_Queue.md`의 `P1 locked snapshot`과 `P0 / P2 watch queue` 분리를 유지한다.
 4. `Section 8 -> 15` carryover는 `structure label`, `hold state`, `place pressure`를 서로 덮어쓰지 않게 유지한다.
 5. `P2 place-pressure handoff` owner는 candidate index가 아니라 sidecar/register에만 둔다.
-6. `stable triad package`, `support_hold`, `deferred_expansion_hold`, Ether hold cluster는 서로 다른 층으로 유지한다.
+6. `stable triad package`, `source_check_hold`, `deferred_expansion_hold`, Ether hold cluster는 서로 다른 층으로 유지한다.
 7. 카드층 `Policy Guard`와 `Section 15` status/index/folder/routing 문서의 carryover 문장을 같은 해석선으로 유지한다.
 8. canonical state와 prose carryover guard는 같은 것이 아니며, 둘을 서로 대체하지 않는다.
 9. operational profile layer는 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한 채 상위 watch 문서와 연결한다.
@@ -137,4 +137,4 @@ historical batch/findings/search 문서의 읽기 규칙은
 - 끊어서 오늘치만 끝내지 않는다.
 - 새 후보를 늘리기 전에 lock과 wording drift를 먼저 잠근다.
 - 실제 원고 입력이 생기면 summary drift보다 live handoff가 우선한다.
-- watch cycle이 흔들리지 않는 한, 메인 본선 reference는 `closure sync / carryover watch 유지`다.
+- watch cycle이 흔들리지 않는 한, 메인 본선 reference는 `closure sync / watch-reference 유지`다.

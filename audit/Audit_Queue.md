@@ -16,7 +16,7 @@
 
 ## Focus Snapshot
 
-1. `5대륙 closure sync / Section 8 -> 15 carryover watch`를 메인 본선 reference로 유지
+1. `5대륙 closure sync / Section 8 -> 15 watch-reference`를 메인 본선 reference로 유지
 2. `Section_8_Root_Corruption_First_Pass_A.md`, `Section_8_Root_Subtree_Sampling_Queue.md`, `Section_8_Place_Network_Handoff_Map.md` 기준 `P0 / P2 / carryover`를 drift 없이 유지
 3. `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준으로 summary / bridge / queue / package의 기준 시점을 동기화
 4. `P2 place-network` handoff를 sidecar/register에서만 유지하고 candidate index가 재정의하지 않게 막기
@@ -56,7 +56,7 @@
 3. `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`의 carryover wording drift 점검
 4. `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`의 policy carryover drift 점검
 5. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`의 operational profile `3-1. Policy Guard` drift 점검
-6. Ether hold cluster closure와 `support_hold / deferred_expansion_hold` separation 유지
+6. Ether hold reference split closure와 `source_check_hold / deferred_expansion_hold` separation 유지
 7. `P2 section_style_forced_on_place_network` handoff owner를 sidecar/register로 고정 유지
 8. `14. 인물 백과` 루트 구조 감사는 reference backlog로만 유지
 9. 관계 타입 표준과 영웅 정본 스키마 확정은 후순위 유지
@@ -72,7 +72,7 @@
 ## Conditional Backlog
 
 1. 원본 접근이 가능할 때만 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 subtree reference sampling 필요 여부를 판단한다.
-2. `Section 8 -> 15` carryover watch가 충분히 안정된 뒤에만 신규 closure batch 후보 검토 여부를 판단한다.
+2. `Section 8 -> 15` watch-reference가 충분히 안정된 뒤에만 신규 closure batch 후보 검토 여부를 판단한다.
 3. `P2 place-network` owner 체계는 현재 유지선이며, drift가 생길 때만 국소 수정한다.
 4. `14번` 링크맵, 접점 표, orphan candidate 분리는 live handoff나 새 증거 변화가 생길 때만 다시 올린다.
 5. `범대륙` display canon 교체와 `15번` 후보 재우선순위화는 현재 메인선이 아니라 후순위 backlog로 둔다.
