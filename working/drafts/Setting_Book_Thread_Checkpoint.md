@@ -48,6 +48,7 @@
 - roles map의 safe opening order를 목적 분명/헷갈림 재진입으로 분리
 - 메인 허브 첫 화면에 재진입 순서를 추가해 다시 들어올 때 동선을 더 짧게 만듦
 - hub completion checklist의 기준 수와 preview 표현을 현재 구조에 맞게 정합화
+- release readiness에 스캔 해석 규칙을 추가해 정상 관리 문구와 실제 hold 표식을 분리
 
 ## Core Files
 
@@ -103,6 +104,7 @@
 
 ## Recent Commit Line
 
+- `241cdf2 Refresh hub checklist checkpoint`
 - `8365e92 Align setting book hub checklist wording`
 - `e1d7217 Refresh safe opening checkpoint`
 - `ae529bb Clarify setting book safe opening order`

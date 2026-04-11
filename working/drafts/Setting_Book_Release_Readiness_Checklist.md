@@ -54,6 +54,22 @@ release 후보로 묶기 전에 아래를 통과해야 한다.
 11. 안정 마일스톤이면 `Main Push Gate`를 통과한 뒤 `main`에 fast-forward push한다.
 12. core profile bridge 문서들이 readable preview와 기술 초안 사이의 안내선으로 일관되게 동작한다.
 
+## Scan Interpretation Rule
+
+스캔 히트가 모두 hold를 뜻하지는 않는다.
+
+허용되는 히트:
+
+- `임시 식별자`처럼 appendix/name-collision control에서 의도적으로 쓰는 관리 용어
+- `미완료 표식`, `금지 표현`처럼 checklist가 스캔 기준 자체를 설명하는 문장
+- `stable-triad`, `watch/reference`, `watch-keep`처럼 active display가 아니라 금지된 과거 표현으로 기록된 문장
+
+hold로 봐야 하는 히트:
+
+- 본문/표 안에 남은 active TODO, TBD, 미확정 메모
+- 독자용 body에 노출된 raw audit label
+- old display phrase가 실제 상태값처럼 쓰인 경우
+
 ## Preview Packaging Gate Snapshot
 
 현재 기준의 gate 판정은 아래와 같다.

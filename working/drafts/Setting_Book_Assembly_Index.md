@@ -86,6 +86,7 @@ Completed checks:
 - Current setting-book files do not contain the older stable-triad label.
 - Current setting-book files do not use the old watch/reference phrasing.
 - Current setting-book files do not use the old watch-keep display state in tables.
+- Scan interpretation now separates live unresolved markers from allowed control-language mentions.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
