@@ -1,6 +1,6 @@
 # Section 8 Status Vocabulary Guard
 
-이 문서는 `Section 8` 정규화 본선에서
+이 문서는 `Section 8` closure sync / carryover watch에서
 같은 판단을 서로 다른 상태어로 부르는 drift를 막기 위한 기준표다.
 
 핵심 원칙은 하나다.
@@ -63,6 +63,6 @@
 
 ## Conductor Decision
 
-앞으로 `Section 8` 문서 drift를 고칠 때는
+`Section 8` 문서 drift watch에서는
 새 상태어를 발명하지 않고
 이 표의 canonical set 안에서만 움직인다.

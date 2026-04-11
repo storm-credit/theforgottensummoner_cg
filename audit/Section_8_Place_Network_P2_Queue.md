@@ -25,7 +25,7 @@
 - `audit/Section_8_Frost_Notable_Anchor_Audit.md`
 - `audit/FS_Place_Function_Register.md`
 
-## Candidate Table
+## Closed P2 Watch Table
 
 | Candidate | Continent | Current Structure Read | Place Pressure | Why Not Promote To Structure Label | Primary Handoff Target |
 |---|---|---|---|---|---|
@@ -35,31 +35,31 @@
 | `본 마켓` 계열 | `Obelisk` | `section-linked place pressure` | `market + supply + memory-trade` | 시장과 보급 거점 압력을 근거로 세력 전체를 `place_style`로 밀면 `frontier_survival + guild_market` spine이 흐려진다 | `Section_15_Obelisk_Place_Institution_Sidecar.md` |
 | `잊힌 자들의 연합` | `Obelisk` | `section_style_reclassify` | `place_pressure_strong + exile_network_pressure` | 거점과 망명 네트워크가 강해도 실제 파일 문법은 번호 섹션형이고, 구조 라벨은 이미 `section_style_reclassify`로 잠겼다 | `FS_Place_Function_Register.md` |
 
-## Reading Rule
+## Watch Reading Rule
 
-현재 이 큐에서 확인하는 건 아래 셋이다.
+현재 이 큐는 새 구조 재분류가 아니라 아래 drift만 확인한다.
 
-1. 장소가 강한가
-2. 그 장소 압력이 구조 라벨을 바꿀 증거인가
-3. 아니면 내용 운용용 `place pressure` 메모로 분리하는 편이 맞는가
+1. `place pressure`가 이미 잠긴 `structure label`을 흔들고 있지 않은가
+2. sidecar/register ownership이 handoff map과 같은가
+3. summary/status vocabulary가 `handoff_applied / watch_keep`를 유지하는가
 
 ## Conductor Rules
 
 - `place-heavy content`와 `place-led structure`를 같은 뜻으로 쓰지 않는다.
-- 루트/파일 문법이 section형이면 먼저 `section_style`로 잠근다.
+- 루트/파일 문법이 section형이면 먼저 `section_style`로 잠긴 상태를 확인한다.
 - 장소 압력이 강해도 대륙 spine 오독을 만들면 `P2`로 따로 관리한다.
-- `P2` 후보는 구조 재분류보다 `side-note / register / anchor` 쪽으로 먼저 보존한다.
-- 이 큐는 source-of-truth가 아니라 handoff staging 문서다. 실제 소유권은 `Section_8_Place_Network_Handoff_Map.md`와 도착 문서에서 잠근다.
+- `P2` 후보는 구조 재분류보다 `side-note / register / anchor` 보존 상태를 먼저 확인한다.
+- 이 큐는 source-of-truth가 아니라 handoff staging 문서다. 실제 소유권은 `Section_8_Place_Network_Handoff_Map.md`와 도착 문서에서 이미 잠긴 상태로 본다.
 
 ## Conductor Decision
 
-다음 `P2` 패스의 핵심은
-`place pressure strong`을 구조 라벨과 분리해 기록하는 것이다.
+현재 `P2` watch의 핵심은
+`place pressure strong`이 구조 라벨과 분리되어 기록됐는지 확인하는 것이다.
 
-즉 이번 큐는
+즉 이 큐는
 `place_style` 세력을 늘리기 위한 목록이 아니라,
 `section_style` 세력 안에 숨어 있는 공간 압력을
-나중에 서사/앵커/거점 장부로 안전하게 넘기기 위한 목록이다.
+서사/앵커/거점 장부에 안전하게 귀속됐는지 확인하기 위한 목록이다.
 
 구체 handoff 경로는
-`Section_8_Place_Network_Handoff_Map.md`에 고정한다.
+`Section_8_Place_Network_Handoff_Map.md`에 고정되어 있다.

@@ -2,9 +2,9 @@
 
 이 문서는 `Section 8` 루트 감사에서
 가장 먼저 잡아야 하는 `P0 root_corruption`을
-실제 정본 판정 문서로 잠그는 첫 패스다.
+이미 잠긴 정본 판정으로 유지하는 첫 패스 reference다.
 
-이번 패스의 대상은 아래 셋이다.
+이 reference의 대상은 아래 셋이다.
 
 1. `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)`
 2. `6. 범대륙 초국가 및 중립 세력 (Supranational & 마립 세력 (Neutral))`
@@ -68,9 +68,9 @@
 3. 이 경로를 정본 판단에 섞으면
    정상 루트와 손상 루트가 같은 수준에서 경쟁하게 된다
 
-즉 지금 단계에서 중요한 건
+현재 watch 기준에서 중요한 건
 이 루트가 얼마나 많은 하위 중복을 갖는가보다 먼저,
-루트 자체를 `quarantine_root`로 고정하는 일이다.
+루트 자체를 `quarantine_root`로 유지하는 판정이다.
 
 ### Conductor Judgment
 
@@ -78,7 +78,7 @@
 - 운영 규칙:
   - `Supranational & 마립 세력 (Neutral)`는 `root_corruption` 사례로 고정한다
   - 정상 루트와 자동 병합하거나 정본 경로로 승격하지 않는다
-  - 하위 중복률은 다음 subtree 샘플링 패스에서 따로 본다
+  - 하위 중복률은 subtree 샘플링 큐에서만 따로 본다
 
 ## 3. Legacy Backup Root
 
@@ -91,7 +91,7 @@
 과거 작업 흔적과 백업 성격이 더 강하다.
 
 따라서 이 단계에서는
-삭제 후보가 아니라 `reference-only legacy root`로 묶는 편이 정확하다.
+`reference-only legacy root`로 격리 유지하는 편이 정확하다.
 
 핵심 이유는 아래다.
 
@@ -103,7 +103,7 @@
 
 - root status: `legacy_root_keep`
 - 운영 규칙:
-  - `legacy_root`는 삭제가 아니라 격리 보존으로 다룬다
+  - `legacy_root`는 격리 보존 상태로 다룬다
   - 정본 구조 판단에는 직접 쓰지 않고 비교/참조에만 사용한다
 
 ## First Pass Result
@@ -127,10 +127,10 @@
 
 `범대륙 루트 문제는 내용 이전에 경로 계급 문제다.`
 
-따라서 다음 실제 패스는
+따라서 실제 실측이 재개될 때는
 정상 `canonical_root`와 `quarantine_root`의 하위 subtree를 샘플링해
-중복률과 손상 범위를 더 구체적으로 적고,
+중복률과 손상 범위는 queue 기준으로 관찰 기록만 보강하고,
 동시에 `P2 section_style_forced_on_place_network` 후보를 별도 큐로 관리한다.
 
-실제 샘플링 순서는
+샘플링 순서는
 `Section_8_Root_Subtree_Sampling_Queue.md`에 고정한다.
