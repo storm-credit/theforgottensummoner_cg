@@ -35,6 +35,7 @@
 - 분야 허브 전반에 document roles map 복귀선 추가
 - release readiness도 preview/reference 구분 문장으로 정렬
 - preview package와 assembly index의 package-role 표현도 preview/reference 기준으로 정밀화
+- 메인 허브 구간 수 표기를 실제 구조에 맞게 정합화
 
 ## Core Files
 
@@ -90,6 +91,8 @@
 
 ## Recent Commit Line
 
+- `081581e Fix setting book hub section count`
+- `b05e6db Record latest setting book role passes`
 - `8fa7646 Clarify setting book package roles`
 - `aa77b2f Refresh setting book navigation checkpoints`
 - `d154cac Link setting book hubs to roles map`
@@ -162,3 +165,4 @@
 - handoff navigation과 hub entry route polishing까지 `main` 반영 완료.
 - 분야 허브 roles-map 연결까지 `main` 반영 완료.
 - package roles wording 정리까지 `main` 반영 완료.
+- 허브 section count 정합화까지 `main` 반영 완료.
