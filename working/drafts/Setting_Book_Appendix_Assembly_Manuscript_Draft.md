@@ -95,6 +95,13 @@ V1 evidence pointers:
 Use these only to confirm the safest current handling.
 Do not move a candidate into the body because the name is vivid.
 
+Targeted row-level evidence notes:
+
+- Draksar Blazeforge: boundary queue and named notables register both preserve `verify_before_15`; the note should stay tied to alchemy/workshop value plus A-rank war-artificer pressure.
+- Melisandre: named notables register confirms `source_check_hold` and dual-review risk; keep her as organization-high-notable until 14 centrality is ruled out.
+- Kasar the Seer: boundary queue and register both point to prophet / adviser / legendary signal; do not body-final him as a simple sage profile.
+- Moira Wildwave: candidate register gives high organization usefulness but marks direct 14-style signal; keep as `verify_before_15`.
+
 ---
 
 ## Appendix B. Item Promotion Candidates
@@ -263,6 +270,13 @@ V1 evidence pointers:
 Use these to preserve display names, legacy names, and separate candidate identities.
 Do not merge candidates until role, continent, faction, and source route agree.
 
+Targeted row-level evidence notes:
+
+- Sylvia: collision register lists Kirke Sylvia, Sylvia Arkham, Oceanic Sylvia, and Sylvia Phantom as separate route candidates; keep all four split until source route and role agree.
+- Aegis: naming map, item collision register, and named-notable collision register all show person / surname / relic / shield-concept overlap; never use bare `Aegis` as a final body name without qualifier.
+- Ravenfell / Marcus: naming map separates Ravenfell and Corvus lines; keep Marcus Ravenfell, Maxwell Ravenfell, and Marcus Corvus apart until file route confirms identity.
+- Mera: naming map and collision register split Mera Lylewind from Mera Sylphid; do not merge the diplomatic notable with the 14-hero signal.
+
 ---
 
 ## Appendix E. Species Classification Guard
@@ -314,6 +328,16 @@ V1 evidence pointers:
 
 Use these to confirm whether a term is a people, bloodline, state, monster, or unclear signal.
 Do not turn a vivid creature term into a civilization without society evidence.
+
+Targeted row-level evidence notes:
+
+- Merfolk / mermaid royal signal: evidence log supports localized enclave, student/contact, and mixed-polity military signals; hold as species signal, not empire-scale civilization.
+- Siren Harpy: evidence log keeps this as event / monster / set-piece signal; no peoplehood profile until community evidence appears.
+- Fairy: evidence log has stronger Spirit Union ally/community signals, but standalone species dossier is still premature; keep appendix-first.
+- Giant: evidence log supports mythic remains / giant-class threat, not living peoplehood.
+- Orc village signal: evidence log confirms a village signal, but internal society structure is still thin.
+- Goblin-blood or goblin integration signal: evidence log keeps this as bloodline/integration, not a separate polity.
+- Lamia / Naga: evidence log points to a single naga-related signal; keep as unclear until more than one individual or society route appears.
 
 ---
 

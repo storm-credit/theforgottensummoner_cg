@@ -91,8 +91,8 @@ Completed checks:
 
 Recommended next sequence:
 
-1. Add row-level evidence notes only where a specific appendix row needs verification.
-2. Decide whether a separate release-candidate package file is needed after v1 gates tighten.
+1. Decide whether a separate release-candidate package file is needed after v1 gates tighten.
+2. Add row-level evidence notes to Appendix B/C only if a specific item or place row needs verification.
 3. Extend the strongest mid-layer sheets into small reusable profile families only after the v1 direction is chosen.
 4. Prepare a short checkpoint summary for thread handoff if context gets too long.
 5. At stable milestones, run the `Main Push Gate` before pushing to `main`.
@@ -123,4 +123,4 @@ Recommended next sequence:
 
 The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.
 
-The next meaningful work is controlled refinement: keep `preview_v0_readable` stable as the shareable package, use the new appendix source pointers for targeted row-level evidence only, keep Opening / Part I supported by the short canon source note, and create a separate release-candidate package only after v1 gates tighten.
+The next meaningful work is controlled refinement: keep `preview_v0_readable` stable as the shareable package, keep Appendix A/D/E row-level notes as the targeted evidence pass, add Appendix B/C row notes only on demand, and create a separate release-candidate package only after v1 gates tighten.
