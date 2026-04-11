@@ -26,6 +26,8 @@
 - single prototype v0 작성
 - prototype 본문 1차 확장: Ether, Crossroad Cities, People, Relics, Species/Bloodlines/States
 - `main push gate` 고정점 추가
+- 허브 사용성 패스 마감
+- 세력 축 중간 정리본 착수
 
 ## Core Files
 
@@ -72,22 +74,20 @@
 - `working/drafts/Setting_Book_Release_Readiness_Checklist.md`
 - `working/drafts/Setting_Book_Preview_Package_v0.md`
 - `working/drafts/Setting_Book_Preview_Readable_v0.md`
+- `working/drafts/Setting_Book_Faction_Core_Profiles_v0.md`
 
 ## Recent Commit Line
 
-- `fd8db3e Polish setting book appendix bridge`
-- `8fc8c3b Polish readable setting book preview`
-- `25a0a7d Add readable setting book preview`
-- `02eaad7 Add setting book preview package`
-- `508fa0f Add setting book release readiness checklist`
-- `a64059a Align setting book appendix TOC`
-- `b846eb6 Expand public setting book assembly`
-- `a476683 Record main push gate pass`
-- `a7709ad Add species classification appendix`
-- `a563e75 Expand prototype species framework`
-- `a133956 Expand prototype and add main push gate`
-- `f5672b3 Expand prototype ether and crossroad sections`
-- `25d9ff3 Add single setting book prototype`
+- `e1cc037 Close setting book hub usability pass`
+- `f96140c Record validated setting book hub journeys`
+- `fe9604c Trim final setting book hub redundancy`
+- `3b0f567 Clarify first-click setting book hub flow`
+- `636d096 Reduce setting book hub navigation overlap`
+- `8cca7f6 Tighten setting book hub click paths`
+- `52fc498 Polish setting book hub language`
+- `5d13a85 Refine setting book hub navigation`
+- `b784944 Add hub completion checklist`
+- `9c94069 Add process and source hub notes`
 
 그 직전 주요 축:
 
@@ -109,11 +109,12 @@
 
 ## Recommended Next Queue
 
-1. preview package 기준으로 `preview_v0_readable` 방향 진행
-2. public manuscript style-unification pass
-3. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
-4. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
-5. 안정 마일스톤마다 `main push gate` 확인
+1. 세력 허브를 기준으로 `Faction Core Profiles`를 더 다듬고 필요한 경우 사람/장소 축 중간 정리본으로 확장
+2. preview package 기준으로 `preview_v0_readable` 방향 진행
+3. public manuscript style-unification pass
+4. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
+5. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
+6. 안정 마일스톤마다 `main push gate` 확인
 
 ## Main Push Gate
 
@@ -133,4 +134,4 @@
 
 최근 gate 통과:
 
-- `fd8db3e`까지의 readable preview polish와 appendix back-half bridge를 `main`에 fast-forward push 완료.
+- 허브 사용성 마감 패스까지 `main`에 fast-forward push 완료.

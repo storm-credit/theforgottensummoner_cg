@@ -32,6 +32,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | `Setting_Book_Release_Readiness_Checklist.md` | Cross-checks front matter, TOC, body, appendix, prototype, and main push gate before release packaging. |
 | `Setting_Book_Preview_Package_v0.md` | Defines the reader-facing preview package order and what v0 may safely claim. |
 | `Setting_Book_Preview_Readable_v0.md` | Serves as the current shareable readable preview manuscript. |
+| `Setting_Book_Faction_Core_Profiles_v0.md` | Serves as the faction-first bridge between the readable preview and the technical continent/faction drafts. |
 
 ## Assembly Principle
 
@@ -90,8 +91,9 @@ Recommended next sequence:
 2. Expand the appendix assembly manuscript with one real embedded table per section.
 3. Use the release readiness checklist before packaging a preview manuscript.
 4. Use the preview package to choose readable preview or production preview.
-5. Prepare a short checkpoint summary for thread handoff if context gets too long.
-6. At stable milestones, run the `Main Push Gate` before pushing to `main`.
+5. Build compact mid-layer profile sheets for factions, people, places, items, or species where hub navigation is already stable.
+6. Prepare a short checkpoint summary for thread handoff if context gets too long.
+7. At stable milestones, run the `Main Push Gate` before pushing to `main`.
 
 ## Main Push Gate
 
@@ -113,10 +115,10 @@ Recommended next sequence:
 
 최근 gate 통과:
 
-- `fd8db3e`까지의 readable preview polish와 appendix back-half bridge를 `main`에 fast-forward push 완료.
+- 허브 사용성 마감 패스까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
 The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.
 
-The next meaningful work is controlled refinement: smooth the public manuscript, deepen the appendix with selected real tables, and prepare the package for either polish, main push gate, or handoff.
+The next meaningful work is controlled refinement: keep the readable manuscript stable, deepen the appendix with selected real tables, and add compact mid-layer profile sheets where hub navigation is already closed.
