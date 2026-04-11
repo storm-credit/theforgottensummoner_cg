@@ -1,13 +1,13 @@
 # Section 15 Foldering Test - Crimson Named Notables
 
-이 문서는 `15번 Named Notables`를 실제 폴더링할 때
-기존 구조처럼 `대륙 -> 세력 / 도시 / 조직` 앵커를 유지할 수 있는지 시험하는 설계안이다.
+이 문서는 `15번 Named Notables`를 frozen routing sample로 읽을 때
+기존 구조처럼 `대륙 -> 세력 / 도시 / 조직` 앵커를 유지할 수 있는지 점검하는 설계안이다.
 
 주의:
 
 - 원본 저장소는 수정하지 않는다.
-- 아직 실제 이동/이름 변경을 하지 않는다.
-- 이 문서는 `cg` 안의 라우팅 시험표다.
+- 아직 live 이동/이름 변경을 하지 않는다.
+- 이 문서는 `cg` 안의 라우팅 reference 표다.
 - 직업별 폴더링은 본체가 아니다.
 - 직업과 명사 유형은 보조 색인으로만 둔다.
 
@@ -35,7 +35,7 @@
 
 ## Foldering Principle
 
-15번 Named Notables의 본체 라우팅은 아래 순서를 따른다.
+15번 Named Notables의 본체 routing reference는 아래 순서를 따른다.
 
 1. `대륙`
 2. `세력 / 도시 / 조직`
@@ -81,7 +81,7 @@
 
 ## Crimson Policy Guard
 
-- 이 crimson foldering test는 씨족 중심 질서 아래의 공방/학술/전승 thin-support route를 검증하는 용도다.
+- 이 crimson foldering test는 씨족 중심 질서 아래의 공방/학술/전승 thin-support route를 확인하는 용도다.
 - 즉 `울프가르 / 에리온 / 오그마 / 벨라나 / 아리안 / 드락사르 / 카사르`를
   전통 귀족국가형 `state_house strong` 후보처럼 읽지 않는다.
 - `붉은 사막 부족 / 현자 회의`와 `용의 후예 / 엘드라칸` route는
@@ -92,15 +92,15 @@
 - 이후 operational profile로 내려가는 카드가 생기면
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
 - 즉 route 검증과 profile 해석 형식은 분리하고,
-  폴더링 시험표가 하위 profile의 guard 형식을 덮어쓰지 않는다.
-- exact operational guard wording authority는 실제 `Section_15_Profile_*` 카드의
+  이 routing reference 표가 하위 profile의 guard 형식을 덮어쓰지 않는다.
+- exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, 이 foldering test는 그 wording source를 route 검증층에서만 참조한다.
 
 ## Display Name Notes
 
 이 단계에서는 표면 명칭을 과하게 새로 만들지 않는다.
 
-다만 후속 실제 문서명을 만들 때는 아래 톤을 우선한다.
+다만 후속 live 문서명이 필요해질 때는 아래 톤을 우선한다.
 
 | Functional Read | Better Fantasy Surface |
 |---|---|
@@ -116,12 +116,12 @@
 
 ## Conductor Decision
 
-크림슨은 `15 Named Notables` 폴더링 시험에 적합하다.
+크림슨은 `15 Named Notables` frozen routing sample에 가장 적합하다.
 
-다만 이 단계는 실제 이동이 아니라 라우팅 검증이다.
+다만 이 단계는 live 이동이 아니라 라우팅 reference 점검이다.
 
 후속 기준:
 
-1. `울프가르`, `에리온`, `오그마`는 route validation을 닫고 `Section_15_Folder_Structure_Draft.md` 기준 `stable_15_workset / route_hierarchy_locked` package-frozen carryover 상태로 유지한다.
-2. `벨라나`, `아리안`은 SS/S급 핵심 인물 신호가 확인되어 시트화를 보류하고 14 경계 검증으로 되돌린다.
-3. `드락사르`, `카사르`는 14 경계 큐에 유지한다.
+1. `울프가르`, `에리온`, `오그마`는 route validation을 닫고 `Section_15_Folder_Structure_Draft.md` 기준 `stable_15_workset / route_hierarchy_locked` frozen-reference carryover 상태로 유지한다.
+2. `벨라나`, `아리안`은 SS/S급 핵심 인물 신호가 확인되어 live 시트화로 넘기지 않고 14 경계 검증으로만 둔다.
+3. `드락사르`, `카사르`는 14 경계 hold reference로 유지한다.
