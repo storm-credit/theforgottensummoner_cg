@@ -32,6 +32,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | Holds the current compressed single-file reference with expanded body sections and A-E appendix flow. |
 | `Setting_Book_Release_Readiness_Checklist.md` | Cross-checks front matter, TOC, body, appendix, prototype, and main push gate before release packaging. |
 | `Setting_Book_Preview_Package_v0.md` | Defines the reader-facing preview package order and what v0 may safely claim. |
+| `Setting_Book_Packaging_Direction_Matrix.md` | Decides whether the next preserved artifact should be reader-facing layout or production bible. |
 | `Setting_Book_Preview_Readable_v0.md` | Serves as the current shareable readable preview manuscript. |
 | `Setting_Book_Faction_Core_Profiles_v0.md` | Serves as the faction-first bridge between the readable preview and the technical continent/faction drafts. |
 | `Setting_Book_People_Core_Profiles_v0.md` | Serves as the people-first bridge between the readable preview and the 14/15 technical drafts. |

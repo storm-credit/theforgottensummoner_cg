@@ -73,6 +73,16 @@
 - readable preview를 어떤 순서로 공유할지
 - shareable / conductor-only 문서 구분
 
+### Packaging Direction
+
+- `Setting_Book_Packaging_Direction_Matrix.md`
+
+무엇을 보나:
+
+- 다음 보존 산출물이 reader-facing layout인지
+- production bible인지
+- 지금 어느 쪽을 미루는지
+
 ## 같이 보면 좋은 허브
 
 - `00_Setting_Book_Hub.md`

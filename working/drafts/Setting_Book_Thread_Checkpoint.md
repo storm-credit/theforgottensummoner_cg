@@ -60,6 +60,7 @@
 - appendix/source hub에도 빠른 인덱스를 추가해 검증 질문과 장별 재료 진입을 더 짧게 정리
 - hub completion checklist와 status dashboard도 빠른 인덱스 완료 상태를 반영하도록 정합화
 - assembly index와 status dashboard도 허브 인덱스 완료 상태에 맞춰 현재 보존 지점으로 정리
+- packaging direction matrix를 추가해 layout vs production bible hold를 독립 문서로 분리
 
 ## Core Files
 
@@ -105,6 +106,7 @@
 - `working/drafts/The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
 - `working/drafts/Setting_Book_Release_Readiness_Checklist.md`
 - `working/drafts/Setting_Book_Preview_Package_v0.md`
+- `working/drafts/Setting_Book_Packaging_Direction_Matrix.md`
 - `working/drafts/Setting_Book_Preview_Readable_v0.md`
 - `working/drafts/Setting_Book_Document_Roles_Map.md`
 - `working/drafts/Setting_Book_Current_Status_Dashboard.md`

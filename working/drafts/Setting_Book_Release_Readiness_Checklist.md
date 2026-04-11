@@ -145,6 +145,8 @@ v1로 넘어가기 전 hold는 큰 원고 문제가 아니라
 | Layout direction | 상업용 layout을 먼저 볼지, production bible을 먼저 볼지 | 다음 사용자가 reader인지 collaborator인지 결정됨 |
 | Row-level evidence | Appendix B/C에서 더 필요한 행이 있는지 | 추가 행이 없거나, 필요한 행만 evidence note로 보강됨 |
 
+`Layout direction` 판단은 `Setting_Book_Packaging_Direction_Matrix.md`에서 따로 관리한다.
+
 현재 오케스트라 판정:
 
 - filename hold는 유지한다. 지금은 preview 이름이 더 안전하다.

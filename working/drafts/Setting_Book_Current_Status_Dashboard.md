@@ -79,6 +79,7 @@
 3. Appendix B/C에서 정말 필요한 행에만 row-level evidence note를 추가
 
 세부 hold 기준은 `Setting_Book_Release_Readiness_Checklist.md`의 `V1 Hold Breakdown`에서 관리한다.
+`layout vs production bible` 방향은 `Setting_Book_Packaging_Direction_Matrix.md`에서 따로 관리한다.
 
 Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Queue`에서 필요한 행만 고른다.
 
@@ -93,5 +94,5 @@ Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Que
 
 1. 상태 대시보드와 허브 링크를 고정한다.
 2. 허브 인덱스는 현재 완료 상태로 보고, 필요하면 질문 문장만 미세 수정한다.
-3. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
-4. filename / layout 방향이 결정되면 RC 파일 생성 여부를 다시 판정한다.
+3. packaging direction matrix에서 layout vs production bible 방향을 계속 선명하게 유지한다.
+4. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
