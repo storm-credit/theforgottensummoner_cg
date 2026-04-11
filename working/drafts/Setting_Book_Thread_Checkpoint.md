@@ -30,6 +30,8 @@
 - 핵심 다섯 축 중간 정리본 작성 및 메인 흐름 연결
 - `preview_v0_readable`와 `Prototype_v0` 역할 분리 문구 고정
 - 문서 역할 지도를 추가해 허브 진입 동선 보강
+- source hub와 handoff 문구를 preview/reference 기준으로 정밀화
+- 허브 체크리스트에 document roles map 진입 경로 반영
 
 ## Core Files
 
@@ -85,6 +87,8 @@
 
 ## Recent Commit Line
 
+- `3aafd6a Polish setting book hub entry routes`
+- `4027c8b Refine setting book handoff navigation`
 - `d29dadc Tighten setting book package wording`
 - `d696128 Refresh setting book thread checkpoint`
 - `3e008c4 Add setting book document roles map`
@@ -149,3 +153,4 @@
 
 - 허브 사용성 마감 패스까지 `main`에 fast-forward push 완료.
 - 문서 역할 지도 추가와 prototype 역할 고정까지 `main` 반영 완료.
+- handoff navigation과 hub entry route polishing까지 `main` 반영 완료.
