@@ -108,6 +108,10 @@ Recommended next sequence:
 - public manuscript와 appendix가 서로 같은 목차를 가리킨 뒤
 - 사용자가 명시적으로 main 반영을 원하거나, 오케스트라가 안정 마일스톤으로 판정한 뒤
 
+최근 gate 통과:
+
+- `a7709ad`까지의 prototype v0 1차 확장과 A-E appendix flow를 `main`에 fast-forward push 완료.
+
 ## Conductor Decision
 
 The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.

@@ -117,3 +117,7 @@
 현재 계속 분리해서 보존해야 하는 사용자 변경 파일:
 
 - `working/crosswalks/Extracted_Item_Candidates.md`
+
+최근 gate 통과:
+
+- `a7709ad`까지의 prototype v0 1차 확장과 A-E appendix flow를 `main`에 fast-forward push 완료.
