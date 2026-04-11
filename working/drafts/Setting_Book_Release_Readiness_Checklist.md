@@ -19,6 +19,7 @@ reader-facing release 후보로 볼 수 있는지 점검하는 관문이다.
 | reader map | `Setting_Book_Reader_Facing_TOC_Draft.md` | 기술 초안 0-8장을 독자용 목차로 번역한다. |
 | public body | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | 실제로 읽히는 본문 흐름을 시험한다. |
 | readable preview | `Setting_Book_Preview_Readable_v0.md` | front matter와 public body를 한 권처럼 읽히게 묶은 현재 공유용 시안이다. |
+| core profile bridge | `Setting_Book_Faction_Core_Profiles_v0.md` 외 4종 | 허브와 기술 초안 사이를 잇는 축별 압축 가이드 세트다. |
 | technical appendix | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | 본문 뒤의 검증표와 경계 관리를 보존한다. |
 | single prototype | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | 본문과 A-E 부록을 한 파일에 압축한 현재 대표본이다. |
 | conductor index | `Setting_Book_Assembly_Index.md` | 작업 상태, main push gate, 다음 큐를 관리한다. |
@@ -50,6 +51,7 @@ release 후보로 묶기 전에 아래를 통과해야 한다.
 9. 설정집 계열 파일 스캔에서 금지 표현과 미완료 표식이 나오지 않는다.
 10. 사용자 변경 파일이 release 커밋에 섞이지 않는다.
 11. 안정 마일스톤이면 `Main Push Gate`를 통과한 뒤 `main`에 fast-forward push한다.
+12. core profile bridge 문서들이 readable preview와 기술 초안 사이의 안내선으로 일관되게 동작한다.
 
 ## Current V0 Assessment
 

@@ -37,7 +37,19 @@
 - 원재료까지 거슬러 올라가고 싶으면 `08_Setting_Book_Source_Hub.md`
 - 허브 기준 자체를 확인하고 싶으면 `09_Setting_Book_Hub_Completion_Checklist.md`
 
-## 3. 본문 뒤에 붙는 검증용 부록
+## 3. 핵심 축 중간 정리본
+
+- 세력: `Setting_Book_Faction_Core_Profiles_v0.md`
+- 인물: `Setting_Book_People_Core_Profiles_v0.md`
+- 장소: `Setting_Book_Places_Core_Profiles_v0.md`
+- 유물: `Setting_Book_Items_Core_Profiles_v0.md`
+- 종족: `Setting_Book_Species_Core_Profiles_v0.md`
+
+이 다섯 문서는
+허브와 기술 초안 사이의 중간층이다.
+책처럼 읽는 버전과 audit 초안 사이를 이어 주는 압축 가이드로 쓴다.
+
+## 4. 본문 뒤에 붙는 검증용 부록
 
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 
@@ -45,14 +57,14 @@
 왜 아직 확정하지 않은 항목이 있는지,
 이름 충돌, 유물 승격, 종족 분류를 어떻게 조심하는지 정리한다.
 
-## 4. 전체를 한 파일로 압축한 대표 참고본
+## 5. 전체를 한 파일로 압축한 대표 참고본
 
 - `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
 
 이 파일은 본문과 부록을 한 파일에 같이 넣은 압축본이다.
 전체 구조를 한 번에 보고 싶을 때 본다.
 
-## 5. 작업 관리 문서
+## 6. 작업 관리 문서
 
 - `Setting_Book_Assembly_Index.md`
 - `Setting_Book_Thread_Checkpoint.md`
@@ -63,7 +75,7 @@
 오케스트라가 작업을 관리하는 문서다.
 보통은 나중에 봐도 된다.
 
-## 6. 원본 재료
+## 7. 원본 재료
 
 - `Setting_Book_Chapter_0_Canon_Policy_Draft.md`
 - `Setting_Book_Chapter_1_Five_Continents_Draft.md`
@@ -82,6 +94,7 @@
 
 - 가장 먼저: `Setting_Book_Preview_Readable_v0.md`
 - 구조부터: `01_Setting_Book_Faction_Hub.md`
+- 핵심 축 압축 가이드: `Setting_Book_Faction_Core_Profiles_v0.md`, `Setting_Book_People_Core_Profiles_v0.md`, `Setting_Book_Places_Core_Profiles_v0.md`, `Setting_Book_Items_Core_Profiles_v0.md`, `Setting_Book_Species_Core_Profiles_v0.md`
 - 검증부터: `06_Setting_Book_Appendix_Hub.md`
 - 진행 상황: `07_Setting_Book_Process_Hub.md`
 - 원재료 추적: `08_Setting_Book_Source_Hub.md`

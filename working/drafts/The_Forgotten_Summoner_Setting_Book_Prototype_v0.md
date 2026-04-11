@@ -43,6 +43,22 @@
 여기서는 본문에 다 담기 어려운 경계 후보, 이름 충돌, 아이템 승격 기준,
 장소 기능, 이동 비용 같은 정보를 더 분명하게 관리한다.
 
+### Core Profile Companion Set
+
+본문과 기술 초안 사이에는
+축별 중간 정리본이 있다.
+
+- `Setting_Book_Faction_Core_Profiles_v0.md`
+- `Setting_Book_People_Core_Profiles_v0.md`
+- `Setting_Book_Places_Core_Profiles_v0.md`
+- `Setting_Book_Items_Core_Profiles_v0.md`
+- `Setting_Book_Species_Core_Profiles_v0.md`
+
+이 문서들은
+현재 세계를 한 축씩 더 조밀하게 읽고 싶을 때 쓰는 bridge set이다.
+독자용 본문보다 압축적이고,
+기술 초안보다 덜 거칠다.
+
 ## Reading Promise
 
 이 책은 세 가지 약속을 지킨다.

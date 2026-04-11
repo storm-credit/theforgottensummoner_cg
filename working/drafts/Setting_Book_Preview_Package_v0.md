@@ -19,12 +19,13 @@ reader-facing preview 형태로 보여주기 위한 조립 지시서다.
 | Order | Section | Source File | Include Mode |
 | --- | --- | --- | --- |
 | 1 | Shareable readable preview | `Setting_Book_Preview_Readable_v0.md` | primary shareable manuscript |
-| 2 | Cover direction and reading promise source | `Setting_Book_Front_Matter_Draft.md` | source support for preview opening |
-| 3 | Reader-facing table of contents | `Setting_Book_Reader_Facing_TOC_Draft.md` | navigation map and future expansion guide |
-| 4 | Public body manuscript source | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | source support for preview body |
-| 5 | Technical appendix manuscript | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | include after body when verification context is needed |
-| 6 | Release readiness check | `Setting_Book_Release_Readiness_Checklist.md` | conductor-only gate before wider sharing |
-| 7 | Single prototype reference | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | compressed reference and sync check |
+| 2 | Core profile companion set | `Setting_Book_Faction_Core_Profiles_v0.md`, `Setting_Book_People_Core_Profiles_v0.md`, `Setting_Book_Places_Core_Profiles_v0.md`, `Setting_Book_Items_Core_Profiles_v0.md`, `Setting_Book_Species_Core_Profiles_v0.md` | optional bridge set between readable preview and technical drafts |
+| 3 | Cover direction and reading promise source | `Setting_Book_Front_Matter_Draft.md` | source support for preview opening |
+| 4 | Reader-facing table of contents | `Setting_Book_Reader_Facing_TOC_Draft.md` | navigation map and future expansion guide |
+| 5 | Public body manuscript source | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | source support for preview body |
+| 6 | Technical appendix manuscript | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | include after body when verification context is needed |
+| 7 | Release readiness check | `Setting_Book_Release_Readiness_Checklist.md` | conductor-only gate before wider sharing |
+| 8 | Single prototype reference | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | compressed reference and sync check |
 
 ## Included Body Spine
 
@@ -39,6 +40,20 @@ The preview body currently covers:
 
 The preview body does not yet try to replace the full 0-8 technical chapter package.
 It demonstrates the readable shape of the setting book.
+
+## Core Profile Companion Set
+
+The core profile set currently covers:
+
+1. Factions
+2. People
+3. Places
+4. Items
+5. Species
+
+These files are not the main shareable manuscript.
+They are bridge documents for collaborators or for the conductor when the readable preview is too broad
+and the technical drafts are too deep.
 
 ## Included Appendix Spine
 
@@ -80,8 +95,9 @@ Preview v0 should not claim:
 If this package is shared with a collaborator:
 
 1. Share `Setting_Book_Preview_Readable_v0.md` first.
-2. Share `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` only if they need verification context.
-3. Keep `Setting_Book_Release_Readiness_Checklist.md`, `Setting_Book_Assembly_Index.md`, and `Setting_Book_Preview_Package_v0.md` as conductor documents unless the collaborator is helping with structure.
+2. Share the relevant `Core Profiles` file next if they need one axis in a denser form.
+3. Share `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` only if they need verification context.
+4. Keep `Setting_Book_Release_Readiness_Checklist.md`, `Setting_Book_Assembly_Index.md`, and `Setting_Book_Preview_Package_v0.md` as conductor documents unless the collaborator is helping with structure.
 
 ## Next Preview Build
 
