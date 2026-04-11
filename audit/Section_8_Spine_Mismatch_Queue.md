@@ -29,7 +29,7 @@
 4. `place_style_flattened_to_section_style`
 5. `section_style_forced_on_place_network`
 
-## Active Queue
+## Watch Queue
 
 | Priority | Candidate / Family | Risk Category | State Snapshot | Closure Source | Reference Owner |
 |---|---|---|---|---|---|
@@ -47,7 +47,7 @@
 | `P1` | `바다의 교단` | `port_power_as_tribe_clan` | `mismatch_keep` | `Section_8_Spine_Mismatch_First_Pass_B.md` | 성지/신앙 압력과 `tribe_clan` 증거를 분리한다 |
 | `P1` | `망자의 왕국` | `nontraditional_elite_as_state_house` | `mismatch_keep` | `Section_8_Spine_Mismatch_First_Pass_B.md` | 비정통 엘리트 구조를 전통 귀족국가로 과승격하지 않는다 |
 | `P1` | `잊힌 자들의 연합` | `nontraditional_elite_as_state_house` | `mismatch_keep` | `Section_8_Spine_Mismatch_First_Pass_A.md` | 가문 폴더와 귀족국가 해석을 분리한다 |
-| `P1` | `봉인 수호단` | `place_style_flattened_to_section_style` | `mismatch_clear` | `Section_8_Spine_Mismatch_First_Pass_B.md` | active mismatch에서는 내리고 `place_pressure_strong` 메모만 유지한다 |
+| `P1` | `봉인 수호단` | `place_style_flattened_to_section_style` | `mismatch_clear` | `Section_8_Spine_Mismatch_First_Pass_B.md` | mismatch mainline에서는 내리고 `place_pressure_strong` 메모만 유지한다 |
 
 ## Conductor Rules
 
@@ -58,11 +58,13 @@
 
 ## Follow-up Pass Snapshot
 
-1. `P1` 후보의 1차 closure는 완료했고, 이 문서에서는 active queue와 locked snapshot을 분리해 유지한다.
-2. active mainline은 `P0 root_corruption`과 `P2 section_style_forced_on_place_network` family만 남긴다.
+1. `P1` 후보의 1차 closure는 완료했고, 이 문서에서는 watch queue와 locked snapshot을 분리해 유지한다.
+2. 현재 watch mainline은 `P0 root_corruption`과 `P2 section_style_forced_on_place_network` family만 남긴다.
 3. `P0`는 `Section_8_Root_Corruption_First_Pass_A.md`와 `Section_8_Root_Subtree_Sampling_Queue.md` 기준으로 이어간다.
 4. `P2`는 `Section_8_Place_Network_P2_Queue.md`, `Section_8_Place_Network_Handoff_Map.md` 기준으로 sidecar/register drift만 본다.
 5. 새 `P1` 후보를 늘리기 전에는 `Section_8_Normalization_Status_Compass.md`와 status vocabulary를 먼저 동기화한다.
+6. missing-layer component set은 `Five_Continent_Missing_Layer_Master_Lock.md` 아래 closeout reference로 보고,
+   이 queue는 새 evidence 전까지 `P0 / P2` watch만 우선한다.
 
 ## Conductor Decision
 
@@ -70,5 +72,5 @@
 잘못된 평탄화와 성급한 해석 승격을 막는 mismatch 장부다.
 
 이 기준에서는 `새 P1 후보 발굴`보다
-이미 잠근 `P1 closure`와 남은 `P0 / P2 active queue`를
+이미 잠근 `P1 closure`와 남은 `P0 / P2 watch queue`를
 명확히 분리해서 유지하는 데 사용한다.

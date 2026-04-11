@@ -35,7 +35,7 @@
 
 - `_Legacy_중립세력 (Backup)`은 이름 자체가 `Legacy`와 `Backup`을 함께 들고 있어, 현재 정본 구조보다 과거 작업 흔적일 가능성이 더 높다.
 - `Section 8` 루트에는 이미 정상 `6. 범대륙 초국가 및 중립 세력 (Supranational & Neutral)`와 손상된 중복 루트가 같이 남아 있어, 여기서 `legacy_root`까지 활성 판단에 섞으면 기준점이 세 겹으로 흔들린다.
-- 현재 본선은 `루트 구조 / 표준 spine / 레거시 분리` 단계라서, 레거시 경로를 활성 입력으로 올리면 구조 감사와 내용 감사가 다시 뒤섞인다.
+- 현재 본선은 `closure sync / carryover watch`라서, 레거시 경로를 활성 입력으로 올리면 구조 감사와 내용 감사가 다시 뒤섞인다.
 - `legacy_root`는 활성 경로와 같은 이름 또는 유사한 내용을 가질 수 있어도, 부모 라벨이 다르기 때문에 바로 병합 근거로 쓰면 오판 가능성이 크다.
 - 지금 단계에서 `_Legacy_`는 `정본 판단 입력`이 아니라 `비교 / 참고 / 누락 확인` 용도로만 쓰는 편이 가장 안전하다.
 - 즉 `_Legacy_중립세력 (Backup)`은 보존 가치가 있을 수 있으므로 지우지 않지만, 구조 정규화가 끝나기 전까지는 `reference-only`로 두는 것이 맞다.
@@ -47,15 +47,17 @@
 - 이름이 비슷해도 부모 루트 라벨이 다르면 자동 병합하지 않는다.
 - 루트 라벨이 없는 상태에서 이동, 삭제, 합치기를 하지 않는다.
 
-## Immediate Use
+## Watch Use
 
-이 분류표를 기준으로 다음 배치에서 아래를 진행한다.
+이 분류표는 새 이동/병합 실행표가 아니라,
+`root / structure / mismatch / P2 handoff` watch가 재개될 때
+아래 기준을 확인하는 reference로 쓴다.
 
-1. `Section 8` 루트별 `section_style / place_style / mixed exception` 라벨링
-2. 대륙 spine과 맞지 않는 `spine_mismatch` 후보 분리
-3. `Supranational & Neutral` 충돌 루트의 비교 샘플링
-4. `_Legacy_` 경로의 보존 가치와 중복 위험 분리
-5. 핵심 canonical 세력의 1차 구조 라벨 맵 작성
+1. `Section 8` 루트별 `section_style / place_style / mixed exception` 라벨링 상태
+2. 대륙 spine과 맞지 않는 `spine_mismatch` 후보 분리 상태
+3. `Supranational & Neutral` 충돌 루트의 비교 샘플링 readiness
+4. `_Legacy_` 경로의 보존 가치와 중복 위험 분리 상태
+5. 핵심 canonical 세력의 1차 구조 라벨 맵 유지 상태
 
 사용 문서:
 
@@ -65,5 +67,5 @@
 
 ## Conductor Decision
 
-이 문서는 지금 단계에서 `Section 8` 루트에 손을 대기 전에
+이 문서는 지금 단계에서 `Section 8` 루트 watch 기준을 확인할 때
 가장 먼저 보는 고정 분류표로 사용한다.

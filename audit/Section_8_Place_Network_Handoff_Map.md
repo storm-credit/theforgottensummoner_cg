@@ -6,7 +6,7 @@
 핵심 원칙은 아래다.
 
 1. `place pressure`는 구조 라벨 문서 안에 가두지 않는다
-2. 다음 작업자는 후보를 보고 바로 연결 문서를 찾을 수 있어야 한다
+2. watch cycle에서는 후보를 보고 바로 연결 문서를 찾을 수 있어야 한다
 3. `서사 운용`, `15 슬롯`, `장소 기능` 용도를 섞지 않는다
 
 ## Input
@@ -22,11 +22,11 @@
 
 | Candidate | Current Read | Primary Handoff Target | Handoff Type | Why This Route |
 |---|---|---|---|---|
-| `바다의 교단` | `section_style_reclassify + sanctuary/watch-fort pressure` | `Section_15_Oceanic_Place_Institution_Sidecar.md` | `place-institution sidecar` | 성지, 신탁선, 감시 요새 압력은 해양의 장소/기관 축에서 관리하는 편이 가장 자연스럽다 |
-| `오로라 평원` | `memory_site + sanctuary pressure` | `Section_15_Frost_Place_Institution_Sidecar.md` | `place-institution sidecar` | 프로스트는 named person보다 장소 슬롯이 먼저 강하므로 sidecar에서 장소 기능을 먼저 잡고, anchor audit은 보조로 둔다 |
-| `빙하의 성소` | `sanctuary + ritual-validation pressure` | `Section_15_Frost_Place_Institution_Sidecar.md` | `place-institution sidecar` | 의식, 검증, 치유 기능이 강해 프로스트 성소 압력을 sidecar 본체에서 관리하는 편이 맞다 |
-| `본 마켓` 계열 | `market + supply + memory-trade pressure` | `Section_15_Obelisk_Place_Institution_Sidecar.md` | `place-institution sidecar` | 오벨리스크의 보급/거래 거점은 frontier 생존 인프라로 읽는 편이 정확하다 |
-| `잊힌 자들의 연합` | `section_style_reclassify + exile-network pressure` | `FS_Place_Function_Register.md` | `register note` | 구조 라벨은 이미 잠겼고, 남는 건 거점/망명 네트워크 압력을 register note로 보존하는 일이다 |
+| `바다의 교단` | `handoff_applied + section_style_reclassify locked + sanctuary/watch-fort pressure` | `Section_15_Oceanic_Place_Institution_Sidecar.md` | `place-institution sidecar` | 성지, 신탁선, 감시 요새 압력은 해양의 장소/기관 축에서 관리하는 편이 가장 자연스럽다 |
+| `오로라 평원` | `handoff_applied + memory_site + sanctuary pressure` | `Section_15_Frost_Place_Institution_Sidecar.md` | `place-institution sidecar` | 프로스트는 named person보다 장소 슬롯이 먼저 강하므로 sidecar에서 장소 기능을 먼저 잡고, anchor audit은 보조로 둔다 |
+| `빙하의 성소` | `handoff_applied + sanctuary + ritual-validation pressure` | `Section_15_Frost_Place_Institution_Sidecar.md` | `place-institution sidecar` | 의식, 검증, 치유 기능이 강해 프로스트 성소 압력을 sidecar 본체에서 관리하는 편이 맞다 |
+| `본 마켓` 계열 | `handoff_applied + market + supply + memory-trade pressure` | `Section_15_Obelisk_Place_Institution_Sidecar.md` | `place-institution sidecar` | 오벨리스크의 보급/거래 거점은 frontier 생존 인프라로 읽는 편이 정확하다 |
+| `잊힌 자들의 연합` | `handoff_applied + section_style_reclassify locked + exile-network pressure` | `FS_Place_Function_Register.md` | `register note` | 구조 라벨은 이미 잠겼고, 남는 건 거점/망명 네트워크 압력을 register note로 보존하는 일이다 |
 
 ## Ownership Lock
 
@@ -47,11 +47,11 @@
 ## Conductor Decision
 
 이 문서는 `P2 place-network` 후보를
-다음 작업자에게 정확한 도착점과 함께 넘기기 위한 연결표로 사용한다.
+watch cycle에서 정확한 도착점과 함께 확인하기 위한 연결표로 사용한다.
 
-즉 다음 패스에서 해야 할 일은
+즉 watch 재개 시 해야 할 일은
 `P2 후보를 다시 해석하는 것`이 아니라,
-이미 잠근 판정을 적절한 sidecar와 register로 흘려 보내는 것이다.
+이미 잠근 판정이 어느 sidecar와 register에 귀속되어 있는지 확인하는 것이다.
 
 현재 1차 handoff 반영은
 `Section_15_Oceanic_Place_Institution_Sidecar.md`,
