@@ -110,6 +110,7 @@
 
 ## Recent Commit Line
 
+- `32cd0d9 Break down setting book v1 holds`
 - `4c1e890 Add setting book status dashboard`
 - `488e6ef Record release candidate trigger status`
 - `1200776 Align evidence depth package status`
