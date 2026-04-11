@@ -1,6 +1,6 @@
 # Section 15 Named Notables - Continent Synthesis
 
-이 문서는 `15번 Named Notables`를 대륙별로 종합한 판정 snapshot이다.
+이 문서는 `15번 Named Notables`를 대륙별로 종합한 watch-reference synthesis다.
 
 목적은 유명 NPC형 영웅, 현자, 장인, 기록자, 감정사, 학파 인물, 공방 인물 등을
 `14번 서사 중심 영웅`과 섞지 않고,
@@ -25,7 +25,7 @@
 
 | Continent | Coverage Snapshot | Primary Reading | Reference Use |
 |---|---|---|---|
-| Crimson | `strongest` | 용, 대장간, 고대 현자, 부족/제국 잔재 명사층이 이미 강하다. | stable triad package freeze를 닫힌 상태로 유지한다. |
+| Crimson | `strongest` | 용, 대장간, 고대 현자, 부족/제국 잔재 명사층이 이미 강하다. | stable_triad_frozen_reference_set을 닫힌 상태로 유지한다. |
 | Ether | `thin with strong place-institution slots` | 마법협회 탑주, 성국 도서관/성채, 정령연합 의식/계약 슬롯이 강하지만 14번 중복 위험이 크다. 장소-기관 슬롯은 먼저 보존한다. | `support_hold`와 hold cluster closure를 유지한다. |
 | Frost | `thin with strong place-institution slots` | 인물 고정보다 오로라 평원, 얼음무덤 언덕, 아이스포지 병기소, 빙하의 성소 슬롯이 강하다. unnamed slot 6개는 direct holder 없이 role slot 유지로 한 번 닫혔다. | 새 인물 회수보다 closure sync를 유지한다. |
 | Oceanic | `thin with many boundary signals and strong place-institution slots` | 후보 이름은 많지만 제독, A급, 히어로급 신호가 많다. 신탁 방주, 해로 장부관, 흑조 감정관, 심연 장부관 슬롯은 보존한다. | 성급한 15 고정 없이 boundary/watch 상태를 유지한다. |
@@ -40,22 +40,22 @@
 
 | Candidate | State Snapshot | Note |
 |---|---|---|
-| 울프가르 드래곤포지 | `stable_15_workset / grade_caution` | 장인/대장장이 명사층으로 강하고 stable triad package frozen 상태에서 carryover watch 기준을 따른다. |
-| 에리온 드라코비스 | `stable_15_workset / grade_caution / name_collision_watch` | 현자/지식 계열 명사층으로 강하며 `엘드라칸 / 학술-전승층` package-frozen carryover 기준을 따른다. |
-| 오그마 | `stable_15_workset / act_watch` | 기록/지식/전승 계열 후보로 유지하며 `엘드라칸 / 전승 보관층` package-frozen carryover 기준을 따른다. |
-| 벨라나 스톰브링어 | `verify_before_15` | 현자 회의 명사 가치가 있지만 SS급 폭풍의 여왕 신호가 강함. |
-| 아리안 블레이즈하트 | `verify_before_15` | 현자 회의 명사 가치가 있지만 S급 불의 사제 신호가 강함. |
+| 울프가르 드래곤포지 | `stable_triad_frozen_reference_set / grade_caution` | 장인/대장장이 명사층으로 강하고 stable_triad_frozen_reference_set 기준에서 carryover watch를 따른다. |
+| 에리온 드라코비스 | `stable_triad_frozen_reference_set / grade_caution / name_collision_watch` | 현자/지식 계열 명사층으로 강하며 `엘드라칸 / 학술-전승층` stable_triad_frozen_reference_set 기준을 따른다. |
+| 오그마 | `stable_triad_frozen_reference_set / act_watch` | 기록/지식/전승 계열 후보로 유지하며 `엘드라칸 / 전승 보관층` stable_triad_frozen_reference_set 기준을 따른다. |
+| 벨라나 스톰브링어 | `source_check_hold` | 현자 회의 명사 가치가 있지만 SS급 폭풍의 여왕 신호가 강함. |
+| 아리안 블레이즈하트 | `source_check_hold` | 현자 회의 명사 가치가 있지만 S급 불의 사제 신호가 강함. |
 
 경계 후보:
 
 | Candidate | State Snapshot | Note |
 |---|---|---|
-| 드락사르 블레이즈포지 | `verify_before_15` | 14/15 경계 검증 필요. |
-| 카사르 더 시어 | `verify_before_15` | 전승/예언 축이지만 14 신호 확인 필요. |
+| 드락사르 블레이즈포지 | `source_check_hold` | 14/15 경계 검증 필요. |
+| 카사르 더 시어 | `source_check_hold` | 전승/예언 축이지만 14 신호 확인 필요. |
 
 Conductor decision:
 
-크림슨은 `15번 Named Notables` reference workset 기준에 가장 가깝다.
+크림슨은 `15번 Named Notables` stable_triad_frozen_reference_set 기준에 가장 가깝다.
 다만 stable triad frozen reference 이름은 `울프가르`, `에리온`, `오그마`로 유지하고,
 벨라나, 아리안, 드락사르, 카사르는 먼저 14번 경계 검증을 통과해야 한다.
 자유도시/오벨리스크 운영층 문구는 named notable 고정 논리가 아니라
@@ -75,20 +75,20 @@ lower-card carryover reference로만 유지한다.
 
 | Candidate | State Snapshot | Note |
 |---|---|---|
-| 대런 크레센트 | `verify_before_15` | 마법 서고단 대표 신호. |
-| 엘드린 문브링어 | `verify_before_15` | 백색의 탑 탑주. |
-| 마르쿠스 레이븐펠 | `verify_before_15 / name_drift` | 흑색의 탑 주앵커는 `맥스웰 레이븐펠`로 읽고, `마르쿠스 레이븐펠`은 drift 표기로만 보존한다. |
-| 이사도르 템페스트 | `verify_before_15 / name_split_hold` | 청색의 탑 탑주로 보존하되 `이사도르 솔레아`와 병합하지 않는다. |
-| 세리오스 벤타리스 | `verify_before_15` | 자색의 탑 탑주, 14번 신호 강함. |
-| 네리사 블러드위버 | `verify_before_15` | 적색의 탑 탑주. |
-| 다미엔 이클립스 | `verify_before_15` | 은색의 탑 탑주. |
-| 칼리스트 | `verify_before_15` | 황금의 탑 탑주, 연금/제작 명사층 가치. |
-| 래퍼티 아르카디아 | `verify_before_15` | 성국 도서관장, A급 핵심 인물표 신호. |
-| 대사제 요한 | `verify_before_15` | 루멘 성채 총괄자. |
-| 엘라라 문힘 | `verify_before_15` | 정령연합 노래술사, A급 영웅표 신호. |
-| 드라이덴 썬더루트 | `verify_before_15 / great_druid_hold` | 장로 드루이드, 자연 율법회, 생명의 의회, Top 3 대드루이드 신호. |
-| 메라 라일윈드 | `verify_before_15 / spirit_envoy_hold / name_collision_watch` | 정령연합 외교 사절단, 희귀 재료 교역 조건, `메라 실피드` 드리프트 신호. |
-| 실라스 나이트쉐이드 | `verify_before_15 / shadow_crow_hold / name_collision_watch` | 그늘까마귀단, 잠든 정령의 숲, `실라스 블랙쏜` 세력 앵커 분리 신호. |
+| 대런 크레센트 | `source_check_hold` | 마법 서고단 대표 신호. |
+| 엘드린 문브링어 | `source_check_hold` | 백색의 탑 탑주. |
+| 마르쿠스 레이븐펠 | `source_check_hold / name_drift` | 흑색의 탑 주앵커는 `맥스웰 레이븐펠`로 읽고, `마르쿠스 레이븐펠`은 drift 표기로만 보존한다. |
+| 이사도르 템페스트 | `source_check_hold / name_split_hold` | 청색의 탑 탑주로 보존하되 `이사도르 솔레아`와 병합하지 않는다. |
+| 세리오스 벤타리스 | `source_check_hold` | 자색의 탑 탑주, 14번 신호 강함. |
+| 네리사 블러드위버 | `source_check_hold` | 적색의 탑 탑주. |
+| 다미엔 이클립스 | `source_check_hold` | 은색의 탑 탑주. |
+| 칼리스트 | `source_check_hold` | 황금의 탑 탑주, 연금/제작 명사층 가치. |
+| 래퍼티 아르카디아 | `source_check_hold` | 성국 도서관장, A급 핵심 인물표 신호. |
+| 대사제 요한 | `source_check_hold` | 루멘 성채 총괄자. |
+| 엘라라 문힘 | `source_check_hold` | 정령연합 노래술사, A급 영웅표 신호. |
+| 드라이덴 썬더루트 | `source_check_hold / great_druid_hold` | 장로 드루이드, 자연 율법회, 생명의 의회, Top 3 대드루이드 신호. |
+| 메라 라일윈드 | `source_check_hold / spirit_envoy_hold / name_collision_watch` | 정령연합 외교 사절단, 희귀 재료 교역 조건, `메라 실피드` 드리프트 신호. |
+| 실라스 나이트쉐이드 | `source_check_hold / shadow_crow_hold / name_collision_watch` | 그늘까마귀단, 잠든 정령의 숲, `실라스 블랙쏜` 세력 앵커 분리 신호. |
 
 필요 슬롯:
 
@@ -116,9 +116,9 @@ Conductor decision:
 
 | Candidate | State Snapshot | Note |
 |---|---|---|
-| 울프릭 | `verify_before_15` | 전설/영웅 신호 확인 필요. |
-| 시그리드 프로스트하트 | `verify_before_15` | 14번 신호 확인 필요. |
-| 마리안 더 윈터콜러 | `verify_before_15` | 14번 신호 확인 필요. |
+| 울프릭 | `source_check_hold` | 전설/영웅 신호 확인 필요. |
+| 시그리드 프로스트하트 | `source_check_hold` | 14번 신호 확인 필요. |
+| 마리안 더 윈터콜러 | `source_check_hold` | 14번 신호 확인 필요. |
 
 강한 역할 슬롯:
 
@@ -145,17 +145,17 @@ unnamed slot 6개를 한 번 닫은 상태로 유지하고, 14번 후보 중복 
 
 | Candidate | State Snapshot | Note |
 |---|---|---|
-| 미다스 | `verify_before_15` | 복수 문서 신호가 있어도 전설/전술 축 검증 필요. |
-| 해양 실비아 | `verify_before_15 / name_collision` | 다른 실비아와 병합 금지. |
-| 이소벨 | `verify_before_15` | 제독/히어로급 신호 확인 필요. |
-| 마르코 바르텔로 | `verify_before_15` | 상업/항해 명사인지 14 영웅인지 확인 필요. |
-| 엘레오노라 라 크루즈 | `verify_before_15` | 귀족/해양 세력 앵커 확인 필요. |
-| 골드핑거 바스 | `verify_before_15` | 장물/보물/상업 축 검증 필요. |
-| 리나 웨이브서프 | `verify_before_15` | 해양 영웅 신호 확인 필요. |
-| 에릭 시스트롬 | `verify_before_15` | 항해/군사 축 확인 필요. |
-| 오렌 | `verify_before_15` | 역할 및 14 신호 확인 필요. |
-| 세일블레스 마리아 | `verify_before_15` | 종교/항해 명사인지 확인 필요. |
-| 모로스 | `verify_before_15` | 영웅/전설 신호 확인 필요. |
+| 미다스 | `source_check_hold` | 복수 문서 신호가 있어도 전설/전술 축 검증 필요. |
+| 해양 실비아 | `source_check_hold / name_collision` | 다른 실비아와 병합 금지. |
+| 이소벨 | `source_check_hold` | 제독/히어로급 신호 확인 필요. |
+| 마르코 바르텔로 | `source_check_hold` | 상업/항해 명사인지 14 영웅인지 확인 필요. |
+| 엘레오노라 라 크루즈 | `source_check_hold` | 귀족/해양 세력 앵커 확인 필요. |
+| 골드핑거 바스 | `source_check_hold` | 장물/보물/상업 축 검증 필요. |
+| 리나 웨이브서프 | `source_check_hold` | 해양 영웅 신호 확인 필요. |
+| 에릭 시스트롬 | `source_check_hold` | 항해/군사 축 확인 필요. |
+| 오렌 | `source_check_hold` | 역할 및 14 신호 확인 필요. |
+| 세일블레스 마리아 | `source_check_hold` | 종교/항해 명사인지 확인 필요. |
+| 모로스 | `source_check_hold` | 영웅/전설 신호 확인 필요. |
 
 강한 역할 슬롯:
 
@@ -186,16 +186,16 @@ Conductor decision:
 
 | Candidate | State Snapshot | Note |
 |---|---|---|
-| 바리온 | `verify_before_15` | 기록/전설/영웅 신호 확인 필요. |
-| 아이기스 | `verify_before_15 / item_name_collision` | 인물명, 방패, 결계명 충돌 분리 필요. |
-| 카론 | `verify_before_15` | 전술/죽음/인도자 신호 확인 필요. |
-| 베스 스크롤 | `verify_before_15` | 기록/문서 명사층 여부 확인 필요. |
-| 이안 옵저버 | `verify_before_15` | 관측자/기록자 축 확인 필요. |
-| 카트린 라베로스 | `verify_before_15` | 세력/기록 앵커 확인 필요. |
-| 레보니아 셰이드 | `verify_before_15` | 그림자/기억/망명 축 확인 필요. |
-| 우로스 디 모르간 | `verify_before_15` | 기관/가문/기억 축 확인 필요. |
-| 세르반 알테르만 | `verify_before_15` | 기록/기관 앵커 확인 필요. |
-| 레티시아 모르투스 | `verify_before_15` | 사후/묘역/기록 축 확인 필요. |
+| 바리온 | `source_check_hold` | 기록/전설/영웅 신호 확인 필요. |
+| 아이기스 | `source_check_hold / item_name_collision` | 인물명, 방패, 결계명 충돌 분리 필요. |
+| 카론 | `source_check_hold` | 전술/죽음/인도자 신호 확인 필요. |
+| 베스 스크롤 | `source_check_hold` | 기록/문서 명사층 여부 확인 필요. |
+| 이안 옵저버 | `source_check_hold` | 관측자/기록자 축 확인 필요. |
+| 카트린 라베로스 | `source_check_hold` | 세력/기록 앵커 확인 필요. |
+| 레보니아 셰이드 | `source_check_hold` | 그림자/기억/망명 축 확인 필요. |
+| 우로스 디 모르간 | `source_check_hold` | 기관/가문/기억 축 확인 필요. |
+| 세르반 알테르만 | `source_check_hold` | 기록/기관 앵커 확인 필요. |
+| 레티시아 모르투스 | `source_check_hold` | 사후/묘역/기록 축 확인 필요. |
 
 강한 역할 슬롯:
 
@@ -228,7 +228,7 @@ Conductor decision:
 | Candidate | State Snapshot | Note |
 |---|---|---|
 | 실비아 | `deferred_expansion_hold / name_collision_watch` | 키르케 영약회 계열 후보지만 범대륙 후기 확장 구역이라 deferred hold reference로만 유지한다. |
-| 멜리산드르 | `verify_before_15` | 명사형 가치가 크지만 14 신호 확인 필요. |
+| 멜리산드르 | `source_check_hold` | 명사형 가치가 크지만 14 신호 확인 필요. |
 
 Conductor decision:
 
@@ -237,8 +237,8 @@ Conductor decision:
 
 ## Priority Snapshot
 
-1. 본선 reference는 `Crimson` 안정 후보 3명의 freeze 재개가 아니라 `5대륙 closure sync / Section 8 -> 15 carryover watch` 유지다.
-2. `엘다라`는 `support_hold`로 유지하되 정령연합 전체 14 확인 전 Hard Canon 고정은 보류한다.
+1. 본선 reference는 `Crimson` 안정 후보 3명의 stable_triad_frozen_reference_set 유지이며 `5대륙 closure sync / Section 8 -> 15 carryover watch`를 계속 읽는다.
+2. `엘다라`는 `support_hold`로 유지하되 정령연합 전체 14 확인 전 `source_check_hold`로만 남긴다.
 3. `Frost / Oceanic / Obelisk`는 장소-기관 슬롯을 유지한 채 closure 상태를 보존하고, 14번 중복 신호 검증 뒤 상태를 다시 읽는다.
 4. `Supranational`은 후기 확장 구역으로 보류한다.
 
@@ -248,10 +248,10 @@ Conductor decision:
 
 최신 지휘 판단:
 
-- 크림슨은 안정 후보 3명만 15 시트 reference workset으로 유지한다.
-- 에테르, 해양, 오벨리스크는 2차 근거 보강을 마쳤고 새 15 고정자는 만들지 않는다.
+- 크림슨은 안정 후보 3명만 stable_triad_frozen_reference_set으로 유지한다.
+- 에테르, 해양, 오벨리스크는 source_check_hold / watch-reference 상태를 유지하고 새 15 고정자는 만들지 않는다.
 - 프로스트, 해양, 에테르의 역할 슬롯은 장소-기관 중심으로 정리했다.
-- 이 배치 snapshot에서 프로스트 unnamed slot 6개 closure까지 반영됐고, stable triad package 재개가 아니라 `closure sync / carryover watch`를 유지한다.
+- 이 배치 snapshot에서 프로스트 unnamed slot 6개 closure까지 반영됐고, stable_triad_frozen_reference_set 재개가 아니라 `closure sync / carryover watch`를 유지한다.
 
 ## Guard Authority Snapshot
 

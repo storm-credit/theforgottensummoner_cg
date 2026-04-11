@@ -30,7 +30,7 @@
 2. 세력/도시/조직 앵커 확인.
 3. `Section 8` 구조 라벨과 `place pressure` carryover 확인.
 4. 14번 영웅 신호 확인.
-5. `named_notable_candidate`, `stable_15_workset`, `verify_before_15`, `need_named_candidate`, `keep_14`, `support_hold`, `deferred_expansion_hold`, `hold_for_dual_review` 중 잠긴 상태 라벨을 확인한다.
+5. `named_notable_candidate`, `stable_triad_frozen_reference_set`, `source_check_hold`, `need_named_candidate`, `keep_14`, `support_hold`, `deferred_expansion_hold`, `hold_for_dual_review` 중 잠긴 상태 라벨을 확인한다.
 6. foldering reference는 `대륙 -> 세력 / 도시 / 조직` 경로로만 읽는다.
 7. operational profile 카드가 필요한 경우 하위 카드의 `3-1. Policy Guard`를 유지하고,
    named notable 요약과 혼합하지 않는다.
@@ -49,7 +49,7 @@ sidecar/register handoff를 먼저 존중한다.
 | `프로스트` | `tribe_clan`, `guild_market`; state_house thin | `프로스트본 연합 = mixed_keep`; `오로라 평원`, `빙하의 성소`는 `place_pressure_strong / handoff_applied` | 없음 | `울프릭/마리안/프리야/카이라 -> 빙하의 성소 / 주술사 원로단`; `시그리드 -> 퍼마프로스트 공성단 / 아이스포지` | 오로라 평원, 얼음무덤 언덕, 푸른 폭풍 요새, 아이스포지 병기소 슬롯으로 보존. unnamed slot 6개는 direct holder 없이 role slot 유지로 한 번 닫혔다. |
 | `해양` | `state_house`, `guild_market`; tribe_clan weak | `해적 연합 = mixed_keep`; `바다의 교단 = section_style_reclassify + place_pressure_strong / handoff_applied` | 없음 | `미다스/이소벨/해양 실비아 -> 황금 함대`; `마르코/엘레오노라/크리스토퍼 -> 거상 연합`; `골드핑거/리나/에릭/모로스 -> 해적 연합`; `오렌/마리아 -> 바다의 교단` | 포트 아우렐리온, 크로스윈드 포트, 오라클 바지, 블랙워터 항구, 볼트 오브 아우룸 슬롯으로 보존한다. |
 | `오벨리스크` | `frontier_survival`, `guild_market`; state_house as nontraditional elite | `망자의 왕국 = section_style_reclassify + place_pressure_strong`; `잊힌 자들의 연합 = section_style_reclassify + watch_keep / handoff_applied`; `봉인 수호단 = section_style_reclassify + mismatch_clear` | 없음 | `바리온/아이기스/베스/이안 -> 봉인 수호단`; `카트린/레보니아/우로스 -> 잊힌 자들의 연합`; `카론/세르반/레티시아 -> 망자의 왕국` | 템플 오브 바운더리, 경계의 보루, 기억 경매장, 영원의 기록탑, 망각의 회랑, 그림자 도서관 슬롯으로 보존한다. |
-| `범대륙 / 후기 확장` | deferred expansion; `guild_market` 중심 | `root_corruption`과 deferred routing 유지 | `실비아 -> 키르케 영약회` | `멜리산드르 -> 키르케 영약회` | 범대륙은 mainline reference 바깥 hold다. 정본명/표면명/위상 안정화 전까지 reference-only로 둔다. |
+| `범대륙 / 후기 확장` | deferred expansion; `guild_market` 중심 | `root_corruption`과 deferred routing 유지 | `실비아 -> 키르케 영약회` | `멜리산드르 -> 키르케 영약회` | 범대륙은 watch-reference mainline 바깥 hold reference split이다. 정본명/표면명/위상 안정화 전까지 reference-only로 둔다. |
 
 ## Foldering Consequence
 
@@ -64,7 +64,7 @@ sidecar/register handoff를 먼저 존중한다.
 - `15 / 해양 / 포트 아우렐리온 / 대경매장 주인 슬롯`
 - `15 / 오벨리스크 / 영원의 기록탑 / 사후 서기관 슬롯`
 
-단, live 폴더 이동은 하지 않는다.
+단, 실제 폴더 이동은 하지 않는다.
 현재는 `cg` 안에서 라우팅 기준만 reference로 유지한다.
 
 ## Bridge Guard
@@ -105,7 +105,7 @@ sidecar/register handoff를 먼저 존중한다.
 ## Conductor Decision Snapshot
 
 15번의 recorded carryover focus는 새 인물 확장이 아니라,
-위 브리지와 `Section_15_Folder_Structure_Draft.md`를 기준으로
+위 브리지와 `Section_15_Folder_Structure_Draft.md` watch-reference routing map을 기준으로
 이미 잠근 anchor / state wording을 closure sync / carryover watch 기준으로 유지하는 것이다.
 
 stable triad frozen reference set은 이미 닫혀 있으므로 다시 열지 않는다.

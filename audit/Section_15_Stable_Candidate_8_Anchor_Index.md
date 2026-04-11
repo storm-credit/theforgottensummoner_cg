@@ -15,11 +15,11 @@
 
 | Candidate | Section 8 Anchor | Section 8 Carryover | Package State | 15 Routing State | Boundary Guard |
 |---|---|---|---|---|
-| `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `용의 후예 = section_style + clan_as_state_house watch` | `stable_15_workset / route_hierarchy_locked / grade_caution` | stable triad frozen reference set 안 | 14 독립 파일 확인 전 Hard Canon 고정 금지 |
-| `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `크림슨 tribe_clan spine 아래 학술-전승 anchor 유지` | `stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` | stable triad frozen reference set 안 | `에리온 베르날리스` 병합 금지 |
-| `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `크림슨 tribe_clan spine 아래 memory-institution anchor 유지` | `stable_15_workset / route_hierarchy_locked / act_watch` | stable triad frozen reference set 안 | place lock은 개별 시트에만 두고 act-risk watch 아래서만 15 전승 보관자 읽기 유지 |
-| `엘다라` | `에테르 / 정령연합 / 루미라` | `정령연합 = mixed_keep / special_axis_generalization` | `support_hold / source_check_hold` | triad package 밖 `support_hold` reference | support_hold reference only; stable triad merge는 열지 않는다 |
-| `실비아` | `범대륙 후기 확장 / 키르케 영약회` | `deferred expansion + canonical_root / quarantine_root / legacy_root guard` | `deferred_expansion_hold / name_collision_watch` | triad package 밖 `deferred_expansion_hold` reference | deferred-expansion reference는 mainline 바깥에 둔다 |
+| `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `용의 후예 = section_style + clan_as_state_house watch` | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution` | stable_triad_frozen_reference_set 안 | 14 독립 파일 확인 전 Hard Canon 고정 금지 |
+| `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `크림슨 tribe_clan spine 아래 학술-전승 anchor 유지` | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution / name_collision_watch` | stable_triad_frozen_reference_set 안 | `에리온 베르날리스` 병합 금지 |
+| `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `크림슨 tribe_clan spine 아래 memory-institution anchor 유지` | `stable_triad_frozen_reference_set / route_hierarchy_locked / act_watch` | stable_triad_frozen_reference_set 안 | place lock은 개별 시트에만 두고 act-risk watch 아래서만 15 전승 보관자 읽기 유지 |
+| `엘다라` | `에테르 / 정령연합 / 루미라` | `정령연합 = mixed_keep / special_axis_generalization` | `support_hold / source_check_hold` | hold reference split 안 `source_check_hold` reference | support_hold reference only; stable triad merge는 열지 않는다 |
+| `실비아` | `범대륙 후기 확장 / 키르케 영약회` | `deferred expansion + canonical_root / quarantine_root / legacy_root guard` | `deferred_expansion_hold / name_collision_watch` | hold reference split 안 `deferred_expansion_hold` reference | deferred-expansion reference는 watch-reference mainline 바깥에 둔다 |
 
 ## Route / Place Separation
 
@@ -34,7 +34,7 @@
 
 - `결손층 5개`의 thin/support 판정은 이 색인이 새로 결정하지 않고,
   `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
-1. stable triad는 `Section 8` 앵커가 먼저고, grade/act caution은 그다음이다.
+1. stable_triad_frozen_reference_set은 `Section 8` 앵커가 먼저고, grade/act caution은 그다음이다.
 2. `mixed_keep`는 미완 판정이 아니라 살아 있는 구조 예외다.
 3. `support_hold`와 `deferred_expansion_hold`는 stable triad frozen reference set에 섞지 않는다.
 4. `structure label`과 `place pressure`는 같은 칸에 쓰지 않는다.
@@ -56,22 +56,22 @@
 
 ## Routing Consequence
 
-현재 메인 본선은
-stable triad package를 다시 여는 단계가 아니며,
+현재 watch-reference 기준은
+stable_triad_frozen_reference_set를 유지하는 단계이며,
 `울프가르 -> 에리온 -> 오그마 -> 엘다라` 순의 재판정 흐름도 열지 않는다.
 
 지금 이 색인의 역할은
 이미 잠근 `Section 8` 앵커와
-`stable_15_workset / support_hold / deferred_expansion_hold`
+`stable_triad_frozen_reference_set / support_hold / deferred_expansion_hold`
 상태어를 closure sync / carryover watch 기준으로 유지하는 것이다.
 
 ## Conductor Decision
 
 현재 stable / hold 후보는 모두 `Section 8` 앵커를 가진다.
 
-다만 live 폴더 이동은 하지 않는다.
+다만 실제 폴더 이동은 하지 않는다.
 이 앵커 색인은
 stable triad frozen reference set과 hold reference split을 섞지 않은 채
-`bridge / routing / package freeze` 문서의 상태어를 유지하는 데 쓴다.
+`bridge / routing / watch-reference` 문서의 상태어를 유지하는 데 쓴다.
 stable triad frozen reference set은 그대로 유지하고,
-carryover sync / hold separation만 유지한다.
+carryover watch-reference / hold reference split만 유지한다.

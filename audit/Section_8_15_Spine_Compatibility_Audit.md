@@ -1,7 +1,7 @@
 # Section 8 / 15 Spine Compatibility Audit
 
 이 문서는 `8. 세력 아카이브`의 대륙별 spine과
-`15. 인물백과` frozen route/reference 구조가 서로 맞는지 점검하는 감사표다.
+`15. 인물백과` stable_triad_frozen_reference_set + hold reference split 구조가 서로 맞는지 점검하는 감사표다.
 
 ## Input
 
@@ -55,7 +55,7 @@ operational lower-card carryover reference로만 유지한다.
 | `에테르 / 정령연합` | 에테르 전체 spine은 state_house/guild_market인데 정령연합만 tribe_clan 특수축이다. | 정령연합은 별도 특수축으로 유지. |
 | `해양 / 해적 연합` | 해양은 state_house/guild_market이 강하지만 해적 연합은 비국가/암시장 성격이 강하다. | 해적 연합은 `guild_market / underworld maritime` 보조 라벨로 둔다. |
 | `오벨리스크 / 망자의 왕국` | 초월/망자 어휘가 강해 인간 서사를 밀 수 있다. | `기록`, `기억`, `거래`, `죄책감`, `망명` 기능으로 낮춰 읽는다. |
-| `범대륙` | 후기 증설 파트라 전체 구조를 흔들 수 있다. | mainline reference 바깥 hold로 둔다. |
+| `범대륙` | 후기 증설 파트라 전체 구조를 흔들 수 있다. | watch-reference mainline 바깥 hold reference split으로 둔다. |
 
 ## Section 8 Carryover Rule
 
@@ -91,11 +91,11 @@ operational lower-card carryover reference로만 유지한다.
 
 현재 watch 기준:
 
-1. `Section_15_Stable_Candidate_8_Anchor_Index.md`의 `stable triad / support_hold / deferred_expansion_hold` 상태를 bridge와 frozen reference set에서 계속 같은 상태어로 유지한다.
-2. `P2 place-pressure handoff`는 candidate index가 아니라 sidecar/register에서 계속 관리한다.
+1. `Section_15_Stable_Candidate_8_Anchor_Index.md`의 `stable_triad_frozen_reference_set / support_hold / deferred_expansion_hold` 상태를 bridge와 frozen reference set에서 계속 같은 상태어로 유지한다.
+2. `P2 place-pressure source_check_hold`는 candidate index가 아니라 sidecar/register에서 계속 관리한다.
 3. 원본 접근이 가능해질 때까지는 새 candidate를 늘리지 않고 `P0 / P2 / carryover sync`만 유지한다.
-4. 현재 carryover mainline은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 `5대륙 closure sync / Section 8 -> 15 carryover watch`로 유지한다.
-5. 현재 메인 본선은 stable triad frozen reference set 재개가 아니라 closure sync / carryover watch 유지다.
+4. 현재 watch-reference mainline은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 `5대륙 closure sync / Section 8 -> 15 carryover watch`로 유지한다.
+5. 현재 watch-reference 기준은 stable triad frozen reference set 재개가 아니라 closure sync / carryover watch 유지다.
 6. named notable coverage 표와 bridge 요약은 operational profile 카드가 이미 잠근 `3-1. Policy Guard`를 존중하는 상위 reference층으로만 유지한다.
 7. named notable coverage 표와 bridge 요약은 `Section_15_Subline_Profile_*` 카드가 잠근
    `3-1. Policy Guard`도 같은 lower-card authority로 존중하는 상위 reference층으로만 유지한다.
