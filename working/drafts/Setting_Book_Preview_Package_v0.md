@@ -12,14 +12,14 @@ reader-facing preview 형태로 보여주기 위한 조립 지시서다.
 현재 압축 단일 reference는 `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`이고,
 이 preview package는 release 후보를 만들 때의 읽기 순서와 포함 범위를 정한다.
 
-현재 공유용 대표 preview는 `Setting_Book_Preview_Readable_v0.md`다.
+현재 공유용 preview는 `Setting_Book_Preview_Readable_v0.md`다.
 
 Current naming decision:
 
 - Keep `Setting_Book_Preview_Readable_v0.md` as the shareable preview file for now.
 - Do not rename it into a release-candidate file until row-level evidence notes and final layout direction are decided.
 - Use `A Living World Companion` as the v0 subtitle and keep the current cover-tone sentence aligned with the readable preview opening.
-- Keep `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` as the compressed sync/reference file name for now.
+- Keep `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` as the compressed reference file name for now.
 
 Release-candidate trigger:
 

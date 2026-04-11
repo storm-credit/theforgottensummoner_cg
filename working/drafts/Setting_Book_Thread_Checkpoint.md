@@ -39,6 +39,7 @@
 - 메인 허브, source hub, roles map의 preview/reference 용어를 한 기준으로 정렬
 - assembly index와 release readiness의 잔여 terminology도 preview/reference 기준으로 정리
 - prototype 표지 문구와 roles map quick table도 preview/reference 기준으로 정리
+- preview package 잔여 terminology도 preview/reference 기준으로 정리
 
 ## Core Files
 
@@ -94,6 +95,7 @@
 
 ## Recent Commit Line
 
+- `b72425a Refine setting book reference wording`
 - `84e0a9f Normalize setting book control terminology`
 - `05007f4 Update setting book terminology checkpoint`
 - `a24c3f9 Align setting book preview terminology`
@@ -176,3 +178,4 @@
 - preview terminology 정렬까지 `main` 반영 완료.
 - assembly index / release readiness terminology 정리까지 `main` 반영 완료.
 - prototype header와 roles map quick table terminology 정리까지 `main` 반영 완료.
+- preview package terminology 정리까지 `main` 반영 완료.
