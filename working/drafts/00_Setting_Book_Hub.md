@@ -26,6 +26,12 @@
 - 세력부터 보기: `01_Setting_Book_Faction_Hub.md`
 - 검증부터 보기: `06_Setting_Book_Appendix_Hub.md`
 
+헷갈릴 때 재진입 순서:
+
+1. `Setting_Book_Document_Roles_Map.md`
+2. `Setting_Book_Preview_Readable_v0.md`
+3. `07_Setting_Book_Process_Hub.md`
+
 ## 1. 지금 가장 읽기 쉬운 공유용 preview
 
 - `Setting_Book_Preview_Readable_v0.md`

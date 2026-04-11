@@ -42,6 +42,7 @@
 - preview package 잔여 terminology도 preview/reference 기준으로 정리
 - assembly index와 preview package의 shareable preview package 표현도 preview package 기준으로 정밀화
 - roles map의 preview package guide 표현도 preview package 기준으로 정리
+- 메인 허브 첫 화면에 재진입 순서를 추가해 다시 들어올 때 동선을 더 짧게 만듦
 
 ## Core Files
 
@@ -97,6 +98,7 @@
 
 ## Recent Commit Line
 
+- `df351a4 Refresh setting book latest checkpoint`
 - `13b72e9 Tighten setting book roles map wording`
 - `244fa00 Polish setting book preview package language`
 - `3878f71 Tighten setting book preview package wording`
@@ -186,3 +188,4 @@
 - prototype header와 roles map quick table terminology 정리까지 `main` 반영 완료.
 - preview package terminology 정리까지 `main` 반영 완료.
 - roles map preview package wording 정리까지 `main` 반영 완료.
+- latest checkpoint refresh까지 `main` 반영 완료.
