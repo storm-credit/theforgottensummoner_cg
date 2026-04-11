@@ -16,8 +16,8 @@
 
 | File | Primary Role | When To Open |
 | --- | --- | --- |
-| `Setting_Book_Preview_Readable_v0.md` | 현재 공유용 대표 readable preview | 누군가에게 먼저 보여 줄 때 |
-| `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | 본문+부록을 한 파일에 압축한 sync/reference | 전체 구조를 한 번에 점검할 때 |
+| `Setting_Book_Preview_Readable_v0.md` | 현재 공유용 readable preview | 누군가에게 먼저 보여 줄 때 |
+| `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | 본문+부록을 한 파일에 압축한 reference | 전체 구조를 한 번에 점검할 때 |
 | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | reader-facing body source manuscript | preview 본문이 어디서 조립됐는지 볼 때 |
 | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | technical appendix source manuscript | 검증 근거와 unresolved risk를 확인할 때 |
 | `Setting_Book_Front_Matter_Draft.md` | 표지 톤, subtitle, opening promise source | 설정집 첫인상과 약속 문구를 맞출 때 |
