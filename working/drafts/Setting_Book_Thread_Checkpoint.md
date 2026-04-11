@@ -114,10 +114,10 @@
 
 ## Recommended Next Queue
 
-1. preview readable 리듬과 문장 밀도 정리
-2. public assembly와 preview readable의 톤 패밀리 재점검
-3. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
-4. preview package 기준으로 `preview_v0_readable` 방향 계속 정리
+1. public assembly와 preview readable의 톤 패밀리 재점검
+2. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
+3. preview package 기준으로 `preview_v0_readable` 방향 계속 정리
+4. appendix assembly에 실제 표 1개 이상씩 심는 패스 검토
 5. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
 6. 안정 마일스톤마다 `main push gate` 확인
 
