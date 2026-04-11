@@ -15,22 +15,22 @@
 
 크림슨은 `15 Named Notables` 후보가 가장 안정적으로 보이는 대륙이다.
 
-다른 대륙은 후보가 대부분 `verify_before_15`에 걸려 있지만,
+다른 대륙은 후보가 대부분 `source_check_hold`에 걸려 있지만,
 크림슨은 아래 후보들이 비교적 15번 명사형 인물에 가깝다.
 
 | Candidate | State Snapshot | Read |
 |---|---|---|
-| 울프가르 드래곤포지 | `stable_15_workset / route_hierarchy_locked / grade_caution` | 용의 대장장이 / 공방장 |
-| 에리온 드라코비스 | `stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` | 고대어 해석가 / 대현자 / 관리자 |
-| 오그마 | `stable_15_workset / route_hierarchy_locked / act_watch` | 고룡 / 살아있는 도서관 |
-| 벨라나 스톰브링어 | `verify_before_15` | 현자 회의 / 주술사 / 고고학자 / SS급 폭풍의 여왕 |
-| 아리안 블레이즈하트 | `verify_before_15` | 현자 회의 / 전승 보존자 / S급 불의 사제 |
+| 울프가르 드래곤포지 | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution` | 용의 대장장이 / 공방장 |
+| 에리온 드라코비스 | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution / name_collision_watch` | 고대어 해석가 / 대현자 / 관리자 |
+| 오그마 | `stable_triad_frozen_reference_set / route_hierarchy_locked / act_watch` | 고룡 / 살아있는 도서관 |
+| 벨라나 스톰브링어 | `source_check_hold` | 현자 회의 / 주술사 / 고고학자 / SS급 폭풍의 여왕 |
+| 아리안 블레이즈하트 | `source_check_hold` | 현자 회의 / 전승 보존자 / S급 불의 사제 |
 
 경계 후보:
 
 | Candidate | State Snapshot | Reason |
 |---|---|---|
-| 드락사르 블레이즈포지 | `verify_before_15` | 불꽃 연금술사 가치가 있지만 A급 / 공병대장 / 신무기 테스트 신호가 있다. |
+| 드락사르 블레이즈포지 | `source_check_hold` | 불꽃 연금술사 가치가 있지만 A급 / 공병대장 / 신무기 테스트 신호가 있다. |
 | 카사르 더 시어 | `hold_for_dual_review` | 예언자 가치가 있지만 S급 / 최고 조언자 / 영웅록 신호가 있다. |
 
 ## Foldering Principle
@@ -60,12 +60,12 @@
 
 | Candidate | Proposed Route | Secondary Index | State |
 |---|---|---|---|
-| 울프가르 드래곤포지 | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `장인`, `대장장이`, `공방주`, `무구 제작` | `stable_15_workset / route_hierarchy_locked` |
-| 에리온 드라코비스 | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `현자`, `고대어`, `해석가`, `관리자` | `stable_15_workset / route_hierarchy_locked` |
-| 오그마 | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `살아있는 도서관`, `전승`, `조언자` | `stable_15_workset / route_hierarchy_locked` |
-| 벨라나 스톰브링어 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `주술사`, `사제`, `고고학자` | `verify_before_15` |
-| 아리안 블레이즈하트 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `전승 보존자`, `사제`, `현자` | `verify_before_15` |
-| 드락사르 블레이즈포지 | `hold` | `연금술사`, `공병`, `공방주` | `verify_before_15` |
+| 울프가르 드래곤포지 | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `장인`, `대장장이`, `공방주`, `무구 제작` | `stable_triad_frozen_reference_set / route_hierarchy_locked` |
+| 에리온 드라코비스 | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `현자`, `고대어`, `해석가`, `관리자` | `stable_triad_frozen_reference_set / route_hierarchy_locked` |
+| 오그마 | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `살아있는 도서관`, `전승`, `조언자` | `stable_triad_frozen_reference_set / route_hierarchy_locked` |
+| 벨라나 스톰브링어 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `주술사`, `사제`, `고고학자` | `source_check_hold` |
+| 아리안 블레이즈하트 | `hold / 크림슨 / 붉은 사막 부족 / 현자 회의` | `전승 보존자`, `사제`, `현자` | `source_check_hold` |
+| 드락사르 블레이즈포지 | `hold` | `연금술사`, `공병`, `공방주` | `source_check_hold` |
 | 카사르 더 시어 | `hold` | `예언자`, `조언자` | `hold_for_dual_review` |
 
 ## Route vs Place Lock
@@ -122,6 +122,6 @@
 
 후속 기준:
 
-1. `울프가르`, `에리온`, `오그마`는 route validation을 닫고 `Section_15_Folder_Structure_Draft.md` 기준 `stable_15_workset / route_hierarchy_locked` frozen-reference carryover 상태로 유지한다.
+1. `울프가르`, `에리온`, `오그마`는 route validation을 닫고 `Section_15_Folder_Structure_Draft.md` 기준 `stable_triad_frozen_reference_set / route_hierarchy_locked` frozen-reference carryover 상태로 유지한다.
 2. `벨라나`, `아리안`은 SS/S급 핵심 인물 신호가 확인되어 live 시트화로 넘기지 않고 14 경계 검증으로만 둔다.
 3. `드락사르`, `카사르`는 14 경계 hold reference로 유지한다.
