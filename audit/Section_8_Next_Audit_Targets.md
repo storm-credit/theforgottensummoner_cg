@@ -13,7 +13,7 @@
 항상 `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 읽는다.
 
 이 문서에 남은 `다음 8번 감사` 서술은
-현재 active workstream이 아니라 reference backlog로 읽는다.
+현재 workstream이 아니라 closed/reference backlog로 읽는다.
 
 우선순위:
 
@@ -35,7 +35,7 @@
 | 5 | `오벨리스크 / 망자의 왕국 / 잊힌 자들의 연합 / 봉인 수호단` | `closed_round1` | 오벨리스크는 `frontier_survival + guild_market` 본체와 `nontraditional elite thin-support`를 어떻게 분리할지 정책을 고정하는 샘플이었다. | 비정통 엘리트 정책 고정과 부족층 결손 유지 여부 판정. |
 | 6 | `범대륙 후기 확장` | `deferred_expansion_track` | 중요하지만 후기 증설 구역이라 후순위다. | display canon/deferred expansion 추가 검토. |
 
-## Immediate Next Target
+## Closed Target Snapshot
 
 `크림슨 / 용의 후예 / 붉은 사막 부족 연합` 1차 spine sample은 닫힌 것으로 본다.
 
@@ -49,15 +49,16 @@
 
 현재 실제 본선은 `5대륙 closure sync / Section 8 -> 15 carryover watch`다.
 
-다음 실제 신규 감사 대상은 `Section 8 루트 구조 / 표준 spine / 레거시 분리`다.
+이전 신규 감사 target은 `Section 8 루트 구조 / 표준 spine / 레거시 분리`였고,
+현재는 watch backlog로 유지한다.
 
 이유:
 
-- 이제 `1~5 대륙` 샘플이 모두 닫혀, 실제 루트 구조를 이 기준으로 다시 볼 수 있다.
-- 따라서 다음 배치는 개별 대륙이 아니라 `Section 8 루트 전체`의 중복, spine mismatch, legacy 분리를 재정렬하는 편이 맞다.
-- 이 단계를 닫아야 이후 `14번`과의 링크맵도 덜 흔들린다.
+- `1~5 대륙` 샘플이 모두 닫혀, 실제 루트 구조를 이 기준으로 읽는 근거가 마련됐다.
+- 개별 대륙 추가 배치가 아니라 `Section 8 루트 전체`의 중복, spine mismatch, legacy 분리 watch가 남아 있다.
+- 이 단계는 현재 신규 실행선이 아니라 closure sync / carryover watch의 reference backlog다.
 
-## Next Action
+## Reference Action Map
 
 현재 유지 문서:
 
@@ -86,57 +87,13 @@
 - `Section_8_Place_Network_Handoff_Map.md`
 - `Section_8_Status_Vocabulary_Guard.md`
 
-목표:
+reference backlog 상태:
 
-- `Section 8` 루트 전체를 이제 닫힌 5대륙 spine 기준으로 다시 읽는다.
-- 중복 루트, 레거시 경로, spine mismatch를 먼저 표시한다.
-- 대륙 샘플에서 잠근 분리 규칙을 루트 감사 기준으로 올린다.
-- `canonical_root` 기준으로 `section_style / place_style / mixed` 라벨링 큐를 만든다.
-- 핵심 canonical 세력의 1차 라벨 맵을 만든다.
-- `mixed` 후보를 별도 review queue로 빼서 재확인 우선순위를 고정한다.
-- `mixed` 1순위 2개에 대한 round 1 재검토 결과를 반영한다.
-- `P0 root_corruption`과 `P2 place-network pressure`를 mismatch 1차 사이클에 편입한다.
-- `mixed` 3~4순위 2개에 대한 round 2 재검토 결과를 반영한다.
-- `잊힌 자들의 연합` 단일 심층 패스로
-  `mixed` 유지와 `section_style` 하강 가능성을 분리하고,
-  구조 라벨 재판정을 반영한다.
-- `mixed` 1차 재검토 사이클이 닫힌 뒤에는
-  `spine_mismatch`와 구조 라벨 충돌 정합성 확인으로 넘어간다.
-- `프로스트본 연합`, `해적 연합`, `잊힌 자들의 연합` 3개는
-  mismatch 1차 패스로 넘겨
-  구조 라벨과 대륙 spine 오독 위험을 별도로 잠근다.
-- 남은 `P1 mismatch` 5개는
-  `Section_8_Spine_Mismatch_First_Pass_B.md`에서 닫고,
-  `바다의 교단 / 망자의 왕국 / 봉인 수호단`의 구조 라벨을
-  `place_style`이 아니라 `section_style`로 다시 잠근다.
-- `봉인 수호단`은 `place_style_flattened` mismatch를 유지하지 않고
-  `place pressure strong` 메모만 남긴다.
-- 따라서 다음 실제 신규 감사선은
-  `P0 root_corruption` 비교와
-  `P2 section_style_forced_on_place_network` 분리다.
-- `Section_8_Root_Corruption_First_Pass_A.md`는
-  `canonical_root / quarantine_root / legacy_root`를
-  범대륙 루트 충돌에 실제로 적용한 첫 판정문으로 사용한다.
-- `Section_8_Root_Subtree_Sampling_Queue.md`는
-  원본 경로 접근이 가능해질 때
-  어떤 subtree를 어떤 순서로 읽을지 고정하는 준비 큐로 사용한다.
-- `Section_8_Place_Network_P2_Queue.md`는
-  `place-heavy content`와 `place-led structure`를 섞지 않기 위한
-  별도 보조 큐로 사용한다.
-- `Section_8_Place_Network_Handoff_Map.md`는
-  `P2` 후보를 `anchor audit / place-institution sidecar / register note`로
-  실제 전달하는 연결표로 사용한다.
-- `Section_8_Status_Vocabulary_Guard.md`는
-  `mixed_keep`, `section_style_reclassify`, `mismatch_clear`, `watch_keep` 같은
-  상태어를 queue, map, compass에서 같은 의미로 쓰게 하는 기준표로 사용한다.
-- `Section_8_Mainline_Sync_Register.md`는
-  구조 라벨, mismatch, root, handoff, 진행표가
-  어느 문서끼리 동기화되어야 하는지 확인하는 장부로 사용한다.
-- `Section_15_State_Vocabulary_Guard.md`와 `Section_8_Mainline_Sync_Register.md`가 잠근
-  `subline_profile_authority` sync group은
-  `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`를 exact wording source로 유지하게 한다.
-- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
-  이미 닫힌 subline 교차감사 샘플로 보고,
-  새 drift가 생길 때만 해당 pair를 국소 재대조한다.
-- 실제 이동이나 원본 수정 없이 `cg` 안에서만 감사표를 작성한다.
-- 다만 현재 시점의 메인 유지선은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 closure sync / carryover watch다.
+- `Section 8` 루트 전체는 닫힌 5대륙 spine 기준으로 읽되, 현재는 신규 이동/병합/원본 수정 없이 watch reference로만 유지한다.
+- 중복 루트, 레거시 경로, spine mismatch, mixed exception, P1 mismatch round는 각 first-pass 문서에서 닫힌 상태로 본다.
+- `P0 root_corruption`은 `Section_8_Root_Corruption_First_Pass_A.md`와 `Section_8_Root_Subtree_Sampling_Queue.md` 기준으로만 유지한다.
+- `P2 section_style_forced_on_place_network`는 `Section_8_Place_Network_P2_Queue.md`와 `Section_8_Place_Network_Handoff_Map.md` 기준 handoff drift watch로만 유지한다.
+- `Section_8_Status_Vocabulary_Guard.md`는 `mixed_keep`, `section_style_reclassify`, `mismatch_clear`, `watch_keep`, `handoff_applied` 상태어를 같은 의미로 유지하는 기준표로 사용한다.
+- `Section_8_Mainline_Sync_Register.md`는 구조 라벨, mismatch, root, handoff, 진행표가 같은 현재 시점을 가리키는지 확인하는 장부로 사용한다.
+- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는 닫힌 subline 교차감사 샘플로 보고, 새 drift가 생길 때만 해당 pair를 국소 재대조한다.
+- 현재 시점의 메인 유지선은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 closure sync / carryover watch다.

@@ -20,7 +20,7 @@ reference 순서표로 보여주는 진행표다.
 
 1. `Section 8`의 `canonical_root / quarantine_root / legacy_root`는 고정 상태다.
 2. `Section 8`의 `section_style / mixed_keep / section_style_reclassify`는 고정 상태다.
-3. `Section_8_Spine_Mismatch_Queue.md`는 `P1 locked snapshot`과 `P0 / P2 active queue`를 분리한 상태로 유지한다.
+3. `Section_8_Spine_Mismatch_Queue.md`는 `P1 locked snapshot`과 `P0 / P2 watch queue`를 분리한 상태로 유지한다.
 4. stable triad package는 닫힌 상태로 유지하고, `support_hold`, `deferred_expansion_hold`, Ether hold cluster는 triad package 밖에서만 유지한다.
 5. `P2 place-pressure handoff` owner는 candidate index가 아니라 sidecar/register에서만 유지한다.
 6. 카드층 `Policy Guard`는 `Section 15` summary/index/folder/routing 문서에 이미 흡수된 상태로 유지한다.
@@ -77,10 +77,10 @@ reference 순서표로 보여주는 진행표다.
 
 아래는 조건이 충족될 때만 다시 올린다.
 
-1. 원본 접근이 가능해지면 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 subtree 샘플링 진행 여부를 다시 연다.
-2. 실제 원고 입력이나 새 증거 drift가 생기면 live handoff case를 우선 승격한다.
+1. 원본 접근이 가능해지면 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 reference sampling 필요 여부만 판단한다.
+2. 실제 원고 입력이나 새 증거 drift가 생기면 live handoff case를 먼저 watch note로 기록한다.
 3. carryover watch가 흔들리면 해당 계층만 국소 재점검한다.
-4. watch cycle이 안정된 뒤에만 다음 신규 closure batch 진행 여부를 판단한다.
+4. watch cycle이 안정된 뒤에만 신규 closure batch 후보 검토 여부를 판단한다.
 5. subline pair wording drift가 생기면 해당 pair만 다시 교차감사한다.
 
 ## Conductor Decision

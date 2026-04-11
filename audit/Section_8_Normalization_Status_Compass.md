@@ -1,6 +1,6 @@
 # Section 8 Normalization Status Compass
 
-이 문서는 현재 `Section 8` 정규화 본선이
+이 문서는 현재 `Section 8` closure sync / carryover watch 본선이
 어디까지 잠겼는지 한 장으로 보는 상태표다.
 
 ## Input
@@ -35,7 +35,7 @@
 - `subtree sampling prep`: `ready_when_source_available`
 - `place-network P2 queue`: `locked`
 - `place-network handoff`: `applied_round1`
-- `section8_to_15 closure sync watch`: `active_mainline`
+- `section8_to_15 closure sync watch`: `watch_mainline`
 - `five_continent_missing_layer_master_lock`: `closed_component_set`
 
 ## Root Status
@@ -107,7 +107,7 @@
 1. 새 후보를 늘리기보다 지금 잠근 결과를 충돌 없이 유지한다.
 2. `canonical_root / quarantine_root / legacy_root`를 활성 판단에서 섞지 않는다.
 3. `place pressure strong`과 `structure label`을 같은 것으로 취급하지 않는다.
-4. 원본 경로 접근이 가능해지면 `Section_8_Root_Subtree_Sampling_Queue.md` 기준으로 `S1 -> S2 -> S3` 순서 샘플링을 진행한다.
+4. 원본 경로 접근이 가능해지면 `Section_8_Root_Subtree_Sampling_Queue.md` 기준으로 `S1 -> S2 -> S3` reference sampling 필요 여부만 판단한다.
 5. 그 전까지는 `P2` 후보를 새로 늘리지 않고 현재 handoff가 sidecar/register에서 drift 없이 유지되는지 본다.
 6. `Section 8 -> 15`는 새 후보를 늘리기보다 `closure sync / carryover watch`가 summary, bridge, queue에서 같은 현재 시점을 가리키는지 먼저 본다.
 7. `1~5 대륙 결손층 5개`는 `Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 따라,
