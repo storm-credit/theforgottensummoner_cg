@@ -6,11 +6,11 @@
 
 이 축은 Named Notables와 별개다.
 
-current active state나 queue 판단은
+이 track은 current watch state나 queue 판단을 직접 소유하지 않고,
 `Section_15_Operational_Display_Canon_Candidates.md`,
 `Section_15_Group_Index.md`,
 `Continuous_Workstream.md`
-기준으로 읽는다.
+기준을 필요할 때 mirror해서 읽는다.
 
 ## Purpose
 
@@ -34,7 +34,7 @@ current active state나 queue 판단은
 ## Working Name Rule
 
 이 트랙의 많은 이름은
-reference용 `작업 구조 라벨`이다.
+reference용 `구조 scaffolding 라벨`이다.
 
 예:
 
@@ -69,10 +69,10 @@ reference용 `작업 구조 라벨`이다.
   모두 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한다.
 - representative subline pair
   (`Port Authority / Black Auction / Gravewell / Counterfeit Workshop`)는
-  draft/profile 교차감사가 닫힌 샘플로 유지되고,
+  닫힌 representative reference pair로 유지되고,
   exact wording source는 각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
 - 따라서 operational track은 라인 축만 요약하고,
-  개별 profile의 해석 세부는 하위 카드의 `3-1. Policy Guard`가 직접 담당한다.
+  개별 profile의 해석 세부는 하위 카드의 `3-1. Policy Guard`가 authoritative wording source로 남는다.
 - 이 track은 operational cluster type을 분류하는 상위 reference층이지,
   개별 profile의 정확한 guard 문장을 다시 써서 대체하는 문서가 아니다.
 - exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
@@ -83,7 +83,7 @@ reference용 `작업 구조 라벨`이다.
 
 ## Conductor Note
 
-이 트랙은 폐기하지 않고 reference axis로 유지한다.
+이 트랙은 stable reference axis로 유지한다.
 
 사용자가 말한 `유명 NPC층`과 분리해서,
 보조 축으로 계속 읽는다.
