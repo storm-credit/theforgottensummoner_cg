@@ -71,6 +71,7 @@
 - `working/drafts/The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
 - `working/drafts/Setting_Book_Release_Readiness_Checklist.md`
 - `working/drafts/Setting_Book_Preview_Package_v0.md`
+- `working/drafts/Setting_Book_Preview_Readable_v0.md`
 
 ## Recent Commit Line
 

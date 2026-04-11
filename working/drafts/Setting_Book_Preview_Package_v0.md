@@ -12,16 +12,19 @@ reader-facing preview 형태로 보여주기 위한 조립 지시서다.
 현재 대표 단일본은 `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`이고,
 이 preview package는 release 후보를 만들 때의 읽기 순서와 포함 범위를 정한다.
 
+현재 공유용 대표본은 `Setting_Book_Preview_Readable_v0.md`다.
+
 ## Preview Reading Order
 
 | Order | Section | Source File | Include Mode |
 | --- | --- | --- | --- |
-| 1 | Cover direction and reading promise | `Setting_Book_Front_Matter_Draft.md` | include before body |
-| 2 | Reader-facing table of contents | `Setting_Book_Reader_Facing_TOC_Draft.md` | include as navigation map |
-| 3 | Public body manuscript | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | include as main reading flow |
-| 4 | Technical appendix manuscript | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | include after body |
-| 5 | Release readiness check | `Setting_Book_Release_Readiness_Checklist.md` | keep as conductor-only note unless sharing with collaborators |
-| 6 | Single prototype reference | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | use as compressed reference and sync check |
+| 1 | Shareable readable preview | `Setting_Book_Preview_Readable_v0.md` | primary shareable manuscript |
+| 2 | Cover direction and reading promise source | `Setting_Book_Front_Matter_Draft.md` | source support for preview opening |
+| 3 | Reader-facing table of contents | `Setting_Book_Reader_Facing_TOC_Draft.md` | navigation map and future expansion guide |
+| 4 | Public body manuscript source | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | source support for preview body |
+| 5 | Technical appendix manuscript | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | include after body when verification context is needed |
+| 6 | Release readiness check | `Setting_Book_Release_Readiness_Checklist.md` | conductor-only gate before wider sharing |
+| 7 | Single prototype reference | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | compressed reference and sync check |
 
 ## Included Body Spine
 
@@ -76,10 +79,9 @@ Preview v0 should not claim:
 
 If this package is shared with a collaborator:
 
-1. Share `Setting_Book_Front_Matter_Draft.md` first.
-2. Share `Setting_Book_Public_Assembly_Manuscript_Draft.md` second.
-3. Share `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` only if they need verification context.
-4. Keep `Setting_Book_Release_Readiness_Checklist.md` and `Setting_Book_Assembly_Index.md` as conductor documents unless the collaborator is helping with structure.
+1. Share `Setting_Book_Preview_Readable_v0.md` first.
+2. Share `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` only if they need verification context.
+3. Keep `Setting_Book_Release_Readiness_Checklist.md`, `Setting_Book_Assembly_Index.md`, and `Setting_Book_Preview_Package_v0.md` as conductor documents unless the collaborator is helping with structure.
 
 ## Next Preview Build
 
@@ -95,4 +97,4 @@ Current conductor choice:
 Proceed toward `preview_v0_readable` first.
 
 The package already has enough verification structure.
-The next gain comes from making the public body read like one intentional book rather than a bundle of samples.
+The next gain comes from making `Setting_Book_Preview_Readable_v0.md` read like one intentional book rather than a bundle of samples.

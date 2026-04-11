@@ -33,7 +33,7 @@
 
 이 책은 두 층으로 읽을 수 있다.
 
-### 1. Public Body
+### 1. Main Book
 
 본문은 읽히는 세계를 위한 층이다.
 
@@ -47,7 +47,7 @@
 - 사람들이 왜 어떤 이름과 물건을 찾아가는지
 - 낯선 존재들이 어떻게 사람, 계보, 상태, 괴물로 갈라지는지
 
-### 2. Technical Appendix
+### 2. Appendix
 
 부록은 검증과 작업을 위한 층이다.
 
@@ -117,7 +117,7 @@
 ## Placement Note
 
 이 front matter는 현재
-`Setting_Book_Public_Assembly_Manuscript_Draft.md` 앞에 붙을 후보 원고다.
+`Setting_Book_Preview_Readable_v0.md`의 앞부분을 구성하는 후보 원고다.
 
 다음 단계에서는
 표지 문구, 부제, 목차, 본문 opening을 서로 어색하지 않게 다듬는 작업이 필요하다.

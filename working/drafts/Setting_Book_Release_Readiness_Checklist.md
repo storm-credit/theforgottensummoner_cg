@@ -18,6 +18,7 @@ reader-facing release 후보로 볼 수 있는지 점검하는 관문이다.
 | cover / opening | `Setting_Book_Front_Matter_Draft.md` | 독자에게 이 책의 목적과 읽는 법을 먼저 설명한다. |
 | reader map | `Setting_Book_Reader_Facing_TOC_Draft.md` | 기술 초안 0-8장을 독자용 목차로 번역한다. |
 | public body | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | 실제로 읽히는 본문 흐름을 시험한다. |
+| readable preview | `Setting_Book_Preview_Readable_v0.md` | front matter와 public body를 한 권처럼 읽히게 묶은 현재 공유용 시안이다. |
 | technical appendix | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | 본문 뒤의 검증표와 경계 관리를 보존한다. |
 | single prototype | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | 본문과 A-E 부록을 한 파일에 압축한 현재 대표본이다. |
 | conductor index | `Setting_Book_Assembly_Index.md` | 작업 상태, main push gate, 다음 큐를 관리한다. |
@@ -39,15 +40,16 @@ reader-facing release 후보로 볼 수 있는지 점검하는 관문이다.
 release 후보로 묶기 전에 아래를 통과해야 한다.
 
 1. `public body`가 front matter와 같은 약속을 말한다.
-2. `appendix assembly`가 A-E 흐름을 유지한다.
-3. `prototype v0`가 현재 대표본으로 최신 상태다.
-4. 독자용 본문에 raw status label, 파일 경로 설명, audit jargon이 튀어나오지 않는다.
-5. 부록 표는 새 lore를 발명하지 않고, 검증과 승격 기준만 보존한다.
-6. 이름 충돌, 종족 승격, 아이템 승격은 각각 Appendix D, E, B를 통과한다.
-7. prototype, public assembly, appendix assembly, TOC가 Appendix A-E를 같은 구조로 가리킨다.
-8. 설정집 계열 파일 스캔에서 금지 표현과 미완료 표식이 나오지 않는다.
-9. 사용자 변경 파일이 release 커밋에 섞이지 않는다.
-10. 안정 마일스톤이면 `Main Push Gate`를 통과한 뒤 `main`에 fast-forward push한다.
+2. `readable preview`가 front matter와 public body의 중복 설명 없이 한 권처럼 읽힌다.
+3. `appendix assembly`가 A-E 흐름을 유지한다.
+4. `prototype v0`가 현재 대표본으로 최신 상태다.
+5. 독자용 본문에 raw status label, 파일 경로 설명, audit jargon이 튀어나오지 않는다.
+6. 부록 표는 새 lore를 발명하지 않고, 검증과 승격 기준만 보존한다.
+7. 이름 충돌, 종족 승격, 아이템 승격은 각각 Appendix D, E, B를 통과한다.
+8. prototype, public assembly, appendix assembly, TOC가 Appendix A-E를 같은 구조로 가리킨다.
+9. 설정집 계열 파일 스캔에서 금지 표현과 미완료 표식이 나오지 않는다.
+10. 사용자 변경 파일이 release 커밋에 섞이지 않는다.
+11. 안정 마일스톤이면 `Main Push Gate`를 통과한 뒤 `main`에 fast-forward push한다.
 
 ## Current V0 Assessment
 

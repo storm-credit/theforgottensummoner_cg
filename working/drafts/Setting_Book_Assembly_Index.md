@@ -31,6 +31,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | Holds the current single-file prototype with expanded body sections and A-E appendix flow. |
 | `Setting_Book_Release_Readiness_Checklist.md` | Cross-checks front matter, TOC, body, appendix, prototype, and main push gate before release packaging. |
 | `Setting_Book_Preview_Package_v0.md` | Defines the reader-facing preview package order and what v0 may safely claim. |
+| `Setting_Book_Preview_Readable_v0.md` | Serves as the current shareable readable preview manuscript. |
 
 ## Assembly Principle
 
