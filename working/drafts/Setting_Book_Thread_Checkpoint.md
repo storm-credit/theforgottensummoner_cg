@@ -70,6 +70,7 @@
 - `working/drafts/Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `working/drafts/The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
 - `working/drafts/Setting_Book_Release_Readiness_Checklist.md`
+- `working/drafts/Setting_Book_Preview_Package_v0.md`
 
 ## Recent Commit Line
 
@@ -102,7 +103,7 @@
 
 ## Recommended Next Queue
 
-1. release readiness checklist 기준으로 preview manuscript 묶기
+1. preview package 기준으로 `preview_v0_readable` 방향 진행
 2. public manuscript style-unification pass
 3. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
 4. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
