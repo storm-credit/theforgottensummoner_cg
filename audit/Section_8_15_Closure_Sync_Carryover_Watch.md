@@ -50,6 +50,9 @@
     named notable 승인 논리로 역수입하지 않는다.
 12. `결손층 5개`의 thin/support 판정은 이 watch 문서가 새로 확정하지 않고,
     `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
+13. `Five_Continent_Missing_Layer_Master_Lock.md` 아래 component set은
+    closeout 완료 상태로 보고,
+    새 evidence가 들어오기 전까지는 root / structure / mismatch / P2 handoff watch를 우선한다.
 
 ## Watch Table
 
@@ -62,6 +65,7 @@
 | `lower-card authority` | `separated_and_respected` | `Section_15_Named_Notables_Register.md`, `Section_15_Profile_Draft_Index.md`, `Section_15_Profile_*`, `Section_15_Subline_Profile_*` | 상위 summary가 하위 `3-1. Policy Guard`를 재정의하는 것 | register/index는 비교 문서로만 쓰고, exact wording source는 각 profile/subline profile 카드에 남긴다 |
 | `P2 place-pressure` | `handoff_applied` | `Section_8_Place_Network_Handoff_Map.md` | candidate index나 summary에 place owner를 재정의하는 것 | owner는 sidecar/register만 가진다 |
 | `root / deferred axis` | `guarded` | `Section_8_Normalization_Status_Compass.md` | 범대륙 후기 확장을 메인 본선처럼 재상승 | deferred routing만 유지 |
+| `missing-layer master lock` | `closed_component_set` | `Five_Continent_Missing_Layer_Master_Lock.md` | component shorthand가 단일 entry authority처럼 재상승하는 것 | master lock 아래 component set으로만 유지 |
 
 ## Immediate Drift Triggers
 
@@ -95,6 +99,8 @@
     대표 짝 교차감사가 이미 닫힌 상태로 읽고,
     wording-source drift가 생길 때만 국소 대조한다.
 11. 위 1~10이 모두 잠긴 뒤에만 다음 신규 closure batch나 subtree sampling 재개 여부를 판단한다.
+12. missing-layer component set은 closeout reference로만 보고,
+    새 evidence 전까지는 `root / structure / mismatch / P2 handoff` snapshot을 먼저 본다.
 
 ## Conductor Checklist
 

@@ -12,6 +12,7 @@
 8. `1~5 대륙 결손층 5개` second-pass repeated evidence anchor 완료
 9. `1~5 대륙 결손층 5개` overread firewall 완료
 10. `1~5 대륙 결손층 5개` master lock entry 완료
+11. `1~5 대륙 결손층 5개` component authority closeout 완료
 
 ## Focus Snapshot
 
@@ -37,14 +38,16 @@
    새 설정 발명이나 강한 층 승격으로 바로 넘기지 않는다
 16. 설정집 본선으로 돌아갈 때도 `결손층 보강`은
    `admissible evidence class / reject class / safe record` 순서로만 다룬다
-17. `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`를
-   1차 샘플 기준으로 유지하고, 같은 방향의 반복 증거만 추가한다
-18. `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md`를
-   반복 증거 안정화 기준으로 유지하고, 승격이 아니라 overread 차단 쪽으로만 확장한다
-19. `Five_Continent_Missing_Layer_Overread_Firewall.md`를
-   대륙별 reject class firewall로 유지하고, 새 evidence도 이 차단선 안에서만 받는다
+17. `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`는
+   닫힌 1차 sample component로 유지하고, 같은 방향의 반복 증거가 들어올 때만 reference로 대조한다
+18. `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md`는
+   닫힌 반복 증거 안정화 component로 유지하고, 승격이나 새 확장 근거로 쓰지 않는다
+19. `Five_Continent_Missing_Layer_Overread_Firewall.md`는
+   닫힌 reject-class firewall component로 유지하고, 새 evidence도 이 차단선 안에서만 받는다
 20. `Five_Continent_Missing_Layer_Master_Lock.md`를
    결손층 5개 본선의 단일 entry reference로 유지한다
+21. missing-layer component set은 closeout reference로만 유지하고,
+   새 evidence 전까지는 `root / structure / mismatch / P2 handoff` watch를 우선한다
 
 ## Ordered Watch Snapshot
 

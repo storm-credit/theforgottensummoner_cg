@@ -36,7 +36,7 @@
 - `place-network P2 queue`: `locked`
 - `place-network handoff`: `applied_round1`
 - `section8_to_15 closure sync watch`: `active_mainline`
-- `five_continent_missing_layer_policy`: `locked`
+- `five_continent_missing_layer_master_lock`: `closed_component_set`
 
 ## Root Status
 
@@ -102,7 +102,7 @@
 
 ## Conductor Lock
 
-현재 이 본선에서 바로 해야 할 일:
+현재 이 본선에서 유지할 lock:
 
 1. 새 후보를 늘리기보다 지금 잠근 결과를 충돌 없이 유지한다.
 2. `canonical_root / quarantine_root / legacy_root`를 활성 판단에서 섞지 않는다.
@@ -112,6 +112,8 @@
 6. `Section 8 -> 15`는 새 후보를 늘리기보다 `closure sync / carryover watch`가 summary, bridge, queue에서 같은 현재 시점을 가리키는지 먼저 본다.
 7. `1~5 대륙 결손층 5개`는 `Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 따라,
    thin/support 범위와 evidence/firewall 순서를 넘겨 읽지 않는다.
+   이 compass의 stage label은 component shorthand일 뿐,
+   결손층 authority를 master lock 밖으로 옮기지 않는다.
 8. `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`는 exact wording source로 유지하고,
    상위 summary / bridge / watch 문서가 이를 재정의하지 않는지 함께 본다.
 9. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는

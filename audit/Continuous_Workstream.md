@@ -37,6 +37,9 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 13. `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`는
     exact wording source로 유지되고,
     상위 summary / bridge / watch 문서는 그 wording source를 참조만 한다.
+14. `Five_Continent_Missing_Layer_Master_Lock.md` 아래 component set은
+    closeout reference로 유지하고,
+    새 evidence 전까지는 `root / structure / mismatch / P2 handoff` watch를 우선한다.
 
 ## Ordered Cycle
 
@@ -56,6 +59,8 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 11. `subline_profile_authority` sync group이
     `Section_15_State_Vocabulary_Guard.md`, `Section_8_Mainline_Sync_Register.md`,
     summary / bridge / watch 문서에 같은 문장으로 유지되는지 확인한다.
+12. missing-layer master lock component set은 닫힌 reference로 보고,
+    새 evidence가 생기기 전에는 `root / structure / mismatch / P2 handoff` snapshot 점검을 우선한다.
 
 ## Input Reference Set
 
@@ -78,6 +83,7 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 15. `audit/Audit_Queue.md`
 16. `audit/Next_Sequential_Workstream.md`
 17. `audit/Historical_Batch_Reading_Guard.md`
+18. `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 
 ## Reference Backlog
 
