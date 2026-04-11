@@ -23,7 +23,7 @@
 - appendix sample 작성
 - public manuscript assembly draft 작성
 - appendix manuscript assembly draft 작성
-- single prototype v0 작성
+- compressed single-file reference `Prototype_v0` 작성
 - prototype 본문 1차 확장: Ether, Crossroad Cities, People, Relics, Species/Bloodlines/States
 - `main push gate` 고정점 추가
 - 허브 사용성 패스 마감
@@ -37,6 +37,7 @@
 - preview package와 assembly index의 package-role 표현도 preview/reference 기준으로 정밀화
 - 메인 허브 구간 수 표기를 실제 구조에 맞게 정합화
 - 메인 허브, source hub, roles map의 preview/reference 용어를 한 기준으로 정렬
+- assembly index와 release readiness의 잔여 terminology도 preview/reference 기준으로 정리
 
 ## Core Files
 
@@ -92,6 +93,7 @@
 
 ## Recent Commit Line
 
+- `05007f4 Update setting book terminology checkpoint`
 - `a24c3f9 Align setting book preview terminology`
 - `11a0e98 Refresh setting book checkpoint commits`
 - `081581e Fix setting book hub section count`
@@ -170,3 +172,4 @@
 - package roles wording 정리까지 `main` 반영 완료.
 - 허브 section count 정합화까지 `main` 반영 완료.
 - preview terminology 정렬까지 `main` 반영 완료.
+- assembly index / release readiness terminology 정리까지 `main` 반영 완료.

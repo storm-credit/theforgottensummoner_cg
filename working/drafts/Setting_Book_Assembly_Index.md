@@ -82,7 +82,7 @@ Completed checks:
 - 0-8 chapter draft files exist.
 - public manuscript assembly draft exists.
 - appendix manuscript assembly draft exists.
-- single prototype v0 exists and currently carries the expanded body spine.
+- compressed single-file reference `Prototype_v0` exists and currently carries the expanded body spine.
 - Current setting-book files do not contain the older stable-triad label.
 - Current setting-book files do not use the old watch/reference phrasing.
 - Current setting-book files do not use the old watch-keep display state in tables.
@@ -104,7 +104,7 @@ Recommended next sequence:
 아래 조건을 만족하는 적정 시점에만 `main`으로 올린다.
 
 1. 현재 작업 브랜치가 원격에 푸시되어 있다.
-2. 단일 prototype 파일이 최신 흐름을 대표한다.
+2. `Setting_Book_Preview_Readable_v0.md`는 최신 shareable preview이고, `Prototype_v0`는 최신 compressed reference로 유지된다.
 3. 설정집 계열 파일에서 금지 표현과 미완료 표식 스캔이 깨끗하다.
 4. 사용자 또는 별도 작업 파일이 섞여 있지 않다.
 5. 다음 단계가 실험 확장이 아니라 안정본 보존일 때다.
@@ -118,6 +118,7 @@ Recommended next sequence:
 최근 gate 통과:
 
 - 허브 사용성 마감 패스까지 `main`에 fast-forward push 완료.
+- preview/reference terminology alignment 패스까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
