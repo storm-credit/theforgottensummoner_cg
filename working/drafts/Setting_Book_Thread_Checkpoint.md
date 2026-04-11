@@ -32,6 +32,8 @@
 - 문서 역할 지도를 추가해 허브 진입 동선 보강
 - source hub와 handoff 문구를 preview/reference 기준으로 정밀화
 - 허브 체크리스트에 document roles map 진입 경로 반영
+- 분야 허브 전반에 document roles map 복귀선 추가
+- release readiness도 preview/reference 구분 문장으로 정렬
 
 ## Core Files
 
@@ -87,6 +89,7 @@
 
 ## Recent Commit Line
 
+- `d154cac Link setting book hubs to roles map`
 - `3aafd6a Polish setting book hub entry routes`
 - `4027c8b Refine setting book handoff navigation`
 - `d29dadc Tighten setting book package wording`
@@ -154,3 +157,4 @@
 - 허브 사용성 마감 패스까지 `main`에 fast-forward push 완료.
 - 문서 역할 지도 추가와 prototype 역할 고정까지 `main` 반영 완료.
 - handoff navigation과 hub entry route polishing까지 `main` 반영 완료.
+- 분야 허브 roles-map 연결까지 `main` 반영 완료.
