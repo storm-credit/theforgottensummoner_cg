@@ -39,13 +39,13 @@
 
 ## 물건 축 빠른 인덱스
 
-| Item Lens | Main Question | First Click |
+| 지금 하고 싶은 일 | 왜 이 길로 가나 | First Click |
 | --- | --- | --- |
-| 읽는 물건 | 누가 왜 이 물건을 원하는가 | `Setting_Book_Preview_Readable_v0.md` |
-| 대표 물건축 | 지금 어떤 물건군이 story-bearing 후보인가 | `Setting_Book_Items_Core_Profiles_v0.md` |
-| 승격 규칙 | 후보를 언제 본문 엔트리로 올릴 수 있는가 | `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md` |
-| 승격 검증 | 아직 후보인지, 보류인지, 승격 가능한지 | `Setting_Book_Appendix_Sample_Item_Promotion.md` |
-| 이름 충돌 | bare item name이 사람/가문/개념과 충돌하는가 | `Setting_Book_Appendix_Sample_Name_Collision.md` |
+| 책처럼 읽는 물건 | reader-facing 물건축을 먼저 보고 싶을 때 | `Setting_Book_Preview_Readable_v0.md` |
+| 대표 물건만 빨리 보기 | story-bearing 후보 중간층을 먼저 잡을 때 | `Setting_Book_Items_Core_Profiles_v0.md` |
+| 승격 규칙 보기 | 후보를 언제 본문 엔트리로 올릴 수 있는지 볼 때 | `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md` |
+| 후보 / 보류 검증 | 아직 후보인지, 보류인지, 승격 가능한지 볼 때 | `Setting_Book_Appendix_Sample_Item_Promotion.md` |
+| 이름 충돌 확인 | bare item name이 사람/가문/개념과 충돌하는지 볼 때 | `Setting_Book_Appendix_Sample_Name_Collision.md` |
 
 ## 물건 축 핵심 구분
 

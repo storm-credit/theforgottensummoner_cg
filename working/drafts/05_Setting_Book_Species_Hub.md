@@ -41,13 +41,13 @@
 
 ## 종족 축 빠른 인덱스
 
-| Species Lens | Main Question | First Click |
+| 분류 그룹 | 왜 이 길로 가나 | First Click |
 | --- | --- | --- |
-| 읽는 종족축 | 사람들, 혈통, 상태가 본문에서 어떻게 읽히는가 | `Setting_Book_Preview_Readable_v0.md` |
-| 대표 분류축 | 지금 어떤 분류가 people / bloodline / state / monster로 잡히는가 | `Setting_Book_Species_Core_Profiles_v0.md` |
-| 구조 규칙 | 종족 분류 틀과 과승격 금지는 무엇인가 | `Setting_Book_Chapter_6_Species_Framework_Draft.md` |
-| 근거 로그 | 어떤 신호가 실제 peoplehood 증거인지 | `Race_Species_Evidence_Log.md` |
-| 분류 가드 | 이름만 멋있다고 종족 문명으로 올리지 않는 기준은 무엇인가 | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` |
+| peoplehood 후보 | 정착, 연속성, 세력 관계가 있는 people 후보를 볼 때 | `Setting_Book_Species_Core_Profiles_v0.md` |
+| bloodline 후보 | 혈통, 낙인, 계승 신호를 먼저 분리할 때 | `Setting_Book_Chapter_6_Species_Framework_Draft.md` |
+| state / transformation | 언데드화, 정령화, 후천 상태를 볼 때 | `Setting_Book_Chapter_6_Species_Framework_Draft.md` |
+| monster / unclear signal | 조우, 위협, 불안정 라벨을 근거 로그로 볼 때 | `Race_Species_Evidence_Log.md` |
+| Ocean / Spirit Union 주의 구간 | 국지 enclave나 umbrella culture를 조심해서 볼 때 | `Setting_Book_Species_Core_Profiles_v0.md` |
 
 ## 종족 축 핵심 구분
 

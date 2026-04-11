@@ -39,13 +39,13 @@
 
 ## 장소 축 빠른 인덱스
 
-| Place Lens | Main Question | First Click |
+| 장소 그룹 | 왜 이 길로 가나 | First Click |
 | --- | --- | --- |
-| 읽는 장소 | 이 장소가 어떤 장면과 긴장을 여는가 | `Setting_Book_Preview_Readable_v0.md` |
-| 대표 장소축 | 지금 어떤 장소가 반복 앵커로 읽히는가 | `Setting_Book_Places_Core_Profiles_v0.md` |
-| 구조와 경로 | 지도, 이동, 관문, 비용이 어떻게 묶이는가 | `Setting_Book_Chapter_7_Spatial_Map_Draft.md` |
-| 이동 검증 | 항로와 그림자 길을 어떻게 통제하는가 | `Setting_Book_Appendix_Sample_Place_Travel.md` |
-| 세력 압력 연결 | 장소 압력과 세력 구조가 어디서 맞물리는가 | `01_Setting_Book_Faction_Hub.md` |
+| Crossroad Cities / 반복 앵커 | 지금 가장 구체적으로 반복되는 도시 앵커를 먼저 볼 때 | `Setting_Book_Places_Core_Profiles_v0.md` |
+| 항구 / 관문 / 길목 | threshold, 통행, 밀수, 입항 같은 경계 비용을 볼 때 | `Setting_Book_Appendix_Sample_Place_Travel.md` |
+| 성소 / 기억 장소 | 순례, 봉인, 기억 압력 같은 장소 기능을 볼 때 | `Setting_Book_Places_Core_Profiles_v0.md` |
+| 공방 / 탑 / 권한 장소 | 제작, 연구, 접근 권한이 어떻게 묶이는지 볼 때 | `Setting_Book_Chapter_7_Spatial_Map_Draft.md` |
+| 그림자 길 / 위험 이동 | underpath, 비공식 이동, 위험 지리를 볼 때 | `Setting_Book_Chapter_7_Spatial_Map_Draft.md` |
 
 ## 장소 축 핵심 구분
 

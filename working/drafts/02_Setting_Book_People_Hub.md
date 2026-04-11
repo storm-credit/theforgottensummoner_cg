@@ -40,13 +40,13 @@
 
 ## 인물 축 빠른 인덱스
 
-| People Lens | Main Question | First Click |
+| 지금 찾는 것 | 왜 이 길로 가나 | First Click |
 | --- | --- | --- |
-| 중심 영웅축 | 이 세계가 누구의 선택과 부담으로 움직이는가 | `Setting_Book_Preview_Readable_v0.md` |
-| Named Notables | 왜 사람들이 이 이름을 찾아가야 하는가 | `Setting_Book_People_Core_Profiles_v0.md` |
-| Operational Lines | 운영자, 기록자, 장인, 실무선은 어디에 묶이는가 | `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md` |
-| 경계 후보 | 영웅축과 명사층이 어디서 충돌하는가 | `Setting_Book_Appendix_Sample_14_15_Boundary.md` |
-| 이름 충돌 | 같은 이름이 다른 인물층을 오염시키는가 | `Setting_Book_Chapter_4_Naming_Normalization_Draft.md` |
+| 책처럼 읽는 인물층 | reader-facing 인물축이 먼저 필요할 때 | `Setting_Book_Preview_Readable_v0.md` |
+| 대표 인물만 빨리 보기 | stable notable 중심 중간층을 먼저 잡을 때 | `Setting_Book_People_Core_Profiles_v0.md` |
+| 운영층 / 실무선 보기 | 기록자, 장인, 운영자가 어디에 묶이는지 볼 때 | `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md` |
+| 경계 후보 보기 | 영웅축과 명사층 충돌을 먼저 확인할 때 | `Setting_Book_Appendix_Sample_14_15_Boundary.md` |
+| 이름 충돌 확인 | 같은 이름이 다른 인물층을 오염시키는지 볼 때 | `Setting_Book_Chapter_4_Naming_Normalization_Draft.md` |
 
 ## 인물 축 핵심 구분
 
