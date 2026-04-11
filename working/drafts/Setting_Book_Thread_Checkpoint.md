@@ -109,6 +109,7 @@
 
 ## Recent Commit Line
 
+- `4c1e890 Add setting book status dashboard`
 - `488e6ef Record release candidate trigger status`
 - `1200776 Align evidence depth package status`
 - `c0f3c20 Add appendix sample evidence checks`
