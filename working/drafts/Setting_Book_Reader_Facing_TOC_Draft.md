@@ -201,8 +201,9 @@ Suggested appendix sections:
 3. Name Variant and Collision Register
 4. Item Promotion Register
 5. Place and Travel Function Tables
-6. Rumor, Secret, Reveal, and Foreshadow Controls
-7. Source Manifests and Coverage Notes
+6. Species Classification Guard
+7. Rumor, Secret, Reveal, and Foreshadow Controls
+8. Source Manifests and Coverage Notes
 
 Internal source:
 
@@ -241,4 +242,3 @@ Target voice:
 This table of contents is the first reader-facing assembly bridge.
 
 The next practical step is to polish one sample section, preferably the opening or Ether Continent, so the final setting-book voice can be tested before converting every chapter.
-
