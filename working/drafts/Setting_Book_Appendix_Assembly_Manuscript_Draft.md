@@ -39,6 +39,15 @@
 - 왜 아직 본문 확정이 아닌지
 - 영웅축과 명사층 사이의 오해 위험
 
+Representative table:
+
+| Candidate | Current Signal | Safest Current Handling | Why Not Body-Final Yet |
+| --- | --- | --- | --- |
+| Draksar Blazeforge | alchemy workshop, A-rank signal, engineering commander, new weapon testing | verify before 15 | Strong artisan value, but combat and hero-sheet signals may keep him in 14. |
+| Melisandre | chief great apothecary, S+ signal, highest decision-maker of Kirke elixir group | dual review hold | Organization-notable value is high, but rank and leadership weight may make her hero-axis material. |
+| Kasar the Seer | dragon prophet, highest adviser, trial tower management, legendary hero signal | dual review hold | Prophetic notable value is high, but legendary and Act-relevant signals require 14 check. |
+| Moira Wildwave | named directly in Free Cities material with heroic epithet and Act links | verify before 15 | Contact-role value is useful, but hero-style listing may already belong to 14. |
+
 ---
 
 ## Appendix B. Item Promotion Candidates
@@ -63,6 +72,15 @@
 대표 충돌 항목:
 
 - `Aegis`
+
+Representative table:
+
+| Candidate Type | Evidence Needed | Desire Hook Needed | Body Decision |
+| --- | --- | --- | --- |
+| personal weapon | owner, use context, variant check | why the bearer needs or fears it | promote only if it reveals character, lineage, cost, or conflict |
+| growth item | change condition, bond rule, owner or inheritor | what unlocks, awakens, breaks, or refuses the bearer | strong body candidate if tied to emotional progression |
+| ego item | will, memory, voice, chooser logic, refusal pattern | what the item wants and why the bearer cannot simply command it | strong body candidate if personality affects story |
+| legendary group item | group name, missing count, origin pattern, member distinction | completion desire, missing pieces, rumor, previous bearers | body entry can introduce the group before every item is solved |
 
 ---
 
@@ -99,6 +117,15 @@
 - underpath
 - arcane_route
 
+Representative table:
+
+| Place | Primary Function | Route Type | What Moves Here | Cost or Gate | Story Pressure |
+| --- | --- | --- | --- | --- | --- |
+| 골든마르크 | market | merchant_road | 합법 상권 정보, 사치품, 외교 문서, 계약 소문 | 통행세, 상단 허가, 금융 추적 | 번영과 감시가 함께 작동한다. |
+| 포트 넥서스 | threshold, underworld_node | sea_lane, underpath | 화물, 밀수품, 외지인, 재회, 배신 소문 | 항만세, 입항 허가, 소개자, 야간 통행 위험 | 합법 무역과 불법 접선이 같은 부두에서 충돌한다. |
+| 머시너리 게이트 | threshold | merchant_road | 용병 계약, 평판, 중재 기록, 블랙리스트 | 계약 보증금, 길드 승인, 분쟁 기록 | 명예와 실리가 같은 장부에 적힌다. |
+| 검은 고양이 | underworld_node | underpath | 청부 연락, 밀수 약속, 비밀 정보, 사라진 이름 | 암호, 단골 신뢰, 현장 소개 | 말 한마디가 계약이 되기도 함정이 되기도 한다. |
+
 ---
 
 ## Appendix D. Name Collision Control
@@ -130,6 +157,15 @@
 - 본문에서 필요한 임시 식별자
 - source check가 끝나기 전까지의 보존 규칙
 
+Representative table:
+
+| Collision Cluster | Current Safe Handling | Why It Must Stay Split |
+| --- | --- | --- |
+| Sylvia | Kirke Sylvia, Sylvia Arkham, Oceanic Sylvia, Sylvia Phantom을 separate candidates로 유지 | 기록자, 항해자, 심연 계열, 망자 계열이 서로 다른 층에 걸려 있다. |
+| Aegis | person, surname, relic, shield concept, defensive magic을 분리 유지 | 인물명과 유물명, 개념어가 동시에 겹쳐 있어 가장 위험한 병합군이다. |
+| Ravenfell / Marcus | Marcus Ravenfell, Maxwell Ravenfell, Marcus Corvus를 분리 유지 | 이름 흔들림과 별도 인물 가능성이 함께 존재한다. |
+| Mera | Mera Lylewind와 Mera Sylphid를 분리 유지 | 정령연합 외교축과 직접 14 영웅축 가능성이 겹친다. |
+
 ---
 
 ## Appendix Use Rule
@@ -156,4 +192,3 @@
 각 부록 섹션에 실제 표를 더 정교하게 붙이고,
 본문과의 링크를 명확히 적어
 누가 봐도 “읽는 책”과 “검증하는 부록”의 역할이 분리되게 만드는 것이 우선이다.
-
