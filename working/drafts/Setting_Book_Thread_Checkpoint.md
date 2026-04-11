@@ -27,7 +27,7 @@
 - prototype 본문 1차 확장: Ether, Crossroad Cities, People, Relics, Species/Bloodlines/States
 - `main push gate` 고정점 추가
 - 허브 사용성 패스 마감
-- 세력 축 중간 정리본 착수
+- 핵심 다섯 축 중간 정리본 작성 및 메인 흐름 연결
 
 ## Core Files
 
@@ -82,6 +82,7 @@
 
 ## Recent Commit Line
 
+- `498c5fe Integrate setting book core profile bridges`
 - `e1cc037 Close setting book hub usability pass`
 - `f96140c Record validated setting book hub journeys`
 - `fe9604c Trim final setting book hub redundancy`
@@ -113,10 +114,10 @@
 
 ## Recommended Next Queue
 
-1. `Faction / People / Places / Items / Species Core Profiles`를 기준으로 prototype/public assembly 연결 보강 여부 판단
-2. preview package 기준으로 `preview_v0_readable` 방향 진행
-3. public manuscript style-unification pass
-4. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
+1. public manuscript style-unification pass
+2. preview readable 리듬과 문장 밀도 정리
+3. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
+4. preview package 기준으로 `preview_v0_readable` 방향 계속 정리
 5. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
 6. 안정 마일스톤마다 `main push gate` 확인
 

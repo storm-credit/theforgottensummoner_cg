@@ -9,6 +9,9 @@
 기술 초안과 appendix 설계를 숨기고,
 실제로 읽히는 책의 리듬이 살아나는지 확인하는 데 목적이 있다.
 
+현재는 reader-facing 본문을 앞에 두고,
+세력 / 인물 / 장소 / 유물 / 종족 축은 별도의 `Core Profile Companion Set`이 뒤에서 이 조립본을 받치는 구조로 운용한다.
+
 ---
 
 ## Opening: How to Read This World
@@ -299,6 +302,10 @@ Spirit Union은 이 구분이 특히 필요한 곳이다.
 다음 단계에서는 이 원고를 더 길게 늘리는 것보다,
 장별 문체를 고르게 맞추고
 appendix와의 경계를 더 분명히 하는 쪽이 우선이다.
+
+축별로 더 조밀한 설명이 필요할 때는
+본문을 바로 기술 초안으로 밀어 넣기보다
+`Faction / People / Places / Items / Species Core Profiles`를 먼저 거치는 흐름을 기본값으로 삼는다.
 
 현재 기준으로 본문은 다음 다섯 축이 한 세트로 읽히도록 유지한다.
 

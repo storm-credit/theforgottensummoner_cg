@@ -92,10 +92,10 @@ Completed checks:
 Recommended next sequence:
 
 1. Run a style-unification pass over the public assembly manuscript.
-2. Expand the appendix assembly manuscript with one real embedded table per section.
-3. Use the release readiness checklist before packaging a preview manuscript.
-4. Use the preview package to choose readable preview or production preview.
-5. Build compact mid-layer profile sheets for factions, people, places, items, or species where hub navigation is already stable.
+2. Run a rhythm-and-density pass over the readable preview now that the core profile companion set is in place.
+3. Expand the appendix assembly manuscript with one real embedded table per section.
+4. Use the release readiness checklist before packaging a preview manuscript.
+5. Use the preview package to choose readable preview or production preview.
 6. Extend the strongest mid-layer sheets into small reusable profile families before widening the surface area.
 7. Prepare a short checkpoint summary for thread handoff if context gets too long.
 8. At stable milestones, run the `Main Push Gate` before pushing to `main`.
@@ -126,4 +126,4 @@ Recommended next sequence:
 
 The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.
 
-The next meaningful work is controlled refinement: keep the readable manuscript stable, deepen the appendix with selected real tables, and add compact mid-layer profile sheets where hub navigation is already closed.
+The next meaningful work is controlled refinement: keep the readable manuscript stable, let the core profile companion set function as the bridge layer between body and technical drafts, and deepen the appendix with selected real tables.
