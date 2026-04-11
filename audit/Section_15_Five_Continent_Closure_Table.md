@@ -88,7 +88,7 @@ Hold Reference Split:
 1. `대륙 -> 세력 / 도시 / 조직` 앵커 확인.
 2. 14번 독립 파일 또는 영웅표 신호 확인.
 3. 이름 충돌 확인.
-4. `named_notable_candidate`, `verify_before_15`, `need_named_candidate`, `keep_14` 중 잠긴 상태 라벨을 확인.
+4. `named_notable_candidate`, `source_check_hold`, `need_named_candidate`, `keep_14` 중 잠긴 상태 라벨을 확인.
 5. 안정 후보만 frozen reference set 기준으로 유지.
 
 ## Orchestrated Move Snapshot

@@ -6,14 +6,14 @@
 목적:
 
 - 긴 스카우트 문서를 매번 다시 읽지 않는다.
-- 고정된 15 후보와 `verify_before_15` 후보를 섞지 않는다.
+- 고정된 15 후보와 `source_check_hold` 후보를 섞지 않는다.
 - watch cycle 기준으로 어느 대륙이 어떤 closure 상태인지 바로 보이게 한다.
 
 ## Compass Snapshot
 
 | Area | Stable 15 Candidates | Boundary Hold | Main Risk | Reference Action |
 |---|---|---|---|---|
-| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | SS/S/A급, 영웅록, 공병대장/예언자 신호 | stable triad package freeze는 닫힌 상태로 유지한다. hold cluster도 한 번 closure 상태로 본다. `벨라나 > 아리안`, `카사르 > 드락사르` 위험도 계층을 유지한 채 본선 reference는 `5대륙 closure sync / carryover watch`다. |
+| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | SS/S/A급, 영웅록, 공병대장/예언자 신호 | stable triad frozen reference set은 닫힌 상태로 유지한다. hold cluster도 한 번 closure 상태로 본다. `벨라나 > 아리안`, `카사르 > 드락사르` 위험도 계층을 유지한 채 본선 reference는 `5대륙 closure sync / carryover watch`다. |
 | `에테르` | `엘다라 [support_hold]` | `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 탑주, A/S급, Act 신호, 이름 드리프트, 동명이인 충돌 | `Ravenfell`, `Mera`, `Sylas` 병합 금지. 에테르 surface-name baseline과 spirit-union hold closure가 모두 잠긴 상태다. 새 hold 확장보다 `5대륙 closure sync / carryover watch` 유지가 우선이다. |
 | `프로스트` | 없음 | `울프릭`, `시그리드`, `마리안`, `프리야`, `카이라` | 전설/핵심 영웅 신호, 원로단 지도부 신호 | 압축표와 코어 장부 direct link가 잠긴 상태다. `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`, `아이스포지 병기소 장인`까지 6개 slot은 모두 role slot 유지로 본다. closure sync watch 안에서만 유지한다. |
 | `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | A급, SS급, 히어로급, 제독/단장, 실비아 이름 충돌, 거상 연합 권력축 | `top 5`, `city-role batch`, `tail unnamed slot batch`는 모두 닫힌 상태로 본다. `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`은 role slot 유지와 named boundary 비병합 메모만 유지한다. |
@@ -76,7 +76,7 @@ hold-only snapshot:
 이 기준에서 하는 일은 아래 세 가지다.
 
 1. frozen reference triad를 닫힌 상태로 유지한다.
-2. freeze 밖 hold set과 Ether hold cluster를 closure 상태로 유지한다.
+2. frozen reference set 밖 hold reference split과 Ether hold cluster를 closure 상태로 유지한다.
 3. `Section 8 -> 15 carryover watch`가 summary / bridge / queue 문서에서 같은 authority 분리 문장으로 읽히게 유지한다.
 
 ## Profile Alignment Snapshot
