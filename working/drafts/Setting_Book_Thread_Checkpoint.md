@@ -59,6 +59,7 @@
 - people/items/places/species hub에도 빠른 인덱스를 추가해 축별 첫 클릭을 짧게 정리
 - appendix/source hub에도 빠른 인덱스를 추가해 검증 질문과 장별 재료 진입을 더 짧게 정리
 - hub completion checklist와 status dashboard도 빠른 인덱스 완료 상태를 반영하도록 정합화
+- assembly index와 status dashboard도 허브 인덱스 완료 상태에 맞춰 현재 보존 지점으로 정리
 
 ## Core Files
 

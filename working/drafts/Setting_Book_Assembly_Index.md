@@ -88,6 +88,7 @@ Completed checks:
 - Current setting-book files do not use the old watch-keep display state in tables.
 - Scan interpretation now separates live unresolved markers from allowed control-language mentions.
 - Appendix B/C sample files now carry their own evidence pointer checks instead of relying only on the assembled appendix.
+- 01-08 hub files now provide quick-index or first-click tables plus status-dashboard return links.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

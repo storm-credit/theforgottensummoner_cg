@@ -92,6 +92,6 @@ Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Que
 ## 오케스트라 다음 순서
 
 1. 상태 대시보드와 허브 링크를 고정한다.
-2. 사람/유물/장소/종족 허브의 빠른 인덱스를 실제 클릭 동선 기준으로 다듬는다.
-3. appendix/source 허브의 빠른 인덱스를 실제 질문 기준으로 다듬는다.
-4. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
+2. 허브 인덱스는 현재 완료 상태로 보고, 필요하면 질문 문장만 미세 수정한다.
+3. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
+4. filename / layout 방향이 결정되면 RC 파일 생성 여부를 다시 판정한다.
