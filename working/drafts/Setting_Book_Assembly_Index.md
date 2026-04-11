@@ -113,7 +113,7 @@ Recommended next sequence:
 
 최근 gate 통과:
 
-- `02eaad7`까지의 release readiness checklist와 preview package v0를 `main`에 fast-forward push 완료.
+- `25a0a7d`까지의 readable preview manuscript, release readiness, preview package v0를 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
