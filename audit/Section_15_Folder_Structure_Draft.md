@@ -166,7 +166,7 @@ reference backlog용 슬롯 색인이다.
 - 즉 폴더 구조 초안은 named notable route와 operational profile route를 같이 보여주더라도,
   하위 profile의 policy carryover 형식을 별도로 유지하는 구조다.
 - 자유도시/오벨리스크 operational profile 문구는
-  named notable 승격 근거로 역수입하지 않고,
+  named notable 고정 근거로 역수입하지 않고,
   lower-card carryover reference로만 유지한다.
 - 폴더 구조 문서는 이 profile carryover 범주를 참조할 수는 있어도,
   개별 operational profile의 정확한 guard 문장을 대신 정의하지 않는다.
@@ -187,7 +187,7 @@ Need Named Candidate Slots
 
 ## Route Hierarchy Lock
 
-draft workset reference에서는
+frozen route/reference set에서는
 `상위 route anchor`와 `보조 place lock`을 섞지 않는다.
 
 | Candidate | Upper Route Anchor | Place Lock | Rule |
@@ -195,7 +195,7 @@ draft workset reference에서는
 | `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `드래곤포지`, `프라이멀 엠버` | 폴더 route는 `드래곤포지 공방`까지로 고정하고, 개별 시트에서만 재료/화염 전승 place lock을 병기한다. |
 | `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` | 폴더 route는 `학술-전승층`으로 고정하고, 학자 구역/용언 도서관은 기능성 place lock으로만 둔다. |
 | `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `몽상가의 바위`, `지혜의 샘` | 폴더 route는 `전승 보관층`으로 고정하고, 대면/조언과 기억/전승 place lock은 개별 시트에만 둔다. |
-| `엘다라` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | 현재는 `support_hold`이므로 route 후보만 보존하고 current carryover workset에 넣지 않는다. |
+| `엘다라` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | 현재는 `support_hold`이므로 route 후보만 보존하고 hold reference split 바깥에서만 유지한다. |
 
 ## Policy Carryover Lock
 
@@ -211,7 +211,7 @@ draft workset reference에서는
 현재 구조는
 `closure sync / carryover watch` 기준의 route/reference mock으로 본다.
 
-현재 메인 본선은 live 폴더 생성이나 재해석 재개가 아니라,
+현재 메인 본선은 live 폴더 생성이나 재해석 reopen을 다루지 않고,
 이 초안을 `bridge / routing / revision gate / closure sync watch` 문서들과 맞춰
 closure sync / carryover watch 기준으로 유지하는 것이다.
 

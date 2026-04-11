@@ -1,7 +1,7 @@
 # Section 8 / 15 Spine Compatibility Audit
 
 이 문서는 `8. 세력 아카이브`의 대륙별 spine과
-`15. 인물백과` 가상 폴더 구조가 서로 맞는지 점검하는 감사표다.
+`15. 인물백과` frozen route/reference 구조가 서로 맞는지 점검하는 감사표다.
 
 ## Input
 
@@ -22,7 +22,7 @@
 
 단, 아래 원칙을 지켜야 한다.
 
-- 결손층 5개의 thin/support 판정은 이 compatibility audit이 새로 확정하지 않고,
+- 결손층 5개의 thin/support 판정은 이 compatibility audit이 새로 결정하지 않고,
   `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 - 크림슨은 직업보다 부족/씨족/용의 후예 앵커가 먼저다.
 - 에테르는 정령연합을 제외하면 state_house/guild_market 앵커가 먼저다.
@@ -37,12 +37,12 @@
 
 | Continent | Section 8 Spine | Section 8 Carryover | Section 15 Draft Match | Risk | Decision |
 |---|---|---|---|---|---|
-| `크림슨` | `tribe_clan`, `guild_market` | `용의 후예 = section_style + clan_as_state_house watch`; `붉은 사막 부족 연합 = mixed_keep + clan_as_state_house watch` | `용의 후예`, `엘드라칸`, `붉은 사막 부족`으로 라우팅되어 spine과 맞음. | `low` | 유지. 크림슨은 씨족 상층을 국가형 가문 라우팅으로 과승격하지 않는다. |
+| `크림슨` | `tribe_clan`, `guild_market` | `용의 후예 = section_style + clan_as_state_house watch`; `붉은 사막 부족 연합 = mixed_keep + clan_as_state_house watch` | `용의 후예`, `엘드라칸`, `붉은 사막 부족`으로 라우팅되어 spine과 맞음. | `low` | 유지. 크림슨은 씨족 상층을 국가형 가문 라우팅으로 과고정하지 않는다. |
 | `에테르` | `state_house`, `guild_market`; 정령연합만 `tribe_clan` | `정령연합 = mixed_keep / special_axis_generalization` | `마법협회`, `성국`, `왕국연합`, `자유도시연합`, `정령연합`으로 분리되어 맞음. | `medium` | 정령연합 후보와 마법협회 후보가 섞이지 않게 유지. |
 | `프로스트` | `tribe_clan`, `guild_market`, state_house thin | `프로스트본 연합 = mixed_keep + clan_as_state_house watch`; `오로라 평원`, `빙하의 성소`는 `place_pressure_strong / handoff_applied` | `빙하의 성소`, `퍼마프로스트 공성단`, `오로라 평원` 중심이라 맞음. | `low` | 이름보다 장소/성소/요새 슬롯 유지. 구조 라벨과 place pressure를 섞지 않는다. |
 | `해양` | `state_house`, `guild_market`; tribe_clan weak | `해적 연합 = mixed_keep + port_power_as_tribe_clan`; `바다의 교단 = section_style_reclassify + place_pressure_strong / handoff_applied` | `황금 함대`, `거상 연합`, `해적 연합`, `바다의 교단`, 항구 도시 슬롯으로 라우팅되어 맞음. | `medium` | 도시 기능형 슬롯과 제독/히어로급 후보를 분리하고, 토착 공동체층은 `support range`를 넘겨 본체화하지 않는다. |
 | `오벨리스크` | `frontier_survival`, `guild_market`, nontraditional elite | `망자의 왕국 = section_style_reclassify + nontraditional_elite watch`; `잊힌 자들의 연합 = section_style_reclassify + watch_keep / handoff_applied`; `봉인 수호단 = section_style_reclassify + mismatch_clear` | `봉인 수호단`, `잊힌 자들의 연합`, `망자의 왕국`, 기록/기억 장소로 라우팅되어 맞음. | `medium` | 초월 어휘보다 기록/기억/거래 기능으로 낮춰 읽고, 가문/왕국 신호는 `nontraditional elite thin-support`를 넘겨 읽지 않는다. |
-| `범대륙 후기 확장` | deferred expansion | `canonical_root / quarantine_root / legacy_root` 분리와 `root_corruption` 경계 유지 | `키르케 영약회`만 후순위로 보존되어 맞음. | `medium` | 범대륙 전체 확정 금지. 루트 안정화 전 15 확장 금지. |
+| `범대륙 후기 확장` | deferred expansion | `canonical_root / quarantine_root / legacy_root` 분리와 `root_corruption` 경계 유지 | `키르케 영약회`만 hold reference로 보존되어 맞음. | `medium` | 범대륙 전체 고정 금지. 루트 안정화 전 deferred reference only로 유지한다. |
 
 해양 자유도시/오벨리스크 제도 사례는
 named notable 즉시 승인 근거가 아니라
@@ -55,7 +55,7 @@ operational lower-card carryover reference로만 유지한다.
 | `에테르 / 정령연합` | 에테르 전체 spine은 state_house/guild_market인데 정령연합만 tribe_clan 특수축이다. | 정령연합은 별도 특수축으로 유지. |
 | `해양 / 해적 연합` | 해양은 state_house/guild_market이 강하지만 해적 연합은 비국가/암시장 성격이 강하다. | 해적 연합은 `guild_market / underworld maritime` 보조 라벨로 둔다. |
 | `오벨리스크 / 망자의 왕국` | 초월/망자 어휘가 강해 인간 서사를 밀 수 있다. | `기록`, `기억`, `거래`, `죄책감`, `망명` 기능으로 낮춰 읽는다. |
-| `범대륙` | 후기 증설 파트라 전체 구조를 흔들 수 있다. | 메인 대륙 정리 후순위로 둔다. |
+| `범대륙` | 후기 증설 파트라 전체 구조를 흔들 수 있다. | mainline reference 바깥 hold로 둔다. |
 
 ## Section 8 Carryover Rule
 
@@ -82,7 +82,7 @@ operational lower-card carryover reference로만 유지한다.
 
 `Section_15_Folder_Structure_Draft.md`는 8번 spine과 호환된다.
 
-다만 실제 폴더 생성은 아직 보류한다.
+다만 live 폴더 생성은 현재 frozen reference set 바깥이다.
 
 필요했던 작은 색인은
 `Section_15_Stable_Candidate_8_Anchor_Index.md`로 이미 잠겼다.
@@ -91,11 +91,11 @@ operational lower-card carryover reference로만 유지한다.
 
 현재 watch 기준:
 
-1. `Section_15_Stable_Candidate_8_Anchor_Index.md`의 `stable triad / support_hold / deferred_expansion_hold` 상태를 bridge와 package freeze에서 계속 같은 상태어로 유지한다.
+1. `Section_15_Stable_Candidate_8_Anchor_Index.md`의 `stable triad / support_hold / deferred_expansion_hold` 상태를 bridge와 frozen reference set에서 계속 같은 상태어로 유지한다.
 2. `P2 place-pressure handoff`는 candidate index가 아니라 sidecar/register에서 계속 관리한다.
 3. 원본 접근이 가능해질 때까지는 새 candidate를 늘리지 않고 `P0 / P2 / carryover sync`만 유지한다.
 4. 현재 carryover mainline은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 `5대륙 closure sync / Section 8 -> 15 carryover watch`로 유지한다.
-5. 현재 메인 본선은 stable triad package 재개방이 아니라 closure sync / carryover watch 유지다.
+5. 현재 메인 본선은 stable triad frozen reference set 재개가 아니라 closure sync / carryover watch 유지다.
 6. named notable coverage 표와 bridge 요약은 operational profile 카드가 이미 잠근 `3-1. Policy Guard`를 존중하는 상위 reference층으로만 유지한다.
 7. named notable coverage 표와 bridge 요약은 `Section_15_Subline_Profile_*` 카드가 잠근
    `3-1. Policy Guard`도 같은 lower-card authority로 존중하는 상위 reference층으로만 유지한다.
