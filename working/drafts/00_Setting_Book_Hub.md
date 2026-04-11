@@ -19,7 +19,7 @@
 설정집 관련 파일이 많아서 헷갈릴 수 있다.
 지금은 아래 여섯 구간으로 보면 된다.
 
-처음 클릭 3개:
+처음 클릭 4개:
 
 - 책처럼 읽기: `Setting_Book_Preview_Readable_v0.md`
 - 구조 역할 먼저 보기: `Setting_Book_Document_Roles_Map.md`

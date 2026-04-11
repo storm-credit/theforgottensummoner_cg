@@ -43,6 +43,7 @@
 ### C. 대표 진입 문서 명시
 
 - [x] readable preview 진입점 표시
+- [x] document roles map 진입점 표시
 - [x] appendix assembly 진입점 표시
 - [x] prototype 진입점 표시
 - [x] faction / people / items / places / species 각 허브에 우선 문서 표시
@@ -66,6 +67,7 @@
 ### F. 대표 사용자 경로 점검
 
 - [x] 책처럼 읽기: `00_Setting_Book_Hub.md` -> `Setting_Book_Preview_Readable_v0.md`
+- [x] 문서 역할부터 보기: `00_Setting_Book_Hub.md` -> `Setting_Book_Document_Roles_Map.md`
 - [x] 세력부터 보기: `00_Setting_Book_Hub.md` -> `01_Setting_Book_Faction_Hub.md` -> `Setting_Book_Chapter_1_Five_Continents_Draft.md` 또는 `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
 - [x] 검증부터 보기: `00_Setting_Book_Hub.md` -> `06_Setting_Book_Appendix_Hub.md` -> `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` 또는 appendix sample 문서
 - [x] 진행 상황 보기: `00_Setting_Book_Hub.md` -> `07_Setting_Book_Process_Hub.md` -> `Setting_Book_Assembly_Index.md` 또는 `Setting_Book_Thread_Checkpoint.md`
