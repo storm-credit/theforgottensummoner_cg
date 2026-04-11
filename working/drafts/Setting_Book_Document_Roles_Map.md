@@ -28,6 +28,7 @@
 | `Setting_Book_Species_Core_Profiles_v0.md` | species bridge sheet | 종족 분류 축을 빠르게 점검할 때 |
 | `Setting_Book_Release_Readiness_Checklist.md` | release gate 판단표 | 지금을 v1 또는 RC로 불러도 되는지 점검할 때 |
 | `Setting_Book_Preview_Package_v0.md` | shareable preview package order guide | 어떤 파일을 어떤 순서로 공유할지 고를 때 |
+| `Setting_Book_Filename_Decision_Matrix.md` | filename decision matrix | 왜 preview / prototype 이름을 아직 유지하는지 확인할 때 |
 | `Setting_Book_Packaging_Direction_Matrix.md` | packaging decision matrix | 다음 보존 산출물이 reader-facing layout인지 production bible인지 고를 때 |
 | `Setting_Book_Current_Status_Dashboard.md` | current status dashboard | 지금 무엇이 끝났고 무엇이 hold인지 한 화면에서 볼 때 |
 | `Setting_Book_Assembly_Index.md` | 전체 조립 현황판 | next queue와 main push gate를 볼 때 |
@@ -87,5 +88,6 @@
 
 - shareable manuscript는 계속 `Setting_Book_Preview_Readable_v0.md`
 - compressed single-file reference는 계속 `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
+- filename hold 판단은 `Setting_Book_Filename_Decision_Matrix.md`에서 다시 연다
 - RC 이름 논의는 나중에 packaging이 다음 보존 산출물이 될 때 다시 연다
 - 지금 단계의 gain은 broad redraft보다 역할 분리와 진입 동선 선명화에서 나온다

@@ -21,6 +21,11 @@ Current naming decision:
 - Use `A Living World Companion` as the v0 subtitle and keep the current cover-tone sentence aligned with the readable preview opening.
 - Keep `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` as the compressed reference file name for now.
 
+Filename decision control:
+
+- `Setting_Book_Filename_Decision_Matrix.md` explains why preview / prototype / package-guide names stay separate for now.
+- Re-open renaming only when packaging becomes the next preserved artifact and the filename hold is actually cleared.
+
 Release-candidate trigger:
 
 - Create a separate RC package only when the checklist says packaging is the next preserved artifact, not just the next draft pass.

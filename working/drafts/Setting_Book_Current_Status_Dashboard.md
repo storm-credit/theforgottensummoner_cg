@@ -79,6 +79,7 @@
 3. Appendix B/C에서 정말 필요한 행에만 row-level evidence note를 추가
 
 세부 hold 기준은 `Setting_Book_Release_Readiness_Checklist.md`의 `V1 Hold Breakdown`에서 관리한다.
+`filename / RC naming` 판단은 `Setting_Book_Filename_Decision_Matrix.md`에서 따로 관리한다.
 `layout vs production bible` 방향은 `Setting_Book_Packaging_Direction_Matrix.md`에서 따로 관리한다.
 
 Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Queue`에서 필요한 행만 고른다.

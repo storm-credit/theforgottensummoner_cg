@@ -73,6 +73,16 @@
 - readable preview를 어떤 순서로 공유할지
 - shareable / conductor-only 문서 구분
 
+### Filename Decision
+
+- `Setting_Book_Filename_Decision_Matrix.md`
+
+무엇을 보나:
+
+- 왜 `Preview_Readable_v0` 이름을 아직 유지하는지
+- 왜 `Prototype_v0`를 압축 reference 이름으로 유지하는지
+- 언제 별도 RC 이름을 다시 열지
+
 ### Packaging Direction
 
 - `Setting_Book_Packaging_Direction_Matrix.md`
