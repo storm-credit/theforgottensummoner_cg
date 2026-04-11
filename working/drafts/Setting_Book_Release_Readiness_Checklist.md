@@ -100,6 +100,21 @@ hold로 봐야 하는 히트:
 3. `Prototype_v0`라는 작업용 이름보다 reader-facing 이름이 더 도움이 될 때
 4. 다음 단계가 broad drafting이 아니라 보존 가능한 packaging일 때
 
+현재 trigger 판정:
+
+| Trigger | Current Status | Decision |
+| --- | --- | --- |
+| Evidence hold | near pass for preview, partial for v1 | A-E source lanes and high-risk row notes exist, and B/C sample evidence checks are in place. Remaining v1 work should be row-specific only. |
+| Title / subtitle / cover tone | pass for preview v0 | `A Living World Companion` and the current cover-tone sentence point to the same reader promise. |
+| Reader-facing filename value | hold | `Setting_Book_Preview_Readable_v0.md` is still clearer than creating an RC filename too early. |
+| Packaging as preserved artifact | hold | The package is stable enough to share as preview, but commercial layout / production bible direction is not chosen yet. |
+
+Trigger result:
+
+- Do not create a separate RC file yet.
+- Treat `Setting_Book_Preview_Readable_v0.md` as the shareable preview completion target for now.
+- Re-open RC creation only after final naming/layout or production-bible direction becomes the next preserved artifact.
+
 그 전까지는:
 
 - `Setting_Book_Preview_Readable_v0.md`를 공유용 preview로 유지한다.

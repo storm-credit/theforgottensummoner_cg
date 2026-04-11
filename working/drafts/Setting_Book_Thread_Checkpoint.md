@@ -51,6 +51,7 @@
 - release readiness에 스캔 해석 규칙을 추가해 정상 관리 문구와 실제 hold 표식을 분리
 - Appendix B/C 개별 샘플에도 evidence pointer check를 추가해 item/place 승격 기준을 하위 문서에 반영
 - preview package와 release readiness의 evidence-depth 표현을 B/C sample check 완료 상태에 맞게 정렬
+- release-candidate trigger를 재판정해 separate RC 파일은 아직 보류하고 shareable preview completion target을 유지
 
 ## Core Files
 

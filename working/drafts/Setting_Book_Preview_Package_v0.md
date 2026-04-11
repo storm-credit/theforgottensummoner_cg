@@ -24,6 +24,7 @@ Current naming decision:
 Release-candidate trigger:
 
 - Create a separate RC package only when the checklist says packaging is the next preserved artifact, not just the next draft pass.
+- Current trigger status: keep `Setting_Book_Preview_Readable_v0.md` as the shareable preview completion target; do not create a separate RC file yet.
 - Until then, keep preview and prototype as two different jobs: one shareable, one compressed reference.
 
 ## Preview Reading Order
