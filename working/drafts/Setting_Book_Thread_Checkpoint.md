@@ -106,6 +106,7 @@
 
 ## Recent Commit Line
 
+- `1200776 Align evidence depth package status`
 - `c0f3c20 Add appendix sample evidence checks`
 - `6687900 Clarify setting book scan interpretation`
 - `241cdf2 Refresh hub checklist checkpoint`
