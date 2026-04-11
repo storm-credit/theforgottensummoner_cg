@@ -47,6 +47,7 @@
 - hub completion checklist에 00-08 재진입 순서 완료 기준 반영
 - roles map의 safe opening order를 목적 분명/헷갈림 재진입으로 분리
 - 메인 허브 첫 화면에 재진입 순서를 추가해 다시 들어올 때 동선을 더 짧게 만듦
+- hub completion checklist의 기준 수와 preview 표현을 현재 구조에 맞게 정합화
 
 ## Core Files
 
@@ -102,6 +103,7 @@
 
 ## Recent Commit Line
 
+- `e1d7217 Refresh safe opening checkpoint`
 - `ae529bb Clarify setting book safe opening order`
 - `28cf694 Record setting book reentry completion`
 - `5410516 Add reentry routes to setting book hubs`
@@ -203,3 +205,4 @@
 - reentry completion checklist 반영까지 `main` 완료.
 - latest checkpoint refresh까지 `main` 반영 완료.
 - safe opening order 분리까지 `main` 반영 완료.
+- hub completion checklist wording 정합화까지 `main` 반영 완료.
