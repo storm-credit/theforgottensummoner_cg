@@ -24,13 +24,13 @@
 
 ## Routing Rule
 
-15번 후보는 아래 순서로 라우팅한다.
+15번 라우팅 reference는 아래 순서로 읽는다.
 
 1. 대륙 spine 확인.
 2. 세력/도시/조직 앵커 확인.
 3. `Section 8` 구조 라벨과 `place pressure` carryover 확인.
 4. 14번 영웅 신호 확인.
-5. `named_notable_candidate`, `stable_15_workset`, `verify_before_15`, `need_named_candidate`, `keep_14`, `support_hold`, `deferred_expansion_hold`, `hold_for_dual_review` 중 맞는 상태 라벨을 부여한다.
+5. `named_notable_candidate`, `stable_15_workset`, `verify_before_15`, `need_named_candidate`, `keep_14`, `support_hold`, `deferred_expansion_hold`, `hold_for_dual_review` 중 잠긴 상태 라벨을 확인한다.
 6. 폴더링은 `대륙 -> 세력 / 도시 / 조직` 기준으로만 한다.
 7. operational profile 카드가 필요한 경우 하위 카드의 `3-1. Policy Guard`를 유지하고,
    named notable 요약과 혼합하지 않는다.
@@ -53,7 +53,7 @@ sidecar/register handoff를 먼저 존중한다.
 
 ## Foldering Consequence
 
-앞으로 15번 문서 초안을 만들 때는 아래 방식으로 가정한다.
+15번 문서 라우팅 reference를 읽을 때는 아래 방식으로 본다.
 
 예시:
 
@@ -64,8 +64,8 @@ sidecar/register handoff를 먼저 존중한다.
 - `15 / 해양 / 포트 아우렐리온 / 대경매장 주인 슬롯`
 - `15 / 오벨리스크 / 영원의 기록탑 / 사후 서기관 슬롯`
 
-단, 실제 폴더 이동은 아직 하지 않는다.
-현재는 `cg` 안에서 라우팅 기준만 고정한다.
+단, live 폴더 이동은 하지 않는다.
+현재는 `cg` 안에서 라우팅 기준만 reference로 유지한다.
 
 ## Bridge Guard
 
@@ -104,9 +104,9 @@ sidecar/register handoff를 먼저 존중한다.
 
 ## Conductor Decision Snapshot
 
-15번의 recorded carryover focus는 새 인물을 더 찾는 것이 아니라,
+15번의 recorded carryover focus는 새 인물 확장이 아니라,
 위 브리지와 `Section_15_Folder_Structure_Draft.md`를 기준으로
 이미 잠근 anchor / state wording을 closure sync / carryover watch 기준으로 유지하는 것이다.
 
 stable triad actual draft package freeze는 이미 닫혀 있으므로 다시 열지 않는다.
-현재는 실제 폴더 초안 구조를 문서 레벨에서 유지/점검하는 단계다.
+현재는 폴더 draft reference 구조를 문서 레벨에서 유지/점검하는 단계다.

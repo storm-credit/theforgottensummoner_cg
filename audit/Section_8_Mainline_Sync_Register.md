@@ -1,6 +1,6 @@
 # Section 8 Mainline Sync Register
 
-이 문서는 `Section 8` 본선에서
+이 문서는 `Section 8` closure sync / carryover watch 본선에서
 서로 반드시 같은 판정을 가리켜야 하는 문서 묶음을 정리한 장부다.
 
 목적은 단순하다.
@@ -29,11 +29,11 @@
 |---|---|---|---|
 | `status_vocabulary` | `Section_8_Status_Vocabulary_Guard.md` | `Section_8_Structure_Label_Map_First_Pass.md`, `Section_8_Normalization_Status_Compass.md`, `Section_8_Next_Audit_Targets.md` | `mixed_keep`, `section_style_reclassify`, `mismatch_clear`, `watch_keep` 같은 상태어 |
 | `structure_snapshot` | `Section_8_Structure_Label_Map_First_Pass.md` | `Section_8_Normalization_Status_Compass.md` | 핵심 세력의 현재 구조 라벨과 pressure 상태 |
-| `mismatch_snapshot` | `Section_8_Spine_Mismatch_Queue.md` | `Section_8_Normalization_Status_Compass.md`, `Section_8_Next_Audit_Targets.md` | canonical mismatch 범주명과 active/clear 상태 |
+| `mismatch_snapshot` | `Section_8_Spine_Mismatch_Queue.md` | `Section_8_Normalization_Status_Compass.md`, `Section_8_Next_Audit_Targets.md` | canonical mismatch 범주명과 watch/clear 상태 |
 | `root_mainline` | `Section_8_Root_Corruption_First_Pass_A.md`, `Section_8_Root_Subtree_Sampling_Queue.md` | `Section_8_Normalization_Status_Compass.md`, `Next_Sequential_Workstream.md`, `Audit_Queue.md` | `canonical / quarantine / legacy`, subtree sampling readiness |
 | `place_network_handoff` | `Section_8_Place_Network_Handoff_Map.md` | `Section_8_Normalization_Status_Compass.md`, related sidecars/registers | 어느 후보가 어느 sidecar/register로 넘어갔는지 |
 | `section8_to_15_carryover` | `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md` | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Next_Sequential_Workstream.md`, related package freeze docs | stable triad / support_hold / deferred_expansion_hold와 `Section 8` carryover 상태 |
-| `closure_sync_watch` | `Section_8_15_Closure_Sync_Carryover_Watch.md` | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Audit_Queue.md` | 현재 본선이 `closure sync / carryover watch`인지, 이미 닫힌 hold cluster를 다시 active처럼 쓰지 않는지 |
+| `closure_sync_watch` | `Section_8_15_Closure_Sync_Carryover_Watch.md` | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Audit_Queue.md` | 현재 본선이 `closure sync / carryover watch`인지, 이미 닫힌 hold cluster를 다시 live build처럼 쓰지 않는지 |
 | `profile_format_carryover` | `Section_15_Profile_Template.md`, `Section_15_Profile_Draft_Index.md` | `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`, `Section_15_Folder_Revision_Gate.md` | operational profile layer가 `3-1. Policy Guard` 형식을 유지한 채 carryover rule을 공유하는지 |
 | `lower_card_authority` | `Section_15_Profile_Template.md`, `Section_15_Named_Notables_Register.md` | `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Audit_Queue.md`, `Continuous_Workstream.md` | 상위 summary/bridge/watch 문서가 named notable 카드와 operational profile 카드의 권한선을 섞지 않는지 |
 | `subline_profile_authority` | `Section_15_Profile_Draft_Index.md`, `Section_15_Subline_Register.md` | `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `Section_15_Subline_Profile_*`의 `3-1. Policy Guard`가 exact wording source로 유지되고, representative subline pair closure가 상위 문서에서 승인 논리로 역수입되지 않는지 |
@@ -76,6 +76,6 @@
 
 ## Conductor Decision
 
-다음부터 `Section 8` 오케스트라 업데이트는
+현재 `Section 8` 오케스트라 업데이트는
 이 register를 기준으로
 `판정`, `요약`, `진행표`, `handoff`가 같이 움직였는지 확인한다.

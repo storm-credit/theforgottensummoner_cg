@@ -98,7 +98,7 @@
 10. `Section_15_Subline_Draft_*`와 `Section_15_Subline_Profile_*`는
     대표 짝 교차감사가 이미 닫힌 상태로 읽고,
     wording-source drift가 생길 때만 국소 대조한다.
-11. 위 1~10이 모두 잠긴 뒤에만 다음 신규 closure batch나 subtree sampling 재개 여부를 판단한다.
+11. 위 1~10이 모두 잠긴 뒤에만 신규 closure batch 후보나 subtree sampling 재개 필요 여부를 판단한다.
 12. missing-layer component set은 closeout reference로만 보고,
     새 evidence 전까지는 `root / structure / mismatch / P2 handoff` snapshot을 먼저 본다.
 
