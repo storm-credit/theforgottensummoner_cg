@@ -14,6 +14,12 @@ reader-facing preview 형태로 보여주기 위한 조립 지시서다.
 
 현재 공유용 대표본은 `Setting_Book_Preview_Readable_v0.md`다.
 
+Current naming decision:
+
+- Keep `Setting_Book_Preview_Readable_v0.md` as the shareable preview file for now.
+- Do not rename it into a release-candidate file until row-level evidence notes and final layout direction are decided.
+- Use `A Living World Companion` as the v0 subtitle and keep the current cover-tone sentence aligned with the readable preview opening.
+
 ## Preview Reading Order
 
 | Order | Section | Source File | Include Mode |
@@ -115,4 +121,4 @@ Treat `preview_v0_readable` as the current shareable package.
 The package already has enough verification structure.
 The next gain is not another broad content pass.
 It comes from either adding targeted evidence notes for v1
-or deciding whether the package should be renamed from prototype/preview into a release-candidate file.
+or deciding whether the package should be copied into a separate release-candidate file after v1 gates are tighter.

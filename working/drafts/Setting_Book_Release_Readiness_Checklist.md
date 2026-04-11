@@ -64,7 +64,8 @@ release 후보로 묶기 전에 아래를 통과해야 한다.
 | core profile bridge | pass for preview v0 | 세력, 인물, 장소, 유물, 종족 중간 정리본이 본문과 기술 초안 사이를 받친다. |
 | appendix A-E structure | pass for preview v0 | A-E 표는 최종 확정표가 아니라 통제표로 고정되어 있다. |
 | source / evidence depth | partial pass for v1 | Appendix A-E now have source pointer lanes; row-level evidence notes are still targeted-only work. |
-| final naming / layout | hold for v1 | 아직 상업용 판형이나 최종 파일명까지 확정하지 않는다. |
+| front matter subtitle / cover tone | pass for preview v0 | `A Living World Companion`과 현재 cover-tone sentence를 v0 선택안으로 고정했다. |
+| final naming / layout | hold for v1 | 아직 release-candidate 파일명이나 상업용 판형까지 확정하지 않는다. |
 
 따라서 현재 패키지는 `preview_v0_readable`로는 공유 가능하고,
 `v1 release`로 부르기에는 아직 이르다.
@@ -79,7 +80,7 @@ reader-facing preview 후보를 넘어,
 
 1. Appendix A-E에서 꼭 필요한 행에만 row-level evidence note를 덧붙인다.
 2. Part I과 Opening을 받치는 짧은 canon/source appendix note를 추가할지 결정한다.
-3. front matter의 부제와 표지 톤 문장을 하나로 좁힌다.
+3. `preview_v0_readable`을 preview 파일로 유지할지 release-candidate package로 복제/승격할지 결정한다.
 4. 최종 파일명을 `Prototype_v0`에서 preview 또는 release candidate 이름으로 바꿀지 결정한다.
 5. 상업용 layout 또는 협업용 production bible 방향을 분리할지 결정한다.
 
@@ -100,4 +101,4 @@ readable preview, public assembly, core profiles, appendix control tables가
 서로 같은 패키지 역할을 하기 때문이다.
 
 다음 진행은 `preview_v0_readable`을 더 늘리기보다,
-v1로 가기 전에 필요한 row-level evidence note와 이름/표지 톤 결정을 좁히는 쪽이 좋다.
+v1로 가기 전에 필요한 row-level evidence note와 release-candidate 파일명 결정을 좁히는 쪽이 좋다.

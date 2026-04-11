@@ -3,15 +3,21 @@
 
 ## Cover Direction
 
-부제 후보:
+V0 selected subtitle:
+
+- `A Living World Companion`
+
+V0 selected cover-tone sentence:
+
+- 사람보다 큰 힘이 움직이는 세계에서, 결국 모든 길은 한 사람의 선택으로 좁혀진다.
+
+Archived subtitle alternates:
 
 - `A World of Oaths, Ruins, Routes, and Returning Names`
 - `A Reader's Guide to Continents, Relics, Roads, and Hidden Powers`
-- `A Living World Companion`
 
-표지 톤 문장 후보:
+Archived cover-tone alternates:
 
-- 사람보다 큰 힘이 움직이는 세계에서, 결국 모든 길은 한 사람의 선택으로 좁혀진다.
 - 왕국과 길드, 유물과 소문, 숲의 약속과 바다의 심연이 얽힌 세계를 읽는 가장 가까운 입구.
 - 대륙과 도시, 이름과 유물, 혈통과 괴물을 지나 다시 사람에게로 돌아오는 설정집.
 
@@ -120,4 +126,4 @@
 `Setting_Book_Preview_Readable_v0.md`의 앞부분을 구성하는 후보 원고다.
 
 다음 단계에서는
-표지 문구, 부제, 목차, 본문 opening을 서로 어색하지 않게 다듬는 작업이 필요하다.
+목차와 본문 opening이 선택된 부제와 표지 톤을 계속 같은 방향으로 받치는지 확인한다.
