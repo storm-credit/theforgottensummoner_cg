@@ -64,6 +64,7 @@ release 후보로 묶기 전에 아래를 통과해야 한다.
 | core profile bridge | pass for preview v0 | 세력, 인물, 장소, 유물, 종족 중간 정리본이 본문과 기술 초안 사이를 받친다. |
 | appendix A-E structure | pass for preview v0 | A-E 표는 최종 확정표가 아니라 통제표로 고정되어 있다. |
 | source / evidence depth | partial pass for v1 | Appendix A-E now have source pointer lanes; row-level evidence notes are still targeted-only work. |
+| Opening / Part I source note | pass for preview v0 | 별도 Appendix F를 만들지 않고 Chapter 0/1과 source map으로 받치는 source note를 추가했다. |
 | front matter subtitle / cover tone | pass for preview v0 | `A Living World Companion`과 현재 cover-tone sentence를 v0 선택안으로 고정했다. |
 | final naming / layout | hold for v1 | 아직 release-candidate 파일명이나 상업용 판형까지 확정하지 않는다. |
 
@@ -79,10 +80,9 @@ reader-facing preview 후보를 넘어,
 아직 정식 v1 release로 부르기 전 남은 작업:
 
 1. Appendix A-E에서 꼭 필요한 행에만 row-level evidence note를 덧붙인다.
-2. Part I과 Opening을 받치는 짧은 canon/source appendix note를 추가할지 결정한다.
-3. `preview_v0_readable`을 preview 파일로 유지할지 release-candidate package로 복제/승격할지 결정한다.
-4. 최종 파일명을 `Prototype_v0`에서 preview 또는 release candidate 이름으로 바꿀지 결정한다.
-5. 상업용 layout 또는 협업용 production bible 방향을 분리할지 결정한다.
+2. `preview_v0_readable`을 preview 파일로 유지할지 release-candidate package로 복제/승격할지 결정한다.
+3. 최종 파일명을 `Prototype_v0`에서 preview 또는 release candidate 이름으로 바꿀지 결정한다.
+4. 상업용 layout 또는 협업용 production bible 방향을 분리할지 결정한다.
 
 ## Conductor Decision
 

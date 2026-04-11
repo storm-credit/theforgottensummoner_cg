@@ -18,6 +18,30 @@
 
 ---
 
+## Opening / Part I Canon Source Note
+
+Opening과 Part I. Ether Continent는 별도의 새 부록으로 분리하지 않는다.
+
+이 두 구간은 이미 아래 source lane으로 충분히 받쳐진다.
+
+- `Setting_Book_Chapter_0_Canon_Policy_Draft.md`
+- `Setting_Book_Chapter_1_Five_Continents_Draft.md`
+- `Setting_Book_Reassembly_Source_Map.md`
+- `workflow/00_Astralis_Vision.md`
+- `workflow/01_Canon_Policy.md`
+
+검증 원칙:
+
+1. Opening은 세계의 크기보다 인간 서사와 선택을 우선한다.
+2. Ether는 중심 문명 대륙으로 읽되, 대륙 전체를 하나의 단일 질서로 과잉 확정하지 않는다.
+3. Spirit Union, 숲 경계, 수인/정령 신호는 Appendix E의 species guard와 함께 확인한다.
+4. 왕국, 성국, 자유도시, 마법협회, 정령연합의 긴장은 Part I 본문에서는 감각으로 보여주고, 구조 확정은 Chapter 1과 Appendix A/C/E로 되돌려 확인한다.
+
+따라서 v1 전까지는 Opening / Part I 전용 Appendix F를 만들지 않는다.
+필요한 경우 이 note 아래에 source pointer만 덧붙인다.
+
+---
+
 ## Appendix A. 14 / 15 Boundary Candidates
 
 이 부록은 중심 영웅축과 이름 있는 명사형 인물,

@@ -116,10 +116,9 @@
 
 1. 필요한 appendix row에만 row-level evidence note 추가
 2. v1 gate가 더 조여진 뒤 별도 release-candidate package 파일이 필요한지 결정
-3. Part I과 Opening에 짧은 canon/source appendix note가 필요한지 확인
-4. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
-5. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
-6. 안정 마일스톤마다 `main push gate` 확인
+3. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
+4. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
+5. 안정 마일스톤마다 `main push gate` 확인
 
 ## Main Push Gate
 

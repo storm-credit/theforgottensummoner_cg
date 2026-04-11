@@ -1,7 +1,7 @@
 # THE FORGOTTEN SUMMONER
 ## Setting Book Prototype v0
 
-### Subtitle Candidate
+### Selected Subtitle
 
 `A Living World Companion`
 
@@ -77,11 +77,12 @@
 4. People Worth Seeking
 5. Relics and Desired Objects
 6. Peoples, Bloodlines, and Changed States
-7. Appendix A. 14 / 15 Boundary Candidates
-8. Appendix B. Item Promotion Candidates
-9. Appendix C. Place and Travel Functions
-10. Appendix D. Name Collision Control
-11. Appendix E. Species Classification Guard
+7. Opening / Part I Canon Source Note
+8. Appendix A. 14 / 15 Boundary Candidates
+9. Appendix B. Item Promotion Candidates
+10. Appendix C. Place and Travel Functions
+11. Appendix D. Name Collision Control
+12. Appendix E. Species Classification Guard
 
 ---
 
@@ -547,6 +548,22 @@ Spirit Union은 이 구분이 특히 필요한 곳이다.
 아직 이름만 남은 것들.
 이 다섯 자리를 분리해 두면
 세계는 더 느리지만 더 오래 자란다.
+
+---
+
+## Opening / Part I Canon Source Note
+
+Opening과 Part I. Ether Continent는 별도의 새 부록으로 분리하지 않는다.
+
+이 두 구간은 `Chapter 0 Canon Policy`, `Chapter 1 Five Continents`,
+그리고 reassembly source map의 판단 순서로 받친다.
+
+검증 원칙:
+
+1. Opening은 세계의 크기보다 인간 서사와 선택을 우선한다.
+2. Ether는 중심 문명 대륙으로 읽되, 대륙 전체를 하나의 단일 질서로 과잉 확정하지 않는다.
+3. Spirit Union, 숲 경계, 수인/정령 신호는 species guard와 함께 확인한다.
+4. 왕국, 성국, 자유도시, 마법협회, 정령연합의 긴장은 본문에서는 감각으로 보여주고, 구조 확정은 Chapter 1과 Appendix A/C/E로 되돌려 확인한다.
 
 ---
 
