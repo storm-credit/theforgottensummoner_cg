@@ -1,9 +1,9 @@
 # Section 15 Operational Display Canon Candidates
 
 이 문서는 지금까지 만든 `Operational Lines`와 `Subline Profiles`의
-작업용 라벨을 더 판타지적인 표면 명칭으로 바꿀 때 쓸 후보표다.
+reference working label을 더 판타지적인 표면 명칭으로 읽을 때 참고하는 후보표다.
 
-naming active 판단은
+naming watch 판단은
 `Section_15_Group_Index.md`,
 `Section_15_Operational_Lines_Track.md`,
 `Continuous_Workstream.md`
@@ -31,12 +31,12 @@ naming active 판단은
 1. 정식 세력명처럼 보일수록 `연맹`, `상회`, `평의회`, `결사`를 우선한다.
 2. 음지 네트워크는 `회랑`, `그늘`, `무언`, `밤`, `장부` 같은 상징어를 쓴다.
 3. 노예, 생체 거래, 암살 같은 기능은 표면명에 너무 직접적으로 쓰지 않는다.
-4. 작업용 라벨은 계속 남겨서 원래 기능을 잃지 않게 한다.
+4. reference working label은 계속 남겨서 원래 기능을 잃지 않게 한다.
 
 ## Policy Display Guard
 
 - display canon 후보는 말맛과 표면 톤을 다루는 표지이지,
-  구조 해석을 승격하는 문서가 아니다.
+  구조 해석을 고정하는 문서가 아니다.
 - 따라서 `은막 교역회`, `붉은 장부 결사`, `철의 금융 연맹`, `침묵의 상회` 같은 이름을 쓴다고 해서
   해당 축을 `state_house strong`, `토착 공동체층`, `정상 국가기관`으로 재해석하지 않는다.
 - 해석선은 각 profile/template의 `Policy Guard`와
@@ -63,7 +63,7 @@ naming active 판단은
 - 따라서 display canon 문서는 exact guard wording source가 아니라
   lower-card authority를 비가공 reference로 읽는 상위 naming layer다.
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
-  draft/profile 교차감사가 닫힌 샘플로 유지되고,
+  닫힌 representative reference pair로 유지되고,
   display layer는 그 wording source를 naming 층에서만 참조한다.
 
 ## Preferred Candidate Reference Pass
@@ -206,14 +206,14 @@ naming active 판단은
 ## Conductor Note
 
 - 구조 정리 단계에서는 `Working Label`을 유지한다.
-- 실제 표면 문서나 정본명 후보를 쓸 때만 `Display Candidate`를 얹는다.
+- 표면명 reference를 읽을 때만 `Display Candidate`를 얹는다.
 - 너무 현대적인 냄새가 나면
   직능어를 줄이고 상징어를 늘린다.
-- 상위 그룹명은 `Group Axis -> Display Canon Candidates` 표를 먼저 reference로 보고,
-  세부 직능명은 `Functional Line -> Display Canon Candidates` 표를 reference로 본다.
+- 상위 그룹명은 `Group Axis -> Display Canon Candidates` 표를 naming-side mirror로 읽고,
+  세부 직능명은 `Functional Line -> Display Canon Candidates` 표를 naming-side mirror로 읽는다.
 - 표면명은 바뀔 수 있어도 policy carryover family는 유지하되,
   exact wording authority는 각 profile/subline profile 카드의 `3-1. Policy Guard`에 남긴다.
-- subline draft와 subline profile 단계에서도 같은 policy carryover family를 유지하되,
+- 닫힌 subline reference와 subline profile reference도 같은 policy carryover family를 유지하되,
   exact wording authority는 각 profile/subline profile 카드의 `3-1. Policy Guard`에 남긴다.
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair도
   닫힌 subline 교차감사 샘플로만 읽고,

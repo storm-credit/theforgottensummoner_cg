@@ -60,7 +60,7 @@ folder route/reference map을 정리하는 초안이다.
 - `오벨리스크` 제도 route는 `nontraditional elite thin-support` 또는 `dark institution` 축까지만 보존하고, 전통 귀족국가형 route로 해석하지 않는다.
 - `실비아`는 `범대륙 후기 확장 / 키르케 영약회` hold route로만 보존한다.
 - operational profile route 문장은 lower-card authority를 따르며,
-  named notable 승격 논리로 직접 역수입하지 않는다.
+  named notable 고정 논리로 직접 역수입하지 않는다.
 - 이 routing plan은 허용된 route family만 적고,
   operational cluster의 정확한 guard 문장은 하위 profile 카드의 `3-1. Policy Guard`에서 상속한다.
 - exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의

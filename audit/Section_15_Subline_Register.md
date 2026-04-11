@@ -1,10 +1,10 @@
 # Section 15 Subline Register
 
 이 문서는 이미 확보한 `15번` 계열 시트를
-더 세부적인 파생 라인으로 쪼갤 필요가 있는 지점을 모아두는 등록부다.
+더 세부적인 파생 라인 reference로 읽어야 하는 지점을 모아두는 등록부다.
 
 이 단계에서는 모든 파생 라인을 곧바로 개별 인물로 내리기보다,
-어느 축이 나중에 더 자랄지를 먼저 고정하는 데 목적이 있다.
+어느 축을 reference backlog로만 유지할지 먼저 고정하는 데 목적이 있다.
 
 ## Fields
 
@@ -43,12 +43,12 @@
 - parent `Section_15_Profile_*` line card와 downstream `Section_15_Subline_Profile_*` card는
   서로의 exact wording authority를 대체하지 않고, line axis와 refined subline axis를 나눠 가진다.
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
-  draft/profile 교차감사가 닫힌 sample로 유지하고,
+  닫힌 representative reference pair로 유지하고,
   새 wording-source drift가 생길 때만 해당 pair를 국소 재대조한다.
 
 ## Conductor Rule
 
 - 파생 라인은 `개별 인물`보다 먼저 `기능 라인`으로 고정한다.
 - 한 파생 라인이 최소 두 개 이상의 관계 훅을 만들 수 있을 때만
-  실제 개별 시트로 내린다.
+  개별 시트 reference 검토 대상으로 올린다.
 - 아이템, 지도, 조직, 관계망 중 두 축 이상과 닿으면 우선순위를 올린다.

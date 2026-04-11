@@ -10,13 +10,13 @@
   `Section_15_Named_Notables_Register.md`에서 따로 본다.
 - 이 색인의 기본 state label은 `operational_line`이다.
 
-operational active 판단은
+operational closure status reading은
 `Section_15_Operational_Lines_Track.md`,
 `Section_15_Operational_Display_Canon_Candidates.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
-후속 reading은 이 색인을 기준으로
+reference reading은 이 색인을 기준으로
 `개별 인물 시트`나 `조직별 세부 회수` 문서를 참조한다.
 
 ## Recorded Groups Snapshot
@@ -45,10 +45,10 @@ operational active 판단은
 
 ## Profile Carryover Snapshot
 
-- 이 index 아래로 연결되는 `Section_15_Profile_*` 초안은
+- 이 index 아래로 연결되는 `Section_15_Profile_*` draft/reference는
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 따른다.
 - 즉 group index는 조직 묶음만 나열하는 문서가 아니라,
-  하위 profile의 policy carryover가 group reading과 어긋나지 않는지 보는 상위 입구다.
+  하위 profile의 policy carryover가 group reading과 어긋나지 않는지 보는 상위 reference summary다.
 - 이 index는 group family와 reading만 요약하고,
   exact guard wording authority는 downstream profile card의 `3-1. Policy Guard`에 남긴다.
 - 따라서 group index가 free-city나 obelisk family를 적더라도,
@@ -230,19 +230,19 @@ reference상 아직 바로 `15` 확정으로 내리기보다
 - 따라서 자유도시 그룹은 `urban_market / shadow_port / debt-enforcement`,
   오벨리스크형 제도 그룹은 `nontraditional elite thin-support / dark institution`
   범위에서만 intake한다.
-- group index에서 잡혔다고 해서 곧바로 혈통층, 토착층, 전통 국가기관 근거로 승격하지 않는다.
+- group index에서 잡혔다고 해서 곧바로 혈통층, 토착층, 전통 국가기관 근거로 고정하지 않는다.
 - group index는 intake family만 배정할 뿐,
   최종 policy prose는 각 profile card에서 유지한다.
 - subline 확장까지 내려간 경우에도
   group index는 family intake만 배정할 뿐,
   exact wording source는 각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
 - representative closed subline pair는
-  named notable 승인 논리나 group 승격 근거가 아니라
+  named notable 승인 논리나 group 고정 근거가 아니라
   operational sample reference로만 유지한다.
 
-## Expansion Group Snapshot
+## Deferred Group Snapshot
 
-reference상 자연스럽게 늘어날 후보 묶음:
+reference backlog로만 남기는 후보 묶음:
 
 1. `밤의 무역상 하위층`
 2. `비밀 경매 운영층`
@@ -251,11 +251,9 @@ reference상 자연스럽게 늘어날 후보 묶음:
 
 ## Conductor Reading Rule
 
-- 새 후보가 생기면 reference상 먼저 `Group Index`를 거치는 흐름으로 읽는다.
-- 그다음 `Group Draft`로 묶는 흐름을 기준으로 읽는다.
-- 그 다음에야 `개별 Profile Template`로 내리는 흐름으로 읽는다.
-- 계열 시트가 충분히 쌓이면
-  `Subline Draft`로 다시 쪼개는 확장 흐름으로 읽는다.
+- 새 후보가 명시적으로 재개되면 reference상 `Group Index`, `Group Draft`, `Profile Template` 연결 상태를 함께 읽는다.
+- 계열 시트가 충분히 쌓인 경우에도
+  `Subline Draft`는 확장 본선이 아니라 source/evidence drift가 있을 때만 보는 reference 분기 흐름으로만 읽는다.
 - group index의 state label은 canonical 상태어 참고용이고,
   해석선은 각 profile/template의 `Policy Guard`와 함께 읽는다.
 - exact operational guard wording authority도 상위 group index가 아니라
