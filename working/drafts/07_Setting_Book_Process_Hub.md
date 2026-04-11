@@ -15,6 +15,12 @@
 지금 어디까지 왔는지,
 어떤 기준으로 다음 단계를 판단하는지를 보고 싶을 때 이쪽으로 들어온다.
 
+헷갈릴 때 재진입 순서:
+
+1. `Setting_Book_Document_Roles_Map.md`
+2. `Setting_Book_Assembly_Index.md`
+3. `Setting_Book_Thread_Checkpoint.md`
+
 ## 핵심 관리 문서
 
 ### Assembly Index

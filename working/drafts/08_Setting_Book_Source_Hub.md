@@ -18,6 +18,12 @@
 각 장의 기술 초안과 구조 초안이 어디에 있는지 정리한다.
 공유용 preview와 압축 reference 구분이 먼저 필요하면 `Setting_Book_Document_Roles_Map.md`를 먼저 본다.
 
+헷갈릴 때 재진입 순서:
+
+1. `Setting_Book_Document_Roles_Map.md`
+2. `Setting_Book_Preview_Readable_v0.md`
+3. `07_Setting_Book_Process_Hub.md`
+
 ## 장별 원재료
 
 ### 0. Canon Policy
