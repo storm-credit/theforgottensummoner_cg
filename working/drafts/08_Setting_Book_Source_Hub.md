@@ -9,15 +9,6 @@
 - [[03_Setting_Book_Items_Hub]]
 - [[04_Setting_Book_Places_Hub]]
 - [[05_Setting_Book_Species_Hub]]
-- [[Setting_Book_Chapter_0_Canon_Policy_Draft]]
-- [[Setting_Book_Chapter_1_Five_Continents_Draft]]
-- [[Setting_Book_Chapter_2_Faction_Archive_Structure_Draft]]
-- [[Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft]]
-- [[Setting_Book_Chapter_4_Naming_Normalization_Draft]]
-- [[Setting_Book_Chapter_5_Item_Desire_Structure_Draft]]
-- [[Setting_Book_Chapter_6_Species_Framework_Draft]]
-- [[Setting_Book_Chapter_7_Spatial_Map_Draft]]
-- [[Setting_Book_Chapter_8_Register_Appendix_Draft]]
 
 ## 원본 재료 기준으로 보고 싶으면 여기서 시작
 

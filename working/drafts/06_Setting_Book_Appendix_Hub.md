@@ -30,10 +30,8 @@
 그다음 문서:
 
 - `Setting_Book_Preview_Readable_v0.md`
-- `Setting_Book_Appendix_Sample_14_15_Boundary.md`
-- `Setting_Book_Appendix_Sample_Item_Promotion.md`
-- `Setting_Book_Appendix_Sample_Place_Travel.md`
-- `Setting_Book_Appendix_Sample_Name_Collision.md`
+
+세부 sample 문서는 아래 Appendix A-E 섹션에서 바로 고르면 된다.
 
 ## Appendix A. 14 / 15 Boundary Candidates
 

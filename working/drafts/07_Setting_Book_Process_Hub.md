@@ -6,10 +6,6 @@
 - [[06_Setting_Book_Appendix_Hub]]
 - [[08_Setting_Book_Source_Hub]]
 - [[09_Setting_Book_Hub_Completion_Checklist]]
-- [[Setting_Book_Assembly_Index]]
-- [[Setting_Book_Thread_Checkpoint]]
-- [[Setting_Book_Release_Readiness_Checklist]]
-- [[Setting_Book_Preview_Package_v0]]
 
 ## 작업 관리 문서로 보고 싶으면 여기서 시작
 
