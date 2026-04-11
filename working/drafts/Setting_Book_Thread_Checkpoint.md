@@ -53,6 +53,7 @@
 - preview package와 release readiness의 evidence-depth 표현을 B/C sample check 완료 상태에 맞게 정렬
 - release-candidate trigger를 재판정해 separate RC 파일은 아직 보류하고 shareable preview completion target을 유지
 - 현재 상태 대시보드를 추가해 done / shareable / controlled hold 구간을 한 화면에서 확인 가능하게 정리
+- release readiness에 V1 hold breakdown을 추가해 filename / layout / row-level evidence 결정을 분리
 
 ## Core Files
 

@@ -134,6 +134,23 @@ reader-facing preview 후보를 넘어,
 2. 상업용 layout 또는 협업용 production bible 방향을 분리할지 결정한다.
 3. 필요한 경우 Appendix B/C의 나머지 행에만 추가 evidence note를 덧붙인다. 지금은 샘플 단위 evidence pointer check까지는 내려가 있다.
 
+## V1 Hold Breakdown
+
+v1로 넘어가기 전 hold는 큰 원고 문제가 아니라
+아래 세 결정으로 쪼개서 본다.
+
+| Hold | Current Question | Unblock Condition |
+| --- | --- | --- |
+| Filename / package name | `Setting_Book_Preview_Readable_v0.md`를 유지할지, 별도 RC 파일을 만들지 | 협업자에게 넘길 보존 산출물이 preview인지 RC인지 결정됨 |
+| Layout direction | 상업용 layout을 먼저 볼지, production bible을 먼저 볼지 | 다음 사용자가 reader인지 collaborator인지 결정됨 |
+| Row-level evidence | Appendix B/C에서 더 필요한 행이 있는지 | 추가 행이 없거나, 필요한 행만 evidence note로 보강됨 |
+
+현재 오케스트라 판정:
+
+- filename hold는 유지한다. 지금은 preview 이름이 더 안전하다.
+- layout hold는 유지한다. 아직 상업용 판형보다 설정 기준 보존이 먼저다.
+- row-level evidence hold는 작아졌다. B/C sample evidence pointer check가 들어갔으므로, 이후는 필요한 행만 좁혀서 처리한다.
+
 ## Conductor Decision
 
 다음 진행은 두 갈래 중 하나다.

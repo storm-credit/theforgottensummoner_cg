@@ -59,6 +59,8 @@
 2. 상업용 layout과 production bible 중 어느 방향을 먼저 보존 산출물로 삼을지 결정
 3. Appendix B/C에서 정말 필요한 행에만 row-level evidence note를 추가
 
+세부 hold 기준은 `Setting_Book_Release_Readiness_Checklist.md`의 `V1 Hold Breakdown`에서 관리한다.
+
 ## 하지 말아야 할 일
 
 - 허브를 다시 크게 갈아엎지 않는다.
