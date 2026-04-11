@@ -118,6 +118,7 @@
 
 ## Recent Commit Line
 
+- `de6e064 Add packaging direction matrix`
 - `45c40e4 Record hub index stabilization`
 - `bda58af Link hubs to status dashboard`
 - `d5b4539 Refine hub quick index wording`
