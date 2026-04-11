@@ -7,6 +7,7 @@
 - [[02_Setting_Book_People_Hub]]
 - [[03_Setting_Book_Items_Hub]]
 - [[04_Setting_Book_Places_Hub]]
+- [[Setting_Book_Species_Core_Profiles_v0]]
 - [[06_Setting_Book_Appendix_Hub]]
 - [[Setting_Book_Preview_Readable_v0]]
 
@@ -21,6 +22,7 @@
 이 문서부터:
 
 - `Setting_Book_Preview_Readable_v0.md`
+- `Setting_Book_Species_Core_Profiles_v0.md`
 - `Setting_Book_Chapter_6_Species_Framework_Draft.md`
 
 그다음 문서:
@@ -67,4 +69,5 @@
 
 - 종족/혈통으로 볼 때는 이 문서부터
 - 읽는 설명은 `Part V`
+- 대표 종족 중간 정리본은 `Setting_Book_Species_Core_Profiles_v0.md`
 - 검증은 `Appendix E`

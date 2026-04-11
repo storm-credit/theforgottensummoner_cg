@@ -78,6 +78,7 @@
 - `working/drafts/Setting_Book_People_Core_Profiles_v0.md`
 - `working/drafts/Setting_Book_Places_Core_Profiles_v0.md`
 - `working/drafts/Setting_Book_Items_Core_Profiles_v0.md`
+- `working/drafts/Setting_Book_Species_Core_Profiles_v0.md`
 
 ## Recent Commit Line
 
@@ -112,7 +113,7 @@
 
 ## Recommended Next Queue
 
-1. `Faction / People / Places / Items Core Profiles`를 기준으로 종족 축 중간 정리본 확장 여부 판단
+1. `Faction / People / Places / Items / Species Core Profiles`를 기준으로 prototype/public assembly 연결 보강 여부 판단
 2. preview package 기준으로 `preview_v0_readable` 방향 진행
 3. public manuscript style-unification pass
 4. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
