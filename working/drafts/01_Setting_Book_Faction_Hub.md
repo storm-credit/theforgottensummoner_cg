@@ -45,6 +45,19 @@
 
 아래 대륙별 섹션에서는 `바로 갈 문서`만 따라가면 된다.
 
+## 대륙별 빠른 인덱스
+
+| Continent | Main Faction Lens | First Click |
+| --- | --- | --- |
+| Ether | 성국, 왕국연합, 자유도시연합, 마법협회, 정령연합 | `Setting_Book_Faction_Core_Profiles_v0.md` |
+| Crimson | 붉은 사막 부족 연합, 용의 후예, 사막 상인 연합 | `Setting_Book_Chapter_1_Five_Continents_Draft.md` |
+| Frost | 프로스트본 연합, 클랜 상층, 생존 경제 조직 | `Setting_Book_Chapter_1_Five_Continents_Draft.md` |
+| Obelisk | 망자의 왕국, 잊힌 자들의 연합, 봉인 수호단, 기억 경제 / 망명 네트워크 | `Setting_Book_Faction_Core_Profiles_v0.md` |
+| Oceanic | 황금 함대, 해적 연합, 바다의 교단 | `Setting_Book_Faction_Core_Profiles_v0.md` |
+
+세부 설명은 아래 대륙별 섹션에서 보고,
+정밀한 구조 라벨은 `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`에서 확인한다.
+
 ## Ether
 
 핵심 세력:

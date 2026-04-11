@@ -42,6 +42,12 @@
 2. `Setting_Book_Document_Roles_Map.md`
 3. 필요한 축의 core profile
 
+세력별로 보고 싶은 사람:
+
+1. `01_Setting_Book_Faction_Hub.md`
+2. `Setting_Book_Faction_Core_Profiles_v0.md`
+3. `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
+
 작업 상태를 확인하는 사람:
 
 1. `Setting_Book_Current_Status_Dashboard.md`
