@@ -44,6 +44,27 @@
 | underpath | 기록되지 않는 그림자 길 | 소개자, 암호, 배신, 비공식 물류 |
 | arcane_route | 시간을 줄일 수 있지만 대가가 큰 길 | 의식 비용, 제약, 오염, 추적 위험 |
 
+## Evidence Pointer Check
+
+장소를 독립 본문 항목으로 올리기 전에는
+이름의 분위기보다 실제 장면 기능과 진입 비용을 먼저 확인한다.
+
+Primary lanes:
+
+- `workflow/10_Spatial_Map_Progression.md`
+- `working/drafts/Spatial_Backlog.md`
+- `working/drafts/Crossroad_Cities_Map_Seed.md`
+- `working/drafts/Crossroad_Cities_Ops_Matrix.md`
+- `audit/FS_Place_Function_Register.md`
+- `audit/FS_Travel_Logistics_Register.md`
+
+Row-level guard:
+
+- `포트 넥서스`는 합법 항만과 그림자 접선이 겹치는 관문으로 유지한다.
+- `검은 고양이`는 중립 술집이 아니라 반복 가능한 underpath 접선지로 본다.
+- `머시너리 게이트`는 장소 자체보다 계약 보증, 블랙리스트 기억, 중재 기록이 함께 중요하다.
+- 강한 이름만으로 장소를 승격하지 않는다. 이동 경로, 비용, 세력 압력 중 최소 두 축이 보여야 한다.
+
 ## Body Conversion Example
 
 Technical appendix language:
@@ -80,4 +101,3 @@ Reader-facing body language:
 누가 막히고,
 누가 숨어 움직이며,
 무엇이 값이 되는지를 보여주는 장치라는 점을 끝까지 유지하는 것이다.
-

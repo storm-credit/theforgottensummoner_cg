@@ -61,6 +61,25 @@ Current high-risk example:
 | --- | --- | --- |
 | Aegis | person, surname, shield concept, magic, relic, or defensive doctrine may overlap | keep separate until the source proves the item layer |
 
+## Evidence Pointer Check
+
+Before promoting an item candidate, check the item source lanes rather than the raw extraction list alone.
+
+Primary lanes:
+
+- `workflow/07_Item_Canon_Schema.md`
+- `workflow/08_Item_Desire_Design.md`
+- `working/crosswalks/Item_Candidate_Register.md`
+- `working/crosswalks/Item_Longterm_Taxonomy.md`
+- `working/crosswalks/Item_Name_Collision_Register.md`
+
+Row-level guard:
+
+- `Aegis` is a collision field, not one clean relic name.
+- Fully qualified names such as `Coat of the Unthinking Aegis` or `Aegis of Circulating Chlorophyll` are safer than bare `Aegis` when item evidence is strong.
+- A person or owner route such as `Alexander Aegis` does not prove that every `Aegis` phrase belongs to one lineage artifact.
+- `working/crosswalks/Extracted_Item_Candidates.md` can point to candidates, but it must not be used as the final promotion source by itself.
+
 ## Desire-First Body Conversion
 
 Technical appendix language:
@@ -108,4 +127,3 @@ Keep an item candidate out of body prose when:
 The item appendix should be a promotion filter, not a warehouse.
 
 The final setting book should feature fewer objects with stronger desire, clearer cost, and better map/story connection.
-
