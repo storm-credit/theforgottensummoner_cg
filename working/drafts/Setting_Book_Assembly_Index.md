@@ -86,9 +86,28 @@ Recommended next sequence:
 3. Add a clean title page and front-matter draft for the setting book prototype.
 4. Decide whether the next package should target reader-facing release or production-facing bible format.
 5. Prepare a short checkpoint summary for thread handoff if context gets too long.
+6. At stable milestones, run the `Main Push Gate` before pushing to `main`.
+
+## Main Push Gate
+
+`main` push는 자동으로 매번 하지 않는다.
+
+아래 조건을 만족하는 적정 시점에만 `main`으로 올린다.
+
+1. 현재 작업 브랜치가 원격에 푸시되어 있다.
+2. 단일 prototype 파일이 최신 흐름을 대표한다.
+3. 설정집 계열 파일에서 금지 표현과 미완료 표식 스캔이 깨끗하다.
+4. 사용자 또는 별도 작업 파일이 섞여 있지 않다.
+5. 다음 단계가 실험 확장이 아니라 안정본 보존일 때다.
+
+현재 main push 후보 시점:
+
+- prototype v0 1차 확장 완료 후
+- public manuscript와 appendix가 서로 같은 목차를 가리킨 뒤
+- 사용자가 명시적으로 main 반영을 원하거나, 오케스트라가 안정 마일스톤으로 판정한 뒤
 
 ## Conductor Decision
 
 The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.
 
-The next meaningful work is controlled refinement: smooth the public manuscript, deepen the appendix with selected real tables, and prepare the package for either polish or handoff.
+The next meaningful work is controlled refinement: smooth the public manuscript, deepen the appendix with selected real tables, and prepare the package for either polish, main push gate, or handoff.

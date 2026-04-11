@@ -90,4 +90,20 @@
 2. appendix manuscript에 실제 표 일부 삽입
 3. title page / front matter draft 추가
 4. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
+5. 안정 마일스톤마다 `main push gate` 확인
 
+## Main Push Gate
+
+적정 시점에는 `main`에도 푸시한다.
+
+단, 아래 조건을 만족할 때만 진행한다.
+
+1. 현재 작업 브랜치가 원격에 푸시되어 있다.
+2. prototype 파일이 최신 대표본이다.
+3. 설정집 계열 파일 스캔에서 금지 표현과 미완료 표식이 나오지 않는다.
+4. 사용자 변경 파일이 커밋에 섞이지 않는다.
+5. 지금 작업이 실험 중간 상태가 아니라 보존 가능한 안정 지점이다.
+
+현재 계속 분리해서 보존해야 하는 사용자 변경 파일:
+
+- `working/crosswalks/Extracted_Item_Candidates.md`
