@@ -9,6 +9,8 @@
 - [[04_Setting_Book_Places_Hub]]
 - [[05_Setting_Book_Species_Hub]]
 - [[06_Setting_Book_Appendix_Hub]]
+- [[07_Setting_Book_Process_Hub]]
+- [[08_Setting_Book_Source_Hub]]
 
 ## 먼저 이 문서만 보면 됨
 
@@ -24,12 +26,15 @@
 - `04_Setting_Book_Places_Hub.md`
 - `05_Setting_Book_Species_Hub.md`
 - `06_Setting_Book_Appendix_Hub.md`
+- `07_Setting_Book_Process_Hub.md`
+- `08_Setting_Book_Source_Hub.md`
 
 이 파일이 현재 가장 “책처럼” 읽히는 버전이다.
 누군가에게 먼저 보여 준다면 이 파일부터 본다.
 세력별로 보고 싶다면 `01_Setting_Book_Faction_Hub.md`부터 본다.
 인물, 유물, 장소, 종족 축으로 보고 싶다면 `02~05 허브`를 보면 된다.
 부록 기준으로 보고 싶다면 `06_Setting_Book_Appendix_Hub.md`를 보면 된다.
+작업 흐름은 `07`, 원본 재료는 `08` 허브를 보면 된다.
 
 ## 2. 본문 뒤에 붙는 검증용 부록
 
@@ -81,6 +86,8 @@
 - 장소별: `04_Setting_Book_Places_Hub.md`
 - 종족별: `05_Setting_Book_Species_Hub.md`
 - 부록별: `06_Setting_Book_Appendix_Hub.md`
+- 작업관리: `07_Setting_Book_Process_Hub.md`
+- 원본재료: `08_Setting_Book_Source_Hub.md`
 - 그다음 보기: `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - 전체 압축본: `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
 - 작업 관리 문서는 급하면 안 봐도 된다.
