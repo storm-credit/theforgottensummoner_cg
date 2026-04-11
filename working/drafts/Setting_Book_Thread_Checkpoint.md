@@ -52,6 +52,7 @@
 - Appendix B/C 개별 샘플에도 evidence pointer check를 추가해 item/place 승격 기준을 하위 문서에 반영
 - preview package와 release readiness의 evidence-depth 표현을 B/C sample check 완료 상태에 맞게 정렬
 - release-candidate trigger를 재판정해 separate RC 파일은 아직 보류하고 shareable preview completion target을 유지
+- 현재 상태 대시보드를 추가해 done / shareable / controlled hold 구간을 한 화면에서 확인 가능하게 정리
 
 ## Core Files
 
@@ -99,6 +100,7 @@
 - `working/drafts/Setting_Book_Preview_Package_v0.md`
 - `working/drafts/Setting_Book_Preview_Readable_v0.md`
 - `working/drafts/Setting_Book_Document_Roles_Map.md`
+- `working/drafts/Setting_Book_Current_Status_Dashboard.md`
 - `working/drafts/Setting_Book_Faction_Core_Profiles_v0.md`
 - `working/drafts/Setting_Book_People_Core_Profiles_v0.md`
 - `working/drafts/Setting_Book_Places_Core_Profiles_v0.md`

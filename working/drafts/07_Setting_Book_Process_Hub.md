@@ -7,6 +7,7 @@
 - [[06_Setting_Book_Appendix_Hub]]
 - [[08_Setting_Book_Source_Hub]]
 - [[09_Setting_Book_Hub_Completion_Checklist]]
+- [[Setting_Book_Current_Status_Dashboard]]
 
 ## 작업 관리 문서로 보고 싶으면 여기서 시작
 
@@ -32,6 +33,16 @@
 - 현재 패키지 상태
 - next queue
 - main push gate
+
+### Current Status Dashboard
+
+- `Setting_Book_Current_Status_Dashboard.md`
+
+무엇을 보나:
+
+- 지금 무엇이 마감인지
+- 무엇이 공유 가능한 preview인지
+- 무엇이 v1 전 hold인지
 
 ### Thread Checkpoint
 

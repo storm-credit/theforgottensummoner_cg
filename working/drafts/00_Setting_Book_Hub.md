@@ -13,6 +13,7 @@
 - [[07_Setting_Book_Process_Hub]]
 - [[08_Setting_Book_Source_Hub]]
 - [[09_Setting_Book_Hub_Completion_Checklist]]
+- [[Setting_Book_Current_Status_Dashboard]]
 
 ## 이 문서부터 보면 됨
 
@@ -42,6 +43,7 @@
 ## 2. 작업 관리와 원재료로 바로 가기
 
 - 지금 어디까지 정리됐는지 보고 싶으면 `07_Setting_Book_Process_Hub.md`
+- 한 화면 상태판을 보고 싶으면 `Setting_Book_Current_Status_Dashboard.md`
 - 원재료까지 거슬러 올라가고 싶으면 `08_Setting_Book_Source_Hub.md`
 - 허브 기준 자체를 확인하고 싶으면 `09_Setting_Book_Hub_Completion_Checklist.md`
 - 어떤 문서가 무슨 역할인지 먼저 보고 싶으면 `Setting_Book_Document_Roles_Map.md`
@@ -107,5 +109,6 @@
 - 핵심 축 압축 가이드: `Setting_Book_Faction_Core_Profiles_v0.md`, `Setting_Book_People_Core_Profiles_v0.md`, `Setting_Book_Places_Core_Profiles_v0.md`, `Setting_Book_Items_Core_Profiles_v0.md`, `Setting_Book_Species_Core_Profiles_v0.md`
 - 검증부터: `06_Setting_Book_Appendix_Hub.md`
 - 진행 상황: `07_Setting_Book_Process_Hub.md`
+- 현재 상태판: `Setting_Book_Current_Status_Dashboard.md`
 - 원재료 추적: `08_Setting_Book_Source_Hub.md`
 - 전체 압축본: `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
