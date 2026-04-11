@@ -83,13 +83,13 @@ Hold Queue:
 
 ## Routing Rule
 
-앞으로 15번 후보는 아래 순서로만 처리한다.
+15번 후보 reference는 아래 순서로만 읽는다.
 
 1. `대륙 -> 세력 / 도시 / 조직` 앵커 확인.
 2. 14번 독립 파일 또는 영웅표 신호 확인.
 3. 이름 충돌 확인.
-4. `named_notable_candidate`, `verify_before_15`, `need_named_candidate`, `keep_14` 중 하나로 상태 라벨 부여.
-5. 안정 후보만 15 Named Notables 개별 시트로 승격.
+4. `named_notable_candidate`, `verify_before_15`, `need_named_candidate`, `keep_14` 중 잠긴 상태 라벨을 확인.
+5. 안정 후보만 15 Named Notables 개별 시트 workset 기준으로 유지.
 
 ## Orchestrated Move Snapshot
 

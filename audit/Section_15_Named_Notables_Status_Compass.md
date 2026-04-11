@@ -1,6 +1,6 @@
 # Section 15 Named Notables Status Compass
 
-이 문서는 `15 Named Notables` 진행 상태를
+이 문서는 `15 Named Notables` closure sync / carryover watch 상태를
 대륙별로 압축해서 보는 오케스트라용 나침반이다.
 
 목적:
