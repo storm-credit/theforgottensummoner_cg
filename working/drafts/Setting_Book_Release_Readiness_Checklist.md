@@ -71,6 +71,24 @@ release 후보로 묶기 전에 아래를 통과해야 한다.
 따라서 현재 패키지는 `preview_v0_readable`로는 공유 가능하고,
 `v1 release`로 부르기에는 아직 이르다.
 
+## Release-Candidate File Trigger
+
+별도 release-candidate 파일은 지금 즉시 만들지 않는다.
+
+아래 네 조건이 함께 맞을 때만
+`preview_v0_readable`을 복제하거나 새 RC 패키지 파일을 만든다.
+
+1. Appendix B/C를 포함해 필요한 row-level evidence note가 더 이상 급한 hold가 아니라고 판단될 때
+2. front matter, readable preview, public assembly, prototype의 제목/부제/표지 톤이 같은 결정을 가리킬 때
+3. `Prototype_v0`라는 작업용 이름보다 reader-facing 이름이 더 도움이 될 때
+4. 다음 단계가 broad drafting이 아니라 보존 가능한 packaging일 때
+
+그 전까지는:
+
+- `Setting_Book_Preview_Readable_v0.md`를 공유용 대표본으로 유지한다.
+- `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`는 압축 대표 reference로 유지한다.
+- release-candidate라는 이름은 문서 본문보다 checklist 판단에서만 사용한다.
+
 ## Current V0 Assessment
 
 현재 패키지는 `prototype v0`와 `public assembly` 기준으로
@@ -80,7 +98,7 @@ reader-facing preview 후보를 넘어,
 아직 정식 v1 release로 부르기 전 남은 작업:
 
 1. Appendix B/C에서 특정 행 검증 요청이 생기면 그때만 row-level evidence note를 덧붙인다.
-2. `preview_v0_readable`을 preview 파일로 유지할지 release-candidate package로 복제/승격할지 결정한다.
+2. release-candidate file trigger 네 조건이 실제로 충족됐는지 다시 판정한다.
 3. 최종 파일명을 `Prototype_v0`에서 preview 또는 release candidate 이름으로 바꿀지 결정한다.
 4. 상업용 layout 또는 협업용 production bible 방향을 분리할지 결정한다.
 

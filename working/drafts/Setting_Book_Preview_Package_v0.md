@@ -20,6 +20,11 @@ Current naming decision:
 - Do not rename it into a release-candidate file until row-level evidence notes and final layout direction are decided.
 - Use `A Living World Companion` as the v0 subtitle and keep the current cover-tone sentence aligned with the readable preview opening.
 
+Release-candidate trigger:
+
+- Create a separate RC package only when the checklist says packaging is the next preserved artifact, not just the next draft pass.
+- Until then, keep preview and prototype as two different jobs: one shareable, one compressed reference.
+
 ## Preview Reading Order
 
 | Order | Section | Source File | Include Mode |
