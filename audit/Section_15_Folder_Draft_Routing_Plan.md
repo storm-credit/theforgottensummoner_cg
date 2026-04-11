@@ -1,7 +1,7 @@
 # Section 15 Folder Draft Routing Plan
 
-이 문서는 `15 Named Notables`의 실제 폴더링을 하기 전,
-후보별 가상 라우팅을 설계하는 초안이다.
+이 문서는 `15 Named Notables`의
+folder route/reference map을 정리하는 초안이다.
 
 중요:
 
@@ -14,16 +14,16 @@
 
 | Candidate | Draft Route | State | Reason |
 |---|---|---|---|
-| `울프가르 드래곤포지` | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `stable_15_workset / route_hierarchy_locked / grade_caution` | 용의 대장장이/공방주. 상위 route와 place lock을 분리한 actual draft 기준을 따르되 14 재확인 전 Hard Canon route로 고정하지 않는다. |
+| `울프가르 드래곤포지` | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `stable_15_workset / route_hierarchy_locked / grade_caution` | 용의 대장장이/공방주. 상위 route와 place lock을 분리한 current reference route set을 따르되 14 재확인 전 Hard Canon route로 고정하지 않는다. |
 | `에리온 드라코비스` | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` | 고대어 해석가/대현자. 엘드라칸 학술-전승층을 상위 route로 읽되 `에리온 베르날리스` 충돌 감시를 유지한다. |
-| `오그마` | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `stable_15_workset / route_hierarchy_locked / act_watch` | 살아있는 도서관/고룡 조언자. 전승 보관층 route와 place lock을 분리한 actual draft 기준을 우선한다. |
-| `엘다라` | `15 / 에테르 / 정령연합 / 루미라` | `support_hold / verify_source_before_profile` | 루미라 대현자/고대 정령어 권위자. 정령연합 전체 14 확인 전 Hard Canon 금지, stable triad actual draft에는 즉시 합류시키지 않는다. |
-| `실비아` | `15 / 범대륙 후기 확장 / 키르케 영약회` | `deferred_expansion_hold / name_collision_watch` | 강한 15 후보지만 범대륙 후기 확장이라 메인 진행 후순위. |
+| `오그마` | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `stable_15_workset / route_hierarchy_locked / act_watch` | 살아있는 도서관/고룡 조언자. 전승 보관층 route와 place lock을 분리한 current reference route set을 우선한다. |
+| `엘다라` | `15 / 에테르 / 정령연합 / 루미라` | `support_hold / verify_source_before_profile` | 루미라 대현자/고대 정령어 권위자. 정령연합 전체 14 확인 전 Hard Canon 금지, current carryover workset에는 넣지 않는다. |
+| `실비아` | `15 / 범대륙 후기 확장 / 키르케 영약회` | `deferred_expansion_hold / name_collision_watch` | 강한 15 후보지만 범대륙 후기 확장이라 메인 watch 후순위. |
 
 ## Boundary Candidate Routing
 
 아래 후보는 경로를 잡아두되,
-14 확인 전 실제 15로 승격하지 않는다.
+14 확인 전 live 15 확정자로 올리지 않는다.
 
 | Candidate Cluster | Draft Anchor | State |
 |---|---|---|
@@ -74,7 +74,7 @@
 
 ## Revision Gate
 
-실제 폴더 초안을 만들기 전 반드시 확인한다.
+live 폴더 반영 전 반드시 확인한다.
 
 1. 14번 독립 파일 존재 여부.
 2. 이름 충돌 레지스터 등재 여부.
@@ -85,9 +85,9 @@
 
 ## Conductor Decision
 
-아직 실제 이동은 하지 않는다.
+아직 live 이동은 하지 않는다.
 
-현재 이 문서의 역할은 stable triad actual draft `package freeze`를 다시 여는 것이 아니라,
+현재 이 문서의 역할은 closed reference set을 다시 여는 것이 아니라,
 freeze 밖 hold queue와 `Section 8 -> 15 carryover watch`를 유지하는 것이다.
 
 즉 routing plan은 상위 경로 설계층으로만 읽고,

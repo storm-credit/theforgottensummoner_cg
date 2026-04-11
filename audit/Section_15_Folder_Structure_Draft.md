@@ -1,11 +1,11 @@
 # Section 15 Folder Structure Draft
 
-이 문서는 `15 Named Notables`의 실제 폴더 초안 구조를
+이 문서는 `15 Named Notables`의 folder route/reference mock 구조를
 문서 레벨에서 먼저 잠그는 설계도다.
 
 중요:
 
-- 실제 폴더 생성/이동은 하지 않는다.
+- live 폴더 생성/이동은 하지 않는다.
 - 이 문서는 `route freeze` 이후에 잠긴 route reference 상태를 기록한다.
 - 이 문서는 `cg` 안의 설계도다.
 - 원본 저장소는 수정하지 않는다.
@@ -156,8 +156,8 @@
 
 ## 15-C. Need Named Candidate Slots
 
-`15-C`는 실제 이름 있는 인물 문서가 아니라,
-후속 회수용 슬롯 색인이다.
+`15-C`는 live 이름 인물 문서가 아니라,
+reference backlog용 슬롯 색인이다.
 
 ## Profile Format Carryover
 
@@ -187,7 +187,7 @@ Need Named Candidate Slots
 
 ## Route Hierarchy Lock
 
-actual draft 단계에서는
+draft workset reference에서는
 `상위 route anchor`와 `보조 place lock`을 섞지 않는다.
 
 | Candidate | Upper Route Anchor | Place Lock | Rule |
@@ -195,11 +195,11 @@ actual draft 단계에서는
 | `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `드래곤포지`, `프라이멀 엠버` | 폴더 route는 `드래곤포지 공방`까지로 고정하고, 개별 시트에서만 재료/화염 전승 place lock을 병기한다. |
 | `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` | 폴더 route는 `학술-전승층`으로 고정하고, 학자 구역/용언 도서관은 기능성 place lock으로만 둔다. |
 | `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `몽상가의 바위`, `지혜의 샘` | 폴더 route는 `전승 보관층`으로 고정하고, 대면/조언과 기억/전승 place lock은 개별 시트에만 둔다. |
-| `엘다라` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | 현재는 `support_hold`이므로 route 후보만 보존하고 actual draft triad에 합류시키지 않는다. |
+| `엘다라` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | 현재는 `support_hold`이므로 route 후보만 보존하고 current carryover workset에 넣지 않는다. |
 
 ## Policy Carryover Lock
 
-- `크림슨` 폴더 route는 씨족 중심 질서와 학술/전승/공방 thin-support를 정리하는 용도지, 전통 귀족국가형 `state_house strong` 승격 선언이 아니다.
+- `크림슨` 폴더 route는 씨족 중심 질서와 학술/전승/공방 thin-support를 정리하는 용도지, 전통 귀족국가형 `state_house strong` 근거 선언이 아니다.
 - `해양` Operational Lines route는 도시-항만 그림자경제를 정리하는 용도지, `토착 공동체층` 본체 폴더가 아니다.
 - `오벨리스크` route는 `nontraditional elite thin-support` 또는 `dark institution` 기능축을 정리하는 용도지, 전통 왕국/귀족국가 복원 route가 아니다.
 - `범대륙 후기 확장` route는 5대륙 본선과 분리된 hold route이며, `실비아`도 그 범위에서만 유지한다.
@@ -208,11 +208,11 @@ actual draft 단계에서는
 
 ## Conductor Decision
 
-현재 구조는 stable triad package가 이미 frozen 상태라는 전제 아래
-`closure sync / carryover watch` 기준으로 본다.
+현재 구조는
+`closure sync / carryover watch` 기준의 route/reference mock으로 본다.
 
-현재 메인 본선은 실제 폴더 생성이나 triad package 재개방이 아니라,
-이 초안을 `bridge / routing / revision gate / package freeze` 문서들과 맞춰
+현재 메인 본선은 live 폴더 생성이나 재해석 재개가 아니라,
+이 초안을 `bridge / routing / revision gate / closure sync watch` 문서들과 맞춰
 closure sync / carryover watch 기준으로 유지하는 것이다.
 
 이 초안은 lower-card authority를 재정의하지 않으며,

@@ -2,7 +2,7 @@
 
 이 문서는 `15. 인물백과`의 열람용 인덱스 초안이다.
 
-이 단계에서는 실제 폴더나 원본 문서를 바꾸지 않는다.
+이 단계에서는 live 폴더나 원본 문서를 바꾸지 않는다.
 이 문서는 `cg` 안에서 라우팅과 열람 순서를 점검하기 위한 설계도다.
 
 ## Top-Level Reading Order
@@ -51,9 +51,9 @@ Named Notables guard:
 
 - 이름은 판타지 표면명 후보로 계속 낮춘다.
 - 현대 범죄/기업물 어휘는 정본명으로 쓰지 않는다.
-- 실제 개별 인물이 확인되면 Named Notables가 아니라 Operational Lines로 유지할지 다시 본다.
-- `Operational_Display_Guard_Audit.md` 기준으로 현재 표면명 후보는 대체로 사용 가능하다.
-- 후속 검토 후보는 `밤그물 첩보망`, `회랑 운반자`, `환영 집행관` 계열이다.
+- 개별 named holder가 확인되기 전까지는 Named Notables가 아니라 Operational Lines reference로만 둔다.
+- `Operational_Display_Guard_Audit.md` 기준으로 현재 표면명 후보는 대체로 reference 유지 가능하다.
+- reference backlog 후보는 `밤그물 첩보망`, `회랑 운반자`, `환영 집행관` 계열이다.
 
 Operational Lines guard:
 
@@ -96,7 +96,7 @@ Operational Lines guard:
 
 - 이름을 발명하지 않는다.
 - 장소-기관 앵커를 먼저 보존한다.
-- 14 신호를 확인한 뒤에만 15 후보로 승격한다.
+- 14 신호를 확인하기 전에는 15 후보로 올리지 않는다.
 
 ## 14/15 Boundary Holds
 
@@ -133,12 +133,12 @@ Operational Lines guard:
 
 ## Conductor Decision
 
-15번은 이제 `실제 이동 전 설계` 단계까지 왔다.
+15번은 지금 `read-only closure sync / carryover watch reference` 단계로 유지한다.
 
 현재 메인 본선은 `8번 세력 아카이브` 재점검이나
 stable triad package 재가동이 아니라,
-이 인덱스 초안과 상태 나침반이 closure sync / carryover watch 기준으로
-같은 authority 분리 문장을 유지하는 것이다.
+이 인덱스 초안과 상태 나침반이 이미 닫힌 closure sync / carryover wording을
+같은 authority 분리 문장으로 mirror하는 것이다.
 
 named notable index는 상위 요약층으로만 읽고,
 operational profile의 `3-1. Policy Guard`는 하위 카드층에 그대로 남겨 둔다.
