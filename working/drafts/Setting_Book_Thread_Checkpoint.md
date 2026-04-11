@@ -107,6 +107,7 @@
 
 ## Recent Commit Line
 
+- `488e6ef Record release candidate trigger status`
 - `1200776 Align evidence depth package status`
 - `c0f3c20 Add appendix sample evidence checks`
 - `6687900 Clarify setting book scan interpretation`
