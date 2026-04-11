@@ -110,7 +110,9 @@ The next preview build should do one of two things:
 
 Current conductor choice:
 
-Proceed toward `preview_v0_readable` first.
+Treat `preview_v0_readable` as the current shareable package.
 
 The package already has enough verification structure.
-The next gain comes from making `Setting_Book_Preview_Readable_v0.md` read like one intentional book rather than a bundle of samples.
+The next gain is not another broad content pass.
+It comes from either adding targeted evidence notes for v1
+or deciding whether the package should be renamed from prototype/preview into a release-candidate file.

@@ -53,18 +53,35 @@ release 후보로 묶기 전에 아래를 통과해야 한다.
 11. 안정 마일스톤이면 `Main Push Gate`를 통과한 뒤 `main`에 fast-forward push한다.
 12. core profile bridge 문서들이 readable preview와 기술 초안 사이의 안내선으로 일관되게 동작한다.
 
+## Preview Packaging Gate Snapshot
+
+현재 기준의 gate 판정은 아래와 같다.
+
+| Gate Area | Current Result | Note |
+| --- | --- | --- |
+| readable preview | pass for preview v0 | `Setting_Book_Preview_Readable_v0.md`가 현재 공유용 대표본 역할을 한다. |
+| public assembly tone | pass for preview v0 | public assembly와 readable preview가 같은 톤 패밀리로 정렬되어 있다. |
+| core profile bridge | pass for preview v0 | 세력, 인물, 장소, 유물, 종족 중간 정리본이 본문과 기술 초안 사이를 받친다. |
+| appendix A-E structure | pass for preview v0 | A-E 표는 최종 확정표가 아니라 통제표로 고정되어 있다. |
+| source / evidence depth | hold for v1 | source pointer와 evidence note는 필요한 행에만 추가하면 된다. |
+| final naming / layout | hold for v1 | 아직 상업용 판형이나 최종 파일명까지 확정하지 않는다. |
+
+따라서 현재 패키지는 `preview_v0_readable`로는 공유 가능하고,
+`v1 release`로 부르기에는 아직 이르다.
+
 ## Current V0 Assessment
 
 현재 패키지는 `prototype v0`와 `public assembly` 기준으로
-reader-facing preview 후보까지는 도달했다.
+reader-facing preview 후보를 넘어,
+`preview_v0_readable` 공유 가능 상태까지 도달했다.
 
 아직 정식 v1 release로 부르기 전 남은 작업:
 
-1. public body의 Part I-V를 같은 문장 밀도와 호흡으로 더 고르게 다듬는다.
-2. Appendix A-E에 source pointer 또는 evidence note를 필요한 만큼만 덧붙인다.
-3. Part I과 Opening을 받치는 짧은 canon/source appendix note를 추가할지 결정한다.
-4. front matter의 부제와 표지 톤 문장을 하나로 좁힌다.
-5. 최종 파일명을 `Prototype_v0`에서 preview 또는 release candidate 이름으로 바꿀지 결정한다.
+1. Appendix A-E에 source pointer 또는 evidence note를 필요한 만큼만 덧붙인다.
+2. Part I과 Opening을 받치는 짧은 canon/source appendix note를 추가할지 결정한다.
+3. front matter의 부제와 표지 톤 문장을 하나로 좁힌다.
+4. 최종 파일명을 `Prototype_v0`에서 preview 또는 release candidate 이름으로 바꿀지 결정한다.
+5. 상업용 layout 또는 협업용 production bible 방향을 분리할지 결정한다.
 
 ## Conductor Decision
 
@@ -77,7 +94,10 @@ reader-facing preview 후보까지는 도달했다.
 
 현재 오케스트라 판단:
 
-먼저 `reader-facing preview` 쪽으로 한 번 묶는 것이 좋다.
+현재는 `reader-facing preview` 쪽이 먼저 닫혔다.
 이유는 이미 prototype v0와 A-E appendix가 연결되어 있고,
-이제 필요한 것은 더 많은 원자료 발굴보다
-읽히는 책의 형태를 안정적으로 보여주는 일이기 때문이다.
+readable preview, public assembly, core profiles, appendix control tables가
+서로 같은 패키지 역할을 하기 때문이다.
+
+다음 진행은 `preview_v0_readable`을 더 늘리기보다,
+v1로 가기 전에 필요한 source/evidence note와 이름/표지 톤 결정을 좁히는 쪽이 좋다.

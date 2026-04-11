@@ -91,10 +91,10 @@ Completed checks:
 
 Recommended next sequence:
 
-1. Use the release readiness checklist before packaging a preview manuscript.
-2. Use the preview package to choose readable preview or production preview.
-3. Add source pointers or evidence notes to appendix rows only where they are needed for verification.
-4. Extend the strongest mid-layer sheets into small reusable profile families before widening the surface area.
+1. Add source pointers or evidence notes to appendix rows only where they are needed for verification.
+2. Decide whether `preview_v0_readable` should remain a preview file or become a release-candidate package file.
+3. Narrow the front matter subtitle and cover-tone sentence.
+4. Extend the strongest mid-layer sheets into small reusable profile families only after the v1 direction is chosen.
 5. Prepare a short checkpoint summary for thread handoff if context gets too long.
 6. At stable milestones, run the `Main Push Gate` before pushing to `main`.
 
@@ -124,4 +124,4 @@ Recommended next sequence:
 
 The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.
 
-The next meaningful work is controlled refinement: keep the readable manuscript stable, keep the public assembly and readable preview in the same tonal family, let the core profile companion set function as the bridge layer between body and technical drafts, and add appendix evidence notes only where verification needs them.
+The next meaningful work is controlled refinement: keep `preview_v0_readable` stable as the shareable package, add appendix evidence notes only where verification needs them, and decide whether the next named artifact is still a preview or a release candidate.
