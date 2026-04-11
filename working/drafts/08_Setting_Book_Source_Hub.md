@@ -10,6 +10,7 @@
 - [[03_Setting_Book_Items_Hub]]
 - [[04_Setting_Book_Places_Hub]]
 - [[05_Setting_Book_Species_Hub]]
+- [[Setting_Book_Current_Status_Dashboard]]
 
 ## 원본 재료 기준으로 보고 싶으면 여기서 시작
 

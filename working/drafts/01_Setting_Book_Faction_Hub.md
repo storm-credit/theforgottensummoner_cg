@@ -11,6 +11,7 @@
 - [[04_Setting_Book_Places_Hub]]
 - [[05_Setting_Book_Species_Hub]]
 - [[06_Setting_Book_Appendix_Hub]]
+- [[Setting_Book_Current_Status_Dashboard]]
 
 ## 세력별로 보고 싶으면 여기서 시작
 

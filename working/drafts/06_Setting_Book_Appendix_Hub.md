@@ -10,6 +10,7 @@
 - [[04_Setting_Book_Places_Hub]]
 - [[05_Setting_Book_Species_Hub]]
 - [[Setting_Book_Preview_Readable_v0]]
+- [[Setting_Book_Current_Status_Dashboard]]
 - [[Setting_Book_Appendix_Assembly_Manuscript_Draft]]
 
 ## 부록 기준으로 보고 싶으면 여기서 시작

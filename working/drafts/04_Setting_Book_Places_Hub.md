@@ -10,6 +10,7 @@
 - [[Setting_Book_Places_Core_Profiles_v0]]
 - [[05_Setting_Book_Species_Hub]]
 - [[06_Setting_Book_Appendix_Hub]]
+- [[Setting_Book_Current_Status_Dashboard]]
 - [[Setting_Book_Preview_Readable_v0]]
 
 ## 장소와 길 축으로 보고 싶으면 여기서 시작

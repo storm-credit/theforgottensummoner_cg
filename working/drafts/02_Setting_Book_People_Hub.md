@@ -10,6 +10,7 @@
 - [[04_Setting_Book_Places_Hub]]
 - [[05_Setting_Book_Species_Hub]]
 - [[06_Setting_Book_Appendix_Hub]]
+- [[Setting_Book_Current_Status_Dashboard]]
 - [[Setting_Book_Preview_Readable_v0]]
 
 ## 인물 축으로 보고 싶으면 여기서 시작
