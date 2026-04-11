@@ -68,9 +68,9 @@ Keep material in audit-only history when it answers:
 Completed checks:
 
 - 0-8 chapter draft files exist.
-- Current setting-book files do not contain the older `stable_triad_frozen_reference_set` label.
-- Current setting-book files do not use the old `watch-reference` phrasing.
-- Current setting-book files do not use `watch_keep` in display tables.
+- Current setting-book files do not contain the older stable-triad label.
+- Current setting-book files do not use the old watch/reference phrasing.
+- Current setting-book files do not use the old watch-keep display state in tables.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -89,4 +89,3 @@ Recommended next sequence:
 The setting-book recomposition has moved from source-map setup into full first-draft package state.
 
 The next meaningful work is not more raw expansion. It is controlled assembly: make the body easier to read, keep the appendix useful, and prevent audit vocabulary from leaking into public-facing prose.
-
