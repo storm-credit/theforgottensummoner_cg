@@ -3,6 +3,9 @@
 ## 빠른 링크
 
 - [[00_Setting_Book_Hub]]
+- [[06_Setting_Book_Appendix_Hub]]
+- [[08_Setting_Book_Source_Hub]]
+- [[09_Setting_Book_Hub_Completion_Checklist]]
 - [[Setting_Book_Assembly_Index]]
 - [[Setting_Book_Thread_Checkpoint]]
 - [[Setting_Book_Release_Readiness_Checklist]]

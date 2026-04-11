@@ -4,6 +4,11 @@
 
 - [[00_Setting_Book_Hub]]
 - [[07_Setting_Book_Process_Hub]]
+- [[01_Setting_Book_Faction_Hub]]
+- [[02_Setting_Book_People_Hub]]
+- [[03_Setting_Book_Items_Hub]]
+- [[04_Setting_Book_Places_Hub]]
+- [[05_Setting_Book_Species_Hub]]
 - [[Setting_Book_Chapter_0_Canon_Policy_Draft]]
 - [[Setting_Book_Chapter_1_Five_Continents_Draft]]
 - [[Setting_Book_Chapter_2_Faction_Archive_Structure_Draft]]
