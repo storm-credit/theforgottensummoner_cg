@@ -3,6 +3,7 @@
 ## 빠른 링크
 
 - [[00_Setting_Book_Hub]]
+- [[Setting_Book_Document_Roles_Map]]
 - [[07_Setting_Book_Process_Hub]]
 - [[01_Setting_Book_Faction_Hub]]
 - [[02_Setting_Book_People_Hub]]
@@ -15,6 +16,7 @@
 이 허브는 설정집의 원재료를 모아 보는 출발점이다.
 대표본이 아니라
 각 장의 기술 초안과 구조 초안이 어디에 있는지 정리한다.
+대표본과 압축 reference 구분이 먼저 필요하면 `Setting_Book_Document_Roles_Map.md`를 먼저 본다.
 
 ## 장별 원재료
 
@@ -154,6 +156,7 @@
 
 ## 같이 보면 좋은 허브
 
+- `Setting_Book_Document_Roles_Map.md`
 - `01_Setting_Book_Faction_Hub.md`
 - `02_Setting_Book_People_Hub.md`
 - `03_Setting_Book_Items_Hub.md`
@@ -164,4 +167,5 @@
 
 - 원본 초안은 여기서 본다
 - 대표본이 아니라 재료층이다
+- 역할 구분이 먼저 필요하면 `Setting_Book_Document_Roles_Map.md`
 - 세부 판단이 필요할 때 각 장 초안으로 들어간다

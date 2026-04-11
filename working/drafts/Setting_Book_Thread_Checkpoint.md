@@ -85,6 +85,8 @@
 
 ## Recent Commit Line
 
+- `d29dadc Tighten setting book package wording`
+- `d696128 Refresh setting book thread checkpoint`
 - `3e008c4 Add setting book document roles map`
 - `3ef9232 Clarify setting book prototype reference role`
 - `2ae744d Fill setting book appendix risk notes`
@@ -134,7 +136,7 @@
 단, 아래 조건을 만족할 때만 진행한다.
 
 1. 현재 작업 브랜치가 원격에 푸시되어 있다.
-2. prototype 파일이 최신 대표본이다.
+2. `Setting_Book_Preview_Readable_v0.md`는 최신 shareable preview이고, `Prototype_v0`는 최신 compressed reference다.
 3. 설정집 계열 파일 스캔에서 금지 표현과 미완료 표식이 나오지 않는다.
 4. 사용자 변경 파일이 커밋에 섞이지 않는다.
 5. 지금 작업이 실험 중간 상태가 아니라 보존 가능한 안정 지점이다.
