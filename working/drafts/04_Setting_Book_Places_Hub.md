@@ -37,6 +37,16 @@
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `Setting_Book_Document_Roles_Map.md`
 
+## 장소 축 빠른 인덱스
+
+| Place Lens | Main Question | First Click |
+| --- | --- | --- |
+| 읽는 장소 | 이 장소가 어떤 장면과 긴장을 여는가 | `Setting_Book_Preview_Readable_v0.md` |
+| 대표 장소축 | 지금 어떤 장소가 반복 앵커로 읽히는가 | `Setting_Book_Places_Core_Profiles_v0.md` |
+| 구조와 경로 | 지도, 이동, 관문, 비용이 어떻게 묶이는가 | `Setting_Book_Chapter_7_Spatial_Map_Draft.md` |
+| 이동 검증 | 항로와 그림자 길을 어떻게 통제하는가 | `Setting_Book_Appendix_Sample_Place_Travel.md` |
+| 세력 압력 연결 | 장소 압력과 세력 구조가 어디서 맞물리는가 | `01_Setting_Book_Faction_Hub.md` |
+
 ## 장소 축 핵심 구분
 
 - 대륙 규모 장소
@@ -76,6 +86,7 @@
 
 - 장소/길로 볼 때는 이 문서부터
 - 읽는 설명은 `Part II`
+- 빠른 분기는 `장소 축 빠른 인덱스` 표부터
 - 대표 장소 중간 정리본은 `Setting_Book_Places_Core_Profiles_v0.md`
 - 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`
 - 검증은 `Appendix C`

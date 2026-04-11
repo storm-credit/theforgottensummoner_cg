@@ -39,6 +39,16 @@
 - `Setting_Book_Document_Roles_Map.md`
 - `Race_Species_Evidence_Log.md`
 
+## 종족 축 빠른 인덱스
+
+| Species Lens | Main Question | First Click |
+| --- | --- | --- |
+| 읽는 종족축 | 사람들, 혈통, 상태가 본문에서 어떻게 읽히는가 | `Setting_Book_Preview_Readable_v0.md` |
+| 대표 분류축 | 지금 어떤 분류가 people / bloodline / state / monster로 잡히는가 | `Setting_Book_Species_Core_Profiles_v0.md` |
+| 구조 규칙 | 종족 분류 틀과 과승격 금지는 무엇인가 | `Setting_Book_Chapter_6_Species_Framework_Draft.md` |
+| 근거 로그 | 어떤 신호가 실제 peoplehood 증거인지 | `Race_Species_Evidence_Log.md` |
+| 분류 가드 | 이름만 멋있다고 종족 문명으로 올리지 않는 기준은 무엇인가 | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` |
+
 ## 종족 축 핵심 구분
 
 - 사람들
@@ -79,6 +89,7 @@
 
 - 종족/혈통으로 볼 때는 이 문서부터
 - 읽는 설명은 `Part V`
+- 빠른 분기는 `종족 축 빠른 인덱스` 표부터
 - 대표 종족 중간 정리본은 `Setting_Book_Species_Core_Profiles_v0.md`
 - 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`
 - 검증은 `Appendix E`

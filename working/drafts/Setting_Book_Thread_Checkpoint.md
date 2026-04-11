@@ -56,6 +56,7 @@
 - release readiness에 V1 hold breakdown을 추가해 filename / layout / row-level evidence 결정을 분리
 - Appendix B/C evidence queue를 추가해 추가 근거 작업을 필요한 승격 행으로 제한
 - faction hub에 대륙별 빠른 인덱스를 추가해 세력별 진입을 한눈에 볼 수 있게 정리
+- people/items/places/species hub에도 빠른 인덱스를 추가해 축별 첫 클릭을 짧게 정리
 
 ## Core Files
 

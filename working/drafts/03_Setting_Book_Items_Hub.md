@@ -37,6 +37,16 @@
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `Setting_Book_Document_Roles_Map.md`
 
+## 물건 축 빠른 인덱스
+
+| Item Lens | Main Question | First Click |
+| --- | --- | --- |
+| 읽는 물건 | 누가 왜 이 물건을 원하는가 | `Setting_Book_Preview_Readable_v0.md` |
+| 대표 물건축 | 지금 어떤 물건군이 story-bearing 후보인가 | `Setting_Book_Items_Core_Profiles_v0.md` |
+| 승격 규칙 | 후보를 언제 본문 엔트리로 올릴 수 있는가 | `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md` |
+| 승격 검증 | 아직 후보인지, 보류인지, 승격 가능한지 | `Setting_Book_Appendix_Sample_Item_Promotion.md` |
+| 이름 충돌 | bare item name이 사람/가문/개념과 충돌하는가 | `Setting_Book_Appendix_Sample_Name_Collision.md` |
+
 ## 물건 축 핵심 구분
 
 - 개인 장비
@@ -79,6 +89,7 @@
 
 - 유물/물건으로 볼 때는 이 문서부터
 - 읽는 설명은 `Part IV`
+- 빠른 분기는 `물건 축 빠른 인덱스` 표부터
 - 대표 물건 중간 정리본은 `Setting_Book_Items_Core_Profiles_v0.md`
 - 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`
 - 검증은 `Appendix B`, `Appendix C`, `Appendix D`

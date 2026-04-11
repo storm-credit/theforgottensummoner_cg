@@ -48,6 +48,12 @@
 2. `Setting_Book_Faction_Core_Profiles_v0.md`
 3. `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
 
+축별로 빠르게 보고 싶은 사람:
+
+1. `02_Setting_Book_People_Hub.md` 또는 `03_Setting_Book_Items_Hub.md`
+2. `04_Setting_Book_Places_Hub.md` 또는 `05_Setting_Book_Species_Hub.md`
+3. 각 허브의 `빠른 인덱스` 표에서 바로 갈 문서 선택
+
 작업 상태를 확인하는 사람:
 
 1. `Setting_Book_Current_Status_Dashboard.md`
@@ -79,6 +85,6 @@ Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Que
 ## 오케스트라 다음 순서
 
 1. 상태 대시보드와 허브 링크를 고정한다.
-2. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
-3. filename / layout 방향이 결정되면 RC 파일 생성 여부를 다시 판정한다.
-4. 안정 마일스톤마다 branch와 main에 push한다.
+2. 사람/유물/장소/종족 허브의 빠른 인덱스를 실제 클릭 동선 기준으로 다듬는다.
+3. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
+4. filename / layout 방향이 결정되면 RC 파일 생성 여부를 다시 판정한다.

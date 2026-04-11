@@ -38,6 +38,16 @@
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `Setting_Book_Document_Roles_Map.md`
 
+## 인물 축 빠른 인덱스
+
+| People Lens | Main Question | First Click |
+| --- | --- | --- |
+| 중심 영웅축 | 이 세계가 누구의 선택과 부담으로 움직이는가 | `Setting_Book_Preview_Readable_v0.md` |
+| Named Notables | 왜 사람들이 이 이름을 찾아가야 하는가 | `Setting_Book_People_Core_Profiles_v0.md` |
+| Operational Lines | 운영자, 기록자, 장인, 실무선은 어디에 묶이는가 | `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md` |
+| 경계 후보 | 영웅축과 명사층이 어디서 충돌하는가 | `Setting_Book_Appendix_Sample_14_15_Boundary.md` |
+| 이름 충돌 | 같은 이름이 다른 인물층을 오염시키는가 | `Setting_Book_Chapter_4_Naming_Normalization_Draft.md` |
+
 ## 인물 축 핵심 구분
 
 - 중심 영웅축
@@ -77,6 +87,7 @@
 
 - 인물로 볼 때는 이 문서부터
 - 인물의 책 같은 설명은 `Setting_Book_Preview_Readable_v0.md`
+- 빠른 분기는 `인물 축 빠른 인덱스` 표부터
 - 대표 인물 중간 정리본은 `Setting_Book_People_Core_Profiles_v0.md`
 - 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`
 - 검증은 `Appendix A`, `Appendix D`
