@@ -82,4 +82,4 @@ python scripts/export_reference_manifest.py `
 
 이후에는 고정된 초기 순서표를 다시 밟기보다,
 `audit/Continuous_Workstream.md`, `audit/Next_Sequential_Workstream.md`, `audit/Audit_Queue.md`
-기준으로 mainline reference와 carryover watch를 읽는다.
+기준으로 mainline reference와 watch-reference를 읽는다.

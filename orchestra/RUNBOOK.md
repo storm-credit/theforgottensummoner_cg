@@ -113,7 +113,7 @@
 `audit/Continuous_Workstream.md`,
 `audit/Next_Sequential_Workstream.md`,
 `audit/Audit_Queue.md`에 적힌
-`closure sync / Section 8 -> 15 carryover watch`
+`closure sync / Section 8 -> 15 watch-reference`
 기준을 따른다.
 
 - 문화, 경제, 예술, 생활상 세부 문서

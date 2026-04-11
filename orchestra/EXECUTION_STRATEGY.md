@@ -90,7 +90,7 @@
 
 active 전략은
 초기 build batch를 다시 밟는 것이 아니라,
-`closure sync / carryover watch / wording drift guard`
+`closure sync / watch-reference / wording drift guard`
 순서로 current 문서군을 유지하는 것이다.
 
 실제 current workstream은

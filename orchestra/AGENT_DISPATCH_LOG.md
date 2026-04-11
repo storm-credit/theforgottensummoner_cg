@@ -2095,8 +2095,8 @@ Follow-up actions:
 
 Conductor action:
 
-- `Section_15_Folder_Revision_Gate.md`에 `G8 Stable Triad Route Safety`, `G9 Support Hold Separation`, `G10 Move Freeze Safety`를 추가한다.
-- `Section_15_Folder_Draft_Routing_Plan.md`에서 `엘다라`를 `support_hold / verify_source_before_profile`로 더 정확히 표기한다.
+- `Section_15_Folder_Revision_Gate.md`에 `G8 Stable Triad Route Safety`, `G9 source_check_hold Separation`, `G10 Move Freeze Safety`를 추가한다.
+- `Section_15_Folder_Draft_Routing_Plan.md`에서 `엘다라`를 `source_check_hold / hold reference split`으로 더 정확히 표기한다.
 - `Next`, `Continuous`, `Anchor Bridge`에 revision gate hardening이 다음 실제 작업선에 포함됐음을 남긴다.
 
 Integrated actions:

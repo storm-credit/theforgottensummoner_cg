@@ -141,7 +141,7 @@ current mainline에 맞는 `closure sync / carryover / mismatch / handoff drift`
 ## Active Watch Track
 
 1. `closure sync`
-2. `Section 8 -> 15 carryover watch`
+2. `Section 8 -> 15 watch-reference`
 3. `structure label / mismatch / P2 handoff owner drift`
 4. `summary / bridge / package / register wording consistency`
 
