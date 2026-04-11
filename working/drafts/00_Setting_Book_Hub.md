@@ -9,10 +9,15 @@
 
 - `Setting_Book_Preview_Readable_v0.md`
 - `01_Setting_Book_Faction_Hub.md`
+- `02_Setting_Book_People_Hub.md`
+- `03_Setting_Book_Items_Hub.md`
+- `04_Setting_Book_Places_Hub.md`
+- `05_Setting_Book_Species_Hub.md`
 
 이 파일이 현재 가장 “책처럼” 읽히는 버전이다.
 누군가에게 먼저 보여 준다면 이 파일부터 본다.
 세력별로 보고 싶다면 `01_Setting_Book_Faction_Hub.md`부터 본다.
+인물, 유물, 장소, 종족 축으로 보고 싶다면 `02~05 허브`를 보면 된다.
 
 ## 2. 본문 뒤에 붙는 검증용 부록
 
@@ -58,6 +63,11 @@
 ## 아주 짧게 정리
 
 - 먼저 보기: `Setting_Book_Preview_Readable_v0.md`
+- 세력별: `01_Setting_Book_Faction_Hub.md`
+- 인물별: `02_Setting_Book_People_Hub.md`
+- 유물별: `03_Setting_Book_Items_Hub.md`
+- 장소별: `04_Setting_Book_Places_Hub.md`
+- 종족별: `05_Setting_Book_Species_Hub.md`
 - 그다음 보기: `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - 전체 압축본: `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
 - 작업 관리 문서는 급하면 안 봐도 된다.

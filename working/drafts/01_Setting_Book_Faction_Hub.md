@@ -12,6 +12,10 @@
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
 - `Setting_Book_Chapter_1_Five_Continents_Draft.md`
+- `02_Setting_Book_People_Hub.md`
+- `03_Setting_Book_Items_Hub.md`
+- `04_Setting_Book_Places_Hub.md`
+- `05_Setting_Book_Species_Hub.md`
 
 ## Ether
 
