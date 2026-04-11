@@ -52,7 +52,7 @@ Supports:
 - 왜 아직 본문 확정이 아닌지
 - 영웅축과 명사층 사이의 오해 위험
 
-Representative table:
+Representative control table:
 
 | Candidate | Current Signal | Safest Current Handling | Why Not Body-Final Yet |
 | --- | --- | --- | --- |
@@ -90,7 +90,7 @@ Supports:
 
 - `Aegis`
 
-Representative table:
+Representative control table:
 
 | Candidate Type | Evidence Needed | Desire Hook Needed | Body Decision |
 | --- | --- | --- | --- |
@@ -139,7 +139,7 @@ Supports:
 - underpath
 - arcane_route
 
-Representative table:
+Representative control table:
 
 | Place | Primary Function | Route Type | What Moves Here | Cost or Gate | Story Pressure |
 | --- | --- | --- | --- | --- | --- |
@@ -186,7 +186,7 @@ Supports:
 - 본문에서 필요한 임시 식별자
 - source check가 끝나기 전까지의 보존 규칙
 
-Representative table:
+Representative control table:
 
 | Collision Cluster | Current Safe Handling | Why It Must Stay Split |
 | --- | --- | --- |
@@ -215,7 +215,7 @@ Supports:
 - Spirit Union은 단일 생물학적 종족이 아니라 문화적, 세력적 우산으로 다룬다.
 - 바다 계열 존재는 현재 국지적 접촉과 대표자 신호 중심으로 보존한다.
 
-Representative table:
+Representative control table:
 
 이 표는 최종 종족 명명표가 아니라
 현재 단계의 분류 안전장치다.
@@ -236,6 +236,23 @@ Representative table:
 | Giant | monster, mythic remains, or ancient threat signal | Do not promote to a living people profile without social evidence. |
 | Orc village signal | provisional species signal | Village evidence may matter, but society structure needs confirmation before body expansion. |
 | Goblin-blood or goblin integration signal | bloodline or integration signal | Do not inflate into a separate civilization without stronger source support. |
+
+---
+
+## Appendix Table Consistency Rule
+
+Appendix A-E의 표는 최종 확정표가 아니라 통제표다.
+
+각 표는 다음 순서를 지킨다.
+
+1. 첫 열은 후보, 장소, 충돌군, 용어처럼 추적할 대상을 둔다.
+2. 가운데 열은 현재 신호, 기능, 경로, 증거, 임시 처리처럼 판단 근거를 둔다.
+3. 마지막 열은 본문 승격 여부, 보류 이유, 주의 문구, 또는 이야기 압력을 둔다.
+
+따라서 표에 오른 항목은 “중요하다”는 뜻이지,
+곧바로 reader-facing body에 확정 등록된다는 뜻은 아니다.
+본문은 독자가 지금 알아야 하는 감각을 먼저 말하고,
+부록 표는 그 감각이 어디까지 안전한지 확인하는 뒷면으로 남는다.
 
 ---
 

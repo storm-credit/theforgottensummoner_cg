@@ -114,10 +114,10 @@
 
 ## Recommended Next Queue
 
-1. public assembly와 preview readable의 톤 패밀리 재점검
+1. release readiness checklist 기준으로 preview packaging 가능 여부 점검
 2. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
-3. preview package 기준으로 `preview_v0_readable` 방향 계속 정리
-4. appendix assembly에 실제 표 1개 이상씩 심는 패스 검토
+3. 필요한 appendix row에만 source pointer / evidence note 추가
+4. preview package 기준으로 `preview_v0_readable` 방향 계속 정리
 5. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
 6. 안정 마일스톤마다 `main push gate` 확인
 

@@ -91,13 +91,12 @@ Completed checks:
 
 Recommended next sequence:
 
-1. Recheck whether the public assembly and readable preview still feel like the same book after the latest rhythm pass.
-2. Expand the appendix assembly manuscript with one real embedded table per section.
-3. Use the release readiness checklist before packaging a preview manuscript.
-4. Use the preview package to choose readable preview or production preview.
-5. Extend the strongest mid-layer sheets into small reusable profile families before widening the surface area.
-6. Prepare a short checkpoint summary for thread handoff if context gets too long.
-7. At stable milestones, run the `Main Push Gate` before pushing to `main`.
+1. Use the release readiness checklist before packaging a preview manuscript.
+2. Use the preview package to choose readable preview or production preview.
+3. Add source pointers or evidence notes to appendix rows only where they are needed for verification.
+4. Extend the strongest mid-layer sheets into small reusable profile families before widening the surface area.
+5. Prepare a short checkpoint summary for thread handoff if context gets too long.
+6. At stable milestones, run the `Main Push Gate` before pushing to `main`.
 
 ## Main Push Gate
 
@@ -125,4 +124,4 @@ Recommended next sequence:
 
 The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.
 
-The next meaningful work is controlled refinement: keep the readable manuscript stable, confirm that the public assembly and readable preview still live in the same tonal family, let the core profile companion set function as the bridge layer between body and technical drafts, and deepen the appendix with selected real tables.
+The next meaningful work is controlled refinement: keep the readable manuscript stable, keep the public assembly and readable preview in the same tonal family, let the core profile companion set function as the bridge layer between body and technical drafts, and add appendix evidence notes only where verification needs them.
