@@ -9,10 +9,10 @@ reader-facing preview 형태로 보여주기 위한 조립 지시서다.
 본문과 부록 원고를 한 파일에 무리하게 복제하지 않고,
 어떤 순서로 읽고 어떤 기준으로 검증해야 하는지를 고정한다.
 
-현재 대표 단일본은 `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`이고,
+현재 압축 단일 reference는 `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`이고,
 이 preview package는 release 후보를 만들 때의 읽기 순서와 포함 범위를 정한다.
 
-현재 공유용 대표본은 `Setting_Book_Preview_Readable_v0.md`다.
+현재 공유용 대표 preview는 `Setting_Book_Preview_Readable_v0.md`다.
 
 Current naming decision:
 

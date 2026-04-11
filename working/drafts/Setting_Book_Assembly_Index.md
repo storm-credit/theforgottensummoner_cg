@@ -29,7 +29,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | `Setting_Book_Document_Roles_Map.md` | Gives a fast role map for shareable preview, prototype reference, appendix, and conductor docs. |
 | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | Bundles the current public-facing samples into one readable manuscript flow. |
 | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | Bundles the current appendix samples into one technical appendix flow. |
-| `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | Holds the current single-file prototype with expanded body sections and A-E appendix flow. |
+| `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | Holds the current compressed single-file reference with expanded body sections and A-E appendix flow. |
 | `Setting_Book_Release_Readiness_Checklist.md` | Cross-checks front matter, TOC, body, appendix, prototype, and main push gate before release packaging. |
 | `Setting_Book_Preview_Package_v0.md` | Defines the reader-facing preview package order and what v0 may safely claim. |
 | `Setting_Book_Preview_Readable_v0.md` | Serves as the current shareable readable preview manuscript. |
