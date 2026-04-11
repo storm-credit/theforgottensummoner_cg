@@ -36,7 +36,7 @@
 - 이 QA pass를 전통 귀족국가형 `state_house strong` 고정 근거로 사용하지 않는다.
 - 이 QA 문서는 profile card의 `3-1. Policy Guard`를 참조해 판정할 뿐,
   exact guard wording authority를 대체하지 않는다.
-- `엘다라`는 정령연합 내부 예외축 `support_hold`로만 QA pass를 인정한다.
+- `엘다라`는 정령연합 내부 예외축 hold reference split 안의 `source_check_hold`로만 QA pass를 인정한다.
 - `실비아`는 `deferred_expansion_hold` 내부 카드로만 QA pass를 인정하고, 5대륙 본선 대표 카드로 올리지 않는다.
 
 ## Conductor Decision
@@ -49,7 +49,7 @@
 15번 폴더 기준 live 이동은 아직 scope 밖으로 둔다.
 현재 메인 본선은 `울프가르`, `에리온`, `오그마` 3명의 closed reference set을 다시 여는 것이 아니라,
 이미 잠근 carryover 상태와 route hierarchy lock을
-closure sync / carryover watch 기준으로 유지하는 것이다.
+closure sync / watch-reference 기준으로 유지하는 것이다.
 
 `엘다라`는 보조 후보로 유지하되,
 정령연합 전체 14 확인 전 `엘다라`는 `source_check_hold`로만 남긴다.

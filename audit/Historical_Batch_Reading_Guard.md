@@ -7,7 +7,7 @@
 
 - 과거 배치 기록이 현재 활성 workstream처럼 오독되는 일을 막는다.
 - historical evidence와 current mainline control 문서를 같은 강도로 읽지 않게 한다.
-- `closure sync / carryover watch` 단계에서 reference backlog를 안전하게 유지한다.
+- `closure sync / watch-reference` 단계에서 reference backlog를 안전하게 유지한다.
 
 ## Mainline Source of Truth Reference
 
@@ -66,7 +66,7 @@ historical family 문서에서 아래 표현은
 - `reference backlog`
 - `historical batch log`
 - `closure state`
-- `carryover watch input`
+- `watch-reference input`
 
 ## Reopen Trigger
 

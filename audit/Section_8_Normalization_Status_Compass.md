@@ -1,6 +1,6 @@
 # Section 8 Normalization Status Compass
 
-이 문서는 현재 `Section 8` closure sync / carryover watch 본선이
+이 문서는 현재 `Section 8` closure sync / watch-reference 본선이
 어디까지 잠겼는지 한 장으로 보는 상태표다.
 
 ## Input
@@ -109,7 +109,7 @@
 3. `place pressure strong`과 `structure label`을 같은 것으로 취급하지 않는다.
 4. 원본 경로 접근이 가능해지면 `Section_8_Root_Subtree_Sampling_Queue.md` 기준으로 `S1 -> S2 -> S3` reference sampling 필요 여부만 판단한다.
 5. 그 전까지는 `P2` 후보를 새로 늘리지 않고 현재 handoff가 sidecar/register에서 drift 없이 유지되는지 본다.
-6. `Section 8 -> 15`는 새 후보를 늘리기보다 `closure sync / carryover watch`가 summary, bridge, queue에서 같은 현재 시점을 가리키는지 먼저 본다.
+6. `Section 8 -> 15`는 새 후보를 늘리기보다 `closure sync / watch-reference`가 summary, bridge, queue에서 같은 현재 시점을 가리키는지 먼저 본다.
 7. `1~5 대륙 결손층 5개`는 `Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 따라,
    thin/support 범위와 evidence/firewall 순서를 넘겨 읽지 않는다.
    이 compass의 stage label은 component shorthand일 뿐,
