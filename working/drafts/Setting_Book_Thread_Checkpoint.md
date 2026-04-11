@@ -23,6 +23,9 @@
 - appendix sample 작성
 - public manuscript assembly draft 작성
 - appendix manuscript assembly draft 작성
+- single prototype v0 작성
+- prototype 본문 1차 확장: Ether, Crossroad Cities, People, Relics, Species/Bloodlines/States
+- `main push gate` 고정점 추가
 
 ## Core Files
 
@@ -65,13 +68,21 @@
 
 - `working/drafts/Setting_Book_Public_Assembly_Manuscript_Draft.md`
 - `working/drafts/Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- `working/drafts/The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
 
 ## Recent Commit Line
 
-- `357f909 Add assembled setting book manuscript drafts`
+- `a563e75 Expand prototype species framework`
+- `a133956 Expand prototype and add main push gate`
+- `f5672b3 Expand prototype ether and crossroad sections`
+- `25d9ff3 Add single setting book prototype`
 
 그 직전 주요 축:
 
+- `2b6fd6f Refine setting book manuscript assemblies`
+- `332f72b Add setting book front matter draft`
+- `b1d3d77 Refresh setting book index and checkpoint`
+- `357f909 Add assembled setting book manuscript drafts`
 - `db56fb8 Add species and naming collision samples`
 - `34382f3 Add public samples for notables and relics`
 - `5e64043 Add crossroad cities and place travel samples`
@@ -87,10 +98,9 @@
 ## Recommended Next Queue
 
 1. public manuscript style-unification pass
-2. appendix manuscript에 실제 표 일부 삽입
-3. title page / front matter draft 추가
-4. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
-5. 안정 마일스톤마다 `main push gate` 확인
+2. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
+3. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
+4. 안정 마일스톤마다 `main push gate` 확인
 
 ## Main Push Gate
 

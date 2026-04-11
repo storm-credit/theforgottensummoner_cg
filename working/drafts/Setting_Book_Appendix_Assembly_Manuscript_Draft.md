@@ -168,6 +168,43 @@ Representative table:
 
 ---
 
+## Appendix E. Species Classification Guard
+
+이 부록은 낯선 존재의 이름을
+종족, 혈통, 상태, 괴물, 미확정 신호로 나누기 위한 통제표다.
+
+핵심 원칙:
+
+- 이름이 멋있다고 바로 종족으로 승격하지 않는다.
+- 사람됨의 증거가 있어야 종족 프로필로 올린다.
+- 혈통은 국가가 아니고, 상태는 태생 종족이 아니며, 괴물 조우는 문명 증거가 아니다.
+- Spirit Union은 단일 생물학적 종족이 아니라 문화적, 세력적 우산으로 다룬다.
+- 바다 계열 존재는 현재 국지적 접촉과 대표자 신호 중심으로 보존한다.
+
+Representative table:
+
+이 표는 최종 종족 명명표가 아니라
+현재 단계의 분류 안전장치다.
+
+| Term or Cluster | Current Bucket | Setting-Book Caution |
+| --- | --- | --- |
+| High Elf | species | Ether and Lumira signals are useful, but do not generalize across every continent yet. |
+| Dwarf artisan | species signal plus profession | Keep dwarf identity separate from artisan guild or workshop affiliation. |
+| Beastfolk tribes / wolf beastfolk | species | Tie profiles to tribe, settlement, and faction relation rather than generic animal traits. |
+| Half-Elf | bloodline | Do not treat as a full separate people unless society evidence appears. |
+| Dragonborn / dragon blood | bloodline | Lineage evidence does not prove a dragon polity. |
+| Undead | state | Death-state or transformation, not a natural people by default. |
+| Spiritization | state | Acquired transformation, not the same as spirit-born people. |
+| Merfolk / mermaid royal signal | species signal | Use localized contact, representative figures, or enclave evidence before empire-scale claims. |
+| Siren Harpy | monster or set-piece signal | Keep as encounter, threat, curse, or creature evidence until peoplehood evidence exists. |
+| Lamia / Naga | unclear | Reserve classification until role, society, curse, or monster evidence stabilizes. |
+| Fairy | unclear to species signal | Keep as appendix-only until standalone society or dossier evidence is locked. |
+| Giant | monster, mythic remains, or ancient threat signal | Do not promote to a living people profile without social evidence. |
+| Orc village signal | provisional species signal | Village evidence may matter, but society structure needs confirmation before body expansion. |
+| Goblin-blood or goblin integration signal | bloodline or integration signal | Do not inflate into a separate civilization without stronger source support. |
+
+---
+
 ## Appendix Use Rule
 
 이 조립본의 부록은 본문을 대신하지 않는다.

@@ -28,6 +28,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | `Setting_Book_Skeleton.md` | Holds the original chapter build plan and required sections. |
 | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | Bundles the current public-facing samples into one readable manuscript flow. |
 | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | Bundles the current appendix samples into one technical appendix flow. |
+| `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | Holds the current single-file prototype with expanded body sections and A-E appendix flow. |
 
 ## Assembly Principle
 
@@ -72,6 +73,7 @@ Completed checks:
 - 0-8 chapter draft files exist.
 - public manuscript assembly draft exists.
 - appendix manuscript assembly draft exists.
+- single prototype v0 exists and currently carries the expanded body spine.
 - Current setting-book files do not contain the older stable-triad label.
 - Current setting-book files do not use the old watch/reference phrasing.
 - Current setting-book files do not use the old watch-keep display state in tables.

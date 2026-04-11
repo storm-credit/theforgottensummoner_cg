@@ -588,6 +588,33 @@ Spirit Union은 이 구분이 특히 필요한 곳이다.
 
 ---
 
+## Appendix E. Species Classification Guard
+
+이 부록은 낯선 존재의 이름을
+종족, 혈통, 상태, 괴물, 미확정 신호로 나누기 위한 통제표다.
+
+이 표는 최종 종족 명명표가 아니라
+현재 단계의 분류 안전장치다.
+
+| Term or Cluster | Current Bucket | Setting-Book Caution |
+| --- | --- | --- |
+| High Elf | species | Ether and Lumira signals are useful, but do not generalize across every continent yet. |
+| Dwarf artisan | species signal plus profession | Keep dwarf identity separate from artisan guild or workshop affiliation. |
+| Beastfolk tribes / wolf beastfolk | species | Tie profiles to tribe, settlement, and faction relation rather than generic animal traits. |
+| Half-Elf | bloodline | Do not treat as a full separate people unless society evidence appears. |
+| Dragonborn / dragon blood | bloodline | Lineage evidence does not prove a dragon polity. |
+| Undead | state | Death-state or transformation, not a natural people by default. |
+| Spiritization | state | Acquired transformation, not the same as spirit-born people. |
+| Merfolk / mermaid royal signal | species signal | Use localized contact, representative figures, or enclave evidence before empire-scale claims. |
+| Siren Harpy | monster or set-piece signal | Keep as encounter, threat, curse, or creature evidence until peoplehood evidence exists. |
+| Lamia / Naga | unclear | Reserve classification until role, society, curse, or monster evidence stabilizes. |
+| Fairy | unclear to species signal | Keep as appendix-only until standalone society or dossier evidence is locked. |
+| Giant | monster, mythic remains, or ancient threat signal | Do not promote to a living people profile without social evidence. |
+| Orc village signal | provisional species signal | Village evidence may matter, but society structure needs confirmation before body expansion. |
+| Goblin-blood or goblin integration signal | bloodline or integration signal | Do not inflate into a separate civilization without stronger source support. |
+
+---
+
 ## Prototype Direction
 
 이 파일은 현재 설정집의 가장 압축된 단일 prototype이다.
