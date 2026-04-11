@@ -6,7 +6,7 @@
 
 이 축은 Named Notables와 별개다.
 
-이 track은 current watch state나 queue 판단을 직접 소유하지 않고,
+이 track은 current watch state나 hold/reference 상태 판단을 직접 소유하지 않고,
 `Section_15_Operational_Display_Canon_Candidates.md`,
 `Section_15_Group_Index.md`,
 `Continuous_Workstream.md`
@@ -34,7 +34,7 @@
 ## Working Name Rule
 
 이 트랙의 많은 이름은
-reference용 `구조 scaffolding 라벨`이다.
+reference용 `구조 reference 라벨`이다.
 
 예:
 
@@ -83,7 +83,7 @@ reference용 `구조 scaffolding 라벨`이다.
 
 ## Conductor Note
 
-이 트랙은 stable reference axis로 유지한다.
+이 트랙은 watch-reference axis로 유지한다.
 
 사용자가 말한 `유명 NPC층`과 분리해서,
 보조 축으로 계속 읽는다.

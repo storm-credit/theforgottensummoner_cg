@@ -7,7 +7,7 @@
 - 여기에는 개별 인물과 역할 계열 시트가 함께 들어 있다.
 - `15 Named Notables` 시트는 이 색인에 섞지 않는다.
 - 기본 state label은 `operational_line`이다.
-- 이미 14번 신호가 보이는 인물은 `verify_before_15`로 별도 관리한다.
+- 이미 14번 신호가 보이는 인물은 `source_check_hold`로 별도 관리한다.
 
 ## Reference Snapshot
 
@@ -16,7 +16,7 @@
 | Named individual profile | `operational_line` | 조직 작동을 보여주는 이름 있는 실무 인물 |
 | Role-line profile | `operational_line` | 아직 개별 이름보다 기능 계열이 중요한 라인 |
 | Display naming pending | `display_canon_candidate` | 표면명은 판타지 톤으로 재검토 |
-| Possible 14 overlap | `verify_before_15` | 14번 신호가 있는 경우 15 확정 전 검증 |
+| Possible 14 overlap | `source_check_hold` | 14번 신호가 있는 경우 15 승격 판단 없이 source check만 유지 |
 
 - `Section_15_Profile_Ventura_Moretti.md`
 - `Section_15_Profile_Elizabeth_Rochefort.md`
@@ -120,8 +120,8 @@
 ## Conductor Rule
 
 - 개별 시트는 항상 `Profile Template` 기준으로 읽는다.
-- lower-card set이 명시적으로 재개될 때만 이 색인에 반영한다.
-- 그다음 `Group Index`와의 연결 상태만 유지한다.
+- lower-card set에 새 source drift가 확인될 때만 이 색인에 반영한다.
+- 그다음 `Group Index`와의 watch-reference 연결 상태만 유지한다.
 - 그 과정에서도 canonical 상태어와 `3-1. Policy Guard` 문장을 함께 유지한다.
 - exact operational guard wording authority도 상위 draft index가 아니라
   각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
