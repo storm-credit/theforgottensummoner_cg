@@ -91,6 +91,7 @@ Completed checks:
 - Scan interpretation now separates live unresolved markers from allowed control-language mentions.
 - Appendix B/C sample files now carry their own evidence pointer checks instead of relying only on the assembled appendix.
 - 01-08 hub files now provide quick-index or first-click tables plus status-dashboard return links.
+- A body-facing scan across preview/public/core-profile/prototype layers did not reveal a new urgent Appendix B/C promotion target beyond the currently anchored controls.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

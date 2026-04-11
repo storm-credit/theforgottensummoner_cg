@@ -63,6 +63,7 @@
 - packaging direction matrix를 추가해 layout vs production bible hold를 독립 문서로 분리
 - filename decision matrix를 추가해 preview/prototype 이름 유지 기준을 독립 문서로 분리
 - 메인 허브, process hub, status dashboard에도 filename decision 진입선을 추가해 재진입 동선에서 바로 찾을 수 있게 정리
+- body-facing scan으로 Appendix B/C 긴급 승격 후보를 다시 확인해 현재 anchored control 밖의 새 urgent row가 없음을 재확인
 
 ## Core Files
 
