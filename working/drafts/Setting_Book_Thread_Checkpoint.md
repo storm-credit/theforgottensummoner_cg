@@ -115,6 +115,7 @@
 
 ## Recent Commit Line
 
+- `d5b4539 Refine hub quick index wording`
 - `65470d2 Record hub quick index completion`
 - `0eccf6d Add appendix and source quick indexes`
 - `8c4ee58 Add quick indexes to axis hubs`
