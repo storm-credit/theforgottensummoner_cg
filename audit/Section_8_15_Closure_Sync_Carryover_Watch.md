@@ -1,13 +1,13 @@
-# Section 8 / 15 Closure Sync Carryover Watch
+# Section 8 / 15 Closure Sync Watch-Reference
 
 이 문서는 오케스트라 메인 본선 reference인
-`5대륙 closure sync / Section 8 -> 15 carryover watch`를
+`5대륙 closure sync / Section 8 -> 15 watch-reference`를
 한 장으로 잠그는 감시 문서다.
 
 목적:
 
 - 이미 닫힌 판정을 다시 열지 않고, summary / bridge / queue / package 문서가 같은 기준 시점을 가리키게 한다.
-- `stable triad package freeze`, `support_hold`, `deferred_expansion_hold`, Ether hold cluster, P2 place-pressure handoff를 서로 다른 층으로 유지한다.
+- `stable triad package freeze`, `source_check_hold`, `deferred_expansion_hold`, Ether hold cluster, P2 place-pressure handoff를 서로 다른 층으로 유지한다.
 - `Section 8` 구조 라벨과 `Section 15` 후보 상태가 서로를 덮어쓰지 않게 한다.
 
 ## Input
@@ -29,10 +29,10 @@
 ## Mainline Lock Snapshot
 
 1. `stable triad actual draft package freeze`는 닫힌 상태로 유지한다.
-2. `엘다라 [support_hold]`, `실비아 [deferred_expansion_hold]`는 triad package 밖 hold queue로만 유지한다.
+2. `엘다라 [source_check_hold]`, `실비아 [deferred_expansion_hold]`는 triad package 밖 hold reference split으로만 유지한다.
 3. Ether hold cluster는 `library_core_hold / archive_admin_hold / tower_seer_hold / bardic_archive_hold`, `white_tower_barrier_hold / abyss_blood_taboo_hold / shadow_intelligence_hold / holy_barrier_hold`, `great_druid_hold / spirit_envoy_hold / shadow_crow_hold`까지 한 번 closure 상태로 본다.
 4. `P2 place-pressure handoff`는 candidate index가 아니라 sidecar/register를 주 기록처로 유지한다.
-5. 메인 본선 reference는 새 후보 창출이 아니라 `5대륙 closure sync / Section 8 -> 15 carryover watch`다.
+5. 메인 본선 reference는 새 후보 창출이 아니라 `5대륙 closure sync / Section 8 -> 15 watch-reference`다.
 6. 카드층 `Policy Guard`는 summary / bridge / index / folder / routing 문서까지 반영하되,
    exact wording source로 승격하지 않는다.
 7. canonical state drift와 policy carryover drift는 서로 다른 층으로 점검한다.
@@ -59,7 +59,7 @@
 | Watch Family | Snapshot State | Primary Source | Drift Risk | Rule |
 |---|---|---|---|---|
 | `stable triad package` | `closed_and_frozen` | `Section_15_Actual_Draft_Package_Freeze.md` | freeze를 다시 본선처럼 여는 것 | wording 정리 외 재개 금지 |
-| `support / deferred hold` | `separated_from_triad` | `Section_15_Stable_Candidate_8_Anchor_Index.md` | triad package와 hold queue 혼용 | `support_hold`, `deferred_expansion_hold`만 사용 |
+| `source-check / deferred hold` | `separated_from_triad` | `Section_15_Stable_Candidate_8_Anchor_Index.md` | triad package와 hold reference split 혼용 | `source_check_hold`, `deferred_expansion_hold`만 사용 |
 | `Ether hold clusters` | `closed_round1_for_watch` | `Section_15_Ether_Hold_Cluster_Continuation.md`, `Section_15_Ether_Tower_Saint_Hold_Continuation.md`, `Section_15_Ether_Spirit_Union_Hold_Continuation.md` | 이미 닫힌 hold를 계속 next batch처럼 적는 것 | 새 증거 전까지 closure 상태 유지 |
 | `Section 8 carryover` | `bridge_locked` | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md` | 구조 라벨과 후보 상태 혼용 | structure label과 place pressure 분리 |
 | `lower-card authority` | `separated_and_respected` | `Section_15_Named_Notables_Register.md`, `Section_15_Profile_Draft_Index.md`, `Section_15_Profile_*`, `Section_15_Subline_Profile_*` | 상위 summary가 하위 `3-1. Policy Guard`를 재정의하는 것 | register/index는 비교 문서로만 쓰고, exact wording source는 각 profile/subline profile 카드에 남긴다 |
@@ -72,7 +72,7 @@
 아래 경우에는 이 watch 문서를 기준으로 closure sync를 다시 돈다.
 
 1. stable triad package가 다시 `next batch`나 `active build`처럼 적힐 때
-2. `support_hold`나 `deferred_expansion_hold`가 triad package 안으로 다시 섞일 때
+2. `source_check_hold`나 `deferred_expansion_hold`가 triad package 안으로 다시 섞일 때
 3. Ether hold cluster가 closure 상태가 아니라 active discovery처럼 적힐 때
 4. `Section 8` 구조 라벨이 `Section 15` 상태 라벨처럼 오독될 때
 5. `P2 place-pressure` 기록처가 sidecar/register 밖에서 다시 재정의될 때
@@ -127,5 +127,5 @@
 `이미 잠근 판정이 같은 authority 분리 문장으로 유지되는가`를 먼저 본다.
 
 즉 메인선 reference는
-`5대륙 closure sync / Section 8 -> 15 carryover watch`
+`5대륙 closure sync / Section 8 -> 15 watch-reference`
 유지다.

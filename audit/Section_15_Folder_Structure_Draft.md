@@ -63,7 +63,7 @@
 에테르
   정령연합
     루미라
-      엘다라 [support_hold]
+      엘다라 [source_check_hold]
     기록 / 노래술사 경계
       엘라라 문힘 [verify_before_15]
     자연 율법회 / 생명의 의회 경계
@@ -195,7 +195,7 @@ frozen route/reference set에서는
 | `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `드래곤포지`, `프라이멀 엠버` | 폴더 route는 `드래곤포지 공방`까지로 고정하고, 개별 시트에서만 재료/화염 전승 place lock을 병기한다. |
 | `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` | 폴더 route는 `학술-전승층`으로 고정하고, 학자 구역/용언 도서관은 기능성 place lock으로만 둔다. |
 | `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `몽상가의 바위`, `지혜의 샘` | 폴더 route는 `전승 보관층`으로 고정하고, 대면/조언과 기억/전승 place lock은 개별 시트에만 둔다. |
-| `엘다라` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | 현재는 `support_hold`이므로 route 후보만 보존하고 hold reference split 바깥에서만 유지한다. |
+| `엘다라` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | 현재는 hold reference split 안의 `source_check_hold`이므로 route 후보만 보존하고 hold reference split 바깥으로 확장하지 않는다. |
 
 ## Policy Carryover Lock
 
@@ -209,11 +209,11 @@ frozen route/reference set에서는
 ## Conductor Decision
 
 현재 구조는
-`closure sync / carryover watch` 기준의 route/reference mock으로 본다.
+`closure sync / watch-reference` 기준의 route/reference mock으로 본다.
 
 현재 메인 본선은 live 폴더 생성이나 재해석 reopen을 다루지 않고,
 이 초안을 `bridge / routing / revision gate / closure sync watch` 문서들과 맞춰
-closure sync / carryover watch 기준으로 유지하는 것이다.
+closure sync / watch-reference 기준으로 유지하는 것이다.
 
 이 초안은 lower-card authority를 재정의하지 않으며,
 operational profile의 `3-1. Policy Guard`는 하위 카드층에서 그대로 우선한다.
