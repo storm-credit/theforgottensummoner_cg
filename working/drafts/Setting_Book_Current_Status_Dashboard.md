@@ -65,8 +65,9 @@
 
 1. `Setting_Book_Current_Status_Dashboard.md`
 2. `Setting_Book_Release_Readiness_Checklist.md`
-3. `Setting_Book_Assembly_Index.md`
-4. `Setting_Book_Thread_Checkpoint.md`
+3. `Setting_Book_Filename_Decision_Matrix.md`
+4. `Setting_Book_Assembly_Index.md`
+5. `Setting_Book_Thread_Checkpoint.md`
 
 ## 남은 일
 
