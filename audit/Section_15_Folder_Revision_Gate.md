@@ -1,7 +1,7 @@
 # Section 15 Folder Revision Gate
 
 이 문서는 `Section_15_Folder_Structure_Draft.md`와
-carryover watch-reference의
+closure sync / watch-reference의
 안전 점검표다.
 
 목표:
@@ -22,11 +22,11 @@ carryover watch-reference의
 | `G5. Need Named Candidate Safety` | 개인명 없는 슬롯에 새 이름을 만들지 않았는가? | `pass` |
 | `G6. Original Repo Safety` | 원본 저장소를 건드리지 않았는가? | `pass` |
 | `G7. Late Expansion Safety` | 범대륙 후기 확장을 메인 정본처럼 과확정하지 않았는가? | `pass_with_deferred_expansion_hold` |
-| `G8. Stable Triad Route Safety` | `울프가르 / 에리온 / 오그마`가 `드래곤포지 공방 / 학술-전승층 / 전승 보관층` frozen reference set 기준으로 분리되어 있는가? | `pass_with_frozen_reference_lock` |
-| `G9. source_check_hold Separation` | `엘다라`가 stable triad frozen reference set에 섞이지 않고 hold reference split 안의 `source_check_hold`로 분리되어 있는가? | `pass_with_source_check_hold` |
+| `G8. Stable Triad Route Safety` | `울프가르 / 에리온 / 오그마`가 `드래곤포지 공방 / 학술-전승층 / 전승 보관층` `stable_triad_frozen_reference_set` 기준으로 분리되어 있는가? | `pass_with_frozen_reference_lock` |
+| `G9. source_check_hold Separation` | `엘다라`가 `stable_triad_frozen_reference_set`에 섞이지 않고 hold reference split 안의 `source_check_hold`로 분리되어 있는가? | `pass_with_source_check_hold` |
 | `G10. Move Freeze Safety` | bridge / routing consistency 점검 단계에서도 live 파일 이동은 여전히 금지되어 있는가? | `pass` |
 | `G11. Route Hierarchy Consistency` | 상위 route anchor와 보조 place lock이 같은 계층처럼 혼용되지 않는가? | `pass_with_hierarchy_lock` |
-| `G12. Frozen Reference Set Completeness` | stable triad frozen reference set과 hold reference split이 별도 freeze 시트까지 포함해 잠겨 있는가? | `pass_with_frozen_reference_lock` |
+| `G12. stable_triad_frozen_reference_set Completeness` | `stable_triad_frozen_reference_set`과 hold reference split이 별도 freeze 시트까지 포함해 잠겨 있는가? | `pass_with_frozen_reference_lock` |
 
 ## Risks
 
@@ -38,7 +38,7 @@ carryover watch-reference의
 | `범대륙 후기 확장 과확정` | `medium` | 키르케는 강한 후보만 보존하고 전체 범대륙은 watch-reference mainline 바깥 hold reference split으로 유지. |
 | `live 폴더 이동 시 충돌` | `high` | 아직 이동하지 않는다. 현재도 `cg` 설계문서로만 유지한다. |
 | `stable triad route drift` | `medium` | `울프가르 = 드래곤포지 공방`, `에리온 = 학술-전승층`, `오그마 = 전승 보관층` 기준을 bridge/routing docs에 고정 유지. |
-| `엘다라 premature promotion` | `medium` | `support_hold`, `source_check_hold`, `정령연합 전체 14 확인 전 Hard Canon 금지`를 동시에 유지. |
+| `엘다라 premature promotion` | `medium` | hold reference split 안의 `source_check_hold`, `정령연합 전체 14 확인 전 Hard Canon 금지`를 동시에 유지. |
 | `route/place 계층 혼용` | `medium` | 상위 route는 `공방 / 층 / 보관층`, 보조 place는 `도서관 / 샘 / 재료지`로 분리 표기한다. |
 | `package scope blur` | `medium` | stable triad와 hold reference split을 `Section_15_Actual_Draft_Package_Freeze.md`에서 분리 유지한다. |
 | `policy overread recurrence` | `medium` | 카드층의 `Policy Guard`와 summary/folder carryover 문장을 같이 유지해 `state_house strong`, `토착 공동체층`, `전통 국가기관` 과독해를 막는다. |
@@ -64,13 +64,13 @@ carryover watch-reference의
 ## Gate Decision
 
 `Section_15_Folder_Structure_Draft.md`는
-stable triad frozen reference set과 watch-reference용으로만 유지 가능하다.
+`stable_triad_frozen_reference_set`과 watch-reference용으로만 유지 가능하다.
 
 하지만 live 폴더 이동 또는 문서 이동은 아직 금지한다.
 
 현재는 아래 두 가지를 `watch-reference 기준`으로만 유지한다.
 
-1. stable triad frozen reference set 유지와 closure sync / watch-reference 점검
+1. `stable_triad_frozen_reference_set` 유지와 closure sync / watch-reference 점검
 2. `15번 live 폴더 생성/이동 계획`은 계속 보류
 
 추가 기준:
