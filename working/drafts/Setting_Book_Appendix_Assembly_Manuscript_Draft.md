@@ -8,12 +8,25 @@
 독자용 본문을 방해하지 않으면서도,
 작업자와 후속 확장자가 무엇을 어떻게 검증해야 하는지 한 번에 볼 수 있게 하는 데 목적이 있다.
 
+현재 기준으로 이 부록은
+`Setting_Book_Preview_Readable_v0.md` 뒤에 이어지는
+검증용 뒷면으로 읽히도록 설계한다.
+앞면이 세계의 분위기와 흐름을 먼저 보여 준다면,
+이 뒷면은 그 말들이 어디까지 안전한지,
+무엇이 아직 경계에 서 있는지,
+어떤 항목이 승격 전 상태인지 더 조용하고 정확하게 정리한다.
+
 ---
 
 ## Appendix A. 14 / 15 Boundary Candidates
 
 이 부록은 중심 영웅축과 이름 있는 명사형 인물,
 그리고 조직 실무층을 구분하기 위한 검증층이다.
+
+Supports:
+
+- Part I. Ether Continent
+- Part III. People Worth Seeking
 
 핵심 원칙:
 
@@ -55,6 +68,10 @@ Representative table:
 이 부록은 추출된 물건 후보를
 설정집 본문 엔트리로 승격하기 전 단계에서 관리하는 필터다.
 
+Supports:
+
+- Part IV. Relics and Desired Objects
+
 핵심 원칙:
 
 - 추출 후보는 그대로 본문에 올리지 않는다.
@@ -88,6 +105,11 @@ Representative table:
 
 이 부록은 장소가 어떤 장면을 열고,
 어떤 길이 어떤 비용과 위험을 만드는지를 함께 관리한다.
+
+Supports:
+
+- Part II. Crossroad Cities
+- Part IV. Relics and Desired Objects
 
 핵심 원칙:
 
@@ -132,6 +154,13 @@ Representative table:
 
 이 부록은 비슷한 이름을 성급하게 하나로 묶지 않기 위한 안전장치다.
 
+Supports:
+
+- Part II. Crossroad Cities
+- Part III. People Worth Seeking
+- Part IV. Relics and Desired Objects
+- Part V. Peoples, Bloodlines, and Changed States
+
 핵심 원칙:
 
 - 이름이 같아도 같은 존재라고 가정하지 않는다.
@@ -172,6 +201,11 @@ Representative table:
 
 이 부록은 낯선 존재의 이름을
 종족, 혈통, 상태, 괴물, 미확정 신호로 나누기 위한 통제표다.
+
+Supports:
+
+- Part I. Ether Continent
+- Part V. Peoples, Bloodlines, and Changed States
 
 핵심 원칙:
 
@@ -223,9 +257,11 @@ Representative table:
 
 ## Closing Direction
 
-이 조립 초안은 최종 부록의 뼈대다.
+이 조립 초안은 현재 설정집 뒷면의 뼈대다.
 
-다음 단계에서는
-각 부록 섹션에 실제 표를 더 정교하게 붙이고,
-본문과의 링크를 명확히 적어
+앞면이 왜 이 세계를 그렇게 읽어야 하는지 말한다면,
+이 뒷면은 왜 아직 그렇게까지만 말해야 하는지를 보여 준다.
+
+다음 단계에서는 각 부록 섹션에
+필요한 만큼의 source pointer와 evidence note를 더해
 누가 봐도 “읽는 책”과 “검증하는 부록”의 역할이 분리되게 만드는 것이 우선이다.
