@@ -1,0 +1,93 @@
+# Setting Book Thread Checkpoint
+
+## Purpose
+
+이 문서는 현재 설정집 재조합 작업을
+새 대화창으로 넘겨야 할 때 빠르게 이어갈 수 있도록 만든 checkpoint 요약이다.
+
+## Branch
+
+- `codex/species-framework-side-track`
+
+## Current Stage
+
+설정집 작업은 이제 `prototype manuscript stage`다.
+
+이미 끝난 축:
+
+- 0-8장 기술 초안 작성
+- source map / skeleton / assembly index 작성
+- reader-facing TOC 작성
+- body / appendix separation plan 작성
+- public voice sample 작성
+- appendix sample 작성
+- public manuscript assembly draft 작성
+- appendix manuscript assembly draft 작성
+
+## Core Files
+
+기술 초안:
+
+- `working/drafts/Setting_Book_Chapter_0_Canon_Policy_Draft.md`
+- `working/drafts/Setting_Book_Chapter_1_Five_Continents_Draft.md`
+- `working/drafts/Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
+- `working/drafts/Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md`
+- `working/drafts/Setting_Book_Chapter_4_Naming_Normalization_Draft.md`
+- `working/drafts/Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md`
+- `working/drafts/Setting_Book_Chapter_6_Species_Framework_Draft.md`
+- `working/drafts/Setting_Book_Chapter_7_Spatial_Map_Draft.md`
+- `working/drafts/Setting_Book_Chapter_8_Register_Appendix_Draft.md`
+
+조립 제어 문서:
+
+- `working/drafts/Setting_Book_Reassembly_Source_Map.md`
+- `working/drafts/Setting_Book_Skeleton.md`
+- `working/drafts/Setting_Book_Assembly_Index.md`
+- `working/drafts/Setting_Book_Body_Appendix_Separation_Plan.md`
+- `working/drafts/Setting_Book_Reader_Facing_TOC_Draft.md`
+
+본문 샘플:
+
+- `working/drafts/Setting_Book_Public_Voice_Sample_Opening_Ether.md`
+- `working/drafts/Setting_Book_Public_Voice_Sample_Crossroad_Cities.md`
+- `working/drafts/Setting_Book_Public_Voice_Sample_Named_Notables.md`
+- `working/drafts/Setting_Book_Public_Voice_Sample_Relics.md`
+- `working/drafts/Setting_Book_Public_Voice_Sample_Species_Bloodlines.md`
+
+부록 샘플:
+
+- `working/drafts/Setting_Book_Appendix_Sample_14_15_Boundary.md`
+- `working/drafts/Setting_Book_Appendix_Sample_Item_Promotion.md`
+- `working/drafts/Setting_Book_Appendix_Sample_Place_Travel.md`
+- `working/drafts/Setting_Book_Appendix_Sample_Name_Collision.md`
+
+현재 조립본:
+
+- `working/drafts/Setting_Book_Public_Assembly_Manuscript_Draft.md`
+- `working/drafts/Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+
+## Recent Commit Line
+
+- `357f909 Add assembled setting book manuscript drafts`
+
+그 직전 주요 축:
+
+- `db56fb8 Add species and naming collision samples`
+- `34382f3 Add public samples for notables and relics`
+- `5e64043 Add crossroad cities and place travel samples`
+
+## Safety Note
+
+이 작업 패스에서 건드리지 않은 사용자 변경 파일:
+
+- `working/crosswalks/Extracted_Item_Candidates.md`
+
+이 파일은 계속 untouched 상태로 두어야 한다.
+
+## Recommended Next Queue
+
+1. public manuscript style-unification pass
+2. appendix manuscript에 실제 표 일부 삽입
+3. title page / front matter draft 추가
+4. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
+

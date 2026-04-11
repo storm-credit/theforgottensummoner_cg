@@ -26,6 +26,8 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | --- | --- |
 | `Setting_Book_Reassembly_Source_Map.md` | Locks primary and secondary sources per chapter. |
 | `Setting_Book_Skeleton.md` | Holds the original chapter build plan and required sections. |
+| `Setting_Book_Public_Assembly_Manuscript_Draft.md` | Bundles the current public-facing samples into one readable manuscript flow. |
+| `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | Bundles the current appendix samples into one technical appendix flow. |
 
 ## Assembly Principle
 
@@ -68,6 +70,8 @@ Keep material in audit-only history when it answers:
 Completed checks:
 
 - 0-8 chapter draft files exist.
+- public manuscript assembly draft exists.
+- appendix manuscript assembly draft exists.
 - Current setting-book files do not contain the older stable-triad label.
 - Current setting-book files do not use the old watch/reference phrasing.
 - Current setting-book files do not use the old watch-keep display state in tables.
@@ -77,15 +81,14 @@ Completed checks:
 
 Recommended next sequence:
 
-1. Create a single reader-facing table of contents from the 0-8 draft package.
-2. Run a chapter-by-chapter body-vs-appendix separation pass.
-3. Convert Chapter 1 continent prose into a cleaner public-facing style sample.
-4. Build one appendix sample table for 14/15 boundary candidates.
-5. Build one appendix sample table for item promotion candidates.
-6. Decide whether the next output should be a polished setting-book manuscript or a production-facing bible.
+1. Run a style-unification pass over the public assembly manuscript.
+2. Expand the appendix assembly manuscript with one real embedded table per section.
+3. Add a clean title page and front-matter draft for the setting book prototype.
+4. Decide whether the next package should target reader-facing release or production-facing bible format.
+5. Prepare a short checkpoint summary for thread handoff if context gets too long.
 
 ## Conductor Decision
 
-The setting-book recomposition has moved from source-map setup into full first-draft package state.
+The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.
 
-The next meaningful work is not more raw expansion. It is controlled assembly: make the body easier to read, keep the appendix useful, and prevent audit vocabulary from leaking into public-facing prose.
+The next meaningful work is controlled refinement: smooth the public manuscript, deepen the appendix with selected real tables, and prepare the package for either polish or handoff.
