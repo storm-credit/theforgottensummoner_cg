@@ -61,6 +61,8 @@
 
 세부 hold 기준은 `Setting_Book_Release_Readiness_Checklist.md`의 `V1 Hold Breakdown`에서 관리한다.
 
+Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Queue`에서 필요한 행만 고른다.
+
 ## 하지 말아야 할 일
 
 - 허브를 다시 크게 갈아엎지 않는다.
@@ -71,6 +73,6 @@
 ## 오케스트라 다음 순서
 
 1. 상태 대시보드와 허브 링크를 고정한다.
-2. release readiness의 hold 항목을 더 작은 결정으로 쪼갠다.
-3. 필요할 때만 Appendix B/C 행 단위 evidence note를 추가한다.
+2. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
+3. filename / layout 방향이 결정되면 RC 파일 생성 여부를 다시 판정한다.
 4. 안정 마일스톤마다 branch와 main에 push한다.

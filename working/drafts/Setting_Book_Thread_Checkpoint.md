@@ -54,6 +54,7 @@
 - release-candidate trigger를 재판정해 separate RC 파일은 아직 보류하고 shareable preview completion target을 유지
 - 현재 상태 대시보드를 추가해 done / shareable / controlled hold 구간을 한 화면에서 확인 가능하게 정리
 - release readiness에 V1 hold breakdown을 추가해 filename / layout / row-level evidence 결정을 분리
+- Appendix B/C evidence queue를 추가해 추가 근거 작업을 필요한 승격 행으로 제한
 
 ## Core Files
 

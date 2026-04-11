@@ -151,6 +151,22 @@ v1로 넘어가기 전 hold는 큰 원고 문제가 아니라
 - layout hold는 유지한다. 아직 상업용 판형보다 설정 기준 보존이 먼저다.
 - row-level evidence hold는 작아졌다. B/C sample evidence pointer check가 들어갔으므로, 이후는 필요한 행만 좁혀서 처리한다.
 
+## Appendix B/C Evidence Queue
+
+지금은 broad evidence pass를 다시 열지 않는다.
+
+필요할 때만 아래 행을 좁혀서 보강한다.
+
+| Appendix | Already Anchored | Add Only If |
+| --- | --- | --- |
+| B. Item Promotion | `Aegis` collision cluster, fully qualified Aegis item names, owner/person route separation | featured item body가 bare item name을 쓰거나, growth / legendary group item을 독립 엔트리로 올릴 때 |
+| C. Place and Travel | Port Nexus, Black Cat, Mercenary Gate | Goldenmark, Dragonforge, auction house, secret warehouse, or Necro Well becomes a body-final featured place |
+
+Current decision:
+
+- no additional B/C row is urgent for preview v0.
+- v1 evidence work should start from the next promoted body entry, not from the whole appendix table.
+
 ## Conductor Decision
 
 다음 진행은 두 갈래 중 하나다.
