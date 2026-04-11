@@ -26,6 +26,7 @@
 | Area | Current Status | Why |
 | --- | --- | --- |
 | Hub navigation | done | 00-08 허브에 재진입 순서가 있고, 역할 지도 / preview / process hub로 복귀 가능하다. |
+| Hub quick indexes | done | 01-08 허브가 질문 기준 첫 클릭 표를 갖고 있어 축/검증/원재료 진입이 짧아졌다. |
 | Document role clarity | done | `Setting_Book_Document_Roles_Map.md`가 reader / reference / appendix / conductor 문서를 구분한다. |
 | Shareable preview | shareable | `Setting_Book_Preview_Readable_v0.md`가 현재 가장 책처럼 읽히는 공유용 preview다. |
 | Core profile bridge | shareable | 세력, 인물, 장소, 유물, 종족 5축 core profile이 preview와 기술 초안 사이를 잇는다. |
