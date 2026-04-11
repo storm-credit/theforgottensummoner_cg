@@ -113,7 +113,7 @@ Recommended next sequence:
 
 최근 gate 통과:
 
-- `25a0a7d`까지의 readable preview manuscript, release readiness, preview package v0를 `main`에 fast-forward push 완료.
+- `fd8db3e`까지의 readable preview polish와 appendix back-half bridge를 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
