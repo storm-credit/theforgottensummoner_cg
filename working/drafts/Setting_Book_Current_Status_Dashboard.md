@@ -54,6 +54,12 @@
 2. `04_Setting_Book_Places_Hub.md` 또는 `05_Setting_Book_Species_Hub.md`
 3. 각 허브의 `빠른 인덱스` 표에서 바로 갈 문서 선택
 
+검증이나 원재료로 바로 가고 싶은 사람:
+
+1. `06_Setting_Book_Appendix_Hub.md`
+2. `08_Setting_Book_Source_Hub.md`
+3. 각 허브의 `빠른 인덱스` 표에서 질문에 맞는 문서 선택
+
 작업 상태를 확인하는 사람:
 
 1. `Setting_Book_Current_Status_Dashboard.md`
@@ -86,5 +92,5 @@ Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Que
 
 1. 상태 대시보드와 허브 링크를 고정한다.
 2. 사람/유물/장소/종족 허브의 빠른 인덱스를 실제 클릭 동선 기준으로 다듬는다.
-3. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
-4. filename / layout 방향이 결정되면 RC 파일 생성 여부를 다시 판정한다.
+3. appendix/source 허브의 빠른 인덱스를 실제 질문 기준으로 다듬는다.
+4. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.

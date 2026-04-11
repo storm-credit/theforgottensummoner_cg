@@ -42,6 +42,16 @@
 
 세부 sample 문서는 아래 Appendix A-E 섹션에서 바로 고르면 된다.
 
+## Appendix 빠른 인덱스
+
+| Appendix | Main Question | First Click |
+| --- | --- | --- |
+| Appendix A | 이 인물을 지금 영웅축으로 올려도 되는가 | `Setting_Book_Appendix_Sample_14_15_Boundary.md` |
+| Appendix B | 이 물건을 본문 엔트리로 승격해도 되는가 | `Setting_Book_Appendix_Sample_Item_Promotion.md` |
+| Appendix C | 이 장소와 길을 장면 기능으로 읽어도 되는가 | `Setting_Book_Appendix_Sample_Place_Travel.md` |
+| Appendix D | 이 이름을 같은 존재로 합치면 안 되는가 | `Setting_Book_Appendix_Sample_Name_Collision.md` |
+| Appendix E | 이 신호를 people / bloodline / state / monster로 나눌 수 있는가 | `Race_Species_Evidence_Log.md` |
+
 ## Appendix A. 14 / 15 Boundary Candidates
 
 무엇을 보나:
@@ -161,4 +171,5 @@
 - 장소 기능: `Appendix C`
 - 이름 충돌: `Appendix D`
 - 종족 분류: `Appendix E`
+- 빠른 분기는 `Appendix 빠른 인덱스` 표부터
 - 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`
