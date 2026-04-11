@@ -102,6 +102,7 @@
 
 ## Recent Commit Line
 
+- `ae529bb Clarify setting book safe opening order`
 - `28cf694 Record setting book reentry completion`
 - `5410516 Add reentry routes to setting book hubs`
 - `78815f3 Add setting book hub reentry routes`
@@ -201,3 +202,4 @@
 - 00-08 hub reentry route 추가까지 `main` 반영 완료.
 - reentry completion checklist 반영까지 `main` 완료.
 - latest checkpoint refresh까지 `main` 반영 완료.
+- safe opening order 분리까지 `main` 반영 완료.
