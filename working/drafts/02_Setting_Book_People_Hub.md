@@ -4,6 +4,7 @@
 
 - [[00_Setting_Book_Hub]]
 - [[01_Setting_Book_Faction_Hub]]
+- [[Setting_Book_People_Core_Profiles_v0]]
 - [[03_Setting_Book_Items_Hub]]
 - [[04_Setting_Book_Places_Hub]]
 - [[05_Setting_Book_Species_Hub]]
@@ -21,6 +22,7 @@
 이 문서부터:
 
 - `Setting_Book_Preview_Readable_v0.md`
+- `Setting_Book_People_Core_Profiles_v0.md`
 - `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md`
 
 그다음 문서:
@@ -65,4 +67,5 @@
 
 - 인물로 볼 때는 이 문서부터
 - 인물의 책 같은 설명은 `Setting_Book_Preview_Readable_v0.md`
+- 대표 인물 중간 정리본은 `Setting_Book_People_Core_Profiles_v0.md`
 - 검증은 `Appendix A`, `Appendix D`

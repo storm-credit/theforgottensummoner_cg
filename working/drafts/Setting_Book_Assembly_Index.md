@@ -33,6 +33,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | `Setting_Book_Preview_Package_v0.md` | Defines the reader-facing preview package order and what v0 may safely claim. |
 | `Setting_Book_Preview_Readable_v0.md` | Serves as the current shareable readable preview manuscript. |
 | `Setting_Book_Faction_Core_Profiles_v0.md` | Serves as the faction-first bridge between the readable preview and the technical continent/faction drafts. |
+| `Setting_Book_People_Core_Profiles_v0.md` | Serves as the people-first bridge between the readable preview and the 14/15 technical drafts. |
 
 ## Assembly Principle
 
@@ -92,8 +93,9 @@ Recommended next sequence:
 3. Use the release readiness checklist before packaging a preview manuscript.
 4. Use the preview package to choose readable preview or production preview.
 5. Build compact mid-layer profile sheets for factions, people, places, items, or species where hub navigation is already stable.
-6. Prepare a short checkpoint summary for thread handoff if context gets too long.
-7. At stable milestones, run the `Main Push Gate` before pushing to `main`.
+6. Extend the strongest mid-layer sheets into small reusable profile families before widening the surface area.
+7. Prepare a short checkpoint summary for thread handoff if context gets too long.
+8. At stable milestones, run the `Main Push Gate` before pushing to `main`.
 
 ## Main Push Gate
 
