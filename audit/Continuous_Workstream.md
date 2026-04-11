@@ -20,7 +20,7 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 
 1. `Section 8`의 `canonical_root / quarantine_root / legacy_root` 경계를 유지한다.
 2. `Section 8`의 `section_style / mixed_keep / section_style_reclassify` 구조 라벨을 유지한다.
-3. `Section_8_Spine_Mismatch_Queue.md`의 `P1 locked snapshot`과 `P0 / P2 active queue` 분리를 유지한다.
+3. `Section_8_Spine_Mismatch_Queue.md`의 `P1 locked snapshot`과 `P0 / P2 watch queue` 분리를 유지한다.
 4. `Section 8 -> 15` carryover는 `structure label`, `hold state`, `place pressure`를 서로 덮어쓰지 않게 유지한다.
 5. `P2 place-pressure handoff` owner는 candidate index가 아니라 sidecar/register에만 둔다.
 6. `stable triad package`, `support_hold`, `deferred_expansion_hold`, Ether hold cluster는 서로 다른 층으로 유지한다.
@@ -90,8 +90,8 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 아래는 메인 본선 reference가 아니라,
 watch cycle이 안정된 뒤 조건부로 검토할 reference backlog다.
 
-1. 원본 접근 가능 시 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 subtree 샘플링
-2. 신규 closure batch 진행 여부 판단
+1. 원본 접근 가능 시 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 subtree reference sampling 필요 여부 판단
+2. 신규 closure batch 후보 검토 여부 판단
 3. `14` 인물 백과 구조 감사와 `8 ↔ 14` 링크맵 심화
 4. 후기 범대륙 / deferred routing 재확장 여부 판단
 5. 실제 원고 입력 발생 시 live handoff case 승격
