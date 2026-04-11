@@ -1,5 +1,15 @@
 # Setting Book Hub
 
+## 빠른 링크
+
+- [[Setting_Book_Preview_Readable_v0]]
+- [[01_Setting_Book_Faction_Hub]]
+- [[02_Setting_Book_People_Hub]]
+- [[03_Setting_Book_Items_Hub]]
+- [[04_Setting_Book_Places_Hub]]
+- [[05_Setting_Book_Species_Hub]]
+- [[06_Setting_Book_Appendix_Hub]]
+
 ## 먼저 이 문서만 보면 됨
 
 설정집 관련 파일이 많아서 헷갈릴 수 있다.

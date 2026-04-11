@@ -1,5 +1,16 @@
 # Setting Book Appendix Hub
 
+## 빠른 링크
+
+- [[00_Setting_Book_Hub]]
+- [[01_Setting_Book_Faction_Hub]]
+- [[02_Setting_Book_People_Hub]]
+- [[03_Setting_Book_Items_Hub]]
+- [[04_Setting_Book_Places_Hub]]
+- [[05_Setting_Book_Species_Hub]]
+- [[Setting_Book_Preview_Readable_v0]]
+- [[Setting_Book_Appendix_Assembly_Manuscript_Draft]]
+
 ## 부록 기준으로 보고 싶으면 여기서 시작
 
 이 문서는 설정집 부록을 기준으로 보기 위한 허브다.

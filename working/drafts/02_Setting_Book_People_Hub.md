@@ -1,5 +1,15 @@
 # Setting Book People Hub
 
+## 빠른 링크
+
+- [[00_Setting_Book_Hub]]
+- [[01_Setting_Book_Faction_Hub]]
+- [[03_Setting_Book_Items_Hub]]
+- [[04_Setting_Book_Places_Hub]]
+- [[05_Setting_Book_Species_Hub]]
+- [[06_Setting_Book_Appendix_Hub]]
+- [[Setting_Book_Preview_Readable_v0]]
+
 ## 인물 축으로 보고 싶으면 여기서 시작
 
 이 문서는 설정집의 인물 축을 찾기 위한 허브다.
