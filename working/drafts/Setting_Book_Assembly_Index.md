@@ -92,10 +92,9 @@ Completed checks:
 Recommended next sequence:
 
 1. Re-evaluate the release-candidate file trigger only after v1 gates tighten.
-2. Decide whether `Prototype_v0` should keep its name or split into preview/reference naming.
-3. Extend the strongest mid-layer sheets into small reusable profile families only after the v1 direction is chosen.
-4. Prepare a short checkpoint summary for thread handoff if context gets too long.
-5. At stable milestones, run the `Main Push Gate` before pushing to `main`.
+2. Extend the strongest mid-layer sheets into small reusable profile families only after the v1 direction is chosen.
+3. Prepare a short checkpoint summary for thread handoff if context gets too long.
+4. At stable milestones, run the `Main Push Gate` before pushing to `main`.
 
 ## Main Push Gate
 
@@ -123,4 +122,4 @@ Recommended next sequence:
 
 The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.
 
-The next meaningful work is controlled refinement: keep `preview_v0_readable` stable as the shareable package, treat Appendix A-E targeted notes as enough for the current preview tier, and re-open the release-candidate file question only when packaging becomes the next preserved artifact.
+The next meaningful work is controlled refinement: keep `preview_v0_readable` stable as the shareable package, keep `Prototype_v0` as the compressed reference file, treat Appendix A-E targeted notes as enough for the current preview tier, and re-open the release-candidate file question only when packaging becomes the next preserved artifact.

@@ -19,6 +19,7 @@ Current naming decision:
 - Keep `Setting_Book_Preview_Readable_v0.md` as the shareable preview file for now.
 - Do not rename it into a release-candidate file until row-level evidence notes and final layout direction are decided.
 - Use `A Living World Companion` as the v0 subtitle and keep the current cover-tone sentence aligned with the readable preview opening.
+- Keep `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` as the compressed sync/reference file name for now.
 
 Release-candidate trigger:
 

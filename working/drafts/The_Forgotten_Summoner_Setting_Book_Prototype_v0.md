@@ -1,6 +1,10 @@
 # THE FORGOTTEN SUMMONER
 ## Setting Book Prototype v0
 
+이 파일은 현재 reader-facing release candidate가 아니라,
+본문과 부록 전체를 한 파일에서 동기화 확인하기 위한 압축 대표 reference다.
+파일명 `Prototype_v0`도 그 역할을 유지하기 위해 당분간 그대로 둔다.
+
 ### Selected Subtitle
 
 `A Living World Companion`

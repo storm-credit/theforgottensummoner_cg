@@ -88,6 +88,7 @@ release 후보로 묶기 전에 아래를 통과해야 한다.
 - `Setting_Book_Preview_Readable_v0.md`를 공유용 대표본으로 유지한다.
 - `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`는 압축 대표 reference로 유지한다.
 - release-candidate라는 이름은 문서 본문보다 checklist 판단에서만 사용한다.
+- `Prototype_v0` 파일명은 당분간 유지한다. 지금은 이름 교체보다 역할 분리가 더 중요하다.
 
 ## Current V0 Assessment
 
@@ -98,9 +99,8 @@ reader-facing preview 후보를 넘어,
 아직 정식 v1 release로 부르기 전 남은 작업:
 
 1. release-candidate file trigger 네 조건이 실제로 충족됐는지 다시 판정한다.
-2. 최종 파일명을 `Prototype_v0`에서 preview 또는 release candidate 이름으로 바꿀지 결정한다.
-3. 상업용 layout 또는 협업용 production bible 방향을 분리할지 결정한다.
-4. 필요한 경우 Appendix B/C의 나머지 행에만 추가 evidence note를 덧붙인다.
+2. 상업용 layout 또는 협업용 production bible 방향을 분리할지 결정한다.
+3. 필요한 경우 Appendix B/C의 나머지 행에만 추가 evidence note를 덧붙인다.
 
 ## Conductor Decision
 
@@ -119,4 +119,4 @@ readable preview, public assembly, core profiles, appendix control tables가
 서로 같은 패키지 역할을 하기 때문이다.
 
 다음 진행은 `preview_v0_readable`을 더 늘리기보다,
-v1로 가기 전에 필요한 row-level evidence note와 release-candidate 파일명 결정을 좁히는 쪽이 좋다.
+v1로 가기 전에 필요한 row-level evidence note와 packaging 방향을 좁히는 쪽이 좋다.
