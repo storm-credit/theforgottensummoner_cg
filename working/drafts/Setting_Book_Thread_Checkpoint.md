@@ -28,6 +28,8 @@
 - `main push gate` 고정점 추가
 - 허브 사용성 패스 마감
 - 핵심 다섯 축 중간 정리본 작성 및 메인 흐름 연결
+- `preview_v0_readable`와 `Prototype_v0` 역할 분리 문구 고정
+- 문서 역할 지도를 추가해 허브 진입 동선 보강
 
 ## Core Files
 
@@ -74,6 +76,7 @@
 - `working/drafts/Setting_Book_Release_Readiness_Checklist.md`
 - `working/drafts/Setting_Book_Preview_Package_v0.md`
 - `working/drafts/Setting_Book_Preview_Readable_v0.md`
+- `working/drafts/Setting_Book_Document_Roles_Map.md`
 - `working/drafts/Setting_Book_Faction_Core_Profiles_v0.md`
 - `working/drafts/Setting_Book_People_Core_Profiles_v0.md`
 - `working/drafts/Setting_Book_Places_Core_Profiles_v0.md`
@@ -82,6 +85,11 @@
 
 ## Recent Commit Line
 
+- `3e008c4 Add setting book document roles map`
+- `3ef9232 Clarify setting book prototype reference role`
+- `2ae744d Fill setting book appendix risk notes`
+- `06e30fc Define setting book release-candidate trigger`
+- `59c1eb3 Add targeted setting book appendix evidence notes`
 - `498c5fe Integrate setting book core profile bridges`
 - `e1cc037 Close setting book hub usability pass`
 - `f96140c Record validated setting book hub journeys`
@@ -138,3 +146,4 @@
 최근 gate 통과:
 
 - 허브 사용성 마감 패스까지 `main`에 fast-forward push 완료.
+- 문서 역할 지도 추가와 prototype 역할 고정까지 `main` 반영 완료.
