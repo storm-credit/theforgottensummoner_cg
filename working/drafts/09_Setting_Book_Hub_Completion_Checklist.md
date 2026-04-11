@@ -63,6 +63,14 @@
 - [x] 한국어/영어 혼합 라벨 다듬기
 - [x] "한 줄 요약" 섹션 표현 통일
 
+### F. 대표 사용자 경로 점검
+
+- [x] 책처럼 읽기: `00_Setting_Book_Hub.md` -> `Setting_Book_Preview_Readable_v0.md`
+- [x] 세력부터 보기: `00_Setting_Book_Hub.md` -> `01_Setting_Book_Faction_Hub.md` -> `Setting_Book_Chapter_1_Five_Continents_Draft.md` 또는 `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
+- [x] 검증부터 보기: `00_Setting_Book_Hub.md` -> `06_Setting_Book_Appendix_Hub.md` -> `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` 또는 appendix sample 문서
+- [x] 진행 상황 보기: `00_Setting_Book_Hub.md` -> `07_Setting_Book_Process_Hub.md` -> `Setting_Book_Assembly_Index.md` 또는 `Setting_Book_Thread_Checkpoint.md`
+- [x] 원재료 추적: `00_Setting_Book_Hub.md` -> `08_Setting_Book_Source_Hub.md` -> 원하는 장 초안
+
 ## 진행률 보는 법
 
 이제부터는 두 가지로 나눠서 본다.
@@ -76,11 +84,11 @@
 현재 오케스트라 판단:
 
 - 허브 골격 완성도: 높음
-- 허브 사용성 완성도: 전보다 안정됐지만 아직 마감 전
+- 허브 사용성 완성도: 대표 경로는 안정됐고 마지막 눈검토만 남음
 
 즉, "허브가 있다"는 이유만으로 90% 가까이 올리면 안 되고,
 "허브를 실제로 타고 다니기 편하다"까지 가야 높은 진행률로 본다.
 
 ## 지금 남은 허브 마감 일
 
-1. 메인 허브와 세력 허브를 실제 사용자 시점으로 다시 타보며 작은 중복과 문장 어색함이 남는지 재검토
+1. 메인 허브와 세력 허브의 작은 문장 어색함만 남았는지 마지막 눈검토
