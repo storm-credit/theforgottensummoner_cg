@@ -12,22 +12,27 @@
 
 ## 장소와 길 축으로 보고 싶으면 여기서 시작
 
-이 문서는 설정집의 장소 축을 찾기 위한 허브다.
+이 허브는 설정집의 장소 축을 찾기 위한 출발점이다.
 도시, 항구, 시장, 경로를 배경이 아니라 장면을 여는 기능으로 읽도록 돕는다.
 
-## 먼저 보면 좋은 파일
+## 이 문서부터 / 그다음 문서
+
+이 문서부터:
 
 - `Setting_Book_Preview_Readable_v0.md`
 - `Setting_Book_Chapter_7_Spatial_Map_Draft.md`
+
+그다음 문서:
+
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 
 ## 장소 축 핵심 구분
 
-- continent-scale places
+- 대륙 규모 장소
 - Crossroad Cities
-- ports / markets / roads
-- sanctuaries / ruins / workshops
-- route pressure / cost / gate
+- 항구 / 시장 / 길
+- 성소 / 폐허 / 공방
+- 경로 압력 / 비용 / 관문
 
 ## 대표적으로 먼저 볼 파트
 
@@ -48,7 +53,7 @@
 - `02_Setting_Book_People_Hub.md`
 - `03_Setting_Book_Items_Hub.md`
 
-## 아주 짧게
+## 한 줄 요약
 
 - 장소/길로 볼 때는 이 문서부터
 - 읽는 설명은 `Part II`

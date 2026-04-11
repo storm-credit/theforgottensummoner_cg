@@ -13,7 +13,7 @@
 - [[08_Setting_Book_Source_Hub]]
 - [[09_Setting_Book_Hub_Completion_Checklist]]
 
-## 먼저 이 문서만 보면 됨
+## 이 문서부터 보면 됨
 
 설정집 관련 파일이 많아서 헷갈릴 수 있다.
 지금은 아래 네 층으로 보면 된다.
@@ -80,7 +80,7 @@
 이 파일들은 설정집 원재료다.
 대표본이 어떻게 만들어졌는지 거슬러 올라가고 싶을 때 본다.
 
-## 아주 짧게 정리
+## 한 줄 요약
 
 - 먼저 보기: `Setting_Book_Preview_Readable_v0.md`
 - 세력별: `01_Setting_Book_Faction_Hub.md`

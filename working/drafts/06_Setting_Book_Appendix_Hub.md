@@ -13,18 +13,23 @@
 
 ## 부록 기준으로 보고 싶으면 여기서 시작
 
-이 문서는 설정집 부록을 기준으로 보기 위한 허브다.
+이 허브는 설정집 부록을 기준으로 보기 위한 출발점이다.
 본문을 읽다가
 "이건 왜 아직 확정이 아니지?"
 "이 이름은 왜 함부로 합치면 안 되지?"
 "이 유물은 왜 아직 후보 상태지?"
 같은 질문이 생길 때 여기로 들어오면 된다.
 
-## 먼저 보면 좋은 파일
+## 이 문서부터 / 그다음 문서
+
+이 문서부터:
 
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
-- `Setting_Book_Preview_Readable_v0.md`
 - `Setting_Book_Release_Readiness_Checklist.md`
+
+그다음 문서:
+
+- `Setting_Book_Preview_Readable_v0.md`
 - `Setting_Book_Appendix_Sample_14_15_Boundary.md`
 - `Setting_Book_Appendix_Sample_Item_Promotion.md`
 - `Setting_Book_Appendix_Sample_Place_Travel.md`
@@ -142,7 +147,7 @@
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `Race_Species_Evidence_Log.md`
 
-## 아주 짧게
+## 한 줄 요약
 
 - 경계 인물: `Appendix A`
 - 유물 승격: `Appendix B`

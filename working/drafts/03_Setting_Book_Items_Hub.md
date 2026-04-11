@@ -12,23 +12,28 @@
 
 ## 유물과 물건 축으로 보고 싶으면 여기서 시작
 
-이 문서는 설정집의 물건 축을 찾기 위한 허브다.
+이 허브는 설정집의 물건 축을 찾기 위한 출발점이다.
 유물을 성능표가 아니라 욕망, 비용, 소유, 이동 경로의 문제로 읽도록 돕는다.
 
-## 먼저 보면 좋은 파일
+## 이 문서부터 / 그다음 문서
+
+이 문서부터:
 
 - `Setting_Book_Preview_Readable_v0.md`
 - `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md`
+
+그다음 문서:
+
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 
 ## 물건 축 핵심 구분
 
-- personal gear
-- relics
-- growth items
-- ego items
-- legendary set / collection treasures
-- promotion candidates
+- 개인 장비
+- 유물
+- 성장형 물건
+- 에고형 유물
+- 세트형 전설 보물
+- 승격 후보
 
 ## 대표적으로 먼저 볼 파트
 
@@ -51,7 +56,7 @@
 - `04_Setting_Book_Places_Hub.md`
 - `05_Setting_Book_Species_Hub.md`
 
-## 아주 짧게
+## 한 줄 요약
 
 - 유물/물건으로 볼 때는 이 문서부터
 - 읽는 설명은 `Part IV`

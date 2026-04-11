@@ -12,16 +12,21 @@
 
 ## 세력별로 보고 싶으면 여기서 시작
 
-이 문서는 설정집을 세력 기준으로 보기 위한 허브다.
+이 허브는 설정집을 세력 기준으로 보기 위한 출발점이다.
 대륙별 본문, 세력 구조 초안, 부록을 오가며
 지금 어떤 세력이 어떻게 정리돼 있는지 빠르게 찾도록 돕는다.
 
-## 먼저 보면 좋은 파일
+## 이 문서부터 / 그다음 문서
+
+이 문서부터:
 
 - `Setting_Book_Preview_Readable_v0.md`
-- `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
+
+그다음 문서:
+
 - `Setting_Book_Chapter_1_Five_Continents_Draft.md`
+- `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `02_Setting_Book_People_Hub.md`
 - `03_Setting_Book_Items_Hub.md`
 - `04_Setting_Book_Places_Hub.md`
@@ -131,7 +136,7 @@
 - place pressure가 강한지 보기
 - 본문에서 멋있게 보인다고 바로 확정 세력으로 올리지 않기
 
-## 아주 짧게
+## 한 줄 요약
 
 - 세력별로 보려면 이 문서부터
 - 세계를 읽는 느낌은 `Setting_Book_Preview_Readable_v0.md`
