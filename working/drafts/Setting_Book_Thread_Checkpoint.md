@@ -72,6 +72,10 @@
 
 ## Recent Commit Line
 
+- `a64059a Align setting book appendix TOC`
+- `b846eb6 Expand public setting book assembly`
+- `a476683 Record main push gate pass`
+- `a7709ad Add species classification appendix`
 - `a563e75 Expand prototype species framework`
 - `a133956 Expand prototype and add main push gate`
 - `f5672b3 Expand prototype ether and crossroad sections`
@@ -120,4 +124,4 @@
 
 최근 gate 통과:
 
-- `a7709ad`까지의 prototype v0 1차 확장과 A-E appendix flow를 `main`에 fast-forward push 완료.
+- `a64059a`까지의 prototype v0, public assembly 확장, A-E appendix flow, front matter / TOC 정합화를 `main`에 fast-forward push 완료.

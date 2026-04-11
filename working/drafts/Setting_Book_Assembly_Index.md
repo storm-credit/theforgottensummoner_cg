@@ -110,7 +110,7 @@ Recommended next sequence:
 
 최근 gate 통과:
 
-- `a7709ad`까지의 prototype v0 1차 확장과 A-E appendix flow를 `main`에 fast-forward push 완료.
+- `a64059a`까지의 prototype v0, public assembly 확장, A-E appendix flow, front matter / TOC 정합화를 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
