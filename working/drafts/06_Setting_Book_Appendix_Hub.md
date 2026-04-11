@@ -25,6 +25,10 @@
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `Setting_Book_Preview_Readable_v0.md`
 - `Setting_Book_Release_Readiness_Checklist.md`
+- `Setting_Book_Appendix_Sample_14_15_Boundary.md`
+- `Setting_Book_Appendix_Sample_Item_Promotion.md`
+- `Setting_Book_Appendix_Sample_Place_Travel.md`
+- `Setting_Book_Appendix_Sample_Name_Collision.md`
 
 ## Appendix A. 14 / 15 Boundary Candidates
 
@@ -43,6 +47,11 @@
 - `02_Setting_Book_People_Hub.md`
 - `01_Setting_Book_Faction_Hub.md`
 
+세부 진입 문서:
+
+- `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- `Setting_Book_Appendix_Sample_14_15_Boundary.md`
+
 ## Appendix B. Item Promotion Candidates
 
 무엇을 보나:
@@ -58,6 +67,11 @@
 
 - `03_Setting_Book_Items_Hub.md`
 - `04_Setting_Book_Places_Hub.md`
+
+세부 진입 문서:
+
+- `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- `Setting_Book_Appendix_Sample_Item_Promotion.md`
 
 ## Appendix C. Place and Travel Functions
 
@@ -75,6 +89,11 @@
 
 - `04_Setting_Book_Places_Hub.md`
 - `01_Setting_Book_Faction_Hub.md`
+
+세부 진입 문서:
+
+- `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- `Setting_Book_Appendix_Sample_Place_Travel.md`
 
 ## Appendix D. Name Collision Control
 
@@ -96,6 +115,11 @@
 - `03_Setting_Book_Items_Hub.md`
 - `05_Setting_Book_Species_Hub.md`
 
+세부 진입 문서:
+
+- `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- `Setting_Book_Appendix_Sample_Name_Collision.md`
+
 ## Appendix E. Species Classification Guard
 
 무엇을 보나:
@@ -112,6 +136,11 @@
 
 - `05_Setting_Book_Species_Hub.md`
 - `01_Setting_Book_Faction_Hub.md`
+
+세부 진입 문서:
+
+- `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- `Race_Species_Evidence_Log.md`
 
 ## 아주 짧게
 

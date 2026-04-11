@@ -37,6 +37,10 @@
 - canon tier
 - archive routing
 
+되돌아갈 허브:
+
+- `07_Setting_Book_Process_Hub.md`
+
 ### 1. Five Continents
 
 - `Setting_Book_Chapter_1_Five_Continents_Draft.md`
@@ -46,6 +50,11 @@
 - 대륙 spine
 - 인간 서사 방향
 - 대륙별 safe read
+
+되돌아갈 허브:
+
+- `01_Setting_Book_Faction_Hub.md`
+- `04_Setting_Book_Places_Hub.md`
 
 ### 2. Faction Archive Structure
 
@@ -57,6 +66,12 @@
 - structure label
 - place pressure
 
+되돌아갈 허브:
+
+- `01_Setting_Book_Faction_Hub.md`
+- `04_Setting_Book_Places_Hub.md`
+- `07_Setting_Book_Process_Hub.md`
+
 ### 3. Named Notables / Operational Lines
 
 - `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md`
@@ -65,6 +80,11 @@
 
 - 왜 찾아가야 하는 인물층인지
 - 14/15 handoff 기준
+
+되돌아갈 허브:
+
+- `02_Setting_Book_People_Hub.md`
+- `06_Setting_Book_Appendix_Hub.md`
 
 ### 4. Naming Normalization
 
@@ -76,6 +96,13 @@
 - naming tone
 - collision guard
 
+되돌아갈 허브:
+
+- `02_Setting_Book_People_Hub.md`
+- `03_Setting_Book_Items_Hub.md`
+- `05_Setting_Book_Species_Hub.md`
+- `06_Setting_Book_Appendix_Hub.md`
+
 ### 5. Items and Relics
 
 - `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md`
@@ -85,6 +112,11 @@
 - desire-first item logic
 - relic / gear / trade good distinction
 
+되돌아갈 허브:
+
+- `03_Setting_Book_Items_Hub.md`
+- `04_Setting_Book_Places_Hub.md`
+
 ### 6. Species Framework
 
 - `Setting_Book_Chapter_6_Species_Framework_Draft.md`
@@ -92,6 +124,11 @@
 무엇을 보나:
 
 - peoples / bloodlines / states / monsters 구분
+
+되돌아갈 허브:
+
+- `05_Setting_Book_Species_Hub.md`
+- `06_Setting_Book_Appendix_Hub.md`
 
 ### 7. Spatial Map
 
@@ -103,6 +140,11 @@
 - route drama
 - map pressure
 
+되돌아갈 허브:
+
+- `04_Setting_Book_Places_Hub.md`
+- `01_Setting_Book_Faction_Hub.md`
+
 ### 8. Register Appendix
 
 - `Setting_Book_Chapter_8_Register_Appendix_Draft.md`
@@ -113,6 +155,11 @@
 - manifest
 - queues
 - appendix control
+
+되돌아갈 허브:
+
+- `06_Setting_Book_Appendix_Hub.md`
+- `07_Setting_Book_Process_Hub.md`
 
 ## 같이 보면 좋은 허브
 
