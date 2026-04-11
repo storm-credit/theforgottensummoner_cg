@@ -136,6 +136,13 @@
 - place pressure가 강한지 보기
 - 본문에서 멋있게 보인다고 바로 확정 세력으로 올리지 않기
 
+## 세부 노트로 바로 내려가기
+
+- 대륙 분위기부터 보고 싶으면 `Setting_Book_Chapter_1_Five_Continents_Draft.md`
+- 세력 구조를 판단하고 싶으면 `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
+- 장소 압력까지 같이 보려면 `04_Setting_Book_Places_Hub.md`
+- 경계 인물이나 불안정 명칭이 걸리면 `06_Setting_Book_Appendix_Hub.md`
+
 ## 한 줄 요약
 
 - 세력별로 보려면 이 문서부터

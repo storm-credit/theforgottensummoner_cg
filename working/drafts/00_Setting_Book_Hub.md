@@ -21,25 +21,23 @@
 ## 1. 지금 가장 읽기 쉬운 대표본
 
 - `Setting_Book_Preview_Readable_v0.md`
-- `01_Setting_Book_Faction_Hub.md`
-- `02_Setting_Book_People_Hub.md`
-- `03_Setting_Book_Items_Hub.md`
-- `04_Setting_Book_Places_Hub.md`
-- `05_Setting_Book_Species_Hub.md`
-- `06_Setting_Book_Appendix_Hub.md`
-- `07_Setting_Book_Process_Hub.md`
-- `08_Setting_Book_Source_Hub.md`
-- `09_Setting_Book_Hub_Completion_Checklist.md`
 
 이 파일이 현재 가장 “책처럼” 읽히는 버전이다.
 누군가에게 먼저 보여 준다면 이 파일부터 본다.
-세력별로 보고 싶다면 `01_Setting_Book_Faction_Hub.md`부터 본다.
-인물, 유물, 장소, 종족 축으로 보고 싶다면 `02~05 허브`를 보면 된다.
-부록 기준으로 보고 싶다면 `06_Setting_Book_Appendix_Hub.md`를 보면 된다.
-작업 흐름은 `07`, 원본 재료는 `08` 허브를 보면 된다.
-허브 진행률을 어떻게 볼지는 `09` 체크리스트를 보면 된다.
 
-## 2. 본문 뒤에 붙는 검증용 부록
+## 2. 원하는 기준으로 바로 들어가기
+
+- 세력별로 보고 싶다면 `01_Setting_Book_Faction_Hub.md`
+- 인물별로 보고 싶다면 `02_Setting_Book_People_Hub.md`
+- 유물별로 보고 싶다면 `03_Setting_Book_Items_Hub.md`
+- 장소별로 보고 싶다면 `04_Setting_Book_Places_Hub.md`
+- 종족별로 보고 싶다면 `05_Setting_Book_Species_Hub.md`
+- 부록 기준으로 보고 싶다면 `06_Setting_Book_Appendix_Hub.md`
+- 작업 흐름은 `07_Setting_Book_Process_Hub.md`
+- 원본 재료는 `08_Setting_Book_Source_Hub.md`
+- 허브 진행률 기준은 `09_Setting_Book_Hub_Completion_Checklist.md`
+
+## 3. 본문 뒤에 붙는 검증용 부록
 
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 
@@ -47,14 +45,14 @@
 왜 아직 확정하지 않은 항목이 있는지,
 이름 충돌, 유물 승격, 종족 분류를 어떻게 조심하는지 정리한다.
 
-## 3. 전체를 한 파일로 압축한 대표 참고본
+## 4. 전체를 한 파일로 압축한 대표 참고본
 
 - `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
 
 이 파일은 본문과 부록을 한 파일에 같이 넣은 압축본이다.
 전체 구조를 한 번에 보고 싶을 때 본다.
 
-## 4. 작업 관리 문서
+## 5. 작업 관리 문서
 
 - `Setting_Book_Assembly_Index.md`
 - `Setting_Book_Thread_Checkpoint.md`
@@ -65,7 +63,7 @@
 오케스트라가 작업을 관리하는 문서다.
 보통은 나중에 봐도 된다.
 
-## 5. 원본 재료
+## 6. 원본 재료
 
 - `Setting_Book_Chapter_0_Canon_Policy_Draft.md`
 - `Setting_Book_Chapter_1_Five_Continents_Draft.md`

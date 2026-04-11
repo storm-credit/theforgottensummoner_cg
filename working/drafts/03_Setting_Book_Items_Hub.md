@@ -56,6 +56,13 @@
 - `04_Setting_Book_Places_Hub.md`
 - `05_Setting_Book_Species_Hub.md`
 
+## 세부 노트로 바로 내려가기
+
+- 물건 구조를 바로 보려면 `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md`
+- 승격 후보를 바로 보려면 `Setting_Book_Appendix_Sample_Item_Promotion.md`
+- 이름 충돌을 먼저 확인하려면 `Setting_Book_Appendix_Sample_Name_Collision.md`
+- 거래와 이동 압력을 함께 보려면 `04_Setting_Book_Places_Hub.md`
+
 ## 한 줄 요약
 
 - 유물/물건으로 볼 때는 이 문서부터

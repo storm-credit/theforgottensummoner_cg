@@ -56,6 +56,13 @@
 - `02_Setting_Book_People_Hub.md`
 - `03_Setting_Book_Items_Hub.md`
 
+## 세부 노트로 바로 내려가기
+
+- 종족 구조를 바로 보려면 `Setting_Book_Chapter_6_Species_Framework_Draft.md`
+- 분류 근거를 바로 보려면 `Race_Species_Evidence_Log.md`
+- 분류 가드는 `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- 이름 충돌을 함께 보려면 `Setting_Book_Appendix_Sample_Name_Collision.md`
+
 ## 한 줄 요약
 
 - 종족/혈통으로 볼 때는 이 문서부터

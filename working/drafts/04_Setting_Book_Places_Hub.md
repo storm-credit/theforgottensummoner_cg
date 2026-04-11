@@ -53,6 +53,13 @@
 - `02_Setting_Book_People_Hub.md`
 - `03_Setting_Book_Items_Hub.md`
 
+## 세부 노트로 바로 내려가기
+
+- 지도와 경로 구조를 바로 보려면 `Setting_Book_Chapter_7_Spatial_Map_Draft.md`
+- 대륙 압력까지 같이 보려면 `Setting_Book_Chapter_1_Five_Continents_Draft.md`
+- 이동 기능 검증은 `Setting_Book_Appendix_Sample_Place_Travel.md`
+- 세력 압력과 같이 읽으려면 `01_Setting_Book_Faction_Hub.md`
+
 ## 한 줄 요약
 
 - 장소/길로 볼 때는 이 문서부터

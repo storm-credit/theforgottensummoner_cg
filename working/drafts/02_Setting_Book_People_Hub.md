@@ -54,6 +54,13 @@
 - `03_Setting_Book_Items_Hub.md`
 - `04_Setting_Book_Places_Hub.md`
 
+## 세부 노트로 바로 내려가기
+
+- 인물층 구조를 바로 보려면 `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md`
+- 이름 충돌을 먼저 확인하려면 `Setting_Book_Chapter_4_Naming_Normalization_Draft.md`
+- 경계 후보를 바로 보려면 `Setting_Book_Appendix_Sample_14_15_Boundary.md`
+- 본문과 부록을 함께 보려면 `06_Setting_Book_Appendix_Hub.md`
+
 ## 한 줄 요약
 
 - 인물로 볼 때는 이 문서부터
