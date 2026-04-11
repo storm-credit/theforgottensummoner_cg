@@ -83,7 +83,7 @@
 - 정확한 지리 정보.
 - 세부 연표.
 - 세부 장비와 전승.
-- 현재 `stable_triad_frozen_reference_set`으로 관리되는 15 Named Notables 후보.
+- 현재 `stable_15_workset`으로 관리되는 15 Named Notables 후보.
 
 ### Open Question
 

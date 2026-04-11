@@ -12,7 +12,7 @@
 - primary source를 먼저 요약하고, secondary source는 보강과 충돌 확인에만 쓴다.
 - `Hard Canon`, `Soft Canon`, `Open Question`, `Deprecated / Legacy`를 섞지 않는다.
 - 원본 import 문서는 근거 확인용 snapshot으로만 읽고 직접 수정하지 않는다.
-- `closure sync / watch-reference` 상태인 항목은 확장보다 일관성 유지가 우선이다.
+- `mainline reference carryover` 상태인 항목은 확장보다 일관성 유지가 우선이다.
 
 ## 0. 운영 원칙 / Canon Policy
 
@@ -114,7 +114,7 @@ Secondary source:
 
 Required sections:
 
-1. `stable_triad_frozen_reference_set`.
+1. `stable_15_workset`.
 2. `source_check_hold / hold reference split`.
 3. `deferred_expansion_hold`.
 4. 14/15 boundary review.
@@ -122,7 +122,7 @@ Required sections:
 
 Guard:
 
-- `stable_triad_frozen_reference_set`은 닫힌 reference set으로만 둔다.
+- `stable_15_workset`은 닫힌 reference set으로만 둔다.
 - `source_check_hold` 후보를 본문에서 확정 인물처럼 쓰지 않는다.
 - operational profile의 `3-1. Policy Guard`는 상위 summary가 덮어쓰지 않는다.
 

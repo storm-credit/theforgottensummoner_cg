@@ -36,8 +36,8 @@
 
 ## Current Mainline Locks
 
-- `Section 8 -> 15` 본선은 `closure sync / watch-reference` 상태로 유지한다.
-- `stable_triad_frozen_reference_set`은 닫힌 reference set으로만 사용한다.
+- `Section 8 -> 15` 본선은 `mainline reference carryover` 상태로 유지한다.
+- `stable_15_workset`은 닫힌 reference set으로만 사용한다.
 - `source_check_hold`와 `deferred_expansion_hold`는 hold reference split 안에서만 읽는다.
 - `working/imports`는 원본 snapshot이므로 직접 고치지 않는다.
 - `working/crosswalks/Extracted_Item_Candidates.md`는 현재 별도 작업 중인 파일로 보고, 이 소스맵에서는 참조만 한다.
@@ -54,16 +54,15 @@
 
 ## Next Assembly Queue
 
-1. `0. 운영 원칙 / Canon Policy` skeleton 작성.
-2. `1. 5대륙 개요` skeleton 작성.
-3. `2. 세력 아카이브 구조` skeleton 작성.
-4. `3. Named Notables / Operational Lines` skeleton 작성.
-5. item / species / spatial appendix는 위 네 장의 구조가 안정된 뒤 붙인다.
+1. `8. Register Appendix` 본문 1차 작성.
+2. 설정집 0-8장 상호 용어 점검.
+3. 장별 appendix 후보와 본문 후보 분리.
+4. 최종 설정집 조립용 index 작성.
 
 ## Conductor Decision
 
-현재 단계는 설정집 본문 작성 직전의 source map lock 단계다.
+현재 단계는 설정집 본문 초안 0-7장 작성 이후의 appendix 조립 단계다.
 
 다음 실제 산출물은
-`working/drafts/Setting_Book_Skeleton.md`로 만들고,
+`working/drafts/Setting_Book_Chapter_8_Register_Appendix_Draft.md`로 만들고,
 본문 확장 전까지는 source map의 primary / secondary source 순서를 넘지 않는다.

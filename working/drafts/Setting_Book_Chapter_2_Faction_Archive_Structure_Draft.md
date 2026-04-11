@@ -88,19 +88,19 @@
 
 현재 주요 후보 snapshot:
 
-| Candidate | Structure Label | Pressure / Watch |
+| Candidate | Structure Label | Pressure / Guard |
 |---|---|---|
 | `성국` | `section_style` | `low` |
 | `왕국연합` | `section_style` | `low` |
-| `정령연합` | `mixed_keep` | `watch_keep`, 에테르 특수축 |
-| `용의 후예` | `section_style` | `watch_keep`, clan_as_state_house 주의 |
-| `붉은 사막 부족 연합` | `mixed_keep` | `watch_keep` |
-| `프로스트본 연합` | `mixed_keep` | `watch_keep` |
+| `정령연합` | `mixed_keep` | `guard_keep`, 에테르 특수축 |
+| `용의 후예` | `section_style` | `guard_keep`, clan_as_state_house 주의 |
+| `붉은 사막 부족 연합` | `mixed_keep` | `guard_keep` |
+| `프로스트본 연합` | `mixed_keep` | `guard_keep` |
 | `황금 함대` | `section_style` | `low` |
-| `해적 연합` | `mixed_keep` | `watch_keep` |
+| `해적 연합` | `mixed_keep` | `guard_keep` |
 | `바다의 교단` | `section_style_reclassify` | `place_pressure_strong` |
 | `망자의 왕국` | `section_style_reclassify` | `place_pressure_strong` |
-| `잊힌 자들의 연합` | `section_style_reclassify` | `watch_keep` |
+| `잊힌 자들의 연합` | `section_style_reclassify` | `guard_keep` |
 | `봉인 수호단` | `section_style_reclassify` | `place_pressure_strong` |
 
 설정집 guard:
@@ -109,7 +109,7 @@
 - `section_style_reclassify`는 내용 압력이 사라졌다는 뜻이 아니다.
 - `place_pressure_strong`은 structure label이 아니라 pressure state다.
 
-## 2.4 Mismatch Watch
+## 2.4 Mismatch Guard
 
 아래 mismatch는 설정집 본문에서 과독하지 않는다.
 
@@ -149,7 +149,7 @@ place pressure는 구조 라벨 문서 안에 가두지 않는다.
 
 하지만 이 handoff는 새 인물 확장 명령이 아니다.
 
-현재 본선은 `closure sync / watch-reference`다.
+현재 본선은 `mainline reference carryover`다.
 
 따라서:
 
@@ -176,5 +176,5 @@ place pressure는 구조 라벨 문서 안에 가두지 않는다.
 - `canonical_root / quarantine_root / legacy_root`를 활성 판단에서 섞지 않는다.
 - `mixed_keep`는 살아 있는 구조 예외다.
 - `place_pressure_strong`은 구조 라벨이 아니다.
-- `Section 8 -> 15`는 새 후보 확장이 아니라 `closure sync / watch-reference` 정합성 유지가 우선이다.
+- `Section 8 -> 15`는 새 후보 확장이 아니라 `mainline reference carryover` 정합성 유지가 우선이다.
 - 다음 장인 `3. Named Notables / Operational Lines`는 이 handoff 규칙을 넘지 않는다.
