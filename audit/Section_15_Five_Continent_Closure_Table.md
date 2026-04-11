@@ -12,7 +12,7 @@
 
 | Continent | Stable 15 Candidates | Boundary / Hold Candidates | Need Named Candidate Slots | Closure State |
 |---|---|---|---|---|
-| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | 현자회/사막부족 일부 슬롯은 후속 확인 | `closed_for_now` |
+| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | 현자회/사막부족 일부 슬롯은 unresolved reference note로만 남긴다. | `closed_for_now` |
 | `에테르` | `엘다라` | `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 금서/공방/관측/대서고/성채/성검/서약/그늘항로/정령묘 + low-priority auxiliary 9개 role slot closure 완료 | `closed_for_now` |
 | `프로스트` | 없음 | `울프릭`, `시그리드`, `마리안`, `프리야`, `카이라` | `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`, `아이스포지 병기소 장인`은 모두 role slot 유지로 closure 완료 | `closed_for_now` |
 | `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | 오라클, 항로/해도, 조선소, 감정사, 금고, 경매장, 은행, 세관, 무역왕, 폭풍추적대, 검은 돛 조선공, 진혼 악기, 유령선 기록 슬롯. `top 5 slot`, `city-role batch`, `tail unnamed slot batch` read-only pass 완료 | `closed_for_now` |
@@ -20,9 +20,9 @@
 
 ## Stable Split Snapshot
 
-15번 시트 시험에 바로 쓰는 축과 hold 축은 분리한다.
+15번 시트 reference로 먼저 읽는 축과 hold 축은 분리한다.
 
-Stable Triad Actual Draft Package Freeze:
+Stable Triad Package Freeze Reference:
 
 1. `울프가르 드래곤포지`
 2. `에리온 드라코비스`
@@ -35,14 +35,14 @@ Hold Queue:
 
 주의:
 
-- `실비아`는 키르케/범대륙 후기 확장 축의 `deferred_expansion_hold`라 메인 진행 후순위다.
+- `실비아`는 키르케/범대륙 후기 확장 축의 `deferred_expansion_hold`라 mainline reference 바깥에 둔다.
 - `엘다라`는 에테르 정령연합의 `support_hold`지만, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
 
 ## Hard Hold Clusters
 
 | Cluster | Reason |
 |---|---|
-| `SS/S/A급 및 Act 신호` | 14 영웅축과 겹칠 수 있어 15 확정 금지. |
+| `SS/S/A급 및 Act 신호` | 14 영웅축과 겹칠 수 있어 15 고정 금지. |
 | `전설 영웅록` | 이름 있는 명사처럼 보여도 영웅백과 중심 인물일 수 있음. |
 | `제독 / 단장 / 탑주 / 원로단 지도부` | 조직 핵심 인물로 14 또는 세력 핵심 문서에 남을 가능성이 높음. |
 | `이름 충돌` | `실비아`, `아이기스`, `메라`, `Ravenfell`, `실라스`, `Selena`, `Valerius`, `Drake` 등 병합 금지. |
@@ -50,13 +50,13 @@ Hold Queue:
 
 ## Policy Carryover Snapshot
 
-- `결손층 5개`의 thin/support 판정은 이 closure 표가 새로 확정하지 않고,
+- `결손층 5개`의 thin/support 판정은 이 closure 표가 새로 결정하지 않고,
   `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 - 이 표의 대륙별 closure 메모는
   master lock 아래 component chain을 요약하는 shorthand일 뿐,
   결손층 판정 authority 자체를 로컬에서 다시 만들지 않는다.
 - `크림슨` 대표 named notable 카드군은 씨족 중심 질서와 현자/장인/전승 상층만 보강하고,
-  `state_house strong` 근거로 올리지 않는다.
+  `state_house strong` 고정 근거로 읽지 않는다.
 - `해양` 자유도시 프로필 카드군은 도시-항만 그림자경제와 부채/암시장/검은항로를 보강할 뿐,
   `토착 공동체층` 본체 근거로 쓰지 않는다.
 - `오벨리스크` 제도 카드군은
@@ -71,7 +71,7 @@ Hold Queue:
 - 따라서 이 closure table은 named notable split을 다루되,
   operational profile 해석은 하위 profile card의 `3-1. Policy Guard`를 따른다.
 - 자유도시/오벨리스크 operational profile cluster 문구는
-  named notable 승격 근거가 아니라 lower-card carryover reference로만 유지한다.
+  named notable 고정 근거가 아니라 lower-card carryover reference로만 유지한다.
 - exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, 이 closure table은 그 wording source를 요약하거나 대체하지 않는다.
 - subline 확장까지 내려간 경우에도
@@ -89,7 +89,7 @@ Hold Queue:
 2. 14번 독립 파일 또는 영웅표 신호 확인.
 3. 이름 충돌 확인.
 4. `named_notable_candidate`, `verify_before_15`, `need_named_candidate`, `keep_14` 중 잠긴 상태 라벨을 확인.
-5. 안정 후보만 15 Named Notables 개별 시트 workset 기준으로 유지.
+5. 안정 후보만 frozen reference set 기준으로 유지.
 
 ## Orchestrated Move Snapshot
 
@@ -108,7 +108,7 @@ Hold Queue:
 
 Reading snapshot:
 
-- stable triad actual draft package freeze는 닫힌 상태로 유지한다.
+- stable triad package freeze reference는 닫힌 상태로 유지한다.
 - `엘다라`는 `support_hold`, `실비아`는 `deferred_expansion_hold`로만 유지한다.
 - `해양`, `오벨리스크`, `프로스트`의 slot narrowing 결과는 새 batch가 아니라 closure state로 읽는다.
 - Ether hold queue는 한 번 closure 상태로 읽고, 새 증거 전까지 확장하지 않는다.
