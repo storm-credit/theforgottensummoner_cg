@@ -113,6 +113,7 @@
 
 ## Recent Commit Line
 
+- `8c4ee58 Add quick indexes to axis hubs`
 - `87032fc Add faction hub quick index`
 - `a4ee43f Add appendix evidence queue`
 - `32cd0d9 Break down setting book v1 holds`
