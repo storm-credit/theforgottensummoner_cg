@@ -19,6 +19,12 @@
 세계 안에서 “왜 이 사람을 찾아가야 하는가”를 기준으로 인물 관련 문서를 찾도록 돕는다.
 문서 역할부터 다시 구분해야 하면 `Setting_Book_Document_Roles_Map.md`를 먼저 본다.
 
+헷갈릴 때 재진입 순서:
+
+1. `Setting_Book_Document_Roles_Map.md`
+2. `Setting_Book_Preview_Readable_v0.md`
+3. `07_Setting_Book_Process_Hub.md`
+
 ## 이 문서부터 / 그다음 문서
 
 이 문서부터:

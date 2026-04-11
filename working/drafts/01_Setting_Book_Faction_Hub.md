@@ -19,6 +19,12 @@
 지금 어떤 세력이 어떻게 정리돼 있는지 빠르게 찾도록 돕는다.
 문서 역할부터 다시 정리해야 하면 `Setting_Book_Document_Roles_Map.md`로 먼저 돌아가면 된다.
 
+헷갈릴 때 재진입 순서:
+
+1. `Setting_Book_Document_Roles_Map.md`
+2. `Setting_Book_Preview_Readable_v0.md`
+3. `07_Setting_Book_Process_Hub.md`
+
 ## 이 문서부터 / 그다음 문서
 
 이 문서부터:

@@ -18,6 +18,12 @@
 유물을 성능표가 아니라 욕망, 비용, 소유, 이동 경로의 문제로 읽도록 돕는다.
 문서 역할부터 다시 구분해야 하면 `Setting_Book_Document_Roles_Map.md`를 먼저 본다.
 
+헷갈릴 때 재진입 순서:
+
+1. `Setting_Book_Document_Roles_Map.md`
+2. `Setting_Book_Preview_Readable_v0.md`
+3. `07_Setting_Book_Process_Hub.md`
+
 ## 이 문서부터 / 그다음 문서
 
 이 문서부터:
