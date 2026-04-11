@@ -74,6 +74,8 @@
 
 ## Recent Commit Line
 
+- `02eaad7 Add setting book preview package`
+- `508fa0f Add setting book release readiness checklist`
 - `a64059a Align setting book appendix TOC`
 - `b846eb6 Expand public setting book assembly`
 - `a476683 Record main push gate pass`
@@ -127,4 +129,4 @@
 
 최근 gate 통과:
 
-- `a64059a`까지의 prototype v0, public assembly 확장, A-E appendix flow, front matter / TOC 정합화를 `main`에 fast-forward push 완료.
+- `02eaad7`까지의 release readiness checklist와 preview package v0를 `main`에 fast-forward push 완료.

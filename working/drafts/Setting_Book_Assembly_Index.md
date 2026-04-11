@@ -112,7 +112,7 @@ Recommended next sequence:
 
 최근 gate 통과:
 
-- `a64059a`까지의 prototype v0, public assembly 확장, A-E appendix flow, front matter / TOC 정합화를 `main`에 fast-forward push 완료.
+- `02eaad7`까지의 release readiness checklist와 preview package v0를 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
