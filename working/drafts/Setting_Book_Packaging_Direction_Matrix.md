@@ -25,6 +25,7 @@
 
 - `Setting_Book_Preview_Readable_v0.md`가 이미 공유 가능한 preview 역할을 한다.
 - 허브와 역할 지도, 상태판, core profile bridge가 preview 진입을 안정적으로 받친다.
+- filename hold는 `Setting_Book_Filename_Decision_Matrix.md`에서 따로 문서화되어 있어 조기 RC rename을 다시 열 이유가 줄었다.
 - 아직 RC 파일명이나 상업용 판형을 확정할 만큼 naming/layout hold가 닫히지 않았다.
 - production bible은 만들 수 있지만, 지금은 필요 이상으로 control 문서를 먼저 비대화시킬 위험이 있다.
 
@@ -46,6 +47,8 @@
 지금 바로 해도 되는 일:
 
 - `Setting_Book_Preview_Readable_v0.md`를 shareable preview completion target으로 유지
+- `Setting_Book_Filename_Decision_Matrix.md`를 naming hold control로 유지
+- body-facing scan 결과를 기준으로 Appendix B/C는 현재 anchored row만 유지
 - Appendix B/C evidence queue에서 필요한 행만 추가
 - core profile bridge와 허브 인덱스 문장을 미세 수정
 - RC 파일을 만들지 않은 채 packaging decision만 더 선명하게 만들기
