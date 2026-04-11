@@ -67,13 +67,19 @@
 
 ## Safe Opening Order
 
-처음 다시 들어올 때는 아래 순서가 가장 안전하다.
+목적이 분명할 때는 아래 순서가 가장 안전하다.
 
 1. `Setting_Book_Preview_Readable_v0.md`
 2. `Setting_Book_Document_Roles_Map.md`
 3. `Setting_Book_Assembly_Index.md`
 4. 필요한 축의 `Core Profiles`
 5. 필요할 때만 `Appendix Assembly`와 `Release Readiness`
+
+헷갈린 상태로 다시 들어올 때는 아래 순서가 더 안전하다.
+
+1. `Setting_Book_Document_Roles_Map.md`
+2. `Setting_Book_Preview_Readable_v0.md`
+3. `07_Setting_Book_Process_Hub.md`
 
 ## Current Conductor Decision
 

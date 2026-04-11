@@ -45,6 +45,7 @@
 - process/source hub에도 재진입 순서를 추가해 메인 허브 밖 복귀 동선 보강
 - 분야별 허브 1-6에도 공통 재진입 순서를 추가해 어느 축에서 시작해도 복귀 가능하게 정리
 - hub completion checklist에 00-08 재진입 순서 완료 기준 반영
+- roles map의 safe opening order를 목적 분명/헷갈림 재진입으로 분리
 - 메인 허브 첫 화면에 재진입 순서를 추가해 다시 들어올 때 동선을 더 짧게 만듦
 
 ## Core Files
@@ -101,6 +102,7 @@
 
 ## Recent Commit Line
 
+- `28cf694 Record setting book reentry completion`
 - `5410516 Add reentry routes to setting book hubs`
 - `78815f3 Add setting book hub reentry routes`
 - `38c7688 Add setting book restart route`
@@ -197,4 +199,5 @@
 - restart route 추가까지 `main` 반영 완료.
 - process/source hub reentry route 추가까지 `main` 반영 완료.
 - 00-08 hub reentry route 추가까지 `main` 반영 완료.
+- reentry completion checklist 반영까지 `main` 완료.
 - latest checkpoint refresh까지 `main` 반영 완료.
