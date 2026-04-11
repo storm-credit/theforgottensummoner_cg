@@ -1,6 +1,6 @@
 # Setting Book Hub
 
-## 빠른 링크
+## 전체 이동 링크
 
 - [[Setting_Book_Preview_Readable_v0]]
 - [[01_Setting_Book_Faction_Hub]]
@@ -16,7 +16,13 @@
 ## 이 문서부터 보면 됨
 
 설정집 관련 파일이 많아서 헷갈릴 수 있다.
-지금은 아래 네 층으로 보면 된다.
+지금은 아래 여섯 구간으로 보면 된다.
+
+처음 클릭 3개:
+
+- 책처럼 읽기: `Setting_Book_Preview_Readable_v0.md`
+- 세력부터 보기: `01_Setting_Book_Faction_Hub.md`
+- 검증부터 보기: `06_Setting_Book_Appendix_Hub.md`
 
 ## 1. 지금 가장 읽기 쉬운 대표본
 
@@ -76,17 +82,9 @@
 
 ## 한 줄 요약
 
-- 먼저 보기: `Setting_Book_Preview_Readable_v0.md`
-- 세력별: `01_Setting_Book_Faction_Hub.md`
-- 인물별: `02_Setting_Book_People_Hub.md`
-- 유물별: `03_Setting_Book_Items_Hub.md`
-- 장소별: `04_Setting_Book_Places_Hub.md`
-- 종족별: `05_Setting_Book_Species_Hub.md`
-- 부록별: `06_Setting_Book_Appendix_Hub.md`
-- 작업관리: `07_Setting_Book_Process_Hub.md`
-- 원본재료: `08_Setting_Book_Source_Hub.md`
-- 허브진행률기준: `09_Setting_Book_Hub_Completion_Checklist.md`
-- 처음 고르기: `01_Setting_Book_Faction_Hub.md`, `06_Setting_Book_Appendix_Hub.md`, `07_Setting_Book_Process_Hub.md`
-- 그다음 보기: `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
+- 가장 먼저: `Setting_Book_Preview_Readable_v0.md`
+- 구조부터: `01_Setting_Book_Faction_Hub.md`
+- 검증부터: `06_Setting_Book_Appendix_Hub.md`
+- 진행 상황: `07_Setting_Book_Process_Hub.md`
+- 원재료 추적: `08_Setting_Book_Source_Hub.md`
 - 전체 압축본: `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
-- 작업 관리 문서는 급하면 안 봐도 된다.
