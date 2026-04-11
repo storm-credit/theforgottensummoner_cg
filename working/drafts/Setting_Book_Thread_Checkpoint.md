@@ -40,6 +40,7 @@
 - assembly index와 release readiness의 잔여 terminology도 preview/reference 기준으로 정리
 - prototype 표지 문구와 roles map quick table도 preview/reference 기준으로 정리
 - preview package 잔여 terminology도 preview/reference 기준으로 정리
+- assembly index와 preview package의 shareable package 표현도 preview package 기준으로 정밀화
 
 ## Core Files
 
@@ -95,6 +96,7 @@
 
 ## Recent Commit Line
 
+- `3878f71 Tighten setting book preview package wording`
 - `b72425a Refine setting book reference wording`
 - `84e0a9f Normalize setting book control terminology`
 - `05007f4 Update setting book terminology checkpoint`
@@ -176,6 +178,7 @@
 - package roles wording 정리까지 `main` 반영 완료.
 - 허브 section count 정합화까지 `main` 반영 완료.
 - preview terminology 정렬까지 `main` 반영 완료.
+- shareable preview package wording 정리까지 `main` 반영 완료.
 - assembly index / release readiness terminology 정리까지 `main` 반영 완료.
 - prototype header와 roles map quick table terminology 정리까지 `main` 반영 완료.
 - preview package terminology 정리까지 `main` 반영 완료.

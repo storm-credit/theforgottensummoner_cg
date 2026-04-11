@@ -122,7 +122,7 @@ The next preview build should do one of two things:
 
 Current conductor choice:
 
-Treat `preview_v0_readable` as the current shareable package.
+Treat `preview_v0_readable` as the current shareable preview package.
 
 The package already has enough verification structure.
 The next gain is not another broad content pass.
