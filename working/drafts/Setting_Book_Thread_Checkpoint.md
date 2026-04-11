@@ -103,6 +103,7 @@
 
 ## Recent Commit Line
 
+- `8365e92 Align setting book hub checklist wording`
 - `e1d7217 Refresh safe opening checkpoint`
 - `ae529bb Clarify setting book safe opening order`
 - `28cf694 Record setting book reentry completion`
