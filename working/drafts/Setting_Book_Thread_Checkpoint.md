@@ -62,6 +62,7 @@
 - assembly index와 status dashboard도 허브 인덱스 완료 상태에 맞춰 현재 보존 지점으로 정리
 - packaging direction matrix를 추가해 layout vs production bible hold를 독립 문서로 분리
 - filename decision matrix를 추가해 preview/prototype 이름 유지 기준을 독립 문서로 분리
+- 메인 허브, process hub, status dashboard에도 filename decision 진입선을 추가해 재진입 동선에서 바로 찾을 수 있게 정리
 
 ## Core Files
 
@@ -120,6 +121,8 @@
 
 ## Recent Commit Line
 
+- `a36cac9 Expose filename decisions in setting book hubs`
+- `cd19fc4 Clarify setting book filename decisions`
 - `de6e064 Add packaging direction matrix`
 - `45c40e4 Record hub index stabilization`
 - `bda58af Link hubs to status dashboard`
@@ -199,9 +202,10 @@
 ## Recommended Next Queue
 
 1. v1 gate가 더 조여진 뒤 release-candidate file trigger를 다시 판정
-2. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
-3. 필요할 때만 Appendix B/C 개별 행 evidence note 추가
-4. 안정 마일스톤마다 `main push gate` 확인
+2. layout direction이 실제로 reader-facing layout인지 production bible인지 다시 좁힘
+3. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
+4. 필요할 때만 Appendix B/C 개별 행 evidence note 추가
+5. 안정 마일스톤마다 `main push gate` 확인
 
 ## Main Push Gate
 
@@ -240,3 +244,5 @@
 - latest checkpoint refresh까지 `main` 반영 완료.
 - safe opening order 분리까지 `main` 반영 완료.
 - hub completion checklist wording 정합화까지 `main` 반영 완료.
+- filename decision matrix 추가까지 `main` 반영 완료.
+- filename decision 허브 진입선 노출까지 `main` 반영 완료.

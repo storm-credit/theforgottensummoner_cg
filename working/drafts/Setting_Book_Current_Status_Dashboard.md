@@ -75,9 +75,9 @@
 
 남은 것은 아래 세 가지 판단이다.
 
-1. RC 파일명을 지금 만들지, preview 이름을 더 유지할지 판단
-2. 상업용 layout과 production bible 중 어느 방향을 먼저 보존 산출물로 삼을지 결정
-3. Appendix B/C에서 정말 필요한 행에만 row-level evidence note를 추가
+1. 상업용 layout과 production bible 중 어느 방향을 먼저 보존 산출물로 삼을지 결정
+2. Appendix B/C에서 정말 필요한 행에만 row-level evidence note를 추가
+3. RC 이름 재개 여부는 `패키징이 다음 보존 산출물`로 바뀔 때만 다시 판정
 
 세부 hold 기준은 `Setting_Book_Release_Readiness_Checklist.md`의 `V1 Hold Breakdown`에서 관리한다.
 `filename / RC naming` 판단은 `Setting_Book_Filename_Decision_Matrix.md`에서 따로 관리한다.
@@ -96,5 +96,6 @@ Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Que
 
 1. 상태 대시보드와 허브 링크를 고정한다.
 2. 허브 인덱스는 현재 완료 상태로 보고, 필요하면 질문 문장만 미세 수정한다.
-3. packaging direction matrix에서 layout vs production bible 방향을 계속 선명하게 유지한다.
-4. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
+3. filename hold는 matrix 기준으로 유지하고, 조기 RC rename은 다시 열지 않는다.
+4. packaging direction matrix에서 layout vs production bible 방향을 계속 선명하게 유지한다.
+5. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.

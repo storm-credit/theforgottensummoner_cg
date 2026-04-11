@@ -97,10 +97,11 @@ Completed checks:
 
 Recommended next sequence:
 
-1. Re-evaluate the release-candidate file trigger only after v1 gates tighten.
-2. Extend the strongest mid-layer sheets into small reusable profile families only after the v1 direction is chosen.
-3. Prepare a short checkpoint summary for thread handoff if context gets too long.
-4. At stable milestones, run the `Main Push Gate` before pushing to `main`.
+1. Keep the filename hold documented and do not reopen RC renaming until packaging becomes the next preserved artifact.
+2. Re-evaluate layout direction only after the next reader-facing vs production-bible need becomes concrete.
+3. Add row-level evidence only for the next actually promoted Appendix B/C entry.
+4. Prepare a short checkpoint summary for thread handoff if context gets too long.
+5. At stable milestones, run the `Main Push Gate` before pushing to `main`.
 
 ## Main Push Gate
 
@@ -124,6 +125,8 @@ Recommended next sequence:
 
 - 허브 사용성 마감 패스까지 `main`에 fast-forward push 완료.
 - preview/reference terminology alignment 패스까지 `main`에 fast-forward push 완료.
+- filename decision matrix 추가와 관련 프로세스 문서 반영까지 `main`에 fast-forward push 완료.
+- 메인/프로세스 허브에 filename decision 진입선 노출까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
