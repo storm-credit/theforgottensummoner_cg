@@ -7,7 +7,7 @@
 
 현재 메인 본선은
 이미 닫힌 결과를 유지하는
-`5대륙 closure sync / Section 8 -> 15 carryover watch` 단계다.
+`5대륙 closure sync / Section 8 -> 15 watch-reference` 단계다.
 
 `결손층 5개`의 thin/support 판단과 overread 금지선은
 항상 `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 읽는다.
@@ -47,7 +47,7 @@
 
 `오벨리스크 / 망자의 왕국 / 잊힌 자들의 연합 / 봉인 수호단` 1차 spine sample도 닫힌 것으로 본다.
 
-현재 실제 본선은 `5대륙 closure sync / Section 8 -> 15 carryover watch`다.
+현재 실제 본선은 `5대륙 closure sync / Section 8 -> 15 watch-reference`다.
 
 이전 신규 감사 target은 `Section 8 루트 구조 / 표준 spine / 레거시 분리`였고,
 현재는 watch backlog로 유지한다.
@@ -56,7 +56,7 @@
 
 - `1~5 대륙` 샘플이 모두 닫혀, 실제 루트 구조를 이 기준으로 읽는 근거가 마련됐다.
 - 개별 대륙 추가 배치가 아니라 `Section 8 루트 전체`의 중복, spine mismatch, legacy 분리 watch가 남아 있다.
-- 이 단계는 현재 신규 실행선이 아니라 closure sync / carryover watch의 reference backlog다.
+- 이 단계는 현재 신규 실행선이 아니라 closure sync / watch-reference의 reference backlog다.
 
 ## Reference Action Map
 
@@ -96,4 +96,4 @@ reference backlog 상태:
 - `Section_8_Status_Vocabulary_Guard.md`는 `mixed_keep`, `section_style_reclassify`, `mismatch_clear`, `watch_keep`, `handoff_applied` 상태어를 같은 의미로 유지하는 기준표로 사용한다.
 - `Section_8_Mainline_Sync_Register.md`는 구조 라벨, mismatch, root, handoff, 진행표가 같은 현재 시점을 가리키는지 확인하는 장부로 사용한다.
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는 닫힌 subline 교차감사 샘플로 보고, 새 drift가 생길 때만 해당 pair를 국소 재대조한다.
-- 현재 시점의 메인 유지선은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 closure sync / carryover watch다.
+- 현재 시점의 메인 유지선은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 closure sync / watch-reference다.

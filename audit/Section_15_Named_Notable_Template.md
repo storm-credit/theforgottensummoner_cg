@@ -22,7 +22,7 @@
 - recorded judgment:
   - `named_notable_candidate`
   - `verify_before_15`
-  - `support_hold`
+  - `source_check_hold`
   - `deferred_expansion_hold`
   - `hold_for_dual_review`
 
@@ -39,7 +39,7 @@
 - routing_state:
   - `stable_15_workset / route_hierarchy_locked`
   - `verify_before_15`
-  - `support_hold`
+  - `source_check_hold`
   - `deferred_expansion_hold`
   - `hold_for_dual_review`
 
@@ -111,7 +111,7 @@
 - `SS / S / A급`, `Act 중심성`, `전설 영웅록`, `독립 14 파일` 신호가 있으면 `verify_before_15`로 둔다.
 - 강한 명사 가치가 있어도 14 신호가 강하면 먼저 경계 큐에 보낸다.
 - `stable_15_workset / route_hierarchy_locked`는 stable triad 같은 actual draft package에만 쓴다.
-- `support_hold`, `deferred_expansion_hold`는 stable triad package와 섞지 않는다.
+- `source_check_hold`, `deferred_expansion_hold`는 stable triad package와 섞지 않는다.
 - `Policy Guard` 문장은 canonical 상태어를 대체하지 않는다.
 - canonical 상태어와 policy carryover 문장을 같이 유지해야 한다.
 - 이 템플릿은 named notable 카드의 `Policy Guard` 형식을 잠그는 설계 기준서다.

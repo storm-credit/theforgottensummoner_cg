@@ -10,7 +10,7 @@
 
 ## Closure Summary
 
-| Continent | Frozen Reference Set | Source-Check Hold | Need Named Candidate Slots | Watch-Reference State |
+| Continent | `stable_triad_frozen_reference_set` | Source-Check Hold | Need Named Candidate Slots | Watch-Reference State |
 |---|---|---|---|---|
 | `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | 현자회/사막부족 일부 슬롯은 unresolved reference note로만 남긴다. | `closed_for_now` |
 | `에테르` | 없음 | `엘다라 [source_check_hold]`, `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 금서/공방/관측/대서고/성채/성검/서약/그늘항로/정령묘 + low-priority auxiliary 9개 role slot closure 완료 | `closed_for_now` |
@@ -22,7 +22,7 @@
 
 15번 시트 reference로 먼저 읽는 축과 hold 축은 분리한다.
 
-Stable Triad Frozen Reference Set:
+`stable_triad_frozen_reference_set`:
 
 1. `울프가르 드래곤포지`
 2. `에리온 드라코비스`

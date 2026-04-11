@@ -22,13 +22,13 @@
 | `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `named_notable_candidate / stable_15_workset / route_hierarchy_locked / grade_caution` |
 | `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `named_notable_candidate / stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` |
 | `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `named_notable_candidate / stable_15_workset / route_hierarchy_locked / act_watch` |
-| `엘다라` | `에테르 / 정령연합 / 루미라` | `named_notable_candidate / verify_source_before_profile / support_hold` |
+| `엘다라` | `에테르 / 정령연합 / 루미라` | `source_check_hold / hold reference split / verify_source_before_profile` |
 | `실비아` | `범대륙 후기 확장 / 키르케 영약회` | `named_notable_candidate / deferred_expansion_hold / name_collision_watch` |
 
 Named Notables guard:
 
 - `크림슨` 대표 카드군은 씨족 중심 질서와 현자/장인/전승 thin-support만 보강하며, 전통 귀족국가형 `state_house strong` 근거로 올리지 않는다.
-- `엘다라`는 정령연합 내부 예외축 `support_hold`로만 유지하고 에테르 전체 부족층 일반화 근거로 쓰지 않는다.
+- `엘다라`는 정령연합 내부 예외축 hold reference split 안의 `source_check_hold`로만 유지하고 에테르 전체 부족층 일반화 근거로 쓰지 않는다.
 - `실비아`는 5대륙 본선이 아니라 `범대륙 후기 확장 / deferred_expansion_hold`로만 유지한다.
 
 ## 15-B. Operational Lines
@@ -133,7 +133,7 @@ Operational Lines guard:
 
 ## Conductor Decision
 
-15번은 지금 `read-only closure sync / carryover watch reference` 단계로 유지한다.
+15번은 지금 `read-only closure sync / watch-reference` 단계로 유지한다.
 
 현재 메인 본선은 `8번 세력 아카이브` 재점검이나
 stable triad package 재가동이 아니라,
