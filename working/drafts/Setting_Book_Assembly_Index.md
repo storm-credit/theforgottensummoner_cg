@@ -26,6 +26,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | --- | --- |
 | `Setting_Book_Reassembly_Source_Map.md` | Locks primary and secondary sources per chapter. |
 | `Setting_Book_Skeleton.md` | Holds the original chapter build plan and required sections. |
+| `Setting_Book_Document_Roles_Map.md` | Gives a fast role map for shareable preview, prototype reference, appendix, and conductor docs. |
 | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | Bundles the current public-facing samples into one readable manuscript flow. |
 | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | Bundles the current appendix samples into one technical appendix flow. |
 | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | Holds the current single-file prototype with expanded body sections and A-E appendix flow. |

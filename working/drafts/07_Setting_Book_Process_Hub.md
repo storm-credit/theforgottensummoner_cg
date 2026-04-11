@@ -3,6 +3,7 @@
 ## 빠른 링크
 
 - [[00_Setting_Book_Hub]]
+- [[Setting_Book_Document_Roles_Map]]
 - [[06_Setting_Book_Appendix_Hub]]
 - [[08_Setting_Book_Source_Hub]]
 - [[09_Setting_Book_Hub_Completion_Checklist]]
@@ -58,11 +59,13 @@
 ## 같이 보면 좋은 허브
 
 - `00_Setting_Book_Hub.md`
+- `Setting_Book_Document_Roles_Map.md`
 - `06_Setting_Book_Appendix_Hub.md`
 - `08_Setting_Book_Source_Hub.md`
 
 ## 한 줄 요약
 
+- 문서 역할 구분: `Setting_Book_Document_Roles_Map`
 - 진행 상황: `Assembly Index`
 - 이어받기: `Thread Checkpoint`
 - 완성도 기준: `Release Readiness`

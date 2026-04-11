@@ -3,6 +3,7 @@
 ## 전체 이동 링크
 
 - [[Setting_Book_Preview_Readable_v0]]
+- [[Setting_Book_Document_Roles_Map]]
 - [[01_Setting_Book_Faction_Hub]]
 - [[02_Setting_Book_People_Hub]]
 - [[03_Setting_Book_Items_Hub]]
@@ -21,6 +22,7 @@
 처음 클릭 3개:
 
 - 책처럼 읽기: `Setting_Book_Preview_Readable_v0.md`
+- 구조 역할 먼저 보기: `Setting_Book_Document_Roles_Map.md`
 - 세력부터 보기: `01_Setting_Book_Faction_Hub.md`
 - 검증부터 보기: `06_Setting_Book_Appendix_Hub.md`
 
@@ -36,6 +38,7 @@
 - 지금 어디까지 정리됐는지 보고 싶으면 `07_Setting_Book_Process_Hub.md`
 - 원재료까지 거슬러 올라가고 싶으면 `08_Setting_Book_Source_Hub.md`
 - 허브 기준 자체를 확인하고 싶으면 `09_Setting_Book_Hub_Completion_Checklist.md`
+- 어떤 문서가 무슨 역할인지 먼저 보고 싶으면 `Setting_Book_Document_Roles_Map.md`
 
 ## 3. 핵심 축 중간 정리본
 
@@ -93,6 +96,7 @@
 ## 한 줄 요약
 
 - 가장 먼저: `Setting_Book_Preview_Readable_v0.md`
+- 문서 역할 지도: `Setting_Book_Document_Roles_Map.md`
 - 구조부터: `01_Setting_Book_Faction_Hub.md`
 - 핵심 축 압축 가이드: `Setting_Book_Faction_Core_Profiles_v0.md`, `Setting_Book_People_Core_Profiles_v0.md`, `Setting_Book_Places_Core_Profiles_v0.md`, `Setting_Book_Items_Core_Profiles_v0.md`, `Setting_Book_Species_Core_Profiles_v0.md`
 - 검증부터: `06_Setting_Book_Appendix_Hub.md`
