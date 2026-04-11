@@ -41,6 +41,7 @@
 - prototype 표지 문구와 roles map quick table도 preview/reference 기준으로 정리
 - preview package 잔여 terminology도 preview/reference 기준으로 정리
 - assembly index와 preview package의 shareable package 표현도 preview package 기준으로 정밀화
+- roles map의 preview package guide 표현도 preview package 기준으로 정리
 
 ## Core Files
 
@@ -96,6 +97,7 @@
 
 ## Recent Commit Line
 
+- `244fa00 Polish setting book preview package language`
 - `3878f71 Tighten setting book preview package wording`
 - `b72425a Refine setting book reference wording`
 - `84e0a9f Normalize setting book control terminology`
@@ -182,3 +184,4 @@
 - assembly index / release readiness terminology 정리까지 `main` 반영 완료.
 - prototype header와 roles map quick table terminology 정리까지 `main` 반영 완료.
 - preview package terminology 정리까지 `main` 반영 완료.
+- roles map preview package wording 정리까지 `main` 반영 완료.
