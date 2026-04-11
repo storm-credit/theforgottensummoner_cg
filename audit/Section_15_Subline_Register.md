@@ -4,16 +4,16 @@
 더 세부적인 파생 라인 reference로 읽어야 하는 지점을 모아두는 등록부다.
 
 이 단계에서는 모든 파생 라인을 곧바로 개별 인물로 내리기보다,
-어느 축을 reference backlog로만 유지할지 먼저 고정하는 데 목적이 있다.
+어느 축을 hold reference split으로만 유지할지 먼저 고정하는 데 목적이 있다.
 
 ## Fields
 
-| Parent Line | Suggested Subline | Use | Priority | Note |
+| Parent Line | Registered Subline | Use | Priority | Note |
 |---|---|---|---|---|
 
 ## Register Snapshot
 
-| Parent Line | Suggested Subline | Use | Priority | Note |
+| Parent Line | Registered Subline | Use | Priority | Note |
 |---|---|---|---|---|
 | `항구 감독관 / 지부장 / 도시 조정관 계열` | `입항 허가관 계열` | 선적 우선권, 입항 지연, 허가 매수 서사 | `high` | 항만 조정실을 더 살아나게 한다. |
 | `항구 감독관 / 지부장 / 도시 조정관 계열` | `부두 검문 집행관 계열` | 위장 화물 적발, 봉인 화물 검문 | `high` | 카를로스 벨몬테 축과 대비가 강하다. |
@@ -35,7 +35,7 @@
 - 즉 subline이 늘어나도 전통 귀족국가형 `state_house strong`이나 정상 국가기관 복원 근거로 재상승시키지 않는다.
 - subline에서 실제 profile로 내려갈 때도
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한다.
-- 이 register는 subline family와 우선순위를 정리하는 상위 입구이고,
+- 이 register는 subline family와 watch-reference priority note를 정리하는 상위 watch-reference register이고,
   exact guard wording authority는 각 subline profile card의 `3-1. Policy Guard`에 남긴다.
 - parent/subline summary는 downstream profile guard text를 대체하지 않는다.
 - exact operational guard wording authority는 각 downstream `Section_15_Subline_Profile_*` 카드의
@@ -43,12 +43,13 @@
 - parent `Section_15_Profile_*` line card와 downstream `Section_15_Subline_Profile_*` card는
   서로의 exact wording authority를 대체하지 않고, line axis와 refined subline axis를 나눠 가진다.
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
-  닫힌 representative reference pair로 유지하고,
+  닫힌 representative watch-reference pair로 유지하고,
   새 wording-source drift가 생길 때만 해당 pair를 국소 재대조한다.
 
 ## Conductor Rule
 
 - 파생 라인은 `개별 인물`보다 먼저 `기능 라인`으로 고정한다.
 - 한 파생 라인이 최소 두 개 이상의 관계 훅을 만들 수 있을 때만
-  개별 시트 reference 검토 대상으로 올린다.
-- 아이템, 지도, 조직, 관계망 중 두 축 이상과 닿으면 우선순위를 올린다.
+  개별 시트로 내리지 않고 watch-reference 검토 메모로만 남긴다.
+- 아이템, 지도, 조직, 관계망 중 두 축 이상과 닿으면
+  watch-reference priority note로만 표시한다.

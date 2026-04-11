@@ -31,7 +31,7 @@
 | `Mercenary Operations` | `operational_line` | `자유검 용병회 / 용병 중재 평의회` | 자유도시 용병 실무층 |
 | `Silent Market Undercurrent` | `operational_line` | `침묵의 상회 / 무언의 회랑` | 침묵의 상회 현장층 |
 
-## Working Name Rule
+## Watch-Reference Name Rule
 
 이 트랙의 많은 이름은
 reference용 `구조 reference 라벨`이다.
@@ -42,8 +42,8 @@ reference용 `구조 reference 라벨`이다.
 - `채무 집행관 계열`
 - `장물 감정사 계열`
 
-이런 이름은 필요 시
-판타지 톤의 `display canon` 이름으로 다시 씌운다.
+이런 이름은 필요 시에도
+판타지 톤의 `display canon` 후보 메모로만 남긴다.
 
 ## Policy Carryover Snapshot
 
@@ -67,9 +67,9 @@ reference용 `구조 reference 라벨`이다.
 
 - 이 track 아래에서 읽는 `Section_15_Profile_*` 문서는
   모두 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한다.
-- representative subline pair
+- representative watch-reference pair
   (`Port Authority / Black Auction / Gravewell / Counterfeit Workshop`)는
-  닫힌 representative reference pair로 유지되고,
+  닫힌 representative watch-reference pair로 유지되고,
   exact wording source는 각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
 - 따라서 operational track은 라인 축만 요약하고,
   개별 profile의 해석 세부는 하위 카드의 `3-1. Policy Guard`가 authoritative wording source로 남는다.

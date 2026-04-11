@@ -199,7 +199,7 @@ reference reading은 이 색인을 기준으로
 
 ## Verify Group Snapshot
 
-reference상 아직 바로 `15` 확정으로 내리기보다
+reference상 아직 바로 `15 stable set`으로 내리기보다
 중복 신호를 보고 가야 하는 묶음이다.
 
 ### 1. Crossroad Semi-Hero Set
@@ -211,7 +211,7 @@ reference상 아직 바로 `15` 확정으로 내리기보다
 - reason:
   - 자유도시 본문 인덱스에서 `14 신호`가 이미 보인다.
 - recorded status:
-  - `verify_before_15`
+  - `source_check_hold`
 
 ### 2. Arcane Support Set
 
@@ -221,7 +221,7 @@ reference상 아직 바로 `15` 확정으로 내리기보다
 - reason:
   - 마법협회 본문에서 번호 체계와 반복 호명이 확인된다.
 - recorded status:
-  - `verify_before_15`
+  - `source_check_hold`
 
 ## Policy Group Intake Guard
 
@@ -242,7 +242,7 @@ reference상 아직 바로 `15` 확정으로 내리기보다
 
 ## Deferred Group Snapshot
 
-reference backlog로만 남기는 후보 묶음:
+hold reference split으로만 남기는 후보 묶음:
 
 1. `밤의 무역상 하위층`
 2. `비밀 경매 운영층`

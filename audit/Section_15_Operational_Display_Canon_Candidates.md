@@ -63,7 +63,7 @@ naming watch 판단은
 - 따라서 display canon 문서는 exact guard wording source가 아니라
   lower-card authority를 비가공 reference로 읽는 상위 naming layer다.
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
-  닫힌 representative reference pair로 유지되고,
+  닫힌 representative watch-reference pair로 유지되고,
   display layer는 그 wording source를 naming 층에서만 참조한다.
 
 ## Preferred Candidate Reference Pass
