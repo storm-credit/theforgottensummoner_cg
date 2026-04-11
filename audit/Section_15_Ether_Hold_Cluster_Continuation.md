@@ -1,10 +1,10 @@
-# Section 15 Ether Hold Cluster Continuation
+# Section 15 Ether Hold Cluster Snapshot
 
 목적:
 
-- freeze 밖 에테르 hold cluster 4인 `래퍼티 / 대런 / 칼리스트 / 엘라라`를 같은 상태어로 다시 잠근다.
+- freeze 밖 에테르 hold cluster 4인 `래퍼티 / 대런 / 칼리스트 / 엘라라`를 같은 상태어로 유지한다.
 - `14 직접 파일 미확인`, `Act 압력`, `기관 코어`, `남는 15 명사 가치`를 한 장에서 비교한다.
-- 이름 드리프트와 전설 영웅록 신호를 섞지 않고 한 번 closure 상태로 넘긴다.
+- 이름 드리프트와 전설 영웅록 신호를 섞지 않고 closure 상태로 유지한다.
 
 ## Snapshot
 
@@ -15,7 +15,7 @@
 | `칼리스트` | `황금의 탑 탑주 / 대예언자` | `verify_before_15 / tower_seer_hold` | `A+ + Act 1/4 + 탑주 + 전략 두뇌` |
 | `엘라라 문힘` | `노래술사 / 기록관 / 걸어다니는 도서관` | `verify_before_15 / bardic_archive_hold` | `A급 + Act 1/2 + 전설 영웅록 + archive-song` |
 
-## Recheck Outcome
+## Hold Snapshot Outcome
 
 | Candidate | Direct 14 File In Current Repo | Conductor Decision | Note |
 |---|---|---|---|
@@ -32,7 +32,7 @@
 
 ## Conductor Note
 
-- 이번 batch는 `promote`가 아니라 `hold wording precision` 작업이다.
+- 현재 이 문서는 `hold cluster snapshot` reference다.
 - `래퍼티`는 `Rafferty / Raphael Arcadia` 이름 드리프트를 같이 유지한다.
 - `대런`은 library보다 admin-core 압력이 더 강하므로 `archive_admin_hold`로 읽는다.
 - `칼리스트`는 연금/경제/제작보다 `tower + seer + strategy` 축을 우선 읽는다.

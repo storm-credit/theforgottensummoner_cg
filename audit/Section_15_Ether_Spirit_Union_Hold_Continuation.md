@@ -1,8 +1,8 @@
-# Section 15 Ether Spirit-Union Hold Continuation
+# Section 15 Ether Spirit-Union Hold Snapshot
 
 목적:
 
-- `드라이덴 / 메라 / 실라스 나이트쉐이드` 3인을 정령연합 spirit-union hold 묶음으로 다시 잠근다.
+- `드라이덴 / 메라 / 실라스 나이트쉐이드` 3인을 정령연합 spirit-union hold 묶음으로 유지한다.
 - 이미 흩어져 있는 `great_druid`, `name_drift`, `shadow-assassin` 압력을 `Section 15` 문서군에서 같은 강도로 읽히게 한다.
 - 정령연합 내부에서도 `멘토-정책`, `외교-조약`, `암살-그늘항로` 축을 평평하게 섞지 않고 분리한다.
 
@@ -30,8 +30,8 @@
 
 ## Conductor Note
 
-- 이번 continuation은 새 후보 추가가 아니라 `정령연합 hold 축 정밀화` 작업이다.
+- 현재 이 문서는 새 후보 추가가 아니라 `정령연합 hold 축 정밀화` snapshot reference다.
 - `드라이덴`은 자연법 해석자라는 명사 가치보다 `생명의 의회 / 대드루이드 / 멘토` 압력이 먼저라 `great_druid_hold`로 둔다.
-- `메라`는 외교·교역 조건 명사 가치가 높아도 `메라 실피드` 드리프트를 풀기 전 15 승격으로 올리지 않고 `spirit_envoy_hold`로 둔다.
+- `메라`는 외교·교역 조건 명사 가치가 높아도 `메라 실피드` 드리프트를 풀기 전 15 고정으로 올리지 않고 `spirit_envoy_hold`로 둔다.
 - `실라스 나이트쉐이드`는 `실라스 블랙쏜`과 병합하지 않고 `그늘까마귀단 / 잠든 정령의 숲` 축으로만 읽는다.
-- 현재 실제 본선은 새 에테르 hold를 더 늘리는 것이 아니라 `5대륙 closure sync / Section 8 -> 15 carryover watch`를 유지하는 쪽이 자연스럽다.
+- 현재 본선은 새 에테르 hold 확장을 전제하지 않고 `5대륙 closure sync / Section 8 -> 15 carryover watch`를 유지하는 쪽으로 읽는다.
