@@ -5,6 +5,7 @@
 - [[00_Setting_Book_Hub]]
 - [[01_Setting_Book_Faction_Hub]]
 - [[02_Setting_Book_People_Hub]]
+- [[Setting_Book_Items_Core_Profiles_v0]]
 - [[04_Setting_Book_Places_Hub]]
 - [[05_Setting_Book_Species_Hub]]
 - [[06_Setting_Book_Appendix_Hub]]
@@ -20,6 +21,7 @@
 이 문서부터:
 
 - `Setting_Book_Preview_Readable_v0.md`
+- `Setting_Book_Items_Core_Profiles_v0.md`
 - `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md`
 
 그다음 문서:
@@ -67,4 +69,5 @@
 
 - 유물/물건으로 볼 때는 이 문서부터
 - 읽는 설명은 `Part IV`
+- 대표 물건 중간 정리본은 `Setting_Book_Items_Core_Profiles_v0.md`
 - 검증은 `Appendix B`, `Appendix C`, `Appendix D`
