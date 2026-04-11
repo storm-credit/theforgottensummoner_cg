@@ -151,6 +151,12 @@ V1 evidence pointers:
 Use these to decide whether a candidate has owner context, desire pressure, and promotion cost.
 Do not use `working/crosswalks/Extracted_Item_Candidates.md` as a final promotion source by itself.
 
+Targeted row-level evidence notes:
+
+- `Aegis` cluster: item candidate register and item collision register both show that `Aegis` is not one stable relic name but a collision field spanning armor, crystal, shield-wall concept, and person-name usage.
+- For body-final promotion, prefer the fully qualified item names such as `Coat of the Unthinking Aegis` or `Aegis of Circulating Chlorophyll`; do not promote bare `Aegis` as if it were a single clean relic entry.
+- `Alexander Aegis` remains an owner/person route, not evidence that every `Aegis` item mention belongs to one lineage artifact.
+
 ---
 
 ## Appendix C. Place and Travel Functions
@@ -211,6 +217,12 @@ V1 evidence pointers:
 
 Use these to confirm what the place does in a scene, what route reaches it, and what cost controls entry.
 Do not promote a location just because it has a strong name.
+
+Targeted row-level evidence notes:
+
+- Port Nexus: place function register and travel logistics register both keep it as `threshold + underworld_node`; preserve the double nature of lawful harbor access and shadow routing instead of flattening it into a generic port city.
+- Black Cat: map seed, ops matrix, and travel logistics all frame it as an `underpath` contact node; keep it as a repeatable shadow meeting point, not a neutral tavern backdrop.
+- Mercenary Gate: the route and record layers matter as much as the plaza itself; keep contract guarantee, blacklist memory, and mediation pressure visible in any body promotion.
 
 ---
 

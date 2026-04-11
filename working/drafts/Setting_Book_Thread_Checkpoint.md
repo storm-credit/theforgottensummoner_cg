@@ -114,10 +114,10 @@
 
 ## Recommended Next Queue
 
-1. Appendix B/C는 특정 행 검증 요청이 있을 때만 row-level evidence note 추가
-2. v1 gate가 더 조여진 뒤 release-candidate file trigger를 다시 판정
-3. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
-4. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
+1. v1 gate가 더 조여진 뒤 release-candidate file trigger를 다시 판정
+2. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
+3. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
+4. 필요할 때만 Appendix B/C 개별 행 evidence note 추가
 5. 안정 마일스톤마다 `main push gate` 확인
 
 ## Main Push Gate
