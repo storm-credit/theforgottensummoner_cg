@@ -81,4 +81,4 @@ closeout reference로 닫혔으므로,
 단계에서 얻은 핵심 findings를 고정하는 reference 문서다.
 
 현재 메인 본선은 이 findings를 바탕으로
-closure sync / carryover watch를 유지하는 것이다.
+closure sync / watch-reference를 유지하는 것이다.

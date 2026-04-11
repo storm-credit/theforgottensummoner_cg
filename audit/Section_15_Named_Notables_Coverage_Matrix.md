@@ -8,7 +8,7 @@
 
 ## Coverage Table
 
-| Area | Frozen Reference Set / Hold Reference Split | Source-Check Hold | Collision / Risk | Recorded Coverage |
+| Area | `stable_triad_frozen_reference_set` / Hold Reference Split | Source-Check Hold | Collision / Risk | Recorded Coverage |
 |---|---|---|---|---|
 | `에테르` | `엘다라 [source_check_hold]` | `대런 크레센트`, `엘드린 문브링어`, `마르쿠스 레이븐펠 (phase3 anchor: 맥스웰 레이븐펠)`, `이사도르 템페스트`, `세리오스 벤타리스`, `네리사 블러드위버`, `다미엔 이클립스`, `칼리스트`, `래퍼티 아르카디아`, `대사제 요한`, `엘라라 문힘`, `드라이덴 썬더루트`, `메라 라일윈드`, `실라스 나이트쉐이드` | `탑주/핵심 인물표/성국 핵심 인물표 신호`, `Ravenfell/Corvus anchor split`, `Tempest/Solea split`, `Mera drift`, `Sylas split`, `금서 도서관/마나 공방/아스트라르 중앙 도서관/루멘 성채/잠든 정령의 숲 슬롯으로 보존` | `source_check_hold with strong place-institution slots; low-priority auxiliary closure complete; spirit-union hold closure complete` |
 | `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나 스톰브링어`, `아리안 블레이즈하트`, `드락사르 블레이즈포지`, `카사르 더 시어` | `벨라나 SS급`, `아리안 S급`, `드락사르/카사르 영웅록 신호` | `stable_triad_frozen_reference_set; watch-reference maintained` |

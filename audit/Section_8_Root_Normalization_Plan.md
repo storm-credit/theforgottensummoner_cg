@@ -86,7 +86,7 @@
 이 두 문서는
 이전 root normalization 단계의 기준 출력으로 유지한다.
 현재는 이 문서들에서 새 pass를 시작하지 않고,
-closure sync / carryover watch가 흔들릴 때만 reference로 다시 연다.
+closure sync / watch-reference가 흔들릴 때만 reference로 다시 연다.
 
 ## Mismatch Watch
 

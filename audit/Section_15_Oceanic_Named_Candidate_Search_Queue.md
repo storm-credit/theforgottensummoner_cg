@@ -41,7 +41,7 @@
 
 1. 해양 unnamed slot read-only pass는 여기서 1차 마감한다.
 2. `모로스`, `크리스토퍼 델마르`, `이소벨 골드리프`는 slot holder가 아니라 boundary-only 인접 후보로 유지한다.
-3. 이 큐는 더 이상 대륙 메인 본선을 재고정하지 않고, carryover watch 입력으로만 유지한다.
+3. 이 큐는 더 이상 대륙 메인 본선을 재고정하지 않고, watch-reference 입력으로만 유지한다.
 
 ## Batch 01 Result
 

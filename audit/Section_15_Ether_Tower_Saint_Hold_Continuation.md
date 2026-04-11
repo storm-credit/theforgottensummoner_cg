@@ -35,4 +35,4 @@
 - 현재 이 문서는 새 후보 추가가 아니라 `중앙 장부 short label 동기화` snapshot reference다.
 - `엘드린 / 네리사 / 다미엔`은 탑주 3인 묶음이지만 기능 축은 각각 `결계 / 금기 연구 / 그림자 정보`로 분리한다.
 - `요한`은 성국 방벽 거점 총괄자로 읽고, 탑주 3인과 같은 문장으로 평평하게 합치지 않는다.
-- 관련 `드라이덴 / 메라 / 실라스 나이트쉐이드` spirit-union hold snapshot도 이미 닫힌 상태로 정리되어 있으며, 현재 본선은 `closure sync / carryover watch` 유지다.
+- 관련 `드라이덴 / 메라 / 실라스 나이트쉐이드` spirit-union hold snapshot도 이미 닫힌 상태로 정리되어 있으며, 현재 본선은 `closure sync / watch-reference` 유지다.

@@ -17,7 +17,7 @@ folder route/reference map을 정리하는 초안이다.
 | `울프가르 드래곤포지` | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution` | 용의 대장장이/공방주. 상위 route와 place lock을 분리한 stable_triad_frozen_reference_set route를 따르되 14 재확인 전 Hard Canon route로 고정하지 않는다. |
 | `에리온 드라코비스` | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution / name_collision_watch` | 고대어 해석가/대현자. 엘드라칸 학술-전승층을 상위 route로 읽되 `에리온 베르날리스` 충돌 감시를 유지한다. |
 | `오그마` | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `stable_triad_frozen_reference_set / route_hierarchy_locked / act_watch` | 살아있는 도서관/고룡 조언자. 전승 보관층 route와 place lock을 분리한 stable_triad_frozen_reference_set route를 우선한다. |
-| `엘다라` | `15 / 에테르 / 정령연합 / 루미라` | `support_hold / source_check_hold` | 루미라 대현자/고대 정령어 권위자. 정령연합 전체 14 확인 전 Hard Canon 금지, hold reference split 안의 source_check_hold reference로만 유지한다. |
+| `엘다라` | `15 / 에테르 / 정령연합 / 루미라` | `source_check_hold / hold reference split` | 루미라 대현자/고대 정령어 권위자. 정령연합 전체 14 확인 전 Hard Canon 금지, hold reference split 안의 source_check_hold reference로만 유지한다. |
 | `실비아` | `15 / 범대륙 후기 확장 / 키르케 영약회` | `deferred_expansion_hold / name_collision_watch` | 강한 15 후보지만 범대륙 후기 확장이라 hold reference split 안의 deferred hold watch-reference로만 둔다. |
 
 ## Boundary Candidate Routing

@@ -76,4 +76,4 @@
 | `침묵의 감시자` | 개인명 미확인. `Silent Watchers` 집단 직함으로만 확인됨. | `need_named_candidate` |
 
 Ether low-priority auxiliary slot 9개 read-only closure가 완료됐고,
-현재는 이 결과를 closure sync / carryover watch 아래 reference로 유지한다.
+현재는 이 결과를 closure sync / watch-reference 아래 reference로 유지한다.

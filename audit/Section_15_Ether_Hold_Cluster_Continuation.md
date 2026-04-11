@@ -36,4 +36,4 @@
 - `래퍼티`는 `Rafferty / Raphael Arcadia` 이름 드리프트를 같이 유지한다.
 - `대런`은 library보다 admin-core 압력이 더 강하므로 `archive_admin_hold`로 읽는다.
 - `칼리스트`는 연금/경제/제작보다 `tower + seer + strategy` 축을 우선 읽는다.
-- `엘라라`는 Named Notables 가치가 가장 살아 있는 축이지만 아직은 `support_hold`가 아니라 `verify_before_15` 내부에 둔다.
+- `엘라라`는 Named Notables 가치가 가장 살아 있는 축이지만 아직은 hold reference split 안의 `source_check_hold`가 아니라 `verify_before_15` 내부에 둔다.
