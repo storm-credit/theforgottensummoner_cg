@@ -61,6 +61,16 @@ Representative control table:
 | Kasar the Seer | dragon prophet, highest adviser, trial tower management, legendary hero signal | dual review hold | Prophetic notable value is high, but legendary and Act-relevant signals require 14 check. |
 | Moira Wildwave | named directly in Free Cities material with heroic epithet and Act links | verify before 15 | Contact-role value is useful, but hero-style listing may already belong to 14. |
 
+V1 evidence pointers:
+
+- `audit/Section_14_15_Boundary_Verification_Queue.md`
+- `audit/Section_15_Named_Notables_Register.md`
+- `audit/Section_15_Candidate_Register.md`
+- `audit/Section_15_Named_Notables_Coverage_Matrix.md`
+
+Use these only to confirm the safest current handling.
+Do not move a candidate into the body because the name is vivid.
+
 ---
 
 ## Appendix B. Item Promotion Candidates
@@ -98,6 +108,17 @@ Representative control table:
 | growth item | change condition, bond rule, owner or inheritor | what unlocks, awakens, breaks, or refuses the bearer | strong body candidate if tied to emotional progression |
 | ego item | will, memory, voice, chooser logic, refusal pattern | what the item wants and why the bearer cannot simply command it | strong body candidate if personality affects story |
 | legendary group item | group name, missing count, origin pattern, member distinction | completion desire, missing pieces, rumor, previous bearers | body entry can introduce the group before every item is solved |
+
+V1 evidence pointers:
+
+- `workflow/07_Item_Canon_Schema.md`
+- `workflow/08_Item_Desire_Design.md`
+- `working/crosswalks/Item_Candidate_Register.md`
+- `working/crosswalks/Item_Longterm_Taxonomy.md`
+- `working/crosswalks/Item_Name_Collision_Register.md`
+
+Use these to decide whether a candidate has owner context, desire pressure, and promotion cost.
+Do not use `working/crosswalks/Extracted_Item_Candidates.md` as a final promotion source by itself.
 
 ---
 
@@ -148,6 +169,18 @@ Representative control table:
 | 머시너리 게이트 | threshold | merchant_road | 용병 계약, 평판, 중재 기록, 블랙리스트 | 계약 보증금, 길드 승인, 분쟁 기록 | 명예와 실리가 같은 장부에 적힌다. |
 | 검은 고양이 | underworld_node | underpath | 청부 연락, 밀수 약속, 비밀 정보, 사라진 이름 | 암호, 단골 신뢰, 현장 소개 | 말 한마디가 계약이 되기도 함정이 되기도 한다. |
 
+V1 evidence pointers:
+
+- `workflow/10_Spatial_Map_Progression.md`
+- `working/drafts/Spatial_Backlog.md`
+- `working/drafts/Crossroad_Cities_Map_Seed.md`
+- `working/drafts/Crossroad_Cities_Ops_Matrix.md`
+- `audit/FS_Place_Function_Register.md`
+- `audit/FS_Travel_Logistics_Register.md`
+
+Use these to confirm what the place does in a scene, what route reaches it, and what cost controls entry.
+Do not promote a location just because it has a strong name.
+
 ---
 
 ## Appendix D. Name Collision Control
@@ -195,6 +228,17 @@ Representative control table:
 | Ravenfell / Marcus | Marcus Ravenfell, Maxwell Ravenfell, Marcus Corvus를 분리 유지 | 이름 흔들림과 별도 인물 가능성이 함께 존재한다. |
 | Mera | Mera Lylewind와 Mera Sylphid를 분리 유지 | 정령연합 외교축과 직접 14 영웅축 가능성이 겹친다. |
 
+V1 evidence pointers:
+
+- `workflow/05_Naming_Normalization_Map.md`
+- `workflow/12_Naming_Tone_Guide.md`
+- `working/crosswalks/Name_Normalization_Draft.md`
+- `working/crosswalks/Faction_Naming_Replacement_Register.md`
+- `audit/Section_15_Named_Notables_Name_Collision_Register.md`
+
+Use these to preserve display names, legacy names, and separate candidate identities.
+Do not merge candidates until role, continent, faction, and source route agree.
+
 ---
 
 ## Appendix E. Species Classification Guard
@@ -236,6 +280,16 @@ Representative control table:
 | Giant | monster, mythic remains, or ancient threat signal | Do not promote to a living people profile without social evidence. |
 | Orc village signal | provisional species signal | Village evidence may matter, but society structure needs confirmation before body expansion. |
 | Goblin-blood or goblin integration signal | bloodline or integration signal | Do not inflate into a separate civilization without stronger source support. |
+
+V1 evidence pointers:
+
+- `working/crosswalks/Race_Species_Term_Crosswalk.md`
+- `working/drafts/Race_Species_Evidence_Log.md`
+- `audit/Species_Framework_Risk_Register.md`
+- `workflow/15_FS_Lore_Engine.md`
+
+Use these to confirm whether a term is a people, bloodline, state, monster, or unclear signal.
+Do not turn a vivid creature term into a civilization without society evidence.
 
 ---
 

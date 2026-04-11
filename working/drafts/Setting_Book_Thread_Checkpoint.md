@@ -114,9 +114,9 @@
 
 ## Recommended Next Queue
 
-1. 필요한 appendix row에만 source pointer / evidence note 추가
-2. `preview_v0_readable`을 preview 파일로 유지할지 release-candidate package로 복제/승격할지 결정
-3. front matter 부제와 표지 톤 문장 좁히기
+1. `preview_v0_readable`을 preview 파일로 유지할지 release-candidate package로 복제/승격할지 결정
+2. front matter 부제와 표지 톤 문장 좁히기
+3. 필요한 appendix row에만 row-level evidence note 추가
 4. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
 5. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
 6. 안정 마일스톤마다 `main push gate` 확인

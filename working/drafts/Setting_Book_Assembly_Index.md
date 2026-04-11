@@ -91,9 +91,9 @@ Completed checks:
 
 Recommended next sequence:
 
-1. Add source pointers or evidence notes to appendix rows only where they are needed for verification.
-2. Decide whether `preview_v0_readable` should remain a preview file or become a release-candidate package file.
-3. Narrow the front matter subtitle and cover-tone sentence.
+1. Decide whether `preview_v0_readable` should remain a preview file or become a release-candidate package file.
+2. Narrow the front matter subtitle and cover-tone sentence.
+3. Add row-level evidence notes only where a specific appendix row needs verification.
 4. Extend the strongest mid-layer sheets into small reusable profile families only after the v1 direction is chosen.
 5. Prepare a short checkpoint summary for thread handoff if context gets too long.
 6. At stable milestones, run the `Main Push Gate` before pushing to `main`.
@@ -124,4 +124,4 @@ Recommended next sequence:
 
 The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.
 
-The next meaningful work is controlled refinement: keep `preview_v0_readable` stable as the shareable package, add appendix evidence notes only where verification needs them, and decide whether the next named artifact is still a preview or a release candidate.
+The next meaningful work is controlled refinement: keep `preview_v0_readable` stable as the shareable package, use the new appendix source pointers for targeted row-level evidence only, and decide whether the next named artifact is still a preview or a release candidate.
