@@ -42,7 +42,7 @@
 | `프로스트` | `tribe_clan`, `guild_market`, state_house thin | `프로스트본 연합 = mixed_keep + clan_as_state_house watch`; `오로라 평원`, `빙하의 성소`는 `place_pressure_strong / handoff_applied` | `빙하의 성소`, `퍼마프로스트 공성단`, `오로라 평원` 중심이라 맞음. | `low` | 이름보다 장소/성소/요새 슬롯 유지. 구조 라벨과 place pressure를 섞지 않는다. |
 | `해양` | `state_house`, `guild_market`; tribe_clan weak | `해적 연합 = mixed_keep + port_power_as_tribe_clan`; `바다의 교단 = section_style_reclassify + place_pressure_strong / handoff_applied` | `황금 함대`, `거상 연합`, `해적 연합`, `바다의 교단`, 항구 도시 슬롯으로 라우팅되어 맞음. | `medium` | 도시 기능형 슬롯과 제독/히어로급 후보를 분리하고, 토착 공동체층은 `support range`를 넘겨 본체화하지 않는다. |
 | `오벨리스크` | `frontier_survival`, `guild_market`, nontraditional elite | `망자의 왕국 = section_style_reclassify + nontraditional_elite watch`; `잊힌 자들의 연합 = section_style_reclassify + watch_keep / handoff_applied`; `봉인 수호단 = section_style_reclassify + mismatch_clear` | `봉인 수호단`, `잊힌 자들의 연합`, `망자의 왕국`, 기록/기억 장소로 라우팅되어 맞음. | `medium` | 초월 어휘보다 기록/기억/거래 기능으로 낮춰 읽고, 가문/왕국 신호는 `nontraditional elite thin-support`를 넘겨 읽지 않는다. |
-| `범대륙 후기 확장` | deferred expansion | `canonical_root / quarantine_root / legacy_root` 분리와 `root_corruption` 경계 유지 | `키르케 영약회`만 hold reference로 보존되어 맞음. | `medium` | 범대륙 전체 고정 금지. 루트 안정화 전 deferred reference only로 유지한다. |
+| `범대륙 후기 확장` | deferred expansion | `canonical_root / quarantine_root / legacy_root` 분리와 `root_corruption` 경계 유지 | `키르케 영약회`만 hold reference split으로 보존되어 맞음. | `medium` | 범대륙 전체 고정 금지. 루트 안정화 전 deferred reference only로 유지한다. |
 
 해양 자유도시/오벨리스크 제도 사례는
 named notable 즉시 승인 근거가 아니라
@@ -66,7 +66,7 @@ operational lower-card carryover reference로만 유지한다.
 3. `section_style_reclassify`는 구조 문법 판정이고,
    내용 압력은 `place_pressure_strong` 또는 `watch_keep`로 별도 보존한다.
 4. `root_corruption`이 잠긴 범대륙 축은
-   `15`에서 적극 확장하지 않고 deferred 상태로만 연결한다.
+   `15`에서 적극 확장하지 않고 `deferred_expansion_hold` 상태로만 연결한다.
 5. 상위 `named notable` summary와 bridge는
    하위 operational profile 카드의 `3-1. Policy Guard`를 참조하되,
    카드 해석선을 재정의하지 않는다.
@@ -82,20 +82,20 @@ operational lower-card carryover reference로만 유지한다.
 
 `Section_15_Folder_Structure_Draft.md`는 8번 spine과 호환된다.
 
-다만 live 폴더 생성은 현재 frozen reference set 바깥이다.
+다만 실제 폴더 생성은 현재 `stable_triad_frozen_reference_set` 바깥이다.
 
 필요했던 작은 색인은
 `Section_15_Stable_Candidate_8_Anchor_Index.md`로 이미 잠겼다.
 
 ## Reference Watch Snapshot
 
-현재 watch 기준:
+현재 watch-reference 기준:
 
-1. `Section_15_Stable_Candidate_8_Anchor_Index.md`의 `stable_triad_frozen_reference_set / support_hold / deferred_expansion_hold` 상태를 bridge와 frozen reference set에서 계속 같은 상태어로 유지한다.
+1. `Section_15_Stable_Candidate_8_Anchor_Index.md`의 `stable_triad_frozen_reference_set / source_check_hold / deferred_expansion_hold` 상태를 bridge와 `stable_triad_frozen_reference_set`에서 계속 같은 상태어로 유지한다.
 2. `P2 place-pressure source_check_hold`는 candidate index가 아니라 sidecar/register에서 계속 관리한다.
 3. 원본 접근이 가능해질 때까지는 새 candidate를 늘리지 않고 `P0 / P2 / carryover sync`만 유지한다.
-4. 현재 watch-reference mainline은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 `5대륙 closure sync / Section 8 -> 15 carryover watch`로 유지한다.
-5. 현재 watch-reference 기준은 stable triad frozen reference set 재개가 아니라 closure sync / carryover watch 유지다.
+4. 현재 watch-reference mainline은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 `5대륙 closure sync / Section 8 -> 15 watch-reference`로 유지한다.
+5. 현재 watch-reference 기준은 `stable_triad_frozen_reference_set` 재개가 아니라 closure sync / watch-reference 유지다.
 6. named notable coverage 표와 bridge 요약은 operational profile 카드가 이미 잠근 `3-1. Policy Guard`를 존중하는 상위 reference층으로만 유지한다.
 7. named notable coverage 표와 bridge 요약은 `Section_15_Subline_Profile_*` 카드가 잠근
    `3-1. Policy Guard`도 같은 lower-card authority로 존중하는 상위 reference층으로만 유지한다.

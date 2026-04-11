@@ -26,9 +26,9 @@
 | Continent | Coverage Snapshot | Primary Reading | Reference Use |
 |---|---|---|---|
 | Crimson | `strongest` | 용, 대장간, 고대 현자, 부족/제국 잔재 명사층이 이미 강하다. | stable_triad_frozen_reference_set을 닫힌 상태로 유지한다. |
-| Ether | `thin with strong place-institution slots` | 마법협회 탑주, 성국 도서관/성채, 정령연합 의식/계약 슬롯이 강하지만 14번 중복 위험이 크다. 장소-기관 슬롯은 먼저 보존한다. | `support_hold`와 hold cluster closure를 유지한다. |
-| Frost | `thin with strong place-institution slots` | 인물 고정보다 오로라 평원, 얼음무덤 언덕, 아이스포지 병기소, 빙하의 성소 슬롯이 강하다. unnamed slot 6개는 direct holder 없이 role slot 유지로 한 번 닫혔다. | 새 인물 회수보다 closure sync를 유지한다. |
-| Oceanic | `thin with many boundary signals and strong place-institution slots` | 후보 이름은 많지만 제독, A급, 히어로급 신호가 많다. 신탁 방주, 해로 장부관, 흑조 감정관, 심연 장부관 슬롯은 보존한다. | 성급한 15 고정 없이 boundary/watch 상태를 유지한다. |
+| Ether | `thin with strong place-institution slots` | 마법협회 탑주, 성국 도서관/성채, 정령연합 의식/계약 슬롯이 강하지만 14번 중복 위험이 크다. 장소-기관 슬롯은 먼저 보존한다. | `source_check_hold`와 hold reference split watch-reference를 유지한다. |
+| Frost | `thin with strong place-institution slots` | 인물 고정보다 오로라 평원, 얼음무덤 언덕, 아이스포지 병기소, 빙하의 성소 슬롯이 강하다. unnamed slot 6개는 direct holder 없이 role slot 유지로 한 번 닫혔다. | 새 인물 회수보다 closure sync / watch-reference를 유지한다. |
+| Oceanic | `thin with many boundary signals and strong place-institution slots` | 후보 이름은 많지만 제독, A급, 히어로급 신호가 많다. 신탁 방주, 해로 장부관, 흑조 감정관, 심연 장부관 슬롯은 보존한다. | 성급한 15 고정 없이 boundary watch-reference 상태를 유지한다. |
 | Obelisk | `thin with dense archive slots` | 기록, 기억, 묘역, 봉인, 사후 행정 명사층이 강하다. | 기록/기관 기억 축의 closure state를 유지한다. |
 | Supranational | `deferred expansion` | 후기 확장 구역이라 강한 후보도 바로 중심축으로 읽지 않는다. | `deferred expansion` 상태를 유지한다. |
 
@@ -40,7 +40,7 @@
 
 | Candidate | State Snapshot | Note |
 |---|---|---|
-| 울프가르 드래곤포지 | `stable_triad_frozen_reference_set / grade_caution` | 장인/대장장이 명사층으로 강하고 stable_triad_frozen_reference_set 기준에서 carryover watch를 따른다. |
+| 울프가르 드래곤포지 | `stable_triad_frozen_reference_set / grade_caution` | 장인/대장장이 명사층으로 강하고 `stable_triad_frozen_reference_set` 기준에서 watch-reference를 따른다. |
 | 에리온 드라코비스 | `stable_triad_frozen_reference_set / grade_caution / name_collision_watch` | 현자/지식 계열 명사층으로 강하며 `엘드라칸 / 학술-전승층` stable_triad_frozen_reference_set 기준을 따른다. |
 | 오그마 | `stable_triad_frozen_reference_set / act_watch` | 기록/지식/전승 계열 후보로 유지하며 `엘드라칸 / 전승 보관층` stable_triad_frozen_reference_set 기준을 따른다. |
 | 벨라나 스톰브링어 | `source_check_hold` | 현자 회의 명사 가치가 있지만 SS급 폭풍의 여왕 신호가 강함. |
@@ -56,7 +56,7 @@
 Conductor decision:
 
 크림슨은 `15번 Named Notables` stable_triad_frozen_reference_set 기준에 가장 가깝다.
-다만 stable triad frozen reference 이름은 `울프가르`, `에리온`, `오그마`로 유지하고,
+다만 `stable_triad_frozen_reference_set` 이름은 `울프가르`, `에리온`, `오그마`로 유지하고,
 벨라나, 아리안, 드락사르, 카사르는 먼저 14번 경계 검증을 통과해야 한다.
 자유도시/오벨리스크 운영층 문구는 named notable 고정 논리가 아니라
 lower-card carryover reference로만 유지한다.
@@ -69,7 +69,7 @@ lower-card carryover reference로만 유지한다.
 
 | Candidate | State Snapshot | Note |
 |---|---|---|
-| 엘다라 | `named_notable_candidate / source_check_hold / support_hold` | 에테르 쪽 `support_hold`로 유지한다. |
+| 엘다라 | `source_check_hold / hold reference split` | 에테르 쪽 hold reference split으로 유지한다. |
 
 검증 후보:
 
@@ -101,7 +101,7 @@ lower-card carryover reference로만 유지한다.
 
 Conductor decision:
 
-에테르는 세계관 중심성이 높아 reference-heavy hold cluster로 먼저 읽는다.
+에테르는 세계관 중심성이 높아 `source_check_hold` 중심 hold reference split cluster로 먼저 읽는다.
 마법협회와 성국의 비영웅 명사층은 장소-기관 슬롯으로 먼저 받친다.
 정령연합 바깥 부족층은 `frontier echo / border support` 범위를 넘겨 읽지 않는다.
 `결손층 5개`의 thin/support 판정은 이 synthesis가 새로 결정하지 않고,
@@ -237,8 +237,8 @@ Conductor decision:
 
 ## Priority Snapshot
 
-1. 본선 reference는 `Crimson` 안정 후보 3명의 stable_triad_frozen_reference_set 유지이며 `5대륙 closure sync / Section 8 -> 15 carryover watch`를 계속 읽는다.
-2. `엘다라`는 `support_hold`로 유지하되 정령연합 전체 14 확인 전 `source_check_hold`로만 남긴다.
+1. 본선 reference는 `Crimson` 안정 후보 3명의 `stable_triad_frozen_reference_set` 유지이며 `5대륙 closure sync / Section 8 -> 15 watch-reference`를 계속 읽는다.
+2. `엘다라`는 hold reference split 안의 `source_check_hold`로 유지하되 정령연합 전체 14 확인 전 `source_check_hold`로만 남긴다.
 3. `Frost / Oceanic / Obelisk`는 장소-기관 슬롯을 유지한 채 closure 상태를 보존하고, 14번 중복 신호 검증 뒤 상태를 다시 읽는다.
 4. `Supranational`은 후기 확장 구역으로 보류한다.
 
@@ -251,7 +251,7 @@ Conductor decision:
 - 크림슨은 안정 후보 3명만 stable_triad_frozen_reference_set으로 유지한다.
 - 에테르, 해양, 오벨리스크는 source_check_hold / watch-reference 상태를 유지하고 새 15 고정자는 만들지 않는다.
 - 프로스트, 해양, 에테르의 역할 슬롯은 장소-기관 중심으로 정리했다.
-- 이 배치 snapshot에서 프로스트 unnamed slot 6개 closure까지 반영됐고, stable_triad_frozen_reference_set 재개가 아니라 `closure sync / carryover watch`를 유지한다.
+- 이 배치 snapshot에서 프로스트 unnamed slot 6개 closure까지 반영됐고, `stable_triad_frozen_reference_set` 재개가 아니라 `closure sync / watch-reference`를 유지한다.
 
 ## Guard Authority Snapshot
 

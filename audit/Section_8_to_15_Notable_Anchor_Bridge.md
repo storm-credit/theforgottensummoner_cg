@@ -30,7 +30,7 @@
 2. 세력/도시/조직 앵커 확인.
 3. `Section 8` 구조 라벨과 `place pressure` carryover 확인.
 4. 14번 영웅 신호 확인.
-5. `named_notable_candidate`, `stable_triad_frozen_reference_set`, `source_check_hold`, `need_named_candidate`, `keep_14`, `support_hold`, `deferred_expansion_hold`, `hold_for_dual_review` 중 잠긴 상태 라벨을 확인한다.
+5. `named_notable_candidate`, `stable_triad_frozen_reference_set`, `source_check_hold`, `need_named_candidate`, `keep_14`, `deferred_expansion_hold`, `hold_for_dual_review` 중 잠긴 상태 라벨을 확인한다.
 6. foldering reference는 `대륙 -> 세력 / 도시 / 조직` 경로로만 읽는다.
 7. operational profile 카드가 필요한 경우 하위 카드의 `3-1. Policy Guard`를 유지하고,
    named notable 요약과 혼합하지 않는다.
@@ -44,8 +44,8 @@ sidecar/register handoff를 먼저 존중한다.
 
 | Continent | Section 8 Spine | Section 8 Carryover | Stable 15 Candidate | Boundary / Hold | Need Named Candidate Routing |
 |---|---|---|---|---|---|
-| `크림슨` | `tribe_clan`, `guild_market` | `용의 후예 = section_style + clan_as_state_house watch`; `붉은 사막 부족 연합 = mixed_keep` | `울프가르 -> 용의 후예 / 드래곤포지 공방`; `에리온 -> 엘드라칸 / 학술-전승층`; `오그마 -> 엘드라칸 / 전승 보관층` | `벨라나/아리안 -> 붉은 사막 부족 / 현자 회의`; `드락사르/카사르 -> 용의 후예` | stable triad는 frozen reference set 상태로 유지한다. 현자회/사막부족 슬롯은 부족/씨족 spine 아래 보존한다. |
-| `에테르` | `state_house`, `guild_market`; 정령연합만 `tribe_clan` | `정령연합 = mixed_keep / special_axis_generalization` | `엘다라 -> 정령연합 / 루미라 [support_hold]` | `대런/칼리스트/에드가 -> 마법협회`; `래퍼티/요한/실라스 블랙쏜 -> 성국`; `리아나 -> 왕국연합`; `셀레나/레온 벨가르드 -> 자유도시연합`; `엘라라/드라이덴/메라/실라스 나이트쉐이드 -> 정령연합` | 금서/공방/관측/대서고/성채/성검/서약/그늘항로/정령묘 슬롯은 각 도시/기관 앵커 아래 보존한다. `드라이덴 / 메라 / 실라스 나이트쉐이드`는 각각 `great_druid_hold / spirit_envoy_hold / shadow_crow_hold`로 읽는다. |
+| `크림슨` | `tribe_clan`, `guild_market` | `용의 후예 = section_style + clan_as_state_house watch`; `붉은 사막 부족 연합 = mixed_keep` | `울프가르 -> 용의 후예 / 드래곤포지 공방`; `에리온 -> 엘드라칸 / 학술-전승층`; `오그마 -> 엘드라칸 / 전승 보관층` | `벨라나/아리안 -> 붉은 사막 부족 / 현자 회의`; `드락사르/카사르 -> 용의 후예` | stable triad는 `stable_triad_frozen_reference_set` 상태로 유지한다. 현자회/사막부족 슬롯은 부족/씨족 spine 아래 보존한다. |
+| `에테르` | `state_house`, `guild_market`; 정령연합만 `tribe_clan` | `정령연합 = mixed_keep / special_axis_generalization` | `엘다라 -> 정령연합 / 루미라 [source_check_hold]` | `대런/칼리스트/에드가 -> 마법협회`; `래퍼티/요한/실라스 블랙쏜 -> 성국`; `리아나 -> 왕국연합`; `셀레나/레온 벨가르드 -> 자유도시연합`; `엘라라/드라이덴/메라/실라스 나이트쉐이드 -> 정령연합` | 금서/공방/관측/대서고/성채/성검/서약/그늘항로/정령묘 슬롯은 각 도시/기관 앵커 아래 보존한다. `드라이덴 / 메라 / 실라스 나이트쉐이드`는 각각 `great_druid_hold / spirit_envoy_hold / shadow_crow_hold`로 읽는다. |
 | `프로스트` | `tribe_clan`, `guild_market`; state_house thin | `프로스트본 연합 = mixed_keep`; `오로라 평원`, `빙하의 성소`는 `place_pressure_strong / handoff_applied` | 없음 | `울프릭/마리안/프리야/카이라 -> 빙하의 성소 / 주술사 원로단`; `시그리드 -> 퍼마프로스트 공성단 / 아이스포지` | 오로라 평원, 얼음무덤 언덕, 푸른 폭풍 요새, 아이스포지 병기소 슬롯으로 보존. unnamed slot 6개는 direct holder 없이 role slot 유지로 한 번 닫혔다. |
 | `해양` | `state_house`, `guild_market`; tribe_clan weak | `해적 연합 = mixed_keep`; `바다의 교단 = section_style_reclassify + place_pressure_strong / handoff_applied` | 없음 | `미다스/이소벨/해양 실비아 -> 황금 함대`; `마르코/엘레오노라/크리스토퍼 -> 거상 연합`; `골드핑거/리나/에릭/모로스 -> 해적 연합`; `오렌/마리아 -> 바다의 교단` | 포트 아우렐리온, 크로스윈드 포트, 오라클 바지, 블랙워터 항구, 볼트 오브 아우룸 슬롯으로 보존한다. |
 | `오벨리스크` | `frontier_survival`, `guild_market`; state_house as nontraditional elite | `망자의 왕국 = section_style_reclassify + place_pressure_strong`; `잊힌 자들의 연합 = section_style_reclassify + watch_keep / handoff_applied`; `봉인 수호단 = section_style_reclassify + mismatch_clear` | 없음 | `바리온/아이기스/베스/이안 -> 봉인 수호단`; `카트린/레보니아/우로스 -> 잊힌 자들의 연합`; `카론/세르반/레티시아 -> 망자의 왕국` | 템플 오브 바운더리, 경계의 보루, 기억 경매장, 영원의 기록탑, 망각의 회랑, 그림자 도서관 슬롯으로 보존한다. |
@@ -53,14 +53,14 @@ sidecar/register handoff를 먼저 존중한다.
 
 ## Foldering Consequence
 
-15번 문서 라우팅 reference는 아래 예시처럼 frozen routing sample로 읽는다.
+15번 문서 라우팅 reference는 아래 예시처럼 watch-reference routing sample로 읽는다.
 
 예시:
 
 - `15 / 크림슨 / 용의 후예 / 드래곤포지 공방 / 울프가르 드래곤포지`
 - `15 / 크림슨 / 엘드라칸 / 학술-전승층 / 에리온 드라코비스`
 - `15 / 크림슨 / 엘드라칸 / 전승 보관층 / 오그마`
-- `15 / 에테르 / 정령연합 / 루미라 / 엘다라 [support_hold]`
+- `15 / 에테르 / 정령연합 / 루미라 / 엘다라 [source_check_hold]`
 - `15 / 해양 / 포트 아우렐리온 / 대경매장 주인 슬롯`
 - `15 / 오벨리스크 / 영원의 기록탑 / 사후 서기관 슬롯`
 
@@ -76,7 +76,7 @@ sidecar/register handoff를 먼저 존중한다.
 2. `mixed_keep` 세력은 성급히 `section_style` 표준 폴더로 접지 않는다.
 3. `mismatch_clear`는 구조 오해가 해소됐다는 뜻이지,
    장소 압력이나 기능 압력이 사라졌다는 뜻은 아니다.
-4. `support_hold`와 `deferred_expansion_hold`는 stable triad frozen reference set에 섞지 않는다.
+4. `source_check_hold`와 `deferred_expansion_hold`는 `stable_triad_frozen_reference_set`에 섞지 않는다.
 5. 개별 카드의 `Policy Guard`가 `state_house strong`, `토착 공동체층`, `전통 국가기관` 과독해를 막고 있으면 브리지도 그 해석선을 넘겨 읽지 않는다.
 6. 개별 operational profile 카드의 `3-1. Policy Guard`는 하위 권한선이다.
    bridge는 그것을 요약해서 참조할 뿐, 다른 국가형/공동체형 본체 근거로 다시 고정하지 않는다.
@@ -106,7 +106,7 @@ sidecar/register handoff를 먼저 존중한다.
 
 15번의 recorded carryover focus는 새 인물 확장이 아니라,
 위 브리지와 `Section_15_Folder_Structure_Draft.md` watch-reference routing map을 기준으로
-이미 잠근 anchor / state wording을 closure sync / carryover watch 기준으로 유지하는 것이다.
+이미 잠근 anchor / state wording을 closure sync / watch-reference 기준으로 유지하는 것이다.
 
-stable triad frozen reference set은 이미 닫혀 있으므로 다시 열지 않는다.
-현재는 폴더 draft reference 구조를 문서 레벨 watch/reference 층에서만 유지한다.
+`stable_triad_frozen_reference_set`은 이미 닫혀 있으므로 다시 열지 않는다.
+현재는 폴더 draft reference 구조를 문서 레벨 watch-reference 층에서만 유지한다.
