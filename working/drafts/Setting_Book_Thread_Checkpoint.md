@@ -112,6 +112,7 @@
 
 ## Recent Commit Line
 
+- `87032fc Add faction hub quick index`
 - `a4ee43f Add appendix evidence queue`
 - `32cd0d9 Break down setting book v1 holds`
 - `4c1e890 Add setting book status dashboard`
