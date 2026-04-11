@@ -34,6 +34,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | `Setting_Book_Preview_Readable_v0.md` | Serves as the current shareable readable preview manuscript. |
 | `Setting_Book_Faction_Core_Profiles_v0.md` | Serves as the faction-first bridge between the readable preview and the technical continent/faction drafts. |
 | `Setting_Book_People_Core_Profiles_v0.md` | Serves as the people-first bridge between the readable preview and the 14/15 technical drafts. |
+| `Setting_Book_Places_Core_Profiles_v0.md` | Serves as the places-first bridge between the readable preview and the spatial/travel technical drafts. |
 
 ## Assembly Principle
 

@@ -6,6 +6,7 @@
 - [[01_Setting_Book_Faction_Hub]]
 - [[02_Setting_Book_People_Hub]]
 - [[03_Setting_Book_Items_Hub]]
+- [[Setting_Book_Places_Core_Profiles_v0]]
 - [[05_Setting_Book_Species_Hub]]
 - [[06_Setting_Book_Appendix_Hub]]
 - [[Setting_Book_Preview_Readable_v0]]
@@ -20,6 +21,7 @@
 이 문서부터:
 
 - `Setting_Book_Preview_Readable_v0.md`
+- `Setting_Book_Places_Core_Profiles_v0.md`
 - `Setting_Book_Chapter_7_Spatial_Map_Draft.md`
 
 그다음 문서:
@@ -64,4 +66,5 @@
 
 - 장소/길로 볼 때는 이 문서부터
 - 읽는 설명은 `Part II`
+- 대표 장소 중간 정리본은 `Setting_Book_Places_Core_Profiles_v0.md`
 - 검증은 `Appendix C`
