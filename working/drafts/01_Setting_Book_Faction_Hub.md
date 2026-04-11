@@ -18,20 +18,14 @@
 
 ## 이 문서부터 / 그다음 문서
 
-처음이면 이 순서:
-
-- `Setting_Book_Preview_Readable_v0.md`
-- `Setting_Book_Chapter_1_Five_Continents_Draft.md`
-- `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
-
 이 문서부터:
 
 - `Setting_Book_Preview_Readable_v0.md`
+- `Setting_Book_Chapter_1_Five_Continents_Draft.md`
 - `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
 
 그다음 문서:
 
-- `Setting_Book_Chapter_1_Five_Continents_Draft.md`
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `02_Setting_Book_People_Hub.md`
 - `03_Setting_Book_Items_Hub.md`

@@ -31,13 +31,11 @@
 이 파일이 현재 가장 “책처럼” 읽히는 버전이다.
 누군가에게 먼저 보여 준다면 이 파일부터 본다.
 
-## 2. 처음 보는 사람용 빠른 선택
+## 2. 작업 관리와 원재료로 바로 가기
 
-- 세계를 가장 책처럼 읽고 싶으면 `Setting_Book_Preview_Readable_v0.md`
-- 세력과 대륙 구조부터 잡고 싶으면 `01_Setting_Book_Faction_Hub.md`
-- 왜 아직 확정이 아닌지 검증부터 보고 싶으면 `06_Setting_Book_Appendix_Hub.md`
 - 지금 어디까지 정리됐는지 보고 싶으면 `07_Setting_Book_Process_Hub.md`
 - 원재료까지 거슬러 올라가고 싶으면 `08_Setting_Book_Source_Hub.md`
+- 허브 기준 자체를 확인하고 싶으면 `09_Setting_Book_Hub_Completion_Checklist.md`
 
 ## 3. 본문 뒤에 붙는 검증용 부록
 
