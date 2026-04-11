@@ -29,6 +29,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | Bundles the current public-facing samples into one readable manuscript flow. |
 | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | Bundles the current appendix samples into one technical appendix flow. |
 | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | Holds the current single-file prototype with expanded body sections and A-E appendix flow. |
+| `Setting_Book_Release_Readiness_Checklist.md` | Cross-checks front matter, TOC, body, appendix, prototype, and main push gate before release packaging. |
 
 ## Assembly Principle
 
@@ -85,8 +86,8 @@ Recommended next sequence:
 
 1. Run a style-unification pass over the public assembly manuscript.
 2. Expand the appendix assembly manuscript with one real embedded table per section.
-3. Add a clean title page and front-matter draft for the setting book prototype.
-4. Decide whether the next package should target reader-facing release or production-facing bible format.
+3. Use the release readiness checklist before packaging a preview manuscript.
+4. Decide whether the next package should target reader-facing preview or production-facing bible format.
 5. Prepare a short checkpoint summary for thread handoff if context gets too long.
 6. At stable milestones, run the `Main Push Gate` before pushing to `main`.
 

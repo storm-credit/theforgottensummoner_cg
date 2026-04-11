@@ -69,6 +69,7 @@
 - `working/drafts/Setting_Book_Public_Assembly_Manuscript_Draft.md`
 - `working/drafts/Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
 - `working/drafts/The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
+- `working/drafts/Setting_Book_Release_Readiness_Checklist.md`
 
 ## Recent Commit Line
 
@@ -101,10 +102,11 @@
 
 ## Recommended Next Queue
 
-1. public manuscript style-unification pass
-2. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
-3. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
-4. 안정 마일스톤마다 `main push gate` 확인
+1. release readiness checklist 기준으로 preview manuscript 묶기
+2. public manuscript style-unification pass
+3. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
+4. 최종 단일 prototype 파일 이름 정리 또는 release/bible 방향 선택
+5. 안정 마일스톤마다 `main push gate` 확인
 
 ## Main Push Gate
 

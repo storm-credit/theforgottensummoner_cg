@@ -65,6 +65,7 @@
 8. Appendix B. Item Promotion Candidates
 9. Appendix C. Place and Travel Functions
 10. Appendix D. Name Collision Control
+11. Appendix E. Species Classification Guard
 
 ---
 
