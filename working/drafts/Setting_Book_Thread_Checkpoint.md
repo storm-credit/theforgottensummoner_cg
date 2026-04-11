@@ -40,7 +40,7 @@
 - assembly index와 release readiness의 잔여 terminology도 preview/reference 기준으로 정리
 - prototype 표지 문구와 roles map quick table도 preview/reference 기준으로 정리
 - preview package 잔여 terminology도 preview/reference 기준으로 정리
-- assembly index와 preview package의 shareable package 표현도 preview package 기준으로 정밀화
+- assembly index와 preview package의 shareable preview package 표현도 preview package 기준으로 정밀화
 - roles map의 preview package guide 표현도 preview package 기준으로 정리
 
 ## Core Files
@@ -97,6 +97,7 @@
 
 ## Recent Commit Line
 
+- `13b72e9 Tighten setting book roles map wording`
 - `244fa00 Polish setting book preview package language`
 - `3878f71 Tighten setting book preview package wording`
 - `b72425a Refine setting book reference wording`
