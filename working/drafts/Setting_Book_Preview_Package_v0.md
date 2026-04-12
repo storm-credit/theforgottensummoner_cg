@@ -53,12 +53,12 @@ Release-candidate trigger:
 
 The preview body currently covers:
 
-1. How to Read This World
-2. Ether Continent
-3. Crossroad Cities
-4. People Worth Seeking
-5. Relics and Desired Objects
-6. Peoples, Bloodlines, and Changed States
+1. 이 세계를 읽는 법
+2. 에테르 대륙
+3. 길이 교차하는 도시들
+4. 찾아가야 할 사람들
+5. 유물과 욕망의 물건들
+6. 사람들, 혈통, 그리고 변한 상태들
 
 The preview body does not yet try to replace the full 0-8 technical chapter package.
 It demonstrates the readable shape of the setting book.
