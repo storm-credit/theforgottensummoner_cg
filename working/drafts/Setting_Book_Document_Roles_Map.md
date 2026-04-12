@@ -21,7 +21,7 @@
 | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | reader-facing body source manuscript | preview 본문이 어디서 조립됐는지 볼 때 |
 | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | technical appendix source manuscript | 검증 근거와 unresolved risk를 확인할 때 |
 | `Setting_Book_Front_Matter_Draft.md` | 표지 톤, subtitle, opening promise source | 설정집 첫인상과 약속 문구를 맞출 때 |
-| `Setting_Book_Faction_Core_Profiles_v0.md` | faction bridge sheet | readable preview와 기술 초안 사이를 메울 때 |
+| `Setting_Book_Faction_Core_Profiles_v0.md` | faction bridge sheet | readable preview와 더 깊은 설정 초안 사이를 메울 때 |
 | `Setting_Book_People_Core_Profiles_v0.md` | people bridge sheet | 인물 축만 더 조밀하게 볼 때 |
 | `Setting_Book_Places_Core_Profiles_v0.md` | places bridge sheet | 장소 축만 더 조밀하게 볼 때 |
 | `Setting_Book_Items_Core_Profiles_v0.md` | items bridge sheet | 유물/아이템 축을 빠르게 점검할 때 |

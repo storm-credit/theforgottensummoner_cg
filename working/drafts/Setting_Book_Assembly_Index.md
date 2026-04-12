@@ -36,11 +36,11 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | `Setting_Book_Packaging_Direction_Matrix.md` | Decides whether the next preserved artifact should be reader-facing layout or production bible. |
 | `Setting_Book_Next_Preserved_Artifact_Scope.md` | Fixes the actual include/exclude scope for the next preserved artifact candidate. |
 | `Setting_Book_Preview_Readable_v0.md` | Serves as the current shareable readable preview manuscript. |
-| `Setting_Book_Faction_Core_Profiles_v0.md` | Serves as the faction-first bridge between the readable preview and the technical continent/faction drafts. |
-| `Setting_Book_People_Core_Profiles_v0.md` | Serves as the people-first bridge between the readable preview and the 14/15 technical drafts. |
-| `Setting_Book_Places_Core_Profiles_v0.md` | Serves as the places-first bridge between the readable preview and the spatial/travel technical drafts. |
-| `Setting_Book_Items_Core_Profiles_v0.md` | Serves as the items-first bridge between the readable preview and the item/relic promotion drafts. |
-| `Setting_Book_Species_Core_Profiles_v0.md` | Serves as the species-first bridge between the readable preview and the species classification drafts. |
+| `Setting_Book_Faction_Core_Profiles_v0.md` | Serves as the faction-first bridge between the readable preview and the deeper continent/faction records. |
+| `Setting_Book_People_Core_Profiles_v0.md` | Serves as the people-first bridge between the readable preview and the deeper 14/15 reference layer. |
+| `Setting_Book_Places_Core_Profiles_v0.md` | Serves as the places-first bridge between the readable preview and the deeper spatial/travel records. |
+| `Setting_Book_Items_Core_Profiles_v0.md` | Serves as the items-first bridge between the readable preview and the deeper item/relic promotion records. |
+| `Setting_Book_Species_Core_Profiles_v0.md` | Serves as the species-first bridge between the readable preview and the deeper species classification records. |
 
 ## Assembly Principle
 
