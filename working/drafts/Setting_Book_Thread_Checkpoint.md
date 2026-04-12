@@ -80,6 +80,7 @@
 - filename matrix, main hub, process hub, preserved artifact scope의 잔여 예전 표현을 현재 stable-preview 결론에 맞게 정렬
 - document roles map과 assembly index의 core profile bridge 설명도 깊은 기준 기록 말투로 정렬
 - public assembly source 서두의 잔여 `기술 초안` 표현을 `깊은 설정 초안`으로 정리
+- current status dashboard에 `지금 고정된 것 / 아직 안 닫힌 것` 요약 블록을 추가
 
 ## Core Files
 
@@ -139,6 +140,7 @@
 
 ## Recent Commit Line
 
+- `591bf16 Add locked vs open dashboard summary`
 - `0277173 Align public assembly source wording`
 - `1aa6e7f Align bridge role wording`
 - `111419c Align remaining control wording`
@@ -307,3 +309,4 @@
 - remaining control wording alignment까지 `main` 반영 완료.
 - bridge role wording alignment까지 `main` 반영 완료.
 - public assembly source wording alignment까지 `main` 반영 완료.
+- locked vs open dashboard summary까지 `main` 반영 완료.

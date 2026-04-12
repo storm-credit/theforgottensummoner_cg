@@ -104,6 +104,7 @@ Completed checks:
 - Remaining control docs now use the same stable-preview / v1-gate wording baseline.
 - Document roles map and assembly index now describe core profile bridges as links to deeper reference records rather than older technical-draft phrasing.
 - Public assembly source wording now also uses the deeper-source phrasing baseline.
+- Current status dashboard now separates locked decisions from still-open decisions for quick reentry.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -159,6 +160,7 @@ Recommended next sequence:
 - remaining control wording alignment까지 `main`에 fast-forward push 완료.
 - bridge role wording alignment까지 `main`에 fast-forward push 완료.
 - public assembly source wording alignment까지 `main`에 fast-forward push 완료.
+- locked vs open dashboard summary까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
