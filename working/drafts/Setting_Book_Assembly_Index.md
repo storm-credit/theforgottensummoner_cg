@@ -108,6 +108,7 @@ Completed checks:
 - Front matter, reader-facing TOC, and public assembly now self-identify as source/support layers rather than direct-share manuscripts.
 - Faction hub now uses the same stable wording baseline for faction-structure references.
 - Main hub and process hub now surface locked vs open decisions without requiring the dashboard first.
+- Appendix hub and source hub now also surface snapshot decisions and clearer source/control-layer wording.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -167,6 +168,7 @@ Recommended next sequence:
 - source layer document-role clarification까지 `main`에 fast-forward push 완료.
 - faction hub wording tightening까지 `main`에 fast-forward push 완료.
 - hub snapshot summaries까지 `main`에 fast-forward push 완료.
+- appendix/source hub snapshot clarification까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
