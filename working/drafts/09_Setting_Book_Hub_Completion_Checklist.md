@@ -75,6 +75,7 @@
 - [x] 책처럼 읽기: `00_Setting_Book_Hub.md` -> `Setting_Book_Preview_Readable_v0.md`
 - [x] 문서 역할부터 보기: `00_Setting_Book_Hub.md` -> `Setting_Book_Document_Roles_Map.md`
 - [x] 세력부터 보기: `00_Setting_Book_Hub.md` -> `01_Setting_Book_Faction_Hub.md` -> `Setting_Book_Chapter_1_Five_Continents_Draft.md` 또는 `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md`
+- [x] 축별 바로가기: `00_Setting_Book_Hub.md`에서 세력/인물/유물/장소/종족 허브로 직접 진입 가능
 - [x] 검증부터 보기: `00_Setting_Book_Hub.md` -> `06_Setting_Book_Appendix_Hub.md` -> `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` 또는 appendix sample 문서
 - [x] 진행 상황 보기: `00_Setting_Book_Hub.md` -> `07_Setting_Book_Process_Hub.md` -> `Setting_Book_Assembly_Index.md` 또는 `Setting_Book_Thread_Checkpoint.md`
 - [x] 원재료 추적: `00_Setting_Book_Hub.md` -> `08_Setting_Book_Source_Hub.md` -> 원하는 장 초안
@@ -97,6 +98,7 @@
 - 지금은 각 허브가 `shareable preview`와 `compressed reference`를 헷갈리지 않도록 역할 복귀선까지 확보된 상태다.
 - 지금은 00-08 주요 허브 어디서 시작해도 역할 지도와 공유용 preview, 작업 허브로 다시 돌아갈 수 있다.
 - 지금은 01-08 허브 대부분이 `빠른 인덱스`를 통해 질문 기준 첫 클릭을 제공한다.
+- 지금은 메인 허브에서도 세력/인물/유물/장소/종족 축으로 바로 갈 수 있다.
 - 지금은 00-09 허브 위키링크 기준으로 클릭 끊김 없이 순환할 수 있다.
 
 즉, "허브가 있다"는 이유만으로 90% 가까이 올리면 안 되고,
