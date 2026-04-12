@@ -26,6 +26,10 @@ Filename decision control:
 - `Setting_Book_Filename_Decision_Matrix.md` explains why preview / prototype / package-guide names stay separate for now.
 - Re-open renaming only when packaging becomes the next preserved artifact and the filename hold is actually cleared.
 
+Preserved artifact scope:
+
+- `Setting_Book_Next_Preserved_Artifact_Scope.md` fixes which files belong to the next preserved artifact candidate before any RC rename is reopened.
+
 Release-candidate trigger:
 
 - Create a separate RC package only when the checklist says packaging is the next preserved artifact, not just the next draft pass.

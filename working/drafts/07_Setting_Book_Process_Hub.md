@@ -9,6 +9,7 @@
 - [[09_Setting_Book_Hub_Completion_Checklist]]
 - [[Setting_Book_Current_Status_Dashboard]]
 - [[Setting_Book_Filename_Decision_Matrix]]
+- [[Setting_Book_Next_Preserved_Artifact_Scope]]
 
 ## 작업 관리 문서로 보고 싶으면 여기서 시작
 
@@ -93,6 +94,16 @@
 - 다음 보존 산출물이 reader-facing layout인지
 - production bible인지
 - 지금 어느 쪽을 미루는지
+
+### Preserved Artifact Scope
+
+- `Setting_Book_Next_Preserved_Artifact_Scope.md`
+
+무엇을 보나:
+
+- 다음 보존 산출물에 실제로 포함할 핵심 파일
+- optional bridge와 conductor-only 문서 구분
+- reader-facing scope에서 production bible scope로 전환할 조건
 
 ## 같이 보면 좋은 허브
 

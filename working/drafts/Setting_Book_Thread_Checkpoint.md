@@ -64,6 +64,7 @@
 - filename decision matrix를 추가해 preview/prototype 이름 유지 기준을 독립 문서로 분리
 - 메인 허브, process hub, status dashboard에도 filename decision 진입선을 추가해 재진입 동선에서 바로 찾을 수 있게 정리
 - body-facing scan으로 Appendix B/C 긴급 승격 후보를 다시 확인해 현재 anchored control 밖의 새 urgent row가 없음을 재확인
+- next preserved artifact scope 문서를 추가해 reader-facing / production bible 선택이 실제 포함 파일 범위로 바로 이어지게 정리
 
 ## Core Files
 
@@ -111,6 +112,7 @@
 - `working/drafts/Setting_Book_Preview_Package_v0.md`
 - `working/drafts/Setting_Book_Filename_Decision_Matrix.md`
 - `working/drafts/Setting_Book_Packaging_Direction_Matrix.md`
+- `working/drafts/Setting_Book_Next_Preserved_Artifact_Scope.md`
 - `working/drafts/Setting_Book_Preview_Readable_v0.md`
 - `working/drafts/Setting_Book_Document_Roles_Map.md`
 - `working/drafts/Setting_Book_Current_Status_Dashboard.md`

@@ -66,8 +66,9 @@
 1. `Setting_Book_Current_Status_Dashboard.md`
 2. `Setting_Book_Release_Readiness_Checklist.md`
 3. `Setting_Book_Filename_Decision_Matrix.md`
-4. `Setting_Book_Assembly_Index.md`
-5. `Setting_Book_Thread_Checkpoint.md`
+4. `Setting_Book_Next_Preserved_Artifact_Scope.md`
+5. `Setting_Book_Assembly_Index.md`
+6. `Setting_Book_Thread_Checkpoint.md`
 
 ## 남은 일
 
@@ -82,6 +83,7 @@
 세부 hold 기준은 `Setting_Book_Release_Readiness_Checklist.md`의 `V1 Hold Breakdown`에서 관리한다.
 `filename / RC naming` 판단은 `Setting_Book_Filename_Decision_Matrix.md`에서 따로 관리한다.
 `layout vs production bible` 방향은 `Setting_Book_Packaging_Direction_Matrix.md`에서 따로 관리한다.
+실제 다음 보존 묶음 범위는 `Setting_Book_Next_Preserved_Artifact_Scope.md`에서 따로 관리한다.
 
 Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Queue`에서 필요한 행만 고른다.
 

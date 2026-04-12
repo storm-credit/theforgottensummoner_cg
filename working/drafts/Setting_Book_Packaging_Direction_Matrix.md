@@ -10,6 +10,8 @@
 먼저 어느 쪽이 다음 산출물인지 고른 뒤,
 그 결정에 맞는 파일명과 패키지 범위를 다시 정한다.
 
+실제 파일 범위는 `Setting_Book_Next_Preserved_Artifact_Scope.md`에서 따로 고정한다.
+
 ## Two Directions
 
 | Direction | Use When | Main Reader | Keep Strong | Do Not Overdo Yet |
