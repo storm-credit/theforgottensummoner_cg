@@ -5,6 +5,30 @@
 이 문서는 현재 설정집 재조합 작업을
 새 대화창으로 넘겨야 할 때 빠르게 이어갈 수 있도록 만든 checkpoint 요약이다.
 
+## Latest Restart Summary
+
+지금 한 줄 상태:
+
+- 설정집은 `shareable preview v0` 안정화 단계다.
+- 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`
+- 압축 reference는 `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
+- 메인 허브에서는 세력/인물/유물/장소/종족 축으로 바로 진입 가능하다.
+- 00-09 허브 위키링크 무결성 스캔은 통과했다.
+- 사용자 작업 파일 `working/crosswalks/Extracted_Item_Candidates.md`는 계속 untouched로 분리 유지한다.
+
+지금 다시 열 필요가 없는 것:
+
+- broad readable-preview redraft
+- 조기 RC rename
+- production bible 확장
+- Appendix B/C의 무근거 전행 확장
+
+다음에 정말 다시 열릴 수 있는 것:
+
+- 다음 body-final item/place/person entry가 생길 때의 row-level evidence 추가
+- layout vs production bible 재판정
+- filename hold 재판정
+
 ## Branch
 
 - `codex/species-framework-side-track`

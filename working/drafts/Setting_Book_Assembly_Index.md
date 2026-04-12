@@ -6,6 +6,14 @@ This index tracks the current setting-book recomposition package.
 
 It is not the final setting book. It is the conductor sheet for turning the chapter drafts into a cleaner, reader-facing setting book while preserving source discipline, canon tiers, and unresolved questions.
 
+## Current Restart Snapshot
+
+- Stable shareable manuscript: `Setting_Book_Preview_Readable_v0.md`
+- Stable compressed reference: `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
+- Main hub now exposes direct faction/people/items/places/species entry routes.
+- 00-09 hub wikilink integrity scan currently passes.
+- `working/crosswalks/Extracted_Item_Candidates.md` remains intentionally untouched by this pass.
+
 ## Current Package State
 
 | Chapter | Draft File | Current State | Assembly Role |
