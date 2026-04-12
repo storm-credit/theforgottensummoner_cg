@@ -124,6 +124,8 @@
 
 ## Recent Commit Line
 
+- `d0ae417 Track production shift watchpoints`
+- `56b14c1 Refresh switch test handoff notes`
 - `0fae028 Add preserved artifact switch test`
 - `c9b909c Refresh preserved artifact handoff state`
 - `b6271eb Link preserved artifact scope from main hub`
@@ -259,3 +261,4 @@
 - next preserved artifact scope 문서 추가까지 `main` 반영 완료.
 - preserved artifact scope 메인 허브 진입선 노출까지 `main` 반영 완료.
 - preserved artifact switch test 추가까지 `main` 반영 완료.
+- production shift watchpoints 추가까지 `main` 반영 완료.
