@@ -102,6 +102,7 @@ Completed checks:
 - Packaging direction now keeps stable shareable preview as the default and does not reopen production bible expansion.
 - Current status dashboard now also records the latest Appendix B/C no-new-row decision.
 - Remaining control docs now use the same stable-preview / v1-gate wording baseline.
+- Document roles map and assembly index now describe core profile bridges as links to deeper reference records rather than older technical-draft phrasing.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -155,6 +156,7 @@ Recommended next sequence:
 - packaging direction stable-preview alignment까지 `main`에 fast-forward push 완료.
 - Appendix B/C dashboard decision까지 `main`에 fast-forward push 완료.
 - remaining control wording alignment까지 `main`에 fast-forward push 완료.
+- bridge role wording alignment까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 

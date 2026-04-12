@@ -78,6 +78,7 @@
 - packaging direction matrix를 stable shareable preview 유지와 no-new-row 결정에 맞춰 정렬
 - current status dashboard에도 최신 Appendix B/C no-new-row 판정을 반영
 - filename matrix, main hub, process hub, preserved artifact scope의 잔여 예전 표현을 현재 stable-preview 결론에 맞게 정렬
+- document roles map과 assembly index의 core profile bridge 설명도 깊은 기준 기록 말투로 정렬
 
 ## Core Files
 
@@ -137,6 +138,7 @@
 
 ## Recent Commit Line
 
+- `1aa6e7f Align bridge role wording`
 - `111419c Align remaining control wording`
 - `253e6a4 Record appendix BC dashboard decision`
 - `9c24acd Align packaging direction with stable preview`
@@ -301,3 +303,4 @@
 - packaging direction stable-preview alignment까지 `main` 반영 완료.
 - Appendix B/C dashboard decision까지 `main` 반영 완료.
 - remaining control wording alignment까지 `main` 반영 완료.
+- bridge role wording alignment까지 `main` 반영 완료.
