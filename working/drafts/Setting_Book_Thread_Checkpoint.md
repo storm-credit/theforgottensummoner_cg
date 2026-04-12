@@ -88,6 +88,7 @@
 - document roles map의 current conductor decision 문구도 `대규모 재작성보다 역할 분리/진입 동선 선명화` 기준으로 정리
 - people/items/places/species 허브에도 축별 `지금 고정된 것 / 아직 안 닫힌 것` 스냅샷을 추가
 - 00-09 허브 전체 위키링크 무결성 스캔을 돌려 missing target이 없음을 확인
+- hub completion checklist에도 링크 무결성 스캔 통과를 완료 기준으로 반영
 
 ## Core Files
 
@@ -147,6 +148,7 @@
 
 ## Recent Commit Line
 
+- `c212ab3 Record hub checklist link scan`
 - `4da25d2 Add axis hub snapshot summaries`
 - `ab2101d Tighten document roles decision wording`
 - `b131f20 Clarify appendix and source hub snapshots`
@@ -329,3 +331,4 @@
 - appendix/source hub snapshot clarification까지 `main` 반영 완료.
 - document roles decision wording tightening까지 `main` 반영 완료.
 - axis hub snapshot summaries까지 `main` 반영 완료.
+- hub checklist link-scan record까지 `main` 반영 완료.
