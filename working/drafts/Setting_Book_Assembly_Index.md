@@ -111,6 +111,7 @@ Completed checks:
 - Appendix hub and source hub now also surface snapshot decisions and clearer source/control-layer wording.
 - Document roles map now uses the same no-broad-redraft wording baseline in its current conductor decision.
 - People/items/places/species hubs now also expose locked vs open axis-specific decisions near the top.
+- A full 00-09 hub wikilink integrity scan passed with no missing Obsidian targets.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

@@ -87,6 +87,7 @@
 - appendix hub와 source hub에도 동일한 snapshot/역할 구분을 추가하고 source-layer 말투를 정렬
 - document roles map의 current conductor decision 문구도 `대규모 재작성보다 역할 분리/진입 동선 선명화` 기준으로 정리
 - people/items/places/species 허브에도 축별 `지금 고정된 것 / 아직 안 닫힌 것` 스냅샷을 추가
+- 00-09 허브 전체 위키링크 무결성 스캔을 돌려 missing target이 없음을 확인
 
 ## Core Files
 
