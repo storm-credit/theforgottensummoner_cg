@@ -17,6 +17,7 @@
 ## 현재 한 줄 결론
 
 설정집은 지금 `shareable preview v0` 단계까지 정리됐다.
+직접 공유 원고는 내부 초안/작업 용어 스캔을 통과한 상태다.
 
 허브와 진입 동선은 마감에 가깝고,
 별도 release-candidate 파일은 아직 만들지 않는다.
@@ -28,8 +29,8 @@
 | Hub navigation | done | 00-08 허브에 재진입 순서가 있고, 역할 지도 / preview / process hub로 복귀 가능하다. |
 | Hub quick indexes | done | 01-08 허브가 질문 기준 첫 클릭 표를 갖고 있어 축/검증/원재료 진입이 짧아졌다. |
 | Document role clarity | done | `Setting_Book_Document_Roles_Map.md`가 reader / reference / appendix / conductor 문서를 구분한다. |
-| Shareable preview | shareable | `Setting_Book_Preview_Readable_v0.md`가 현재 가장 책처럼 읽히는 공유용 preview다. |
-| Core profile bridge | shareable | 세력, 인물, 장소, 유물, 종족 5축 core profile이 preview와 기술 초안 사이를 잇는다. |
+| Shareable preview | shareable | `Setting_Book_Preview_Readable_v0.md`가 현재 가장 책처럼 읽히는 공유용 preview이며, 내부 작업어 스캔을 통과했다. |
+| Core profile bridge | shareable | 세력, 인물, 장소, 유물, 종족 5축 core profile이 preview와 더 깊은 기록 사이를 잇는다. |
 | Appendix A-E control | shareable | A-E 부록 흐름이 있고, high-risk row evidence note와 B/C sample evidence check가 들어갔다. |
 | Compressed reference | shareable | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`는 전체 구조 확인용 reference로 유지한다. |
 | Release-candidate file | controlled hold | RC 파일명/상업용 layout/production bible 방향이 아직 다음 보존 산출물로 확정되지 않았다. |
@@ -96,7 +97,7 @@ Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Que
 
 ## 오케스트라 다음 순서
 
-1. 상태 대시보드와 허브 링크를 고정한다.
+1. 공유용 preview는 현재 안정본으로 두고, 대규모 문장 재작성은 다시 열지 않는다.
 2. 허브 인덱스는 현재 완료 상태로 보고, 필요하면 질문 문장만 미세 수정한다.
 3. filename hold는 matrix 기준으로 유지하고, 조기 RC rename은 다시 열지 않는다.
 4. packaging direction matrix의 switch test를 기준으로 layout vs production bible 방향을 계속 선명하게 유지한다.

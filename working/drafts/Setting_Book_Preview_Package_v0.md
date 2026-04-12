@@ -13,6 +13,7 @@ reader-facing preview 형태로 보여주기 위한 조립 지시서다.
 이 preview package는 release 후보를 만들 때의 읽기 순서와 포함 범위를 정한다.
 
 현재 공유용 preview는 `Setting_Book_Preview_Readable_v0.md`다.
+Latest direct-share QA: the preview now passes the internal draft/work-term scan.
 
 Current naming decision:
 
@@ -41,7 +42,7 @@ Release-candidate trigger:
 | Order | Section | Source File | Include Mode |
 | --- | --- | --- | --- |
 | 1 | Shareable readable preview | `Setting_Book_Preview_Readable_v0.md` | primary shareable manuscript |
-| 2 | Core profile companion set | `Setting_Book_Faction_Core_Profiles_v0.md`, `Setting_Book_People_Core_Profiles_v0.md`, `Setting_Book_Places_Core_Profiles_v0.md`, `Setting_Book_Items_Core_Profiles_v0.md`, `Setting_Book_Species_Core_Profiles_v0.md` | optional bridge set between readable preview and technical drafts |
+| 2 | Core profile companion set | `Setting_Book_Faction_Core_Profiles_v0.md`, `Setting_Book_People_Core_Profiles_v0.md`, `Setting_Book_Places_Core_Profiles_v0.md`, `Setting_Book_Items_Core_Profiles_v0.md`, `Setting_Book_Species_Core_Profiles_v0.md` | optional bridge set between readable preview and deeper reference drafts |
 | 3 | Cover direction and reading promise source | `Setting_Book_Front_Matter_Draft.md` | source support for preview opening |
 | 4 | Reader-facing table of contents | `Setting_Book_Reader_Facing_TOC_Draft.md` | navigation map and future expansion guide |
 | 5 | Public body manuscript source | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | source support for preview body |
@@ -75,7 +76,7 @@ The core profile set currently covers:
 
 These files are not the main shareable manuscript.
 They are bridge documents for collaborators or for the conductor when the readable preview is too broad
-and the technical drafts are too deep.
+and the deeper reference drafts are too deep.
 
 ## Included Appendix Spine
 
@@ -128,7 +129,7 @@ The next preview build should do one of two things:
 
 | Build | Purpose | Next Action |
 | --- | --- | --- |
-| `preview_v0_readable` | Let a reader understand the world tone quickly | polish front matter and public assembly into one smooth read |
+| `preview_v0_readable` | Let a reader understand the world tone quickly | keep as the current stable shareable manuscript; allow only typo or reader-language fixes |
 | `preview_v0_production` | Let a collaborator understand structure and risks | add source notes and body links to Appendix A-E |
 
 Current conductor choice:
@@ -136,6 +137,7 @@ Current conductor choice:
 Treat `preview_v0_readable` as the current shareable preview package.
 
 The package already has enough verification structure.
-The next gain is not another broad content pass.
+The readable preview has completed its front/body terminology and internal-wording polish pass.
+The next gain is not another broad prose pass.
 It comes from either adding only the still-needed row-level evidence notes for v1
 or deciding whether the package should be copied into a separate release-candidate file after v1 gates are tighter.
