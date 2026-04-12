@@ -129,6 +129,8 @@ Recommended next sequence:
 - preview/reference terminology alignment 패스까지 `main`에 fast-forward push 완료.
 - filename decision matrix 추가와 관련 프로세스 문서 반영까지 `main`에 fast-forward push 완료.
 - 메인/프로세스 허브에 filename decision 진입선 노출까지 `main`에 fast-forward push 완료.
+- next preserved artifact scope 문서 추가와 관련 프로세스 문서 반영까지 `main`에 fast-forward push 완료.
+- 메인 허브에 preserved artifact scope 진입선 노출까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 

@@ -124,6 +124,11 @@
 
 ## Recent Commit Line
 
+- `b6271eb Link preserved artifact scope from main hub`
+- `678828b Define next preserved artifact scope`
+- `5680b08 Refresh packaging direction after filename pass`
+- `c8fe2d3 Record appendix evidence scan result`
+- `f981245 Refresh setting book status after filename pass`
 - `a36cac9 Expose filename decisions in setting book hubs`
 - `cd19fc4 Clarify setting book filename decisions`
 - `de6e064 Add packaging direction matrix`
@@ -205,7 +210,7 @@
 ## Recommended Next Queue
 
 1. v1 gate가 더 조여진 뒤 release-candidate file trigger를 다시 판정
-2. layout direction이 실제로 reader-facing layout인지 production bible인지 다시 좁힘
+2. `Setting_Book_Next_Preserved_Artifact_Scope.md` 기준으로 reader-facing scope를 유지할지 production bible scope로 전환할지 다시 좁힘
 3. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
 4. 필요할 때만 Appendix B/C 개별 행 evidence note 추가
 5. 안정 마일스톤마다 `main push gate` 확인
@@ -249,3 +254,5 @@
 - hub completion checklist wording 정합화까지 `main` 반영 완료.
 - filename decision matrix 추가까지 `main` 반영 완료.
 - filename decision 허브 진입선 노출까지 `main` 반영 완료.
+- next preserved artifact scope 문서 추가까지 `main` 반영 완료.
+- preserved artifact scope 메인 허브 진입선 노출까지 `main` 반영 완료.
