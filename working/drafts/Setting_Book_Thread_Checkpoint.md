@@ -148,10 +148,17 @@
 
 ## Recent Commit Line
 
+- `d9434d7 Record hub link scan in dashboard`
+- `34cf61c Refresh hub checklist handoff`
 - `c212ab3 Record hub checklist link scan`
+- `4ce39db Record hub link integrity scan`
+- `b46eee5 Refresh axis hub snapshot handoff`
 - `4da25d2 Add axis hub snapshot summaries`
+- `30ae2b0 Refresh document roles wording handoff`
 - `ab2101d Tighten document roles decision wording`
+- `adee8c1 Refresh appendix source hub handoff`
 - `b131f20 Clarify appendix and source hub snapshots`
+- `2ceb926 Refresh hub snapshot handoff`
 - `139a901 Add hub snapshot summaries`
 - `78c9910 Tighten faction hub wording`
 - `0d48010 Clarify source layer document roles`
@@ -332,3 +339,6 @@
 - document roles decision wording tightening까지 `main` 반영 완료.
 - axis hub snapshot summaries까지 `main` 반영 완료.
 - hub checklist link-scan record까지 `main` 반영 완료.
+- hub link integrity scan record까지 `main` 반영 완료.
+- hub checklist handoff refresh까지 `main` 반영 완료.
+- hub link scan dashboard record까지 `main` 반영 완료.

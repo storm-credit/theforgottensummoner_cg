@@ -176,6 +176,9 @@ Recommended next sequence:
 - document roles decision wording tightening까지 `main`에 fast-forward push 완료.
 - axis hub snapshot summaries까지 `main`에 fast-forward push 완료.
 - hub checklist link-scan record까지 `main`에 fast-forward push 완료.
+- hub link integrity scan record까지 `main`에 fast-forward push 완료.
+- hub checklist handoff refresh까지 `main`에 fast-forward push 완료.
+- hub link scan dashboard record까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
