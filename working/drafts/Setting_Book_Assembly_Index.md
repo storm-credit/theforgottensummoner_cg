@@ -134,6 +134,7 @@ Recommended next sequence:
 - preserved artifact switch test 추가까지 `main`에 fast-forward push 완료.
 - production shift watchpoints 추가까지 `main`에 fast-forward push 완료.
 - reader-facing direct-share boundary 정리까지 `main`에 fast-forward push 완료.
+- reader preview headings and body spine localized for direct-share readability까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
