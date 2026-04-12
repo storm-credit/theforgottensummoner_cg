@@ -81,6 +81,7 @@
 - document roles map과 assembly index의 core profile bridge 설명도 깊은 기준 기록 말투로 정렬
 - public assembly source 서두의 잔여 `기술 초안` 표현을 `깊은 설정 초안`으로 정리
 - current status dashboard에 `지금 고정된 것 / 아직 안 닫힌 것` 요약 블록을 추가
+- front matter / reader-facing TOC / public assembly 상단에 direct-share 원고가 아닌 source/support 층임을 더 명확히 표기
 
 ## Core Files
 
@@ -140,6 +141,7 @@
 
 ## Recent Commit Line
 
+- `0d48010 Clarify source layer document roles`
 - `591bf16 Add locked vs open dashboard summary`
 - `0277173 Align public assembly source wording`
 - `1aa6e7f Align bridge role wording`
@@ -310,3 +312,4 @@
 - bridge role wording alignment까지 `main` 반영 완료.
 - public assembly source wording alignment까지 `main` 반영 완료.
 - locked vs open dashboard summary까지 `main` 반영 완료.
+- source layer document-role clarification까지 `main` 반영 완료.

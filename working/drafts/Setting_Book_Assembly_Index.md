@@ -105,6 +105,7 @@ Completed checks:
 - Document roles map and assembly index now describe core profile bridges as links to deeper reference records rather than older technical-draft phrasing.
 - Public assembly source wording now also uses the deeper-source phrasing baseline.
 - Current status dashboard now separates locked decisions from still-open decisions for quick reentry.
+- Front matter, reader-facing TOC, and public assembly now self-identify as source/support layers rather than direct-share manuscripts.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -161,6 +162,7 @@ Recommended next sequence:
 - bridge role wording alignment까지 `main`에 fast-forward push 완료.
 - public assembly source wording alignment까지 `main`에 fast-forward push 완료.
 - locked vs open dashboard summary까지 `main`에 fast-forward push 완료.
+- source layer document-role clarification까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
