@@ -82,6 +82,7 @@
 - public assembly source 서두의 잔여 `기술 초안` 표현을 `깊은 설정 초안`으로 정리
 - current status dashboard에 `지금 고정된 것 / 아직 안 닫힌 것` 요약 블록을 추가
 - front matter / reader-facing TOC / public assembly 상단에 direct-share 원고가 아닌 source/support 층임을 더 명확히 표기
+- faction hub의 잔여 `세력 구조 초안` 표현을 `세력 구조 기록`으로 정리
 
 ## Core Files
 
@@ -141,6 +142,7 @@
 
 ## Recent Commit Line
 
+- `78c9910 Tighten faction hub wording`
 - `0d48010 Clarify source layer document roles`
 - `591bf16 Add locked vs open dashboard summary`
 - `0277173 Align public assembly source wording`
@@ -313,3 +315,4 @@
 - public assembly source wording alignment까지 `main` 반영 완료.
 - locked vs open dashboard summary까지 `main` 반영 완료.
 - source layer document-role clarification까지 `main` 반영 완료.
+- faction hub wording tightening까지 `main` 반영 완료.
