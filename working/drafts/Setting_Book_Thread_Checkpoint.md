@@ -77,6 +77,7 @@
 - Appendix B/C evidence queue를 재확인해 최신 readable preview polish 이후에도 새 row 추가가 필요 없다고 기록
 - packaging direction matrix를 stable shareable preview 유지와 no-new-row 결정에 맞춰 정렬
 - current status dashboard에도 최신 Appendix B/C no-new-row 판정을 반영
+- filename matrix, main hub, process hub, preserved artifact scope의 잔여 예전 표현을 현재 stable-preview 결론에 맞게 정렬
 
 ## Core Files
 
@@ -136,6 +137,7 @@
 
 ## Recent Commit Line
 
+- `111419c Align remaining control wording`
 - `253e6a4 Record appendix BC dashboard decision`
 - `9c24acd Align packaging direction with stable preview`
 - `941f545 Record appendix BC no new row decision`
@@ -298,3 +300,4 @@
 - Appendix B/C no-new-row decision까지 `main` 반영 완료.
 - packaging direction stable-preview alignment까지 `main` 반영 완료.
 - Appendix B/C dashboard decision까지 `main` 반영 완료.
+- remaining control wording alignment까지 `main` 반영 완료.
