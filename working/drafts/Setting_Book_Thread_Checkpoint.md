@@ -73,6 +73,7 @@
 - `Setting_Book_Preview_Readable_v0.md`의 종족/부록 연결부에서 내부 분류 표현을 독자용 말투로 낮춤
 - `Setting_Book_Preview_Readable_v0.md` 전체에서 내부 초안/작업 용어 스캔을 통과하도록 잔여 표현을 정리
 - status dashboard와 preview package를 직접 공유 안정본 기준으로 정합화하고 대규모 재작성은 닫힌 상태로 표시
+- release readiness의 next gate를 현재 readable preview 안정본 유지와 v1용 evidence/layout/name 결정으로 재정렬
 
 ## Core Files
 
@@ -132,6 +133,7 @@
 
 ## Recent Commit Line
 
+- `79d7380 Clarify release readiness next gates`
 - `5c7db3f Clarify preview stability status`
 - `4b31912 Remove internal draft wording from preview`
 - `8d11ab0 Polish reader preview species appendix bridge`
@@ -286,3 +288,4 @@
 - reader preview species appendix bridge polish까지 `main` 반영 완료.
 - reader preview internal draft wording removal까지 `main` 반영 완료.
 - preview stability status clarification까지 `main` 반영 완료.
+- release readiness next gate clarification까지 `main` 반영 완료.
