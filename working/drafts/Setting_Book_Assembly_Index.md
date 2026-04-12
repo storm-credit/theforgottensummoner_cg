@@ -96,6 +96,7 @@ Completed checks:
 - `Setting_Book_Preview_Readable_v0.md` now has an additional direct-share flow polish pass for the Crossroad Cities and People sections.
 - `Setting_Book_Preview_Readable_v0.md` now has a direct-share language pass for the Species-to-Appendix bridge.
 - `Setting_Book_Preview_Readable_v0.md` now passes the direct-share internal draft/work-term scan.
+- Status dashboard and preview package now mark the readable preview as the stable shareable manuscript instead of reopening broad prose redraft.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -143,6 +144,7 @@ Recommended next sequence:
 - reader preview city and people flow polish까지 `main`에 fast-forward push 완료.
 - reader preview species appendix bridge polish까지 `main`에 fast-forward push 완료.
 - reader preview internal draft wording removal까지 `main`에 fast-forward push 완료.
+- preview stability status clarification까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
