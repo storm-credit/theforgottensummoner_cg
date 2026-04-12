@@ -169,6 +169,8 @@ Current decision:
 
 - no additional B/C row is urgent for preview v0.
 - current body-facing scan across `Setting_Book_Preview_Readable_v0.md`, `Setting_Book_Public_Assembly_Manuscript_Draft.md`, core profiles, and `Prototype_v0` did not surface a new body-final B/C candidate beyond the already anchored Aegis cluster and Port Nexus / Black Cat / Mercenary Gate controls.
+- latest readable-preview polish keeps Goldenmark, official auction house, secret warehouse, Dragonforge, growth items, and ego items as contextual examples or category language rather than new body-final featured entries.
+- therefore, no new Appendix B/C evidence row is added in this pass.
 - v1 evidence work should start from the next promoted body entry, not from the whole appendix table.
 
 ## Conductor Decision
