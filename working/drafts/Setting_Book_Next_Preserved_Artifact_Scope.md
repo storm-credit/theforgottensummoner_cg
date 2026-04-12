@@ -29,10 +29,16 @@
 | Layer | File | Role |
 | --- | --- | --- |
 | main readable manuscript | `Setting_Book_Preview_Readable_v0.md` | 가장 먼저 공유되는 책형 preview |
-| opening source | `Setting_Book_Front_Matter_Draft.md` | subtitle, cover tone, opening promise source |
+| opening support | `Setting_Book_Front_Matter_Draft.md` | subtitle, cover tone, opening promise source; direct-share 원고가 아니라 앞부분 source |
 | readable body source | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | preview 본문의 조립 원고 |
-| reader map | `Setting_Book_Reader_Facing_TOC_Draft.md` | 독자용 구조 안내 |
-| package order guide | `Setting_Book_Preview_Package_v0.md` | 이 묶음을 어떤 순서와 범위로 공유할지 관리 |
+| reader map support | `Setting_Book_Reader_Facing_TOC_Draft.md` | 독자용 구조 안내 source; `Internal source` 표기는 conductor용으로 유지 |
+| package order guide | `Setting_Book_Preview_Package_v0.md` | 이 묶음을 어떤 순서와 범위로 공유할지 관리; direct-share 원고가 아님 |
+
+Direct-share rule:
+
+- 외부에 먼저 보내는 파일은 `Setting_Book_Preview_Readable_v0.md` 하나로 둔다.
+- `Front_Matter`, `Reader_Facing_TOC`, `Public_Assembly`는 preview를 받치는 source/support 층으로 둔다.
+- `Internal source`, `Archived`, `Production Notes` 같은 표기가 남아 있는 support 문서는 독자에게 바로 보내지 않는다.
 
 ### Optional Bridge
 

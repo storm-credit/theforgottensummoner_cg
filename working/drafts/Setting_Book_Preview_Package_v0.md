@@ -120,7 +120,7 @@ If this package is shared with a collaborator:
 1. Share `Setting_Book_Preview_Readable_v0.md` first.
 2. Share the relevant `Core Profiles` file next if they need one axis in a denser form.
 3. Share `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` only if they need verification context.
-4. Keep `Setting_Book_Release_Readiness_Checklist.md`, `Setting_Book_Assembly_Index.md`, and `Setting_Book_Preview_Package_v0.md` as conductor documents unless the collaborator is helping with structure.
+4. Keep `Setting_Book_Front_Matter_Draft.md`, `Setting_Book_Reader_Facing_TOC_Draft.md`, `Setting_Book_Release_Readiness_Checklist.md`, `Setting_Book_Assembly_Index.md`, and `Setting_Book_Preview_Package_v0.md` as support/conductor documents unless the collaborator is helping with structure.
 
 ## Next Preview Build
 
