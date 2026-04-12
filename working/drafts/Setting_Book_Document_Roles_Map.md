@@ -92,4 +92,4 @@
 - filename hold 판단은 `Setting_Book_Filename_Decision_Matrix.md`에서 다시 연다
 - next preserved artifact 범위 판단은 `Setting_Book_Next_Preserved_Artifact_Scope.md`에서 다시 연다
 - RC 이름 논의는 나중에 packaging이 다음 보존 산출물이 될 때 다시 연다
-- 지금 단계의 gain은 broad redraft보다 역할 분리와 진입 동선 선명화에서 나온다
+- 지금 단계의 gain은 대규모 재작성보다 역할 분리와 진입 동선 선명화에서 나온다
