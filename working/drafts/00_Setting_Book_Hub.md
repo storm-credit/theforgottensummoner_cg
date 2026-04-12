@@ -35,6 +35,18 @@
 2. `Setting_Book_Preview_Readable_v0.md`
 3. `07_Setting_Book_Process_Hub.md`
 
+지금 고정된 것:
+
+- 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`
+- 압축 reference는 `Prototype_v0`
+- Appendix B/C는 현재 anchored row만 유지
+
+아직 안 닫힌 것:
+
+- RC 파일명을 따로 만들지
+- 다음 보존 산출물을 reader-facing layout으로 둘지, production bible로 돌릴지
+- 나중에 body-final entry가 생길 때만 Appendix B/C row를 더 추가할지
+
 ## 1. 지금 가장 읽기 쉬운 공유용 preview
 
 - `Setting_Book_Preview_Readable_v0.md`

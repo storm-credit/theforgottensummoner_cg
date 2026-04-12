@@ -24,6 +24,18 @@
 2. `Setting_Book_Assembly_Index.md`
 3. `Setting_Book_Thread_Checkpoint.md`
 
+지금 고정된 것:
+
+- shareable preview는 `Setting_Book_Preview_Readable_v0.md`
+- `Prototype_v0`는 압축 reference 역할 유지
+- Appendix B/C는 현재 anchored row만 유지
+
+아직 안 닫힌 것:
+
+- filename hold를 언제 다시 열지
+- packaging 방향을 언제 production bible로 돌릴지
+- row-level evidence를 다음 promoted body entry에서만 추가할지
+
 ## 핵심 관리 문서
 
 ### Assembly Index
