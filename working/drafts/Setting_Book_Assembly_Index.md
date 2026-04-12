@@ -136,6 +136,7 @@ Recommended next sequence:
 - reader-facing direct-share boundary 정리까지 `main`에 fast-forward push 완료.
 - reader preview headings and body spine localized for direct-share readability까지 `main`에 fast-forward push 완료.
 - reader preview prose rhythm polish까지 `main`에 fast-forward push 완료.
+- reader preview explanatory flow smoothing까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
