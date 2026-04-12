@@ -110,6 +110,7 @@ Completed checks:
 - Main hub and process hub now surface locked vs open decisions without requiring the dashboard first.
 - Appendix hub and source hub now also surface snapshot decisions and clearer source/control-layer wording.
 - Document roles map now uses the same no-broad-redraft wording baseline in its current conductor decision.
+- Roles map, next preserved artifact scope, reassembly source map, and public voice/support docs now also align to the stable-preview baseline without implying broad reassembly is the next active move.
 - People/items/places/species hubs now also expose locked vs open axis-specific decisions near the top.
 - A full 00-09 hub wikilink integrity scan passed with no missing Obsidian targets.
 - Hub completion checklist now treats the 00-09 wikilink integrity scan as part of hub-finish evidence.
@@ -179,6 +180,7 @@ Recommended next sequence:
 - hub link integrity scan record까지 `main`에 fast-forward push 완료.
 - hub checklist handoff refresh까지 `main`에 fast-forward push 완료.
 - hub link scan dashboard record까지 `main`에 fast-forward push 완료.
+- support-doc stable-preview baseline alignment까지 작업 브랜치 `codex/species-framework-side-track`에 push 완료.
 
 ## Conductor Decision
 

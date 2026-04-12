@@ -222,6 +222,7 @@
 - `a24c3f9 Align setting book preview terminology`
 - `11a0e98 Refresh setting book checkpoint commits`
 - `081581e Fix setting book hub section count`
+- `1afc935 Align support docs with stable preview baseline`
 - `b05e6db Record latest setting book role passes`
 - `8fa7646 Clarify setting book package roles`
 - `aa77b2f Refresh setting book navigation checkpoints`
@@ -342,3 +343,4 @@
 - hub link integrity scan record까지 `main` 반영 완료.
 - hub checklist handoff refresh까지 `main` 반영 완료.
 - hub link scan dashboard record까지 `main` 반영 완료.
+- support-doc stable-preview baseline alignment까지 작업 브랜치 `codex/species-framework-side-track` 반영 완료.
