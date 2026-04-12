@@ -124,6 +124,8 @@
 
 ## Recent Commit Line
 
+- `0fae028 Add preserved artifact switch test`
+- `c9b909c Refresh preserved artifact handoff state`
 - `b6271eb Link preserved artifact scope from main hub`
 - `678828b Define next preserved artifact scope`
 - `5680b08 Refresh packaging direction after filename pass`
@@ -256,3 +258,4 @@
 - filename decision 허브 진입선 노출까지 `main` 반영 완료.
 - next preserved artifact scope 문서 추가까지 `main` 반영 완료.
 - preserved artifact scope 메인 허브 진입선 노출까지 `main` 반영 완료.
+- preserved artifact switch test 추가까지 `main` 반영 완료.
