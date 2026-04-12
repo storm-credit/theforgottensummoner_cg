@@ -15,6 +15,7 @@
 - [[09_Setting_Book_Hub_Completion_Checklist]]
 - [[Setting_Book_Current_Status_Dashboard]]
 - [[Setting_Book_Filename_Decision_Matrix]]
+- [[Setting_Book_Next_Preserved_Artifact_Scope]]
 
 ## 이 문서부터 보면 됨
 
@@ -46,6 +47,7 @@
 - 지금 어디까지 정리됐는지 보고 싶으면 `07_Setting_Book_Process_Hub.md`
 - 한 화면 상태판을 보고 싶으면 `Setting_Book_Current_Status_Dashboard.md`
 - 파일명을 왜 아직 안 바꾸는지 보고 싶으면 `Setting_Book_Filename_Decision_Matrix.md`
+- 다음 보존 산출물 범위를 보고 싶으면 `Setting_Book_Next_Preserved_Artifact_Scope.md`
 - 원재료까지 거슬러 올라가고 싶으면 `08_Setting_Book_Source_Hub.md`
 - 허브 기준 자체를 확인하고 싶으면 `09_Setting_Book_Hub_Completion_Checklist.md`
 - 어떤 문서가 무슨 역할인지 먼저 보고 싶으면 `Setting_Book_Document_Roles_Map.md`
@@ -84,6 +86,7 @@
 - `Setting_Book_Release_Readiness_Checklist.md`
 - `Setting_Book_Preview_Package_v0.md`
 - `Setting_Book_Filename_Decision_Matrix.md`
+- `Setting_Book_Next_Preserved_Artifact_Scope.md`
 
 이 파일들은 “읽는 책”이 아니라
 오케스트라가 작업을 관리하는 문서다.
@@ -114,5 +117,6 @@
 - 진행 상황: `07_Setting_Book_Process_Hub.md`
 - 현재 상태판: `Setting_Book_Current_Status_Dashboard.md`
 - 파일명 판단: `Setting_Book_Filename_Decision_Matrix.md`
+- 다음 보존 범위: `Setting_Book_Next_Preserved_Artifact_Scope.md`
 - 원재료 추적: `08_Setting_Book_Source_Hub.md`
 - 전체 압축본: `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
