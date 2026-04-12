@@ -26,7 +26,7 @@
 | --- | --- | --- |
 | Role separation | 이 이름이 preview / reference / conductor 역할을 섞지 않는가 | keep current names |
 | Reader clarity | 지금 독자나 협업자에게 가장 덜 헷갈리는 이름인가 | `Preview_Readable_v0`가 가장 명확함 |
-| Preserved artifact level | 다음 산출물이 broad draft가 아니라 보존 가능한 package인가 | 아직 hold |
+| Preserved artifact level | 다음 산출물이 임시 초안이 아니라 보존 가능한 package인가 | 아직 hold |
 | Cross-document sync | front matter, preview, prototype, release gate가 같은 naming 결정을 가리키는가 | 아직 부분 정렬 상태 |
 
 ## Why The Current Names Stay

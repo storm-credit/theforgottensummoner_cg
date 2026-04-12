@@ -62,9 +62,9 @@
 
 무엇을 보나:
 
-- 지금 release 후보로 볼 수 있는지
+- 지금 shareable preview를 유지하는 상태인지
 - body / appendix crosswalk
-- 남은 polishing 항목
+- 남은 v1 gate 항목
 
 ### Preview Package
 
@@ -72,7 +72,7 @@
 
 무엇을 보나:
 
-- readable preview를 어떤 순서로 공유할지
+- readable preview를 어떤 순서로 안내하고 공유할지
 - shareable / conductor-only 문서 구분
 
 ### Filename Decision

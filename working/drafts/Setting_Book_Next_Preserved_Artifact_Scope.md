@@ -87,8 +87,8 @@ reader-facing layout scope에서는
 - 별도 RC 파일 복제
 - 상업용 판형 확정본
 - production bible 이름의 메인 패키지
-- broad appendix source-note expansion
-- `Setting_Book_Chapter_0_*`부터 `Setting_Book_Chapter_8_*`까지의 기술 초안 직결 편입
+- appendix source-note 전면 확장
+- `Setting_Book_Chapter_0_*`부터 `Setting_Book_Chapter_8_*`까지의 깊은 설정 초안 직결 편입
 
 ## Scope B. Production Bible
 
