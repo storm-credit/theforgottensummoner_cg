@@ -87,6 +87,7 @@
 실제 다음 보존 묶음 범위는 `Setting_Book_Next_Preserved_Artifact_Scope.md`에서 따로 관리한다.
 
 Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Queue`에서 필요한 행만 고른다.
+최신 readable preview polish 이후에는 새 B/C row를 추가하지 않는 것으로 판정했다.
 
 ## 하지 말아야 할 일
 
