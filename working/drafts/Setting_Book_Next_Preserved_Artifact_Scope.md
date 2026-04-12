@@ -20,6 +20,18 @@
 - 현재 shareable preview를 다음 보존 산출물의 중심으로 본다는 뜻이다.
 - production bible 확장은 실제 필요가 생길 때만 다시 연다.
 
+지금 고정된 것:
+
+- 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`
+- `Front_Matter`, `Reader_Facing_TOC`, `Public_Assembly`는 source/support 층이다
+- verification-only 문서는 본패키지 밖에 둔다
+
+아직 안 닫힌 것:
+
+- 다음 보존 산출물의 파일명
+- 실제 layout 포맷을 어디까지 고정할지
+- production bible 전환 시점
+
 ## Scope A. Reader-Facing Layout
 
 ### Core Package

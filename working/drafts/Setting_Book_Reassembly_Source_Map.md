@@ -6,6 +6,10 @@
 목적은 새 설정을 발명하는 것이 아니라,
 이미 정리된 `cg` 기준 문서들을 설정집 목차로 안전하게 재배열하는 것이다.
 
+현재 기준에서 이 문서는 `직접 공유 원고`가 아니라
+장별 재조립을 다시 열 때 참조하는 source discipline map으로 둔다.
+안정 공유본은 계속 `Setting_Book_Preview_Readable_v0.md`다.
+
 ## Source Priority
 
 설정집 재조합은 아래 순서로 읽는다.
@@ -54,15 +58,19 @@
 
 ## Next Assembly Queue
 
-1. `8. Register Appendix` 본문 1차 작성.
-2. 설정집 0-8장 상호 용어 점검.
-3. 장별 appendix 후보와 본문 후보 분리.
-4. 최종 설정집 조립용 index 작성.
+1. 장별 재조립을 다시 열어야 할 때 `8. Register Appendix` source lane부터 재개.
+2. 재개 시 설정집 0-8장 상호 용어 점검.
+3. 재개 시 장별 appendix 후보와 본문 후보 분리.
+4. 재개 시 최종 설정집 조립용 index와 연결.
 
 ## Conductor Decision
 
-현재 단계는 설정집 본문 초안 0-7장 작성 이후의 appendix 조립 단계다.
+현재 이 문서는 `재조립을 다시 시작할 때의 source 순서`를 잠가 두는 용도다.
 
-다음 실제 산출물은
-`working/drafts/Setting_Book_Chapter_8_Register_Appendix_Draft.md`로 만들고,
-본문 확장 전까지는 source map의 primary / secondary source 순서를 넘지 않는다.
+지금 실제 공유 기준은 `Setting_Book_Preview_Readable_v0.md`를 안정 공유본으로 유지하는 쪽이고,
+넓은 재조립이나 장별 확장은 다시 열릴 때만 이 source map을 따라간다.
+
+그 재조립이 다시 열리면
+가장 안전한 다음 출발점은
+`working/drafts/Setting_Book_Chapter_8_Register_Appendix_Draft.md`이며,
+그 전까지는 source map의 primary / secondary source 순서를 넘지 않는다.

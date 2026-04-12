@@ -4,7 +4,7 @@
 
 이 문서는 설정집 최종 본문 톤을 시험하기 위한 독자용 샘플이다.
 
-기술 초안의 상태 라벨, 검증 큐, source priority, appendix 구조를 그대로 노출하지 않고,
+깊은 설정 기록의 상태 라벨, 검증 큐, source priority, appendix 구조를 그대로 노출하지 않고,
 같은 내용을 독자와 협업자가 읽기 쉬운 설정집 문체로 바꾸는 방향을 확인한다.
 
 ## Opening Sample: How to Read This World
@@ -94,4 +94,3 @@
 ## Next Use
 
 이 톤이 맞다면 다음 단계는 같은 방식으로 다섯 대륙 전체를 `Part I` 독자용 본문으로 확장하는 것이다.
-

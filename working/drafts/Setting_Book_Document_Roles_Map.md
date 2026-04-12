@@ -18,14 +18,14 @@
 | --- | --- | --- |
 | `Setting_Book_Preview_Readable_v0.md` | 현재 공유용 readable preview | 누군가에게 먼저 보여 줄 때 |
 | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | 본문+부록을 한 파일에 압축한 reference | 전체 구조를 한 번에 점검할 때 |
-| `Setting_Book_Public_Assembly_Manuscript_Draft.md` | reader-facing body source manuscript | preview 본문이 어디서 조립됐는지 볼 때 |
-| `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | technical appendix source manuscript | 검증 근거와 unresolved risk를 확인할 때 |
+| `Setting_Book_Public_Assembly_Manuscript_Draft.md` | readable body source manuscript | preview 본문이 어디서 조립됐는지 볼 때 |
+| `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | appendix verification source manuscript | 검증 근거와 unresolved risk를 확인할 때 |
 | `Setting_Book_Front_Matter_Draft.md` | 표지 톤, subtitle, opening promise source | 설정집 첫인상과 약속 문구를 맞출 때 |
 | `Setting_Book_Faction_Core_Profiles_v0.md` | faction bridge sheet | readable preview와 더 깊은 설정 초안 사이를 메울 때 |
 | `Setting_Book_People_Core_Profiles_v0.md` | people bridge sheet | 인물 축만 더 조밀하게 볼 때 |
 | `Setting_Book_Places_Core_Profiles_v0.md` | places bridge sheet | 장소 축만 더 조밀하게 볼 때 |
 | `Setting_Book_Items_Core_Profiles_v0.md` | items bridge sheet | 유물/아이템 축을 빠르게 점검할 때 |
-| `Setting_Book_Species_Core_Profiles_v0.md` | species bridge sheet | 종족 분류 축을 빠르게 점검할 때 |
+| `Setting_Book_Species_Core_Profiles_v0.md` | species bridge sheet | 종족, 혈통, 변이 상태 축을 빠르게 점검할 때 |
 | `Setting_Book_Release_Readiness_Checklist.md` | release gate 판단표 | 지금을 v1 또는 RC로 불러도 되는지 점검할 때 |
 | `Setting_Book_Preview_Package_v0.md` | shareable preview package order guide | 어떤 파일을 어떤 순서로 공유할지 고를 때 |
 | `Setting_Book_Filename_Decision_Matrix.md` | filename decision matrix | 왜 preview / prototype 이름을 아직 유지하는지 확인할 때 |
@@ -93,3 +93,17 @@
 - next preserved artifact 범위 판단은 `Setting_Book_Next_Preserved_Artifact_Scope.md`에서 다시 연다
 - RC 이름 논의는 나중에 packaging이 다음 보존 산출물이 될 때 다시 연다
 - 지금 단계의 gain은 대규모 재작성보다 역할 분리와 진입 동선 선명화에서 나온다
+
+## Locked vs Open
+
+지금 고정된 것:
+
+- 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`
+- 압축 reference는 `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
+- `Front_Matter`, `Reader_Facing_TOC`, `Public_Assembly`는 source/support 층이다
+
+아직 안 닫힌 것:
+
+- 다음 보존 산출물의 파일명과 layout 방향
+- production bible 전환 시점
+- row-level evidence를 언제 더 증설할지
