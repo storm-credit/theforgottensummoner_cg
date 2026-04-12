@@ -112,6 +112,7 @@ Completed checks:
 - Document roles map now uses the same no-broad-redraft wording baseline in its current conductor decision.
 - Roles map, next preserved artifact scope, reassembly source map, and public voice/support docs now also align to the stable-preview baseline without implying broad reassembly is the next active move.
 - People/items/places/species hubs now also expose locked vs open axis-specific decisions near the top.
+- Main hub now also exposes direct faction/people/items/places/species entry routes for quicker Obsidian reentry.
 - A full 00-09 hub wikilink integrity scan passed with no missing Obsidian targets.
 - Hub completion checklist now treats the 00-09 wikilink integrity scan as part of hub-finish evidence.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
@@ -181,6 +182,7 @@ Recommended next sequence:
 - hub checklist handoff refresh까지 `main`에 fast-forward push 완료.
 - hub link scan dashboard record까지 `main`에 fast-forward push 완료.
 - support-doc stable-preview baseline alignment까지 `main`에 fast-forward push 완료.
+- main hub direct axis entry-route improvement까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 

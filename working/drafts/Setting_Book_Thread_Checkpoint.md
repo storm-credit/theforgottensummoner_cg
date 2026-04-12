@@ -214,6 +214,7 @@
 - `38c7688 Add setting book restart route`
 - `df351a4 Refresh setting book latest checkpoint`
 - `13b72e9 Tighten setting book roles map wording`
+- `a889644 Improve setting book hub entry routes`
 - `244fa00 Polish setting book preview package language`
 - `3878f71 Tighten setting book preview package wording`
 - `b72425a Refine setting book reference wording`
@@ -344,3 +345,4 @@
 - hub checklist handoff refresh까지 `main` 반영 완료.
 - hub link scan dashboard record까지 `main` 반영 완료.
 - support-doc stable-preview baseline alignment까지 `main` 반영 완료.
+- main hub direct axis entry-route improvement까지 `main` 반영 완료.

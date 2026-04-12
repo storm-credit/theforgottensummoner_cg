@@ -40,7 +40,7 @@
 
 | Area | Current Status | Why |
 | --- | --- | --- |
-| Hub navigation | done | 00-08 허브에 재진입 순서가 있고, 역할 지도 / preview / process hub로 복귀 가능하다. |
+| Hub navigation | done | 00-08 허브에 재진입 순서가 있고, 메인 허브에서 세력/인물/유물/장소/종족 축으로도 바로 갈 수 있다. |
 | Hub quick indexes | done | 01-08 허브가 질문 기준 첫 클릭 표를 갖고 있어 축/검증/원재료 진입이 짧아졌다. |
 | Document role clarity | done | `Setting_Book_Document_Roles_Map.md`와 관련 support/source 문서가 reader / reference / appendix / conductor 경계를 같은 기준으로 구분한다. |
 | Shareable preview | shareable | `Setting_Book_Preview_Readable_v0.md`가 현재 가장 책처럼 읽히는 공유용 preview이며, 내부 작업어 스캔을 통과했다. |
