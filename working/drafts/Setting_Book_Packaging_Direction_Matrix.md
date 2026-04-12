@@ -91,6 +91,25 @@
 4. RC file trigger를 다시 판정할 때
 5. 위 `Operational Switch Test`에서 production bible 쪽 답이 둘 이상 동시에 강해질 때
 
+## Current Watchpoints
+
+production bible 전환 신호는
+아무 데서나 오는 것이 아니라
+아래 문서층에서 먼저 뚜렷해질 가능성이 높다.
+
+| Watchpoint | What To Watch | If It Strengthens |
+| --- | --- | --- |
+| `Setting_Book_Preview_Package_v0.md` | `preview_v0_production`이 실제 다음 build로 올라오는지 | production bible 쪽 재판정 |
+| `Setting_Book_Release_Readiness_Checklist.md` | source-note density와 packaging artifact hold가 실제 다음 작업으로 올라오는지 | production bible 쪽 재판정 |
+| `Setting_Book_Reader_Facing_TOC_Draft.md` | reader, artist, composer, adaptation partner용 활용이 reader-facing 설명보다 더 강해지는지 | production bible 쪽 재판정 |
+| `Setting_Book_Front_Matter_Draft.md` | adaptation 기획자용 약속이 책형 소개보다 더 앞에 오기 시작하는지 | production bible 쪽 재판정 |
+| core profile + appendix control docs | optional bridge가 아니라 본패키지 전달물이 되는지 | production bible scope 전환 검토 |
+
+현재 watchpoint 판정:
+
+- 아직은 `watchpoint exists` 상태지 `watchpoint has flipped` 상태는 아니다.
+- 따라서 switch test 기본값은 계속 reader-facing layout이다.
+
 ## Current One-Line Call
 
 지금은 `shareable preview 유지 + packaging decision 선명화`가 맞고,
