@@ -71,6 +71,7 @@
 - `Setting_Book_Preview_Readable_v0.md`의 설명형 반복과 전환 문장을 더 자연스럽게 정리
 - `Setting_Book_Preview_Readable_v0.md`의 도시/인물 파트 반복 표현을 줄이고 독자용 문장 흐름을 추가로 정리
 - `Setting_Book_Preview_Readable_v0.md`의 종족/부록 연결부에서 내부 분류 표현을 독자용 말투로 낮춤
+- `Setting_Book_Preview_Readable_v0.md` 전체에서 내부 초안/작업 용어 스캔을 통과하도록 잔여 표현을 정리
 
 ## Core Files
 
@@ -130,6 +131,7 @@
 
 ## Recent Commit Line
 
+- `4b31912 Remove internal draft wording from preview`
 - `8d11ab0 Polish reader preview species appendix bridge`
 - `a68d733 Polish reader preview city and people flow`
 - `7505ddd Smooth reader preview explanatory flow`
@@ -280,3 +282,4 @@
 - reader preview explanatory flow smoothing까지 `main` 반영 완료.
 - reader preview city and people flow polish까지 `main` 반영 완료.
 - reader preview species appendix bridge polish까지 `main` 반영 완료.
+- reader preview internal draft wording removal까지 `main` 반영 완료.
