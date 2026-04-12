@@ -79,6 +79,7 @@
 - current status dashboard에도 최신 Appendix B/C no-new-row 판정을 반영
 - filename matrix, main hub, process hub, preserved artifact scope의 잔여 예전 표현을 현재 stable-preview 결론에 맞게 정렬
 - document roles map과 assembly index의 core profile bridge 설명도 깊은 기준 기록 말투로 정렬
+- public assembly source 서두의 잔여 `기술 초안` 표현을 `깊은 설정 초안`으로 정리
 
 ## Core Files
 
@@ -138,6 +139,7 @@
 
 ## Recent Commit Line
 
+- `0277173 Align public assembly source wording`
 - `1aa6e7f Align bridge role wording`
 - `111419c Align remaining control wording`
 - `253e6a4 Record appendix BC dashboard decision`
@@ -304,3 +306,4 @@
 - Appendix B/C dashboard decision까지 `main` 반영 완료.
 - remaining control wording alignment까지 `main` 반영 완료.
 - bridge role wording alignment까지 `main` 반영 완료.
+- public assembly source wording alignment까지 `main` 반영 완료.
