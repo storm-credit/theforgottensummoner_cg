@@ -85,6 +85,7 @@
 - faction hub의 잔여 `세력 구조 초안` 표현을 `세력 구조 기록`으로 정리
 - main hub와 process hub 상단에도 `지금 고정된 것 / 아직 안 닫힌 것` 스냅샷을 추가
 - appendix hub와 source hub에도 동일한 snapshot/역할 구분을 추가하고 source-layer 말투를 정렬
+- document roles map의 current conductor decision 문구도 `대규모 재작성보다 역할 분리/진입 동선 선명화` 기준으로 정리
 
 ## Core Files
 
@@ -144,6 +145,7 @@
 
 ## Recent Commit Line
 
+- `ab2101d Tighten document roles decision wording`
 - `b131f20 Clarify appendix and source hub snapshots`
 - `139a901 Add hub snapshot summaries`
 - `78c9910 Tighten faction hub wording`
@@ -322,3 +324,4 @@
 - faction hub wording tightening까지 `main` 반영 완료.
 - hub snapshot summaries까지 `main` 반영 완료.
 - appendix/source hub snapshot clarification까지 `main` 반영 완료.
+- document roles decision wording tightening까지 `main` 반영 완료.
