@@ -22,6 +22,19 @@
 허브와 진입 동선은 마감에 가깝고,
 별도 release-candidate 파일은 아직 만들지 않는다.
 
+## 지금 고정된 것
+
+- 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`로 유지한다.
+- `Prototype_v0`는 압축 reference 역할로 유지한다.
+- Appendix B/C는 현재 anchored row만 유지하고, 최신 preview 기준으로 새 row를 추가하지 않는다.
+- 허브 단계는 사실상 마감 상태로 보고, 필요하면 질문 문장만 미세 수정한다.
+
+## 아직 안 닫힌 것
+
+- 별도 RC 파일명을 만들지, 현재 preview 이름을 더 오래 유지할지
+- 다음 보존 산출물을 reader-facing layout으로 둘지, production bible로 돌릴지
+- Appendix B/C에서 나중에 정말 body-final entry가 생길 때 추가 evidence row가 필요한지
+
 ## 구간별 판정
 
 | Area | Current Status | Why |
