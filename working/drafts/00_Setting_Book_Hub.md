@@ -29,6 +29,14 @@
 - 세력부터 보기: `01_Setting_Book_Faction_Hub.md`
 - 검증부터 보기: `06_Setting_Book_Appendix_Hub.md`
 
+축별로 바로 들어가기:
+
+- 세력: `01_Setting_Book_Faction_Hub.md`
+- 인물: `02_Setting_Book_People_Hub.md`
+- 유물: `03_Setting_Book_Items_Hub.md`
+- 장소: `04_Setting_Book_Places_Hub.md`
+- 종족: `05_Setting_Book_Species_Hub.md`
+
 헷갈릴 때 재진입 순서:
 
 1. `Setting_Book_Document_Roles_Map.md`
@@ -73,7 +81,7 @@
 - 종족: `Setting_Book_Species_Core_Profiles_v0.md`
 
 이 다섯 문서는
-허브와 깊은 설정 초안 사이의 중간층이다.
+허브와 깊은 설정 기록 사이의 중간층이다.
 책처럼 읽는 버전과 더 깊은 기준 기록 사이를 이어 주는 압축 가이드로 쓴다.
 
 ## 4. 본문 뒤에 붙는 검증용 부록
@@ -82,7 +90,7 @@
 
 이 파일은 공유용 preview 뒤에 붙는 검증용 부록이다.
 왜 아직 확정하지 않은 항목이 있는지,
-이름 충돌, 유물 승격, 종족 분류를 어떻게 조심하는지 정리한다.
+이름 충돌, 유물 승격 판단, 종족/혈통/상태 구분을 어떻게 조심하는지 정리한다.
 
 ## 5. 전체를 한 파일로 압축한 reference
 
