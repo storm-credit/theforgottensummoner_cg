@@ -107,6 +107,7 @@ Completed checks:
 - Current status dashboard now separates locked decisions from still-open decisions for quick reentry.
 - Front matter, reader-facing TOC, and public assembly now self-identify as source/support layers rather than direct-share manuscripts.
 - Faction hub now uses the same stable wording baseline for faction-structure references.
+- Main hub and process hub now surface locked vs open decisions without requiring the dashboard first.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -165,6 +166,7 @@ Recommended next sequence:
 - locked vs open dashboard summary까지 `main`에 fast-forward push 완료.
 - source layer document-role clarification까지 `main`에 fast-forward push 완료.
 - faction hub wording tightening까지 `main`에 fast-forward push 완료.
+- hub snapshot summaries까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
