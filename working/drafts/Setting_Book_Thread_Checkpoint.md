@@ -67,6 +67,7 @@
 - next preserved artifact scope 문서를 추가해 reader-facing / production bible 선택이 실제 포함 파일 범위로 바로 이어지게 정리
 - reader-facing direct-share boundary를 정리해 `Preview_Readable_v0`는 직접 공유 원고, `Front_Matter` / `Reader_Facing_TOC` / `Public_Assembly`는 support/source 층으로 분리
 - `Setting_Book_Preview_Readable_v0.md`의 직접 공유용 제목/목차/파트명을 한국어 독자용 흐름으로 정리
+- `Setting_Book_Preview_Readable_v0.md`의 유물/종족 파트 문장 리듬과 직접 공유용 용어를 추가로 정리
 
 ## Core Files
 
@@ -126,6 +127,7 @@
 
 ## Recent Commit Line
 
+- `bcee615 Polish reader preview prose rhythm`
 - `a0ace34 Localize reader preview headings`
 - `20d8497 Polish reader facing support boundaries`
 - `d0ae417 Track production shift watchpoints`
@@ -268,3 +270,4 @@
 - production shift watchpoints 추가까지 `main` 반영 완료.
 - reader-facing direct-share boundary 정리까지 `main` 반영 완료.
 - reader preview headings 한국어 정리까지 `main` 반영 완료.
+- reader preview prose rhythm polish까지 `main` 반영 완료.
