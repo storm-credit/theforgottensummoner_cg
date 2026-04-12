@@ -98,6 +98,7 @@ Completed checks:
 - `Setting_Book_Preview_Readable_v0.md` now passes the direct-share internal draft/work-term scan.
 - Status dashboard and preview package now mark the readable preview as the stable shareable manuscript instead of reopening broad prose redraft.
 - Release readiness now points next work toward v1 evidence/layout/name decisions instead of broad readable-preview rebuilding.
+- Appendix B/C evidence queue was rechecked after the readable-preview polish, and no new row was added for preview v0.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -147,6 +148,7 @@ Recommended next sequence:
 - reader preview internal draft wording removal까지 `main`에 fast-forward push 완료.
 - preview stability status clarification까지 `main`에 fast-forward push 완료.
 - release readiness next gate clarification까지 `main`에 fast-forward push 완료.
+- Appendix B/C no-new-row decision까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
