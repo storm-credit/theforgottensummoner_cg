@@ -76,6 +76,7 @@
 - release readiness의 next gate를 현재 readable preview 안정본 유지와 v1용 evidence/layout/name 결정으로 재정렬
 - Appendix B/C evidence queue를 재확인해 최신 readable preview polish 이후에도 새 row 추가가 필요 없다고 기록
 - packaging direction matrix를 stable shareable preview 유지와 no-new-row 결정에 맞춰 정렬
+- current status dashboard에도 최신 Appendix B/C no-new-row 판정을 반영
 
 ## Core Files
 
@@ -135,6 +136,7 @@
 
 ## Recent Commit Line
 
+- `253e6a4 Record appendix BC dashboard decision`
 - `9c24acd Align packaging direction with stable preview`
 - `941f545 Record appendix BC no new row decision`
 - `79d7380 Clarify release readiness next gates`
@@ -295,3 +297,4 @@
 - release readiness next gate clarification까지 `main` 반영 완료.
 - Appendix B/C no-new-row decision까지 `main` 반영 완료.
 - packaging direction stable-preview alignment까지 `main` 반영 완료.
+- Appendix B/C dashboard decision까지 `main` 반영 완료.

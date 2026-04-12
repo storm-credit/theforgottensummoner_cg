@@ -100,6 +100,7 @@ Completed checks:
 - Release readiness now points next work toward v1 evidence/layout/name decisions instead of broad readable-preview rebuilding.
 - Appendix B/C evidence queue was rechecked after the readable-preview polish, and no new row was added for preview v0.
 - Packaging direction now keeps stable shareable preview as the default and does not reopen production bible expansion.
+- Current status dashboard now also records the latest Appendix B/C no-new-row decision.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -151,6 +152,7 @@ Recommended next sequence:
 - release readiness next gate clarification까지 `main`에 fast-forward push 완료.
 - Appendix B/C no-new-row decision까지 `main`에 fast-forward push 완료.
 - packaging direction stable-preview alignment까지 `main`에 fast-forward push 완료.
+- Appendix B/C dashboard decision까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
