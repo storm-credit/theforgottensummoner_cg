@@ -133,6 +133,7 @@ Recommended next sequence:
 - 메인 허브에 preserved artifact scope 진입선 노출까지 `main`에 fast-forward push 완료.
 - preserved artifact switch test 추가까지 `main`에 fast-forward push 완료.
 - production shift watchpoints 추가까지 `main`에 fast-forward push 완료.
+- reader-facing direct-share boundary 정리까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 

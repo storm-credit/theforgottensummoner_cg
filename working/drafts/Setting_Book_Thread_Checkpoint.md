@@ -65,6 +65,7 @@
 - 메인 허브, process hub, status dashboard에도 filename decision 진입선을 추가해 재진입 동선에서 바로 찾을 수 있게 정리
 - body-facing scan으로 Appendix B/C 긴급 승격 후보를 다시 확인해 현재 anchored control 밖의 새 urgent row가 없음을 재확인
 - next preserved artifact scope 문서를 추가해 reader-facing / production bible 선택이 실제 포함 파일 범위로 바로 이어지게 정리
+- reader-facing direct-share boundary를 정리해 `Preview_Readable_v0`는 직접 공유 원고, `Front_Matter` / `Reader_Facing_TOC` / `Public_Assembly`는 support/source 층으로 분리
 
 ## Core Files
 
@@ -124,6 +125,7 @@
 
 ## Recent Commit Line
 
+- `20d8497 Polish reader facing support boundaries`
 - `d0ae417 Track production shift watchpoints`
 - `56b14c1 Refresh switch test handoff notes`
 - `0fae028 Add preserved artifact switch test`
@@ -262,3 +264,4 @@
 - preserved artifact scope 메인 허브 진입선 노출까지 `main` 반영 완료.
 - preserved artifact switch test 추가까지 `main` 반영 완료.
 - production shift watchpoints 추가까지 `main` 반영 완료.
+- reader-facing direct-share boundary 정리까지 `main` 반영 완료.
