@@ -69,6 +69,7 @@
 - `Setting_Book_Preview_Readable_v0.md`의 직접 공유용 제목/목차/파트명을 한국어 독자용 흐름으로 정리
 - `Setting_Book_Preview_Readable_v0.md`의 유물/종족 파트 문장 리듬과 직접 공유용 용어를 추가로 정리
 - `Setting_Book_Preview_Readable_v0.md`의 설명형 반복과 전환 문장을 더 자연스럽게 정리
+- `Setting_Book_Preview_Readable_v0.md`의 도시/인물 파트 반복 표현을 줄이고 독자용 문장 흐름을 추가로 정리
 
 ## Core Files
 
@@ -128,6 +129,7 @@
 
 ## Recent Commit Line
 
+- `a68d733 Polish reader preview city and people flow`
 - `7505ddd Smooth reader preview explanatory flow`
 - `bcee615 Polish reader preview prose rhythm`
 - `a0ace34 Localize reader preview headings`
@@ -274,3 +276,4 @@
 - reader preview headings 한국어 정리까지 `main` 반영 완료.
 - reader preview prose rhythm polish까지 `main` 반영 완료.
 - reader preview explanatory flow smoothing까지 `main` 반영 완료.
+- reader preview city and people flow polish까지 `main` 반영 완료.

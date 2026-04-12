@@ -93,6 +93,7 @@ Completed checks:
 - Appendix B/C sample files now carry their own evidence pointer checks instead of relying only on the assembled appendix.
 - 01-08 hub files now provide quick-index or first-click tables plus status-dashboard return links.
 - A body-facing scan across preview/public/core-profile/prototype layers did not reveal a new urgent Appendix B/C promotion target beyond the currently anchored controls.
+- `Setting_Book_Preview_Readable_v0.md` now has an additional direct-share flow polish pass for the Crossroad Cities and People sections.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -137,6 +138,7 @@ Recommended next sequence:
 - reader preview headings and body spine localized for direct-share readability까지 `main`에 fast-forward push 완료.
 - reader preview prose rhythm polish까지 `main`에 fast-forward push 완료.
 - reader preview explanatory flow smoothing까지 `main`에 fast-forward push 완료.
+- reader preview city and people flow polish까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
