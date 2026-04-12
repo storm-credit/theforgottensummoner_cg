@@ -206,6 +206,7 @@
 - `6687900 Clarify setting book scan interpretation`
 - `241cdf2 Refresh hub checklist checkpoint`
 - `8365e92 Align setting book hub checklist wording`
+- `b48fa6e Record direct hub axis routes`
 - `e1d7217 Refresh safe opening checkpoint`
 - `ae529bb Clarify setting book safe opening order`
 - `28cf694 Record setting book reentry completion`
@@ -346,3 +347,4 @@
 - hub link scan dashboard record까지 `main` 반영 완료.
 - support-doc stable-preview baseline alignment까지 `main` 반영 완료.
 - main hub direct axis entry-route improvement까지 `main` 반영 완료.
+- hub completion checklist direct-axis route record까지 `main` 반영 완료.

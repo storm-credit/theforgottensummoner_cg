@@ -115,6 +115,7 @@ Completed checks:
 - Main hub now also exposes direct faction/people/items/places/species entry routes for quicker Obsidian reentry.
 - A full 00-09 hub wikilink integrity scan passed with no missing Obsidian targets.
 - Hub completion checklist now treats the 00-09 wikilink integrity scan as part of hub-finish evidence.
+- Hub completion checklist now also records the new direct axis-entry route from the main hub.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
@@ -183,6 +184,7 @@ Recommended next sequence:
 - hub link scan dashboard record까지 `main`에 fast-forward push 완료.
 - support-doc stable-preview baseline alignment까지 `main`에 fast-forward push 완료.
 - main hub direct axis entry-route improvement까지 `main`에 fast-forward push 완료.
+- hub completion checklist direct-axis route record까지 `main`에 fast-forward push 완료.
 
 ## Conductor Decision
 
