@@ -5,6 +5,7 @@
 This draft translates the technical 0-8 setting-book package into a cleaner reader-facing table of contents.
 
 The internal draft package preserves source priority, canon tier, registers, and verification rules. This table of contents points toward the version a reader, collaborator, artist, composer, or adaptation partner could open without needing to understand the audit machinery first.
+It is a structure/source guide, not the direct-share manuscript itself.
 
 ## Reader-Facing Structure
 

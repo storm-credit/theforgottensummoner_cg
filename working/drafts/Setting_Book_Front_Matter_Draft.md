@@ -124,6 +124,7 @@ Archived cover-tone alternates:
 
 이 front matter는 현재
 `Setting_Book_Preview_Readable_v0.md`의 앞부분을 구성하는 후보 원고다.
+직접 공유 원고라기보다 preview를 받치는 opening source/support 층으로 둔다.
 
 다음 단계에서는
 목차와 본문 opening이 선택된 부제와 표지 톤을 계속 같은 방향으로 받치는지 확인한다.
