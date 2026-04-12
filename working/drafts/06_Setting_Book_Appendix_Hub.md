@@ -29,15 +29,27 @@
 2. `Setting_Book_Preview_Readable_v0.md`
 3. `07_Setting_Book_Process_Hub.md`
 
+지금 고정된 것:
+
+- 부록은 direct-share 원고가 아니라 verification/control 층이다.
+- 직접 공유 원고는 계속 `Setting_Book_Preview_Readable_v0.md`로 둔다.
+- Appendix B/C는 현재 anchored row만 유지하고, 최신 preview 기준으로 새 row를 추가하지 않는다.
+
+아직 안 닫힌 것:
+
+- 다음 body-final entry가 생길 때 Appendix B/C row를 더 추가할지
+- v1 gate에서 어떤 evidence row가 정말 필요한지
+- packaging 방향이 production bible 쪽으로 실제 전환되는지
+
 ## 이 문서부터 / 그다음 문서
 
 이 문서부터:
 
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
-- `Setting_Book_Release_Readiness_Checklist.md`
 
 그다음 문서:
 
+- `Setting_Book_Release_Readiness_Checklist.md`
 - `Setting_Book_Preview_Readable_v0.md`
 - `Setting_Book_Document_Roles_Map.md`
 

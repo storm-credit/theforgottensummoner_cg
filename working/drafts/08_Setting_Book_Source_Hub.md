@@ -16,8 +16,14 @@
 
 이 허브는 설정집의 원재료를 모아 보는 출발점이다.
 공유용 preview나 압축 reference가 아니라
-각 장의 기술 초안과 구조 초안이 어디에 있는지 정리한다.
+각 장의 깊은 설정 초안과 구조 기록이 어디에 있는지 정리한다.
 공유용 preview와 압축 reference 구분이 먼저 필요하면 `Setting_Book_Document_Roles_Map.md`를 먼저 본다.
+
+지금 고정된 것:
+
+- 이 허브는 direct-share 원고가 아니라 source layer다.
+- 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`로 유지한다.
+- 여기 있는 문서는 현재 설정집의 더 깊은 기준 기록으로 남긴다.
 
 헷갈릴 때 재진입 순서:
 
@@ -30,9 +36,9 @@
 | Chapter | Main Use | First Click |
 | --- | --- | --- |
 | 0. Canon Policy | canon tier와 source priority를 다시 확인할 때 | `Setting_Book_Chapter_0_Canon_Policy_Draft.md` |
-| 1. Five Continents | 대륙 spine과 safe read를 다시 잡을 때 | `Setting_Book_Chapter_1_Five_Continents_Draft.md` |
+| 1. Five Continents | 대륙 spine과 safe read 근거를 다시 확인할 때 | `Setting_Book_Chapter_1_Five_Continents_Draft.md` |
 | 2. Faction Archive Structure | root state / structure label / place pressure를 볼 때 | `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md` |
-| 3. Named Notables / Operational Lines | 왜 찾아가야 하는 인물층과 14/15 handoff를 볼 때 | `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md` |
+| 3. Named Notables / Operational Lines | 인물층 판단 근거와 14/15 handoff 기준을 확인할 때 | `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md` |
 | 4. Naming Normalization | display name과 collision guard를 볼 때 | `Setting_Book_Chapter_4_Naming_Normalization_Draft.md` |
 | 5. Items and Relics | desire-first item logic를 다시 볼 때 | `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md` |
 | 6. Species Framework | peoples / bloodlines / states / monsters 구분을 볼 때 | `Setting_Book_Chapter_6_Species_Framework_Draft.md` |
