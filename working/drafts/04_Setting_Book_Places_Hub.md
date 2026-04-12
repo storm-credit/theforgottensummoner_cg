@@ -25,6 +25,18 @@
 2. `Setting_Book_Preview_Readable_v0.md`
 3. `07_Setting_Book_Process_Hub.md`
 
+지금 고정된 것:
+
+- 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`
+- 장소 축 bridge는 `Setting_Book_Places_Core_Profiles_v0.md`
+- Appendix C는 현재 anchored row만 유지하고, 최신 preview 기준으로 새 row를 추가하지 않는다.
+
+아직 안 닫힌 것:
+
+- 다음 body-final place entry가 생길지
+- Goldenmark, Dragonforge, auction house, secret warehouse 같은 항목이 독립 featured place로 올라올지
+- 이후 promoted place가 나오면 row-level evidence를 더 추가할지
+
 ## 이 문서부터 / 그다음 문서
 
 이 문서부터:

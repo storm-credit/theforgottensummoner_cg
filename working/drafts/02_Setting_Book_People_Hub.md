@@ -26,6 +26,18 @@
 2. `Setting_Book_Preview_Readable_v0.md`
 3. `07_Setting_Book_Process_Hub.md`
 
+지금 고정된 것:
+
+- 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`
+- 인물 축 bridge는 `Setting_Book_People_Core_Profiles_v0.md`
+- 인물 경계 판단은 Appendix A / D control을 통해 유지한다.
+
+아직 안 닫힌 것:
+
+- 어떤 인물이 다음 body-final entry로 실제 승격될지
+- 14/15 경계 인물 중 추가 evidence row가 필요한지
+- 인물 축이 hero layer와 supporting notable layer 사이에서 더 좁혀질지
+
 ## 이 문서부터 / 그다음 문서
 
 이 문서부터:

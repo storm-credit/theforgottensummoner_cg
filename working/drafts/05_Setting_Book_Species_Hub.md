@@ -26,6 +26,18 @@
 2. `Setting_Book_Preview_Readable_v0.md`
 3. `07_Setting_Book_Process_Hub.md`
 
+지금 고정된 것:
+
+- 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`
+- 종족 축 bridge는 `Setting_Book_Species_Core_Profiles_v0.md`
+- people / bloodline / state / monster 구분은 Appendix E guard를 통해 유지한다.
+
+아직 안 닫힌 것:
+
+- 어떤 신호를 사람들로 더 분명히 굳힐지
+- 어떤 흔적을 혈통이나 상태로 남겨 둘지
+- production bible 단계에서만 더 촘촘한 분류 층이 필요한지
+
 ## 이 문서부터 / 그다음 문서
 
 이 문서부터:
