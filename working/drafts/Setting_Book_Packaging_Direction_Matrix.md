@@ -39,7 +39,7 @@
 | --- | --- |
 | 지금 필요한 피드백이 “읽히는가, 책처럼 보이는가”에 몰림 | reader-facing layout |
 | 지금 필요한 피드백이 “어디가 hold고 어떤 근거가 붙는가”에 몰림 | production bible |
-| front matter / subtitle / body flow polishing이 다음 핵심 작업이 됨 | reader-facing layout |
+| readable preview를 안정 공유본으로 보존하고 좁은 오탈자/독자용 말투만 다루면 됨 | reader-facing layout |
 | appendix cross-reference / source note density가 다음 핵심 작업이 됨 | production bible |
 | RC 파일명과 보존 패키지 범위를 정해야 함 | reader-facing layout |
 | 협업자가 bridge docs와 appendix control lanes를 먼저 요구함 | production bible |
@@ -53,7 +53,7 @@
 | --- | --- | --- |
 | 지금 가장 먼저 공유되는 파일이 여전히 `Setting_Book_Preview_Readable_v0.md`인가 | yes | reader-facing layout |
 | core profile과 appendix control lane을 본패키지로 바로 넘겨야 하는 협업 요구가 있는가 | no | reader-facing layout |
-| 다음 핵심 작업이 front matter/body polish보다 source-note density 확장인가 | no | reader-facing layout |
+| 다음 핵심 작업이 readable preview 안정 유지보다 source-note density 확장인가 | no | reader-facing layout |
 | filename hold가 다시 열릴 만큼 RC rename 압력이 있는가 | no | reader-facing layout |
 | production bible 쪽이 없으면 후속 창작자가 바로 막히는가 | not yet | reader-facing layout |
 
@@ -70,7 +70,7 @@
 - `Setting_Book_Preview_Readable_v0.md`를 shareable preview completion target으로 유지
 - `Setting_Book_Filename_Decision_Matrix.md`를 naming hold control로 유지
 - body-facing scan 결과를 기준으로 Appendix B/C는 현재 anchored row만 유지
-- Appendix B/C evidence queue에서 필요한 행만 추가
+- Appendix B/C evidence queue에서 필요한 행만 추가하되, latest readable-preview polish 이후 새 row는 추가하지 않는다
 - core profile bridge와 허브 인덱스 문장을 미세 수정
 - RC 파일을 만들지 않은 채 packaging decision만 더 선명하게 만들기
 
@@ -112,5 +112,5 @@ production bible 전환 신호는
 
 ## Current One-Line Call
 
-지금은 `shareable preview 유지 + packaging decision 선명화`가 맞고,
+지금은 `shareable preview 안정 유지 + packaging decision 선명화`가 맞고,
 `별도 RC 파일 생성`이나 `production bible 확장`은 다음 보존 필요가 생길 때 다시 연다.
