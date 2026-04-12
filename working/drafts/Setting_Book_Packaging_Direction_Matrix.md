@@ -44,6 +44,25 @@
 | RC 파일명과 보존 패키지 범위를 정해야 함 | reader-facing layout |
 | 협업자가 bridge docs와 appendix control lanes를 먼저 요구함 | production bible |
 
+## Operational Switch Test
+
+아래 질문에 답하면
+지금 어느 쪽을 다음 보존 산출물로 봐야 하는지 빠르게 판정할 수 있다.
+
+| Test Question | Current Answer | Lean |
+| --- | --- | --- |
+| 지금 가장 먼저 공유되는 파일이 여전히 `Setting_Book_Preview_Readable_v0.md`인가 | yes | reader-facing layout |
+| core profile과 appendix control lane을 본패키지로 바로 넘겨야 하는 협업 요구가 있는가 | no | reader-facing layout |
+| 다음 핵심 작업이 front matter/body polish보다 source-note density 확장인가 | no | reader-facing layout |
+| filename hold가 다시 열릴 만큼 RC rename 압력이 있는가 | no | reader-facing layout |
+| production bible 쪽이 없으면 후속 창작자가 바로 막히는가 | not yet | reader-facing layout |
+
+현재 스냅샷:
+
+- reader-facing signal이 더 강하다.
+- production bible signal은 아직 `revisit 조건` 수준이지 `지금 바로 전환` 수준은 아니다.
+- 따라서 scope 전환 전에는 `reader-facing layout` 기준을 계속 기본값으로 둔다.
+
 ## Current Safe Actions
 
 지금 바로 해도 되는 일:
@@ -70,6 +89,7 @@
 2. collaborator 전용 패키지를 별도로 내보낼 때
 3. appendix source note 밀도를 현재보다 한 단계 더 올려야 할 때
 4. RC file trigger를 다시 판정할 때
+5. 위 `Operational Switch Test`에서 production bible 쪽 답이 둘 이상 동시에 강해질 때
 
 ## Current One-Line Call
 

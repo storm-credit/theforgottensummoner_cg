@@ -122,6 +122,21 @@ production bible 쪽으로 전환할 때는 아래 파일이 중심이 된다.
 3. verification artifact는 appendix assembly와 release checklist
 4. compressed full reference는 `Prototype_v0`
 
+## Current Applied Scope Snapshot
+
+현재 실제 적용 상태는 아래와 같다.
+
+| Scope Layer | Current Status |
+| --- | --- |
+| reader-facing core package | active default |
+| optional bridge | available when needed |
+| verification-only docs | kept outside the main preserved package |
+| production bible core | not next yet |
+
+따라서 지금은
+`preview를 중심으로 한 reader-facing 묶음`을 보존 대상으로 보고,
+`prototype + appendix 중심 production 묶음`은 대기 상태로 둔다.
+
 ## Current One-Line Call
 
 지금은 `reader-facing layout scope를 다음 보존 산출물 후보로 유지`가 맞고,
