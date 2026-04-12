@@ -343,4 +343,4 @@
 - hub link integrity scan record까지 `main` 반영 완료.
 - hub checklist handoff refresh까지 `main` 반영 완료.
 - hub link scan dashboard record까지 `main` 반영 완료.
-- support-doc stable-preview baseline alignment까지 작업 브랜치 `codex/species-framework-side-track` 반영 완료.
+- support-doc stable-preview baseline alignment까지 `main` 반영 완료.
