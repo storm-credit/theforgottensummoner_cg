@@ -122,6 +122,7 @@
 - 2026-04-16 twentieth pass aligned the setting-book skeleton tail with the post-push package state: 0~8 chapter drafts remain first-draft-complete, the skeleton is now an original build plan / coverage guard, and future work is controlled refinement only
 - 2026-04-16 twenty-first pass clarified pre-push report notes so earlier `untracked`, CRLF/status-noise, and stage/commit-hold lines no longer read as the current branch state
 - 2026-04-16 twenty-second pass lowered remaining current-edit wording around `Extracted_Item_Candidates.md` to `separate tracking artifact / do not edit directly` wording across queue, item side-track, pipeline, source map, and skeleton docs
+- 2026-04-16 twenty-third pass clarified `Audit_Queue` risk snapshot wording so legacy root / broken-name quarantine root / 14-8 naming-conflict notes describe the actual deferred-risk state instead of sounding like an active routing failure
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

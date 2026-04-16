@@ -400,3 +400,25 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - `Extracted_Item_Candidates.md`를 새로 편집하지 않는다.
 - duplicate hotspot 처리는 side-track / register route로 유지한다.
 - setting-book source map과 skeleton은 이 파일을 final promotion source로 보지 않는다.
+
+## 2026-04-16 Twenty-Third Risk Snapshot Clarification Pass
+
+목적:
+
+- `Audit_Queue`의 risk snapshot이
+  현재 live routing failure처럼 과하게 읽히지 않도록,
+  legacy/quarantine/conflict-note 상태를 더 정확히 적는다.
+
+확인 결과:
+
+- `_Legacy_중립세력 (Backup)`은 실제 live root가 아니라
+  계속 격리해야 하는 legacy root다.
+- `6. 범대륙...` 리스크는 same-parent duplicate active folder라기보다
+  canonical root와 broken-name quarantine root가 함께 남아 있는 문제다.
+- `14번`/`8번` 영문 표기 차이는 live hub misroute보다는
+  display-canon conflict note로 보류 중이다.
+
+의미:
+
+- watch mainline은 계속 `5대륙 closure sync / Section 8 -> 15 watch-reference`로 둔다.
+- risk snapshot은 active drift가 아니라 deferred-risk memo로 읽는다.

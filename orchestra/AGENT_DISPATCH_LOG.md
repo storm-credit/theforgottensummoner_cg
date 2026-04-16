@@ -6503,3 +6503,42 @@ Follow-up actions:
 
 - 이 wording alignment delta를 commit/push한 뒤,
   다시 ordered watch sequence의 다음 drift 후보만 확인한다.
+
+## 2026-04-16 KST - Twenty-Third Risk Snapshot Clarification Pass
+
+목적:
+
+- ordered watch sequence가 안정적인 상태에서,
+  `Audit_Queue` risk snapshot의 축약 문구를 실제 deferred-risk 상태에 맞게 정리한다.
+
+배치:
+
+- Darwin: duplicate `6.*` folder risk scout
+- Carson: `14번` vs `8번` English naming mismatch scout
+- conductor local risk-snapshot wording pass
+
+Conductor action:
+
+- `Darwin`은 same-parent duplicate `6.*` folder collision은 없고,
+  현재 workspace의 반복 `6. 사회 및 정치` 폴더는 phase-root별 템플릿 반복이라고 확인했다.
+- `Carson`은 `14번`/`8번` naming 차이가 live hub misroute를 만들고 있지 않으며,
+  현재는 display-canon conflict note 수준이라고 확인했다.
+- conductor local pass에서는 `Audit_Queue` risk snapshot의
+  `_Legacy_` / `6. 범대륙...` / `14번-8번 naming` 문구를
+  legacy root, broken-name quarantine root, display-canon conflict note 상태로 더 정확히 적었다.
+
+Integrated actions:
+
+- risk snapshot wording clarification
+- report pair / dispatch log 2026-04-16 twenty-third pass 반영
+
+Verification:
+
+- watch mainline remains `5대륙 closure sync / Section 8 -> 15 watch-reference`.
+- no live route collision was found from the duplicate-folder or naming-risk scouts.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 clarification delta를 commit/push한 뒤,
+  다시 watch-only 순환으로 돌아가 새 drift가 생길 때만 국소 수정한다.
