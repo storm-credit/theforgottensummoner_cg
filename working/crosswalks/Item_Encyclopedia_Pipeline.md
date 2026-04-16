@@ -27,7 +27,7 @@
 - 중복 hotspot은 `황금 (Gold)`, `보석 (Gems)`, `흑요석 (Obsidian)`, `흑철 (Iron)` 같은 재료/공용 항목 쪽에 몰려 있다.
 - `14번` 영웅 문서의 `전용 무기 및 아티팩트` 구간이 가장 신뢰도 높은 공급원이다.
 - 아직 탈것, 재료, 통신 장치, 생체 장치가 일부 섞여 있어 2차 정제가 필요하다.
-- 현재 수정 중인 `Extracted_Item_Candidates.md`를 직접 건드리지 않는 안전선은 `Item_Duplicate_Hotspot_Triage.md`에서 유지한다.
+- 별도 추적 아티팩트인 `Extracted_Item_Candidates.md`를 직접 건드리지 않는 안전선은 `Item_Duplicate_Hotspot_Triage.md`에서 유지한다.
 - 2026-04-13 KST 기준, hotspot 4종은 `Item_Candidate_Register.md`에서 `duplicate_candidate`로 낮춰 두었다.
 
 ## Do Not Do

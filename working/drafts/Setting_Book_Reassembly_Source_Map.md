@@ -46,7 +46,7 @@
 - `stable_15_workset`은 닫힌 reference set으로만 사용한다.
 - `source_check_hold / hold reference split`와 `deferred_expansion_hold / hold reference split`는 hold reference split 안에서만 읽는다.
 - `working/imports`는 원본 snapshot이므로 직접 고치지 않는다.
-- `working/crosswalks/Extracted_Item_Candidates.md`는 현재 별도 작업 중인 파일로 보고, 이 소스맵에서는 참조만 한다.
+- `working/crosswalks/Extracted_Item_Candidates.md`는 별도 추적 아티팩트로 보고, 이 소스맵에서는 참조만 한다.
 
 ## Reassembly Guard
 

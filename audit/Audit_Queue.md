@@ -61,7 +61,7 @@
 8. `14. 인물 백과` 루트 구조 감사는 reference backlog로만 유지
 9. 관계 타입 표준과 영웅 정본 스키마 확정은 후순위 유지
 10. 흩어진 아이템 수집 파이프라인은 duplicate hotspot / ambiguity source-context / 장기 분류 bucket link까지 반영 완료 상태로 유지하고, routing aid를 승격 기준으로 쓰지 않는다
-11. 아이템 duplicate hotspot은 `working/crosswalks/Item_Duplicate_Hotspot_Triage.md`로 side-track 유지하고, 현재 수정 중인 추출표 직접 편집은 보류한다
+11. 아이템 duplicate hotspot은 `working/crosswalks/Item_Duplicate_Hotspot_Triage.md`로 side-track 유지하고, 별도 추적 중인 추출표 직접 편집은 보류한다
 12. summary / bridge 계층이 operational guard 문장을 `People Worth Seeking` 승인 논리로 역수입하지 않게 유지
 13. operational middle-layer wording-source sync는 이미 닫힌 reference 상태로 유지하고,
    새 drift가 생길 때만 국소 수정한다

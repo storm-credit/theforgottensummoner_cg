@@ -174,7 +174,7 @@ Secondary source:
 
 Guard:
 
-- `working/crosswalks/Extracted_Item_Candidates.md`는 현재 별도 작업 파일이므로, 직접 편집하지 않고 참조만 한다.
+- `working/crosswalks/Extracted_Item_Candidates.md`는 별도 추적 아티팩트이므로, 직접 편집하지 않고 참조만 한다.
 
 ## 6. 종족 / 영물 / Species Framework
 

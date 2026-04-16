@@ -6463,3 +6463,43 @@ Follow-up actions:
 
 - 이 report-integrity delta를 commit/push한 뒤,
   다시 watch-only 순환으로 돌아가 새 drift만 국소 처리한다.
+
+## 2026-04-16 KST - Twenty-Second Item Tracking Wording Pass
+
+목적:
+
+- post-push clean state 이후,
+  `Extracted_Item_Candidates.md`를 현재 수정 중인 파일처럼 보이게 하는
+  live wording이 남아 있는지 확인한다.
+
+배치:
+
+- conductor local item-tracking wording scan
+
+Conductor action:
+
+- `Audit_Queue.md`의 duplicate hotspot queue 문구를
+  `현재 수정 중인 추출표`에서 `별도 추적 중인 추출표`로 낮췄다.
+- `Item_Duplicate_Hotspot_Triage.md`와
+  `Item_Encyclopedia_Pipeline.md`의 current-edit wording을
+  `별도 추적 아티팩트` 기준으로 정리했다.
+- `Setting_Book_Reassembly_Source_Map.md`와
+  `Setting_Book_Skeleton.md`도
+  `현재 별도 작업 중인 파일`이 아니라
+  `별도 추적 아티팩트 / 참조만`으로 정리했다.
+
+Integrated actions:
+
+- item tracking wording alignment
+- report pair / dispatch log 2026-04-16 twenty-second pass 반영
+
+Verification:
+
+- `Extracted_Item_Candidates.md`는 직접 편집하지 않았다.
+- duplicate hotspot remains side-track / register route only.
+- next verification gate is targeted wording search plus `git diff --check`.
+
+Follow-up actions:
+
+- 이 wording alignment delta를 commit/push한 뒤,
+  다시 ordered watch sequence의 다음 drift 후보만 확인한다.

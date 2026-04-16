@@ -376,3 +376,27 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 1. branch state는 pushed alignment delta 기준으로 본다.
 2. report 안의 이전 hold 문구는 historical pre-push note로만 읽는다.
 3. 새 drift가 없으면 다음 순환은 watch-only scout로 유지한다.
+
+## 2026-04-16 Twenty-Second Item Tracking Wording Pass
+
+목적:
+
+- clean branch 상태에서 `Extracted_Item_Candidates.md`를
+  "현재 수정 중"인 파일처럼 부르는 live wording을 정리한다.
+
+확인 결과:
+
+- `Audit_Queue.md`
+- `Item_Duplicate_Hotspot_Triage.md`
+- `Item_Encyclopedia_Pipeline.md`
+- `Setting_Book_Reassembly_Source_Map.md`
+- `Setting_Book_Skeleton.md`
+
+위 범위의 current-facing wording을
+`별도 추적 아티팩트 / 직접 편집 금지 / 참조만` 기준으로 맞췄다.
+
+의미:
+
+- `Extracted_Item_Candidates.md`를 새로 편집하지 않는다.
+- duplicate hotspot 처리는 side-track / register route로 유지한다.
+- setting-book source map과 skeleton은 이 파일을 final promotion source로 보지 않는다.

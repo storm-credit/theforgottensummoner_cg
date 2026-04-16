@@ -1,6 +1,6 @@
 # Item Duplicate Hotspot Triage
 
-이 문서는 현재 수정 중인 `Extracted_Item_Candidates.md`를 직접 건드리지 않고,
+이 문서는 별도 추적 아티팩트인 `Extracted_Item_Candidates.md`를 직접 건드리지 않고,
 아이템 사이드트랙의 duplicate hotspot과 오탐 위험을 안전하게 관리하기 위한 triage 문서다.
 
 ## Goal
@@ -12,7 +12,7 @@
 
 ## Locked Safe Rule
 
-1. 현재 수정 중인 `Extracted_Item_Candidates.md`는 이 단계에서 직접 수정하지 않는다.
+1. 별도 추적 아티팩트인 `Extracted_Item_Candidates.md`는 이 단계에서 직접 수정하지 않는다.
 2. duplicate hotspot은 먼저 `broad material / catalog heading / true unique item`으로 나눈다.
 3. broad material이나 카탈로그 표제어는 `ready_for_encyclopedia`로 올리지 않는다.
 4. 인물명, 성씨, 마법명, 기능어와 충돌하면 `Item_Name_Collision_Register.md`로 먼저 보낸다.
