@@ -6416,3 +6416,50 @@ Follow-up actions:
 
 - 다음 순환에서는 이 alignment delta를 commit/push한 뒤,
   다시 watch-only 상태로 돌아가 새 drift가 있을 때만 국소 수정한다.
+
+## 2026-04-16 KST - Twenty-First Report Integrity Pass
+
+목적:
+
+- Twentieth pass 및 push 이후,
+  report 안의 pre-push wording이 현재 branch state로 오해되지 않도록 확인한다.
+
+배치:
+
+- Huygens: setting-book stale first-fill / broad-redraft wording scout
+- Banach: orchestration / report integrity / branch-state scout
+- Poincare: item-lane regression / over-promotion scout
+- conductor local report wording pass
+
+Conductor action:
+
+- `Huygens`는 `working/drafts/*.md`에서
+  0~8장 first-draft-complete / controlled-refinement 상태와 충돌하는
+  stale queue wording을 찾지 못했다.
+- `Banach`는 branch가 pushed state와 일치하며,
+  live orchestration order가 `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  mainline으로 유지된다고 확인했다.
+- `Poincare`는 item lane에서
+  `Extracted_Item_Candidates.md` 직접 편집 유도,
+  duplicate hotspot over-promotion,
+  `ready_for_encyclopedia` 과승격이 없다고 확인했다.
+- conductor local pass에서는 closeout / commit-ready report의
+  이전 `untracked`, CRLF/status-noise, stage/commit-hold 문구를
+  current branch state가 아니라 pre-push note로 읽히도록 정리했다.
+
+Integrated actions:
+
+- report pre-push note clarification
+- report pair / dispatch log 2026-04-16 twenty-first pass 반영
+
+Verification:
+
+- setting-book skeleton remains completed fill order / controlled refinement.
+- item lane remains sidecar/register-only for duplicate hotspots.
+- current branch state should be rechecked with `git status --short`,
+  `git diff --check`, and push parity after this small report-integrity delta is committed.
+
+Follow-up actions:
+
+- 이 report-integrity delta를 commit/push한 뒤,
+  다시 watch-only 순환으로 돌아가 새 drift만 국소 처리한다.

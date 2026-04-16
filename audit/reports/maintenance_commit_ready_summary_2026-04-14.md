@@ -120,24 +120,25 @@
 - 2026-04-16 eighteenth pass confirmed no actionable live `Named Notables` / `named_notable` residue remains outside preserved path/title/schema/status/action-token/history layers
 - 2026-04-16 nineteenth pass confirmed item duplicate hotspot / ambiguity routing and setting-book assembly hubs remain aligned: no `ready_for_encyclopedia` over-promotion, no direct `Extracted_Item_Candidates.md` edit route, and no `People Worth Seeking` label drift
 - 2026-04-16 twentieth pass aligned the setting-book skeleton tail with the post-push package state: 0~8 chapter drafts remain first-draft-complete, the skeleton is now an original build plan / coverage guard, and future work is controlled refinement only
+- 2026-04-16 twenty-first pass clarified pre-push report notes so earlier `untracked`, CRLF/status-noise, and stage/commit-hold lines no longer read as the current branch state
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
 
 ## Commit-Readiness Notes
 
-- `working/crosswalks/Item_Duplicate_Hotspot_Triage.md` is an intentional new side-track guard file and should be included if this maintenance bundle is committed
-- `working/crosswalks/Extracted_Item_Candidates.md` appears in `git status --short`, but content diff is empty; current signal is CRLF/status noise only
-- no staging or commit has been performed in this pass
+- `working/crosswalks/Item_Duplicate_Hotspot_Triage.md` was an intentional new side-track guard file and has been included in the maintenance bundle
+- `working/crosswalks/Extracted_Item_Candidates.md` was not directly edited; earlier status noise was treated as CRLF/status-only unless a real content diff reappears
+- the maintenance bundle has since been committed and pushed; after the twenty-first pass, only new local drift or report-integrity alignment deltas should be committed
 
 ## Recommended Commit Message Shape
 
-- `Sync watch-only maintenance locks, setting-book authority, and item side-track guards`
+- `Clarify post-push report integrity notes`
 
 ## Recommended Next Move
 
-- If committing: include the current modified audit/orchestra/working docs plus the report pair
+- If committing: include only the current report-integrity alignment delta: report pair plus dispatch log
   `audit/reports/maintenance_commit_ready_summary_2026-04-14.md` and
   `audit/reports/watch_only_maintenance_closeout_2026-04-14.md`
 - If not committing: remain in `watch-only maintenance` and only patch new local drift when it appears
-- After the twentieth pass, the next safe commit bundle is only the skeleton/report/dispatch alignment delta unless another local drift appears.
+- After the twenty-first pass, the next safe commit bundle is only new local drift or report-integrity alignment delta.

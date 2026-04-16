@@ -295,18 +295,20 @@
   scout finding으로 지정된 active shorthand와 obsolete Part navigation 패턴은 더 잡히지 않음
 - `git diff --check`:
   CRLF 경고만 있고 whitespace error 없음
-- `working/crosswalks/Extracted_Item_Candidates.md`:
-  `git status --short`에는 modified로 보이지만,
-  내용 diff는 없고 CRLF warning만 보인다
-- untracked file:
-  `working/crosswalks/Item_Duplicate_Hotspot_Triage.md`
-  는 의도된 side-track guard로 유지한다
+- 이전 pre-push note:
+  `working/crosswalks/Extracted_Item_Candidates.md`는
+  당시 내용 diff 없이 CRLF/status noise만 보였고,
+  직접 편집하지 않는 기준을 유지했다.
+- 이전 pre-push note:
+  `working/crosswalks/Item_Duplicate_Hotspot_Triage.md`는
+  의도된 side-track guard로 포함 대상이었다.
 
 ## Current Reading
 
 현재 변경 묶음은
 `active build`보다 `watch-only maintenance closeout`
-성격이 더 강하다.
+성격이 더 강하며,
+pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 
 즉,
 
@@ -314,14 +316,16 @@
 - 이미 잠근 권한선과 상태어가
   다시 무너지지 않는지 반복 확인하는 단계다.
 
-## Next Safe Move
+## Prior Next Safe Move
 
-명시 요청 전까지는 아래만 유지한다.
+아래 기준은 pre-push hold 상태의 next move였고,
+2026-04-16 twentieth pass 이후에는 아래의
+`최신 next safe move`가 우선한다.
 
-1. stage / commit 보류
+1. stage / commit hold는 maintenance commit/push로 종료
 2. 새 drift가 생길 때만 국소 수정
 3. `Extracted_Item_Candidates.md` 직접 편집 금지 유지
-4. `Item_Duplicate_Hotspot_Triage.md`는 포함 의도 문서로 간주
+4. `Item_Duplicate_Hotspot_Triage.md`는 side-track guard로 포함 완료
 
 ## 2026-04-16 Twentieth Watch-Only Stability Pass
 
@@ -348,3 +352,27 @@
 2. Appendix B/C evidence note는 필요한 행에만 제한한다.
 3. skeleton은 original build plan / coverage guard로만 사용한다.
 4. active first-fill queue는 닫힌 것으로 본다.
+
+## 2026-04-16 Twenty-First Report Integrity Pass
+
+목적:
+
+- Twentieth pass 이후에도 closeout / commit-ready report의
+  pre-push note가 현재 branch state처럼 읽히지 않도록 정리한다.
+
+확인 결과:
+
+- setting-book queue scout는 `working/drafts/*.md`에서
+  stale first-fill / broad-redraft wording을 찾지 못했다.
+- orchestration scout는 branch가 pushed state와 일치한다고 확인했다.
+- item-lane scout는 `Extracted_Item_Candidates.md` 직접 편집 유도,
+  duplicate hotspot over-promotion, `ready_for_encyclopedia` 과승격을 찾지 못했다.
+- conductor local pass는 closeout / commit-ready report에 남은
+  이전 `untracked`, CRLF/status-noise, stage/commit-hold 문구를
+  pre-push note로 명확히 낮췄다.
+
+최신 상태:
+
+1. branch state는 pushed alignment delta 기준으로 본다.
+2. report 안의 이전 hold 문구는 historical pre-push note로만 읽는다.
+3. 새 drift가 없으면 다음 순환은 watch-only scout로 유지한다.
