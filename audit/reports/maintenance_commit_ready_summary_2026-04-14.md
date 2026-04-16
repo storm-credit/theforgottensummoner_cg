@@ -119,6 +119,7 @@
 - 2026-04-16 seventeenth pass created `Section_15_People_Worth_Seeking_Schema_Rename_Decision_Lock.md` to block unsafe schema/status/path renames, and aligned remaining workflow live-routing prose to `People Worth Seeking`
 - 2026-04-16 eighteenth pass confirmed no actionable live `Named Notables` / `named_notable` residue remains outside preserved path/title/schema/status/action-token/history layers
 - 2026-04-16 nineteenth pass confirmed item duplicate hotspot / ambiguity routing and setting-book assembly hubs remain aligned: no `ready_for_encyclopedia` over-promotion, no direct `Extracted_Item_Candidates.md` edit route, and no `People Worth Seeking` label drift
+- 2026-04-16 twentieth pass aligned the setting-book skeleton tail with the post-push package state: 0~8 chapter drafts remain first-draft-complete, the skeleton is now an original build plan / coverage guard, and future work is controlled refinement only
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
@@ -139,3 +140,4 @@
   `audit/reports/maintenance_commit_ready_summary_2026-04-14.md` and
   `audit/reports/watch_only_maintenance_closeout_2026-04-14.md`
 - If not committing: remain in `watch-only maintenance` and only patch new local drift when it appears
+- After the twentieth pass, the next safe commit bundle is only the skeleton/report/dispatch alignment delta unless another local drift appears.

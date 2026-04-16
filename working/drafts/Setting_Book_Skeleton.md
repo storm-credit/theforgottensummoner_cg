@@ -230,18 +230,19 @@ Primary source:
 - `reference/manifests/factions_manifest.md`
 - `reference/manifests/heroes_manifest.md`
 
-## Next Fill Order
+## Completed Fill Order / Current Refinement Order
 
-1. `0. 운영 원칙 / Canon Policy` 본문 1차 작성.
-2. `1. 5대륙 개요` 본문 1차 작성.
-3. `2. 세력 아카이브 구조` 본문 1차 작성.
-4. `3. People Worth Seeking` 본문 1차 작성.
-5. `4~8`은 위 네 장의 terminology가 안정된 뒤 채운다.
+1. `0. 운영 원칙 / Canon Policy` 본문 1차 작성 완료.
+2. `1. 5대륙 개요` 본문 1차 작성 완료.
+3. `2. 세력 아카이브 구조` 본문 1차 작성 완료.
+4. `3. People Worth Seeking` 본문 1차 작성 완료.
+5. `4~8`도 현재 first draft complete 상태로 두며, 이후 작업은 terminology 안정화 이후의 controlled refinement로만 다룬다.
 
 ## Conductor Decision
 
-이 skeleton은 설정집 재조합의 실제 작업 시작점이다.
+이 skeleton은 설정집 재조합의 original build plan이자 chapter coverage guard다.
 
-다음 배치에서는 `0. 운영 원칙 / Canon Policy`를
-짧은 본문 초안으로 채우되,
-새 canon을 만들지 않고 source priority와 canon tier만 설명한다.
+`0. 운영 원칙 / Canon Policy` 초안은 이미 complete 상태이므로
+이 문서는 더 이상 active first-fill queue로 사용하지 않는다.
+다음 배치는 새 canon이나 broad redraft가 아니라
+source priority, canon tier, chapter coverage를 보존하는 controlled refinement만 허용한다.

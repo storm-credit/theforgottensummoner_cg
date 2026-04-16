@@ -322,3 +322,29 @@
 2. 새 drift가 생길 때만 국소 수정
 3. `Extracted_Item_Candidates.md` 직접 편집 금지 유지
 4. `Item_Duplicate_Hotspot_Triage.md`는 포함 의도 문서로 간주
+
+## 2026-04-16 Twentieth Watch-Only Stability Pass
+
+목적:
+
+- post-push 상태에서 report / dispatch / setting-book skeleton의
+  시간차 문구가 현재 package state와 충돌하지 않는지 재확인한다.
+
+확인 결과:
+
+- `Setting_Book_Assembly_Index.md`와
+  `Setting_Book_Current_Status_Dashboard.md`는
+  0~8장 first draft complete 및 controlled refinement 상태를 유지한다.
+- `Setting_Book_Skeleton.md` 말미의 old `Next Fill Order` 문구만
+  아직 active first-fill queue처럼 보였으므로,
+  `Completed Fill Order / Current Refinement Order`로 정리했다.
+- 이 수정은 새 canon, broad redraft, chapter expansion이 아니라
+  완료 상태와 source-priority discipline을 맞추는 기록 정렬이다.
+- `Extracted_Item_Candidates.md`는 계속 직접 편집하지 않는다.
+
+최신 next safe move:
+
+1. setting-book package는 broad redraft 금지 상태를 유지한다.
+2. Appendix B/C evidence note는 필요한 행에만 제한한다.
+3. skeleton은 original build plan / coverage guard로만 사용한다.
+4. active first-fill queue는 닫힌 것으로 본다.
