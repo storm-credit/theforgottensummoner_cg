@@ -94,7 +94,7 @@
 | 검은 경매소 | `rumor_pressure`, `moral_pressure`, `debt_pressure` | `FS_Rumor_Fact_Register.md` |
 | 키르케 영약회 | `moral_pressure`, `time_pressure` | `FS_Ecology_Resource_Register.md` |
 | 봉인 제단 | `spatial_pressure`, `moral_pressure` | `FS_Place_Function_Register.md` |
-| Named Notables 조언 장면 | `identity_pressure`, `truth_question` | `FS_Story_Act_Question_Register.md` |
+| People Worth Seeking 조언 장면 | `identity_pressure`, `truth_question` | `FS_Story_Act_Question_Register.md` |
 
 ## Conductor Reading Rule
 

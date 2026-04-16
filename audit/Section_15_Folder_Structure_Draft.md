@@ -1,6 +1,6 @@
 # Section 15 Folder Structure Draft
 
-이 문서는 `15 Named Notables`의 folder route/reference mock 구조를
+이 문서는 `15 People Worth Seeking`의 folder route/reference mock 구조를
 문서 레벨에서 먼저 잠그는 설계도다.
 
 중요:
@@ -15,7 +15,7 @@
 
 ```text
 15. 인물백과
-  15-A. Named Notables
+  15-A. People Worth Seeking
     1. 크림슨
     2. 에테르
     3. 프로스트
@@ -33,7 +33,7 @@
     4. 오벨리스크 슬롯
 ```
 
-## 15-A. Named Notables
+## 15-A. People Worth Seeking
 
 ### 1. 크림슨
 
@@ -63,7 +63,7 @@
 에테르
   정령연합
     루미라
-      엘다라 [source_check_hold]
+      엘다라 [source_check_hold / hold reference split]
     기록 / 노래술사 경계
       엘라라 문힘 [verify_before_15]
     자연 율법회 / 생명의 의회 경계
@@ -150,7 +150,7 @@
 ```text
 범대륙 후기 확장
   키르케 영약회
-    실비아
+    실비아 [deferred_expansion_hold / hold reference split]
     멜리산드르 [verify_before_15]
 ```
 
@@ -163,10 +163,10 @@ reference backlog용 슬롯 색인이다.
 
 - `15-B. Operational Lines` 아래로 내려가는 `Section_15_Profile_*` 문서는
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
-- 즉 폴더 구조 초안은 named notable route와 operational profile route를 같이 보여주더라도,
+- 즉 폴더 구조 초안은 `People Worth Seeking` route와 operational profile route를 같이 보여주더라도,
   하위 profile의 policy carryover 형식을 별도로 유지하는 구조다.
 - 자유도시/오벨리스크 operational profile 문구는
-  named notable 고정 근거로 역수입하지 않고,
+  `People Worth Seeking` 고정 근거로 역수입하지 않고,
   lower-card carryover reference로만 유지한다.
 - 폴더 구조 문서는 이 profile carryover 범주를 참조할 수는 있어도,
   개별 operational profile의 정확한 guard 문장을 대신 정의하지 않는다.
@@ -195,14 +195,14 @@ frozen route/reference set에서는
 | `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `드래곤포지`, `프라이멀 엠버` | 폴더 route는 `드래곤포지 공방`까지로 고정하고, 개별 시트에서만 재료/화염 전승 place lock을 병기한다. |
 | `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` | 폴더 route는 `학술-전승층`으로 고정하고, 학자 구역/용언 도서관은 기능성 place lock으로만 둔다. |
 | `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `몽상가의 바위`, `지혜의 샘` | 폴더 route는 `전승 보관층`으로 고정하고, 대면/조언과 기억/전승 place lock은 개별 시트에만 둔다. |
-| `엘다라` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | 현재는 hold reference split 안의 `source_check_hold`이므로 route 후보만 보존하고 hold reference split 바깥으로 확장하지 않는다. |
+| `엘다라` | `에테르 / 정령연합 / 루미라` | `고대수 도서관`, `현자 의회` | 현재는 hold reference split 안의 `source_check_hold / hold reference split`이므로 route 후보만 보존하고 hold reference split 바깥으로 확장하지 않는다. |
 
 ## Policy Carryover Lock
 
 - `크림슨` 폴더 route는 씨족 중심 질서와 학술/전승/공방 thin-support를 정리하는 용도지, 전통 귀족국가형 `state_house strong` 근거 선언이 아니다.
 - `해양` Operational Lines route는 도시-항만 그림자경제를 정리하는 용도지, `토착 공동체층` 본체 폴더가 아니다.
 - `오벨리스크` route는 `nontraditional elite thin-support` 또는 `dark institution` 기능축을 정리하는 용도지, 전통 왕국/귀족국가 복원 route가 아니다.
-- `범대륙 후기 확장` route는 5대륙 본선과 분리된 hold route이며, `실비아`도 그 범위에서만 유지한다.
+- `범대륙 후기 확장` route는 5대륙 본선과 분리된 `deferred_expansion_hold / hold reference split` route이며, `실비아`도 그 범위에서만 유지한다.
 - 따라서 이 구간의 문장은 route-level reminder일 뿐,
   개별 operational profile을 대체하는 policy text로 쓰지 않는다.
 

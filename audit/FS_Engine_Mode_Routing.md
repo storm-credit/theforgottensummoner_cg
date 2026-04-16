@@ -22,7 +22,7 @@
 | 대륙 프레임 | Lore | Story |
 | 세력/가문/길드/부족 | Lore | Story |
 | 14 영웅백과 | Lore | Story |
-| 15 Named Notables | Lore | Story |
+| 15 People Worth Seeking | Lore | Story |
 | 15 Operational Lines | Lore | Story |
 | 아이템 후보 수집 | Lore | Story |
 | 아이템 수집욕 설계 | Lore | Story |

@@ -64,7 +64,7 @@
 ## 인물 축 핵심 구분
 
 - 중심 영웅축
-- Named Notables
+- People Worth Seeking
 - Operational Lines
 - 경계 후보
 

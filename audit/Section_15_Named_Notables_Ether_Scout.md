@@ -1,12 +1,12 @@
 # Section 15 Named Notables - Ether Scout
 
-이 문서는 에테르 대륙의 `15번 Named Notables` 후보를 스카우트한 결과다.
+이 문서는 에테르 대륙의 `15번 People Worth Seeking` 후보를 스카우트한 결과다.
 
 목표는 새 이름을 발명하는 것이 아니라,
 existing `cg` 작업본에 들어온 에테르 세력 문서에서
 유명 NPC형 명사, 서고/학파/사제/장인/정령 계약 명사층을 확인하는 것이다.
 
-named-notables active 판단은
+People Worth Seeking active 판단은
 `Section_15_Named_Notables_Register.md`,
 `Section_15_Named_Notables_Status_Compass.md`,
 `Continuous_Workstream.md`
@@ -93,7 +93,7 @@ named-notables active 판단은
 
 | Candidate | Source Anchor | Read | State Label | Note |
 |---|---|---|---|---|
-| 엘다라 | 루미라 / 정령연합 | 대현자 / 고대 정령어 권위자 | `named_notable_candidate` | 기존 15 후보 유지. |
+| 엘다라 | 루미라 / 정령연합 | 대현자 / 고대 정령어 권위자 | `source_check_hold / hold reference split` | 기존 15 후보 유지. |
 | 엘라라 문힘 | 정령연합 / 노래술사 | 기록 / 노래 / 가호 증폭 | `verify_before_15` | A급 영웅표 신호가 있어 14 확인 필요. |
 | 드라이덴 썬더루트 | 자연 율법회 / 생명의 의회 | 장로 드루이드 / 자연법 해석 | `verify_before_15` | 핵심 인물표 신호가 있어 15 확정 금지. |
 | 메라 라일윈드 | 외교 사절단 | 정령연합 외교 / 희귀 재료 교역 조건 관리 | `verify_before_15` | Top 4 외교관 신호가 있어 14 확인 필요. |
@@ -112,7 +112,7 @@ named-notables active 판단은
 
 ## Conductor Reading
 
-에테르는 `15번 Named Notables` 확장 우선순위가 높다.
+에테르는 `15번 People Worth Seeking` 확장 우선순위가 높다.
 
 하지만 이 scout snapshot에서 확정 15로 바로 올릴 새 이름은 거의 없다.
 대신 reference상 다음처럼 읽는다.

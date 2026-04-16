@@ -33,12 +33,12 @@
 
 ## 이번 시안에 담긴 흐름
 
-1. 이 세계를 읽는 법
-2. 에테르 대륙
-3. 길이 교차하는 도시들
-4. 찾아가야 할 사람들
-5. 유물과 욕망의 물건들
-6. 사람들, 혈통, 그리고 변한 상태들
+1. Opening: How to Read This World
+2. Part I. The Five Continents: Ether Continent Preview
+3. Part VII. Places, Routes, and Maps That Create Story
+4. Part III. People Worth Seeking
+5. Part V. Relics, Gear, Trade Goods, and Things People Want
+6. Part VI. Peoples, Bloodlines, Monsters, and Changed States
 
 이 문서는 완성된 전체 설정집이 아니라
 지금 이 세계를 가장 선명하게 보여 주는 장들을 먼저 묶은 시안이다.
@@ -46,6 +46,9 @@
 길이 교차하는 도시를 지나,
 찾아가야 할 이름과 붙잡아야 할 물건,
 그리고 조심스럽게 구분해야 할 존재들까지 한 흐름으로 읽히도록 구성했다.
+최종 public Part naming authority와 appendix routing rule은
+`Setting_Book_Reader_Facing_TOC_Draft.md`와
+`Setting_Book_Body_Appendix_Separation_Plan.md`를 따른다.
 
 이 흐름을 더 가까이에서 들여다보고 싶을 때는
 세력, 인물, 장소, 유물, 종족을 축별로 묶은 다섯 개의 `핵심 프로필` 문서를 이어서 펼치면 된다.
@@ -54,7 +57,7 @@
 
 ---
 
-## 이 세계를 읽는 법
+## Opening: How to Read This World
 
 `THE FORGOTTEN SUMMONER`의 세계는 거대한 힘이 충돌하는 무대이지만,
 그 중심에 서 있는 것은 언제나 사람이다.
@@ -82,7 +85,7 @@
 
 ---
 
-## 1부. 에테르 대륙
+## Part I. The Five Continents: Ether Continent Preview
 
 에테르 대륙은 질서가 아름답게 보이는 곳이다.
 
@@ -125,7 +128,7 @@
 
 ---
 
-## 2부. 길이 교차하는 도시들
+## Part VII. Places, Routes, and Maps That Create Story
 
 자유도시연합은 하나의 왕좌가 아니라
 여러 도시 사이에서 뛴다.
@@ -172,7 +175,7 @@
 
 ---
 
-## 3부. 찾아가야 할 사람들
+## Part III. People Worth Seeking
 
 이 세계에는 역사를 바꾸는 영웅이 있다.
 그러나 영웅만이 세계를 움직이는 것은 아니다.
@@ -233,7 +236,7 @@
 
 ---
 
-## 4부. 유물과 욕망의 물건들
+## Part V. Relics, Gear, Trade Goods, and Things People Want
 
 이 세계에서 물건은 오래 살아남는다.
 사람보다 오래,
@@ -299,7 +302,7 @@
 
 ---
 
-## 5부. 사람들, 혈통, 그리고 변한 상태들
+## Part VI. Peoples, Bloodlines, Monsters, and Changed States
 
 이 세계의 낯선 존재들은
 인간과 다른 얼굴을 하고 있다고 해서 모두 같은 방식으로 읽히지 않는다.
@@ -361,7 +364,7 @@
 
 ---
 
-## 부록으로 이어지는 다리
+## Part VIII. Appendix and Production Notes
 
 여기까지가 독자가 먼저 만나는 앞면이다.
 

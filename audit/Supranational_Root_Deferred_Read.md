@@ -23,11 +23,11 @@
 | `철의 금융 카르텔 (Iron Bank)` | `철의 금융 연맹 (Iron Bank)` | `soft_display / high_priority_rename_candidate` | `카르텔`은 표면 정본명으로 부적합. |
 | `그림자 첩보 조직 (Shadow Intelligence)` | `그림자 첩보망 (Shadow Veil)` | `soft_display` | 현대 행정기관 어감을 낮춤. |
 
-## Named Notables Impact
+## People Worth Seeking Impact
 
 | Candidate | Current Anchor | Treatment |
 |---|---|---|
-| `실비아` | `키르케 영약회` | `named_notable_candidate / deferred_expansion_hold / name_collision_watch` |
+| `실비아` | `키르케 영약회` | `deferred_expansion_hold / hold reference split / name_collision_watch` |
 | `멜리산드르` | `키르케 영약회` | `verify_before_15 / hold_for_dual_review` |
 
 ## Operational Lines Impact

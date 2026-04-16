@@ -36,7 +36,7 @@ named-candidate active 판단은
 2. 실제 개인명 확인.
 3. 등급/Act/영웅록 신호 확인.
 4. `verify_before_15` 또는 `named_notable_candidate` 상태 부여.
-5. 필요하면 개별 15 Named Notable 시트 생성.
+5. 필요하면 개별 15 People Worth Seeking 시트 생성.
 
 ## Read-Only Pass - Batch 01
 

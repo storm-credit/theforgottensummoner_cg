@@ -1,4 +1,4 @@
-# Setting Book Public Voice Sample: Relics and Desired Objects
+# Setting Book Public Voice Sample: Part V. Relics, Gear, Trade Goods, and Things People Want
 
 ## Purpose
 
@@ -10,7 +10,7 @@
 숨기고,
 되찾으려 하는 이야기의 장치로 보이게 만드는 것이다.
 
-## Public Voice Sample
+## Part V. Relics, Gear, Trade Goods, and Things People Want
 
 이 세계에서 물건은 오래 살아남는다.
 사람보다 오래,
@@ -100,4 +100,3 @@
 이 톤이 맞다면 다음 단계는
 `장인 공방에서 태어난 물건`, `계보형 전설 물건`, `위험한 성장형 물건`, `거래되는 희귀 물건`
 같은 하위 묶음으로 relic chapter를 확장하는 것이다.
-

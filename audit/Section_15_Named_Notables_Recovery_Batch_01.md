@@ -4,7 +4,7 @@
 이름 있는 인물 신호를 `15 Named Notables` 후보로 바로 넣지 않고,
 14/15 경계값으로 분리한 recovery snapshot이다.
 
-named-notables active 판단은
+People Worth Seeking active 판단은
 `Section_15_Named_Notables_Register.md`,
 `Section_15_Named_Notables_Status_Compass.md`,
 `Continuous_Workstream.md`
@@ -28,7 +28,7 @@ named-notables active 판단은
 프로스트 판정:
 
 - `울프릭`은 장로/주술사 명사형 가치가 있어 보이지만 `전설 주술 영웅록` 출처라 보류한다.
-- `엘리나`, `세리아`는 히로인/여왕 신호가 강해서 Named Notables로 내리지 않는다.
+- `엘리나`, `세리아`는 히로인/여왕 신호가 강해서 People Worth Seeking으로 내리지 않는다.
 
 ## Oceanic Candidates
 
@@ -75,7 +75,7 @@ named-notables active 판단은
 
 ## Queue Snapshot
 
-본 배치 기준 `15 Named Notables` 2차 경계 큐 대상은 아래 후보로 기록한다.
+본 배치 기준 `15 People Worth Seeking` 2차 경계 큐 대상은 아래 후보로 기록한다.
 
 1. `울프릭`
 2. `미다스`

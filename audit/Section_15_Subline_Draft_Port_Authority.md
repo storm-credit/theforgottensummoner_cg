@@ -53,5 +53,5 @@
 
 그래야 상층 협상과 현장 충돌이 같이 살아난다.
 
-다만 named notable 승인 논리와는 분리하고,
+다만 `People Worth Seeking` 승인 논리와는 분리하고,
 operational subline-profile-side carryover reference로만 유지한다.

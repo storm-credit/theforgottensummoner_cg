@@ -1,7 +1,7 @@
 # FS Slot Maturation Register
 
 이 문서는 `need_named_candidate` 슬롯이
-어떻게 실제 `15 Named Notable` 후보로 자라는지 추적하는 장부다.
+어떻게 실제 `15 People Worth Seeking` 후보로 자라는지 추적하는 장부다.
 
 ## Stages
 

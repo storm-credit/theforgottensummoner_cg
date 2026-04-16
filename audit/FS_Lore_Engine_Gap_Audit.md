@@ -208,7 +208,7 @@ Status: `built`
 - 큰 설정집은 `판정 기억`이 없으면 다시 흔들린다.
 - 아스트라리스는 `다른 크로니클과의 경계`를 유지해야 한다.
 - `need_named_candidate` 슬롯이 많아지면서
-  이름 없는 구조가 실제 named notable 후보로 자라는 과정을 추적할 장부가 필요해졌다.
+  이름 없는 구조가 실제 People Worth Seeking 후보로 자라는 과정을 추적할 장부가 필요해졌다.
 
 ## Build Status
 

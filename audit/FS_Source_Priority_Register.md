@@ -22,8 +22,16 @@
 - `workflow/00_Astralis_Vision.md`
 - `workflow/11_FS_Engine.md`
 - `audit/FS_Canon_Tier_Register.md`
+- `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 - `working/drafts/Five_Continent_Synthesis.md`
 - `audit/Section_8_Standard_Spine.md`
+
+주의:
+
+- 결손층 5개 판단에서는 `audit/Five_Continent_Missing_Layer_Master_Lock.md`가
+  단일 entry authority다.
+- `working/drafts/Five_Continent_Synthesis.md`는 대륙 종합 reference로 보되,
+  missing-layer thin/support 판정을 master lock 바깥에서 새로 확정하지 않는다.
 
 ### Tier 2. Imported Working Copy Snapshot
 
@@ -109,6 +117,6 @@ Derived Analysis는 `해당 작업에서 무엇을 할 것인가`를 정한다.
 | Topic | Higher Priority | Lower Priority | Recorded Action |
 |---|---|---|---|
 | `카르텔` 표면명 | Naming Tone Guide | 기존 기능 라벨 | `금융 연맹`, `침묵의 상회` 후보로 관리 |
-| `14/15` 분리 | Section 15 Split Policy | 기존 혼재 문맥 | `14` 유지, `15`는 Named Notables / Operational Lines로 분리 |
+| `14/15` 분리 | Section 15 Split Policy | 기존 혼재 문맥 | `14` 유지, `15`는 People Worth Seeking / Operational Lines로 분리 |
 | 범대륙 후기 확장 | Five Continent Spine | 후기 증설 파편 | 후순위 확장으로 보류 |
 | 레거시 루트 | Legacy Quarantine Policy | `_Legacy_` 원문 | 바로 정본화 금지 |

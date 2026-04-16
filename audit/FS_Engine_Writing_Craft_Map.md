@@ -96,7 +96,7 @@
   - `Archive Routing`
   - `Canon Tier`
 
-### 15 Named Notables
+### 15 People Worth Seeking
 
 - 먼저:
   - `Character Arc`

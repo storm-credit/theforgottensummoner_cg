@@ -15,6 +15,7 @@
 ## Output Snapshot
 
 - 1차 추출 리포트: `working/crosswalks/Extracted_Item_Candidates.md`
+- 중복 hotspot triage: `working/crosswalks/Item_Duplicate_Hotspot_Triage.md`
 - 임시 등록부: `working/crosswalks/Item_Candidate_Register.md`
 - 기준 문서: `workflow/07_Item_Canon_Schema.md`
 - 수집 욕구 설계: `workflow/08_Item_Desire_Design.md`
@@ -26,6 +27,8 @@
 - 중복 hotspot은 `황금 (Gold)`, `보석 (Gems)`, `흑요석 (Obsidian)`, `흑철 (Iron)` 같은 재료/공용 항목 쪽에 몰려 있다.
 - `14번` 영웅 문서의 `전용 무기 및 아티팩트` 구간이 가장 신뢰도 높은 공급원이다.
 - 아직 탈것, 재료, 통신 장치, 생체 장치가 일부 섞여 있어 2차 정제가 필요하다.
+- 현재 수정 중인 `Extracted_Item_Candidates.md`를 직접 건드리지 않는 안전선은 `Item_Duplicate_Hotspot_Triage.md`에서 유지한다.
+- 2026-04-13 KST 기준, hotspot 4종은 `Item_Candidate_Register.md`에서 `duplicate_candidate`로 낮춰 두었다.
 
 ## Do Not Do
 
@@ -47,3 +50,15 @@
   - `duplicate_candidate`
   - `needs_merge`
   - `ready_for_encyclopedia`
+
+## Safe Side-Track Rule
+
+- duplicate hotspot과 표제어 누출은 추출표 직접 수정이 아니라
+  `Item_Duplicate_Hotspot_Triage.md`와 `Item_Candidate_Register.md`에서 먼저 정리한다.
+- broad material, catalog heading, collision term은 정본 승격 전에 한 번 더 분리한다.
+- living / mount / device ambiguity는 `Item_Name_Collision_Register.md`의 sidecar section으로 먼저 보낸다.
+- 2026-04-13 KST 기준, living / mount / device ambiguity source context 확인을 완료했다.
+- confirmed device / mount gear 후보의 장기 분류 bucket link까지 반영 완료했다.
+- 다음 작업은 `proper_name_not_item`와 living / mount exclusion 후보가
+  정본 아이템 백과로 넘어가지 않게 routing aid / sidecar 차단선을 유지하는 것이다.
+- taxonomy bucket link는 routing aid일 뿐이며 `ready_for_encyclopedia` 승격 기준으로 쓰지 않는다.

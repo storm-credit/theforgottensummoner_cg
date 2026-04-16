@@ -10,7 +10,7 @@
 
 그래서 `15번`은 아래 두 레이어로 분리한다.
 
-## Layer A. Named Notables
+## Layer A. People Worth Seeking
 
 이 축은 `이름 있는 유명 NPC`를 모은다.
 
@@ -54,7 +54,7 @@
 
 - 개별 이름보다 `기능 라인`이 먼저다
 - 도시, 조직, 경제, 첩보의 작동 원리를 설명한다
-- Named Notables와는 역할이 다르다
+- People Worth Seeking과는 역할이 다르다
 
 ## Naming Rule
 

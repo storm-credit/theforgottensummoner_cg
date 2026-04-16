@@ -39,14 +39,14 @@
 | Candidate | Hold State | Rule |
 |---|---|---|
 | `엘다라` | `source_check_hold / hold reference split` | 정령연합 전체 14 확인 전 `stable_triad_frozen_reference_set` 바깥 hold reference split으로만 유지한다. |
-| `실비아` | `deferred_expansion_hold / name_collision_watch` | 범대륙 후기 확장축은 stable_triad_frozen_reference_set와 분리된 deferred hold reference로만 유지한다. |
+| `실비아` | `deferred_expansion_hold / hold reference split / name_collision_watch` | 범대륙 후기 확장축은 stable_triad_frozen_reference_set와 분리된 `deferred_expansion_hold / hold reference split` reference로만 유지한다. |
 
 ## Freeze Rules
 
 1. stable triad는 `upper route anchor`와 `place lock`을 섞지 않는다.
 2. stable triad는 요약표에서도 live safe pool이 아니라 `stable_triad_frozen_reference_set / watch-reference` 묶음으로만 읽는다.
-3. `엘다라`는 hold reference split 안의 `source_check_hold`로만 보존하고 `stable_triad_frozen_reference_set` 바깥 hold reference split으로만 유지한다.
-4. `실비아`는 `deferred_expansion_hold`로만 보존하고 `stable_triad_frozen_reference_set` 바깥 hold reference split으로만 유지한다.
+3. `엘다라`는 hold reference split 안의 `source_check_hold / hold reference split`로만 보존하고 `stable_triad_frozen_reference_set` 바깥 hold reference split으로만 유지한다.
+4. `실비아`는 `deferred_expansion_hold / hold reference split`로만 보존하고 `stable_triad_frozen_reference_set` 바깥 hold reference split으로만 유지한다.
 5. `벨라나`, `아리안`, `드락사르`, `카사르`는 계속 `source_check_hold`로 남긴다.
 6. `stable_triad_frozen_reference_set` 단계에서도 live 폴더 생성/이동은 금지한다.
 7. stable triad의 카드별 `Policy Guard`는 `stable_triad_frozen_reference_set` 아래에서도 유효하며, `state_house strong` 고정 근거로 넘겨 읽지 않는다.
@@ -79,7 +79,7 @@
 - stable triad actual route 변경
 - triad와 `엘다라`의 묶음 병합
 - triad와 `실비아`의 묶음 병합
-- `source_check_hold` 후보를 새 stable triad로 추가
+- `source_check_hold / hold reference split` 후보를 새 stable triad로 추가
 - 실제 문서 이동/생성/개명
 
 ## Watch Conditions
@@ -88,11 +88,11 @@
 이 `stable_triad_frozen_reference_set`이 watch-reference baseline으로 남아 있는지 확인하는 무결성 점검이다.
 
 1. triad 개별 시트의 freeze state가 summary 문서와 일치한다.
-2. `엘다라 = source_check_hold / hold reference split`, `실비아 = deferred_expansion_hold`가 summary 계층까지 일치한다.
+2. `엘다라 = source_check_hold / hold reference split`, `실비아 = deferred_expansion_hold / hold reference split`가 summary 계층까지 일치한다.
 3. 구형 route-test / folder-phase / broad safe-pool 표현이 핵심 문서군에서 제거된다.
 4. revision gate가 `stable_triad_frozen_reference_set`과 충돌하지 않는다.
 5. 카드층의 policy guard와 index/folder/routing 문서의 carryover 문장이 서로 충돌하지 않는다.
-6. named notable freeze 문장이 operational profile guard 문장을 고정 논리로 역수입하지 않는다.
+6. People Worth Seeking freeze 문장이 operational profile guard 문장을 고정 논리로 역수입하지 않는다.
 
 ## Conductor Decision
 

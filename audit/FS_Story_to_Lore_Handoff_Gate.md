@@ -56,7 +56,7 @@ Story Engine 쪽에서 Lore Engine으로 넘길 최소 패킷:
 | `why_now` | 이 장면에 필요한 이유는 무엇인가 |
 | `expected_reader_effect` | 독자에게 어떤 효과를 주려는가 |
 | `lore_risk` | 이름 충돌, 등급 과열, 라우팅 흔들림, 톤 충돌 위험이 있는가 |
-| `suggested_route` | 14 / 15 Named Notables / 15 Operational Lines / 8 / 지도 / 아이템 / hold 중 어디로 보이는가 |
+| `suggested_route` | 14 / 15 People Worth Seeking / 15 Operational Lines / 8 / 지도 / 아이템 / hold 중 어디로 보이는가 |
 
 ## Lore Intake Questions
 
@@ -93,7 +93,7 @@ Lore Engine은 handoff를 받으면 아래를 확인한다.
 | Situation | Lore Route | Required Register |
 |---|---|---|
 | 장면에서 새 항구 이름이 튀어나왔다 | `지도` 또는 `Place Function` | `FS_Place_Function_Register` |
-| 새로운 기록관 NPC가 필요하다 | `15 Named Notables` 또는 `15 Operational Lines` | `FS_State_Label_Register`, 필요 시 `FS_Decision_Ruling_Register` |
+| 새로운 기록관 NPC가 필요하다 | `15 People Worth Seeking` 또는 `15 Operational Lines` | `FS_State_Label_Register`, 필요 시 `FS_Decision_Ruling_Register` |
 | 새 길드명을 붙이고 싶다 | `8` | `FS_State_Label_Register`, Naming Tone 점검 |
 | 가짜 소문을 사실로 바꾸고 싶다 | 기존 route 유지 | `FS_Rumor_Fact_Register`, 필요 시 `FS_Canon_Change_Log` |
 | 새 이동 경로가 필요하다 | `지도` 또는 `hold` | `FS_Travel_Logistics_Register` |

@@ -1,6 +1,6 @@
 # Section 15 Oceanic Search Synthesis
 
-이 문서는 해양 대륙의 `15 Named Notables` 후보와 역할 슬롯을 압축한 종합표다.
+이 문서는 해양 대륙의 `15 People Worth Seeking` 후보와 역할 슬롯을 압축한 종합표다.
 
 해양은 이름 있는 후보가 많지만,
 대부분 제독, A/SS급, 히어로급, 단장급, 전설/신화 축과 겹친다.

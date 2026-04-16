@@ -5,7 +5,7 @@
 주의:
 
 - 여기에는 개별 인물과 역할 계열 시트가 함께 들어 있다.
-- `15 Named Notables` 시트는 이 색인에 섞지 않는다.
+- `15 People Worth Seeking` 시트는 이 색인에 섞지 않는다.
 - 기본 state label은 `operational_line`이다.
 - 이미 14번 신호가 보이는 인물은 `source_check_hold`로 별도 관리한다.
 
@@ -71,7 +71,7 @@
   하위 profile들이 같은 policy carryover 형식을 유지하는지 보는 입구다.
 - 이 index는 draft family를 묶는 상위 reference층이지,
   개별 profile의 exact guard wording을 다시 정의하는 문서가 아니다.
-- 따라서 named notable/route/index 문서가 이 색인을 참조하더라도,
+- 따라서 People Worth Seeking route/index 문서가 이 색인을 참조하더라도,
   lower-card authority는 각 profile 카드의 `3-1. Policy Guard`에 남긴다.
 - 이 index는 lower card가 valid `3-1. Policy Guard`를 달고 있는지 추적할 뿐,
   exact guard wording의 source가 되지는 않는다.

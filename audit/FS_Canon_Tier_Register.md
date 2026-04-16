@@ -44,13 +44,13 @@
 | Subject | Scope | Tier | Source Priority | Recorded Use | Recorded Action | Note |
 |---|---|---|---|---|---|---|
 | `14 = 서사 중심 영웅` | `archive policy` | `Hard Canon` | `workflow` | `active` | `maintain` | `14`는 중심 영웅축으로 유지 |
-| `15 = Named Notables + Operational Lines` | `archive policy` | `Hard Canon` | `workflow` | `active` | `maintain` | `15`는 이중 레이어로 운영 |
+| `15 = People Worth Seeking + Operational Lines` | `archive policy` | `Hard Canon` | `workflow` | `active` | `maintain` | `15`는 이중 레이어로 운영 |
 | `동양 / 무협 제외` | `tone policy` | `Hard Canon` | `vision` | `active` | `maintain` | 다른 크로니클로 분리 |
 | `범대륙은 후기 확장` | `expansion policy` | `Hard Canon` | `master plan` | `active` | `maintain` | 메인 축보다 후순위 |
-| `에리온 드라코비스 = 15 Named Notable` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 현재 `named_notable_candidate / stable_15_workset / grade_caution / name_collision_watch` |
-| `울프가르 드래곤포지 = 15 Named Notable` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 장인형 명사로 강함 |
-| `오그마 = 15 Named Notable` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 전승 보관자축 |
-| `실비아 = 15 Named Notable` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 기록자형 연금술 명사 |
+| `에리온 드라코비스 = 15 People Worth Seeking` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 현재 `named_notable_candidate / stable_15_workset / grade_caution / name_collision_watch` |
+| `울프가르 드래곤포지 = 15 People Worth Seeking` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 장인형 명사로 강함 |
+| `오그마 = 15 People Worth Seeking` | `character routing` | `Soft Canon` | `audit` | `candidate` | `promote_if_stable` | 전승 보관자축 |
+| `실비아 = deferred supranational named boundary` | `character routing` | `Soft Canon` | `audit` | `hold` | `deferred_hold_split` | 현재 `deferred_expansion_hold / hold reference split / name_collision_watch` |
 | `멜리산드르 = 14/15 경계` | `character routing` | `Open Question` | `audit` | `hold` | `dual_review` | 세력 최고위와 명사성이 겹침 |
 | `카사르 더 시어 = 14/15 경계` | `character routing` | `Open Question` | `audit` | `hold` | `dual_review` | 예언자/조언자/영웅축 중첩 |
 | `Operational Lines working labels` | `naming policy` | `Soft Canon` | `audit` | `active` | `replace_with_display_candidates` | 작업용 구조 라벨 |

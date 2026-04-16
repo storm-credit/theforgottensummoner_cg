@@ -45,7 +45,7 @@
   - 정상 루트와 손상 루트를 같은 활성 입력으로 읽지 않는다
   - `_Legacy_`는 reference-only 비교 경로로만 유지한다
 
-## 2. Place-Network Pressure Family
+## 2. Place-Pressure Family
 
 ### Risk
 
@@ -69,7 +69,7 @@
    자동 구조 재분류가 아니다
 
 즉 이 항목의 핵심은
-`place-network pressure`와 `structure label`을 분리해 기록하는 것이다.
+`place-pressure`와 `structure label`을 분리해 기록하는 것이다.
 
 ### Conductor Judgment
 
@@ -85,14 +85,14 @@
 |---|---|---|---|---|
 | `Supranational & 마립` broken root | `root_corruption` | `quarantine_root` | `mismatch_keep` | 손상 루트는 활성 입력에서 제외 유지 |
 | `_Legacy_중립세력 (Backup)` | `root_corruption` support | `legacy_root / reference-only` | `mismatch_keep` | 비교/참고 전용으로 유지 |
-| `place-network pressure family` | `section_style_forced_on_place_network` | `section_style` 우세, 일부 `mixed_keep` | `watch_keep` | 장소 압력과 구조 라벨을 분리 기록 |
+| `place-pressure family` | `section_style_forced_on_place_network` | `section_style` 우세, 일부 `mixed_keep` | `watch_keep` | 장소 압력과 구조 라벨을 분리 기록 |
 
 ## Conductor Decision
 
 이 패스에서 잠그는 핵심은 둘이다.
 
 1. `P0 root_corruption`은 구조 라벨 문제가 아니라 `root label discipline` 문제다.
-2. `P2 place-network`는 구조 오류 확정보다 `place pressure strong` 메모 체계로 관리하는 편이 맞다.
+2. `P2 place-pressure`는 구조 오류 확정보다 `place pressure strong` 메모 체계로 관리하는 편이 맞다.
 
 따라서 mismatch 1차 사이클의 다음 단계는
 새 후보를 더 늘리기보다,

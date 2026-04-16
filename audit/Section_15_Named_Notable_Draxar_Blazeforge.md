@@ -18,7 +18,7 @@
 강한 공방형 명사 후보로 보인다.
 
 따라서 바로 15번으로 확정하지 않고,
-`14 중심 영웅 후보`와 `15 Named Notables` 사이의 경계 인물로 둔다.
+`14 중심 영웅 후보`와 `15 People Worth Seeking` 사이의 경계 인물로 둔다.
 
 ## Evidence Notes
 

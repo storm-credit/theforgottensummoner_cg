@@ -15,7 +15,7 @@ FS Lore Engine이 담당하는 것:
 - 세력, 가문, 부족, 길드 충분성
 - `8. 세력 아카이브`
 - `14. 영웅백과`
-- `15. Named Notables`
+- `15. People Worth Seeking`
 - `15. Operational Lines`
 - 아이템 후보
 - 지도, 도시, 건물 내부 맵 후보
@@ -66,7 +66,7 @@ FS Lore Engine이 담당하는 것:
 우선 라우팅:
 
 - `14 = 서사 중심 영웅`
-- `15 Named Notables = 세계관 명사형 영웅 / 유명 NPC`
+- `15 People Worth Seeking = 세계관 명사형 영웅 / 유명 NPC`
 - `15 Operational Lines = 조직 작동을 보여주는 실무층`
 - `8 = 세력 / 기관 / 집단`
 - `지도 = 공간 기능`
@@ -77,8 +77,8 @@ FS Lore Engine이 담당하는 것:
 
 - `SS / S / A급`, `Act 중심성`, `전설 영웅록`, `독립 14 파일` 신호가 있으면 먼저 `verify_before_15`로 둔다.
 - 유명 NPC형 가치가 있어도 14 중심 영웅 신호가 강하면 바로 15로 내리지 않는다.
-- `15 Named Notables`는 `약한 영웅` 창고가 아니라 `세계 안에서 찾아갈 이유가 있는 이름 있는 명사` 축이다.
-- `15 Named Notables`의 본체 라우팅은 `대륙 -> 세력 / 도시 / 조직` 기준으로 한다.
+- `15 People Worth Seeking`은 `약한 영웅` 창고가 아니라 `세계 안에서 찾아갈 이유가 있는 이름 있는 명사` 축이다.
+- `15 People Worth Seeking`의 본체 라우팅은 `대륙 -> 세력 / 도시 / 조직` 기준으로 한다.
 - `현자 / 장인 / 기록자 / 감정사 / 연금술사 / 공방주` 같은 기능은 보조 색인으로만 둔다.
 
 ### 5. Naming Tone
@@ -154,7 +154,7 @@ handoff packet으로 먼저 받는다.
 FS Lore Engine reference priority:
 
 1. `14/15` 분리 기준 유지
-2. Named Notables와 Operational Lines를 섞지 않기
+2. People Worth Seeking과 Operational Lines를 섞지 않기
 3. 대륙 -> 세력/도시/조직 폴더링을 본체로 유지
 4. 직업/기능은 보조 색인으로 관리
 5. 이름은 판타지 표면명 후보로 따로 관리

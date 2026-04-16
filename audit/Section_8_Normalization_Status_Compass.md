@@ -33,8 +33,8 @@
 - `spine mismatch round1`: `closed_round1`
 - `root corruption first pass`: `locked`
 - `subtree sampling prep`: `ready_when_source_available`
-- `place-network P2 queue`: `locked`
-- `place-network handoff`: `applied_round1`
+- `place-pressure P2 queue`: `locked` (`section_style_forced_on_place_network` legacy risk key)
+- `place-pressure handoff`: `applied_round1` (`section_style_forced_on_place_network` legacy risk key)
 - `section8_to_15 closure sync watch`: `watch_mainline`
 - `five_continent_missing_layer_master_lock`: `closed_component_set`
 
@@ -88,7 +88,7 @@
 | `잊힌 자들의 연합` | `nontraditional_elite_as_state_house` | `mismatch_keep` | 가문 폴더와 귀족국가 분리 |
 | `봉인 수호단` | `place_style_flattened_to_section_style` | `mismatch_clear` | flattening 증거 없음 |
 | `Supranational & 마립` broken root | `root_corruption` | `mismatch_keep` | 손상 루트 격리 유지 |
-| `place-network pressure family` | `section_style_forced_on_place_network` | `watch_keep` | place pressure와 구조 라벨 분리 |
+| `place-pressure family` | `section_style_forced_on_place_network` | `watch_keep` | place pressure와 구조 라벨 분리 |
 
 ## Place Pressure Handoff Snapshot
 

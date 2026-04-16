@@ -31,7 +31,7 @@
 - `Plausibility Judge`
 - `Naming Tone Auditor`
 - `Place-Function Auditor`
-- `Named Notables Curator`
+- `People Worth Seeking Curator`
 - `Boundary Hold Scout`
 - `Place-Institution Slot Scout`
 - `Collision Auditor`
@@ -180,9 +180,9 @@
 
 - 장소, 기관, 사람, 역할 슬롯이 한 덩어리로 오염되지 않게 분리한다.
 
-### Named Notables Curator
+### People Worth Seeking Curator
 
-- `Section 15 Named Notables` 후보, hold cluster, stable candidate를 관리한다.
+- `Section 15 People Worth Seeking` 후보, hold cluster, stable candidate를 관리한다.
 
 ### Boundary Hold Scout
 

@@ -1,6 +1,6 @@
 # Section 15 Ether Search Synthesis
 
-이 문서는 에테르 `15 Named Notables` 후보명 탐색 큐 1-9번을 압축한 종합표다.
+이 문서는 에테르 `15 People Worth Seeking` 후보명 탐색 큐 1-9번을 압축한 종합표다.
 
 목표는 에테르를 바로 15번 인물백과로 밀어 넣는 것이 아니라,
 `14 유지`, `verify_before_15`, `named_notable_candidate`, `need_named_candidate`를 분리해
@@ -18,7 +18,7 @@
 
 | Candidate | Anchor | Reason | State |
 |---|---|---|---|
-| `엘다라 (Eldara)` | `정령연합 / 루미라` | 300년을 산 하이엘프, 고대 정령어 권위자, 의장. `고대수 도서관`의 정령어 석판과 `초대 정령왕의 계약서 사본` 축까지 붙는다. 작업본 기준 14 독립 파일 직접 확인은 미확인. | `named_notable_candidate / verify_source_before_profile` |
+| `엘다라 (Eldara)` | `정령연합 / 루미라` | 300년을 산 하이엘프, 고대 정령어 권위자, 의장. `고대수 도서관`의 정령어 석판과 `초대 정령왕의 계약서 사본` 축까지 붙는다. 작업본 기준 14 독립 파일 직접 확인은 미확인. | `source_check_hold / hold reference split` |
 
 ## Keep 14
 

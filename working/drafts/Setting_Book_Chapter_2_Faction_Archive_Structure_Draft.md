@@ -145,7 +145,7 @@ place pressure는 구조 라벨 문서 안에 가두지 않는다.
 ## 2.6 Section 8 -> 15 Handoff
 
 `Section 8`에서 확인한 세력 / 장소 / 기관 압력은
-`Section 15` Named Notables나 Operational Lines로 넘어갈 수 있다.
+`Section 15` People Worth Seeking / Operational Lines로 넘어갈 수 있다.
 
 하지만 이 handoff는 새 인물 확장 명령이 아니다.
 
@@ -154,7 +154,7 @@ place pressure는 구조 라벨 문서 안에 가두지 않는다.
 따라서:
 
 - 새 후보를 늘리기보다 잠긴 결과가 서로 같은 현재 시점을 가리키는지 먼저 본다.
-- `source_check_hold`, `deferred_expansion_hold`, `stable_15_workset` 상태는 Section 15 상태어 기준을 따른다.
+- `source_check_hold`, `deferred_expansion_hold / hold reference split`, `stable_15_workset` 상태는 Section 15 상태어 기준을 따른다.
 - 하위 operational profile의 `3-1. Policy Guard`는 상위 summary가 덮어쓰지 않는다.
 
 ## 2.7 Setting Book Use
@@ -177,4 +177,4 @@ place pressure는 구조 라벨 문서 안에 가두지 않는다.
 - `mixed_keep`는 살아 있는 구조 예외다.
 - `place_pressure_strong`은 구조 라벨이 아니다.
 - `Section 8 -> 15`는 새 후보 확장이 아니라 `mainline reference carryover` 정합성 유지가 우선이다.
-- 다음 장인 `3. Named Notables / Operational Lines`는 이 handoff 규칙을 넘지 않는다.
+- 다음 장인 `3. People Worth Seeking`은 이 handoff 규칙을 넘지 않는다.

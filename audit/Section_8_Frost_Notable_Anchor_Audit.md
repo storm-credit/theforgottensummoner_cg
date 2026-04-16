@@ -1,7 +1,7 @@
 # Section 8 Frost Notable Anchor Audit
 
 이 문서는 `프로스트 / 프로스트본 연합 / 성소-요새-공방` 앵커를 다시 보며
-`15 Named Notables`가 아니라 `named notable slot`이 먼저 강한 이유를 점검한 결과다.
+`15 People Worth Seeking`이 아니라 `People Worth Seeking slot`이 먼저 강한 이유를 점검한 결과다.
 
 ## Conductor Verdict
 

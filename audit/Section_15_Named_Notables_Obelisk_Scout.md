@@ -1,7 +1,7 @@
 # Section 15 Named Notables Obelisk Scout
 
 이 문서는 `오벨리스크` 대륙에서
-`15 Named Notables` 후보와 역할 슬롯을 분리해 기록한다.
+`15 People Worth Seeking` 후보와 역할 슬롯을 분리해 기록한다.
 
 ## Conductor Reading
 
@@ -20,7 +20,7 @@ recorded 판정은 `thin with dense boundary and archive slots`로 둔다.
 | `바리온` | `봉인 수호단` | 금서의 룬마스터, 룬의 집행관 | `verify_before_15` | 기존 판단 유지. 금서 명사 가치가 크지만 전설 영웅록 신호가 강하다. |
 | `아이기스` | `봉인 수호단` | 절대 방벽의 현자, 장벽의 수호자 | `verify_before_15 / item_name_collision` | 인물명, 성씨, 방패/결계/아이템명이 섞여 있어 병합 금지. |
 | `카론` | `망자의 왕국 / 잊힌 자들의 전술 문서` | 원혼 인도자, 영혼의 목자 | `verify_before_15` | 전승 명사 가치가 크지만 전설/전술 축과 반복 충돌한다. |
-| `베스 스크롤` | `봉인 수호단 / 기록의 수호자` | B급, 서고단, 기록 수호자 | `verify_before_15` | 15 Named Notables에 잘 맞는 기록 명사 후보지만 14 인물표 신호가 있으므로 확인 필요. |
+| `베스 스크롤` | `봉인 수호단 / 기록의 수호자` | B급, 서고단, 기록 수호자 | `verify_before_15` | 15 People Worth Seeking에 잘 맞는 기록 명사 후보지만 14 인물표 신호가 있으므로 확인 필요. |
 | `이안 옵저버` | `봉인 수호단 / 오벨리스크 관측대` | B급, 관측대장, 경계의 보루 | `verify_before_15` | 관측 명사 가치가 크지만 14 경로 확인 전 확정 금지. |
 | `카트린 라베로스` | `잊힌 자들의 연합 / 고대 유산단` | 잊힌 서고의 학자, 고대 암호와 함정 해제 | `verify_before_15` | 학자형 명사 가치가 크지만 히어로급/역사 조작범 신호가 있다. |
 | `레보니아 셰이드` | `잊힌 자들의 연합 / 망각의 조율자` | 대륙 최고의 언어학자, 거짓의 직조자 | `verify_before_15` | 언어학자 명사 가치가 크지만 이데올로기 조작 핵심 인물 신호가 강하다. |
@@ -65,7 +65,7 @@ recorded 판정은 `thin with dense boundary and archive slots`로 둔다.
 
 후속 reference에서는 오벨리스크 후보 중
 `베스 스크롤`, `이안 옵저버`, `카트린 라베로스`, `레보니아 셰이드`가
-14 독립 영웅인지 15 Named Notables인지 추가 확인한다.
+14 독립 영웅인지 15 People Worth Seeking인지 추가 확인한다.
 
 ## Second Evidence Pass
 

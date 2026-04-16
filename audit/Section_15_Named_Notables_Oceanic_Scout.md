@@ -1,7 +1,7 @@
 # Section 15 Named Notables Oceanic Scout
 
 이 문서는 `해양` 대륙에서
-`15 Named Notables` 후보와 이름이 필요한 역할 슬롯을 분리해 기록한다.
+`15 People Worth Seeking` 후보와 이름이 필요한 역할 슬롯을 분리해 기록한다.
 
 ## Conductor Reading
 
@@ -80,7 +80,7 @@ recorded 판정은 `thin with many boundary signals`로 둔다.
 
 해양은 후보가 많아도 성급히 15로 승격하지 않는다.
 
-먼저 `14 전설/핵심 영웅`, `15 Named Notables`, `Operational Lines`를 분리하고,
+먼저 `14 전설/핵심 영웅`, `15 People Worth Seeking`, `Operational Lines`를 분리하고,
 표면명은 정통 판타지 톤으로 다시 다듬는다.
 
 ## Second Evidence Pass

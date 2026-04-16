@@ -11,7 +11,7 @@ The body should say, in plain language, that some figures are central heroes whi
 | Route | Meaning | Body Treatment |
 | --- | --- | --- |
 | `14` | narrative-centered hero axis | Use for central heroes, Act-driving figures, and independent hero-sheet characters. |
-| `15 Named Notables` | named people worth seeking inside the world | Use for sages, artisans, archivists, alchemists, appraisers, navigators, and public-facing specialists. |
+| `15 People Worth Seeking` | named people worth seeking inside the world | Use for sages, artisans, archivists, alchemists, appraisers, navigators, and public-facing specialists. |
 | `15 Operational Lines` | organization operating layer | Use for ports, auctions, finance, intelligence, forgery, transport, mercenary systems, and other functional layers. |
 | boundary hold | candidate needs more evidence | Keep in appendix until source check resolves route. |
 
@@ -86,4 +86,3 @@ This appendix sample proves the desired split:
 - body prose can stay evocative and readable
 - appendix tables can preserve caution
 - boundary candidates do not need to be solved prematurely
-

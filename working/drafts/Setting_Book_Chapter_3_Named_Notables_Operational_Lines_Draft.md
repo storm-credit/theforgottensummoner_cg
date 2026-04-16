@@ -1,9 +1,10 @@
-# Setting Book Chapter 3 - Named Notables and Operational Lines Draft
+# Setting Book Chapter 3 - People Worth Seeking Draft
 
 이 장은 `15번` 축을 설정집 본문에서 어떻게 읽을지 정리하는 1차 초안이다.
 
 핵심은 `14번` 영웅 백과와
-`15번` Named Notables / Operational Lines를 분리하는 것이다.
+`Part III. People Worth Seeking` 본문 축을 맞추고,
+`15번` operational lines handoff를 분리해서 읽는 것이다.
 
 `15번`은 약한 영웅 창고가 아니다.
 세계 안에서 찾아갈 이유가 있는 이름 있는 명사형 인물과,
@@ -15,7 +16,7 @@
 
 | Layer | Use |
 |---|---|
-| `Named Notables` | 현자, 장인, 기록자, 감정사, 연금술사, 공방주처럼 이름이 알려진 명사형 인물 |
+| `People Worth Seeking` | 현자, 장인, 기록자, 감정사, 연금술사, 공방주처럼 이름이 알려진 명사형 인물 |
 | `Operational Lines` | 항만, 경매, 금융, 첩보, 위조, 운반, 용병 운영처럼 조직 작동을 보여주는 실무층 |
 
 아래 신호가 강하면 바로 `15번`으로 내리지 않는다.
@@ -39,7 +40,7 @@
 |---|---|---|
 | `stable_15_workset` | 현재 닫힌 stable reference set | 확정 본문이 아니라 reference-only subset으로만 사용 |
 | `source_check_hold` | 근거는 있으나 14/15 경계나 충돌 확인 전 | 본문 확정 금지, hold reference split 안에서만 유지 |
-| `deferred_expansion_hold` | 후기 확장축 / 범대륙 등 본선 밖 보류 | mainline 밖 appendix 또는 hold note로 유지 |
+| `deferred_expansion_hold / hold reference split` | 후기 확장축 / 범대륙 등 본선 밖 보류 | mainline 밖 appendix 또는 hold note로 유지 |
 | `hold reference split` | stable set과 분리된 보류 reference | stable 후보와 섞지 않음 |
 
 ## 3.2 stable_15_workset
@@ -72,7 +73,7 @@
 | Name | State | Safe Use |
 |---|---|---|
 | `엘다라` | `source_check_hold / hold reference split` | 에테르 정령연합 내부 전승층 얼굴. 정령연합 전체 14 확인 전 Hard Canon 금지 |
-| `실비아` | `deferred_expansion_hold / name_collision_watch` | 키르케 계열 기록자 / 약제사 축. 범대륙 후기 확장이라 mainline 밖에서 유지 |
+| `실비아` | `deferred_expansion_hold / hold reference split / name_collision_watch` | 키르케 계열 기록자 / 약제사 축. 범대륙 후기 확장이라 mainline 밖에서 유지 |
 | `멜리산드르` | `source_check_hold` | 키르케 영약회 최고위. 14 crossover risk 때문에 dual review 필요 |
 
 설정집 safe read:
@@ -100,9 +101,9 @@
 이름 있는 후보가 없으면
 `Operational Lines`, `Institution Memory`, `Place Function` 쪽 reference backlog로 남긴다.
 
-## 3.5 Named Notables Guard
+## 3.5 People Worth Seeking Guard
 
-Named Notables는 아래 기준을 통과해야 한다.
+People Worth Seeking은 아래 기준을 통과해야 한다.
 
 1. 세계 안에서 이름이 알려져 있다.
 2. 중심 영웅은 아니지만 찾아갈 이유가 있다.
@@ -115,7 +116,7 @@ Named Notables는 아래 기준을 통과해야 한다.
 - 14 중심 영웅을 15로 낮춰 넣지 않는다.
 - A급/전설/Act 중심 인물을 단순히 명사형이라는 이유로 15에 고정하지 않는다.
 - 이름 충돌 후보를 하나로 병합하지 않는다.
-- 실무층 operational profile을 named notable 승인 근거로 역수입하지 않는다.
+- 실무층 operational profile을 `People Worth Seeking` 승인 근거로 역수입하지 않는다.
 
 ## 3.6 Operational Lines Guard
 
@@ -142,7 +143,7 @@ exact wording authority를 가져오지 않는다.
 
 즉:
 
-- named notable card와 operational profile card를 같은 증거층으로 합치지 않는다.
+- `People Worth Seeking` card와 operational profile card를 같은 증거층으로 합치지 않는다.
 - 상위 summary가 하위 `3-1. Policy Guard`를 재정의하지 않는다.
 - `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` 같은 대표 pair는 닫힌 subline 교차감사 샘플로만 읽는다.
 
@@ -170,7 +171,7 @@ exact wording authority를 가져오지 않는다.
 - `15번`은 약한 영웅 창고가 아니다.
 - `stable_15_workset`은 닫힌 reference set이다.
 - `source_check_hold` 후보는 확정 본문으로 올리지 않는다.
-- `deferred_expansion_hold`는 mainline 밖에서 유지한다.
+- `deferred_expansion_hold / hold reference split`는 mainline 밖에서 유지한다.
 - coverage가 얇은 대륙에 새 후보를 억지로 만들지 않는다.
-- operational profile의 lower-card authority를 named notable 승인 논리로 역수입하지 않는다.
+- operational profile의 lower-card authority를 `People Worth Seeking` 승인 논리로 역수입하지 않는다.
 - 다음 장인 `4. 이름 / 명칭 정규화`는 이 14/15 분리 기준을 유지한 채 이름 충돌과 표면명만 다룬다.

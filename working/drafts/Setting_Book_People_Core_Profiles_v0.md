@@ -25,7 +25,7 @@
 ## 인물 읽기 규칙
 
 - 얼마나 강한가보다 왜 찾아가야 하는가를 먼저 본다
-- 중심 영웅축과 named notable 축을 자동으로 합치지 않는다
+- 중심 영웅축과 `People Worth Seeking` 축을 자동으로 합치지 않는다
 - 운영 시스템은 사람 한 명보다 operational line으로 읽는 편이 안전할 수 있다
 - 이름이 겹치면 멋있어 보여도 바로 한 인물로 합치지 않는다
 
@@ -185,7 +185,7 @@ do not read as:
 
 현재 상태:
 
-- `deferred_expansion_hold / name_collision_watch`
+- `deferred_expansion_hold / hold reference split / name_collision_watch`
 
 왜 보류하는가:
 
@@ -218,7 +218,7 @@ do not read as:
 
 safe read:
 
-- named notable보다 operational line 우선
+- `People Worth Seeking`보다 operational line 우선
 
 ### 경매 / 암시장 운영층
 

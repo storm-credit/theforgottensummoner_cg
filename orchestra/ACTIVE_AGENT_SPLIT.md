@@ -81,7 +81,8 @@ current mainline에 맞는 `closure sync / carryover / mismatch / handoff drift`
 
 - `1~5 대륙` 프레임 점검
 - 각 대륙의 `가문 / 부족 / 길드` 결손층 확인
-- `working/drafts/Continental_Adequacy_Map.md` 기준으로 평가
+- `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 우선 기준으로 읽고,
+  `working/drafts/Continental_Adequacy_Map.md`는 보조 평가 기준으로만 사용
 
 ### 3. Faction Cartographer
 
@@ -144,6 +145,35 @@ current mainline에 맞는 `closure sync / carryover / mismatch / handoff drift`
 2. `Section 8 -> 15 watch-reference`
 3. `structure label / mismatch / P2 handoff owner drift`
 4. `summary / bridge / package / register wording consistency`
+
+## Watch-Cycle Default Bundle
+
+current mainline이 `closure sync / Section 8 -> 15 watch-reference`일 때
+Conductor는 아래 묶음을 기본 선언으로 쓴다.
+
+- `Canon Architect`
+- `Engine Router`
+- `Hook Keeper`
+- `Report Clerk`
+- `Faction Cartographer`
+- `Hero Curator`
+- `People Worth Seeking Curator`
+- `Boundary Hold Scout`
+- `Index Auditor`
+
+필요 시 추가:
+
+- `Place-Function Auditor`
+- `Place-Institution Slot Scout`
+- `Collision Auditor`
+- `Plausibility Judge`
+
+읽기 질문:
+
+1. `Section 8`의 `structure label / mismatch / P2 handoff owner`가 sidecar/register와 같은 문장으로 유지되는가
+2. `Section 15`의 hold cluster / `source_check_hold / hold reference split` / `deferred_expansion_hold / hold reference split`가 summary 문서에서 같은 상태어로 유지되는가
+3. `summary / bridge / queue / package / register`가 같은 기준 시점을 가리키는가
+4. `keep_14` 경계가 새 증거 없이 summary drift로 약화되지 않았는가
 
 ## Active Side Track
 

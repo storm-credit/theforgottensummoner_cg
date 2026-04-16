@@ -34,5 +34,5 @@
 - 정령연합 장로/외교 후보도 `verify_before_15`
 - 이름 흔들림은 `name_drift`로 먼저 분리
 
-에테르에서 안정적으로 열 수 있는 15번 Named Notables는 아직 `엘다라` 쪽이 더 안전하다.
-다만 `엘다라`도 후속 근거가 더 필요하므로 현재는 `named_notable_candidate / collect_more_context`로 둔다.
+에테르에서 안정적으로 열 수 있는 15번 `People Worth Seeking`은 아직 `엘다라` 쪽이 더 안전하다.
+다만 `엘다라`도 정령연합 전체 14 확인 전 Hard Canon으로 올리지 않고 `source_check_hold / hold reference split`로 둔다.

@@ -1,7 +1,7 @@
 # Section 15 Named Notables Frost Scout
 
 이 문서는 `프로스트` 대륙에서
-`15 Named Notables`로 회수할 수 있는 명사형 인물 후보와
+`15 People Worth Seeking`으로 회수할 수 있는 명사형 인물 후보와
 아직 이름이 필요한 역할 슬롯을 분리해 기록한다.
 
 ## Conductor Reading

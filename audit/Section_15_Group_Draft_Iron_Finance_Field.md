@@ -102,5 +102,5 @@
 `금융은 보이지 않지만 폭력적으로 작동한다`는 감각을
 사람과 장소 단위로 복구하는 데 유용하다.
 
-다만 named notable 승격 논리와는 분리하고,
+다만 People Worth Seeking 승격 논리와는 분리하고,
 operational lower-card carryover reference로만 유지한다.

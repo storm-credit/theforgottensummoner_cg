@@ -122,5 +122,5 @@
 그래서 `15번` 실제 회수 초안도
 이 묶음부터 시작하는 게 자연스럽다.
 
-다만 named notable 승인 논리와는 분리하고,
+다만 `People Worth Seeking` 승인 논리와는 분리하고,
 operational lower-card carryover reference로만 유지한다.

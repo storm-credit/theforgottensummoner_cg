@@ -23,8 +23,8 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 3. `Section_8_Spine_Mismatch_Queue.md`의 `P1 locked snapshot`과 `P0 / P2 watch queue` 분리를 유지한다.
 4. `Section 8 -> 15` carryover는 `structure label`, `hold state`, `place pressure`를 서로 덮어쓰지 않게 유지한다.
 5. `P2 place-pressure handoff` owner는 candidate index가 아니라 sidecar/register에만 둔다.
-6. `stable triad package`, `source_check_hold`, `deferred_expansion_hold`, Ether hold cluster는 서로 다른 층으로 유지한다.
-7. 카드층 `Policy Guard`와 `Section 15` status/index/folder/routing 문서의 carryover 문장을 같은 해석선으로 유지한다.
+6. `stable triad package`, `source_check_hold / hold reference split`, `deferred_expansion_hold / hold reference split`, Ether hold cluster는 서로 다른 층으로 유지한다.
+7. 카드층 `Policy Guard`와 `Section 15` status/index/folder/routing 문서의 family-level carryover 문장을 같은 해석선으로 유지한다.
 8. canonical state와 prose carryover guard는 같은 것이 아니며, 둘을 서로 대체하지 않는다.
 9. operational profile layer는 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한 채 상위 watch 문서와 연결한다.
 10. 상위 summary / bridge / queue는 lower-card authority를 요약만 하고,
@@ -49,11 +49,11 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 2. `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Coverage_Matrix.md`의 summary wording drift를 점검한다.
 3. `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`의 carryover wording drift를 점검한다.
 4. `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`, `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Stable_Candidate_Profile_QA.md`의 policy carryover drift를 점검한다.
-5. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`의 operational profile `3-1. Policy Guard` drift를 점검한다.
+5. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`의 operational profile `3-1. Policy Guard` drift는 2026-04-13 KST spot-check closed 상태를 유지하는지 점검한다.
 6. `Section_15_Ether_Hold_Cluster_Continuation.md`, `Section_15_Ether_Tower_Saint_Hold_Continuation.md`, `Section_15_Ether_Spirit_Union_Hold_Continuation.md`의 closure 상태를 점검한다.
 7. `Section_8_Place_Network_Handoff_Map.md`와 sidecar/register를 대조해 `P2 place-pressure` owner drift를 점검한다.
 8. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`가 같은 본선 reference를 가리키는지 확인한다.
-9. named notable 승인 논리와 operational profile guard 문장이 서로 역수입되지 않는지 확인한다.
+9. `People Worth Seeking` 승인 논리와 operational profile guard 문장이 서로 역수입되지 않는지 확인한다.
 10. representative subline draft/profile pair는 닫힌 교차감사 결과를 유지하고,
     새 wording-source drift가 생길 때만 해당 pair를 국소 교차감사한다.
 11. `subline_profile_authority` sync group이

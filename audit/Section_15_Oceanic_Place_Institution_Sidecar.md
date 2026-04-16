@@ -1,6 +1,6 @@
 # Section 15 Oceanic Place / Institution Sidecar
 
-이 문서는 `해양` 대륙의 `15 Named Notables` 후보를
+이 문서는 `해양` 대륙의 `15 People Worth Seeking` 후보를
 곧바로 인물 확정으로 올리지 않고,
 먼저 장소와 기관 슬롯으로 고정하기 위한 사이드카다.
 

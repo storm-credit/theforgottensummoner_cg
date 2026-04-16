@@ -74,7 +74,7 @@
 
 본문에서 연결되는 곳:
 
-- `Part I. Ether Continent`
+- `Part I. The Five Continents`
 - `Part III. People Worth Seeking`
 
 같이 볼 허브:
@@ -96,7 +96,7 @@
 
 본문에서 연결되는 곳:
 
-- `Part IV. Relics and Desired Objects`
+- `Part V. Relics, Gear, Trade Goods, and Things People Want`
 
 같이 볼 허브:
 
@@ -117,8 +117,8 @@
 
 본문에서 연결되는 곳:
 
-- `Part II. Crossroad Cities`
-- `Part IV. Relics and Desired Objects`
+- `Part VII. Places, Routes, and Maps That Create Story`
+- `Part V. Relics, Gear, Trade Goods, and Things People Want`
 
 같이 볼 허브:
 
@@ -139,10 +139,10 @@
 
 본문에서 연결되는 곳:
 
-- `Part II. Crossroad Cities`
+- `Part IV. Names, Languages, and World Tone`
 - `Part III. People Worth Seeking`
-- `Part IV. Relics and Desired Objects`
-- `Part V. Peoples, Bloodlines, and Changed States`
+- `Part V. Relics, Gear, Trade Goods, and Things People Want`
+- `Part VI. Peoples, Bloodlines, Monsters, and Changed States`
 
 같이 볼 허브:
 
@@ -164,8 +164,8 @@
 
 본문에서 연결되는 곳:
 
-- `Part I. Ether Continent`
-- `Part V. Peoples, Bloodlines, and Changed States`
+- `Part I. The Five Continents`
+- `Part VI. Peoples, Bloodlines, Monsters, and Changed States`
 
 같이 볼 허브:
 

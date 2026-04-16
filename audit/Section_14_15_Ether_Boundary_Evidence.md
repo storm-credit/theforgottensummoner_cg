@@ -40,7 +40,7 @@
 - tags에 `hero`, `s_rank`, `arcane_society`가 들어 있다.
 - 본문 기본 정보에서 신분이 `영웅 / 마법협회 차원 도약 및 방위 전략 장로`로 나온다.
 
-따라서 세리오스는 `15 Named Notables`가 아니라 `14 keep + faction anchor review`가 맞다.
+따라서 세리오스는 `15 People Worth Seeking`이 아니라 `14 keep + faction anchor review`가 맞다.
 
 ## Verification Queue Snapshot
 
@@ -62,7 +62,7 @@
 | 래퍼티 아르카디아 | `성국 (Saint Haven).md` 핵심표에서 `도서관장`, `A (Elite)`, `Act 2, 3`, `Scholar`, `금서 / 고대 마법 연구`로 확인되고, `아스트라르` 도시 문서에는 같은 도서관장 슬롯이 `Raphael Arcadia`로도 잡힌다. | `verify_before_15 / library_core_hold` 유지. 독립 14 파일은 현재 import에 없지만 성국 핵심표 신호와 `Rafferty / Raphael` 드리프트를 같이 관리해야 한다. |
 | 대런 크레센트 | `마법협회` 본문에서 행정총무부 실질 운영 책임자, No.9, 부탑주, `A+ (Elite)`, `Act 1~3`, `협회의 살림꾼`, 마법 서고단 관장으로 반복 확인된다. | `verify_before_15 / archive_admin_hold` 유지. 15 Operational Lines 가치가 크지만 A+와 Act, 기관 운영 심장부 신호가 강해 15 확정 금지. |
 | 칼리스트 | `마법협회` 본문에서 Top 8, 황금의 탑주, `A+ (Elite)`, `Act 1, 4`, `천리안`, 별의 예언자단 대예언자로 반복 확인된다. | `verify_before_15 / tower_seer_hold` 유지. 예언자형 명사 가치가 크지만 14급 탑주 / Act / 전략 두뇌 신호가 강하다. |
-| 엘라라 문힘 | `정령연합` 본문에서 No.10, `A (Elite)`, Act 1, 2, `달의 찬가`, 기록/가호 증폭으로 보이고, 전설적 마도 영웅록과 루미라 도서관장/걸어다니는 도서관 신호도 확인된다. | `verify_before_15 / bardic_archive_hold` 유지. Named Notable 가치가 매우 크지만 전설 영웅록과 A급 신호가 함께 걸린다. |
+| 엘라라 문힘 | `정령연합` 본문에서 No.10, `A (Elite)`, Act 1, 2, `달의 찬가`, 기록/가호 증폭으로 보이고, 전설적 마도 영웅록과 루미라 도서관장/걸어다니는 도서관 신호도 확인된다. | `verify_before_15 / bardic_archive_hold` 유지. People Worth Seeking 가치가 매우 크지만 전설 영웅록과 A급 신호가 함께 걸린다. |
 
 ## Updated Conductor Read
 

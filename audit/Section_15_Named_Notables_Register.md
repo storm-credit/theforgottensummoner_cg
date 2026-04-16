@@ -1,6 +1,6 @@
-# Section 15 Named Notables Register
+# Section 15 People Worth Seeking Register
 
-이 문서는 `15번 Named Notables` 축의
+이 문서는 `15번 People Worth Seeking` 축의
 reference 후보 등록부다.
 
 핵심은 `이름 있는 명사형 인물`을
@@ -17,7 +17,7 @@ reference 후보 등록부다.
 | Name | Title / Read | Source | Bucket | State Label | Recorded Judgment | Reference Action | Note |
 |---|---|---|---|---|---|---|---|
 | `멜리산드르` | `플라스크의 여제 / 수석 대약제사` | `키르케 영약회` | `연금술사 / 약제사` | `source_check_hold` | `14 crossover risk` | `hold_reference_split_for_dual_review` | 세력 최고위이자 S+급이라 명사형이지만 14와 겹칠 가능성이 높다. |
-| `실비아` | `고통의 기록자 / 시약 계량관` | `키르케 영약회` | `기록자 / 약제사` | `deferred_expansion_hold / name_collision_watch` | `deferred_expansion_hold` | `keep_in_hold_reference_split_under_watch` | 영웅성보다 기록과 계량 기능, 조직 기억 축이 강하지만 범대륙 후기 확장축이라 `stable_triad_frozen_reference_set`과 분리해 유지한다. |
+| `실비아` | `고통의 기록자 / 시약 계량관` | `키르케 영약회` | `기록자 / 약제사` | `deferred_expansion_hold / hold reference split / name_collision_watch` | `deferred_expansion_hold` | `keep_in_hold_reference_split_under_watch` | 영웅성보다 기록과 계량 기능, 조직 기억 축이 강하지만 범대륙 후기 확장축이라 `stable_triad_frozen_reference_set`과 분리해 유지한다. |
 | `울프가르 드래곤포지` | `용의 대장장이 / 공방장` | `용의 후예` | `대장장이 / 공방주` | `stable_triad_frozen_reference_set / grade_caution / route_hierarchy_locked` | `stable_triad_frozen_reference_set with grade caution` | `keep_in_stable_triad_frozen_reference_set_under_watch` | 이름난 장인형 인물로 강한 15 후보지만 A급/전설 영웅록 신호는 watch-reference 메모로만 유지한다. |
 | `에리온 드라코비스` | `고대어 해석가 / 대현자 / 관리자` | `엘드라칸 / 학술-전승층` | `현자 / 기록자` | `stable_triad_frozen_reference_set / grade_caution / name_collision_watch / route_hierarchy_locked` | `stable_triad_frozen_reference_set with grade caution` | `keep_in_stable_triad_frozen_reference_set_under_watch` | 대현자, 해석가, 관리자 역할이 모두 명사형 NPC에 가깝지만 A급/세력 핵심표 신호와 `에리온 베르날리스` 충돌 감시는 watch-reference 메모로 유지한다. |
 | `오그마` | `고룡 / 살아있는 도서관` | `엘드라칸 / 전승 보관층` | `현자 / 전승 보관자` | `stable_triad_frozen_reference_set / act_watch / route_hierarchy_locked` | `stable_triad_frozen_reference_set` | `keep_in_stable_triad_frozen_reference_set_under_watch` | 조언자형 전승 존재로 이름값과 세계관 심도가 높다. 다만 특정 Act 중심성 급상승 시 14 경계 재점검 메모를 유지한다. |
@@ -25,7 +25,7 @@ reference 후보 등록부다.
 | `카사르 더 시어` | `용의 예언자 / 최고 조언자` | `용의 후예` | `현자 / 예언자` | `source_check_hold / seer_strategy_hold` | `S-grade seer-strategy signal` | `hold_reference_split_for_dual_review` | direct 14 독립 파일은 아직 직접 확인되지 않았지만, 시험의 탑 / 최고 조언자 / 전설적 마도 영웅록 신호가 너무 강하다. |
 | `벨라나 스톰브링어` | `현자 회의 소속 주술사 / 사제 / 고고학자 / 폭풍의 여왕` | `붉은 사막 부족` | `현자 / 기록자 / 대주술사` | `source_check_hold / sage_queen_hold` | `SS-grade barrier-core signal` | `hold_reference_split_until_14_check` | 현자 회의 축이라 15 가치가 있지만 SS급, 정신적 지도자, 모래폭풍 결계, 후계 분기 신호가 강하다. |
 | `아리안 블레이즈하트` | `현자 회의 소속 / 불의 사제` | `붉은 사막 부족` | `현자 / 전승 보존자 / 대사제` | `source_check_hold / fire_priest_hold` | `S-grade priest-core signal` | `hold_reference_split_until_14_check` | 사막 부족 현자층 가치가 있지만 S급, 대사제, 정신적 지도자, 현자 회의 핵심 신호가 강하다. |
-| `엘다라` | `대현자 / 고대 정령어 권위자 / 의장` | `정령연합 / 루미라` | `현자 / 언어 권위자` | `source_check_hold / hold reference split` | `source_check_hold` | `keep_in_hold_reference_split_until_spirit_union_14_review` | 에테르 정령연합 내부의 부족/전승층을 사람 얼굴로 보강하는 hold 축이다. 다만 정령연합 전체 14 확인 전에는 `source_check_hold`로만 남긴다. |
+| `엘다라` | `대현자 / 고대 정령어 권위자 / 의장` | `정령연합 / 루미라` | `현자 / 언어 권위자` | `source_check_hold / hold reference split` | `source_check_hold / hold reference split` | `keep_in_hold_reference_split_until_spirit_union_14_review` | 에테르 정령연합 내부의 부족/전승층을 사람 얼굴로 보강하는 hold 축이다. 다만 정령연합 전체 14 확인 전에는 `source_check_hold / hold reference split`으로만 남긴다. |
 | `울프릭` | `빙하의 주술사 / 부족의 장로` | `프로스트본 연합 / 전설적 주술 영웅록` | `주술사 / 장로` | `source_check_hold` | `legendary herobook signal` | `hold_reference_split_until_14_check` | 명사형 가치가 있지만 전설 영웅록 출처라 15 stable set 비편입으로 둔다. |
 | `시그리드 프로스트하트` | `퍼마프로스트 공성단장 / 냉기 공성 기술자` | `프로스트본 연합 / 퍼마프로스트 공성단` | `공성 장인 / 마도공학 / 지휘관` | `source_check_hold` | `strong role-slot but possible 14 signal` | `hold_reference_split_until_14_check` | 공방주와 전술 기술자 명사 가치가 크지만 공성단장 신호가 있어 14 확인 전 15 stable set 비편입으로 둔다. |
 | `마리안 더 윈터콜러` | `오로라 평원의 A급 정령술사` | `프로스트본 연합 / 오로라 평원` | `정령술사 / 주술사` | `source_check_hold` | `possible 14 signal` | `hold_reference_split_until_14_check` | 오로라 평원 명사 가치가 있으나 A급 영웅 신호가 강하다. |
@@ -76,14 +76,14 @@ reference 후보 등록부다.
   해양 `urban_market` 근거이지 `토착 공동체층` 고정 근거가 아니다.
 - `철의 금융 연맹`, `거울방`, `그림자 첩보망`, `침묵의 상회` 계열은
   `nontraditional elite thin-support` 또는 `dark institution` 범위에서만 읽는다.
-- `실비아`는 계속 `deferred_expansion_hold`로만 유지하고,
+- `실비아`는 계속 `deferred_expansion_hold / hold reference split`로만 유지하고,
   5대륙 본선 증거 카드로 끌어오지 않는다.
 
 ## Card Format Snapshot
 
 - `Section_15_Named_Notable_*` 카드는 `Policy Guard` 또는 `Separation Guard`를 유지한다.
 - `Section_15_Profile_*` operational card는 별도 템플릿에 따라 `3-1. Policy Guard`를 유지한다.
-- 즉 named notable 카드와 operational profile 카드는 같은 guard 원칙 아래 움직이되,
+- 즉 `People Worth Seeking` 카드와 operational profile 카드는 같은 guard 원칙 아래 움직이되,
   형식층은 분리해서 유지한다.
 - 상위 register/coverage/bridge는 lower-card authority를 요약만 하며,
   하위 profile의 `3-1. Policy Guard`를 재정의하지 않는다.
@@ -94,11 +94,11 @@ reference 후보 등록부다.
   `3-1. Policy Guard`에 남고, 이 register는 그 wording source를 참조만 한다.
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
   닫힌 subline 교차감사 샘플로 유지하고,
-  이 register는 그 closure 상태를 named notable register 층에서만 참조한다.
+이 register는 그 closure 상태를 People Worth Seeking register 층에서만 참조한다.
 
 ## Conductor Note
 
-- `Named Notables`는 `약한 영웅`이 아니라
+- `People Worth Seeking`은 `약한 영웅`이 아니라
   `세계 안에서 찾아갈 이유가 있는 이름 있는 명사`를 우선한다.
 - `14 crossover risk`는 바로 배제하지 않는다.
   다만 이 register는 `stable_triad_frozen_reference_set`과 `hold reference split`을 watch-reference로만 유지한다.

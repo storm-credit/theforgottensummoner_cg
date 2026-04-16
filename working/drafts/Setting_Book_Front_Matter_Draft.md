@@ -82,14 +82,15 @@ Archived cover-tone alternates:
 
 ## Suggested Table of Contents Shape
 
-1. How to Read This World
-2. The Five Continents
-3. Powers, Orders, and Hidden Systems
-4. People Worth Seeking
-5. Relics and Desired Objects
-6. Peoples, Bloodlines, and Changed States
-7. Places, Routes, and Moving Worlds
-8. Appendix
+1. Opening: How to Read This World
+2. Part I. The Five Continents
+3. Part II. Powers, Orders, and Hidden Systems
+4. Part III. People Worth Seeking
+5. Part IV. Names, Languages, and World Tone
+6. Part V. Relics, Gear, Trade Goods, and Things People Want
+7. Part VI. Peoples, Bloodlines, Monsters, and Changed States
+8. Part VII. Places, Routes, and Maps That Create Story
+9. Part VIII. Appendix and Production Notes
 
 ## Intended Readers
 

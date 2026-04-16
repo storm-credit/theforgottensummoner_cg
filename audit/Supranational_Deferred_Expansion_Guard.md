@@ -9,7 +9,7 @@
 - 하지만 메인 spine보다 먼저 정본화하지 않는다.
 - 키르케, 무역 연맹, 금융 연맹, 첩보망, 대공방 연합 같은 축은
   `deferred expansion`으로 둔다.
-- 15번 Named Notables에서도 범대륙 후보는 후순위다.
+- 15번 People Worth Seeking에서도 범대륙 후보는 후순위다.
 
 ## Why Deferred
 
@@ -22,24 +22,24 @@
 - 대륙별 고유 spine이 흐려진다.
 - 현대적 조직명이나 작업용 라벨이 정본처럼 굳을 수 있다.
 - 길드/상단/금융/첩보/공방 축이 한꺼번에 과확장된다.
-- 15번 Named Notables가 범대륙 후보 중심으로 기울 수 있다.
+- 15번 `People Worth Seeking`이 범대륙 후보 중심으로 기울 수 있다.
 
 ## Deferred Anchor Snapshot
 
 | Anchor | Current Treatment | Notes |
 |---|---|---|
-| `키르케 영약회` | `deferred guild_market expansion` | 실비아는 강한 15 후보지만, 범대륙 후순위. 멜리산드르는 14/15 경계. |
+| `키르케 영약회` | `deferred guild_market expansion` | 실비아는 `deferred_expansion_hold / hold reference split / name_collision_watch`로만 유지하고, 범대륙 후순위로 본다. 멜리산드르는 14/15 경계. |
 | `대륙 무역 연맹` | `display canon candidate` | `Syndicate` 계열 표면명을 바로 정본화하지 않는다. |
 | `철의 금융 연맹` | `display canon candidate` | `카르텔` 계열 표기 완화 후보. |
 | `침묵의 상회` | `display canon candidate` | 암시장/비밀상회 축, 정통 판타지 톤 유지 필요. |
 | `마도 공학 대공방 연합` | `display canon candidate` | `Megacorp` 계열 표기 완화 후보. |
 | `그림자 첩보망` | `display canon candidate` | 현대 정보기관 어휘 과사용 주의. |
 
-## Named Notables Handling
+## People Worth Seeking Handling
 
 | Candidate | Anchor | Treatment |
 |---|---|---|
-| `실비아` | `키르케 영약회` | `named_notable_candidate / deferred_expansion_hold / name_collision_watch` |
+| `실비아` | `키르케 영약회` | `deferred_expansion_hold / hold reference split / name_collision_watch` |
 | `멜리산드르` | `키르케 영약회` | `verify_before_15 / hold_for_dual_review` |
 
 ## Conductor Decision

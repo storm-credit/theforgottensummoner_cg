@@ -47,7 +47,7 @@
 
 이 프로젝트에서 오케스트라가 특히 유리한 구간:
 
-- `15 Named Notables`와 `Place Register`가 같이 엮일 때
+- `15 People Worth Seeking`과 `Place Register`가 같이 엮일 때
 - `verify_before_15`와 `display_canon_candidate`가 동시에 걸릴 때
 - 대륙 압축표와 엔진 장부를 한 배치 안에 같이 갱신할 때
 - 다음 작업선까지 바로 고정해야 할 때

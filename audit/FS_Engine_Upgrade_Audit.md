@@ -78,7 +78,7 @@ FS 엔진의 뼈대는 이미 충분히 강하다.
 
 - `need_named_candidate` 슬롯이 많이 쌓였고,
   이 슬롯이 언제 `verify_before_15`로 올라가고,
-  언제 실제 `Named Notable`이 되는지 추적 장치가 필요하다.
+  언제 실제 `People Worth Seeking`이 되는지 추적 장치가 필요하다.
 
 효과:
 
@@ -131,7 +131,7 @@ FS 엔진의 뼈대는 이미 충분히 강하다.
 
 - 판정 기억
 - 연대기 누수 방지
-- 슬롯에서 named notable로 올라가는 성장선
+- 슬롯에서 People Worth Seeking으로 올라가는 성장선
 
 이 세 가지가 안정된다.
 

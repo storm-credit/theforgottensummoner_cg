@@ -1,6 +1,6 @@
-# Section 15 Named Notables - Continent Synthesis
+# Section 15 People Worth Seeking - Continent Synthesis
 
-이 문서는 `15번 Named Notables`를 대륙별로 종합한 watch-reference synthesis다.
+이 문서는 `15번 People Worth Seeking`을 대륙별로 종합한 watch-reference synthesis다.
 
 목적은 유명 NPC형 영웅, 현자, 장인, 기록자, 감정사, 학파 인물, 공방 인물 등을
 `14번 서사 중심 영웅`과 섞지 않고,
@@ -30,7 +30,7 @@
 | Frost | `thin with strong place-institution slots` | 인물 고정보다 오로라 평원, 얼음무덤 언덕, 아이스포지 병기소, 빙하의 성소 슬롯이 강하다. unnamed slot 6개는 direct holder 없이 role slot 유지로 한 번 닫혔다. | 새 인물 회수보다 closure sync / watch-reference를 유지한다. |
 | Oceanic | `thin with many boundary signals and strong place-institution slots` | 후보 이름은 많지만 제독, A급, 히어로급 신호가 많다. 신탁 방주, 해로 장부관, 흑조 감정관, 심연 장부관 슬롯은 보존한다. | 성급한 15 고정 없이 boundary watch-reference 상태를 유지한다. |
 | Obelisk | `thin with dense archive slots` | 기록, 기억, 묘역, 봉인, 사후 행정 명사층이 강하다. | 기록/기관 기억 축의 closure state를 유지한다. |
-| Supranational | `deferred expansion` | 후기 확장 구역이라 강한 후보도 바로 중심축으로 읽지 않는다. | `deferred expansion` 상태를 유지한다. |
+| Supranational | `deferred expansion watch-reference` | 후기 확장 구역이라 강한 후보도 바로 중심축으로 읽지 않는다. | `deferred_expansion_hold / hold reference split` 상태를 유지한다. |
 
 ## Crimson
 
@@ -55,10 +55,10 @@
 
 Conductor decision:
 
-크림슨은 `15번 Named Notables` stable_triad_frozen_reference_set 기준에 가장 가깝다.
+크림슨은 `15번 People Worth Seeking` stable_triad_frozen_reference_set 기준에 가장 가깝다.
 다만 `stable_triad_frozen_reference_set` 이름은 `울프가르`, `에리온`, `오그마`로 유지하고,
 벨라나, 아리안, 드락사르, 카사르는 먼저 14번 경계 검증을 통과해야 한다.
-자유도시/오벨리스크 운영층 문구는 named notable 고정 논리가 아니라
+자유도시/오벨리스크 운영층 문구는 People Worth Seeking 고정 논리가 아니라
 lower-card carryover reference로만 유지한다.
 
 ## Ether
@@ -176,7 +176,7 @@ Conductor decision:
 다만 작업용 라벨은 표면명 후보로 낮췄으므로,
 관련 slot은 `신탁 방주`, `해로 장부관`, `흑조 감정관`, `심연 장부관` 기준 reference로만 유지한다.
 토착 공동체층은 `support range`까지만 보존하고 대륙 본체 `tribe_clan`으로는 읽지 않는다.
-이때 operational profile wording은 named notable 판정문을 대신하지 않는다.
+이때 operational profile wording은 People Worth Seeking 판정문을 대신하지 않는다.
 
 ## Obelisk
 
@@ -221,24 +221,25 @@ Conductor decision:
 
 ## Supranational
 
-판정: `deferred expansion`
+판정: `deferred expansion watch-reference`
 
 후보:
 
 | Candidate | State Snapshot | Note |
 |---|---|---|
-| 실비아 | `deferred_expansion_hold / name_collision_watch` | 키르케 영약회 계열 후보지만 범대륙 후기 확장 구역이라 deferred hold reference로만 유지한다. |
+| 실비아 | `deferred_expansion_hold / hold reference split / name_collision_watch` | 키르케 영약회 계열 후보지만 범대륙 후기 확장 구역이라 `deferred_expansion_hold / hold reference split` reference로만 유지한다. |
 | 멜리산드르 | `source_check_hold` | 명사형 가치가 크지만 14 신호 확인 필요. |
 
 Conductor decision:
 
 범대륙은 후기 확장 구역이다.
 강한 후보라도 메인 정리의 중심축으로 다시 읽지 않는다.
+`deferred_expansion_hold / hold reference split` 바깥으로 승격하지 않는다.
 
 ## Priority Snapshot
 
 1. 본선 reference는 `Crimson` 안정 후보 3명의 `stable_triad_frozen_reference_set` 유지이며 `5대륙 closure sync / Section 8 -> 15 watch-reference`를 계속 읽는다.
-2. `엘다라`는 hold reference split 안의 `source_check_hold`로 유지하되 정령연합 전체 14 확인 전 `source_check_hold`로만 남긴다.
+2. `엘다라`는 hold reference split 안의 `source_check_hold / hold reference split`로 유지하되 정령연합 전체 14 확인 전에도 같은 결합 표기로 남긴다.
 3. `Frost / Oceanic / Obelisk`는 장소-기관 슬롯을 유지한 채 closure 상태를 보존하고, 14번 중복 신호 검증 뒤 상태를 다시 읽는다.
 4. `Supranational`은 후기 확장 구역으로 보류한다.
 
@@ -255,10 +256,10 @@ Conductor decision:
 
 ## Guard Authority Snapshot
 
-- named notable synthesis는 카드층의 guard family를 요약하는 상위 reference다.
+- People Worth Seeking synthesis는 카드층의 guard family를 요약하는 상위 reference다.
 - operational lower-card carryover는 언급할 수 있지만,
   `Section_15_Profile_*` 카드의 `3-1. Policy Guard` exact wording을 대체하지 않는다.
-- named notable card의 `Policy Guard / Separation Guard`와 operational profile의 `3-1. Policy Guard`는
+- People Worth Seeking card의 `Policy Guard / Separation Guard`와 operational profile의 `3-1. Policy Guard`는
   parallel but non-substitutable layer로 유지한다.
 - subline 확장까지 내려간 경우에도
   exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의

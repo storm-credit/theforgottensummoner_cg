@@ -21,7 +21,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | 0. Canon Policy | `Setting_Book_Chapter_0_Canon_Policy_Draft.md` | first draft complete | Defines source priority, canon tier, archive routing, and story-first expansion control. |
 | 1. Five Continents | `Setting_Book_Chapter_1_Five_Continents_Draft.md` | first draft complete | Establishes continent identity, social spine, missing layers, and emotional tone. |
 | 2. Faction Archive Structure | `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md` | first draft complete | Separates root state, continent spine, structure label, place pressure, and 8-to-15 handoff. |
-| 3. Named Notables and Operational Lines | `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md` | first draft complete | Separates 14 hero axis from 15 named figures and organization operating layers. |
+| 3. People Worth Seeking | `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md` | first draft complete | Aligns Part III people-worth-seeking logic while keeping 15 named figures and organization operating layers readable as a separate handoff. |
 | 4. Naming Normalization | `Setting_Book_Chapter_4_Naming_Normalization_Draft.md` | first draft complete | Defines display names, tone policy, faction replacements, and protected name collisions. |
 | 5. Items and Relics | `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md` | first draft complete | Turns item candidates into desire-first relic, gear, trade good, and collection structures. |
 | 6. Species Framework | `Setting_Book_Chapter_6_Species_Framework_Draft.md` | first draft complete | Separates species, bloodline, state, monster, and unclear evidence. |

@@ -1,6 +1,6 @@
 # Section 15 Ether Place / Institution Sidecar
 
-이 문서는 에테르 대륙의 `15 Named Notables` 후보를
+이 문서는 에테르 대륙의 `15 People Worth Seeking` 후보를
 곧바로 인물 확정으로 올리지 않고,
 먼저 장소와 기관 슬롯으로 고정하기 위한 사이드카다.
 
@@ -38,7 +38,7 @@
 | `머시너리 게이트` | `threshold`, `market` | `서약문 보관관 / 용병 중재 서기관` | 용병 계약, 분쟁 중재, 명예의 전당, 다리안 계열 접점 | `need_named_candidate / slot_with_display_candidate` |
 | `아크브릿지 연구소` | `workshop`, `memory_site` | `탐사 기록관 / 연구소 보존관` | 탐사 도시, 연구 기록, 마법협회-자유도시 접점 | `need_named_candidate / slot_with_display_candidate` |
 | `잠든 정령의 숲` | `sanctuary`, `memory_site` | `침묵의 감시자 / 정령묘 이름새김꾼` | 정령의 무덤, 숲의 재판식, 정령연합의 기억과 금기 | `need_named_candidate / slot_with_display_candidate` |
-| `루미라` | `sanctuary`, `memory_site` | `정령서약 해석자 / 대현자 보좌 기록관` | 엘다라 후보, 고대 정령어, 정령 계약 해석 | `named_notable_candidate / collect_more_context / slot_with_display_candidate` |
+| `루미라` | `sanctuary`, `memory_site` | `정령서약 해석자 / 대현자 보좌 기록관` | 엘다라 후보, 고대 정령어, 정령 계약 해석 | `source_check_hold / hold reference split / slot_with_display_candidate` |
 
 ## Map Brief Seeds
 
@@ -94,7 +94,7 @@
 - `관리자`, `검열관`, `서기관`은 작업용 라벨이다.
 - 표면명 후보는 이번 pass에서 `봉인서고지기`, `금서 검인관`, `성좌 관측장`, `대서고 학장`, `성채 봉인관`, `그늘항로 기록관`, `정령서약 해석자` 계열로 우선 잠근다.
 - `마법협회 탑주`와 `성국 도서관장` 계열은 14번 영웅 신호가 강하므로 개인명 확정 전에 반드시 14 중복 여부를 확인한다.
-- `엘다라`는 에테르 15 후보로 유지하지만 아직 `collect_more_context` 상태다.
+- `엘다라`는 에테르 15 후보로 유지하지만 아직 `source_check_hold / hold reference split` 상태다.
 
 ## Display Candidate Pass
 

@@ -1,7 +1,7 @@
 # Section 15 Crimson Wise Council Evidence
 
 이 문서는 `벨라나 스톰브링어`와 `아리안 블레이즈하트`의
-15번 Named Notables 후보성을 재검토한 결과다.
+15번 People Worth Seeking 후보성을 재검토한 결과다.
 
 ## Finding
 

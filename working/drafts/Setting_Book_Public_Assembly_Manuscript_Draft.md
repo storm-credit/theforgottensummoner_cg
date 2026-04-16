@@ -13,6 +13,10 @@
 현재는 reader-facing 본문을 앞에 두고,
 세력 / 인물 / 장소 / 유물 / 종족 축을 더 가까이에서 펼쳐 보는 얇은 동행본을 뒤에 붙이는 구조로 둔다.
 
+현재 public Part naming authority는 `Setting_Book_Reader_Facing_TOC_Draft.md`에 둔다.
+아래 heading도 그 TOC label을 따른다.
+다만 일부 section은 body-source slice라서 최종 TOC 순서와 완전히 같지는 않을 수 있다.
+
 ---
 
 ## Opening: How to Read This World
@@ -43,7 +47,7 @@
 
 ---
 
-## Part I. Ether Continent
+## Part I. The Five Continents: Ether Continent Preview
 
 이 파트는 세계의 중심 문명이 어떤 책임과 긴장 위에 서 있는지 보여준다.
 
@@ -88,7 +92,7 @@
 
 ---
 
-## Part II. Crossroad Cities
+## Part VII. Places, Routes, and Maps That Create Story
 
 이 파트는 국가 수도가 아니라 거래와 접선의 도시망이 어떻게 세계의 리듬을 바꾸는지 보여준다.
 
@@ -189,7 +193,7 @@
 
 ---
 
-## Part IV. Relics and Desired Objects
+## Part V. Relics, Gear, Trade Goods, and Things People Want
 
 이 파트는 물건이 왜 단순한 장비가 아니라 이야기와 욕망의 중심이 되는지 보여준다.
 
@@ -254,7 +258,7 @@
 
 ---
 
-## Part V. Peoples, Bloodlines, and Changed States
+## Part VI. Peoples, Bloodlines, Monsters, and Changed States
 
 이 파트는 낯선 존재들을 모두 같은 층으로 뭉개지 않고, 사람과 계보와 상태와 괴물의 경계를 분리해 보여준다.
 

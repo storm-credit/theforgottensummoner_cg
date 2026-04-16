@@ -1,4 +1,4 @@
-# Setting Book Public Voice Sample: Opening and Ether Continent
+# Setting Book Public Voice Sample: Opening: How to Read This World / Part I. The Five Continents
 
 ## Purpose
 
@@ -7,7 +7,7 @@
 깊은 설정 기록의 상태 라벨, 검증 큐, source priority, appendix 구조를 그대로 노출하지 않고,
 같은 내용을 독자와 협업자가 읽기 쉬운 설정집 문체로 바꾸는 방향을 확인한다.
 
-## Opening Sample: How to Read This World
+## Opening: How to Read This World
 
 `THE FORGOTTEN SUMMONER`의 세계는 거대한 힘이 충돌하는 무대이지만,
 그 중심에 서 있는 것은 언제나 사람이다.
@@ -33,7 +33,7 @@
 무엇을 감추며,
 무엇을 되찾으려 하는지 보는 것이다.
 
-## Part I Sample: Ether Continent
+## Part I. The Five Continents: Ether Continent Preview
 
 에테르 대륙은 질서가 아름답게 보이는 곳이다.
 
@@ -93,4 +93,4 @@
 
 ## Next Use
 
-이 톤이 맞다면 다음 단계는 같은 방식으로 다섯 대륙 전체를 `Part I` 독자용 본문으로 확장하는 것이다.
+이 톤이 맞다면 다음 단계는 같은 방식으로 다섯 대륙 전체를 `Part I.` 독자용 본문으로 확장하는 것이다.

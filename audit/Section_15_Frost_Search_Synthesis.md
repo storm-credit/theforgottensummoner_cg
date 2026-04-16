@@ -1,6 +1,6 @@
 # Section 15 Frost Search Synthesis
 
-이 문서는 프로스트 대륙의 `15 Named Notables` 후보와 역할 슬롯을 압축한 종합표다.
+이 문서는 프로스트 대륙의 `15 People Worth Seeking` 후보와 역할 슬롯을 압축한 종합표다.
 
 프로스트는 reference상 안전한 15 확정 후보가 적고,
 대신 전승, 묘역, 예언, 공방, 성소 같은 장소-기관 슬롯이 강하다.

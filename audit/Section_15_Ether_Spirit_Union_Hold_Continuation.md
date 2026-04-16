@@ -25,7 +25,7 @@
 ## Internal Read
 
 - 14 crossover 압력은 `드라이덴 > 실라스 > 메라`로 읽는다.
-- 남는 15 Named Notable 가치만 보면 `메라 > 드라이덴 > 실라스`로 읽는다.
+- 남는 15 People Worth Seeking 가치만 보면 `메라 > 드라이덴 > 실라스`로 읽는다.
 - 정령연합 내부 기능 분리는 `드라이덴 = mentor-policy`, `메라 = envoy-trade`, `실라스 = shadow-crow enforcement`다.
 
 ## Conductor Note

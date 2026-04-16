@@ -71,7 +71,7 @@
 | 장물 보물군 | `trade_luxury`, `relic_material` | 검은 경매소 | `variable` | `underworld_controlled` | 진품/가품/소유권 갈등 | `operational_line` |
 | 위조 인장 | `relic_material`, `trade_luxury` | 위조 공방 | `restricted` | `underworld_controlled` | 잠입과 허가문 위조 | `display_canon_candidate` |
 | 항만 보존식과 물 | `food_water` | 해양 무역망 | `seasonal` | `port_controlled` | 봉쇄와 항만 생존 | `open_question` |
-| 드래곤포지 계열 금속 | `ore`, `beast_part` | Named Notables / 공방 계보 | `legendary` | `lineage_controlled` | 전설 무구 제작 대가 | `named_notable_candidate` |
+| 드래곤포지 계열 금속 | `ore`, `beast_part` | People Worth Seeking / 공방 계보 | `legendary` | `lineage_controlled` | 전설 무구 제작 대가 | `named_notable_candidate` |
 
 ## Link Rule
 

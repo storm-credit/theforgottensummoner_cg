@@ -4,7 +4,7 @@
 기존 문서에 흩어진 단서를 안전하게 모아
 `종족 / 혈통 / 상태 / 몬스터`를 분리해 읽기 위한 병렬 감사용 sidecar다.
 
-이 단계에서는 메인 `14/15`, `Named Notables`, `FS Lore Engine` 본선에
+이 단계에서는 메인 `14/15`, `People Worth Seeking`, `FS Lore Engine` 본선에
 강제 반영하지 않는다.
 
 ## Purpose
@@ -144,13 +144,13 @@
 - 혼혈, 축복, 저주, 계승은 기본값이 `bloodline/lineage`다.
 - `언데드`, `정령화`, `반정령화`는 기본값이 `state/transformation`이다.
 - `정령연합`, `프로스트본 연합`, `용의 후예`, `망자의 왕국` 같은 조직/국가/부족연합 이름은 기본값이 `social anchor`다.
-- 메인 `14/15` 판정과 `Named Notables` 라우팅은 이 sidecar만으로 바꾸지 않는다.
+- 메인 `14/15` 판정과 `People Worth Seeking` 라우팅은 이 sidecar만으로 바꾸지 않는다.
 
 ## Parallel Track Rule
 
 이 sidecar는 메인선과 병렬로 굴린다.
 
-- 메인선: `14/15`, `Named Notables`, `place-first slot`, `handoff`
+- 메인선: `14/15`, `People Worth Seeking`, `place-first slot`, `handoff`
 - 사이드트랙: 종족/혈통/상태/몬스터 프레임 감사
 - 합류 조건: 사례 3건 이상 + 세력/장소/인물 충돌 점검 + 오케스트라 승인
 

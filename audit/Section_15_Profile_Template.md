@@ -53,7 +53,7 @@
   - `nontraditional elite thin-support` 또는 `dark institution` 축을 보강하지만,
     전통 왕국/귀족국가 복원 근거로 읽지 않는다.
 - `범대륙 후기 확장` 카드면:
-  - `deferred_expansion_hold` 또는 후기 확장 내부 reference로만 유지하고
+  - `deferred_expansion_hold / hold reference split` 또는 후기 확장 내부 reference로만 유지하고
     5대륙 본선 증거로 끌어오지 않는다.
 - `에테르` 정령연합 예외축 카드면:
   - 정령연합 내부 예외축을 보강하지만 에테르 전체 부족층 일반화 근거로 읽지 않는다.

@@ -1,6 +1,6 @@
-# Section 8 Place Network Handoff Map
+# Section 8 Place-Pressure Handoff Map
 
-이 문서는 `Section_8_Place_Network_P2_Queue.md`에 올라온 후보를
+이 문서는 legacy filename인 `Section_8_Place_Network_P2_Queue.md`에 올라온 `P2 place-pressure` 후보를
 어느 sidecar, register, anchor 문서로 넘길지 정리하는 handoff 표다.
 
 핵심 원칙은 아래다.
@@ -46,7 +46,7 @@
 
 ## Conductor Decision
 
-이 문서는 `P2 place-network` 후보를
+이 문서는 `P2 place-pressure` 후보를
 watch cycle에서 정확한 도착점과 함께 확인하기 위한 연결표로 사용한다.
 
 즉 watch 재개 시 해야 할 일은

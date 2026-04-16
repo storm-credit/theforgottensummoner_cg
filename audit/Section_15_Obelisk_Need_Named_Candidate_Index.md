@@ -39,7 +39,7 @@ named-candidate active 판단은
 2. 실제 개인명 확인.
 3. 전설 영웅록/히어로급/조직 핵심 신호 확인.
 4. 이름/아이템/마법명 충돌 확인.
-5. 필요할 때만 15 Named Notables 후보로 승격.
+5. 필요할 때만 15 People Worth Seeking 후보로 승격.
 
 ## Read-Only Pass - Batch 01
 

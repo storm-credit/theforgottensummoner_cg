@@ -128,7 +128,7 @@ FS 엔진의 필수 코어 합의안은
 주 사용처:
 
 - `14번` 중심 영웅
-- `15번` Named Notables와 중간 인물의 서사 가치 판정
+- `15번` People Worth Seeking과 중간 인물의 서사 가치 판정
 
 ### 5. Relationship Network Module
 
@@ -182,7 +182,7 @@ FS 엔진의 필수 코어 합의안은
 - 세력명
 - 직능명
 - `15번` Operational Lines display canon
-- Named Notables 명칭 정리
+- People Worth Seeking 명칭 정리
 
 ### 9. Canon Tier Module
 
@@ -207,7 +207,7 @@ FS 엔진의 필수 코어 합의안은
 주 사용처:
 
 - `14 Hero Archive`
-- `15 Named Notables`
+- `15 People Worth Seeking`
 - `15 Operational Lines`
 - `8 Faction Archive`
 - `hold / legacy`
@@ -292,7 +292,7 @@ FS 엔진의 필수 코어 합의안은
 역할:
 
 - `need_named_candidate` 슬롯이
-  언제 실제 named notable 후보로 자라는지 추적한다.
+  언제 실제 People Worth Seeking 후보로 자라는지 추적한다.
 
 주 사용처:
 
@@ -329,7 +329,7 @@ FS 엔진의 필수 코어 합의안은
 4. Archive Routing Module
 5. Canon Tier Module
 
-### 15번 Named Notables
+### 15번 People Worth Seeking
 
 1. Character Arc Module
 2. Plausibility Module
@@ -356,7 +356,7 @@ FS 엔진의 필수 코어 합의안은
 질문:
 
 - 이 라인은 도시나 조직의 작동 원리를 설명하는가
-- named notable과 별개의 기능 축인가
+- People Worth Seeking과 별개의 기능 축인가
 - 작업용 라벨과 표면 정본명을 분리할 필요가 있는가
 
 ### 관계망
@@ -381,7 +381,7 @@ FS 엔진의 필수 코어 합의안은
 1. 해당 정리 대상이 무엇인지 본다.
 2. FS 엔진 안에서 먼저 적용할 모듈을 고른다.
 3. 필요한 경우 여러 모듈을 순차 적용한다.
-4. 결과를 `14`, `15 Named Notables`, `15 Operational Lines`, `8`, `지도`, `아이템` 중 어디에 떨어뜨릴지 정한다.
+4. 결과를 `14`, `15 People Worth Seeking`, `15 Operational Lines`, `8`, `지도`, `아이템` 중 어디에 떨어뜨릴지 정한다.
 5. 충돌 시 먼저 `Canon Tier`와 `Archive Routing`을 적용한다.
 
 즉 오케스트라는
@@ -391,7 +391,7 @@ FS 엔진의 필수 코어 합의안은
 
 오케스트라는 아래처럼 FS 엔진을 적용한다.
 
-- `15 Named Notables`:
+- `15 People Worth Seeking`:
   - `에리온 드라코비스`, `울프가르`, `오그마`, `실비아` 같은 후보를
     `Character Arc + Plausibility + Naming Tone`으로 보고 있다.
 - `15 Operational Lines`:

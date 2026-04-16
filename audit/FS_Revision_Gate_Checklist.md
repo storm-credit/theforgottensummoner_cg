@@ -40,7 +40,7 @@
 수정 전 확인:
 
 - 이 항목은 어디에 들어가야 하는가?
-- `14`, `15 Named Notables`, `15 Operational Lines`, `8`, `지도`, `아이템`, `hold` 중 어디인가?
+- `14`, `15 People Worth Seeking`, `15 Operational Lines`, `8`, `지도`, `아이템`, `hold` 중 어디인가?
 
 통과 조건:
 
@@ -108,7 +108,7 @@
 |---|---|
 | `source_tier` | 어느 출처 우선순위를 근거로 삼았는가 |
 | `state_label` | 기록할 상태 라벨은 무엇인가 |
-| `route` | 14, 15 Named Notables, 15 Operational Lines, 8, 지도, 아이템, hold 중 어디인가 |
+| `route` | 14, 15 People Worth Seeking, 15 Operational Lines, 8, 지도, 아이템, hold 중 어디인가 |
 | `naming_state` | 표면명 확정인지 display canon 후보인지 |
 | `relation_time_impact` | 관계, 액트, 연표, 복선에 영향을 주는가 |
 | `story_source` | 어떤 장면/액트/스토리 초안에서 이 요소가 나왔는가 |

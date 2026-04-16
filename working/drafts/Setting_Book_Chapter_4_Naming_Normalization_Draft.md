@@ -87,6 +87,7 @@ The table is a display-policy register, not a file rename plan. It should be use
 ## Name Collision Guard
 
 Similar names must not be merged merely because they look close. The setting currently contains repeated family names, titles, relic names, magic names, and extraction variants. Each case needs source support before consolidation.
+Reader-facing prose may mention shared-name caution briefly, but unresolved identity tracking stays in the appendix register.
 
 ### Sylvia Cluster
 
@@ -97,7 +98,7 @@ The following are separate candidates unless a direct source proves identity ove
 - Oceanic Sylvia
 - Sylvia Phantom
 
-Do not collapse them into one Sylvia entry. The setting book may include a collision note if multiple Sylvias remain relevant.
+Do not collapse them into one Sylvia entry. The setting book may include a brief collision note if multiple Sylvias remain relevant, but the unresolved tracking should stay in the appendix register.
 
 ### Aegis Cluster
 
@@ -154,4 +155,3 @@ This chapter locks naming behavior for the current setting-book recomposition pa
 - Replace modern crime or corporate vocabulary with fantasy-facing faction language where a replacement candidate exists.
 - Protect same-name clusters from accidental merge.
 - Treat corrupted mixed-language fragments as cleanup targets, not as lore.
-

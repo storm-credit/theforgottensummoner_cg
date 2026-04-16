@@ -28,14 +28,18 @@ reader-facing release 후보로 볼 수 있는지,
 
 ## Body / Appendix Crosswalk
 
+Part labels in this crosswalk follow `Setting_Book_Reader_Facing_TOC_Draft.md` as the reader-facing TOC authority.
+
 | Reader Body Area | What The Body Should Do | Appendix Support | Release Check |
 | --- | --- | --- | --- |
 | Opening: How to Read This World | 세계가 사람의 선택과 관계로 읽힌다는 약속을 세운다. | source map, canon policy notes | 내부 상태표를 노출하지 않는다. |
-| Part I. Ether Continent | 중심 문명의 질서, 계승, 계약, 숲의 긴장을 보여준다. | source map, chapter 1 adequacy notes, Appendix A, Appendix C, Appendix E | Spirit Union과 종족 신호를 조심스럽게 유지하고 대륙 전체를 과잉 확정하지 않는다. |
-| Part II. Crossroad Cities | 도시와 길이 물건, 소문, 배신을 움직이는 방식을 보여준다. | Appendix C. Place and Travel Functions, Appendix D. Name Collision Control, Appendix A. 14 / 15 Boundary Candidates | 장소를 배경이 아니라 장면 기능으로 설명하고 운영 인물을 자동 승격하지 않는다. |
+| Part I. The Five Continents | 대륙 정체성과 각 대륙의 생존/기억/거래/신앙 압력을 보여준다. | source map, chapter 1 adequacy notes, Appendix A, Appendix C, Appendix E | Spirit Union과 종족 신호를 조심스럽게 유지하고 대륙 전체를 과잉 확정하지 않는다. |
+| Part II. Powers, Orders, and Hidden Systems | 왕국, 가문, 길드, 교단, 숨은 질서가 어떻게 세계를 움직이는지 보여준다. | Appendix A. 14 / 15 Boundary Candidates, Appendix C. Place and Travel Functions, Appendix D. Name Collision Control | 세력 구조와 장소 압력, 운영 인물을 자동으로 같은 층에 합치지 않는다. |
 | Part III. People Worth Seeking | 왜 사람들이 특정 장인, 현자, 기록자, 운영자를 찾아가는지 보여준다. | Appendix A. 14 / 15 Boundary Candidates, Appendix D. Name Collision Control | 영웅축과 명사층을 섞지 않는다. |
-| Part IV. Relics and Desired Objects | 물건을 성능보다 욕망, 대가, 소유자, 소문으로 설명한다. | Appendix B. Item Promotion Candidates, Appendix C. Place and Travel Functions, Appendix D. Name Collision Control | 후보 물건을 자동 승격하지 않고 물건이 움직이는 장소와 이름 충돌을 확인한다. |
-| Part V. Peoples, Bloodlines, and Changed States | 낯선 존재를 사람들, 혈통, 상태, 괴물, 미확정 신호로 분리한다. | Appendix E. Species Classification Guard, Appendix D. Name Collision Control, Appendix A. 14 / 15 Boundary Candidates | 이름만으로 종족 문명을 만들지 않고, 인물/혈통/상태 신호를 섞지 않는다. |
+| Part IV. Names, Languages, and World Tone | 이름, 언어감, 반복 이름, 미확정 표기를 독자용 톤으로 설명한다. | Appendix D. Name Collision Control, source map, canon policy notes | 이름 충돌을 본문 확정 엔트리처럼 합치지 않는다. |
+| Part V. Relics, Gear, Trade Goods, and Things People Want | 물건을 성능보다 욕망, 대가, 소유자, 소문으로 설명한다. | Appendix B. Item Promotion Candidates, Appendix C. Place and Travel Functions, Appendix D. Name Collision Control | 후보 물건을 자동 승격하지 않고 물건이 움직이는 장소와 이름 충돌을 확인한다. |
+| Part VI. Peoples, Bloodlines, Monsters, and Changed States | 낯선 존재를 사람들, 혈통, 상태, 괴물, 미확정 신호로 분리한다. | Appendix E. Species Classification Guard, Appendix D. Name Collision Control, Appendix A. 14 / 15 Boundary Candidates | 이름만으로 종족 문명을 만들지 않고, 인물/혈통/상태 신호를 섞지 않는다. |
+| Part VII. Places, Routes, and Maps That Create Story | 도시, 항구, 시장, 성소, 길이 장면을 여는 방식을 보여준다. | Appendix C. Place and Travel Functions, Appendix D. Name Collision Control, Appendix A. 14 / 15 Boundary Candidates | 장소를 배경이 아니라 장면 기능으로 설명하고 운영 인물을 자동 승격하지 않는다. |
 
 ## Release Gate
 

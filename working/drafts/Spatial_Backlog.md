@@ -147,7 +147,7 @@
   - `드래곤포지`
   - `침묵의 오아시스`
 
-#### Crimson Named Notable Place Sidecar
+#### Crimson People Worth Seeking Place Sidecar
 
 - `울프가르 드래곤포지`
   - 장소 앵커: `드래곤포지`, `프라이멀 엠버`

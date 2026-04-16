@@ -52,7 +52,7 @@
   - `place_style`로 내리면 부족장 평의회와 클랜 상층이라는
     정치 본체가 약화된다.
   - 따라서 이 1차 판독에서는
-    `tribe_clan core + place-network strong-support` 혼합 구조로 유지하는 것이 맞다.
+    `tribe_clan core + place-pressure strong-support` 혼합 구조로 유지하는 것이 맞다.
 
 ## 2. Pirate Confederacy
 

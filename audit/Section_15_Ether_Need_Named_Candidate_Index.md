@@ -57,7 +57,7 @@ named-candidate active 판단은
 2. 14번 영웅 신호 확인.
 3. `verify_before_15` 또는 `named_notable_candidate`로 상태 라벨 부여.
 4. 대륙 -> 세력/도시/조직 앵커 지정.
-5. 필요하면 Named Notables 개별 시트 생성.
+5. 필요하면 People Worth Seeking 개별 시트 생성.
 
 ## Low-Priority Follow-Up Progress
 

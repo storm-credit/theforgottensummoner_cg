@@ -1,6 +1,6 @@
 # Section 15 Crimson Place Sidecar
 
-이 문서는 `15 Named Notables` 안정 후보 3명을
+이 문서는 `15 People Worth Seeking` 안정 후보 3명을
 크림슨 대륙의 장소/지도 후보와 연결하기 위한 사이드카다.
 
 원칙:

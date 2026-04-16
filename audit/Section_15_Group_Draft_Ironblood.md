@@ -110,5 +110,5 @@
 철혈 보증단 묶음은
 `도시 경제가 왜 공포로 유지되는가`를 설명하는 데 핵심이다.
 
-다만 named notable 승인 논리와는 분리하고,
+다만 `People Worth Seeking` 승인 논리와는 분리하고,
 operational lower-card carryover reference로만 유지한다.

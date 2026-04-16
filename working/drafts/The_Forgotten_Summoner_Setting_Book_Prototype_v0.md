@@ -73,24 +73,29 @@
 
 ---
 
-## Table of Contents
+## Compressed Reference Sequence
 
-1. How to Read This World
-2. Ether Continent
-3. Crossroad Cities
-4. People Worth Seeking
-5. Relics and Desired Objects
-6. Peoples, Bloodlines, and Changed States
-7. Opening / Part I Canon Source Note
-8. Appendix A. 14 / 15 Boundary Candidates
-9. Appendix B. Item Promotion Candidates
-10. Appendix C. Place and Travel Functions
-11. Appendix D. Name Collision Control
-12. Appendix E. Species Classification Guard
+Public Part naming and final reader-facing order follow `Setting_Book_Reader_Facing_TOC_Draft.md`.
+Below list is a compressed reference sequence for this prototype, not the final public TOC.
+
+1. Opening: How to Read This World
+2. Part I. The Five Continents
+3. Part II. Powers, Orders, and Hidden Systems
+4. Part III. People Worth Seeking
+5. Part IV. Names, Languages, and World Tone
+6. Part V. Relics, Gear, Trade Goods, and Things People Want
+7. Part VI. Peoples, Bloodlines, Monsters, and Changed States
+8. Part VII. Places, Routes, and Maps That Create Story
+9. Part VIII. Appendix and Production Notes
+10. Appendix A. 14 / 15 Boundary Candidates
+11. Appendix B. Item Promotion Candidates
+12. Appendix C. Place and Travel Functions
+13. Appendix D. Name Collision Control
+14. Appendix E. Species Classification Guard
 
 ---
 
-## How to Read This World
+## Opening: How to Read This World
 
 `THE FORGOTTEN SUMMONER`의 세계는 거대한 힘이 충돌하는 무대이지만,
 그 중심에 서 있는 것은 언제나 사람이다.
@@ -118,7 +123,7 @@
 
 ---
 
-## Ether Continent
+## Part I. The Five Continents: Ether Continent Preview
 
 에테르 대륙은 질서가 아름답게 보이는 곳이다.
 
@@ -194,7 +199,7 @@
 
 ---
 
-## Crossroad Cities
+## Part VII. Places, Routes, and Maps That Create Story
 
 자유도시연합의 심장은 하나의 왕좌에 놓여 있지 않다.
 그 심장은 여러 도시의 장부, 항로, 계약서, 밀약, 부두, 창고, 그리고 밤마다 다른 얼굴을 드러내는 접선지 사이를 오가며 뛴다.
@@ -276,7 +281,7 @@ Crossroad Cities의 본질은 자유가 아니다.
 
 ---
 
-## People Worth Seeking
+## Part III. People Worth Seeking
 
 이 세계에는 역사를 바꾸는 영웅이 있다.
 그러나 영웅만이 세계를 움직이는 것은 아니다.
@@ -313,7 +318,7 @@ Crossroad Cities의 본질은 자유가 아니다.
 오래된 전승이 여러 세력의 주장으로 찢겨 있을 때는
 누가 그 기억을 가장 오래, 가장 조용히 지켜 왔는지 확인해야 한다.
 
-Named Notables는 그래서 단순한 조연 목록이 아니다.
+People Worth Seeking은 그래서 단순한 조연 목록이 아니다.
 그들은 세계가 스스로를 설명하는 얼굴이다.
 장인은 물건이 어디서 왔는지 말해 주고,
 현자는 문장이 왜 위험한지 알려 주며,
@@ -341,7 +346,7 @@ Named Notables는 그래서 단순한 조연 목록이 아니다.
 
 ---
 
-## Relics and Desired Objects
+## Part V. Relics, Gear, Trade Goods, and Things People Want
 
 이 세계에서 물건은 오래 살아남는다.
 사람보다 오래,
@@ -426,7 +431,7 @@ Named Notables는 그래서 단순한 조연 목록이 아니다.
 
 ---
 
-## Peoples, Bloodlines, and Changed States
+## Part VI. Peoples, Bloodlines, Monsters, and Changed States
 
 이 세계의 낯선 존재들은
 인간과 다른 얼굴을 하고 있다고 해서 모두 같은 방식으로 읽히지 않는다.
@@ -555,9 +560,9 @@ Spirit Union은 이 구분이 특히 필요한 곳이다.
 
 ---
 
-## Opening / Part I Canon Source Note
+## Part VIII. Appendix and Production Notes: Opening / Part I. Canon Source Note
 
-Opening과 Part I. Ether Continent는 별도의 새 부록으로 분리하지 않는다.
+Opening과 Part I. The Five Continents의 Ether preview는 별도의 새 부록으로 분리하지 않는다.
 
 이 두 구간은 `Chapter 0 Canon Policy`, `Chapter 1 Five Continents`,
 그리고 reassembly source map의 판단 순서로 받친다.

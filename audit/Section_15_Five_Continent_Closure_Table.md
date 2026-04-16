@@ -1,6 +1,6 @@
 # Section 15 Five Continent Closure Table
 
-이 문서는 `15 Named Notables`의 5대륙 1차 압축 종료표다.
+이 문서는 `15 People Worth Seeking`의 5대륙 1차 압축 종료표다.
 
 목적:
 
@@ -10,10 +10,10 @@
 
 ## Closure Summary
 
-| Continent | `stable_triad_frozen_reference_set` | Source-Check Hold | Need Named Candidate Slots | Watch-Reference State |
+| Continent | `stable_triad_frozen_reference_set` | Hold Reference Split / Hold Cluster | Need Named Candidate Slots | Watch-Reference State |
 |---|---|---|---|---|
 | `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | 현자회/사막부족 일부 슬롯은 unresolved reference note로만 남긴다. | `closed_for_now` |
-| `에테르` | 없음 | `엘다라 [source_check_hold]`, `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 금서/공방/관측/대서고/성채/성검/서약/그늘항로/정령묘 + low-priority auxiliary 9개 role slot closure 완료 | `closed_for_now` |
+| `에테르` | 없음 | `엘다라 [source_check_hold / hold reference split]`, `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 금서/공방/관측/대서고/성채/성검/서약/그늘항로/정령묘 + low-priority auxiliary 9개 role slot closure 완료 | `closed_for_now` |
 | `프로스트` | 없음 | `울프릭`, `시그리드`, `마리안`, `프리야`, `카이라` | `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`, `아이스포지 병기소 장인`은 모두 role slot 유지로 closure 완료 | `closed_for_now` |
 | `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | 오라클, 항로/해도, 조선소, 감정사, 금고, 경매장, 은행, 세관, 무역왕, 폭풍추적대, 검은 돛 조선공, 진혼 악기, 유령선 기록 슬롯. `top 5 slot`, `city-role batch`, `tail unnamed slot batch` read-only pass 완료 | `closed_for_now` |
 | `오벨리스크` | 없음 | `바리온`, `아이기스`, `카론`, `베스`, `이안`, `카트린`, `레보니아`, `우로스`, `세르반`, `레티시아`, `렌`, `라일`, `루가르` | `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 slot 유지. `기억 지기 = 렌/라일`, `심연 계약 중개자 = 루가르 strong link` | `closed_for_now` |
@@ -30,13 +30,13 @@
 
 Hold Reference Split:
 
-1. `엘다라 [source_check_hold]`
-2. `실비아 [hold reference split]`
+1. `엘다라 [source_check_hold / hold reference split]`
+2. `실비아 [deferred_expansion_hold / hold reference split]`
 
 주의:
 
-- `실비아`는 키르케/범대륙 후기 확장 축의 hold reference split이라 mainline watch-reference 바깥에 둔다.
-- `엘다라`는 에테르 정령연합의 `source_check_hold`지만, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
+- `실비아`는 키르케/범대륙 후기 확장 축의 `deferred_expansion_hold / hold reference split`이라 mainline watch-reference 바깥에 둔다.
+- `엘다라`는 에테르 정령연합의 `source_check_hold / hold reference split`이지만, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
 
 ## Hard Hold Clusters
 
@@ -55,23 +55,23 @@ Hold Reference Split:
 - 이 표의 대륙별 closure 메모는
   master lock 아래 component chain을 요약하는 shorthand일 뿐,
   결손층 판정 authority 자체를 로컬에서 다시 만들지 않는다.
-- `크림슨` 대표 named notable 카드군은 씨족 중심 질서와 현자/장인/전승 상층만 보강하고,
+- `크림슨` 대표 `People Worth Seeking` 카드군은 씨족 중심 질서와 현자/장인/전승 상층만 보강하고,
   `state_house strong` 고정 근거로 읽지 않는다.
 - `해양` 자유도시 프로필 카드군은 도시-항만 그림자경제와 부채/암시장/검은항로를 보강할 뿐,
   `토착 공동체층` 본체 근거로 쓰지 않는다.
 - `오벨리스크` 제도 카드군은
   `nontraditional elite thin-support`와 `dark institution` 읽기 아래서만 유지한다.
 - `범대륙 / 후기 확장`의 `실비아`는 메인 5대륙 closure 표에 섞지 않고
-`hold reference split`으로만 보존한다.
+`deferred_expansion_hold / hold reference split`으로만 보존한다.
 
 ## Profile Layer Snapshot
 
-- 별도 operational profile layer는 named notable closure 표와 분리되어 있고,
+- 별도 operational profile layer는 People Worth Seeking closure 표와 분리되어 있고,
   `Section_15_Profile_*` 32개 전부 `3-1. Policy Guard` 형식으로 유지한다.
-- 따라서 이 closure table은 named notable split을 다루되,
+- 따라서 이 closure table은 People Worth Seeking split을 다루되,
   operational profile 해석은 하위 profile card의 `3-1. Policy Guard`를 따른다.
 - 자유도시/오벨리스크 operational profile cluster 문구는
-  named notable 고정 근거가 아니라 lower-card carryover reference로만 유지한다.
+People Worth Seeking 고정 근거가 아니라 lower-card carryover reference로만 유지한다.
 - exact operational guard wording authority는 계속 각 `Section_15_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, 이 closure table은 그 wording source를 요약하거나 대체하지 않는다.
 - subline 확장까지 내려간 경우에도
@@ -88,7 +88,7 @@ Hold Reference Split:
 1. `대륙 -> 세력 / 도시 / 조직` 앵커 확인.
 2. 14번 독립 파일 또는 영웅표 신호 확인.
 3. 이름 충돌 확인.
-4. `stable_triad_frozen_reference_set`, `source_check_hold`, `need_named_candidate`, `keep_14` 중 잠긴 상태 라벨을 확인.
+4. `stable_triad_frozen_reference_set`, `source_check_hold / hold reference split`, `need_named_candidate`, `keep_14` 중 잠긴 상태 라벨을 확인.
 5. 안정 후보만 stable_triad_frozen_reference_set 기준으로 유지.
 
 ## Orchestrated Move Snapshot
@@ -103,12 +103,12 @@ Hold Reference Split:
 3. `Coverage Matrix`
 4. `Continent Synthesis`
 5. `Bridge / Compatibility Audit / Stable Candidate Index`
-6. Ether hold reference split set
+6. Ether hold cluster set
 7. `P2 place-pressure` owner drift
 
 Reading snapshot:
 
 - stable_triad_frozen_reference_set은 닫힌 상태로 유지한다.
-- `엘다라`는 `source_check_hold`, `실비아`는 `hold reference split`으로만 유지한다.
+- `엘다라`는 `source_check_hold / hold reference split`, `실비아`는 `deferred_expansion_hold / hold reference split`으로만 유지한다.
 - `해양`, `오벨리스크`, `프로스트`의 slot narrowing 결과는 새 batch가 아니라 watch-reference state로 읽는다.
-- Ether hold reference split은 한 번 watch-reference 상태로 읽고, 새 증거 전까지 확장하지 않는다.
+- Ether hold cluster는 한 번 watch-reference 상태로 읽고, 새 증거 전까지 확장하지 않는다.

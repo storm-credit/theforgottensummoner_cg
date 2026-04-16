@@ -8,10 +8,10 @@
 - anchor:
   - `키르케 영약회`
 - type:
-  - `Named Notable`
+  - `Deferred named boundary reference`
 - recorded judgment:
-  - `named_notable_candidate`
-  - `deferred_expansion_hold`
+  - `deferred_expansion_hold / hold reference split`
+  - `name_collision_watch`
 
 ## 1-1. Archive Routing
 
@@ -28,7 +28,7 @@
   - `시약 계량관`
   - `임상 기록`
 - routing_state:
-  - `deferred_expansion_hold`
+  - `deferred_expansion_hold / hold reference split`
   - `name_collision_watch`
 
 주의:
@@ -78,8 +78,10 @@
 
 ## 6. Archive Use
 
-- `14`보다 `15 Named Notables`에 둘 때
-  기록자형 연금술 명사로서의 색이 훨씬 강해진다.
+- 현재는 `15 People Worth Seeking` 승격 후보가 아니라
+  범대륙 후기 확장축의 hold-split reference로 보관한다.
+- 기록자형 연금술 명사로서의 색은 강하지만,
+  이 강점은 `deferred_expansion_hold / hold reference split / name_collision_watch` 안에서만 읽는다.
 - 연금술, 금단 실험, 약제 통제, 기록 윤리, 고통의 장부 서사에 강하다.
 
 ## 6-1. Policy Guard
@@ -87,7 +89,7 @@
 - 실비아의 `기록자 / 시약 계량관 / 임상 통제` 신호는
   `키르케 영약회`라는 범대륙 후기 확장축 내부에서만 읽는다.
 - 즉 이 카드를 현재 5대륙 본선의 핵심 층 증거로 끌어오지 않고,
-  `deferred_expansion_hold` 범위에서만 유지한다.
+  `deferred_expansion_hold / hold reference split` 범위에서만 유지한다.
 - 또한 이 기록-실험 권위를 오벨리스크 전통 귀족국가형 `state_house strong` 근거로 읽지 않는다.
 
 ## 7. Conductor Note
@@ -99,4 +101,4 @@
   - 작업본 기준 `낮음`
 - 후속 판독축:
   - 독자 인물 문서가 존재하는지와 실제 전투 비중
-  - 범대륙 후기 확장축이 `deferred_expansion_hold`에서 올라올 근거가 더 있는지
+  - 범대륙 후기 확장축이 `deferred_expansion_hold / hold reference split`에서 올라올 근거가 더 있는지

@@ -4,7 +4,7 @@
 `조직 실무층 / 현장 라인 / 기능 계열`
 을 따로 묶어 보는 reference track이다.
 
-이 축은 Named Notables와 별개다.
+이 축은 `People Worth Seeking`와 별개다.
 
 이 track은 current watch state나 hold/reference 상태 판단을 직접 소유하지 않고,
 `Section_15_Operational_Display_Canon_Candidates.md`,
@@ -16,7 +16,7 @@
 
 - 도시와 세력이 실제로 어떻게 굴러가는지 보여준다
 - 인물 관계망에 `기능의 얼굴`을 붙인다
-- Named Notables가 비어 있어도 세계가 작동하는 감각을 살린다
+- `People Worth Seeking`이 비어 있어도 세계가 작동하는 감각을 살린다
 
 ## Functional Axes Snapshot
 
@@ -88,7 +88,7 @@ reference용 `구조 reference 라벨`이다.
 사용자가 말한 `유명 NPC층`과 분리해서,
 보조 축으로 계속 읽는다.
 
-따라서 named notable summary나 group index가 이 track을 참조하더라도,
+따라서 People Worth Seeking summary나 group index가 이 track을 참조하더라도,
 operational profile의 `3-1. Policy Guard` 권한선을 덮어쓰지 않는다.
 subline 확장된 경우의 exact operational guard wording authority도 상위 track이 아니라
 각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.

@@ -1,4 +1,4 @@
-# Section 15 Named Notables Track
+# Section 15 People Worth Seeking Track
 
 이 문서는 사용자가 의도한
 `영웅에는 없지만 기억될 만한 이름 있는 인물들`
@@ -48,7 +48,7 @@
 4. 이 인물은 영웅은 아니어도 `기억되는 얼굴`인가
 5. 이 인물은 아이템, 지식, 치료, 기술, 전승, 지도, 항로 같은 축을 열어주는가
 
-## First Named Notable Buckets
+## First People Worth Seeking Buckets
 
 1. `현자 / 기록자`
 2. `연금술사 / 약제사`
@@ -63,7 +63,7 @@
 이미 진행한 `Operational Lines`는 reference 축으로 유지한다.
 
 하지만 `15번`의 얼굴을 읽을 때는
-이 `Named Notables` 축을 반드시 따로 키워야 한다.
+이 `People Worth Seeking` 축을 반드시 따로 키워야 한다.
 
 current 시작 문서는 아래를 기준으로 본다.
 

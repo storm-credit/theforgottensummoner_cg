@@ -55,6 +55,6 @@
 
 현재는 `verify_before_15 / sage_queen_hold`로 유지한다.
 
-15 Named Notables 가치가 있지만,
+15 People Worth Seeking 가치가 있지만,
 SS급과 정신적 지도자 신호가 강하므로
 14 독립 시트 / 액트 중심성 확인 전까지 확정하지 않는다.

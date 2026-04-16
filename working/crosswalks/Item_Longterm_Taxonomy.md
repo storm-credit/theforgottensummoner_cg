@@ -61,6 +61,22 @@
 
 이 층은 임시 흡수층이다.
 
+### Ambiguity Intake Buckets
+
+source-confirmed ambiguity 후보는 정본 백과 승격이 아니라 임시 bucket 연결만 한다.
+
+- `mount_gear`: `푸른 스파크 마갑`
+- `device_mechanism`: `광전사의 심장 펌프`, `테네브리움의 의안 부엉이`, `천둥새의 적란운 렌즈`
+- `weapon_device`: `공간을 베어내는 차원의 열쇠`
+- `container_device`: `심연을 가두는 유리 태풍병`
+- `accessory_device / body_engine`: `마력 심장의 심장 엔진 귀걸이`
+- `living_mount_exclusion`: `은빛 그리폰 '칼리스토'`
+- `proper_name_exclusion`: `칼리안 드라코`
+- `name_collision_hold`: `Aegis / 아이기스 / 이지스` 계열
+
+이 bucket 연결은 `ready_for_encyclopedia`가 아니라
+`Item_Candidate_Register.md`와 `Item_Name_Collision_Register.md`의 sidecar 판정을 읽기 위한 임시 분류다.
+
 ## 5. 계보형 전설 아이템군
 
 - 숫자나 명칭으로 묶이는 전설 무기군

@@ -1,0 +1,141 @@
+# Maintenance Commit-Ready Summary
+
+이 문서는 이번 maintenance 묶음을 커밋 관점에서 빠르게 읽기 위한 기준 보고서다.
+상태 압축 closeout 서술은 companion report
+`watch_only_maintenance_closeout_2026-04-14.md`를 함께 본다.
+
+## Scope
+
+- Date: `2026-04-14 KST`
+- Mode: `watch-only maintenance`
+- Mainline reference: `5대륙 closure sync / Section 8 -> 15 watch-reference`
+
+## Changed Areas
+
+- `audit/`: Section 8 -> 15 carryover, hold-split wording, lower-card authority, missing-layer source authority, workstream/watch docs
+- `orchestra/`: active split guidance, required expert lock, historical dispatch logging
+- `working/crosswalks/`: item side-track routing, taxonomy guard, collision guard
+- `working/drafts/`: setting-book TOC authority, body/appendix separation, source routing guard
+
+## Key Functional Locks Confirmed
+
+1. `source_check_hold / hold reference split` and `deferred_expansion_hold / hold reference split` remain outside `stable_triad_frozen_reference_set`.
+2. `P2 place-pressure handoff` ownership remains in sidecar/register, not candidate index.
+3. lower-card authority remains with each profile/subline card's `3-1. Policy Guard`.
+4. missing-layer authority remains under `audit/Five_Continent_Missing_Layer_Master_Lock.md`.
+5. setting-book public Part naming authority remains with `working/drafts/Setting_Book_Reader_Facing_TOC_Draft.md`.
+6. item taxonomy bucket links remain routing aids only, not `ready_for_encyclopedia` promotion criteria.
+
+## Notable Tail Fixes
+
+- `working/drafts/Setting_Book_Reassembly_Source_Map.md`
+  - clarified that 5-continent thin/support judgment follows `Five_Continent_Missing_Layer_Master_Lock.md` as single entry authority
+  - aligned `source_check_hold / hold reference split` wording
+- `audit/Section_8_to_15_Notable_Anchor_Bridge.md`
+  - fixed active Ether row to `엘다라 -> 정령연합 / 루미라 [source_check_hold / hold reference split]`
+- Nash continuation fixes
+  - aligned remaining live `source_check_hold / hold reference split` and `deferred_expansion_hold / hold reference split` shorthand in folder gate, QA, Sylvia profile, and anchor map
+  - clarified active P2 titles/intros as `place-pressure` while preserving legacy filenames
+- Pascal continuation fixes
+  - realigned release checklist and setting-book hub navigation to the current reader-facing TOC authority:
+    `Part V` relics/items, `Part VI` species, `Part VII` places
+- Fermat post-fix continuation
+  - aligned `Setting_Book_Public_Assembly_Manuscript_Draft.md` headings to current reader-facing TOC labels while preserving body-source slice caveat
+- Huygens post-Fermat continuation
+  - aligned remaining Part I shorthand in appendix hub / prototype context to `Part I. The Five Continents`
+- Confucius continuation fixes
+  - aligned Eldara live status in profile / Ether sidecar to `source_check_hold / hold reference split`
+  - aligned remaining P2 source wording to `place-pressure`
+  - aligned front matter / prototype / public voice sample titles with current reader-facing TOC labels
+- Godel/Boole continuation fixes
+  - removed remaining Eldara tail status drift from active watch/index/scout docs
+  - replaced remaining non-legacy `place-network` wording with `place-pressure` in active watch docs
+  - normalized remaining reader-facing opening/crossroad/prototype/public-assembly labels to current TOC authority
+- Wegener continuation fixes
+  - normalized remaining Eldara prose shorthand inside hold-split rules
+  - separated prototype/front-matter compressed reference wording from the official public TOC authority to avoid reintroducing outdated structure drift
+- Poincare/Carver continuation fixes
+  - confirmed no actionable report/history boundary drift in the current live-doc reading path
+  - restored missing public Part labels on active prototype headings so the body matches the reader-facing TOC authority note again
+- Meitner/Laplace continuation fixes
+  - downgraded Sylvia upstream routing language to `deferred_expansion_hold / hold reference split / name_collision_watch` so boundary and tier registers no longer over-promise promotion
+  - realigned readable preview, front matter TOC shape, and remaining prototype headings with the current reader-facing TOC authority
+- Sartre/Franklin continuation fixes
+  - removed remaining Sylvia over-promotion wording from deferred-expansion guard, root deferred read, collision register, and active folder routing
+  - aligned readable preview spine, preview package spine, and public voice sample titles/headings to the current reader-facing TOC authority
+- Popper/Hilbert continuation fixes
+  - lowered Sylvia's own profile, foreshadow, relationship, OPEN_INDEX, and first-pass references to deferred hold-split / name-collision reference wording
+  - normalized the reader-facing TOC authority file itself from colon-form Part headings to `Part X.` heading form
+- Archimedes/Descartes continuation fixes
+  - separated Kirke Sylvia from stable-candidate section framing into deferred hold-split reference framing
+  - lowered stable-candidate index and QA document framing to stable / hold-reference scope
+  - removed report/log colon-form Part-heading residue after Descartes verified live public headings were clear
+- Hubble/Popper continuation fixes
+  - confirmed no renewed live audit drift around Sylvia lock, hold-reference framing, or old `place-network` family wording
+  - updated the remaining Chapter 3 source label in the reader-facing TOC draft from `Named Notables` wording to `People Worth Seeking`
+- Banach/Ohm continuation fixes
+  - found no new public sample or report residue beyond Chapter 3 live label carryover
+  - realigned Chapter 3 live labels across the draft itself, source map, source hub, skeleton, assembly index, and handoff references to current `People Worth Seeking` authority
+- Locke/Boyle continuation fixes
+  - split `chapter label` authority from `15 operational split` terminology so live Chapter 3 labels no longer keep the combined carryover form
+  - updated the remaining source-priority note from `Named Notables / Operational Lines` to `People Worth Seeking / Operational Lines`
+- Curie/Pascal continuation fixes
+  - confirmed no renewed live audit drift in active scope after the Chapter 3 label cleanup
+  - replaced the remaining live `Named Notables` prose inside the Chapter 3 draft guard block and the setting-book prototype body with current `People Worth Seeking` wording
+
+## Verification
+
+- latest targeted rechecks find no remaining scout-reported live shorthand or obsolete setting-book Part navigation patterns
+- Poincare reported no actionable boundary/report drift, and Carver's prototype heading finding has been integrated
+- Meitner/Laplace findings on Sylvia promotion overreach and preview/front-matter/prototype TOC drift have been integrated
+- Sartre/Franklin follow-up findings on Sylvia tail wording and preview/sample spine drift have been integrated
+- Popper/Hilbert follow-up findings on Sylvia profile/register references and TOC authority heading form have been integrated
+- Archimedes/Descartes follow-up findings on stable-candidate framing and report/log TOC residue have been integrated
+- Hubble/Popper follow-up confirmed audit stability and closed the last reader-facing TOC Chapter 3 label drift
+- Banach/Ohm follow-up closed the remaining Chapter 3 live label family in working draft hubs and source maps
+- Locke/Boyle follow-up closed the remaining combined Chapter 3 label carryover and source-priority stale split wording
+- Curie/Pascal follow-up closed the last live `Named Notables` prose carryover inside active Chapter 3 / prototype body text
+- Plato/Carver follow-up closed the remaining Chapter 2 handoff prose that still used stale `Named Notables` wording
+- Nineteenth follow-up closed the remaining live `Named Notables` wording in active hub, appendix, policy, and register appendix drafts
+- Twentieth follow-up closed the remaining active `Part I/V/VI/VII` shorthand residues and aligned summary docs to `People Worth Seeking`
+- Twenty-First follow-up closed the last stale `named notable` summary residue and removed a duplicate out-of-order `Twentieth` dispatch-log block
+- Twenty-Second follow-up closed the remaining live `named notable` prose residues in active draft guards, profiles, appendix planning, and spatial backlog text
+- 2026-04-16 New-Day follow-up closed the remaining active audit-doc `named notable 승인 논리` residues across queue, group, subline, intake, bridge, and sync docs
+- 2026-04-16 follow-up role/heading sweep aligned active roster locks and Section 15 core register/compass/anchor docs to `People Worth Seeking`
+- 2026-04-16 third pass closed the remaining orchestra current-guidance `Named Notables` residues in split-lock, advantage-lock, and runbook docs
+- 2026-04-16 fourth pass closed the broader active audit authority residue across engine, gate, register, bridge, watch, and deferred-expansion docs, while leaving state-token-heavy boundary queue work for a later pass
+- 2026-04-16 fifth pass split boundary-queue prose authority from internal route tokens, closing the remaining live boundary wording
+- 2026-04-16 sixth pass followed Wegener's broader route-label finding and migrated boundary/folder/search route labels to `People Worth Seeking` while preserving file references and action tokens
+- 2026-04-16 seventh pass aligned FS core register prose and Section 15 current core authority prose to `People Worth Seeking`, preserving state labels and file references
+- 2026-04-16 eighth pass aligned active Section 15 sidecar, hold, candidate-index, and search-synthesis prose across Crimson, Ether, Frost, Obelisk, and Oceanic docs to `People Worth Seeking`, while preserving historical file names and status tokens
+- 2026-04-16 ninth pass aligned remaining active anchor-audit and species-sidecar prose to `People Worth Seeking`, while leaving frozen routing samples, snapshot batches, and historical registers for later classification
+- 2026-04-16 tenth pass corrected the frozen-sample classification for `Section_15_Foldering_Test_Crimson.md` and aligned live judgment prose in `Section_15_Ether_Search_Findings_Batch_09.md` to `People Worth Seeking`
+- 2026-04-16 eleventh pass aligned the remaining live judgment prose in Ether `Search Findings Batch 01/04/07/08`, while keeping broader scout/profile/snapshot classification deferred
+- 2026-04-16 twelfth pass aligned live judgment prose across selected `Named_Notable_*` profiles and `Scout/Recovery/First Pass` docs, while leaving titles, template labels, and snapshot openings untouched
+- 2026-04-16 thirteenth pass narrowed the previous profile cleanup to the explorer-confirmed live judgment lines only, restoring secondary-index/schema wording that belongs to reference structure
+- 2026-04-16 fourteenth pass aligned the remaining current-facing template, scout-opening, active-judgment, and Iron Finance wording to `People Worth Seeking`, while preserving frozen samples, report history, and schema labels
+- 2026-04-16 fifteenth pass closed the last current-facing hyphenated `named-notable` residue in the appendix manuscript Aegis evidence note, while confirming reports/logs are history and remaining audit hits are reference-layer residue
+- 2026-04-16 sixteenth pass created `Section_15_Named_Notables_Reference_Layer_Residue_Lock.md` to freeze the remaining title/schema/snapshot/history hits as reference-layer residue
+- 2026-04-16 seventeenth pass created `Section_15_People_Worth_Seeking_Schema_Rename_Decision_Lock.md` to block unsafe schema/status/path renames, and aligned remaining workflow live-routing prose to `People Worth Seeking`
+- 2026-04-16 eighteenth pass confirmed no actionable live `Named Notables` / `named_notable` residue remains outside preserved path/title/schema/status/action-token/history layers
+- 2026-04-16 nineteenth pass confirmed item duplicate hotspot / ambiguity routing and setting-book assembly hubs remain aligned: no `ready_for_encyclopedia` over-promotion, no direct `Extracted_Item_Candidates.md` edit route, and no `People Worth Seeking` label drift
+- setting-book public Part naming authority is reinforced in the release checklist and live hubs
+- specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
+- `git diff --check` reports CRLF warnings only, with no whitespace errors
+
+## Commit-Readiness Notes
+
+- `working/crosswalks/Item_Duplicate_Hotspot_Triage.md` is an intentional new side-track guard file and should be included if this maintenance bundle is committed
+- `working/crosswalks/Extracted_Item_Candidates.md` appears in `git status --short`, but content diff is empty; current signal is CRLF/status noise only
+- no staging or commit has been performed in this pass
+
+## Recommended Commit Message Shape
+
+- `Sync watch-only maintenance locks, setting-book authority, and item side-track guards`
+
+## Recommended Next Move
+
+- If committing: include the current modified audit/orchestra/working docs plus the report pair
+  `audit/reports/maintenance_commit_ready_summary_2026-04-14.md` and
+  `audit/reports/watch_only_maintenance_closeout_2026-04-14.md`
+- If not committing: remain in `watch-only maintenance` and only patch new local drift when it appears

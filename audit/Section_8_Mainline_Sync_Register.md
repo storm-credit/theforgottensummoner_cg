@@ -32,12 +32,12 @@
 | `mismatch_snapshot` | `Section_8_Spine_Mismatch_Queue.md` | `Section_8_Normalization_Status_Compass.md`, `Section_8_Next_Audit_Targets.md` | canonical mismatch 범주명과 watch/clear 상태 |
 | `root_mainline` | `Section_8_Root_Corruption_First_Pass_A.md`, `Section_8_Root_Subtree_Sampling_Queue.md` | `Section_8_Normalization_Status_Compass.md`, `Next_Sequential_Workstream.md`, `Audit_Queue.md` | `canonical / quarantine / legacy`, subtree sampling readiness |
 | `place_network_handoff` | `Section_8_Place_Network_Handoff_Map.md` | `Section_8_Normalization_Status_Compass.md`, related sidecars/registers | 어느 후보가 어느 sidecar/register로 넘어갔는지 |
-| `section8_to_15_carryover` | `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md` | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Next_Sequential_Workstream.md`, related package freeze docs | stable triad / source_check_hold / deferred_expansion_hold와 `Section 8` carryover 상태 |
+| `section8_to_15_carryover` | `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md` | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Next_Sequential_Workstream.md`, related package freeze docs | stable triad / `source_check_hold / hold reference split`, `deferred_expansion_hold / hold reference split`와 `Section 8` carryover 상태 |
 | `closure_sync_watch` | `Section_8_15_Closure_Sync_Carryover_Watch.md` | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Audit_Queue.md` | 현재 본선이 `closure sync / watch-reference`인지, 이미 닫힌 hold cluster를 다시 live build처럼 쓰지 않는지 |
 | `profile_format_carryover` | `Section_15_Profile_Template.md`, `Section_15_Profile_Draft_Index.md` | `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`, `Section_15_Folder_Revision_Gate.md` | operational profile layer가 `3-1. Policy Guard` 형식을 유지한 채 carryover rule을 공유하는지 |
-| `lower_card_authority` | `Section_15_Profile_Template.md`, `Section_15_Named_Notables_Register.md` | `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Audit_Queue.md`, `Continuous_Workstream.md` | 상위 summary/bridge/watch 문서가 named notable 카드와 operational profile 카드의 권한선을 섞지 않는지 |
+| `lower_card_authority` | `Section_15_Profile_Template.md`, `Section_15_Named_Notables_Register.md` | `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Audit_Queue.md`, `Continuous_Workstream.md` | 상위 summary/bridge/watch 문서가 `People Worth Seeking` 카드와 operational profile 카드의 권한선을 섞지 않는지 |
 | `subline_profile_authority` | `Section_15_Profile_Draft_Index.md`, `Section_15_Subline_Register.md` | `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `Section_15_Subline_Profile_*`의 `3-1. Policy Guard`가 exact wording source로 유지되고, representative subline pair closure가 상위 문서에서 승인 논리로 역수입되지 않는지 |
-| `missing_layer_policy` | `Five_Continent_Missing_Layer_Master_Lock.md` | `Five_Continent_Missing_Layer_Policy_Lock.md`, `Five_Continent_Missing_Layer_Evidence_Register.md`, `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`, `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md`, `Five_Continent_Missing_Layer_Overread_Firewall.md`, `Continents_Framework.md`, `Continental_Adequacy_Map.md`, `Five_Continent_Synthesis.md`, related core faction layers | 에테르 변방 부족층, 크림슨 국가형 가문층, 프로스트 정주 귀족층, 해양 토착 공동체층, 오벨리스크 비정통 엘리트를 어디까지 thin/support로 허용하고 어떤 evidence/firewall 순서로 읽는지. 단일 entry authority는 master lock에 남고, 나머지는 component/summary shorthand로만 유지한다 |
+| `missing_layer_policy` | `Five_Continent_Missing_Layer_Master_Lock.md` | `Five_Continent_Missing_Layer_Policy_Lock.md`, `Five_Continent_Missing_Layer_Evidence_Register.md`, `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`, `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md`, `Five_Continent_Missing_Layer_Overread_Firewall.md` | 에테르 변방 부족층, 크림슨 국가형 가문층, 프로스트 정주 귀족층, 해양 토착 공동체층, 오벨리스크 비정통 엘리트를 어디까지 thin/support로 허용하고 어떤 evidence/firewall 순서로 읽는지. 단일 entry authority는 master lock에 남고, component docs는 그 직접 묶음으로만 유지한다 |
 | `execution_priority` | `Next_Sequential_Workstream.md` | `Audit_Queue.md`, `Section_8_Next_Audit_Targets.md` | 지금 메인 본선이 실제로 어디에 있는지 |
 
 ## Drift Triggers
@@ -48,12 +48,12 @@
 2. mismatch 결과가 `mismatch_keep -> mismatch_clear`로 바뀔 때
 3. `place pressure strong` 후보가 새 sidecar/register로 handoff될 때
 4. `root_corruption` 관련 새 샘플링 결과가 들어올 때
-5. stable candidate의 `source_check_hold / deferred_expansion_hold / stable_15_workset` 상태가 바뀌거나 legacy 상태어가 guard 밖 live 문서에 다시 나타날 때
+5. stable candidate의 `source_check_hold / hold reference split`, `deferred_expansion_hold / hold reference split`, `stable_15_workset` 상태가 바뀌거나 legacy 상태어가 guard 밖 live 문서에 다시 나타날 때
 6. 메인 본선이 `closure sync / watch-reference` 밖 다른 축으로 넘어갈 때
 7. 결손층 메모가 policy lock 바깥의 새 설정 발명처럼 다시 적힐 때
-8. operational profile guard 문장이 named notable 승인 논리로 역수입될 때
+8. operational profile guard 문장이 `People Worth Seeking` 승인 논리로 역수입될 때
 9. `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`가 상위 summary / bridge / watch 문서에서 재정의되거나,
-   representative subline pair closure가 named notable 승인 논리로 역수입될 때
+representative subline pair closure가 `People Worth Seeking` 승인 논리로 역수입될 때
 
 ## Conductor Checklist
 

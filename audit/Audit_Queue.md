@@ -19,11 +19,11 @@
 1. `5대륙 closure sync / Section 8 -> 15 watch-reference`를 메인 본선 reference로 유지
 2. `Section_8_Root_Corruption_First_Pass_A.md`, `Section_8_Root_Subtree_Sampling_Queue.md`, `Section_8_Place_Network_Handoff_Map.md` 기준 `P0 / P2 / carryover`를 drift 없이 유지
 3. `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준으로 summary / bridge / queue / package의 기준 시점을 동기화
-4. `P2 place-network` handoff를 sidecar/register에서만 유지하고 candidate index가 재정의하지 않게 막기
+4. `P2 place-pressure handoff owner`를 sidecar/register에서만 유지하고 candidate index가 재정의하지 않게 막기
 5. `Section_8_Normalization_Status_Compass.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`의 본선 reference 문구를 맞추기
 6. `Section_8_Status_Vocabulary_Guard.md`, `Section_15_State_Vocabulary_Guard.md` 기준으로 status vocabulary drift 제거
 7. `Section_8_Mainline_Sync_Register.md` 기준으로 sync group drift 제거
-8. 카드층 `Policy Guard`가 `Section 15`의 status / index / folder / routing 문서까지 같은 문장으로 흡수됐는지 유지
+8. 카드층 `Policy Guard`의 guard family / carryover direction이 `Section 15`의 status / index / folder / routing 문서까지 같은 해석선으로 유지되는지 확인
 9. operational profile layer의 `3-1. Policy Guard` 형식이 `Profile_Draft_Index / Operational_Lines_Track / Intake_Structure / Folder_Revision_Gate`에서 같은 규칙으로 유지되는지 확인
 10. 상위 summary / bridge / queue 문서가 lower-card authority를 재정의하지 않고,
    operational profile의 `3-1. Policy Guard`를 참조만 하는지 확인
@@ -55,25 +55,26 @@
 2. `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Coverage_Matrix.md`의 summary wording drift 점검
 3. `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`의 carryover wording drift 점검
 4. `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`의 policy carryover drift 점검
-5. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`의 operational profile `3-1. Policy Guard` drift 점검
-6. Ether hold reference split closure와 `source_check_hold / deferred_expansion_hold` separation 유지
-7. `P2 section_style_forced_on_place_network` handoff owner를 sidecar/register로 고정 유지
+5. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`의 operational profile `3-1. Policy Guard` drift 점검은 2026-04-13 KST spot-check 기준 닫힌 상태로 유지한다
+6. Ether hold cluster closure와 `source_check_hold / hold reference split`, `deferred_expansion_hold / hold reference split` separation 유지
+7. `P2 place-pressure handoff owner`를 sidecar/register로 고정 유지하고, `section_style_forced_on_place_network`는 Section 8 risk label로만 둔다
 8. `14. 인물 백과` 루트 구조 감사는 reference backlog로만 유지
 9. 관계 타입 표준과 영웅 정본 스키마 확정은 후순위 유지
-10. 흩어진 아이템 수집 파이프라인 검토는 메인선 뒤로 둔다
-11. summary / bridge 계층이 operational guard 문장을 named notable 승인 논리로 역수입하지 않게 유지
-12. operational middle-layer wording-source sync는 이미 닫힌 reference 상태로 유지하고,
+10. 흩어진 아이템 수집 파이프라인은 duplicate hotspot / ambiguity source-context / 장기 분류 bucket link까지 반영 완료 상태로 유지하고, routing aid를 승격 기준으로 쓰지 않는다
+11. 아이템 duplicate hotspot은 `working/crosswalks/Item_Duplicate_Hotspot_Triage.md`로 side-track 유지하고, 현재 수정 중인 추출표 직접 편집은 보류한다
+12. summary / bridge 계층이 operational guard 문장을 `People Worth Seeking` 승인 논리로 역수입하지 않게 유지
+13. operational middle-layer wording-source sync는 이미 닫힌 reference 상태로 유지하고,
    새 drift가 생길 때만 국소 수정한다
-13. subline draft/profile 교차감사도 이미 닫힌 reference 상태로 유지하고,
+14. subline draft/profile 교차감사도 이미 닫힌 reference 상태로 유지하고,
    새 drift가 생길 때만 국소 수정한다
-14. `subline_profile_authority` sync group이
+15. `subline_profile_authority` sync group이
    status vocabulary / mainline sync / summary / bridge / watch 문서에 같은 문장으로 유지되는지 확인
 
 ## Conditional Backlog
 
 1. 원본 접근이 가능할 때만 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 subtree reference sampling 필요 여부를 판단한다.
 2. `Section 8 -> 15` watch-reference가 충분히 안정된 뒤에만 신규 closure batch 후보 검토 여부를 판단한다.
-3. `P2 place-network` owner 체계는 현재 유지선이며, drift가 생길 때만 국소 수정한다.
+3. `P2 place-pressure handoff owner` 체계는 현재 유지선이며, drift가 생길 때만 국소 수정한다.
 4. `14번` 링크맵, 접점 표, orphan candidate 분리는 live handoff나 새 증거 변화가 생길 때만 다시 올린다.
 5. `범대륙` display canon 교체와 `15번` 후보 재우선순위화는 현재 메인선이 아니라 후순위 backlog로 둔다.
 

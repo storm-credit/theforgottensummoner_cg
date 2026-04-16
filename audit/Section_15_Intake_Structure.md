@@ -109,7 +109,7 @@
 - intake는 card를 어느 축으로 받을지 분류하는 입구일 뿐,
   operational profile의 정확한 guard 문장을 대신 작성하는 문서는 아니다.
 - 따라서 intake 문구는 lower-card authority를 참조만 하고,
-  named notable 승인 논리나 상위 summary로 역수입하지 않는다.
+`People Worth Seeking` 승인 논리나 상위 summary로 역수입하지 않는다.
 - intake는 provisional guard family만 배정하고,
   최종 operational guard wording은 downstream `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에서 작성/유지한다.
 - group draft와 subline draft도 intake 방향을 상속할 뿐,

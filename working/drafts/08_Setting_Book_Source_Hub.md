@@ -38,7 +38,7 @@
 | 0. Canon Policy | canon tier와 source priority를 다시 확인할 때 | `Setting_Book_Chapter_0_Canon_Policy_Draft.md` |
 | 1. Five Continents | 대륙 spine과 safe read 근거를 다시 확인할 때 | `Setting_Book_Chapter_1_Five_Continents_Draft.md` |
 | 2. Faction Archive Structure | root state / structure label / place pressure를 볼 때 | `Setting_Book_Chapter_2_Faction_Archive_Structure_Draft.md` |
-| 3. Named Notables / Operational Lines | 인물층 판단 근거와 14/15 handoff 기준을 확인할 때 | `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md` |
+| 3. People Worth Seeking | 인물층 판단 근거와 14/15 handoff 기준을 확인할 때 | `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md` |
 | 4. Naming Normalization | display name과 collision guard를 볼 때 | `Setting_Book_Chapter_4_Naming_Normalization_Draft.md` |
 | 5. Items and Relics | desire-first item logic를 다시 볼 때 | `Setting_Book_Chapter_5_Item_Desire_Structure_Draft.md` |
 | 6. Species Framework | peoples / bloodlines / states / monsters 구분을 볼 때 | `Setting_Book_Chapter_6_Species_Framework_Draft.md` |
@@ -92,7 +92,7 @@
 - `04_Setting_Book_Places_Hub.md`
 - `07_Setting_Book_Process_Hub.md`
 
-### 3. Named Notables / Operational Lines
+### 3. People Worth Seeking
 
 - `Setting_Book_Chapter_3_Named_Notables_Operational_Lines_Draft.md`
 

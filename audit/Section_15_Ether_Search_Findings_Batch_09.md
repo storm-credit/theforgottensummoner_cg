@@ -30,7 +30,7 @@
 | Target | Evidence | Updated Judgment | Note |
 |---|---|---|---|
 | `루미라 (Lumyra)` | `빛의 숲`, `숲속의 도서관`으로 불리는 정령연합 학술 도시. 고대 정령어 점토판, 최초 정령왕 계약서 사본, 희귀 마법서 수집 신호가 있다. | `place_slot_confirmed` | 정령연합의 언어/전승/도서관 장소-기관 슬롯. |
-| `엘다라 (Eldara)` | 루미라의 `대현자`, 300년을 산 하이엘프, 고대 정령어 권위자이자 의장으로 확인된다. 현재 14 작업본에서 독립 파일명은 직접 확인되지 않았다. | `named_notable_candidate / verify_source_before_profile` | 15 Named Notables 후보 유지. 단, 정령연합 전체 원본 확인 전 Hard Canon으로 고정하지 않는다. |
+| `엘다라 (Eldara)` | 루미라의 `대현자`, 300년을 산 하이엘프, 고대 정령어 권위자이자 의장으로 확인된다. 현재 14 작업본에서 독립 파일명은 직접 확인되지 않았다. | `source_check_hold / hold reference split` | 15 People Worth Seeking 후보 유지. 단, 정령연합 전체 원본 확인 전 Hard Canon으로 고정하지 않는다. |
 | `엘라라 문힘 (Elara Moonhymn)` | 루미라/실바나리스의 기록관, 달의 찬가, 걸어다니는 도서관, A급/Act 신호와 전설적 마도 영웅록 신호가 함께 보인다. | `verify_before_15` 유지 | 기록자 명사 가치가 매우 크지만, 영웅표 신호 때문에 바로 15 확정 금지. |
 | `드라이덴 썬더루트 (Dryden Thunderroot)` | 엘더 루트의 뿌리의 수호자, 생명의 의회 의장, 정령연합 Top 3 대드루이드/S급/Act 신호가 있다. | `verify_before_15 / likely_keep_14` | 자연법 해석 명사 가치가 있지만 핵심 영웅/멘토 신호가 강하다. |
 | `메라 라일윈드 (Mera Lylewind)` | 정령연합 외교 사절단, 희귀 재료 교역 조건 관리, 실바나리스/루미라 외교관으로 반복 확인된다. | `verify_before_15 / name_drift` 유지 | 기존 14 작업본의 `메라 실피드`와 병합하지 않는다. |
@@ -52,14 +52,14 @@
 전자는 정령연합/그늘까마귀단/잠든 정령의 숲 축이고,
 후자는 성국/옵시디안/감옥 관리자 축이다.
 
-`엘다라`는 현재 가장 안정적인 에테르 정령연합 15 Named Notables 후보지만,
+`엘다라`는 현재 가장 안정적인 에테르 정령연합 15 People Worth Seeking 후보지만,
 정령연합 전체 14 파일 확인 전에는 `Hard Canon`으로 고정하지 않는다.
 
 ## Conductor Reading
 
 이 검색 기록에서는 새 15 확정자가 대량으로 확인되지 않았다.
 
-- `엘다라`는 15 Named Notables 후보 유지.
+- `엘다라`는 15 People Worth Seeking 후보 유지.
 - `실바리온 엘도라`는 `keep_14`.
 - `엘라라 문힘`, `드라이덴 썬더루트`, `메라 라일윈드`, `실라스 나이트쉐이드`는 `verify_before_15`.
 - `정령서약 해석자`, `정령묘 이름새김꾼`은 개인명 없는 `need_named_candidate` 슬롯으로 유지.

@@ -5,7 +5,7 @@
 
 주의:
 
-- 이 색인은 `15 Named Notables`를 다루지 않는다.
+- 이 색인은 `15 People Worth Seeking`을 다루지 않는다.
 - 유명 NPC형 명사와 세계관 명사형 영웅은
   `Section_15_Named_Notables_Register.md`에서 따로 본다.
 - 이 색인의 기본 state label은 `operational_line`이다.
@@ -226,7 +226,7 @@ reference상 아직 바로 `15 stable set`으로 내리기보다
 ## Policy Group Intake Guard
 
 - 이 index를 거치는 operational group은
-  `Named Notables`와 달리 기능축/작동축 회수가 우선이다.
+  `People Worth Seeking`과 달리 기능축/작동축 회수가 우선이다.
 - 따라서 자유도시 그룹은 `urban_market / shadow_port / debt-enforcement`,
   오벨리스크형 제도 그룹은 `nontraditional elite thin-support / dark institution`
   범위에서만 intake한다.
@@ -237,7 +237,7 @@ reference상 아직 바로 `15 stable set`으로 내리기보다
   group index는 family intake만 배정할 뿐,
   exact wording source는 각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
 - representative closed subline pair는
-  named notable 승인 논리나 group 고정 근거가 아니라
+`People Worth Seeking` 승인 논리나 group 고정 근거가 아니라
   operational sample reference로만 유지한다.
 
 ## Deferred Group Snapshot

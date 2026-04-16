@@ -27,7 +27,7 @@
 |---|---|---|---|
 | `금서 도서관` | `phase3_section8_ether_arcane_society`의 시설 문서에서 위험한 마법서 보관, 금지된 지식 봉인, 금서 관리국, 사서단, 사일런스가 확인된다. | `place_slot_confirmed` | 장소 기능은 강하지만 별도 개인명은 아직 없음. |
 | `마법 서고단` | `Keepers of the Arcane Library` 문서에서 마법 지식 보존, 금서 관리, 법률 집행, 행정 지원 조직으로 확인된다. | `institution_slot_confirmed` | 600명 규모의 사서/행정관 조직. |
-| `대런 크레센트` | 마법 서고단의 관장, 청색의 부탑주, 행정총무부장, A+ 등급, Act 1~3 신호로 반복 확인된다. | `verify_before_15` 유지 | 15 Named Notables 가치가 있으나 14 보조 영웅/핵심 운영자 신호가 너무 강하다. |
+| `대런 크레센트` | 마법 서고단의 관장, 청색의 부탑주, 행정총무부장, A+ 등급, Act 1~3 신호로 반복 확인된다. | `verify_before_15` 유지 | 15 People Worth Seeking 가치가 있으나 14 보조 영웅/핵심 운영자 신호가 너무 강하다. |
 | `봉인서고지기 / 금서 검인관` | 별도 개인명은 확인되지 않는다. | `need_named_candidate` 유지 | 대런과 분리되는 사서장/검인관 이름은 작업본 기준 안 보인다. |
 
 ## Conductor Reading

@@ -1,6 +1,6 @@
 # Section 15 Frost Place / Institution Sidecar
 
-이 문서는 프로스트 대륙의 `15 Named Notables` 역할 슬롯을
+이 문서는 프로스트 대륙의 `15 People Worth Seeking` 역할 슬롯을
 장소와 기관 기능으로 먼저 묶기 위한 사이드카다.
 
 원칙:
@@ -59,7 +59,7 @@
 지도 용도:
 
 - 프로스트의 공방/병기/방어선 기능을 연다.
-- `수석 기술자`, `드워프 장인`, `아이스포지 병기소 장인`을 나중 Named Notables 후보로 회수할 수 있게 한다.
+- `수석 기술자`, `드워프 장인`, `아이스포지 병기소 장인`을 나중 People Worth Seeking 후보로 회수할 수 있게 한다.
 
 필요 콜아웃:
 

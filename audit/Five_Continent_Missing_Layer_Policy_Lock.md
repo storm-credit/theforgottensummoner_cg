@@ -115,7 +115,7 @@
 
 프로스트 자료에서 귀족/상층 신호가 보여도
 우선 `클랜 상층`으로 읽고,
-정착 거점 운영의 독립 상층일 때만 `state_house thin-support`를 허용한다.
+정착 거점 운영의 독립 상층일 때만 `settled stronghold support layer only`로 보존한다.
 
 ## 4. Oceanic Indigenous Community Policy
 

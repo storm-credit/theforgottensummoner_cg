@@ -1,6 +1,6 @@
 # Section 15 Crimson Profile Format Test
 
-이 문서는 기존 `15 Named Notables` 개별 시트가
+이 문서는 기존 `15 People Worth Seeking` 개별 시트가
 새로 고정한 폴더링 원칙과 맞는지 확인한 결과다.
 
 검토 대상:
@@ -32,7 +32,7 @@
 
 ## Template Adjustment
 
-다음부터 `15 Named Notables` 시트는 아래 블록을 맨 위쪽에 넣는 것이 좋다.
+다음부터 `15 People Worth Seeking` 시트는 아래 블록을 맨 위쪽에 넣는 것이 좋다.
 
 ```md
 ## Archive Routing

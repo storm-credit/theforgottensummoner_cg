@@ -7,7 +7,7 @@
 
 - `왜 이 항목이 바뀌었는가`를 나중에도 복원할 수 있게 한다.
 - `hold -> verify_before_15 -> named_notable_candidate` 같은 이동을 잃지 않는다.
-- Named Notables, Operational Lines, Place Register 사이의 변화 흔적을 남긴다.
+- People Worth Seeking, Operational Lines, Place Register 사이의 변화 흔적을 남긴다.
 
 ## Rule
 

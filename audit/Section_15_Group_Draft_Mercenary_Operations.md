@@ -104,5 +104,5 @@
 이 묶음은
 자유도시의 용병 사회가 `싸움`보다 `계약`으로 굴러간다는 감각을 살리는 데 유용하다.
 
-다만 named notable 승인 논리와는 분리하고,
+다만 `People Worth Seeking` 승인 논리와는 분리하고,
 operational lower-card carryover reference로만 유지한다.

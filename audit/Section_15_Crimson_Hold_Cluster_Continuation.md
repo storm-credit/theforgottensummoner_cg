@@ -30,7 +30,7 @@ freeze 밖 크림슨 hold cluster 4명을 다시 묶는 continuation 시트다.
 이 네 명은 모두 `15 명사형 인물 가치`가 있다.
 
 하지만 이 단계에서는
-`Named Notables로 올릴 이유`보다
+`People Worth Seeking으로 올릴 이유`보다
 `14 중심 영웅 / 핵심 전략 인물로 남을 가능성`이 더 강하다.
 
 그래서 stable triad package와는 아래처럼 분리한다.

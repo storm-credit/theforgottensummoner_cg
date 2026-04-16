@@ -9,7 +9,7 @@
 먼저 `도시 기능에 박힌 유명 NPC 슬롯`이 강하게 보인다.
 
 따라서 새 이름을 만들지 않고,
-도시별로 어떤 슬롯이 `15 Named Notables` 후보가 될 수 있는지 분리한다.
+도시별로 어떤 슬롯이 `15 People Worth Seeking` 후보가 될 수 있는지 분리한다.
 
 ## Crosswind Port Slots
 
@@ -53,7 +53,7 @@
 
 ## Conductor Decision
 
-해양 15 Named Notables는
+해양 15 People Worth Seeking은
 기존 named candidate를 바로 확정하기보다
 아래 두 도시 슬롯을 먼저 보존한다.
 

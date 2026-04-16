@@ -67,7 +67,7 @@
 아래 중 둘 이상이 걸리면 오케스트라 분할을 우선한다.
 
 - `대륙 spine`과 `엔진 장부`를 같이 건드린다.
-- `Named Notables`, `Operational Lines`, `Place Register`가 같이 엮인다.
+- `People Worth Seeking`, `Operational Lines`, `Place Register`가 같이 엮인다.
 - 상태 라벨 변경과 이름 톤 조정이 동시에 필요하다.
 - 다음 작업선까지 바로 정해야 한다.
 

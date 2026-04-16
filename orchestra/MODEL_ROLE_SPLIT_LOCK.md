@@ -106,7 +106,7 @@ Codex 오케스트라가 특히 강점을 갖는 저장소 유형에 가깝다.
 - branch/commit/push까지 같은 흐름으로 이어지는 경우가 많다
 
 즉,
-`14/15`, `Named Notables`, `slot`, `handoff`, `species side-track`처럼
+`14/15`, `People Worth Seeking`, `slot`, `handoff`, `species side-track`처럼
 여러 장부와 구조 문서를 함께 잠그는 작업은 Codex가 메인인 편이 맞다.
 
 ## Where ChatGPT Adds More Value

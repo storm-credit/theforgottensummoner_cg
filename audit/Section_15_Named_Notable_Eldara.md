@@ -7,7 +7,7 @@
 - source anchor:
   - `정령연합`
   - `루미라`
-- state label: `named_notable_candidate / verify_source_before_profile`
+- state label: `source_check_hold / hold reference split`
 
 ## Notable Function
 
@@ -51,8 +51,8 @@
 
 ## Conductor Note
 
-현재는 15 Named Notables 후보로 등록하되,
-`named_notable_candidate / verify_source_before_profile` 상태를 유지한다.
+현재는 15 People Worth Seeking 후보로 등록하되,
+`source_check_hold / hold reference split` 상태를 유지한다.
 
 더 많은 정령연합 문서가 import되면
 소속 도시와 세력 앵커를 보강한다.

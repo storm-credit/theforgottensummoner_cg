@@ -32,7 +32,7 @@
 
 - 새 정보가 들어오면 어디에 꽂힐지 정한다.
   - `14 Hero Archive`
-  - `15 Named Notables`
+  - `15 People Worth Seeking`
   - `15 Operational Lines`
   - `8 Faction Archive`
   - `hold`

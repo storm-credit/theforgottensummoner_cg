@@ -48,7 +48,7 @@
 
 ### E. Section 15 / Boundary Core
 
-- `Named Notables Curator`
+- `People Worth Seeking Curator`
 - `Boundary Hold Scout`
 - `Place-Institution Slot Scout`
 - `Collision Auditor`
@@ -86,12 +86,12 @@
 - `Guild and Economy Auditor`
 - `Plausibility Judge`
 
-### 2. 14/15 경계, Named Notables, hold cluster
+### 2. 14/15 경계, People Worth Seeking, hold cluster
 
 반드시 먼저 확인:
 
 - `Canon Architect`
-- `Named Notables Curator`
+- `People Worth Seeking Curator`
 - `Boundary Hold Scout`
 - `Hero Curator`
 - `Index Auditor`
@@ -130,6 +130,32 @@
 - `Scene Pressure Auditor`
 - `Story-to-Lore Handoff Auditor`
 - `Hook Keeper`
+
+### 6. `closure sync / Section 8 -> 15 watch-reference` 유지 배치
+
+반드시 먼저 확인:
+
+- `Canon Architect`
+- `Engine Router`
+- `Hook Keeper`
+- `Report Clerk`
+- `Faction Cartographer`
+- `Hero Curator`
+- `People Worth Seeking Curator`
+- `Boundary Hold Scout`
+- `Index Auditor`
+
+필요 시 추가:
+
+- `Place-Function Auditor`
+- `Place-Institution Slot Scout`
+- `Collision Auditor`
+- `Plausibility Judge`
+
+주의:
+
+- 이 배치는 새 후보 확장보다 `structure label / mismatch / P2 handoff owner / wording consistency` 유지가 우선이다.
+- `Hero Curator`는 새 `14` 증거를 열지 않더라도 `keep_14` 경계 감시 때문에 기본 묶음에 남긴다.
 
 ## Conductor Lock
 

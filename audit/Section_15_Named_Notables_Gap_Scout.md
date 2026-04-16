@@ -12,7 +12,7 @@ recorded 기준:
 
 - `크림슨`은 후보가 이미 많다.
 - `에테르`는 정령연합 쪽 후보가 1차로 보인다.
-- `프로스트`, `해양`, `오벨리스크`는 아직 Named Notables가 얇다.
+- `프로스트`, `해양`, `오벨리스크`는 아직 People Worth Seeking이 얇다.
 
 ## Frost Scout Snapshot
 

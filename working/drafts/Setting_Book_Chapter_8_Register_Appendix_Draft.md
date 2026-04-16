@@ -90,7 +90,7 @@ Important labels for current setting-book use:
 - `open_question`
 - `stable_15_workset`
 - `source_check_hold`
-- `deferred_expansion_hold`
+- `deferred_expansion_hold / hold reference split`
 - `hold_for_dual_review`
 
 The appendix should preserve these labels exactly. Body chapters can translate them into natural language.
@@ -102,14 +102,14 @@ The boundary appendix is essential because it protects the difference between ce
 Body chapter rule:
 
 - `14` remains the narrative-centered hero axis.
-- `15 Named Notables` collects notable figures people seek out inside the world.
+- `15 People Worth Seeking` collects notable figures people seek out inside the world.
 - `15 Operational Lines` collects practical systems and working layers of organizations.
 
 Appendix rule:
 
 - Keep boundary candidates in queue until the 14 signal is checked.
 - Do not demote a hero into 15 just because the person has a profession.
-- Do not promote an operational function into a named notable just because a role sounds important.
+- Do not promote an operational function into `People Worth Seeking` just because a role sounds important.
 - Do not merge name-collision candidates without source proof.
 
 The boundary appendix should include candidate tables by review tier, not long biography prose.
@@ -215,4 +215,3 @@ This chapter locks appendix handling for the current setting-book recomposition 
 - Boundary candidates stay queued until verification.
 - Rumors, secrets, and reveal timing must not be flattened into objective body text.
 - Manifests check coverage but do not create canon.
-

@@ -28,7 +28,7 @@
 |---|---|---|---|---|---|
 | `에테르` | `변방 부족층` | 국경 자치 공동체, 숲 경계 계약 실무층, 도시 질서 밖 감시/생존 공동체 | `frontier echo / border support` | 숲/정령/샤먼 어휘만으로 대륙 공통 부족층 승격 | `tribe_clan thin-support outside Spirit Union core` |
 | `크림슨` | `국가형 가문층` | 용혈 상속 기능, 거점 운영 상층, 씨족장과 분리된 반복 상층 가계 | `state_house thin` | 명예/혈통/부족장 권위 자체를 국가형 가문층으로 읽기 | `state_house thin-support separated from tribe_clan core` |
-| `프로스트` | `정주 귀족층` | 요새/보급 거점 운영층, 병기소/저장고 세대 관리층, 장기 배급 관리자 가계 | `state_house thin-support` | 클랜 장로/부족장 가문 일반을 정주 귀족층으로 승격 | `settled stronghold support layer only` |
+| `프로스트` | `정주 귀족층` | 요새/보급 거점 운영층, 병기소/저장고 세대 관리층, 장기 배급 관리자 가계 | `settled stronghold support layer only` | 클랜 장로/부족장 가문 일반을 정주 귀족층으로 승격 | `settled stronghold support layer only` |
 | `해양` | `토착 공동체층` | 연안 생활 공동체, 성지 주변 생활 단위, 항로를 몸으로 기억하는 현지층 | `support range` | 해적 가문, 선장 혈연, 교단 권위 자체를 토착 공동체층으로 읽기 | `local support outside fleet/church/port core` |
 | `오벨리스크` | `비정통 엘리트` | 기억/기록 상층, 망명 실권층, 봉인 유지 책임층, 빚/통행/보급 계약 엘리트 | `nontraditional elite thin-support` | 왕국/가문/통치자 호칭 하나만으로 전통 귀족국가 복원 | `state_house signal rerouted to nontraditional elite first` |
 
@@ -86,7 +86,8 @@
 
 ### Safe Record
 
-- 현재는 `tribe_clan enough + state_house thin-support`
+- core spine은 `tribe_clan enough`로 별도 유지하고,
+  이 missing-layer safe record는 `settled stronghold support layer only`로만 둔다.
 - 정주 거점 운영 증거가 반복되지 않으면 `클랜 상층`으로만 남긴다.
 
 ## 4. Oceanic Indigenous Intake

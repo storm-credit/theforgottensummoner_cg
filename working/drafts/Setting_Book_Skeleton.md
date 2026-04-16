@@ -5,6 +5,8 @@
 
 아직 완성 원고가 아니라,
 각 장에서 어떤 내용을 어떤 순서로 채울지 잠그는 작업용 뼈대다.
+최종 public Part naming authority는 `Setting_Book_Reader_Facing_TOC_Draft.md`에 두고,
+이 skeleton은 chapter fill order와 content routing만 잠근다.
 
 ## Global Rules
 
@@ -94,11 +96,11 @@ Guard:
 - `Section 8` 구조 라벨을 `Section 15` 인물 상태 라벨처럼 쓰지 않는다.
 - place pressure는 sidecar/register owner를 따른다.
 
-## 3. Named Notables / Operational Lines
+## 3. People Worth Seeking
 
 작성 목표:
 
-- `14` 영웅 백과와 `15` Named Notables / Operational Lines를 분리한다.
+- `14` 영웅 백과와 `15` People Worth Seeking / operational lines handoff를 분리한다.
 - 이름 있는 명사형 인물과 조직 작동층을 설정집에서 어떤 표로 보여줄지 정한다.
 
 Primary source:
@@ -116,7 +118,7 @@ Required sections:
 
 1. `stable_15_workset`.
 2. `source_check_hold / hold reference split`.
-3. `deferred_expansion_hold`.
+3. `deferred_expansion_hold / hold reference split`.
 4. 14/15 boundary review.
 5. operational profile lower-card authority.
 
@@ -233,7 +235,7 @@ Primary source:
 1. `0. 운영 원칙 / Canon Policy` 본문 1차 작성.
 2. `1. 5대륙 개요` 본문 1차 작성.
 3. `2. 세력 아카이브 구조` 본문 1차 작성.
-4. `3. Named Notables / Operational Lines` 본문 1차 작성.
+4. `3. People Worth Seeking` 본문 1차 작성.
 5. `4~8`은 위 네 장의 terminology가 안정된 뒤 채운다.
 
 ## Conductor Decision

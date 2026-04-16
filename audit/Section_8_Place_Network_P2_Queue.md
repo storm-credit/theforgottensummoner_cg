@@ -1,8 +1,8 @@
-# Section 8 Place Network P2 Queue
+# Section 8 Place-Pressure P2 Queue
 
 이 문서는 `Section_8_Spine_Mismatch_Queue.md`의
 `section_style_forced_on_place_network` 위험을
-구조 라벨과 분리해서 관리하기 위한 `P2` 큐다.
+구조 라벨과 분리해서 관리하기 위한 `P2 place-pressure` 큐다.
 
 핵심 원칙은 단순하다.
 

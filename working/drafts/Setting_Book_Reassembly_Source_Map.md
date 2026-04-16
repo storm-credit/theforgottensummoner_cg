@@ -9,6 +9,8 @@
 현재 기준에서 이 문서는 `직접 공유 원고`가 아니라
 장별 재조립을 다시 열 때 참조하는 source discipline map으로 둔다.
 안정 공유본은 계속 `Setting_Book_Preview_Readable_v0.md`다.
+최종 public Part naming authority는 `Setting_Book_Reader_Facing_TOC_Draft.md`에 둔다.
+이 문서는 장별 source routing만 잠그며, public TOC title을 직접 바꾸지 않는다.
 
 ## Source Priority
 
@@ -29,9 +31,9 @@
 | Setting Book Chapter | Primary Sources | Secondary Sources | Reassembly Rule |
 |---|---|---|---|
 | `0. 운영 원칙 / Canon Policy` | `workflow/00_Astralis_Vision.md`, `workflow/01_Canon_Policy.md`, `workflow/11_FS_Engine.md`, `workflow/15_FS_Lore_Engine.md`, `workflow/16_FS_Story_Engine.md` | `audit/FS_Source_Priority_Register.md`, `audit/FS_Canon_Tier_Register.md`, `audit/FS_State_Label_Register.md` | 세계관 판단 순서와 canon tier를 먼저 제시한다. |
-| `1. 5대륙 개요` | `working/drafts/Continents_Framework.md`, `working/drafts/Five_Continent_Synthesis.md` | `working/drafts/Continental_Adequacy_Map.md`, `audit/Five_Continent_Missing_Layer_Master_Lock.md` | 대륙별 정체성, 인간 군상, 결손층을 같은 구조로 재배열한다. |
+| `1. 5대륙 개요` | `working/drafts/Continents_Framework.md`, `working/drafts/Five_Continent_Synthesis.md` | `working/drafts/Continental_Adequacy_Map.md`, `audit/Five_Continent_Missing_Layer_Master_Lock.md` | 대륙별 정체성과 인간 군상은 synthesis/framework로 재배열하되, 결손층 thin/support 판단은 `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry authority로 따른다. |
 | `2. 세력 아카이브 구조` | `audit/Section_8_Mainline_Sync_Register.md`, `audit/Section_8_Normalization_Status_Compass.md`, `audit/Section_8_Status_Vocabulary_Guard.md` | `working/crosswalks/Section_8_vs_14_Decision_Guide.md`, `working/crosswalks/Section_14_to_8_Faction_Link_Map.md` | `Section 8`은 구조 라벨과 place pressure를 섞지 않는다. |
-| `3. Named Notables / Operational Lines` | `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Register.md`, `audit/Section_15_State_Vocabulary_Guard.md` | `audit/Section_15_Folder_Draft_Routing_Plan.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md` | `14` 영웅축과 `15` 명사/운영층을 분리한다. |
+| `3. People Worth Seeking` | `audit/Section_15_Named_Notables_Status_Compass.md`, `audit/Section_15_Named_Notables_Register.md`, `audit/Section_15_State_Vocabulary_Guard.md` | `audit/Section_15_Folder_Draft_Routing_Plan.md`, `audit/Section_15_Named_Notables_Coverage_Matrix.md` | `14` 영웅축과 `15` People Worth Seeking / operational lines handoff를 분리한다. |
 | `4. 이름 / 명칭 정규화` | `workflow/05_Naming_Normalization_Map.md`, `workflow/12_Naming_Tone_Guide.md`, `working/crosswalks/Name_Normalization_Draft.md`, `working/crosswalks/Faction_Naming_Replacement_Register.md` | `audit/Section_15_Named_Notables_Name_Collision_Register.md` | 표면명, 작업명, legacy name을 같은 칸에 섞지 않는다. |
 | `5. 아이템 / 유물 / 욕망 구조` | `workflow/07_Item_Canon_Schema.md`, `workflow/08_Item_Desire_Design.md`, `working/crosswalks/Item_Candidate_Register.md`, `working/crosswalks/Item_Longterm_Taxonomy.md` | `working/drafts/Item_Collection_Findings.md`, `working/crosswalks/Item_Name_Collision_Register.md` | item은 후보표에서 evidence와 desire function이 안정된 뒤에만 백과 항목으로 올린다. |
 | `6. 종족 / 영물 / species framework` | `working/crosswalks/Race_Species_Term_Crosswalk.md`, `working/drafts/Race_Species_Evidence_Log.md`, `audit/Species_Framework_Risk_Register.md` | `workflow/15_FS_Lore_Engine.md` | 종족명은 tone, canon tier, overread risk를 함께 표시한다. |
@@ -42,7 +44,7 @@
 
 - `Section 8 -> 15` 본선은 `mainline reference carryover` 상태로 유지한다.
 - `stable_15_workset`은 닫힌 reference set으로만 사용한다.
-- `source_check_hold`와 `deferred_expansion_hold`는 hold reference split 안에서만 읽는다.
+- `source_check_hold / hold reference split`와 `deferred_expansion_hold / hold reference split`는 hold reference split 안에서만 읽는다.
 - `working/imports`는 원본 snapshot이므로 직접 고치지 않는다.
 - `working/crosswalks/Extracted_Item_Candidates.md`는 현재 별도 작업 중인 파일로 보고, 이 소스맵에서는 참조만 한다.
 

@@ -1,6 +1,6 @@
 # Section 15 Obelisk Place / Institution Sidecar
 
-이 문서는 오벨리스크의 `15 Named Notables` 경계 후보를
+이 문서는 오벨리스크의 `15 People Worth Seeking` 경계 후보를
 장소와 기관 기능으로 먼저 묶기 위한 사이드카다.
 
 원칙:

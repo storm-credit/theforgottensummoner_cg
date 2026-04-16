@@ -1,6 +1,6 @@
 # Section 15 State Vocabulary Guard
 
-이 문서는 `15 Named Notables` 본선에서
+이 문서는 `15 People Worth Seeking` 본선에서
 상태어 drift를 막기 위한 canonical 상태어 장부다.
 
 목적은 단순하다.
@@ -92,7 +92,7 @@
    고정 선언이 아니라 금지/경계 문맥에서만 다시 등장할 수 있다.
 5. operational profile card는
    `Section_15_Profile_Template.md`의 `3-1. Policy Guard` heading 형식을 유지하고,
-   named notable card의 `Policy Guard / Separation Guard`와 형식층을 섞지 않는다.
+   People Worth Seeking 카드의 `Policy Guard / Separation Guard`와 형식층을 섞지 않는다.
 6. template, track, index, display, intake 문서는
    guard family를 요약할 수는 있어도 exact guard wording authority를 가져가지 않는다.
 7. exact guard wording authority는
@@ -105,7 +105,7 @@
    각 카드층의 형식을 잠그는 설계 기준서이지, exact wording source 자체는 아니다.
 10. 상위 template/index/folder 문서는 operational guard text를
    canonical summary 문장으로 압축해 lower card를 덮어쓰지 않는다.
-11. named-notable template guard text와 operational profile `3-1. Policy Guard`는
+11. People Worth Seeking template guard text와 operational profile `3-1. Policy Guard`는
    parallel but non-substitutable layer로 유지한다.
 12. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
     닫힌 subline 교차감사 샘플로 유지하고,

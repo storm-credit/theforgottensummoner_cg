@@ -70,7 +70,7 @@
 | 철의 금융 연맹 계열 | 채권 장부와 압류권 | `institutional_asset` | `display_canon_candidate` |
 | 키르케 영약회 | 영약 제조법과 실험지 | `knowledge_asset` | `active_working` |
 | 네크로 우물 연락망 | 죽은 자의 잔향 정보 | `secret` | `soft_canon` |
-| 15 Named Notables | 저술서, 감정법, 공방 계보 | `knowledge_asset` | `named_notable_candidate` |
+| 15 People Worth Seeking | 저술서, 감정법, 공방 계보 | `knowledge_asset` | `named_notable_candidate` |
 | 자유도시 항만층 | 입항 허가와 밀수 통로 | `institutional_asset` | `operational_line` |
 | 파브리스 가문 | 전비 어음과 관세율 | `institutional_asset` | `verify_before_15_context` |
 | `FS-HANDOFF-SEED-001` | 전설 무구 후보가 필요해지는 압력 | `material_asset` | `handoff_test / no_canon_name` |

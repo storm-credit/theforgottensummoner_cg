@@ -14,10 +14,10 @@
 
 | FS ID | Seed Type | Seeded In | Planned Payoff | Status | Owner Axis | Note |
 |---|---|---|---|---|---|---|
-| `FS-FP-001` | `person` | `Section_15_Named_Notable_Erion_Dracovis.md` | `고대어/금서 해독 장면` | `seeded` | `15 Named Notables` | 해석자형 명사 복선 |
-| `FS-FP-002` | `person` | `Section_15_Named_Notable_Wolfgar_Dragonforge.md` | `전설 무구 제련 / 수복 장면` | `seeded` | `15 Named Notables` | 장인형 명사 복선 |
-| `FS-FP-003` | `person` | `Section_15_Named_Notable_Oghma.md` | `지워진 역사 / 고룡 조언 장면` | `seeded` | `15 Named Notables` | 전승 원천 복선 |
-| `FS-FP-004` | `person` | `Section_15_Named_Notable_Sylvia.md` | `독성/임상 장부 해석 장면` | `seeded` | `15 Named Notables` | 기록자형 연금술 복선 |
+| `FS-FP-001` | `person` | `Section_15_Named_Notable_Erion_Dracovis.md` | `고대어/금서 해독 장면` | `seeded` | `15 People Worth Seeking` | 해석자형 명사 복선 |
+| `FS-FP-002` | `person` | `Section_15_Named_Notable_Wolfgar_Dragonforge.md` | `전설 무구 제련 / 수복 장면` | `seeded` | `15 People Worth Seeking` | 장인형 명사 복선 |
+| `FS-FP-003` | `person` | `Section_15_Named_Notable_Oghma.md` | `지워진 역사 / 고룡 조언 장면` | `seeded` | `15 People Worth Seeking` | 전승 원천 복선 |
+| `FS-FP-004` | `person` | `Section_15_Named_Notable_Sylvia.md` | `독성/임상 장부 해석 장면` | `hold_reference` | `deferred_expansion_hold / hold reference split` | 기록자형 연금술 복선은 범대륙 후기 확장축 안에서만 유지 |
 | `FS-FP-005` | `line` | `Section_15_Subline_Profile_Black_Auction_Appraiser_Line.md` | `진품/가품 아이템 갈등 회수` | `seeded` | `15 Operational Lines` | 아이템 축 연결 |
 | `FS-FP-006` | `line` | `Section_15_Subline_Profile_Signet_Forger_Line.md` | `허가문 위조 / 잠입 회수` | `seeded` | `15 Operational Lines` | 문서 위조 축 |
 | `FS-FP-007` | `line` | `Section_15_Subline_Profile_Grave_Inscription_Decoder_Line.md` | `죽은 메시지 해독 회수` | `seeded` | `15 Operational Lines` | 침묵의 상회 축 |

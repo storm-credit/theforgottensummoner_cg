@@ -26,7 +26,7 @@
 
 ## Internal Read
 
-- arcane 탑주 3인은 모두 `Named Notable 가치`보다 `S급 탑주 / Act / 기관 코어` 압력이 먼저다.
+- arcane 탑주 3인은 모두 `People Worth Seeking 가치`보다 `S급 탑주 / Act / 기관 코어` 압력이 먼저다.
 - saint-haven 축의 `요한`은 탑주형은 아니지만 `local-command + holy-barrier core` 압력 때문에 같은 hold 층에 둔다.
 - 14 crossover 압력은 `엘드린 > 네리사 > 다미엔 > 요한`으로 읽는다.
 

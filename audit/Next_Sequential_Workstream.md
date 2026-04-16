@@ -21,10 +21,10 @@ reference 순서표로 보여주는 진행표다.
 1. `Section 8`의 `canonical_root / quarantine_root / legacy_root`는 고정 상태다.
 2. `Section 8`의 `section_style / mixed_keep / section_style_reclassify`는 고정 상태다.
 3. `Section_8_Spine_Mismatch_Queue.md`는 `P1 locked snapshot`과 `P0 / P2 watch queue`를 분리한 상태로 유지한다.
-4. stable triad package는 닫힌 상태로 유지하고, `source_check_hold`, `deferred_expansion_hold`, Ether hold cluster는 triad package 밖에서만 유지한다.
+4. stable triad package는 닫힌 상태로 유지하고, `source_check_hold / hold reference split`, `deferred_expansion_hold / hold reference split`, Ether hold cluster는 triad package 밖에서만 유지한다.
 5. `P2 place-pressure handoff` owner는 candidate index가 아니라 sidecar/register에서만 유지한다.
-6. 카드층 `Policy Guard`는 `Section 15` summary/index/folder/routing 문서에 이미 흡수된 상태로 유지한다.
-7. named notable 카드와 operational profile 카드의 lower-card authority는 분리 유지한다.
+6. 카드층 `Policy Guard`는 `Section 15` summary/index/folder/routing 문서에 family-level carryover만 반영된 상태로 유지한다.
+7. `People Worth Seeking` 카드와 operational profile 카드의 lower-card authority는 분리 유지한다.
 8. operational middle-layer wording-source sync는 닫힌 상태로 유지하고,
    대표 subline draft/profile 교차감사도 닫힌 상태로 유지한다.
 

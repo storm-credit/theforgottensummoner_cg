@@ -108,7 +108,7 @@
 - `audit/Section_15_Intake_Cards_Tier1.md`
 - `workflow/13_Section_15_Split_Policy.md`
 
-## Section 15 Named Notables
+## Section 15 People Worth Seeking
 
 - `audit/Section_15_Named_Notables_Track.md`
 - `audit/Section_15_Named_Notables_Register.md`
@@ -176,7 +176,7 @@
 - `audit/Section_15_Named_Notable_Oghma.md`
 - `audit/Section_15_Crimson_Profile_Format_Test.md`
 - `audit/Section_15_Crimson_Place_Sidecar.md`
-- `audit/Section_15_Named_Notable_Sylvia.md`
+- `audit/Section_15_Named_Notable_Sylvia.md` - deferred hold-split / name-collision reference only; not active promotion
 - `audit/Section_15_Named_Notable_Draxar_Blazeforge.md`
 - `audit/Section_15_Named_Notable_Bellana_Stormbringer.md`
 - `audit/Section_15_Named_Notable_Arian_Blazeheart.md`
@@ -242,12 +242,19 @@
 
 ## Continent Spine
 
+- `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 - `working/drafts/Five_Continent_Synthesis.md`
 - `audit/Section_8_Standard_Spine.md`
 - `audit/Section_8_Next_Audit_Targets.md`
 - `audit/Section_8_Crimson_Notable_Anchor_Audit.md`
 - `audit/Section_8_Frost_Notable_Anchor_Audit.md`
 - `working/drafts/Continental_Adequacy_Map.md`
+
+Note:
+
+- 결손층 5개 thin/support 판정은 `Five_Continent_Missing_Layer_Master_Lock.md`를 우선한다.
+- `Five_Continent_Synthesis.md`와 `Continental_Adequacy_Map.md`는 source/index reference로 읽고,
+  master lock 바깥의 active authority로 승격하지 않는다.
 
 ## Spatial
 

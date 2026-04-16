@@ -18,9 +18,9 @@
 
 ---
 
-## Opening / Part I Canon Source Note
+## Part VIII. Appendix and Production Notes: Opening / Part I. Canon Source Note
 
-Opening과 Part I. Ether Continent는 별도의 새 부록으로 분리하지 않는다.
+Opening과 Part I. The Five Continents는 별도의 새 부록으로 분리하지 않는다.
 
 이 두 구간은 이미 아래 source lane으로 충분히 받쳐진다.
 
@@ -35,9 +35,9 @@ Opening과 Part I. Ether Continent는 별도의 새 부록으로 분리하지 �
 1. Opening은 세계의 크기보다 인간 서사와 선택을 우선한다.
 2. Ether는 중심 문명 대륙으로 읽되, 대륙 전체를 하나의 단일 질서로 과잉 확정하지 않는다.
 3. Spirit Union, 숲 경계, 수인/정령 신호는 Appendix E의 species guard와 함께 확인한다.
-4. 왕국, 성국, 자유도시, 마법협회, 정령연합의 긴장은 Part I 본문에서는 감각으로 보여주고, 구조 확정은 Chapter 1과 Appendix A/C/E로 되돌려 확인한다.
+4. 왕국, 성국, 자유도시, 마법협회, 정령연합의 긴장은 Part I. 본문에서는 감각으로 보여주고, 구조 확정은 Chapter 1과 Appendix A/C/E로 되돌려 확인한다.
 
-따라서 v1 전까지는 Opening / Part I 전용 Appendix F를 만들지 않는다.
+따라서 v1 전까지는 Opening / Part I. 전용 Appendix F를 만들지 않는다.
 필요한 경우 이 note 아래에 source pointer만 덧붙인다.
 
 ---
@@ -49,13 +49,13 @@ Opening과 Part I. Ether Continent는 별도의 새 부록으로 분리하지 �
 
 Supports:
 
-- Part I. Ether Continent
+- Part I. The Five Continents
 - Part III. People Worth Seeking
 
 핵심 원칙:
 
 - `14`는 서사 중심 영웅축으로 남긴다.
-- `15 Named Notables`는 세계 안에서 찾아갈 이유가 있는 인물층으로 다룬다.
+- `15 People Worth Seeking`는 세계 안에서 찾아갈 이유가 있는 인물층으로 다룬다.
 - `15 Operational Lines`는 항만, 경매, 금융, 첩보, 운반처럼 조직 작동을 보여주는 층으로 다룬다.
 - 경계 후보는 확정 전에 부록에서 먼저 관리한다.
 
@@ -97,8 +97,8 @@ Do not move a candidate into the body because the name is vivid.
 
 Targeted row-level evidence notes:
 
-- Draksar Blazeforge: boundary queue and named notables register both preserve `verify_before_15`; the note should stay tied to alchemy/workshop value plus A-rank war-artificer pressure.
-- Melisandre: named notables register confirms `source_check_hold` and dual-review risk; keep her as organization-high-notable until 14 centrality is ruled out.
+- Draksar Blazeforge: boundary queue and People Worth Seeking register both preserve `verify_before_15`; the note should stay tied to alchemy/workshop value plus A-rank war-artificer pressure.
+- Melisandre: People Worth Seeking register confirms `source_check_hold` and dual-review risk; keep her in the organization-high People Worth Seeking lane until 14 centrality is ruled out.
 - Kasar the Seer: boundary queue and register both point to prophet / adviser / legendary signal; do not body-final him as a simple sage profile.
 - Moira Wildwave: candidate register gives high organization usefulness but marks direct 14-style signal; keep as `verify_before_15`.
 
@@ -111,7 +111,7 @@ Targeted row-level evidence notes:
 
 Supports:
 
-- Part IV. Relics and Desired Objects
+- Part V. Relics, Gear, Trade Goods, and Things People Want
 
 핵심 원칙:
 
@@ -166,8 +166,8 @@ Targeted row-level evidence notes:
 
 Supports:
 
-- Part II. Crossroad Cities
-- Part IV. Relics and Desired Objects
+- Part V. Relics, Gear, Trade Goods, and Things People Want
+- Part VII. Places, Routes, and Maps That Create Story
 
 핵심 원칙:
 
@@ -232,10 +232,10 @@ Targeted row-level evidence notes:
 
 Supports:
 
-- Part II. Crossroad Cities
 - Part III. People Worth Seeking
-- Part IV. Relics and Desired Objects
-- Part V. Peoples, Bloodlines, and Changed States
+- Part IV. Names, Languages, and World Tone
+- Part V. Relics, Gear, Trade Goods, and Things People Want
+- Part VI. Peoples, Bloodlines, Monsters, and Changed States
 
 핵심 원칙:
 
@@ -285,7 +285,7 @@ Do not merge candidates until role, continent, faction, and source route agree.
 Targeted row-level evidence notes:
 
 - Sylvia: collision register lists Kirke Sylvia, Sylvia Arkham, Oceanic Sylvia, and Sylvia Phantom as separate route candidates; keep all four split until source route and role agree.
-- Aegis: naming map, item collision register, and named-notable collision register all show person / surname / relic / shield-concept overlap; never use bare `Aegis` as a final body name without qualifier.
+- Aegis: naming map, item collision register, and People Worth Seeking collision register all show person / surname / relic / shield-concept overlap; never use bare `Aegis` as a final body name without qualifier.
 - Ravenfell / Marcus: naming map separates Ravenfell and Corvus lines; keep Marcus Ravenfell, Maxwell Ravenfell, and Marcus Corvus apart until file route confirms identity.
 - Mera: naming map and collision register split Mera Lylewind from Mera Sylphid; do not merge the diplomatic notable with the 14-hero signal.
 
@@ -298,8 +298,8 @@ Targeted row-level evidence notes:
 
 Supports:
 
-- Part I. Ether Continent
-- Part V. Peoples, Bloodlines, and Changed States
+- Part I. The Five Continents
+- Part VI. Peoples, Bloodlines, Monsters, and Changed States
 
 핵심 원칙:
 

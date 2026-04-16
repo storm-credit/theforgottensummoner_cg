@@ -1,6 +1,6 @@
-# Section 15 Named Notables Name Collision Register
+# Section 15 People Worth Seeking Name Collision Register
 
-이 문서는 `15 Named Notables` 후보 중
+이 문서는 `15 People Worth Seeking` 후보 중
 이름이 여러 세력/대륙에서 충돌하는 경우를 따로 관리한다.
 
 ## Rule
@@ -15,7 +15,7 @@
 
 | Form | Anchor | Signal | Recorded Judgment |
 |---|---|---|---|
-| `실비아 (Sylvia)` | `범대륙 / 키르케 영약회` | 고통의 기록자, S급, 시약 계량관, 증류탑 | `named_notable_candidate` |
+| `실비아 (Sylvia)` | `범대륙 / 키르케 영약회` | 고통의 기록자, S급, 시약 계량관, 증류탑 | `deferred_expansion_hold / hold reference split / name_collision_watch` |
 | `실비아 아캄 (Sylvia Arkham)` | `에테르 / 마법협회 / 심연의 서고` | 차원 균열사, Void Caller | `separate_entity_candidate` |
 | `실비아 (Sylvia)` | `해양 / 황금 함대 / 전설 마도 영웅록` | 해류의 지휘관, 파도의 여왕, 은빛 항해사 | `verify_before_15 / name_collision` |
 | `실비아 팬텀 (Sylvia Phantom)` | `오벨리스크 / 망자의 왕국` | 망자의 눈, A급, 척후대장, 기억 집행관 계열 | `likely_keep_14_or_separate_entity` |

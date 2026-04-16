@@ -5,6 +5,8 @@
 This plan decides what belongs in the polished setting-book body and what should stay in technical appendices.
 
 The current 0-8 draft package is intentionally technical. It preserves audit discipline. The next version should become easier to read without losing the evidence controls behind it.
+Final public Part naming authority belongs to `Setting_Book_Reader_Facing_TOC_Draft.md`.
+This plan decides body versus appendix routing, but it does not rename the public TOC on its own.
 
 ## Separation Rule
 
@@ -19,7 +21,7 @@ The appendix should answer how confident we are, what evidence supports it, what
 | 0. Canon Policy | World promise, human-centered story rule, confirmed/uncertain/rumor distinction | Source priority ladder, exact state label definitions, revision gate mechanics |
 | 1. Five Continents | Continent identity, emotional tone, representative people, major social conflict | Missing-layer proof tables, overread bans, internal adequacy labels |
 | 2. Faction Archive Structure | What kinds of powers exist and how they affect life, trade, faith, law, survival | Root-state tables, structure-label tables, handoff mechanics, corrupted-root details |
-| 3. Named Notables and Operational Lines | Notable figure types, operational roles, why people seek them, 14/15 distinction in plain language | Boundary queue, state labels, candidate tables, exact lower-card authority notes |
+| 3. People Worth Seeking | Notable figure types, operational roles, why people seek them, 14/15 distinction in plain language | Boundary queue, state labels, candidate tables, exact lower-card authority notes |
 | 4. Naming Normalization | Display names, tone philosophy, examples of cleaned faction names, protected name families | Full replacement register, collision register, unresolved variant rows |
 | 5. Items and Relics | Desire-first item profiles, relic costs, trade goods, legendary sets, collection appeal | Full candidate register, duplicate hotspots, status fields, promotion gates |
 | 6. Species Framework | Peoples, bloodlines, changed states, monsters, and uncertainty explained in story terms | Evidence log, bucket confidence, overread risk register |
@@ -71,10 +73,12 @@ The next polished-body samples should be created in this order:
 1. Opening section.
 2. Ether Continent.
 3. Crossroad Cities.
-4. One named notable profile.
+4. One `People Worth Seeking` profile.
 5. One relic profile.
 6. One species or bloodline profile.
 7. One appendix sample table.
+
+These are topic sample targets, not locked public Part titles.
 
 This order tests the whole setting-book voice: world premise, continent, city, person, object, peoplehood, and evidence control.
 
@@ -111,4 +115,3 @@ The recomposition should now run in two tracks:
 2. appendix samples that preserve verification discipline
 
 If those two tracks stay separate, the final setting book can feel alive without losing control.
-

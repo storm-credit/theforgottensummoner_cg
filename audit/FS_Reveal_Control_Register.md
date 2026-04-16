@@ -51,7 +51,7 @@
 | `FS-RV-002` | 검은 경매소 진품 목록 | `artifact` | `hidden` | 진품/가품 갈등 회수 | `FS_Foreshadow_Payoff_Register.md` |
 | `FS-RV-003` | 키르케 영약회 실험의 윤리 비용 | `institution` | `hinted` | 치료와 의존의 대가 | `FS_Act_Outcome_Ledger.md` |
 | `FS-RV-004` | 봉인 수호단 공식 전승과 실제 희생의 차이 | `institution` | `hidden` | 오벨리스크 축 재맥락화 | `FS_Institution_Memory_Register.md` |
-| `FS-RV-005` | Named Notables가 가진 저술/감정/제작법의 진짜 출처 | `identity`, `artifact` | `partial_reveal` | 조언자가 아니라 복선 소유자로 전환 | `FS_Asset_Secret_Register.md` |
+| `FS-RV-005` | `People Worth Seeking`이 가진 저술/감정/제작법의 진짜 출처 | `identity`, `artifact` | `partial_reveal` | 조언자가 아니라 복선 소유자로 전환 | `FS_Asset_Secret_Register.md` |
 
 ## Conductor Reading Rule
 

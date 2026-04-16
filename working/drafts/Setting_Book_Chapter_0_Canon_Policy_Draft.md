@@ -68,7 +68,7 @@
 - 인간 서사 중심.
 - 액트 구조.
 - `14 = 서사 중심 영웅`.
-- `15 = Named Notables + Operational Lines`.
+- `15 = People Worth Seeking + Operational Lines`.
 - 동양 / 무협 제외.
 - 범대륙은 후기 확장.
 
@@ -83,7 +83,7 @@
 - 정확한 지리 정보.
 - 세부 연표.
 - 세부 장비와 전승.
-- 현재 `stable_15_workset`으로 관리되는 15 Named Notables 후보.
+- 현재 `stable_15_workset`으로 관리되는 15 People Worth Seeking 후보.
 
 ### Open Question
 
@@ -140,13 +140,13 @@ Rumor / In-World Text는 세계 안에 존재할 수 있지만,
 |---|---|
 | `8. 세력 아카이브` | 세력, 기관, 집단, 사회 구조, 장소 기반 조직 |
 | `14. 영웅 백과` | 서사 중심 영웅, Act 중심 인물, 독립 인물 파일 |
-| `15. Named Notables` | 세계 안에서 찾아갈 이유가 있는 이름 있는 명사형 인물 |
+| `15. People Worth Seeking` | 세계 안에서 찾아갈 이유가 있는 이름 있는 명사형 인물 |
 | `15. Operational Lines` | 조직 작동을 보여주는 실무층 |
 | `아이템` | 장비, 유물, 소지품, 도감성 후보 |
 | `지도 / 공간` | 장소 기능, 이동, 도시, 건물, 항로 |
 | `hold` | 판단 보류, source check, dual review |
 
-`15 Named Notables`는 약한 영웅 창고가 아니다.
+`15 People Worth Seeking`는 약한 영웅 창고가 아니다.
 
 현자, 장인, 기록자, 감정사, 연금술사, 공방주처럼
 세계 안에서 이름이 알려진 명사형 인물을 회수하는 축이다.
@@ -200,7 +200,7 @@ Rumor / In-World Text는 세계 안에 존재할 수 있지만,
 - 삭제보다 보류를 우선한다.
 - legacy는 보존하되 자동 복귀시키지 않는다.
 - `14`는 서사 중심 영웅축이다.
-- `15`는 Named Notables와 Operational Lines의 이중 레이어다.
+- `15`는 People Worth Seeking와 Operational Lines의 이중 레이어다.
 - 원본 snapshot은 근거 확인용이고, 직접 수정 대상이 아니다.
 
 다음 장은 `1. 5대륙 개요`다.

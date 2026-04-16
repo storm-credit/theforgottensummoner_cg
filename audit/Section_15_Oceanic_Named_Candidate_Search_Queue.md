@@ -1,6 +1,6 @@
 # Section 15 Oceanic Named Candidate Search Queue
 
-이 문서는 해양 대륙의 `15 Named Notables` 후보를
+이 문서는 해양 대륙의 `15 People Worth Seeking` 후보를
 어떤 named candidate 탐색 순서로 확인했는지 남기는 reference queue다.
 
 ## Rule
@@ -91,4 +91,4 @@
 이 큐는 `15번` 인물 생성표가 아니라 탐색표다.
 
 실제 이름이 나오면 먼저 `14/15 boundary check`를 거치고,
-그 뒤에만 `15 Named Notables` 후보로 올린다.
+그 뒤에만 `15 People Worth Seeking` 후보로 올린다.
