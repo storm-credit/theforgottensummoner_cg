@@ -6542,3 +6542,45 @@ Follow-up actions:
 
 - 이 clarification delta를 commit/push한 뒤,
   다시 watch-only 순환으로 돌아가 새 drift가 생길 때만 국소 수정한다.
+
+## 2026-04-16 KST - Twenty-Fourth Deferred-Risk Precision Pass
+
+목적:
+
+- `Audit_Queue` risk snapshot의 remaining caution lines를
+  현재 guard state에 맞게 더 정밀하게 적는다.
+
+배치:
+
+- Nash: Section 14 relationship free-prose risk scout
+- Descartes: Aether-family notation spread risk scout
+- Sartre: house/tribe/guild flattening-risk scout
+- conductor local risk-memo wording pass
+
+Conductor action:
+
+- `Nash`는 Section 14 관계 경고가 여전히 유효한 deferred-risk memo지만,
+  `Relationship Ledger / Contact Table / Conflict Register` 보강선이 이미 있다고 확인했다.
+- `Descartes`는 `Aether` 계열 표기가 live routing drift가 아니라
+  `Ether` 기본 display canon 아래 known variant / reference-import 관리 상태라고 확인했다.
+- `Sartre`는 `가문 / 부족 / 길드` 평면화 경고가
+  adequacy / missing-layer lock 체인 안에서 이미 `thin/support/missing`으로 관리된다고 확인했다.
+- conductor local pass에서는 `Audit_Queue` risk snapshot의
+  `14 관계`, `가문/부족/길드`, `Aether` 경고 문장을
+  guarded deferred-risk memo 상태로 더 정확히 적었다.
+
+Integrated actions:
+
+- deferred-risk memo precision update
+- report pair / dispatch log 2026-04-16 twenty-fourth pass 반영
+
+Verification:
+
+- watch mainline remains `5대륙 closure sync / Section 8 -> 15 watch-reference`.
+- no live workflow drift was found in the three guarded-risk lanes.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 clarification delta를 commit/push한 뒤,
+  다시 watch-only 순환으로 돌아가 새 drift만 국소 처리한다.

@@ -422,3 +422,24 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 
 - watch mainline은 계속 `5대륙 closure sync / Section 8 -> 15 watch-reference`로 둔다.
 - risk snapshot은 active drift가 아니라 deferred-risk memo로 읽는다.
+
+## 2026-04-16 Twenty-Fourth Deferred-Risk Precision Pass
+
+목적:
+
+- `Audit_Queue` risk snapshot의 남은 경고선도
+  active workflow drift가 아니라 guarded deferred-risk 상태로 읽히게 정밀화한다.
+
+확인 결과:
+
+- `14번` 관계 정보는 아직 자유서술 잔존 위험이 있지만,
+  `Relationship Ledger / Contact Table / Conflict Register` 보강선으로 이미 관리 중이다.
+- `가문 / 부족 / 길드` 평면화 경고는
+  adequacy / missing-layer lock 체인에서 `thin/support/missing` 판정으로 이미 잠겨 있다.
+- `Aether` 표기 위험은 live routing drift가 아니라
+  `Ether` 기본 display canon + known variant / reference-import 관리 상태로 읽는 편이 맞다.
+
+의미:
+
+- risk snapshot은 구조 경고를 유지하되,
+  현재 live workflow가 guard 없이 열려 있다는 뜻으로 읽지 않는다.

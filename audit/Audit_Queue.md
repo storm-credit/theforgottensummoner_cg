@@ -93,8 +93,8 @@
 - `8번`에 `_Legacy_중립세력 (Backup)` legacy root가 남아 있어 canon 판단에서 계속 격리해야 함
 - `8번` 범대륙 루트에는 canonical root와 broken-name quarantine root가 함께 남아 있어 동일 취급하면 안 됨
 - `14번`과 `8번` 사이 영문 표기 충돌 메모는 남아 있지만, 현재는 live misroute보다 display-canon conflict note로 보류 중임
-- `14번`의 관계 정보가 자유서술에 묻혀 있어 자동 감사가 어려움
-- 가문, 부족, 길드 층이 비어 있으면 인물 출신과 세력 갈등이 평면화될 수 있음
+- `14번` 관계 정보는 자유서술 잔존 위험이 있지만, 현재는 `Relationship Ledger / Contact Table / Conflict Register` 보강선으로 관리 중임
+- 가문, 부족, 길드 층 경고는 adequacy / missing-layer lock 체인에서 `thin/support/missing` 판정으로 이미 관리 중임
 - 구조 안정화 전에 문체 개정을 하면 모순이 더 매끈해질 수 있음
-- `Aether` 계열 표기가 연쇄적으로 퍼져 있어 일괄 수정은 위험함
+- `Aether` 계열 표기는 known variant / reference-import 층에 남아 있어, `Ether` 기본 display canon을 유지한 채 일괄 수정 없이 관리 중임
 - `범대륙`은 후기 증설 구역이라 중심 축으로 다루면 전체 기준이 흔들릴 수 있음
