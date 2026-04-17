@@ -6663,3 +6663,54 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   다시 watch-only 순환으로 돌아가 새 drift만 국소 처리한다.
+
+## 2026-04-17 KST - Twenty-Seventh Subline Authority Stability Pass
+
+목적:
+
+- `subline_profile_authority` sync group과
+  `People Worth Seeking` 승인 논리 역수입 방지선이
+  current state-vocabulary / mainline-sync / summary / bridge / watch 문서에서
+  같은 의미를 유지하는지 확인한다.
+
+배치:
+
+- Sartre: `subline_profile_authority` sync-group scout
+- Leibniz: `People Worth Seeking` non-reimport guard scout
+- conductor local verification pass
+
+Conductor action:
+
+- `Sartre`는 `Section_15_State_Vocabulary_Guard`,
+  `Section_8_Mainline_Sync_Register`,
+  `Section_8_15_Closure_Sync_Carryover_Watch`,
+  `Section_8_to_15_Notable_Anchor_Bridge`,
+  `Section_15_Named_Notables_Coverage_Matrix`가
+  exact wording authority를 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남긴다고 일관되게 유지한다고 확인했다.
+- `Leibniz`는 `Closure Sync Carryover Watch`,
+  `Notable Anchor Bridge`,
+  `Status Compass`,
+  `Five Continent Closure Table`,
+  `Coverage Matrix`가
+  operational profile guard 문장을 `People Worth Seeking` 승인 논리로
+  역수입하지 않는다고 확인했다.
+- conductor local pass에서는 `Next_Sequential_Workstream`,
+  `Section_15_Operational_Lines_Track`까지 교차 확인했고,
+  이번 순환도 source prose patch 없이 no-change stability result로 기록한다.
+
+Integrated actions:
+
+- subline-authority no-change stability confirmation
+- report pair / dispatch log 2026-04-17 twenty-seventh pass 반영
+
+Verification:
+
+- no actionable live drift was found in the `subline_profile_authority` sync group.
+- no current summary / bridge / watch doc re-imports operational guard wording as `People Worth Seeking` approval logic.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  다시 watch-only 순환으로 돌아가 새 drift만 국소 처리한다.

@@ -491,3 +491,33 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 
 - 이번 pass에서도 source prose patch는 필요하지 않았다.
 - 다음 순환은 계속 watch-only mainline에서 새 local drift가 보일 때만 연다.
+
+## 2026-04-17 Twenty-Seventh Subline Authority Stability Pass
+
+목적:
+
+- `subline_profile_authority` sync group과
+  `People Worth Seeking` 승인 논리 역수입 방지선이
+  current state-vocabulary / mainline-sync / summary / bridge / watch 문서에서
+  같은 의미로 유지되는지 확인한다.
+
+확인 결과:
+
+- `Section_15_State_Vocabulary_Guard`,
+  `Section_8_Mainline_Sync_Register`,
+  `Section_8_15_Closure_Sync_Carryover_Watch`는
+  exact wording authority를 각 `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`에 남긴다고 일관되게 적는다.
+- `Section_8_to_15_Notable_Anchor_Bridge`,
+  `Section_15_Named_Notables_Status_Compass`,
+  `Section_15_Five_Continent_Closure_Table`,
+  `Section_15_Named_Notables_Coverage_Matrix`도
+  summary / bridge / watch 층이 하위 wording source를 재정의하지 않고
+  `People Worth Seeking` 승인 논리로 역수입하지 않는다고 유지한다.
+- `Next_Sequential_Workstream`과 `Section_15_Operational_Lines_Track`도
+  같은 lower-card authority 분리선을 계속 가리킨다.
+
+의미:
+
+- 이번 pass에서도 source prose patch는 필요하지 않았다.
+- 다음 순환은 동일 mainline에서 새 wording drift가 실제로 생길 때만 국소 재개한다.
