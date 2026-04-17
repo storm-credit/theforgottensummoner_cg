@@ -136,6 +136,7 @@
 - 2026-04-18 thirty-fourth pass expanded `Section_8_Mainline_Sync_Register.md`'s conductor checklist so it explicitly covers the current operational-display, intake, folder-gate, anchor/QA, continuous-workstream, and subline-register verification bundle defined by its own sync groups
 - 2026-04-18 thirty-fifth pass expanded `Section_8_15_Closure_Sync_Carryover_Watch.md` so its summary/trigger shorthand and conductor checklist explicitly cover the current coverage/index-folder/anchor-QA/operational-display/intake/hold-cluster/continuous/subline verification bundle used by its ordered cycle
 - 2026-04-18 thirty-sixth pass expanded the `Input` lists in `Section_8_Mainline_Sync_Register.md` and `Section_8_15_Closure_Sync_Carryover_Watch.md` so they explicitly cover the same current bundle already used by their sync groups, ordered cycles, and checklists
+- 2026-04-18 thirty-seventh pass expanded the remaining live carryover shorthand in `Section_15_State_Vocabulary_Guard.md` and `Section_15_Actual_Draft_Package_Freeze.md` so `anchor-map` and `stable-candidate-QA` stay visible alongside the existing summary/index/folder/routing family
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

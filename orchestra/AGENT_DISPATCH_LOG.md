@@ -7200,3 +7200,52 @@ Follow-up actions:
 
 - 이 input-bundle alignment delta를 commit/push한 뒤,
   다시 같은 mainline에서 새 local drift만 국소 처리한다.
+
+## 2026-04-18 KST - Thirty-Seventh Carryover Shorthand Realignment Pass
+
+목적:
+
+- live carryover 문장에 남아 있는
+  `summary / bridge / index / folder / routing`
+  shorthand가
+  current expanded policy family를 충분히 드러내는지 다시 확인하고,
+  잔여 shorthand drift가 있으면 최소 범위로 정리한다.
+
+배치:
+
+- conductor local shorthand scout
+
+Conductor action:
+
+- conductor는 `Section_15_State_Vocabulary_Guard.md`의
+  reading rule / conductor decision에
+  아직 `summary / bridge / index / folder / routing` shorthand가 남아 있어,
+  현재 이미 mainline에 포함된
+  `anchor-map / stable-candidate-QA` 층을 한 단계 덜 드러내고 있음을 확인했다.
+- `Section_15_Actual_Draft_Package_Freeze.md`의 watch condition 5번도
+  `index/folder/routing`까지만 적고 있어,
+  stable triad freeze와 함께 보는
+  `anchor-map / stable-candidate-QA` carryover family를 충분히 드러내지 못하고 있었다.
+- conductor local pass에서는
+  `Section_15_State_Vocabulary_Guard.md`의 carryover shorthand를
+  `summary / bridge / index / folder / routing / anchor-map / stable-candidate-QA`
+  문장으로 맞추고,
+  `Section_15_Actual_Draft_Package_Freeze.md`의 watch condition 5번도
+  `index/folder/routing/anchor-map/stable-candidate-QA`
+  문장으로 정렬했다.
+
+Integrated actions:
+
+- `Section_15_State_Vocabulary_Guard` / `Section_15_Actual_Draft_Package_Freeze` shorthand realignment
+- report pair / dispatch log 2026-04-18 thirty-seventh pass 반영
+
+Verification:
+
+- both live carryover docs now use shorthand that matches the current expanded policy family.
+- no new live drift was found in queue/workstream/watch/mainline/input alignment, lower-card authority separation, operational-profile carryover, or `P2 place-pressure` ownership while closing this residual shorthand gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 residual shorthand alignment delta를 commit/push한 뒤,
+  다시 같은 mainline에서 새 local drift만 국소 처리한다.

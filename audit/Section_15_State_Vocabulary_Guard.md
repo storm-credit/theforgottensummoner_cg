@@ -86,7 +86,7 @@
 
 1. 해석 가드 문장을 `State Label` 칸에 그대로 넣지 않는다.
 2. 반대로 canonical state만으로 카드층 `Policy Guard`를 대체하지 않는다.
-3. summary / bridge / index / folder / routing 문서는
+3. summary / bridge / index / folder / routing / anchor-map / stable-candidate-QA 문서는
    `canonical state`와 `policy carryover sentence`를 함께 유지해야 한다.
 4. `state_house strong`, `토착 공동체층`, `전통 국가기관` 같은 표현은
    고정 선언이 아니라 금지/경계 문맥에서만 다시 등장할 수 있다.
@@ -133,4 +133,4 @@ stable triad, hold queue, boundary review, deferred expansion을
 같은 상태어로 유지한다.
 
 동시에 카드층 `Policy Guard`가 잠근 해석선은
-summary / bridge / index / folder / routing 문서에 prose carryover로 유지한다.
+summary / bridge / index / folder / routing / anchor-map / stable-candidate-QA 문서에 prose carryover로 유지한다.

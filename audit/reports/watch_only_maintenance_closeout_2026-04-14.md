@@ -915,3 +915,43 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   같은 current mainline bundle을 다시 가리킨다.
 - 이번 순환의 drift는 input-layer omission 정렬로 닫혔고,
   queue / workstream / watch / mainline register 분리선은 그대로 유지한다.
+
+## 2026-04-18 Thirty-Seventh Carryover Shorthand Realignment Pass
+
+목적:
+
+- live carryover 문장에 남아 있는
+  `summary / bridge / index / folder / routing`
+  shorthand가
+  current expanded policy family를 충분히 드러내는지 다시 확인하고,
+  잔여 shorthand drift가 있으면 최소 범위로 정리한다.
+
+확인 결과:
+
+- `Section_15_State_Vocabulary_Guard.md`의
+  reading rule / conductor decision에는
+  아직 `summary / bridge / index / folder / routing` shorthand가 남아 있어,
+  현재 이미 mainline에 포함된
+  `anchor-map / stable-candidate-QA` 층을 한 단계 덜 드러내고 있었다.
+- `Section_15_Actual_Draft_Package_Freeze.md`의 watch condition 5번도
+  `index/folder/routing`까지만 적고 있어,
+  stable triad freeze와 함께 보는
+  `anchor-map / stable-candidate-QA` carryover family를 충분히 드러내지 못하고 있었다.
+
+조치:
+
+- `Section_15_State_Vocabulary_Guard.md`의
+  carryover shorthand를
+  `summary / bridge / index / folder / routing / anchor-map / stable-candidate-QA`
+  문장으로 정렬했다.
+- `Section_15_Actual_Draft_Package_Freeze.md`의
+  watch condition 5번도
+  `index/folder/routing/anchor-map/stable-candidate-QA`
+  문장으로 맞췄다.
+
+의미:
+
+- state-vocabulary / stable-triad-freeze 층에서도
+  current expanded policy family가 같은 문장으로 유지된다.
+- 이번 순환의 drift는 residual shorthand 정렬로 닫혔고,
+  queue / workstream / watch / input bundle 정렬선은 그대로 유지한다.

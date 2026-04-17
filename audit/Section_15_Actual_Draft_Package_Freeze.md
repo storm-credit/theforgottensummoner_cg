@@ -91,7 +91,7 @@
 2. `엘다라 = source_check_hold / hold reference split`, `실비아 = deferred_expansion_hold / hold reference split`가 summary 계층까지 일치한다.
 3. 구형 route-test / folder-phase / broad safe-pool 표현이 핵심 문서군에서 제거된다.
 4. revision gate가 `stable_triad_frozen_reference_set`과 충돌하지 않는다.
-5. 카드층의 policy guard와 index/folder/routing 문서의 carryover 문장이 서로 충돌하지 않는다.
+5. 카드층의 policy guard와 index/folder/routing/anchor-map/stable-candidate-QA 문서의 carryover 문장이 서로 충돌하지 않는다.
 6. People Worth Seeking freeze 문장이 operational profile guard 문장을 고정 논리로 역수입하지 않는다.
 
 ## Conductor Decision
