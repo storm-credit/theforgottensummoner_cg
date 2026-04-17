@@ -33,7 +33,7 @@
 3. Ether hold cluster는 `library_core_hold / archive_admin_hold / tower_seer_hold / bardic_archive_hold`, `white_tower_barrier_hold / abyss_blood_taboo_hold / shadow_intelligence_hold / holy_barrier_hold`, `great_druid_hold / spirit_envoy_hold / shadow_crow_hold`까지 한 번 closure 상태로 본다.
 4. `P2 place-pressure handoff`는 candidate index가 아니라 sidecar/register를 주 기록처로 유지한다.
 5. 메인 본선 reference는 새 후보 창출이 아니라 `5대륙 closure sync / Section 8 -> 15 watch-reference`다.
-6. 카드층 `Policy Guard`는 summary / bridge / index / folder / routing 문서까지 반영하되,
+6. 카드층 `Policy Guard`는 summary / bridge / index / folder / routing / anchor-map / stable-candidate-QA 문서까지 반영하되,
    exact wording source로 승격하지 않는다.
 7. canonical state drift와 policy carryover drift는 서로 다른 층으로 점검한다.
 8. People Worth Seeking 카드와 operational profile card의 lower-card authority는 분리 유지한다.
@@ -77,7 +77,7 @@
 4. `Section 8` 구조 라벨이 `Section 15` 상태 라벨처럼 오독될 때
 5. `P2 place-pressure` 기록처가 sidecar/register 밖에서 다시 재정의될 때
 6. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Status Compass`가 서로 다른 본선 reference를 가리킬 때
-7. 카드층 `Policy Guard`와 `Section 15` index/folder/routing 문서의 carryover 문장이 다시 어긋날 때
+7. 카드층 `Policy Guard`와 `Section 15` index/folder/routing/anchor-map/stable-candidate-QA 문서의 carryover 문장이 다시 어긋날 때
 8. canonical state가 prose guard 문장으로 대체되거나, 반대로 prose guard가 state label처럼 오기입될 때
 9. operational profile guard 문장이 `People Worth Seeking` 승인 논리로 역수입될 때
 10. subline draft와 각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard` 문장이 서로 어긋날 때
@@ -113,12 +113,26 @@
 5. `Section_15_Stable_Candidate_8_Anchor_Index.md`
 6. `Section_15_Named_Notables_Status_Compass.md`
 7. `Section_15_Five_Continent_Closure_Table.md`
-8. `Next_Sequential_Workstream.md`
-9. `Audit_Queue.md`
-10. `Section_8_Place_Network_Handoff_Map.md`
-11. `Section_15_Profile_Draft_Index.md`
-12. `Section_15_Operational_Lines_Track.md`
-13. `Section_15_Named_Notables_Register.md`
+8. `Section_15_Named_Notables_Coverage_Matrix.md`
+9. `Section_15_Index_Draft.md`
+10. `Section_15_Folder_Structure_Draft.md`
+11. `Section_15_Folder_Draft_Routing_Plan.md`
+12. `Section_15_Folder_Revision_Gate.md`
+13. `Section_15_Named_Notables_Anchor_Map.md`
+14. `Section_15_Stable_Candidate_Profile_QA.md`
+15. `Section_15_Profile_Draft_Index.md`
+16. `Section_15_Operational_Lines_Track.md`
+17. `Section_15_Operational_Display_Canon_Candidates.md`
+18. `Section_15_Intake_Structure.md`
+19. `Section_15_Ether_Hold_Cluster_Continuation.md`
+20. `Section_15_Ether_Tower_Saint_Hold_Continuation.md`
+21. `Section_15_Ether_Spirit_Union_Hold_Continuation.md`
+22. `Next_Sequential_Workstream.md`
+23. `Audit_Queue.md`
+24. `Continuous_Workstream.md`
+25. `Section_8_Place_Network_Handoff_Map.md`
+26. `Section_15_Named_Notables_Register.md`
+27. `Section_15_Subline_Register.md`
 
 ## Conductor Decision
 

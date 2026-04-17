@@ -817,3 +817,51 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   같은 mainline bundle을 다시 가리킨다.
 - 이번 순환의 drift는 checklist omission 정렬로 닫혔고,
   queue / workstream / next summary와 lower-card authority 분리선은 그대로 유지한다.
+
+## 2026-04-18 Thirty-Fifth Closure-Watch Bundle Realignment Pass
+
+목적:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`의
+  summary/trigger 문장과 conductor checklist가
+  current ordered cycle bundle을 충분히 드러내는지 다시 확인하고,
+  watch-layer omission drift가 있으면 한 번에 정리한다.
+
+확인 결과:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch.md` ordered cycle은 이미
+  `Section_15_Named_Notables_Coverage_Matrix.md`,
+  `Section_15_Index_Draft.md`,
+  `Section_15_Folder_*`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`,
+  Ether hold cluster 3종,
+  `Continuous_Workstream.md`,
+  `Section_15_Subline_Register.md`까지 current mainline cycle에 직접 사용하고 있다.
+- 그런데 같은 문서의
+  `Mainline Lock Snapshot` 6번과
+  `Immediate Drift Triggers` 7번은
+  아직 `summary / bridge / index / folder / routing`
+  또는 `index/folder/routing` 수준의 shorthand만 남겨 두고 있었고,
+  conductor checklist도 위 current bundle을 충분히 담지 못하고 있었다.
+
+조치:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`의
+  `Mainline Lock Snapshot` 6번과
+  `Immediate Drift Triggers` 7번을
+  `anchor-map / stable-candidate-QA`까지 포함한 policy-family 문장으로 맞췄다.
+- conductor checklist에는
+  `Coverage Matrix`, `Index/Folder`, `Anchor Map`, `Stable Candidate Profile QA`,
+  `Operational Display Canon Candidates`, `Intake Structure`,
+  Ether hold cluster 3종, `Continuous_Workstream.md`, `Section_15_Subline_Register.md`
+  등을 추가해 ordered cycle과 같은 verification bundle을 가리키게 정렬했다.
+
+의미:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch` 내부에서
+  summary / trigger / checklist가 같은 current watch bundle을 다시 가리킨다.
+- 이번 순환의 drift는 closure-watch bundle omission 정렬로 닫혔고,
+  queue / workstream / mainline register와 `P2 place-pressure` owner 분리선은 그대로 유지한다.

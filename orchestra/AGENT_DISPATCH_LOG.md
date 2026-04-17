@@ -7085,3 +7085,60 @@ Follow-up actions:
 
 - 이 checklist alignment delta를 commit/push한 뒤,
   다시 같은 mainline에서 새 local drift만 국소 처리한다.
+
+## 2026-04-18 KST - Thirty-Fifth Closure-Watch Bundle Realignment Pass
+
+목적:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`의
+  summary/trigger 문장과 conductor checklist가
+  current ordered cycle bundle을 충분히 드러내는지 다시 확인하고,
+  watch-layer omission drift가 있으면 한 번에 정리한다.
+
+배치:
+
+- conductor local closure-watch scout
+
+Conductor action:
+
+- conductor는 `Section_8_15_Closure_Sync_Carryover_Watch` ordered cycle이 이미
+  `Section_15_Named_Notables_Coverage_Matrix.md`,
+  `Section_15_Index_Draft.md`,
+  `Section_15_Folder_*`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`,
+  Ether hold cluster 3종,
+  `Continuous_Workstream.md`,
+  `Section_15_Subline_Register.md`까지 current mainline cycle에 직접 사용하고 있음을 재확인했다.
+- 그런데 같은 문서의
+  `Mainline Lock Snapshot` 6번과
+  `Immediate Drift Triggers` 7번은
+  아직 `summary / bridge / index / folder / routing`
+  또는 `index/folder/routing` 수준의 shorthand만 남겨 두고 있었고,
+  conductor checklist도 위 current bundle을 충분히 담지 못하고 있었다.
+- conductor local pass에서는
+  summary/trigger shorthand를
+  `anchor-map / stable-candidate-QA`까지 포함한 policy-family 문장으로 맞추고,
+  checklist에는
+  `Coverage Matrix`, `Index/Folder`, `Anchor Map`, `Stable Candidate Profile QA`,
+  `Operational Display Canon Candidates`, `Intake Structure`,
+  Ether hold cluster 3종, `Continuous_Workstream.md`, `Section_15_Subline_Register.md`
+  등을 추가해 ordered cycle과 같은 verification bundle을 가리키게 정렬했다.
+
+Integrated actions:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch` bundle realignment
+- report pair / dispatch log 2026-04-18 thirty-fifth pass 반영
+
+Verification:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch` now uses summary, trigger, and checklist wording that matches its current ordered-cycle verification bundle.
+- no new live drift was found in queue/workstream/mainline-register alignment, lower-card authority separation, operational-profile carryover, or `P2 place-pressure` ownership while closing this watch-layer gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 closure-watch alignment delta를 commit/push한 뒤,
+  다시 같은 mainline에서 새 local drift만 국소 처리한다.
