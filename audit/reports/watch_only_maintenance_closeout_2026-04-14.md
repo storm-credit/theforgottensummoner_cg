@@ -555,3 +555,36 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이번 pass에서도 source prose patch는 필요하지 않았다.
 - 다음 순환은 계속 같은 watch-only mainline에서
   owner가 candidate-index나 summary 계층으로 새어 나오는 실제 drift가 생길 때만 국소 재개한다.
+
+## 2026-04-17 Twenty-Ninth Root Vocabulary Alignment Pass
+
+목적:
+
+- `root / structure / mismatch / P2 handoff` 본선 재점검 중
+  `Section_8_Structure_Label_Map_First_Pass.md` 설명부에 남은
+  구형 structure-label 일반어를
+  current canonical vocabulary에 맞춰 정렬한다.
+
+확인 결과:
+
+- `Section_8_Status_Vocabulary_Guard`와
+  `Section_8_Mainline_Sync_Register`,
+  `Section_8_Normalization_Status_Compass`는
+  `section_style / mixed_keep / section_style_reclassify`를
+  current closed vocabulary로 잠그고 있다.
+- 그런데 `Section_8_Structure_Label_Map_First_Pass.md` 설명부에는
+  아직 `section_style / place_style / mixed` 같은
+  구형 일반어가 남아 있었다.
+- 같은 순환에서 `P2 place-pressure handoff` owner 축도 다시 확인했고,
+  sidecar/register authority 밖으로 새어 나온 live drift는 없었다.
+
+조치:
+
+- `Section_8_Structure_Label_Map_First_Pass.md` 설명부의
+  `place_style / mixed` 표현을
+  `mixed_keep` 및 pressure-state 분리 문장으로 교체했다.
+
+의미:
+
+- structure vocabulary와 mainline sync 기준이 다시 같은 문장 층으로 맞춰졌다.
+- `P2 place-pressure` owner는 계속 sidecar/register authority에만 남긴다.

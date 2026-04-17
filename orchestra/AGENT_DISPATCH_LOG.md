@@ -6762,3 +6762,49 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   다시 watch-only 순환으로 돌아가 새 drift만 국소 처리한다.
+
+## 2026-04-17 KST - Twenty-Ninth Root Vocabulary Alignment Pass
+
+목적:
+
+- `root / structure / mismatch / P2 handoff` 축을 다시 열었을 때
+  current Section 8 vocabulary가 live mainline 문서에
+  같은 상태어로 유지되는지 확인하고,
+  남아 있던 최소 drift만 정리한다.
+
+배치:
+
+- Mill: root/structure/mismatch vocabulary scout
+- Hypatia: `P2 place-pressure` owner authority scout
+- conductor local patch + verification pass
+
+Conductor action:
+
+- `Mill`은 root vocabulary와 mismatch wording은 현재 기준과 맞지만,
+  `Section_8_Structure_Label_Map_First_Pass.md` 설명부에
+  `section_style / place_style / mixed` 구형 표현이 남아 있다고 확인했다.
+- conductor local pass에서는 그 drift를
+  `section_style / mixed_keep / section_style_reclassify` 및
+  pressure-state 분리 문장으로만 최소 수정했다.
+- `Hypatia` 및 conductor local verification에서는
+  `P2 place-pressure handoff` owner가 여전히
+  `Section_15_*_Place_Institution_Sidecar` / `FS_Place_Function_Register`
+  authority에만 남고,
+  summary / watch / queue 문서가 이를 재정의하지 않는다고 확인했다.
+
+Integrated actions:
+
+- Section 8 structure-label vocabulary micro-alignment
+- `P2 place-pressure` owner stability reconfirmation
+- report pair / dispatch log 2026-04-17 twenty-ninth pass 반영
+
+Verification:
+
+- root vocabulary remains `canonical_root / quarantine_root / legacy_root / reference-only`.
+- structure vocabulary is now re-aligned to `section_style / mixed_keep / section_style_reclassify`.
+- no actionable live drift was found in the `P2 place-pressure` owner lane.
+
+Follow-up actions:
+
+- 이 minimal alignment delta를 commit/push한 뒤,
+  다시 watch-only 순환으로 돌아가 새 local drift만 국소 처리한다.

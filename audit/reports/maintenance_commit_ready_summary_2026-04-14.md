@@ -128,6 +128,7 @@
 - 2026-04-17 twenty-sixth pass confirmed the remaining `Audit_Queue` tail cautions around pre-stabilization prose revision and supranational expansion already read as guarded/deferred states in live workflow docs; no source prose patch was needed
 - 2026-04-17 twenty-seventh pass confirmed the `subline_profile_authority` sync group and `People Worth Seeking` non-reimport guard remain aligned across state-vocabulary, mainline-sync, summary, bridge, and watch docs; no source prose patch was needed
 - 2026-04-17 twenty-eighth pass confirmed `P2 place-pressure handoff owner` remains confined to sidecar/register authority and is not redefined by candidate-index, summary, queue, or watch docs; no source prose patch was needed
+- 2026-04-17 twenty-ninth pass aligned residual old structure-label wording in `Section_8_Structure_Label_Map_First_Pass.md` to the closed canonical vocabulary, while confirming `P2 place-pressure` owner remains sidecar/register-only with no source prose patch needed in that lane
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

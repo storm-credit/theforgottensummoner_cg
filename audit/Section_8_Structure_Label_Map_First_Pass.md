@@ -1,7 +1,7 @@
 # Section 8 Structure Label Map - First Pass
 
 이 문서는 `Section 8` canonical root 안에서
-우선 라벨링할 핵심 세력들의 `section_style / place_style / mixed` 1차 판정을 모아둔 장부다.
+우선 라벨링할 핵심 세력들의 `section_style / mixed_keep / section_style_reclassify` 1차 판정을 모아둔 장부다.
 
 ## Input
 
@@ -35,8 +35,8 @@
 이 단계에서는:
 
 1. `section_style` 표준 샘플을 먼저 잠근다.
-2. `place_style`은 장소 기능 기준으로 보존한다.
-3. `mixed`는 예외 목록으로 올리고 재배치하지 않는다.
+2. 장소 기능 압력은 구조 라벨이 아니라 pressure 상태로 보존한다.
+3. `mixed_keep`는 예외 목록으로 올리고 재배치하지 않는다.
 4. mismatch watch가 붙은 항목은 구조 수정 전에 추가 근거를 본다.
 5. 상태어는 `Section_8_Status_Vocabulary_Guard.md` 기준으로만 쓴다.
 
@@ -77,7 +77,7 @@
    - 이유: 장소 밀도는 강하지만 루트 문법은 공통 번호 섹션 중심이며,
      내용상 생존 연합 압력은 spine 해석으로 따로 보존하는 편이 정확함
 
-따라서 `mixed` 1차 재검토 사이클은 닫힌다.
+따라서 `mixed_keep` 1차 재검토 사이클은 닫힌다.
 
 ## Round 4 Closure
 
@@ -96,5 +96,5 @@
 ## Conductor Decision
 
 다음 실제 작업은 이 표를 기준으로
-`mixed` 후보와 `mismatch watch` 후보를 우선 재확인하되,
+`mixed_keep` 후보와 `mismatch watch` 후보를 우선 재확인하되,
 구조 라벨과 `place pressure`를 같은 항목으로 섞지 않는 것이다.
