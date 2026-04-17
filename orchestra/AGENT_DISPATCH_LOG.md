@@ -6917,3 +6917,62 @@ Follow-up actions:
 
 - 이 operational-profile summary alignment delta를 commit/push한 뒤,
   다시 같은 mainline에서 새 local drift만 국소 처리한다.
+
+## 2026-04-18 KST - Thirty-Second Continuous Reference-Set Realignment Pass
+
+목적:
+
+- `Continuous_Workstream.md`의
+  ordered cycle과 input reference set이
+  같은 live mainline document bundle을 가리키는지 다시 확인하고,
+  direct-reference 누락 drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local workstream-reference scout
+
+Conductor action:
+
+- conductor는 `Continuous_Workstream` ordered cycle이
+  policy carryover 단계에서
+  `Section_15_Index_Draft.md`,
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`를
+  직접 점검 대상으로 적고 있음을 재확인했다.
+- 같은 문서는 lower-card authority / subline-profile authority 점검 흐름에서
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Group_Index.md`,
+  `Section_15_Subline_Register.md`까지 이어져,
+  실제 current mainline bundle의 일부로 계속 읽히고 있었다.
+- 그런데 `Continuous_Workstream.md`의
+  `Input Reference Set`은
+  `Profile_Draft_Index / Operational_Lines_Track / Operational_Display_Canon_Candidates / Intake_Structure`
+  다음에 곧바로
+  `Audit_Queue / Next_Sequential_Workstream / Historical_Batch_Reading_Guard / Master_Lock`
+  으로 넘어가고 있어,
+  ordered cycle에서 실제로 직접 참조하는
+  `Index / Folder / Anchor / QA / Register / Group / Subline`
+  live docs를 목록에 담지 못하고 있었다.
+- conductor local pass에서는
+  `Continuous_Workstream.md`의 `Input Reference Set`에
+  위 문서들을 복원해
+  ordered cycle과 direct-reference list가 같은 live bundle을 다시 가리키게 맞췄다.
+
+Integrated actions:
+
+- `Continuous_Workstream` live reference-set realignment
+- report pair / dispatch log 2026-04-18 thirty-second pass 반영
+
+Verification:
+
+- `Continuous_Workstream` ordered cycle and input reference set now point to the same live mainline document family.
+- no new live drift was found in queue summary/order alignment, lower-card authority separation, or `P2 place-pressure` ownership while closing this workstream-list gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 workstream reference-set alignment delta를 commit/push한 뒤,
+  다시 같은 mainline에서 새 local drift만 국소 처리한다.

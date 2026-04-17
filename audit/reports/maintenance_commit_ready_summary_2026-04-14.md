@@ -131,6 +131,7 @@
 - 2026-04-17 twenty-ninth pass aligned residual old structure-label wording in `Section_8_Structure_Label_Map_First_Pass.md` to the closed canonical vocabulary, while confirming `P2 place-pressure` owner remains sidecar/register-only with no source prose patch needed in that lane
 - 2026-04-17 thirtieth pass restored `Section_15_Named_Notables_Anchor_Map.md` and `Section_15_Stable_Candidate_Profile_QA.md` to `Audit_Queue.md`'s ordered watch snapshot so queue / watch / workstream all point at the same policy-carryover reference step again
 - 2026-04-18 thirty-first pass restored `Section_15_Operational_Display_Canon_Candidates.md` to `Audit_Queue.md`'s operational-profile focus snapshot so the queue summary matches the `profile_format_carryover` sync group and the ordered watch bundle again
+- 2026-04-18 thirty-second pass restored the missing `Index / Folder / Anchor / QA / Register / Group / Subline` live docs to `Continuous_Workstream.md`'s input reference set so its direct-reference list matches the ordered cycle again
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

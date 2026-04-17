@@ -76,14 +76,23 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 8. `audit/Section_15_Named_Notables_Status_Compass.md`
 9. `audit/Section_15_Five_Continent_Closure_Table.md`
 10. `audit/Section_15_Named_Notables_Coverage_Matrix.md`
-11. `audit/Section_15_Profile_Draft_Index.md`
-12. `audit/Section_15_Operational_Lines_Track.md`
-13. `audit/Section_15_Operational_Display_Canon_Candidates.md`
-14. `audit/Section_15_Intake_Structure.md`
-15. `audit/Audit_Queue.md`
-16. `audit/Next_Sequential_Workstream.md`
-17. `audit/Historical_Batch_Reading_Guard.md`
-18. `audit/Five_Continent_Missing_Layer_Master_Lock.md`
+11. `audit/Section_15_Index_Draft.md`
+12. `audit/Section_15_Folder_Structure_Draft.md`
+13. `audit/Section_15_Folder_Draft_Routing_Plan.md`
+14. `audit/Section_15_Folder_Revision_Gate.md`
+15. `audit/Section_15_Named_Notables_Anchor_Map.md`
+16. `audit/Section_15_Stable_Candidate_Profile_QA.md`
+17. `audit/Section_15_Profile_Draft_Index.md`
+18. `audit/Section_15_Operational_Lines_Track.md`
+19. `audit/Section_15_Operational_Display_Canon_Candidates.md`
+20. `audit/Section_15_Intake_Structure.md`
+21. `audit/Section_15_Named_Notables_Register.md`
+22. `audit/Section_15_Group_Index.md`
+23. `audit/Section_15_Subline_Register.md`
+24. `audit/Audit_Queue.md`
+25. `audit/Next_Sequential_Workstream.md`
+26. `audit/Historical_Batch_Reading_Guard.md`
+27. `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 
 ## Reference Backlog
 
