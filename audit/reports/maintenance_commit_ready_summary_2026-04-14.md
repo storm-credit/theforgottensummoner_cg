@@ -133,6 +133,7 @@
 - 2026-04-18 thirty-first pass restored `Section_15_Operational_Display_Canon_Candidates.md` to `Audit_Queue.md`'s operational-profile focus snapshot so the queue summary matches the `profile_format_carryover` sync group and the ordered watch bundle again
 - 2026-04-18 thirty-second pass restored the missing `Index / Folder / Anchor / QA / Register / Group / Subline` live docs to `Continuous_Workstream.md`'s input reference set so its direct-reference list matches the ordered cycle again
 - 2026-04-18 thirty-third pass expanded the summary-layer policy-family shorthand in `Audit_Queue.md`, `Continuous_Workstream.md`, and `Next_Sequential_Workstream.md` so `anchor-map` and `stable-candidate-QA` remain visible alongside the existing status/index/folder/routing bundle
+- 2026-04-18 thirty-fourth pass expanded `Section_8_Mainline_Sync_Register.md`'s conductor checklist so it explicitly covers the current operational-display, intake, folder-gate, anchor/QA, continuous-workstream, and subline-register verification bundle defined by its own sync groups
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

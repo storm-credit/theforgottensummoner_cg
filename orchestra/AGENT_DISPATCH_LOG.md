@@ -7025,3 +7025,63 @@ Follow-up actions:
 
 - 이 summary-family alignment delta를 commit/push한 뒤,
   다시 같은 mainline에서 새 local drift만 국소 처리한다.
+
+## 2026-04-18 KST - Thirty-Fourth Mainline Checklist Realignment Pass
+
+목적:
+
+- `Section_8_Mainline_Sync_Register.md`의
+  sync group 표와 conductor checklist가
+  같은 current mainline verification bundle을 가리키는지 다시 확인하고,
+  checklist omission drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local checklist-alignment scout
+
+Conductor action:
+
+- conductor는 `profile_format_carryover` sync group이
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`,
+  `Section_15_Folder_Revision_Gate.md`를
+  current mirror 대상으로 직접 적고 있음을 재확인했다.
+- `lower_card_authority` sync group은
+  `Continuous_Workstream.md`를,
+  `subline_profile_authority` sync group은
+  `Section_15_Subline_Register.md`를
+  current mirror/current primary source 축으로 계속 사용하고 있었다.
+- policy carryover 단계에서 계속 읽는
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`도
+  현재 ordered watch bundle 안에 이미 포함돼 있었다.
+- 그런데 `Section_8_Mainline_Sync_Register.md`의
+  conductor checklist는
+  `Profile_Draft_Index / Operational_Lines_Track / Named_Notables_Register`
+  수준에서 멈춰 있어,
+  위 current verification docs를 checklist 차원에서 충분히 드러내지 못하고 있었다.
+- conductor local pass에서는 checklist에
+  `Continuous_Workstream.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`,
+  `Section_15_Subline_Register.md`를 추가해
+  sync-group 정의와 verification list가 같은 current mainline bundle을 다시 가리키게 맞췄다.
+
+Integrated actions:
+
+- `Section_8_Mainline_Sync_Register` checklist realignment
+- report pair / dispatch log 2026-04-18 thirty-fourth pass 반영
+
+Verification:
+
+- `Section_8_Mainline_Sync_Register` now uses a conductor checklist that matches the current sync-group verification bundle.
+- no new live drift was found in queue/workstream/next summary wording, lower-card authority separation, operational-profile carryover, or `P2 place-pressure` ownership while closing this checklist gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 checklist alignment delta를 commit/push한 뒤,
+  다시 같은 mainline에서 새 local drift만 국소 처리한다.

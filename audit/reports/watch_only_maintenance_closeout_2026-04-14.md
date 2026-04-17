@@ -766,3 +766,54 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   같은 policy-carryover family를 다시 가리킨다.
 - 이번 순환의 drift는 summary shorthand omission 정렬로 닫혔고,
   lower-card authority / operational profile / `P2 place-pressure` owner 분리선은 그대로 유지한다.
+
+## 2026-04-18 Thirty-Fourth Mainline Checklist Realignment Pass
+
+목적:
+
+- `Section_8_Mainline_Sync_Register.md`의
+  sync group 표와 conductor checklist가
+  같은 current mainline verification bundle을 가리키는지 다시 확인하고,
+  checklist omission drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `profile_format_carryover` sync group은
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`,
+  `Section_15_Folder_Revision_Gate.md`를
+  current mirror 대상으로 직접 적고 있다.
+- `lower_card_authority` sync group은
+  `Continuous_Workstream.md`를,
+  `subline_profile_authority` sync group은
+  `Section_15_Subline_Register.md`를
+  current mirror/current primary source 축으로 직접 사용하고 있다.
+- policy carryover 단계에서 실제로 계속 읽는
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`도
+  현재 ordered watch bundle 안에 이미 포함되어 있다.
+- 그런데 `Section_8_Mainline_Sync_Register.md`의
+  conductor checklist는
+  `Profile_Draft_Index / Operational_Lines_Track / Named_Notables_Register`
+  수준에서 멈춰 있어,
+  위 current verification docs를 checklist 차원에서 충분히 드러내지 못하고 있었다.
+
+조치:
+
+- `Section_8_Mainline_Sync_Register.md`의 conductor checklist에
+  `Continuous_Workstream.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`,
+  `Section_15_Subline_Register.md`를 추가해
+  sync group 표와 checklist가 같은 current mainline verification bundle을 가리키게 맞췄다.
+
+의미:
+
+- `Section_8_Mainline_Sync_Register` 내부에서
+  sync-group 정의와 conductor verification list가
+  같은 mainline bundle을 다시 가리킨다.
+- 이번 순환의 drift는 checklist omission 정렬로 닫혔고,
+  queue / workstream / next summary와 lower-card authority 분리선은 그대로 유지한다.
