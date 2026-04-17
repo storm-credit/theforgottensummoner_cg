@@ -7142,3 +7142,61 @@ Follow-up actions:
 
 - 이 closure-watch alignment delta를 commit/push한 뒤,
   다시 같은 mainline에서 새 local drift만 국소 처리한다.
+
+## 2026-04-18 KST - Thirty-Sixth Input-Bundle Realignment Pass
+
+목적:
+
+- `Section_8_Mainline_Sync_Register.md`와
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`의
+  `Input` 목록이
+  현재 ordered cycle / checklist / sync-group bundle을 충분히 담는지 다시 확인하고,
+  input-layer omission drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local input-bundle scout
+
+Conductor action:
+
+- conductor는 `Section_8_Mainline_Sync_Register.md`가
+  sync group 표와 conductor checklist에서 이미
+  `Section_15_Profile_Template.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`,
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Subline_Register.md`,
+  `Continuous_Workstream.md`까지 current bundle에 포함하고 있음을 재확인했다.
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`도
+  ordered cycle / checklist에서 이미
+  `Coverage Matrix`, `Index/Folder`, `Anchor Map`, `Stable Candidate Profile QA`,
+  `Profile Draft Index`, `Operational Display Canon Candidates`, `Intake Structure`,
+  Ether hold cluster 3종, `Continuous_Workstream.md`,
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Subline_Register.md`를 current watch bundle에 포함하고 있었다.
+- 그런데 두 문서의 `## Input`은 여전히 예전 좁은 목록에 머물러 있어,
+  current verification bundle과 input-layer 문장이 한 단계 덜 맞춰져 있었다.
+- conductor local pass에서는
+  두 문서의 `Input`에 위 current bundle 문서들을 복원해
+  `Input / ordered cycle / checklist / sync-group`이
+  같은 mainline bundle을 다시 가리키게 맞췄다.
+
+Integrated actions:
+
+- `Section_8_Mainline_Sync_Register` / `Section_8_15_Closure_Sync_Carryover_Watch` input-bundle realignment
+- report pair / dispatch log 2026-04-18 thirty-sixth pass 반영
+
+Verification:
+
+- both documents now use `Input` lists that match the current bundle already exercised by their sync groups, ordered cycles, and checklists.
+- no new live drift was found in queue/workstream/watch/mainline-register alignment, lower-card authority separation, operational-profile carryover, or `P2 place-pressure` ownership while closing this input-layer gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 input-bundle alignment delta를 commit/push한 뒤,
+  다시 같은 mainline에서 새 local drift만 국소 처리한다.

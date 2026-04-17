@@ -19,10 +19,24 @@
 - `audit/Section_15_Stable_Candidate_8_Anchor_Index.md`
 - `audit/Section_15_Named_Notables_Status_Compass.md`
 - `audit/Section_15_Five_Continent_Closure_Table.md`
+- `audit/Section_15_Named_Notables_Coverage_Matrix.md`
+- `audit/Section_15_Index_Draft.md`
+- `audit/Section_15_Folder_Structure_Draft.md`
+- `audit/Section_15_Folder_Draft_Routing_Plan.md`
+- `audit/Section_15_Folder_Revision_Gate.md`
+- `audit/Section_15_Named_Notables_Anchor_Map.md`
+- `audit/Section_15_Stable_Candidate_Profile_QA.md`
+- `audit/Section_15_Profile_Draft_Index.md`
+- `audit/Section_15_Operational_Lines_Track.md`
+- `audit/Section_15_Operational_Display_Canon_Candidates.md`
+- `audit/Section_15_Intake_Structure.md`
 - `audit/Section_15_Actual_Draft_Package_Freeze.md`
 - `audit/Section_15_Ether_Hold_Cluster_Continuation.md`
 - `audit/Section_15_Ether_Tower_Saint_Hold_Continuation.md`
 - `audit/Section_15_Ether_Spirit_Union_Hold_Continuation.md`
+- `audit/Continuous_Workstream.md`
+- `audit/Section_15_Named_Notables_Register.md`
+- `audit/Section_15_Subline_Register.md`
 - `audit/Next_Sequential_Workstream.md`
 - `audit/Audit_Queue.md`
 

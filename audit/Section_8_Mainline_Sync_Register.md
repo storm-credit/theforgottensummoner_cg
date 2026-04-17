@@ -19,7 +19,17 @@
 - `audit/Section_8_15_Closure_Sync_Carryover_Watch.md`
 - `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 - `audit/Section_15_State_Vocabulary_Guard.md`
+- `audit/Section_15_Profile_Template.md`
 - `audit/Section_15_Stable_Candidate_8_Anchor_Index.md`
+- `audit/Section_15_Named_Notables_Coverage_Matrix.md`
+- `audit/Section_15_Folder_Revision_Gate.md`
+- `audit/Section_15_Profile_Draft_Index.md`
+- `audit/Section_15_Operational_Lines_Track.md`
+- `audit/Section_15_Operational_Display_Canon_Candidates.md`
+- `audit/Section_15_Intake_Structure.md`
+- `audit/Section_15_Named_Notables_Register.md`
+- `audit/Section_15_Subline_Register.md`
+- `audit/Continuous_Workstream.md`
 - `audit/Next_Sequential_Workstream.md`
 - `audit/Audit_Queue.md`
 

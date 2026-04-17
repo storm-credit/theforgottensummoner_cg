@@ -865,3 +865,53 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   summary / trigger / checklist가 같은 current watch bundle을 다시 가리킨다.
 - 이번 순환의 drift는 closure-watch bundle omission 정렬로 닫혔고,
   queue / workstream / mainline register와 `P2 place-pressure` owner 분리선은 그대로 유지한다.
+
+## 2026-04-18 Thirty-Sixth Input-Bundle Realignment Pass
+
+목적:
+
+- `Section_8_Mainline_Sync_Register.md`와
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`의
+  `Input` 목록이
+  현재 ordered cycle / checklist / sync-group bundle을 충분히 담는지 다시 확인하고,
+  input-layer omission drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_8_Mainline_Sync_Register.md`는
+  sync group 표와 conductor checklist에서 이미
+  `Section_15_Profile_Template.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`,
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Subline_Register.md`,
+  `Continuous_Workstream.md`까지 current bundle에 포함하고 있다.
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`도
+  ordered cycle / checklist에서 이미
+  `Coverage Matrix`, `Index/Folder`, `Anchor Map`, `Stable Candidate Profile QA`,
+  `Profile Draft Index`, `Operational Display Canon Candidates`, `Intake Structure`,
+  Ether hold cluster 3종, `Continuous_Workstream.md`, `Section_15_Named_Notables_Register.md`,
+  `Section_15_Subline_Register.md`를 current watch bundle에 포함하고 있다.
+- 그런데 두 문서의 `## Input`은 여전히 예전 좁은 목록에 머물러 있어,
+  현재 verification bundle과 input-layer 문장이 한 단계 덜 맞춰져 있었다.
+
+조치:
+
+- `Section_8_Mainline_Sync_Register.md`의 `Input`에
+  위 current sync-group/checklist bundle 문서들을 복원했다.
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`의 `Input`에도
+  ordered cycle / checklist가 실제로 쓰는
+  `Coverage Matrix`, `Index/Folder`, `Anchor/QA`, operational-profile 문서군,
+  `Continuous_Workstream.md`, `Section_15_Named_Notables_Register.md`,
+  `Section_15_Subline_Register.md`를 복원했다.
+
+의미:
+
+- `Input / ordered cycle / checklist / sync-group` 4층이
+  같은 current mainline bundle을 다시 가리킨다.
+- 이번 순환의 drift는 input-layer omission 정렬로 닫혔고,
+  queue / workstream / watch / mainline register 분리선은 그대로 유지한다.
