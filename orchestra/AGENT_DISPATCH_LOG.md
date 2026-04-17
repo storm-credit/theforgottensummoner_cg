@@ -6808,3 +6808,112 @@ Follow-up actions:
 
 - 이 minimal alignment delta를 commit/push한 뒤,
   다시 watch-only 순환으로 돌아가 새 local drift만 국소 처리한다.
+
+## 2026-04-17 KST - Thirtieth Queue Watch-Order Realignment Pass
+
+목적:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch`,
+  `Next_Sequential_Workstream`,
+  `Audit_Queue`가
+  policy carryover drift 단계에서
+  같은 reference set을 가리키는지 다시 확인하고,
+  queue snapshot 누락 drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local mainline sync scout
+
+Conductor action:
+
+- conductor는 `Section_8_15_Closure_Sync_Carryover_Watch`와
+  `Continuous_Workstream`이
+  policy carryover 단계에
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`까지 포함한다고 유지하는 것을 확인했다.
+- `Next_Sequential_Workstream`도
+  같은 두 문서를 ordered watch sequence의
+  `12`, `13`번 reference로 계속 적고 있음을 재확인했다.
+- 그런데 `Audit_Queue`의 ordered watch snapshot 4번 줄은
+  `Section_15_Index_Draft.md`,
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Folder_Revision_Gate.md`만 적고 있어
+  queue snapshot이 같은 policy carryover step을 완전히 가리키지 못하고 있었다.
+- conductor local pass에서는
+  `Audit_Queue.md` 4번 줄에
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`를 복원해
+  queue / watch / workstream reference set을 다시 같은 문장으로 맞췄다.
+
+Integrated actions:
+
+- `Audit_Queue` policy-carryover watch-order realignment
+- report pair / dispatch log 2026-04-17 thirtieth pass 반영
+
+Verification:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch`, `Continuous_Workstream`, `Next_Sequential_Workstream`, `Audit_Queue` now point to the same policy-carryover reference bundle.
+- no new live drift was found in the `P2 place-pressure` owner lane or lower-card authority separation while closing this queue-snapshot gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 queue-snapshot alignment delta를 commit/push한 뒤,
+  다시 같은 mainline에서 새 local drift만 국소 처리한다.
+
+## 2026-04-18 KST - Thirty-First Operational Display Carryover Realignment Pass
+
+목적:
+
+- `profile_format_carryover` sync group이
+  queue summary layer와 ordered watch layer에서
+  같은 document family를 가리키는지 다시 확인하고,
+  live summary omission이 있으면 바로 정리한다.
+
+배치:
+
+- conductor local operational-profile carryover scout
+
+Conductor action:
+
+- conductor는 `Section_8_Mainline_Sync_Register`의
+  `profile_format_carryover` sync group이
+  `Section_15_Operational_Display_Canon_Candidates.md`를
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Intake_Structure.md`,
+  `Section_15_Folder_Revision_Gate.md`와 함께
+  mirror bundle로 잠그고 있음을 재확인했다.
+- `Audit_Queue`의 ordered watch snapshot 5번 줄과
+  `Continuous_Workstream`,
+  `Section_8_15_Closure_Sync_Carryover_Watch`,
+  `Next_Sequential_Workstream`도
+  operational profile drift step에서
+  같은 display-canon 문서를 포함한다고 유지하고 있었다.
+- 그런데 `Audit_Queue` focus snapshot 9번 줄은
+  operational profile family를
+  `Profile_Draft_Index / Operational_Lines_Track / Intake_Structure / Folder_Revision_Gate`
+  수준으로만 적고 있어,
+  queue summary layer에서
+  `Section_15_Operational_Display_Canon_Candidates.md`가 빠져 있었다.
+- conductor local pass에서는
+  `Audit_Queue.md` focus snapshot 9번 줄에
+  `Operational_Display_Canon_Candidates`를 복원해
+  queue summary / ordered watch / sync register 기준을
+  다시 같은 문장으로 맞췄다.
+
+Integrated actions:
+
+- `Audit_Queue` operational-profile carryover bundle realignment
+- report pair / dispatch log 2026-04-18 thirty-first pass 반영
+
+Verification:
+
+- `Audit_Queue` focus snapshot and ordered watch snapshot now point to the same operational-profile document family as `profile_format_carryover`.
+- no new live drift was found in `subline_profile_authority`, lower-card authority separation, or `P2 place-pressure` ownership while closing this summary-layer gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 operational-profile summary alignment delta를 commit/push한 뒤,
+  다시 같은 mainline에서 새 local drift만 국소 처리한다.

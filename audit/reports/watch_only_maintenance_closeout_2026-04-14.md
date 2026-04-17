@@ -588,3 +588,90 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 
 - structure vocabulary와 mainline sync 기준이 다시 같은 문장 층으로 맞춰졌다.
 - `P2 place-pressure` owner는 계속 sidecar/register authority에만 남긴다.
+
+## 2026-04-17 Thirtieth Queue Watch-Order Realignment Pass
+
+목적:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`가
+  policy carryover 점검 단계에서
+  같은 문서 묶음을 가리키는지 다시 확인하고,
+  queue snapshot 누락 drift가 있으면 바로 맞춘다.
+
+확인 결과:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`와
+  `Continuous_Workstream.md`는
+  policy carryover 단계에
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`까지 포함한다고 잠그고 있다.
+- `Next_Sequential_Workstream.md`도
+  같은 두 문서를 ordered watch sequence의
+  `12`, `13`번 reference로 유지하고 있다.
+- 그런데 `Audit_Queue.md`의 ordered watch snapshot 4번 줄은
+  같은 단계에서
+  `Section_15_Index_Draft.md`,
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Folder_Revision_Gate.md`만 적고 있어
+  policy carryover queue snapshot이 한 단계 덜 잠겨 있었다.
+
+조치:
+
+- `Audit_Queue.md` ordered watch snapshot 4번 줄에
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`를 복원해
+  closure watch / continuous workstream / next sequential과 같은 묶음으로 다시 맞췄다.
+
+의미:
+
+- `queue / watch / workstream` 3축이
+  policy carryover drift 단계에서 같은 reference set을 다시 가리킨다.
+- 이번 순환의 live drift는 queue snapshot 한 줄 정렬로 닫혔고,
+  `P2 place-pressure` owner와 lower-card authority 분리선은 그대로 유지한다.
+
+## 2026-04-18 Thirty-First Operational Display Carryover Realignment Pass
+
+목적:
+
+- `profile_format_carryover` sync group이
+  queue 요약층과 ordered watch 층에서
+  같은 document family를 가리키는지 다시 확인하고,
+  live summary omission이 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_8_Mainline_Sync_Register.md`의
+  `profile_format_carryover` sync group은
+  `Section_15_Operational_Display_Canon_Candidates.md`를
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Intake_Structure.md`,
+  `Section_15_Folder_Revision_Gate.md`와 함께
+  mirror doc으로 고정하고 있다.
+- `Audit_Queue.md` ordered watch snapshot 5번 줄과
+  `Continuous_Workstream.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Next_Sequential_Workstream.md`도
+  operational profile 점검 단계에서
+  같은 display-canon 문서를 포함하고 있다.
+- 그런데 `Audit_Queue.md` focus snapshot 9번 줄만
+  operational profile family를
+  `Profile_Draft_Index / Operational_Lines_Track / Intake_Structure / Folder_Revision_Gate`
+  수준으로만 적고 있어,
+  queue summary layer에서 `Operational_Display_Canon_Candidates`가 빠져 있었다.
+
+조치:
+
+- `Audit_Queue.md` focus snapshot 9번 줄에
+  `Operational_Display_Canon_Candidates`를 복원해
+  `profile_format_carryover` sync group과
+  queue summary / queue ordered watch / register 기준을 다시 같은 문장으로 맞췄다.
+
+의미:
+
+- `Audit_Queue`가 operational profile family를
+  summary 층과 ordered watch 층 모두에서 같은 document bundle로 다시 가리킨다.
+- 이번 순환에서도 drift는 queue local summary omission 한 줄로 닫혔고,
+  lower-card authority와 `P2 place-pressure` owner 분리선은 그대로 유지한다.

@@ -24,7 +24,7 @@
 6. `Section_8_Status_Vocabulary_Guard.md`, `Section_15_State_Vocabulary_Guard.md` 기준으로 status vocabulary drift 제거
 7. `Section_8_Mainline_Sync_Register.md` 기준으로 sync group drift 제거
 8. 카드층 `Policy Guard`의 guard family / carryover direction이 `Section 15`의 status / index / folder / routing 문서까지 같은 해석선으로 유지되는지 확인
-9. operational profile layer의 `3-1. Policy Guard` 형식이 `Profile_Draft_Index / Operational_Lines_Track / Intake_Structure / Folder_Revision_Gate`에서 같은 규칙으로 유지되는지 확인
+9. operational profile layer의 `3-1. Policy Guard` 형식이 `Profile_Draft_Index / Operational_Lines_Track / Operational_Display_Canon_Candidates / Intake_Structure / Folder_Revision_Gate`에서 같은 규칙으로 유지되는지 확인
 10. 상위 summary / bridge / queue 문서가 lower-card authority를 재정의하지 않고,
    operational profile의 `3-1. Policy Guard`를 참조만 하는지 확인
 11. operational middle-layer (`Group Index / Group Draft / Subline Register / Subline Draft`)의 wording-source sync가 닫힌 상태로 유지되는지 확인
@@ -54,7 +54,7 @@
 1. `Section_8_Normalization_Status_Compass.md` 기준 `root / structure / mismatch / P2 handoff` snapshot 상태를 먼저 확인
 2. `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Coverage_Matrix.md`의 summary wording drift 점검
 3. `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`의 carryover wording drift 점검
-4. `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`의 policy carryover drift 점검
+4. `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`, `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Stable_Candidate_Profile_QA.md`의 policy carryover drift 점검
 5. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`의 operational profile `3-1. Policy Guard` drift 점검은 2026-04-13 KST spot-check 기준 닫힌 상태로 유지한다
 6. Ether hold cluster closure와 `source_check_hold / hold reference split`, `deferred_expansion_hold / hold reference split` separation 유지
 7. `P2 place-pressure handoff owner`를 sidecar/register로 고정 유지하고, `section_style_forced_on_place_network`는 Section 8 risk label로만 둔다
