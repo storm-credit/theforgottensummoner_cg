@@ -124,6 +124,7 @@
 - 2026-04-16 twenty-second pass lowered remaining current-edit wording around `Extracted_Item_Candidates.md` to `separate tracking artifact / do not edit directly` wording across queue, item side-track, pipeline, source map, and skeleton docs
 - 2026-04-16 twenty-third pass clarified `Audit_Queue` risk snapshot wording so legacy root / broken-name quarantine root / 14-8 naming-conflict notes describe the actual deferred-risk state instead of sounding like an active routing failure
 - 2026-04-16 twenty-fourth pass clarified the remaining `Audit_Queue` risk memo lines so Section 14 relationship free-prose risk, house/tribe/guild flattening risk, and Aether-family notation spread all read as guarded deferred-risk states rather than active workflow drift
+- 2026-04-17 twenty-fifth pass confirmed auxiliary progress docs, `OPEN_INDEX`, runbook, and setting-book hubs already defer to the current watch-only authority chain; no source prose patch was needed
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

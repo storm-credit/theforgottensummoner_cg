@@ -443,3 +443,27 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 
 - risk snapshot은 구조 경고를 유지하되,
   현재 live workflow가 guard 없이 열려 있다는 뜻으로 읽지 않는다.
+
+## 2026-04-17 Twenty-Fifth Auxiliary Progress Stability Pass
+
+목적:
+
+- auxiliary progress docs와 hub/index 계층이
+  현재 watch-only authority chain을 덮어쓰지 않는지 확인한다.
+
+확인 결과:
+
+- `Today_Workstream.md`는 historical record로 자가 표시되어 있고,
+  current 기준은 `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`라고 명시한다.
+- `OPEN_INDEX.md`는 queue / track / backlog 이름을
+  active state 선언으로 바로 읽지 말라고 안내한다.
+- runbook과 side planning docs는 topic-specific lock / planning mode로 남아 있으며,
+  current mainline을 재정의하지 않는다.
+- setting-book hubs는 first draft complete / controlled refinement 상태를 유지한다.
+
+의미:
+
+- 이번 pass에서는 source prose patch가 필요하지 않았다.
+- 다음 순환도 watch-only mainline에서 새 drift가 잡힐 때만 국소 수정한다.

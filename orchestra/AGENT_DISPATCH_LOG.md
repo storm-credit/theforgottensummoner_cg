@@ -6584,3 +6584,41 @@ Follow-up actions:
 
 - 이 clarification delta를 commit/push한 뒤,
   다시 watch-only 순환으로 돌아가 새 drift만 국소 처리한다.
+
+## 2026-04-17 KST - Twenty-Fifth Auxiliary Progress Stability Pass
+
+목적:
+
+- current watch-only mainline 밖의 auxiliary progress docs가
+  stale active-work queue로 오해될 위험이 있는지 점검한다.
+
+배치:
+
+- Avicenna: auxiliary progress / old runbook / side planning confusion scout
+- Kant: `OPEN_INDEX` / setting-book hub routing scout
+- conductor local verification pass
+
+Conductor action:
+
+- `Avicenna`은 `Today_Workstream.md`가 historical로 자가 표시되어 있고,
+  older runbook과 side planning docs도 current authority chain을 덮어쓰지 않는다고 확인했다.
+- `Kant`는 `OPEN_INDEX.md`와 setting-book hubs가
+  current watch-only mainline / controlled refinement state를 제대로 가리킨다고 확인했다.
+- conductor local pass에서도 branch clean / push parity를 확인했고,
+  source prose patch 없이 no-change stability result로 기록한다.
+
+Integrated actions:
+
+- auxiliary-progress no-change stability confirmation
+- report pair / dispatch log 2026-04-17 twenty-fifth pass 반영
+
+Verification:
+
+- `git status --short` was clean before this log-only delta.
+- branch parity was `0 0` before this log-only delta.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  다시 watch-only 순환으로 돌아가 새 drift만 국소 처리한다.
