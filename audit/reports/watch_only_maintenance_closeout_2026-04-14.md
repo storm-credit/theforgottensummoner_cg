@@ -727,3 +727,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   같은 mainline bundle을 다시 가리킨다.
 - 이번 순환의 drift는 workstream reference-set omission 정렬로 닫혔고,
   queue / watch / lower-card authority / `P2 place-pressure` owner 분리선은 그대로 유지한다.
+
+## 2026-04-18 Thirty-Third Policy-Family Summary Realignment Pass
+
+목적:
+
+- `Audit_Queue.md`,
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`의
+  policy-carryover summary 문장이
+  current policy family 전체를 같은 해석선으로 가리키는지 다시 확인하고,
+  summary shorthand 누락 drift가 있으면 한 번에 정리한다.
+
+확인 결과:
+
+- 세 문서 모두 ordered watch / ordered cycle에서는 이미
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`를
+  policy carryover 단계의 current live 문서로 포함하고 있다.
+- 그런데 summary 층에서는
+  `status/index/folder/routing` 또는
+  `summary/index/folder/routing` 수준의 shorthand만 남아 있어,
+  anchor-map / stable-candidate-QA가
+  current policy family에서 한 단계 덜 드러나는 문장 차이가 남아 있었다.
+
+조치:
+
+- `Audit_Queue.md` focus snapshot 8번,
+  `Continuous_Workstream.md` mainline lock 7번,
+  `Next_Sequential_Workstream.md` locked state snapshot 6번을
+  `status/index/folder/routing/anchor-map/stable-candidate-QA`
+  또는 대응되는 summary 표현까지 포함한 문장으로 맞춰,
+  summary 층과 ordered-watch 층이 같은 policy family를 다시 가리키게 했다.
+
+의미:
+
+- queue / workstream / next-sequence summary 문장이
+  같은 policy-carryover family를 다시 가리킨다.
+- 이번 순환의 drift는 summary shorthand omission 정렬로 닫혔고,
+  lower-card authority / operational profile / `P2 place-pressure` owner 분리선은 그대로 유지한다.

@@ -24,7 +24,7 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 4. `Section 8 -> 15` carryover는 `structure label`, `hold state`, `place pressure`를 서로 덮어쓰지 않게 유지한다.
 5. `P2 place-pressure handoff` owner는 candidate index가 아니라 sidecar/register에만 둔다.
 6. `stable triad package`, `source_check_hold / hold reference split`, `deferred_expansion_hold / hold reference split`, Ether hold cluster는 서로 다른 층으로 유지한다.
-7. 카드층 `Policy Guard`와 `Section 15` status/index/folder/routing 문서의 family-level carryover 문장을 같은 해석선으로 유지한다.
+7. 카드층 `Policy Guard`와 `Section 15` status/index/folder/routing/anchor-map/stable-candidate-QA 문서의 family-level carryover 문장을 같은 해석선으로 유지한다.
 8. canonical state와 prose carryover guard는 같은 것이 아니며, 둘을 서로 대체하지 않는다.
 9. operational profile layer는 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한 채 상위 watch 문서와 연결한다.
 10. 상위 summary / bridge / queue는 lower-card authority를 요약만 하고,

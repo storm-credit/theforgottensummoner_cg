@@ -23,7 +23,7 @@
 5. `Section_8_Normalization_Status_Compass.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`의 본선 reference 문구를 맞추기
 6. `Section_8_Status_Vocabulary_Guard.md`, `Section_15_State_Vocabulary_Guard.md` 기준으로 status vocabulary drift 제거
 7. `Section_8_Mainline_Sync_Register.md` 기준으로 sync group drift 제거
-8. 카드층 `Policy Guard`의 guard family / carryover direction이 `Section 15`의 status / index / folder / routing 문서까지 같은 해석선으로 유지되는지 확인
+8. 카드층 `Policy Guard`의 guard family / carryover direction이 `Section 15`의 status / index / folder / routing / anchor-map / stable-candidate-QA 문서까지 같은 해석선으로 유지되는지 확인
 9. operational profile layer의 `3-1. Policy Guard` 형식이 `Profile_Draft_Index / Operational_Lines_Track / Operational_Display_Canon_Candidates / Intake_Structure / Folder_Revision_Gate`에서 같은 규칙으로 유지되는지 확인
 10. 상위 summary / bridge / queue 문서가 lower-card authority를 재정의하지 않고,
    operational profile의 `3-1. Policy Guard`를 참조만 하는지 확인
