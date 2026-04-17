@@ -7296,3 +7296,56 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   다시 같은 mainline에서 다른 live omission 패턴이 있는지 국소 탐색을 이어간다.
+
+## 2026-04-18 KST - Thirty-Ninth State-Vocabulary Input Realignment Pass
+
+목적:
+
+- `Section_15_State_Vocabulary_Guard.md`의
+  `Input` 목록이
+  현재 이 문서가 직접 참조하는 card/profile/display/intake/subline family를
+  충분히 담는지 다시 확인하고,
+  state-vocabulary input drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local state-vocabulary input scout
+
+Conductor action:
+
+- conductor는 `Section_15_State_Vocabulary_Guard.md`가 본문 규칙에서 이미
+  `Section_15_Profile_Template.md`,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Subline_Register.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`까지
+  current state / guard family의 reference layer로 사용하고 있음을 재확인했다.
+- 그런데 `## Input`은 여전히
+  register / anchor / status / freeze / synthesis 중심의 좁은 목록에 머물러 있어,
+  current rule bundle과 input layer가 한 단계 덜 맞춰져 있었다.
+- conductor local pass에서는
+  `Section_15_State_Vocabulary_Guard.md`의 `Input`에
+  `Coverage Matrix`, `Profile Template`, `Profile Draft Index`,
+  `Operational Lines`, `Operational Display Canon Candidates`,
+  `Intake Structure`, `Folder Revision Gate`, `Subline Register`
+  문서들을 복원해
+  input layer와 current rule bundle을 다시 같은 기준으로 맞췄다.
+
+Integrated actions:
+
+- `Section_15_State_Vocabulary_Guard` input-bundle realignment
+- report pair / dispatch log 2026-04-18 thirty-ninth pass 반영
+
+Verification:
+
+- `Section_15_State_Vocabulary_Guard` now uses an input list that matches the current live state/guard rule family.
+- no new live drift was found in shorthand, queue/workstream/watch alignment, mainline sync, closure sync, or `P2 place-pressure` ownership while closing this state-vocabulary input gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 state-vocabulary input alignment delta를 commit/push한 뒤,
+  다시 같은 mainline에서 다른 live omission 패턴을 국소 탐색한다.
