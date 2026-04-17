@@ -6714,3 +6714,51 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   다시 watch-only 순환으로 돌아가 새 drift만 국소 처리한다.
+
+## 2026-04-17 KST - Twenty-Eighth P2 Place-Pressure Owner Stability Pass
+
+목적:
+
+- `P2 place-pressure handoff owner`가
+  sidecar/register authority 안에만 머무는지,
+  candidate-index / summary / queue / watch 문서가
+  이를 다시 정의하지 않는지 확인한다.
+
+배치:
+
+- conductor local narrow-lane scout
+
+Conductor action:
+
+- conductor는 `Section_8_Place_Network_Handoff_Map`에서
+  `바다의 교단`, `오로라 평원`, `빙하의 성소`, `본 마켓` 계열,
+  `잊힌 자들의 연합`의 주 기록처가
+  각 `Section_15_*_Place_Institution_Sidecar` 또는
+  `FS_Place_Function_Register`로 잠겨 있음을 재확인했다.
+- `Section_8_Normalization_Status_Compass`,
+  `Section_8_15_Closure_Sync_Carryover_Watch`,
+  `Audit_Queue`는 모두
+  `P2 place-pressure handoff owner`를 sidecar/register로만 유지하고,
+  candidate-index나 summary 계층의 재정의를 drift trigger로 본다고 일치했다.
+- `Section_15_Stable_Candidate_8_Anchor_Index`는
+  자신이 `Section 8 P2 place-pressure owner`를 가져오지 않고
+  route/reference만 유지한다고 명시하고 있어,
+  current candidate-index layer에서의 owner drift는 보이지 않았다.
+- 이번 순환은 source prose patch 없이
+  no-change stability result로만 기록한다.
+
+Integrated actions:
+
+- P2 place-pressure owner no-change stability confirmation
+- report pair / dispatch log 2026-04-17 twenty-eighth pass 반영
+
+Verification:
+
+- no actionable live drift was found in the `P2 place-pressure handoff owner` lane.
+- sidecar/register authority remains primary, and candidate-index / summary / queue / watch docs do not redefine ownership.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  다시 watch-only 순환으로 돌아가 새 drift만 국소 처리한다.

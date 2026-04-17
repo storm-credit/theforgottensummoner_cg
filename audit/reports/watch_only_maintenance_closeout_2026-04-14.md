@@ -521,3 +521,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 
 - 이번 pass에서도 source prose patch는 필요하지 않았다.
 - 다음 순환은 동일 mainline에서 새 wording drift가 실제로 생길 때만 국소 재개한다.
+
+## 2026-04-17 Twenty-Eighth P2 Place-Pressure Owner Stability Pass
+
+목적:
+
+- `P2 place-pressure handoff owner`가
+  여전히 sidecar/register 권한선에만 머무르고,
+  candidate-index / summary / queue / watch 문서가 이를 재정의하지 않는지 확인한다.
+
+확인 결과:
+
+- `Section_8_Place_Network_Handoff_Map`은
+  각 후보의 주 기록처를 `Section_15_*_Place_Institution_Sidecar` 또는
+  `FS_Place_Function_Register`로 잠그고,
+  다른 문서는 reference/support로만 받는다고 유지한다.
+- `Section_8_Normalization_Status_Compass`는
+  `place-pressure handoff = applied_round1`로 유지하면서,
+  현재 mainline 확인 항목을
+  `sidecar/register에서 drift 없이 유지되는지`로만 적고 있다.
+- `Section_8_15_Closure_Sync_Carryover_Watch`는
+  `P2 place-pressure handoff`의 주 기록처가 candidate index가 아니라
+  sidecar/register라고 직접 고정하고,
+  owner가 바깥 문서에서 재정의되는 경우만 drift trigger로 본다.
+- `Audit_Queue`도 현재 focus snapshot과 ordered watch snapshot에서
+  같은 권한선을 반복해 적고 있다.
+- `Section_15_Stable_Candidate_8_Anchor_Index`는
+  자신이 `Section 8 P2 place-pressure owner`를 가져오지 않고
+  route/reference만 유지한다고 명시한다.
+
+의미:
+
+- 이번 pass에서도 source prose patch는 필요하지 않았다.
+- 다음 순환은 계속 같은 watch-only mainline에서
+  owner가 candidate-index나 summary 계층으로 새어 나오는 실제 drift가 생길 때만 국소 재개한다.
