@@ -13,6 +13,8 @@
 operational closure status reading은
 `Section_15_Operational_Lines_Track.md`,
 `Section_15_Operational_Display_Canon_Candidates.md`,
+`Section_15_Profile_Draft_Index.md`,
+`Section_15_Subline_Register.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 

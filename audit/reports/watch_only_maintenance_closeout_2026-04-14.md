@@ -1505,3 +1505,45 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 guard family에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-18 Fifty-Second Operational-Source-Line Realignment Pass
+
+목적:
+
+- `Section_15_Group_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`의
+  `기준으로 읽는다` source line이
+  현재 실제 body에서 쓰는 profile/subline reading family를
+  충분히 담고 있는지 다시 확인하고,
+  operational source-line drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- 세 문서는 모두 본문에서 이미
+  downstream `Section_15_Profile_*`와 `Section_15_Subline_Profile_*`,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Subline_Register.md`를
+  lower-card authority / representative subline closure 추적축으로 사용하고 있다.
+- 그런데 상단 source line은 아직
+  `Group Index / Operational Track / Display / Continuous`
+  정도의 좁은 묶음에 머물러 있어,
+  실제 profile/subline reading family가 한 단계 덜 드러나 있었다.
+
+조치:
+
+- `Section_15_Group_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`의
+  source line에
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Subline_Register.md`를 추가해
+  source line과 current operational reading bundle을 같은 기준으로 다시 맞췄다.
+
+의미:
+
+- operational middle-layer 문서들 내부에서
+  source line과 live reading bundle이
+  profile/subline authority family까지 같은 문서군을 가리킨다.
+- 이번 순환의 drift는 operational source-line omission 정렬로 닫혔고,
+  guard-family / checkpoint-family no-change 기준은 그대로 유지한다.

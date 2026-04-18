@@ -9,6 +9,8 @@
 이 track은 current watch state나 hold/reference 상태 판단을 직접 소유하지 않고,
 `Section_15_Operational_Display_Canon_Candidates.md`,
 `Section_15_Group_Index.md`,
+`Section_15_Profile_Draft_Index.md`,
+`Section_15_Subline_Register.md`,
 `Continuous_Workstream.md`
 기준을 필요할 때 mirror해서 읽는다.
 

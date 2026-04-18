@@ -7965,3 +7965,57 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 guard family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-18 KST - Fifty-Second Operational-Source-Line Realignment Pass
+
+목적:
+
+- `Section_15_Group_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`의
+  `기준으로 읽는다` source line이
+  현재 실제 body에서 쓰는 profile/subline reading family를
+  충분히 담고 있는지 다시 확인하고,
+  operational source-line drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local operational source-line scout
+
+Conductor action:
+
+- conductor는 세 middle-layer 문서가 모두 본문에서 이미
+  downstream `Section_15_Profile_*`와 `Section_15_Subline_Profile_*`,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Subline_Register.md`를
+  lower-card authority / representative subline closure 추적축으로 사용하고 있음을 재확인했다.
+- 그런데 상단 source line은 아직
+  `Group Index / Operational Track / Display / Continuous`
+  정도의 좁은 묶음에 머물러 있어,
+  실제 profile/subline reading family가 한 단계 덜 드러나 있었다.
+- conductor local pass에서는
+  `Section_15_Group_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`의
+  source line에
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Subline_Register.md`를 추가해
+  source line과 current operational reading bundle을 같은 기준으로 다시 맞췄다.
+
+Integrated actions:
+
+- `Section_15_Group_Index` source-line realignment
+- `Section_15_Operational_Lines_Track` source-line realignment
+- `Section_15_Operational_Display_Canon_Candidates` source-line realignment
+- report pair / dispatch log 2026-04-18 fifty-second pass 반영
+
+Verification:
+
+- all three operational middle-layer docs now point at the same profile/subline authority family already used by their live bodies.
+- no new live drift was found in guard-family, checkpoint-family, or `P2 place-pressure` ownership while closing this operational source-line gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 operational source-line alignment delta를 commit/push한 뒤,
+  같은 middle-layer family에서 no-change stability sweep을 다시 돈다.
