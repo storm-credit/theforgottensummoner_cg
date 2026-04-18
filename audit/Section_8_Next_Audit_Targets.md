@@ -64,9 +64,13 @@
 
 - `Section_8_Normalization_Status_Compass.md`
 - `Section_8_Mainline_Sync_Register.md`
+- `Section_8_Root_Corruption_First_Pass_A.md`
+- `Section_8_Root_Subtree_Sampling_Queue.md`
+- `Section_8_Place_Network_Handoff_Map.md`
 - `Section_8_to_15_Notable_Anchor_Bridge.md`
 - `Section_15_Stable_Candidate_8_Anchor_Index.md`
 - `Section_8_15_Closure_Sync_Carryover_Watch.md`
+- `Five_Continent_Missing_Layer_Master_Lock.md`
 
 신규 감사 재개 시 참고 문서:
 
@@ -95,5 +99,6 @@ reference backlog 상태:
 - `P2 section_style_forced_on_place_network`는 `Section_8_Place_Network_P2_Queue.md`와 `Section_8_Place_Network_Handoff_Map.md` 기준 handoff drift watch로만 유지한다.
 - `Section_8_Status_Vocabulary_Guard.md`는 `mixed_keep`, `section_style_reclassify`, `mismatch_clear`, `watch_keep`, `handoff_applied` 상태어를 같은 의미로 유지하는 기준표로 사용한다.
 - `Section_8_Mainline_Sync_Register.md`는 구조 라벨, mismatch, root, handoff, 진행표가 같은 현재 시점을 가리키는지 확인하는 장부로 사용한다.
+- `Five_Continent_Missing_Layer_Master_Lock.md`는 `결손층 5개`의 thin/support, evidence, firewall 순서를 현재 본선 바깥 component shorthand로 재해석하지 않게 막는 단일 entry authority로 사용한다.
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는 닫힌 subline 교차감사 샘플로 보고, 새 drift가 생길 때만 해당 pair를 국소 재대조한다.
 - 현재 시점의 메인 유지선은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 closure sync / watch-reference다.

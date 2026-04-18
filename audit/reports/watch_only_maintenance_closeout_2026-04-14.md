@@ -1395,3 +1395,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 family에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-18 Forty-Ninth Next-Targets Reference-Action Realignment Pass
+
+목적:
+
+- `Section_8_Next_Audit_Targets.md`의
+  `Reference Action Map`이
+  현재 본문이 직접 유지선으로 읽는
+  root_corruption / P2 handoff / master-lock authority를
+  current docs 쪽에 충분히 반영하는지 다시 확인하고,
+  next-targets reference-action drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_8_Next_Audit_Targets.md`는 본문 verdict와 backlog rule에서 이미
+  `Section_8_Root_Corruption_First_Pass_A.md`,
+  `Section_8_Root_Subtree_Sampling_Queue.md`,
+  `Section_8_Place_Network_Handoff_Map.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md`를
+  현재 watch-reference 유지선으로 사용하고 있다.
+- 그런데 `Reference Action Map`의 `현재 유지 문서`는 아직
+  normalization / mainline sync / bridge / stable-anchor / closure-watch 중심에 머물러 있어,
+  root/P2/master-lock authority가 current docs 층에서 한 단계 덜 드러나 있었다.
+
+조치:
+
+- `Section_8_Next_Audit_Targets.md`의 `현재 유지 문서`에
+  `Root Corruption First Pass`, `Root Subtree Sampling Queue`,
+  `Place Network Handoff Map`, `Five Continent Missing Layer Master Lock`를 추가하고,
+  backlog rule에도 master-lock single-entry authority 문장을 명시해
+  current/reference 구분을 같은 기준으로 다시 맞췄다.
+
+의미:
+
+- next-audit-targets 문서 내부에서
+  current docs와 reference backlog가
+  root / P2 handoff / master-lock authority를 현재 본선 기준으로 더 정확히 나눈다.
+- 이번 순환의 drift는 next-targets reference-action omission 정렬로 닫혔고,
+  checkpoint-family no-change 기준은 그대로 유지한다.

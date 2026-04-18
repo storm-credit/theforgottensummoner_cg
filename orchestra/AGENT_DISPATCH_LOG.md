@@ -7817,3 +7817,52 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-18 KST - Forty-Ninth Next-Targets Reference-Action Realignment Pass
+
+목적:
+
+- `Section_8_Next_Audit_Targets.md`의
+  `Reference Action Map`이
+  현재 본문이 직접 유지선으로 읽는
+  root_corruption / P2 handoff / master-lock authority를
+  current docs 쪽에 충분히 반영하는지 다시 확인하고,
+  next-targets reference-action drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local next-targets reference-action scout
+
+Conductor action:
+
+- conductor는 `Section_8_Next_Audit_Targets.md`가 본문 verdict와 backlog rule에서 이미
+  `Section_8_Root_Corruption_First_Pass_A.md`,
+  `Section_8_Root_Subtree_Sampling_Queue.md`,
+  `Section_8_Place_Network_Handoff_Map.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md`를
+  현재 watch-reference 유지선으로 사용하고 있음을 재확인했다.
+- 그런데 `Reference Action Map`의 `현재 유지 문서`는 아직
+  normalization / mainline sync / bridge / stable-anchor / closure-watch 중심에 머물러 있어,
+  root/P2/master-lock authority가 current docs 층에서 한 단계 덜 드러나 있었다.
+- conductor local pass에서는
+  `Section_8_Next_Audit_Targets.md`의 `현재 유지 문서`에
+  `Root Corruption First Pass`, `Root Subtree Sampling Queue`,
+  `Place Network Handoff Map`, `Five Continent Missing Layer Master Lock`를 추가하고,
+  backlog rule에도 master-lock single-entry authority 문장을 명시해
+  current/reference 구분을 같은 기준으로 다시 맞췄다.
+
+Integrated actions:
+
+- `Section_8_Next_Audit_Targets` reference-action realignment
+- report pair / dispatch log 2026-04-18 forty-ninth pass 반영
+
+Verification:
+
+- `Section_8_Next_Audit_Targets` now keeps current root/P2/master-lock authority on the active-doc side instead of leaving it implicit in backlog prose.
+- no new live drift was found in checkpoint-family queue/workstream/watch alignment, state-vocabulary, or `P2 place-pressure` ownership while closing this next-targets gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 next-targets alignment delta를 commit/push한 뒤,
+  같은 주변 guard family에 residual omission이 더 남았는지 이어서 본다.
