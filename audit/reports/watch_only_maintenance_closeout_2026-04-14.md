@@ -1069,3 +1069,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   input layer와 live anchor reading family가 같은 문서군을 다시 가리킨다.
 - 이번 순환의 drift는 stable-anchor input omission 정렬로 닫혔고,
   state-vocabulary / watch / checklist / queue / workstream 정렬선은 그대로 유지한다.
+
+## 2026-04-18 Forty-First State-Vocabulary Residual Input Realignment Pass
+
+목적:
+
+- `Section_15_State_Vocabulary_Guard.md`의
+  `Input` 목록이
+  현재 live rule에서 직접 참조하는
+  folder / routing / stable-candidate-QA / named-card-template family까지
+  끝까지 담고 있는지 다시 확인하고,
+  residual input drift가 남아 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_15_State_Vocabulary_Guard.md`는 본문 규칙에서 이미
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`,
+  `Section_15_Named_Notable_Template.md`까지
+  현재 state-vocabulary authority bundle의 reference layer로 사용하고 있다.
+- 그런데 `## Input`은 아직
+  profile/display/intake/subline 확장까지만 반영된 상태라,
+  folder / routing / QA / named-card-template 쪽 residual authority가
+  한 단계 덜 적혀 있었다.
+
+조치:
+
+- `Section_15_State_Vocabulary_Guard.md`의 `Input`에
+  `Folder Structure Draft`, `Folder Draft Routing Plan`,
+  `Stable Candidate Profile QA`, `Named Notable Template`를 추가해
+  input layer와 current state-vocabulary authority bundle을 같은 기준으로 다시 맞췄다.
+
+의미:
+
+- state-vocabulary 장부 내부에서
+  input layer와 live authority bundle이
+  folder / routing / QA / template family까지 같은 문서군을 가리킨다.
+- 이번 순환의 drift는 state-vocabulary residual input omission 정렬로 닫혔고,
+  stable-anchor / watch / checklist / queue / workstream 정렬선은 그대로 유지한다.

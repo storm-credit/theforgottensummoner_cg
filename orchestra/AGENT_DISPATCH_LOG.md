@@ -7402,3 +7402,52 @@ Follow-up actions:
 
 - 이 stable-anchor input alignment delta를 commit/push한 뒤,
   다시 같은 mainline에서 다른 live omission 패턴을 국소 탐색한다.
+
+## 2026-04-18 KST - Forty-First State-Vocabulary Residual Input Realignment Pass
+
+목적:
+
+- `Section_15_State_Vocabulary_Guard.md`의
+  `Input` 목록이
+  현재 live rule에서 직접 참조하는
+  folder / routing / stable-candidate-QA / named-card-template family까지
+  끝까지 담고 있는지 다시 확인하고,
+  residual input drift가 남아 있으면 바로 정리한다.
+
+배치:
+
+- conductor local state-vocabulary residual input scout
+
+Conductor action:
+
+- conductor는 `Section_15_State_Vocabulary_Guard.md`가 본문 규칙에서 이미
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`,
+  `Section_15_Named_Notable_Template.md`까지
+  현재 state-vocabulary authority bundle의 reference layer로 사용하고 있음을 재확인했다.
+- 그런데 `## Input`은 아직
+  profile/display/intake/subline 확장까지만 반영된 상태라,
+  folder / routing / QA / named-card-template 쪽 residual authority가
+  한 단계 덜 적혀 있었다.
+- conductor local pass에서는
+  `Section_15_State_Vocabulary_Guard.md`의 `Input`에
+  `Folder Structure Draft`, `Folder Draft Routing Plan`,
+  `Stable Candidate Profile QA`, `Named Notable Template`를 추가해
+  input layer와 current state-vocabulary authority bundle을 같은 기준으로 다시 맞췄다.
+
+Integrated actions:
+
+- `Section_15_State_Vocabulary_Guard` residual input-bundle realignment
+- report pair / dispatch log 2026-04-18 forty-first pass 반영
+
+Verification:
+
+- `Section_15_State_Vocabulary_Guard` now uses an input list that matches the current folder/routing/QA/template authority family as well as the previously restored profile/display/intake/subline family.
+- no new live drift was found in stable-anchor, shorthand, queue/workstream/watch alignment, mainline sync, closure sync, or `P2 place-pressure` ownership while closing this residual state-vocabulary input gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 state-vocabulary residual input alignment delta를 commit/push한 뒤,
+  다시 같은 mainline에서 다른 live omission 패턴을 국소 탐색한다.

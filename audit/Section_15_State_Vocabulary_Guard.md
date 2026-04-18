@@ -18,11 +18,15 @@
 - `audit/Section_15_Five_Continent_Closure_Table.md`
 - `audit/Section_15_Named_Notables_Continent_Synthesis.md`
 - `audit/Section_15_Named_Notables_Coverage_Matrix.md`
+- `audit/Section_15_Stable_Candidate_Profile_QA.md`
 - `audit/Section_15_Profile_Template.md`
+- `audit/Section_15_Named_Notable_Template.md`
 - `audit/Section_15_Profile_Draft_Index.md`
 - `audit/Section_15_Operational_Lines_Track.md`
 - `audit/Section_15_Operational_Display_Canon_Candidates.md`
 - `audit/Section_15_Intake_Structure.md`
+- `audit/Section_15_Folder_Structure_Draft.md`
+- `audit/Section_15_Folder_Draft_Routing_Plan.md`
 - `audit/Section_15_Folder_Revision_Gate.md`
 - `audit/Section_15_Subline_Register.md`
 - `audit/Section_8_to_15_Notable_Anchor_Bridge.md`
