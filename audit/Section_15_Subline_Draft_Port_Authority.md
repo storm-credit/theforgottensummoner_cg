@@ -3,6 +3,14 @@
 이 문서는 `항구 감독관 / 지부장 / 도시 조정관 계열` 아래에서
 유효한 파생 라인을 따로 잡아두는 초안이다.
 
+subline draft reading은
+`Section_15_Group_Index.md`,
+`Section_15_Operational_Lines_Track.md`,
+`Section_15_Profile_Draft_Index.md`,
+`Section_15_Subline_Register.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Parent Line
 
 - `Section_15_Profile_Port_Coordinator_Line.md`

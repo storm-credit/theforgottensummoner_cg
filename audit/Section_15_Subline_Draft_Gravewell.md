@@ -3,6 +3,14 @@
 이 문서는 `네크로 우물 현장 연락책 계열` 아래에서
 묘지 연락망을 더 잘게 보는 초안이다.
 
+subline draft reading은
+`Section_15_Group_Index.md`,
+`Section_15_Operational_Lines_Track.md`,
+`Section_15_Profile_Draft_Index.md`,
+`Section_15_Subline_Register.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Parent Line
 
 - `Section_15_Profile_Gravewell_Contact_Line.md`

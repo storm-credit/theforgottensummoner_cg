@@ -3,6 +3,14 @@
 이 문서는 `블랙리스트 기록관 계열` 아래에서
 장기 관계 서사에 강한 파생 라인을 분리해두는 초안이다.
 
+subline draft reading은
+`Section_15_Group_Index.md`,
+`Section_15_Operational_Lines_Track.md`,
+`Section_15_Profile_Draft_Index.md`,
+`Section_15_Subline_Register.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Parent Line
 
 - `Section_15_Profile_Blacklist_Warden_Line.md`

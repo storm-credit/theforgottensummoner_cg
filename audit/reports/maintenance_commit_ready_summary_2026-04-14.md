@@ -155,6 +155,7 @@
 - 2026-04-18 fifty-third pass confirmed the operational middle-layer family stays aligned after the new source-line realignments; no further source prose patch was needed beyond report/log recording
 - 2026-04-18 fifty-fourth pass added explicit source lines to `Section_15_Profile_Draft_Index.md` and `Section_15_Intake_Structure.md` so their operational intake/reference bundle is visible at the same level as the live group/profile/subline authority they already use
 - 2026-04-18 fifty-fifth pass confirmed the operational intake/index family stays aligned after the new source-line realignments; no further source prose patch was needed beyond report/log recording
+- 2026-04-18 fifty-sixth pass added explicit source lines to the five active `Section_15_Subline_Draft_*` docs so their operational group/track/profile/subline authority bundle is visible at the same level as the live subline-family references they already use
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

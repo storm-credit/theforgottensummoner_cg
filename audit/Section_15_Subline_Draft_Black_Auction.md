@@ -3,6 +3,14 @@
 이 문서는 `검은 경매소 경매관 계열` 아래에서
 경매장의 내부 기능을 더 쪼개기 위한 초안이다.
 
+subline draft reading은
+`Section_15_Group_Index.md`,
+`Section_15_Operational_Lines_Track.md`,
+`Section_15_Profile_Draft_Index.md`,
+`Section_15_Subline_Register.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Parent Line
 
 - `Section_15_Profile_Black_Auctioneer_Line.md`

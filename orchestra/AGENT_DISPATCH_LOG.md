@@ -8160,3 +8160,58 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 intake/index family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-18 KST - Fifty-Sixth Operational-Subline Draft Source-Line Realignment Pass
+
+목적:
+
+- active `Section_15_Subline_Draft_*` family가
+  현재 본문에서 실제로 쓰는
+  operational group/track/profile/subline authority bundle을
+  상단 reading line으로 충분히 드러내는지 다시 확인하고,
+  live source-line omission이 남아 있으면 바로 정리한다.
+
+배치:
+
+- conductor local operational-subline-draft source-line scout
+
+Conductor action:
+
+- conductor는
+  `Section_15_Subline_Draft_Port_Authority.md`,
+  `Section_15_Subline_Draft_Black_Auction.md`,
+  `Section_15_Subline_Draft_Gravewell.md`,
+  `Section_15_Subline_Draft_Blacklist_Memory.md`,
+  `Section_15_Subline_Draft_Counterfeit_Workshop.md`
+  다섯 문서를 대조해,
+  모두 본문에서 이미 parent line, downstream `Section_15_Subline_Profile_*`,
+  `Section_15_Subline_Register.md`, `Section_15_Operational_Lines_Track.md`
+  계열 authority를 실제 family-level reference로 사용하고 있음을 재확인했다.
+- 그런데 다섯 문서 모두 상단에는
+  current operational group/track/profile/subline bundle을 직접 적는 reading line이 없어,
+  live authority family가 한 단계 덜 드러나 있었다.
+- conductor local pass에서는
+  다섯 `Section_15_Subline_Draft_*` 문서 상단에
+  `Group Index / Operational Track / Profile Draft Index / Subline Register / Continuous`
+  reading line을 공통 추가해
+  subline-draft source line과 live authority bundle을 같은 기준으로 맞췄다.
+
+Integrated actions:
+
+- `Section_15_Subline_Draft_Port_Authority` source-line realignment
+- `Section_15_Subline_Draft_Black_Auction` source-line realignment
+- `Section_15_Subline_Draft_Gravewell` source-line realignment
+- `Section_15_Subline_Draft_Blacklist_Memory` source-line realignment
+- `Section_15_Subline_Draft_Counterfeit_Workshop` source-line realignment
+- report pair / dispatch log 2026-04-18 fifty-sixth pass 반영
+
+Verification:
+
+- all five active operational subline-draft docs now expose the same group/track/profile/subline authority family already used by their live bodies.
+- lower-card exact wording authority still remains in each downstream `Section_15_Subline_Profile_*` card's `3-1. Policy Guard`.
+- next verification gate is `git diff --check` plus a same-family closing sweep after commit.
+
+Follow-up actions:
+
+- 이 operational-subline-draft source-line alignment delta를 commit/push한 뒤,
+  same-family closing sweep을 다시 돈다.
