@@ -11,10 +11,14 @@
 
 - `audit/Section_8_Normalization_Status_Compass.md`
 - `audit/Section_8_Structure_Label_Map_First_Pass.md`
+- `audit/Section_8_Root_Corruption_First_Pass_A.md`
+- `audit/Section_8_Root_Subtree_Sampling_Queue.md`
 - `audit/Section_8_Spine_Mismatch_Queue.md`
 - `audit/Section_8_Spine_Mismatch_First_Pass_A.md`
 - `audit/Section_8_Spine_Mismatch_First_Pass_B.md`
 - `audit/Section_8_Spine_Mismatch_First_Pass_C.md`
+- `audit/Section_8_Place_Network_P2_Queue.md`
+- `audit/Section_8_Place_Network_Handoff_Map.md`
 - `audit/Section_8_Next_Audit_Targets.md`
 
 ## Canonical Status Set

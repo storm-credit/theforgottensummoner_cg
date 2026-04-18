@@ -16,9 +16,11 @@
 1. `audit/Continuous_Workstream.md`
 2. `audit/Next_Sequential_Workstream.md`
 3. `audit/Audit_Queue.md`
-4. `audit/Section_8_15_Closure_Sync_Carryover_Watch.md`
-5. `audit/Section_8_Normalization_Status_Compass.md`
-6. `audit/Section_15_Named_Notables_Status_Compass.md`
+4. `audit/Section_8_Normalization_Status_Compass.md`
+5. `audit/Section_8_Mainline_Sync_Register.md`
+6. `audit/Section_8_15_Closure_Sync_Carryover_Watch.md`
+7. `audit/Five_Continent_Missing_Layer_Master_Lock.md`
+8. `audit/Section_15_Named_Notables_Status_Compass.md`
 
 위 문서에 직접 올라오지 않은 historical batch 문서는
 현재 active step이 아니라 reference evidence로 읽는다.

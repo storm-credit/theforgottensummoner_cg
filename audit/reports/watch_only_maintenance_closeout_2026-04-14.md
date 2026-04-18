@@ -1434,3 +1434,43 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   root / P2 handoff / master-lock authority를 현재 본선 기준으로 더 정확히 나눈다.
 - 이번 순환의 drift는 next-targets reference-action omission 정렬로 닫혔고,
   checkpoint-family no-change 기준은 그대로 유지한다.
+
+## 2026-04-18 Fiftieth Guard-Input Realignment Pass
+
+목적:
+
+- `Historical_Batch_Reading_Guard.md`와
+  `Section_8_Status_Vocabulary_Guard.md`가
+  현재 mainline checkpoint와
+  root / handoff status authority를 충분히 입력 문서군에 반영하는지 다시 확인하고,
+  guard-layer input drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Historical_Batch_Reading_Guard.md`는 현재 본문 규칙에서
+  queue/workstream/watch trio뿐 아니라
+  `Section_8_Mainline_Sync_Register.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md`까지
+  active mainline checkpoint family로 읽는 편이 현재 본선과 맞다.
+- `Section_8_Status_Vocabulary_Guard.md`는
+  `canonical_root`, `place_pressure_strong`, `handoff_applied`를 current canonical set으로 유지하면서도,
+  `Input`은 아직 normalization / mismatch 중심에 머물러 있어
+  root_corruption과 place-pressure handoff authority가 한 단계 덜 적혀 있었다.
+
+조치:
+
+- `Historical_Batch_Reading_Guard.md`의 source-of-truth list에
+  `Section_8_Mainline_Sync_Register.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md`를 추가해
+  current checkpoint family를 본선 기준에 맞게 복원했다.
+- `Section_8_Status_Vocabulary_Guard.md`의 `Input`에
+  `Root Corruption First Pass`, `Root Subtree Sampling Queue`,
+  `Place Network P2 Queue`, `Place Network Handoff Map`을 추가해
+  root / handoff status authority와 canonical set을 같은 기준으로 다시 맞췄다.
+
+의미:
+
+- guard-layer 문서들 내부에서
+  source-of-truth / input bundle이 현재 checkpoint family와 root-handoff authority를 더 정확히 가리킨다.
+- 이번 순환의 drift는 guard-input omission 정렬로 닫혔고,
+  checkpoint-family no-change 기준은 그대로 유지한다.
