@@ -4,6 +4,10 @@
 reference 등록부 형태로 모으는 초안이다.
 
 intake active 판단은
+`Section_15_Intake_Structure.md`,
+`Section_15_Group_Index.md`,
+`Section_15_Profile_Draft_Index.md`,
+`Section_15_Subline_Register.md`,
 `Section_15_Named_Notables_Register.md`,
 `Section_15_Named_Notables_Status_Compass.md`,
 `Continuous_Workstream.md`

@@ -7,6 +7,15 @@
 이제 이 인물들은 단순 후보가 아니라
 `15번 문서화 준비가 된 대상`으로 본다.
 
+tier-1 intake card reading은
+`Section_15_Intake_Priority.md`,
+`Section_15_Intake_Structure.md`,
+`Section_15_Group_Index.md`,
+`Section_15_Profile_Draft_Index.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Card 01. 벤투라 모레티
 
 - primary anchor:

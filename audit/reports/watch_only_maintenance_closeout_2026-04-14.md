@@ -1717,3 +1717,44 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 subline-draft family에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-18 Fifty-Eighth Intake-Priority Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Intake_Priority.md`,
+  `Section_15_Candidate_Register.md`,
+  `Section_15_Intake_Cards_Tier1.md`가
+  현재 본문에서 실제로 쓰는
+  intake/group/profile/subline/14-signal authority bundle을
+  상단 reading line에서 충분히 드러내는지 다시 확인하고,
+  intake-priority bundle drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_15_Intake_Priority.md`와 `Section_15_Candidate_Register.md`는
+  이미 본문에서 operational intake, group/profile/subline family와
+  `14 신호` 확인선을 함께 쓰고 있는데,
+  상단 reading line에는 `Named Notables Register / Status Compass / Continuous`만 남아 있어
+  현재 intake bundle보다 좁게 적혀 있었다.
+- `Section_15_Intake_Cards_Tier1.md`도
+  실질적으로 `Intake Priority`, `Intake Structure`, `Group Index`, `Profile Draft Index`,
+  `Status Compass` bundle을 따라 읽히는데,
+  상단에는 그 current reading line이 비어 있었다.
+
+조치:
+
+- `Section_15_Intake_Priority.md`와 `Section_15_Candidate_Register.md` 상단 reading line에
+  `Intake Structure / Group Index / Profile Draft Index / Subline Register`
+  authority를 추가했다.
+- `Section_15_Intake_Cards_Tier1.md` 상단에는
+  `Intake Priority / Intake Structure / Group Index / Profile Draft Index / Status Compass / Continuous`
+  reading line을 새로 추가했다.
+
+의미:
+
+- operational intake-priority family 문서들 내부에서
+  상단 reading line과 live intake/reference bundle이
+  같은 intake/group/profile/subline/14-signal authority 문서군을 가리킨다.
+- 이번 순환의 drift는 intake-priority bundle omission 정렬로 닫혔고,
+  lower-card exact wording authority와 `14 signal` verification line은 그대로 유지된다.

@@ -8258,3 +8258,55 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 subline-draft family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-18 KST - Fifty-Eighth Intake-Priority Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Intake_Priority.md`,
+  `Section_15_Candidate_Register.md`,
+  `Section_15_Intake_Cards_Tier1.md`가
+  현재 본문에서 실제로 쓰는
+  intake/group/profile/subline/14-signal authority bundle을
+  상단 reading line에서 충분히 드러내는지 다시 확인하고,
+  intake-priority bundle drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local intake-priority bundle scout
+
+Conductor action:
+
+- conductor는 `Section_15_Intake_Priority.md`와 `Section_15_Candidate_Register.md`를 대조해,
+  이미 본문에서 operational intake, group/profile/subline family와 `14 신호` 확인선을 함께 쓰고 있는데
+  상단 reading line에는 `Named Notables Register / Status Compass / Continuous`만 남아 있어
+  current intake bundle보다 좁게 적혀 있음을 재확인했다.
+- conductor는 `Section_15_Intake_Cards_Tier1.md`도 함께 확인해,
+  실제로는 `Intake Priority`, `Intake Structure`, `Group Index`, `Profile Draft Index`,
+  `Status Compass` bundle을 따라 읽히는데 상단 current reading line이 비어 있음을 확인했다.
+- conductor local pass에서는
+  `Section_15_Intake_Priority.md`와 `Section_15_Candidate_Register.md` 상단 reading line에
+  `Intake Structure / Group Index / Profile Draft Index / Subline Register`
+  authority를 추가하고,
+  `Section_15_Intake_Cards_Tier1.md` 상단에는
+  `Intake Priority / Intake Structure / Group Index / Profile Draft Index / Status Compass / Continuous`
+  reading line을 새로 추가해
+  intake-priority family의 source line과 live authority bundle을 같은 기준으로 맞췄다.
+
+Integrated actions:
+
+- `Section_15_Intake_Priority` reading-bundle realignment
+- `Section_15_Candidate_Register` reading-bundle realignment
+- `Section_15_Intake_Cards_Tier1` reading-bundle realignment
+- report pair / dispatch log 2026-04-18 fifty-eighth pass 반영
+
+Verification:
+
+- the active intake-priority docs now expose the same intake/group/profile/subline/14-signal authority family already used by their live bodies.
+- lower-card exact wording authority and `14 signal` verification lines remain unchanged.
+- next verification gate is `git diff --check` plus a same-family closing sweep after commit.
+
+Follow-up actions:
+
+- 이 intake-priority bundle alignment delta를 commit/push한 뒤,
+  same-family closing sweep을 다시 돈다.
