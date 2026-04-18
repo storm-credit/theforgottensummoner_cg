@@ -3,6 +3,19 @@
 이 문서는 `15 People Worth Seeking` 후보를
 `대륙 -> 세력 / 도시 / 조직` 기준으로 정리한 anchor reference map이다.
 
+anchor map reading은
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Five_Continent_Closure_Table.md`,
+`Section_15_Index_Draft.md`,
+`Section_15_Folder_Structure_Draft.md`,
+`Section_15_Folder_Draft_Routing_Plan.md`,
+`Section_15_Actual_Draft_Package_Freeze.md`,
+`Section_15_Stable_Candidate_Profile_QA.md`,
+`Section_8_to_15_Notable_Anchor_Bridge.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 핵심 원칙:
 
 - 직업별 폴더링은 본체가 아니다.

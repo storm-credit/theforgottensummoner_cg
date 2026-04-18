@@ -8535,3 +8535,52 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 folder-hub 상위 층은 no-change watch 기준으로 유지한다.
+
+## 2026-04-18 KST - Sixty-Fourth Frozen-Package Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Actual_Draft_Package_Freeze.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`가
+  현재 본문에서 실제로 쓰는
+  status/register/index/folder/bridge/closure/frozen-package authority bundle을
+  상단 reading line에서 충분히 드러내는지 다시 확인하고,
+  frozen-package reading drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local frozen-package bundle scout
+
+Conductor action:
+
+- conductor는 세 frozen-package 문서를 다시 대조해,
+  본문에서 이미 `Status Compass`, `Register`, `Index Draft`,
+  folder-hub docs, `Anchor Bridge`, closure/freeze family를 함께 참조하고 있음을 재확인했다.
+- 그런데 세 문서 모두 상단에는
+  current frozen-package reading bundle을 직접 적는 line이 없어,
+  live authority family가 한 단계 덜 드러나 있었다.
+- conductor local pass에서는
+  `Section_15_Actual_Draft_Package_Freeze.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`
+  상단에 각 문서 역할에 맞는 reading bundle line을 추가해
+  frozen-package source line과 live authority bundle을 같은 기준으로 맞췄다.
+
+Integrated actions:
+
+- `Section_15_Actual_Draft_Package_Freeze` reading-bundle realignment
+- `Section_15_Named_Notables_Anchor_Map` reading-bundle realignment
+- `Section_15_Stable_Candidate_Profile_QA` reading-bundle realignment
+- report pair / dispatch log 2026-04-18 sixty-fourth pass 반영
+
+Verification:
+
+- the active frozen-package docs now expose the same status/register/index/folder/bridge/closure/frozen-package authority family already used by their live bodies.
+- lower-card exact wording authority and hold/boundary separation remain unchanged.
+- next verification gate is `git diff --check` plus a same-family closing sweep after commit.
+
+Follow-up actions:
+
+- 이 frozen-package reading-bundle alignment delta를 commit/push한 뒤,
+  same-family closing sweep을 다시 돈다.

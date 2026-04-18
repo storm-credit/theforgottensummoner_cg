@@ -3,6 +3,19 @@
 이 문서는 `stable_triad_frozen_reference_set` 묶음을
 `여기까지를 stable_triad_frozen_reference_set 범위로 본다`는 기준으로 정리한 reference 시트다.
 
+package freeze reading은
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Index_Draft.md`,
+`Section_15_Folder_Structure_Draft.md`,
+`Section_15_Folder_Draft_Routing_Plan.md`,
+`Section_15_Folder_Revision_Gate.md`,
+`Section_15_Named_Notables_Anchor_Map.md`,
+`Section_15_Stable_Candidate_Profile_QA.md`,
+`Section_8_to_15_Notable_Anchor_Bridge.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 중요:
 
 - live 폴더 생성/이동은 하지 않는다.

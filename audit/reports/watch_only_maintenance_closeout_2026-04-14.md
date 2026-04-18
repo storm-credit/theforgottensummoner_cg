@@ -1918,3 +1918,47 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 folder-hub 상위 층에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-18 Sixty-Fourth Frozen-Package Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Actual_Draft_Package_Freeze.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`가
+  현재 본문에서 실제로 쓰는
+  status/register/index/folder/bridge/closure/frozen-package authority bundle을
+  상단 reading line에서 충분히 드러내는지 다시 확인하고,
+  frozen-package reading drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- 세 문서는 모두
+  본문에서 이미 `Status Compass`, `Register`, `Index Draft`,
+  folder-hub docs, `Anchor Bridge`, closure/freeze family를 함께 참조하고 있다.
+- 그런데 세 문서 모두 상단에는
+  current frozen-package reading bundle을 직접 적는 line이 없어,
+  live authority family가 한 단계 덜 드러나 있었다.
+
+조치:
+
+- `Section_15_Actual_Draft_Package_Freeze.md` 상단에
+  `Status Compass / Register / Index Draft / Folder Structure / Folder Routing / Folder Gate /
+  Anchor Map / Stable QA / Anchor Bridge / Continuous`
+  reading line을 추가했다.
+- `Section_15_Named_Notables_Anchor_Map.md` 상단에는
+  `Status Compass / Register / Closure Table / Index Draft / Folder Structure / Folder Routing /
+  Package Freeze / Stable QA / Anchor Bridge / Continuous`
+  reading line을 추가했다.
+- `Section_15_Stable_Candidate_Profile_QA.md` 상단에는
+  `Status Compass / Register / Index Draft / Folder Structure / Folder Routing / Folder Gate /
+  Package Freeze / Anchor Map / Boundary Queue / Anchor Bridge / Continuous`
+  reading line을 추가했다.
+
+의미:
+
+- frozen-package 상위 문서들은 이제
+  상단 reading line과 live body가 같은
+  status/register/index/folder/bridge/closure/frozen-package authority 문서군을 가리킨다.
+- 이번 순환의 drift는 frozen-package reading-bundle omission 정렬로 닫혔고,
+  lower-card exact wording authority와 hold/boundary 분리선은 그대로 유지된다.

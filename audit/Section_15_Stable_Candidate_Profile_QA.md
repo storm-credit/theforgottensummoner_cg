@@ -2,6 +2,20 @@
 
 이 문서는 stable triad 시트와 hold-split reference 시트의 frozen QA snapshot이다.
 
+stable QA reading은
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Index_Draft.md`,
+`Section_15_Folder_Structure_Draft.md`,
+`Section_15_Folder_Draft_Routing_Plan.md`,
+`Section_15_Folder_Revision_Gate.md`,
+`Section_15_Actual_Draft_Package_Freeze.md`,
+`Section_15_Named_Notables_Anchor_Map.md`,
+`Section_8_to_15_Notable_Anchor_Bridge.md`,
+`Section_14_15_Boundary_Verification_Queue.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 대상:
 
 - `울프가르 드래곤포지`

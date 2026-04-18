@@ -163,6 +163,7 @@
 - 2026-04-18 sixty-first pass confirmed the index-draft upper-reading layer stays aligned after the new reading-bundle realignment; no further source prose patch was needed beyond report/log recording
 - 2026-04-18 sixty-second pass added explicit reading lines to `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, and `Section_15_Folder_Revision_Gate.md` so their folder-hub views now expose the current status/register/index/package-freeze/boundary/collision/lower-card authority bundle already used by the live bodies
 - 2026-04-18 sixty-third pass confirmed the folder-hub upper layer stays aligned after the new reading-bundle realignments; no further source prose patch was needed beyond report/log recording
+- 2026-04-18 sixty-fourth pass added explicit reading lines to `Section_15_Actual_Draft_Package_Freeze.md`, `Section_15_Named_Notables_Anchor_Map.md`, and `Section_15_Stable_Candidate_Profile_QA.md` so their frozen-package views now expose the current status/register/index/folder/bridge/closure/frozen-package authority bundle already used by the live bodies
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
