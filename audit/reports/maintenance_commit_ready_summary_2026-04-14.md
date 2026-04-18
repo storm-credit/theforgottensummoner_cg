@@ -158,6 +158,7 @@
 - 2026-04-18 fifty-sixth pass added explicit source lines to the five active `Section_15_Subline_Draft_*` docs so their operational group/track/profile/subline authority bundle is visible at the same level as the live subline-family references they already use
 - 2026-04-18 fifty-seventh pass confirmed the operational subline-draft family stays aligned after the new source-line realignments; no further source prose patch was needed beyond report/log recording
 - 2026-04-18 fifty-eighth pass expanded `Section_15_Intake_Priority.md`, `Section_15_Candidate_Register.md`, and `Section_15_Intake_Cards_Tier1.md` so their intake-priority reading lines explicitly cover the current intake/group/profile/subline/14-signal authority bundle already used by their live bodies
+- 2026-04-18 fifty-ninth pass confirmed the intake-priority family stays aligned after the new reading-bundle realignments; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

@@ -8310,3 +8310,46 @@ Follow-up actions:
 
 - 이 intake-priority bundle alignment delta를 commit/push한 뒤,
   same-family closing sweep을 다시 돈다.
+
+## 2026-04-18 KST - Fifty-Ninth Intake-Priority Stability Pass
+
+목적:
+
+- 방금 정렬한
+  `Section_15_Intake_Priority.md`,
+  `Section_15_Candidate_Register.md`,
+  `Section_15_Intake_Cards_Tier1.md`
+  family가
+  intake/group/profile/subline/14-signal authority와 같은 흐름을 유지하는지 다시 대조하고,
+  residual omission이나 역행 drift가 없는지 확인한다.
+
+배치:
+
+- conductor local intake-priority stability scout
+
+Conductor action:
+
+- conductor는 세 active intake-priority 문서를 다시 대조해,
+  모두 현재 같은 수준에서 intake/group/profile/subline/14-signal reading bundle을 노출하고 있음을 재확인했다.
+- `14 signal` verification line과 lower-card exact wording authority는 그대로 유지되고,
+  상위 intake-priority 문서가 downstream authority wording을 재정의하지 않는 것도 재확인했다.
+- 이번 closing sweep에서는
+  같은 intake-priority family 안의 추가 omission이나 재발 drift가 더 보이지 않았다.
+- 이번 순환은 source prose patch 없이
+  intake-priority no-change stability result만 기록한다.
+
+Integrated actions:
+
+- intake-priority no-change stability confirmation
+- report pair / dispatch log 2026-04-18 fifty-ninth pass 반영
+
+Verification:
+
+- no additional live drift was found across the intake-priority family after the latest realignments.
+- the current intake-priority docs remain aligned with the same intake/group/profile/subline/14-signal authority family used by the live bodies.
+- next verification gate is clean push parity plus fresh local drift only.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 intake-priority family는 no-change watch 기준으로 유지한다.
