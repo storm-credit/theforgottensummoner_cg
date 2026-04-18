@@ -33,32 +33,35 @@ reference 순서표로 보여주는 진행표다.
 오케스트라는 아래 순서로 점검한다.
 
 1. `Section_8_Normalization_Status_Compass.md`
-2. `Section_15_Named_Notables_Status_Compass.md`
-3. `Section_15_Five_Continent_Closure_Table.md`
-4. `Section_15_Named_Notables_Coverage_Matrix.md`
-5. `Section_8_to_15_Notable_Anchor_Bridge.md`
-6. `Section_8_15_Spine_Compatibility_Audit.md`
-7. `Section_15_Stable_Candidate_8_Anchor_Index.md`
-8. `Section_15_Index_Draft.md`
-9. `Section_15_Folder_Structure_Draft.md`
-10. `Section_15_Folder_Draft_Routing_Plan.md`
-11. `Section_15_Folder_Revision_Gate.md`
-12. `Section_15_Named_Notables_Anchor_Map.md`
-13. `Section_15_Stable_Candidate_Profile_QA.md`
-14. `Section_15_Profile_Draft_Index.md`
-15. `Section_15_Operational_Lines_Track.md`
-16. `Section_15_Operational_Display_Canon_Candidates.md`
-17. `Section_15_Intake_Structure.md`
-18. `Section_15_Ether_Hold_Cluster_Continuation.md`
-19. `Section_15_Ether_Tower_Saint_Hold_Continuation.md`
-20. `Section_15_Ether_Spirit_Union_Hold_Continuation.md`
-21. `Section_8_Place_Network_Handoff_Map.md`
-22. `Audit_Queue.md`
-23. `Continuous_Workstream.md`
-24. `Section_15_Named_Notables_Register.md`
-25. `Section_15_Group_Index.md`
-26. `Section_15_Subline_Register.md`
-27. representative `Section_15_Subline_Draft_* / Section_15_Subline_Profile_*` pair drift watch
+2. `Section_8_Mainline_Sync_Register.md`
+3. `Section_8_15_Closure_Sync_Carryover_Watch.md`
+4. `Section_15_Named_Notables_Status_Compass.md`
+5. `Section_15_Five_Continent_Closure_Table.md`
+6. `Section_15_Named_Notables_Coverage_Matrix.md`
+7. `Section_8_to_15_Notable_Anchor_Bridge.md`
+8. `Section_8_15_Spine_Compatibility_Audit.md`
+9. `Section_15_Stable_Candidate_8_Anchor_Index.md`
+10. `Section_15_Index_Draft.md`
+11. `Section_15_Folder_Structure_Draft.md`
+12. `Section_15_Folder_Draft_Routing_Plan.md`
+13. `Section_15_Folder_Revision_Gate.md`
+14. `Section_15_Named_Notables_Anchor_Map.md`
+15. `Section_15_Stable_Candidate_Profile_QA.md`
+16. `Section_15_Profile_Draft_Index.md`
+17. `Section_15_Operational_Lines_Track.md`
+18. `Section_15_Operational_Display_Canon_Candidates.md`
+19. `Section_15_Intake_Structure.md`
+20. `Section_15_Ether_Hold_Cluster_Continuation.md`
+21. `Section_15_Ether_Tower_Saint_Hold_Continuation.md`
+22. `Section_15_Ether_Spirit_Union_Hold_Continuation.md`
+23. `Section_8_Place_Network_Handoff_Map.md`
+24. `Five_Continent_Missing_Layer_Master_Lock.md`
+25. `Audit_Queue.md`
+26. `Continuous_Workstream.md`
+27. `Section_15_Named_Notables_Register.md`
+28. `Section_15_Group_Index.md`
+29. `Section_15_Subline_Register.md`
+30. representative `Section_15_Subline_Draft_* / Section_15_Subline_Profile_*` pair drift watch
 
 ## What Stays Closed
 
