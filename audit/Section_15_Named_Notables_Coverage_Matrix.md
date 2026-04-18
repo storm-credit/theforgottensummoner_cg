@@ -3,6 +3,17 @@
 이 문서는 `15 People Worth Seeking` 후보가
 5대륙과 범대륙 확장축에 얼마나 분포했는지 보는 커버리지 표다.
 
+coverage matrix reading은
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Five_Continent_Closure_Table.md`,
+`Section_15_Named_Notables_Track.md`,
+`Section_15_Index_Draft.md`,
+`Section_15_Named_Notables_Anchor_Map.md`,
+`Section_8_to_15_Notable_Anchor_Bridge.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 얇은 층 정책 잠금과 evidence/firewall 묶음의 단일 entry는
 `Five_Continent_Missing_Layer_Master_Lock.md`를 우선 기준으로 읽는다.
 

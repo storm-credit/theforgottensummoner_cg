@@ -2,6 +2,17 @@
 
 이 문서는 `15 People Worth Seeking`의 5대륙 1차 압축 종료표다.
 
+closure table reading은
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Coverage_Matrix.md`,
+`Section_15_Named_Notables_Track.md`,
+`Section_15_Index_Draft.md`,
+`Section_15_Named_Notables_Anchor_Map.md`,
+`Section_8_to_15_Notable_Anchor_Bridge.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 목적:
 
 - 14번 영웅과 15번 명사형 인물을 섞지 않는다.

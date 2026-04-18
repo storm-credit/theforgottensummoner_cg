@@ -1990,3 +1990,45 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 frozen-package 상위 층에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-18 Sixty-Sixth Summary-Family Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Track.md`,
+  `Section_15_Five_Continent_Closure_Table.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`가
+  현재 본문에서 실제로 쓰는
+  status/register/track/closure/coverage/index/anchor/bridge authority bundle을
+  상단 reading line에서 충분히 드러내는지 다시 확인하고,
+  summary-family reading drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_15_Named_Notables_Track.md`는
+  실제 active-state 판단에서 이미 closure/coverage/index/first-pass family를 함께 쓰고 있는데,
+  상단 reading line에는 `Register / Status / Continuous`만 남아 있어 current bundle보다 좁게 적혀 있었다.
+- `Section_15_Five_Continent_Closure_Table.md`와
+  `Section_15_Named_Notables_Coverage_Matrix.md`도
+  본문에서 이미 status/register/track/index/anchor/bridge family를 함께 참조하는데,
+  상단에는 그 current reading line이 비어 있었다.
+
+조치:
+
+- `Section_15_Named_Notables_Track.md` 상단 reading line에
+  `Closure Table / Coverage Matrix / Index Draft / First Pass`
+  authority를 추가했다.
+- `Section_15_Five_Continent_Closure_Table.md` 상단에는
+  `Status Compass / Register / Coverage Matrix / Track / Index Draft / Anchor Map / Anchor Bridge / Continuous`
+  reading line을 새로 추가했다.
+- `Section_15_Named_Notables_Coverage_Matrix.md` 상단에는
+  `Status Compass / Register / Closure Table / Track / Index Draft / Anchor Map / Anchor Bridge / Continuous`
+  reading line을 새로 추가했다.
+
+의미:
+
+- summary-family 상위 문서들은 이제
+  상단 reading line과 live body가 같은
+  status/register/track/closure/coverage/index/anchor/bridge authority 문서군을 가리킨다.
+- 이번 순환의 drift는 summary-family reading-bundle omission 정렬로 닫혔고,
+  lower-card exact wording authority와 hold/boundary 분리선은 그대로 유지된다.
