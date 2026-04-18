@@ -147,6 +147,7 @@
 - 2026-04-18 forty-fifth pass expanded `Continuous_Workstream.md`'s input reference set so it explicitly covers the current root/P2-owner/master-lock authority family already used by its mainline lock and ordered cycle
 - 2026-04-18 forty-sixth pass expanded `Next_Sequential_Workstream.md`'s ordered watch sequence so it explicitly covers the current mainline-sync/closure-watch/master-lock checkpoints already used by the live ordered cycle
 - 2026-04-18 forty-seventh pass expanded `Audit_Queue.md`'s ordered watch snapshot so it explicitly covers the current mainline-sync/closure-watch/master-lock checkpoints already used by its focus snapshot and the live ordered cycle
+- 2026-04-18 forty-eighth pass confirmed the checkpoint family stays aligned across queue/workstream/watch after the new realignments; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
