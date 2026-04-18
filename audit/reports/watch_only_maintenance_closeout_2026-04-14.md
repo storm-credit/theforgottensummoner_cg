@@ -1849,3 +1849,44 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 index-draft 상위 열람층에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-18 Sixty-Second Folder-Hub Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Folder_Revision_Gate.md`가
+  현재 본문에서 실제로 쓰는
+  status/register/index/package-freeze/boundary/collision/lower-card authority bundle을
+  상단 reading line에서 충분히 드러내는지 다시 확인하고,
+  folder-hub reading drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- 세 folder-hub 문서는 모두
+  본문에서 이미 `Status Compass`, `Register`, `Index Draft`,
+  `Actual Draft Package Freeze`, boundary queue, collision register,
+  group/profile/subline lower-card authority를 함께 참조하고 있다.
+- 그런데 세 문서 모두 상단에는
+  current folder-hub reading bundle을 직접 적는 line이 없어,
+  live authority family가 한 단계 덜 드러나 있었다.
+
+조치:
+
+- `Section_15_Folder_Structure_Draft.md` 상단에
+  `Status Compass / Register / Index Draft / Package Freeze / Group / Profile / Subline /
+  Collision Register / Boundary Queue / Continuous`
+  reading line을 추가했다.
+- `Section_15_Folder_Draft_Routing_Plan.md` 상단에는
+  위 bundle에 `Folder Structure Draft`까지 포함한 reading line을 추가했다.
+- `Section_15_Folder_Revision_Gate.md` 상단에는
+  위 bundle에 `Folder Structure Draft / Folder Draft Routing Plan`까지 포함한 reading line을 추가했다.
+
+의미:
+
+- folder-hub 상위 문서들은 이제
+  상단 reading line과 live body가 같은
+  status/register/index/package-freeze/boundary/collision/lower-card authority 문서군을 가리킨다.
+- 이번 순환의 drift는 folder-hub reading-bundle omission 정렬로 닫혔고,
+  lower-card exact wording authority와 hold/boundary 분리선은 그대로 유지된다.

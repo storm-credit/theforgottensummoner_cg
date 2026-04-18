@@ -3,6 +3,20 @@
 이 문서는 `15 People Worth Seeking`의
 folder route/reference map을 정리하는 초안이다.
 
+folder routing reading은
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Index_Draft.md`,
+`Section_15_Folder_Structure_Draft.md`,
+`Section_15_Actual_Draft_Package_Freeze.md`,
+`Section_15_Group_Index.md`,
+`Section_15_Profile_Draft_Index.md`,
+`Section_15_Subline_Register.md`,
+`Section_15_Named_Notables_Name_Collision_Register.md`,
+`Section_14_15_Boundary_Verification_Queue.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 중요:
 
 - live 파일 이동 계획이 아니다.
