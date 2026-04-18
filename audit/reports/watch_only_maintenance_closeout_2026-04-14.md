@@ -1890,3 +1890,31 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   status/register/index/package-freeze/boundary/collision/lower-card authority 문서군을 가리킨다.
 - 이번 순환의 drift는 folder-hub reading-bundle omission 정렬로 닫혔고,
   lower-card exact wording authority와 hold/boundary 분리선은 그대로 유지된다.
+
+## 2026-04-18 Sixty-Third Folder-Hub Stability Pass
+
+목적:
+
+- 방금 정렬한
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Folder_Revision_Gate.md`
+  folder-hub 상위 층이
+  status/register/index/package-freeze/boundary/collision/lower-card authority와 같은 흐름을 유지하는지 다시 대조하고,
+  residual omission이나 역행 drift가 없는지 확인한다.
+
+확인 결과:
+
+- 세 folder-hub 문서는 모두
+  현재 같은 수준에서 status/register/index/package-freeze/boundary/collision/lower-card reading bundle을 노출하고 있다.
+- lower-card exact wording authority와 hold/boundary 분리선은 그대로 유지되고,
+  상위 folder-hub 문서가 downstream authority wording을 재정의하지 않는다.
+- 이번 closing sweep에서는
+  같은 folder-hub 상위 층 안의 추가 omission이나 재발 drift가 더 보이지 않았다.
+
+의미:
+
+- 이번 라운드의 folder-hub 정렬은
+  no-change stability 상태로 한 번 더 닫혔다.
+- 다음 순환은 새 live drift가 생기기 전까지
+  같은 folder-hub 상위 층에서는 no-change watch 기준으로 유지하면 된다.
