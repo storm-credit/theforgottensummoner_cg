@@ -143,6 +143,7 @@
 - 2026-04-18 forty-first pass expanded `Section_15_State_Vocabulary_Guard.md`'s input list again so it also covers the current folder/routing/stable-candidate-QA/named-card-template authority family already used by its live rules
 - 2026-04-18 forty-second pass expanded `Section_8_Mainline_Sync_Register.md`'s input list so it explicitly covers the current root-primary/bridge/status-closure/routing/anchor-QA authority family already used by its sync groups and checklist
 - 2026-04-18 forty-third pass expanded `Section_8_15_Closure_Sync_Carryover_Watch.md`'s input list so it explicitly covers the current handoff-owner/master-lock/sidecar-register authority family already used by its watch table and ordered cycle
+- 2026-04-18 forty-fourth pass expanded `Section_8_Normalization_Status_Compass.md`'s input list so it explicitly covers the current handoff-owner/master-lock/lower-card-authority family already used by its snapshot and conductor lock
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

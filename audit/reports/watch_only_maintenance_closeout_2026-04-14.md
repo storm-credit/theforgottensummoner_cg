@@ -1198,3 +1198,49 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   handoff owner / master lock / sidecar-register family까지 같은 문서군을 가리킨다.
 - 이번 순환의 drift는 closure-watch input omission 정렬로 닫혔고,
   mainline sync / normalization compass / state-vocabulary 정렬선은 그대로 유지한다.
+
+## 2026-04-18 Forty-Fourth Normalization-Compass Input Realignment Pass
+
+목적:
+
+- `Section_8_Normalization_Status_Compass.md`의
+  `Input` 목록이
+  현재 snapshot / conductor lock에서 직접 참조하는
+  handoff-owner / master-lock / lower-card-authority family를
+  충분히 담는지 다시 확인하고,
+  normalization-compass input drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_8_Normalization_Status_Compass.md`는 본문 snapshot과 conductor lock에서 이미
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md`,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Subline_Register.md`,
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`,
+  `Section_15_Frost_Place_Institution_Sidecar.md`,
+  `Section_15_Obelisk_Place_Institution_Sidecar.md`,
+  `FS_Place_Function_Register.md`까지
+  현재 normalization-compass authority bundle의 reference layer로 사용하고 있다.
+- 그런데 `## Input`은 아직
+  root / structure / mismatch / handoff-map 중심의 목록에 머물러 있어,
+  actual P2 owner, missing-layer master lock, lower-card authority 쪽 문서군이
+  한 단계 덜 적혀 있었다.
+
+조치:
+
+- `Section_8_Normalization_Status_Compass.md`의 `Input`에
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Five Continent Missing Layer Master Lock`,
+  `Profile Draft Index`, `Subline Register`,
+  `Oceanic/Frost/Obelisk Place Institution Sidecar`,
+  `FS_Place_Function_Register.md`를 추가해
+  input layer와 current normalization-compass authority bundle을 같은 기준으로 다시 맞췄다.
+
+의미:
+
+- normalization compass 내부에서
+  input layer와 live snapshot authority bundle이
+  handoff owner / master lock / lower-card authority family까지 같은 문서군을 가리킨다.
+- 이번 순환의 drift는 normalization-compass input omission 정렬로 닫혔고,
+  mainline sync / closure watch / state-vocabulary 정렬선은 그대로 유지한다.

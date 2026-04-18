@@ -7561,3 +7561,59 @@ Follow-up actions:
 
 - 이 closure-watch input alignment delta를 commit/push한 뒤,
   같은 ordered cycle에서 `Section_8_Normalization_Status_Compass.md`의 residual omission 패턴을 이어서 본다.
+
+## 2026-04-18 KST - Forty-Fourth Normalization-Compass Input Realignment Pass
+
+목적:
+
+- `Section_8_Normalization_Status_Compass.md`의
+  `Input` 목록이
+  현재 snapshot / conductor lock에서 직접 참조하는
+  handoff-owner / master-lock / lower-card-authority family를
+  충분히 담는지 다시 확인하고,
+  normalization-compass input drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local normalization-compass input scout
+
+Conductor action:
+
+- conductor는 `Section_8_Normalization_Status_Compass.md`가 본문 snapshot과 conductor lock에서 이미
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md`,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Subline_Register.md`,
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`,
+  `Section_15_Frost_Place_Institution_Sidecar.md`,
+  `Section_15_Obelisk_Place_Institution_Sidecar.md`,
+  `FS_Place_Function_Register.md`까지
+  현재 normalization-compass authority bundle의 reference layer로 사용하고 있음을 재확인했다.
+- 그런데 `## Input`은 아직
+  root / structure / mismatch / handoff-map 중심의 목록에 머물러 있어,
+  actual P2 owner, missing-layer master lock, lower-card authority 쪽 문서군이
+  한 단계 덜 적혀 있었다.
+- conductor local pass에서는
+  `Section_8_Normalization_Status_Compass.md`의 `Input`에
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Five Continent Missing Layer Master Lock`,
+  `Profile Draft Index`, `Subline Register`,
+  `Oceanic/Frost/Obelisk Place Institution Sidecar`,
+  `FS_Place_Function_Register.md`를 추가해
+  input layer와 current normalization-compass authority bundle을 같은 기준으로 다시 맞췄다.
+
+Integrated actions:
+
+- `Section_8_Normalization_Status_Compass` input-bundle realignment
+- report pair / dispatch log 2026-04-18 forty-fourth pass 반영
+
+Verification:
+
+- `Section_8_Normalization_Status_Compass` now uses an input list that matches the current handoff-owner/master-lock/lower-card-authority family named in its snapshot and conductor lock.
+- no new live drift was found in mainline sync, closure watch, state-vocabulary, stable-anchor, queue/workstream alignment, or `P2 place-pressure` ownership while closing this normalization-compass input gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 normalization-compass input alignment delta를 commit/push한 뒤,
+  같은 ordered cycle에서 같은 family에 residual omission이 재발하는지 no-change sweep으로 다시 본다.

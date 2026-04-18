@@ -20,9 +20,17 @@
 - `audit/Section_8_Root_Subtree_Sampling_Queue.md`
 - `audit/Section_8_Place_Network_P2_Queue.md`
 - `audit/Section_8_Place_Network_Handoff_Map.md`
+- `audit/Section_8_Frost_Notable_Anchor_Audit.md`
 - `audit/Section_8_Status_Vocabulary_Guard.md`
 - `audit/Section_8_Mainline_Sync_Register.md`
 - `audit/Section_8_15_Closure_Sync_Carryover_Watch.md`
+- `audit/Five_Continent_Missing_Layer_Master_Lock.md`
+- `audit/Section_15_Profile_Draft_Index.md`
+- `audit/Section_15_Subline_Register.md`
+- `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
+- `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
+- `audit/FS_Place_Function_Register.md`
 
 ## Stage Snapshot
 
