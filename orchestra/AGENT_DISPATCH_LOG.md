@@ -8353,3 +8353,50 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 intake-priority family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-18 KST - Sixtieth Index-Draft Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Index_Draft.md`가
+  현재 본문에서 실제로 쓰는
+  status/register/operational/folder/boundary/collision authority bundle을
+  상단 reading line에서 충분히 드러내는지 다시 확인하고,
+  index-draft reading drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local index-draft bundle scout
+
+Conductor action:
+
+- conductor는 `Section_15_Index_Draft.md`를 다시 대조해,
+  본문에서 이미 `People Worth Seeking Status Compass`, `People Worth Seeking Register`,
+  operational profile/subline authority, folder routing docs,
+  boundary queue, collision register를 함께 참조하고 있음을 재확인했다.
+- 그런데 문서 상단에는
+  current reading bundle을 직접 적는 line이 없어,
+  상위 index가 실제 authority family보다 한 단계 좁게 보이고 있었다.
+- conductor local pass에서는
+  `Section_15_Index_Draft.md` 상단에
+  `Status Compass / Register / Group Index / Profile Draft Index / Subline Register /
+  Folder Structure / Folder Routing / Folder Revision Gate / Name Collision Register /
+  Boundary Verification Queue / Continuous`
+  reading line을 추가해
+  index draft source line과 live authority bundle을 같은 기준으로 맞췄다.
+
+Integrated actions:
+
+- `Section_15_Index_Draft` reading-bundle realignment
+- report pair / dispatch log 2026-04-18 sixtieth pass 반영
+
+Verification:
+
+- `Section_15_Index_Draft.md` now exposes the same status/register/operational/folder/boundary/collision authority family already used by its live body.
+- lower-card exact wording authority and hold/boundary separation remain unchanged.
+- next verification gate is `git diff --check` plus a local closing sweep after commit.
+
+Follow-up actions:
+
+- 이 index-draft reading-bundle alignment delta를 commit/push한 뒤,
+  same-family closing sweep을 다시 돈다.
