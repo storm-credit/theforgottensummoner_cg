@@ -15,6 +15,7 @@
 - `audit/Section_8_Normalization_Status_Compass.md`
 - `audit/Section_8_15_Spine_Compatibility_Audit.md`
 - `audit/Section_8_Mainline_Sync_Register.md`
+- `audit/Section_8_Place_Network_Handoff_Map.md`
 - `audit/Section_8_to_15_Notable_Anchor_Bridge.md`
 - `audit/Section_15_Stable_Candidate_8_Anchor_Index.md`
 - `audit/Section_15_Named_Notables_Status_Compass.md`
@@ -34,6 +35,12 @@
 - `audit/Section_15_Ether_Hold_Cluster_Continuation.md`
 - `audit/Section_15_Ether_Tower_Saint_Hold_Continuation.md`
 - `audit/Section_15_Ether_Spirit_Union_Hold_Continuation.md`
+- `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
+- `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `audit/Section_8_Frost_Notable_Anchor_Audit.md`
+- `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
+- `audit/FS_Place_Function_Register.md`
+- `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 - `audit/Continuous_Workstream.md`
 - `audit/Section_15_Named_Notables_Register.md`
 - `audit/Section_15_Subline_Register.md`

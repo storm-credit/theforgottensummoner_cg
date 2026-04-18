@@ -7507,3 +7507,57 @@ Follow-up actions:
 
 - 이 mainline-sync input alignment delta를 commit/push한 뒤,
   같은 ordered cycle에서 `Section_8_15_Closure_Sync_Carryover_Watch.md`와 `Section_8_Normalization_Status_Compass.md`의 residual omission 패턴을 이어서 본다.
+
+## 2026-04-18 KST - Forty-Third Closure-Watch Input Realignment Pass
+
+목적:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`의
+  `Input` 목록이
+  현재 watch table / ordered cycle에서 직접 참조하는
+  handoff-owner / master-lock / sidecar-register family를
+  충분히 담는지 다시 확인하고,
+  closure-watch input drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local closure-watch input scout
+
+Conductor action:
+
+- conductor는 `Section_8_15_Closure_Sync_Carryover_Watch.md`가 본문 watch table과 ordered cycle에서 이미
+  `Section_8_Place_Network_Handoff_Map.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md`,
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`,
+  `Section_15_Frost_Place_Institution_Sidecar.md`,
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Section_15_Obelisk_Place_Institution_Sidecar.md`,
+  `FS_Place_Function_Register.md`까지
+  현재 closure-watch authority bundle의 reference layer로 사용하고 있음을 재확인했다.
+- 그런데 `## Input`은 아직
+  summary / bridge / package / hold-cluster 중심의 목록에 머물러 있어,
+  P2 owner와 missing-layer master-lock 쪽 authority가
+  한 단계 덜 적혀 있었다.
+- conductor local pass에서는
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`의 `Input`에
+  `Place Network Handoff Map`, `Five Continent Missing Layer Master Lock`,
+  `Oceanic/Frost/Obelisk Place Institution Sidecar`,
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `FS_Place_Function_Register.md`를 추가해
+  input layer와 current closure-watch authority bundle을 같은 기준으로 다시 맞췄다.
+
+Integrated actions:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch` input-bundle realignment
+- report pair / dispatch log 2026-04-18 forty-third pass 반영
+
+Verification:
+
+- `Section_8_15_Closure_Sync_Carryover_Watch` now uses an input list that matches the current handoff-owner/master-lock/sidecar-register watch family named in its watch table and ordered cycle.
+- no new live drift was found in mainline sync, normalization compass, state-vocabulary, stable-anchor, queue/workstream alignment, or `P2 place-pressure` ownership while closing this closure-watch input gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 closure-watch input alignment delta를 commit/push한 뒤,
+  같은 ordered cycle에서 `Section_8_Normalization_Status_Compass.md`의 residual omission 패턴을 이어서 본다.
