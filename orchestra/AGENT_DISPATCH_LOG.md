@@ -7617,3 +7617,58 @@ Follow-up actions:
 
 - 이 normalization-compass input alignment delta를 commit/push한 뒤,
   같은 ordered cycle에서 같은 family에 residual omission이 재발하는지 no-change sweep으로 다시 본다.
+
+## 2026-04-18 KST - Forty-Fifth Continuous-Workstream Reference-Set Realignment Pass
+
+목적:
+
+- `Continuous_Workstream.md`의
+  `Input Reference Set`이
+  현재 mainline lock / ordered cycle에서 직접 참조하는
+  root / P2 owner / master-lock family를
+  충분히 담는지 다시 확인하고,
+  continuous-workstream reference-set drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local continuous-workstream reference scout
+
+Conductor action:
+
+- conductor는 `Continuous_Workstream.md`가 본문 mainline lock과 ordered cycle에서 이미
+  `Section_8_Root_Corruption_First_Pass_A.md`,
+  `Section_8_Root_Subtree_Sampling_Queue.md`,
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`,
+  `Section_15_Frost_Place_Institution_Sidecar.md`,
+  `Section_15_Obelisk_Place_Institution_Sidecar.md`,
+  `FS_Place_Function_Register.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md`까지
+  현재 continuous mainline authority bundle의 reference layer로 사용하고 있음을 재확인했다.
+- 그런데 `Input Reference Set`은 아직
+  handoff map / summary / index / middle-layer 중심의 목록에 머물러 있어,
+  actual root sampling과 P2 owner sidecar/register 쪽 authority가
+  한 단계 덜 적혀 있었다.
+- conductor local pass에서는
+  `Continuous_Workstream.md`의 `Input Reference Set`에
+  `Root Corruption First Pass`, `Root Subtree Sampling Queue`,
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Oceanic/Frost/Obelisk Place Institution Sidecar`,
+  `FS_Place_Function_Register.md`를 추가해
+  input layer와 current continuous mainline authority bundle을 같은 기준으로 다시 맞췄다.
+
+Integrated actions:
+
+- `Continuous_Workstream` input-reference-set realignment
+- report pair / dispatch log 2026-04-18 forty-fifth pass 반영
+
+Verification:
+
+- `Continuous_Workstream` now uses an input reference set that matches the current root/P2-owner/master-lock family named in its own mainline lock and ordered cycle.
+- no new live drift was found in normalization compass, mainline sync, closure watch, state-vocabulary, stable-anchor, queue alignment, or `P2 place-pressure` ownership while closing this continuous-workstream reference gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 continuous-workstream reference alignment delta를 commit/push한 뒤,
+  `Next_Sequential_Workstream.md`와 `Audit_Queue.md`에서 same-family residual omission이 재발하는지 이어서 본다.
