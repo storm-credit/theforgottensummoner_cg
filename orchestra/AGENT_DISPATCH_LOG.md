@@ -7451,3 +7451,59 @@ Follow-up actions:
 
 - 이 state-vocabulary residual input alignment delta를 commit/push한 뒤,
   다시 같은 mainline에서 다른 live omission 패턴을 국소 탐색한다.
+
+## 2026-04-18 KST - Forty-Second Mainline-Sync Input Realignment Pass
+
+목적:
+
+- `Section_8_Mainline_Sync_Register.md`의
+  `Input` 목록이
+  현재 sync group / checklist에서 직접 참조하는
+  root primary / bridge / status-closure / routing / anchor-QA family를
+  충분히 담는지 다시 확인하고,
+  mainline-sync input drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local mainline-sync input scout
+
+Conductor action:
+
+- conductor는 `Section_8_Mainline_Sync_Register.md`가 본문 sync group과 checklist에서 이미
+  `Section_8_Root_Corruption_First_Pass_A.md`,
+  `Section_8_Root_Subtree_Sampling_Queue.md`,
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Five_Continent_Closure_Table.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`까지
+  현재 mainline sync authority bundle의 reference layer로 사용하고 있음을 재확인했다.
+- 그런데 `## Input`은 아직
+  status / compass / compatibility / profile-middle-layer 중심의 목록에 머물러 있어,
+  root primary와 closure/bridge/routing/anchor-QA 쪽 authority가
+  한 단계 덜 적혀 있었다.
+- conductor local pass에서는
+  `Section_8_Mainline_Sync_Register.md`의 `Input`에
+  `Root Corruption First Pass`, `Root Subtree Sampling Queue`,
+  `Section 8 to 15 Notable Anchor Bridge`,
+  `Named Notables Status Compass`, `Five Continent Closure Table`,
+  `Folder Draft Routing Plan`, `Named Notables Anchor Map`,
+  `Stable Candidate Profile QA`를 추가해
+  input layer와 current mainline sync authority bundle을 같은 기준으로 다시 맞췄다.
+
+Integrated actions:
+
+- `Section_8_Mainline_Sync_Register` input-bundle realignment
+- report pair / dispatch log 2026-04-18 forty-second pass 반영
+
+Verification:
+
+- `Section_8_Mainline_Sync_Register` now uses an input list that matches the current root/bridge/closure/routing/anchor-QA sync family named in its own sync groups and checklist.
+- no new live drift was found in normalization compass, closure watch, state-vocabulary, stable-anchor, queue/workstream alignment, or `P2 place-pressure` ownership while closing this mainline-sync input gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 mainline-sync input alignment delta를 commit/push한 뒤,
+  같은 ordered cycle에서 `Section_8_15_Closure_Sync_Carryover_Watch.md`와 `Section_8_Normalization_Status_Compass.md`의 residual omission 패턴을 이어서 본다.

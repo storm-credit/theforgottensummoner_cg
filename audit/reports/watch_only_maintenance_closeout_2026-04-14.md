@@ -1108,3 +1108,49 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   folder / routing / QA / template family까지 같은 문서군을 가리킨다.
 - 이번 순환의 drift는 state-vocabulary residual input omission 정렬로 닫혔고,
   stable-anchor / watch / checklist / queue / workstream 정렬선은 그대로 유지한다.
+
+## 2026-04-18 Forty-Second Mainline-Sync Input Realignment Pass
+
+목적:
+
+- `Section_8_Mainline_Sync_Register.md`의
+  `Input` 목록이
+  현재 sync group / checklist에서 직접 참조하는
+  root primary / bridge / status-closure / routing / anchor-QA family를
+  충분히 담는지 다시 확인하고,
+  mainline-sync input drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_8_Mainline_Sync_Register.md`는 본문 sync group과 checklist에서 이미
+  `Section_8_Root_Corruption_First_Pass_A.md`,
+  `Section_8_Root_Subtree_Sampling_Queue.md`,
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Five_Continent_Closure_Table.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`까지
+  현재 mainline sync authority bundle의 reference layer로 사용하고 있다.
+- 그런데 `## Input`은 아직
+  status / compass / compatibility / profile-middle-layer 중심의 목록에 머물러 있어,
+  root primary와 closure/bridge/routing/anchor-QA 쪽 authority가
+  한 단계 덜 적혀 있었다.
+
+조치:
+
+- `Section_8_Mainline_Sync_Register.md`의 `Input`에
+  `Root Corruption First Pass`, `Root Subtree Sampling Queue`,
+  `Section 8 to 15 Notable Anchor Bridge`,
+  `Named Notables Status Compass`, `Five Continent Closure Table`,
+  `Folder Draft Routing Plan`, `Named Notables Anchor Map`,
+  `Stable Candidate Profile QA`를 추가해
+  input layer와 current mainline sync authority bundle을 같은 기준으로 다시 맞췄다.
+
+의미:
+
+- mainline sync register 내부에서
+  input layer와 live sync authority bundle이
+  root / bridge / closure / routing / anchor-QA family까지 같은 문서군을 가리킨다.
+- 이번 순환의 drift는 mainline-sync input omission 정렬로 닫혔고,
+  normalization compass / closure watch / state-vocabulary 정렬선은 그대로 유지한다.
