@@ -1027,3 +1027,45 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   input layer와 live state-vocabulary rule family가 같은 문서군을 다시 가리킨다.
 - 이번 순환의 drift는 state-vocabulary input omission 정렬로 닫혔고,
   shorthand / watch / checklist / queue / workstream 정렬선은 그대로 유지한다.
+
+## 2026-04-18 Fortieth Stable-Anchor Input Realignment Pass
+
+목적:
+
+- `Section_15_Stable_Candidate_8_Anchor_Index.md`의
+  `Input` 목록이
+  현재 route/place/policy-guard/operational-profile/subline reading family를
+  충분히 담는지 다시 확인하고,
+  stable-anchor input drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_15_Stable_Candidate_8_Anchor_Index.md`는 본문에서 이미
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`,
+  `Section_15_Subline_Register.md`까지
+  현재 stable/hold anchor reading family의 reference layer로 사용하고 있다.
+- 그런데 `## Input`은 아직
+  `Spine Audit / Bridge / Freeze / Folder Structure / State Guard`
+  수준의 좁은 목록에 머물러 있어,
+  current anchor reading bundle과 input layer가 한 단계 덜 맞춰져 있었다.
+
+조치:
+
+- `Section_15_Stable_Candidate_8_Anchor_Index.md`의 `Input`에
+  `Folder Draft Routing Plan`, `Stable Candidate Profile QA`,
+  `Named Notables Anchor Map`, `Profile Draft Index`,
+  `Named Notables Register`, `Named Notables Coverage Matrix`,
+  `Subline Register`를 복원해
+  input layer와 current stable-anchor reading bundle을 같은 기준으로 맞췄다.
+
+의미:
+
+- stable / hold anchor index 내부에서
+  input layer와 live anchor reading family가 같은 문서군을 다시 가리킨다.
+- 이번 순환의 drift는 stable-anchor input omission 정렬로 닫혔고,
+  state-vocabulary / watch / checklist / queue / workstream 정렬선은 그대로 유지한다.

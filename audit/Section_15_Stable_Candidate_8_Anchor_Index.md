@@ -9,7 +9,14 @@
 - `audit/Section_8_to_15_Notable_Anchor_Bridge.md`
 - `audit/Section_15_Actual_Draft_Package_Freeze.md`
 - `audit/Section_15_Folder_Structure_Draft.md`
+- `audit/Section_15_Folder_Draft_Routing_Plan.md`
+- `audit/Section_15_Stable_Candidate_Profile_QA.md`
+- `audit/Section_15_Named_Notables_Anchor_Map.md`
 - `audit/Section_15_State_Vocabulary_Guard.md`
+- `audit/Section_15_Profile_Draft_Index.md`
+- `audit/Section_15_Named_Notables_Register.md`
+- `audit/Section_15_Named_Notables_Coverage_Matrix.md`
+- `audit/Section_15_Subline_Register.md`
 
 ## Stable / Hold Index
 
