@@ -1328,3 +1328,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   normalization / mainline sync / closure watch / master lock checkpoint를 같은 흐름으로 가리킨다.
 - 이번 순환의 drift는 next-sequence ordered-cycle omission 정렬로 닫혔고,
   continuous-workstream / mainline sync / closure watch 정렬선은 그대로 유지한다.
+
+## 2026-04-18 Forty-Seventh Audit-Queue Ordered-Watch Realignment Pass
+
+목적:
+
+- `Audit_Queue.md`의
+  `Ordered Watch Snapshot`이
+  현재 focus snapshot과 live ordered cycle에서 직접 확인하는
+  mainline-sync / closure-watch / master-lock checkpoints를
+  충분히 담는지 다시 확인하고,
+  audit-queue ordered-watch drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Audit_Queue.md`는 `Focus Snapshot`에서 이미
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md`를
+  현재 본선 checkpoint로 전제하고 있다.
+- 그런데 `Ordered Watch Snapshot`은 아직
+  normalization 다음에 바로 Section 15 summary / carryover 점검으로 넘어가는 형태라,
+  mainline sync / closure watch / master-lock checkpoint가
+  한 단계 덜 드러나 있었다.
+
+조치:
+
+- `Audit_Queue.md`의 `Ordered Watch Snapshot`에
+  `Section_8_Mainline_Sync_Register.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md` checkpoint를 현재 순서에 맞게 복원해
+  queue snapshot과 live ordered cycle을 같은 기준으로 다시 맞췄다.
+
+의미:
+
+- audit queue 내부에서
+  focus snapshot과 ordered watch snapshot이
+  normalization / mainline sync / closure watch / master lock checkpoint를 같은 흐름으로 가리킨다.
+- 이번 순환의 drift는 audit-queue ordered-watch omission 정렬로 닫혔고,
+  next-sequence / continuous-workstream / closure watch 정렬선은 그대로 유지한다.

@@ -52,22 +52,24 @@
 ## Ordered Watch Snapshot
 
 1. `Section_8_Normalization_Status_Compass.md` 기준 `root / structure / mismatch / P2 handoff` snapshot 상태를 먼저 확인
-2. `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Coverage_Matrix.md`의 summary wording drift 점검
-3. `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`의 carryover wording drift 점검
-4. `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`, `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Stable_Candidate_Profile_QA.md`의 policy carryover drift 점검
-5. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`의 operational profile `3-1. Policy Guard` drift 점검은 2026-04-13 KST spot-check 기준 닫힌 상태로 유지한다
-6. Ether hold cluster closure와 `source_check_hold / hold reference split`, `deferred_expansion_hold / hold reference split` separation 유지
-7. `P2 place-pressure handoff owner`를 sidecar/register로 고정 유지하고, `section_style_forced_on_place_network`는 Section 8 risk label로만 둔다
-8. `14. 인물 백과` 루트 구조 감사는 reference backlog로만 유지
-9. 관계 타입 표준과 영웅 정본 스키마 확정은 후순위 유지
-10. 흩어진 아이템 수집 파이프라인은 duplicate hotspot / ambiguity source-context / 장기 분류 bucket link까지 반영 완료 상태로 유지하고, routing aid를 승격 기준으로 쓰지 않는다
-11. 아이템 duplicate hotspot은 `working/crosswalks/Item_Duplicate_Hotspot_Triage.md`로 side-track 유지하고, 별도 추적 중인 추출표 직접 편집은 보류한다
-12. summary / bridge 계층이 operational guard 문장을 `People Worth Seeking` 승인 논리로 역수입하지 않게 유지
-13. operational middle-layer wording-source sync는 이미 닫힌 reference 상태로 유지하고,
+2. `Section_8_Mainline_Sync_Register.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`가 같은 snapshot을 가리키는지 확인
+3. `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Coverage_Matrix.md`의 summary wording drift 점검
+4. `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`의 carryover wording drift 점검
+5. `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`, `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Stable_Candidate_Profile_QA.md`의 policy carryover drift 점검
+6. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`의 operational profile `3-1. Policy Guard` drift 점검은 2026-04-13 KST spot-check 기준 닫힌 상태로 유지한다
+7. Ether hold cluster closure와 `source_check_hold / hold reference split`, `deferred_expansion_hold / hold reference split` separation 유지
+8. `P2 place-pressure handoff owner`를 sidecar/register로 고정 유지하고, `section_style_forced_on_place_network`는 Section 8 risk label로만 둔다
+9. `Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry checkpoint로 유지하고, closeout component set을 승격 기준으로 재사용하지 않는다
+10. `14. 인물 백과` 루트 구조 감사는 reference backlog로만 유지
+11. 관계 타입 표준과 영웅 정본 스키마 확정은 후순위 유지
+12. 흩어진 아이템 수집 파이프라인은 duplicate hotspot / ambiguity source-context / 장기 분류 bucket link까지 반영 완료 상태로 유지하고, routing aid를 승격 기준으로 쓰지 않는다
+13. 아이템 duplicate hotspot은 `working/crosswalks/Item_Duplicate_Hotspot_Triage.md`로 side-track 유지하고, 별도 추적 중인 추출표 직접 편집은 보류한다
+14. summary / bridge 계층이 operational guard 문장을 `People Worth Seeking` 승인 논리로 역수입하지 않게 유지
+15. operational middle-layer wording-source sync는 이미 닫힌 reference 상태로 유지하고,
    새 drift가 생길 때만 국소 수정한다
-14. subline draft/profile 교차감사도 이미 닫힌 reference 상태로 유지하고,
+16. subline draft/profile 교차감사도 이미 닫힌 reference 상태로 유지하고,
    새 drift가 생길 때만 국소 수정한다
-15. `subline_profile_authority` sync group이
+17. `subline_profile_authority` sync group이
    status vocabulary / mainline sync / summary / bridge / watch 문서에 같은 문장으로 유지되는지 확인
 
 ## Conditional Backlog

@@ -7721,3 +7721,52 @@ Follow-up actions:
 
 - 이 next-sequence alignment delta를 commit/push한 뒤,
   `Audit_Queue.md`가 same-family checkpoint flow를 충분히 드러내는지 이어서 본다.
+
+## 2026-04-18 KST - Forty-Seventh Audit-Queue Ordered-Watch Realignment Pass
+
+목적:
+
+- `Audit_Queue.md`의
+  `Ordered Watch Snapshot`이
+  현재 focus snapshot과 live ordered cycle에서 직접 확인하는
+  mainline-sync / closure-watch / master-lock checkpoints를
+  충분히 담는지 다시 확인하고,
+  audit-queue ordered-watch drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local audit-queue ordered-watch scout
+
+Conductor action:
+
+- conductor는 `Audit_Queue.md`가 `Focus Snapshot`에서 이미
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md`를
+  현재 본선 checkpoint로 전제하고 있음을 재확인했다.
+- 그런데 `Ordered Watch Snapshot`은 아직
+  normalization 다음에 바로 Section 15 summary / carryover 점검으로 넘어가는 형태라,
+  mainline sync / closure watch / master-lock checkpoint가
+  한 단계 덜 드러나 있었다.
+- conductor local pass에서는
+  `Audit_Queue.md`의 `Ordered Watch Snapshot`에
+  `Section_8_Mainline_Sync_Register.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Five_Continent_Missing_Layer_Master_Lock.md` checkpoint를 현재 순서에 맞게 복원해
+  queue snapshot과 live ordered cycle을 같은 기준으로 다시 맞췄다.
+
+Integrated actions:
+
+- `Audit_Queue` ordered-watch realignment
+- report pair / dispatch log 2026-04-18 forty-seventh pass 반영
+
+Verification:
+
+- `Audit_Queue` now uses an ordered watch snapshot that matches the current normalization/mainline-sync/closure-watch/master-lock checkpoint flow already named in its focus snapshot.
+- no new live drift was found in next-sequence, continuous-workstream, normalization compass, mainline sync, closure watch, state-vocabulary, or `P2 place-pressure` ownership while closing this queue gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 audit-queue alignment delta를 commit/push한 뒤,
+  same-family 문서군에 추가 residual omission이 없는지 no-change sweep으로 다시 돈다.
