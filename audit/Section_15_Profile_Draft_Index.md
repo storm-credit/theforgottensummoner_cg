@@ -9,6 +9,14 @@
 - 기본 state label은 `operational_line`이다.
 - 이미 14번 신호가 보이는 인물은 `source_check_hold`로 별도 관리한다.
 
+upstream reference reading은
+`Section_15_Group_Index.md`,
+`Section_15_Operational_Lines_Track.md`,
+`Section_15_Operational_Display_Canon_Candidates.md`,
+`Section_15_Subline_Register.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Reference Snapshot
 
 | Draft Type | State Label | Meaning |

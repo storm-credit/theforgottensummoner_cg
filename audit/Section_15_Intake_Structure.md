@@ -9,6 +9,14 @@
 - `15번`은 다른 문서에 흩어진 인물을 회수하는 축이다.
 - 지금은 실제 이동이 아니라 `회수 규칙`만 유지한다.
 
+operational intake reading은
+`Section_15_Group_Index.md`,
+`Section_15_Profile_Draft_Index.md`,
+`Section_15_Subline_Register.md`,
+`Section_15_Operational_Lines_Track.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Intake Buckets
 
 ### 1. Faction Embedded

@@ -8065,3 +8065,55 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 middle-layer family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-18 KST - Fifty-Fourth Operational-Intake Source-Line Realignment Pass
+
+목적:
+
+- `Section_15_Profile_Draft_Index.md`와
+  `Section_15_Intake_Structure.md`가
+  현재 본문에서 실제로 쓰는
+  group/profile/subline/track reading family를
+  상단 source line으로 충분히 드러내는지 다시 확인하고,
+  operational-intake source-line drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local operational-intake source-line scout
+
+Conductor action:
+
+- conductor는 `Section_15_Profile_Draft_Index.md`가 본문에서 이미
+  `Group Index`, `Profile Template`, `Subline Register`,
+  downstream profile/subline card authority를 실제 lower-card reference로 사용하고 있음을 재확인했다.
+- conductor는 `Section_15_Intake_Structure.md`도 본문 policy intake rule에서 이미
+  group draft, subline draft, downstream `Section_15_Profile_* / Section_15_Subline_Profile_*`
+  authority를 intake classification 층과 연결해 읽고 있음을 재확인했다.
+- 그런데 두 문서 모두 상단에는
+  current reading bundle을 직접 적는 source line이 없어,
+  실제 authority family가 한 단계 덜 드러나 있었다.
+- conductor local pass에서는
+  `Section_15_Profile_Draft_Index.md` 상단에
+  `Group Index / Operational Track / Display / Subline Register / Continuous`
+  reading line을 추가하고,
+  `Section_15_Intake_Structure.md` 상단에
+  `Group Index / Profile Draft Index / Subline Register / Operational Track / Continuous`
+  reading line을 추가해
+  source line과 current operational intake/reference bundle을 같은 기준으로 맞췄다.
+
+Integrated actions:
+
+- `Section_15_Profile_Draft_Index` source-line realignment
+- `Section_15_Intake_Structure` source-line realignment
+- report pair / dispatch log 2026-04-18 fifty-fourth pass 반영
+
+Verification:
+
+- both operational intake/index docs now expose the same group/profile/subline authority family already used by their live bodies.
+- no new live drift was found in operational middle-layer, guard-family, checkpoint-family, or `P2 place-pressure` ownership while closing this intake/index gap.
+- next verification gate is `git diff --check` plus clean push parity after commit.
+
+Follow-up actions:
+
+- 이 operational-intake source-line alignment delta를 commit/push한 뒤,
+  same-family closing sweep을 다시 돈다.
