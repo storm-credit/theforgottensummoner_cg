@@ -2286,3 +2286,31 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   현재 live body가 쓰는 register/status/track/closure/coverage/collision/index/master-lock authority family를
   머리말에서 바로 노출한다.
 - residue lock은 frozen reference-layer 문서라 이번 pass에서는 수정하지 않았다.
+
+## 2026-04-19 Seventy-Fifth Named-Core Hub Stability Pass
+
+목적:
+
+- 방금 정렬한
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Named_Notables_Name_Collision_Register.md`
+  named-core hub 상위 층이
+  register/status/track/closure/coverage/collision/index/master-lock authority와 같은 흐름을 유지하는지 다시 대조하고,
+  residual omission이나 역행 drift가 없는지 확인한다.
+
+확인 결과:
+
+- 세 named-core hub 문서는 모두
+  현재 같은 수준에서 register/status/track/closure/coverage/collision/index/master-lock reading bundle을 노출하고 있다.
+- `Reference_Layer_Residue_Lock`는 frozen reference-layer authority 문서로 그대로 유지되고,
+  named-core hub 문서가 residue/frozen authority wording을 재정의하지 않는다.
+- 이번 closing sweep에서는
+  같은 named-core hub 상위 층 안의 추가 omission이나 재발 drift가 더 보이지 않았다.
+
+의미:
+
+- 이번 라운드의 named-core hub 정렬은
+  no-change stability 상태로 한 번 더 닫혔다.
+- 다음 순환은 새 live drift가 생기기 전까지
+  같은 named-core hub 상위 층에서는 no-change watch 기준으로 유지하면 된다.
