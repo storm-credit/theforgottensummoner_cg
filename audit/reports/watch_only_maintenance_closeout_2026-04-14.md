@@ -2501,3 +2501,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   live drift 수정 대상이 아니라 frozen routing sample 보존 대상으로 안정적으로 유지되고 있다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 frozen routing sample 층을 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-20 Eighty-Second Named-Notables Umbrella Stability Pass
+
+목적:
+
+- named-notables mainline 전체에서
+  live authority 문서군, live card/template 문서군, frozen snapshot/sample 문서군의 역할 분리가
+  오늘 기준으로도 안정적으로 유지되는지 다시 대조한다.
+
+확인 결과:
+
+- core hub 문서군은
+  register/status/track/closure/coverage/collision/index/master-lock authority bundle을
+  머리말과 본문에서 일관되게 노출하고 있었다.
+- active named-card와 template 문서군은
+  same-family reading bundle을 안정적으로 유지하고 있었고,
+  deferred/collision 예외도 `Sylvia` 카드와 collision register에서 분리된 상태로 남아 있었다.
+- search-batch와 frozen routing sample 문서군은
+  여전히 snapshot/sample identity로 읽히며,
+  live summary/register/template authority를 대체하지 않고 있었다.
+- residue lock의 분류 규칙도
+  현재 live fix 대상과 frozen identity 보존 대상을 계속 정확히 가르고 있었다.
+
+조치:
+
+- source prose patch 없이
+  named-notables umbrella no-change stability 결과만 report pair와 dispatch log에 기록했다.
+
+의미:
+
+- named-notables mainline은 현재
+  `live authority / live card-template / frozen snapshot-sample` 3층 분리가 안정적으로 유지되고 있다.
+- 다음 순환은 새 local drift가 생기기 전까지
+  umbrella watch 기준으로 유지하면 된다.

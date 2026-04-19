@@ -9343,3 +9343,47 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 frozen routing sample 층은 no-change watch 기준으로 유지한다.
+
+## 2026-04-20 KST - Eighty-Second Named-Notables Umbrella Stability Pass
+
+목적:
+
+- named-notables mainline 전체에서
+  live authority 문서군, live card/template 문서군, frozen snapshot/sample 문서군의 역할 분리가
+  오늘 기준으로도 안정적으로 유지되는지 다시 대조한다.
+
+배치:
+
+- conductor local named-notables umbrella scout
+
+Conductor action:
+
+- conductor는 core hub, active named-card, template, search-batch, frozen routing sample 대표 문서들을 다시 대조해,
+  각 층이 현재도 서로 다른 역할을 안정적으로 유지하고 있음을 재확인했다.
+- core hub 문서군은
+  register/status/track/closure/coverage/collision/index/master-lock authority bundle을
+  머리말과 본문에서 일관되게 노출하고 있었다.
+- active named-card와 template 문서군은
+  same-family reading bundle을 안정적으로 유지하고 있었고,
+  deferred/collision 예외도 `Sylvia` 카드와 collision register에서 분리된 상태로 유지되고 있었다.
+- search-batch와 frozen routing sample 문서군은
+  여전히 snapshot/sample identity로 읽히며,
+  live summary/register/template authority를 대체하지 않고 있었다.
+- 이번 순환은 source prose patch 없이
+  named-notables umbrella no-change stability result만 기록한다.
+
+Integrated actions:
+
+- named-notables umbrella no-change stability confirmation
+- report pair / dispatch log 2026-04-20 eighty-second pass 반영
+
+Verification:
+
+- no additional live drift was found across the named-notables mainline umbrella at this checkpoint.
+- the current mainline still cleanly separates live authority docs, live card/template docs, and frozen snapshot/sample docs.
+- next verification gate is clean push parity plus fresh local drift only.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 named-notables mainline은 umbrella watch 기준으로 유지한다.
