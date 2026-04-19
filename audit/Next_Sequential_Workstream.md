@@ -75,6 +75,9 @@ reference 순서표로 보여주는 진행표다.
 5. `1~5 대륙 결손층 5개` policy/evidence/firewall component set
 6. `1~5 대륙 결손층 5개` master lock entry
 7. 대표 `subline draft / subline profile` 교차감사 결과
+8. named-notables mainline umbrella
+   (`core hub / card-template / search-batch / frozen sample`) closure 상태
+9. bridge-anchor adjacent layer와 spine-index layer의 no-change stability 상태
 
 ## Conditional Backlog
 
@@ -96,3 +99,7 @@ reference 순서표로 보여주는 진행표다.
 `closure sync / watch-reference`
 순서를 고정하고,
 문서군이 같은 기준 시점을 가리키게 유지하는 단계다.
+
+현재 named-notables mainline은
+umbrella stability까지 한 번 닫힌 상태이므로,
+새 drift가 생기기 전에는 확장보다 no-change watch가 우선이다.

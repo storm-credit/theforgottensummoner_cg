@@ -9475,3 +9475,51 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 spine-index 층은 no-change watch 기준으로 유지한다.
+
+## 2026-04-20 KST - Eighty-Fifth Orchestration-Hub Base-Construction Realignment Pass
+
+목적:
+
+- `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  상위 orchestration 허브들이
+  현재 기반공사 완료선, 특히 named-notables umbrella / bridge-anchor / spine-index closure 상태를
+  문서에서도 분명히 드러내는지 다시 확인하고,
+  progress-visibility drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local orchestration-hub scout
+
+Conductor action:
+
+- conductor는 세 상위 orchestration 허브를 다시 대조해,
+  메인 본선 reference 자체는 올바르게 유지하고 있지만
+  최근에 닫힌 named-notables umbrella / bridge-anchor / spine-index closure 상태가
+  지금 시점의 기반공사 진행률만큼 선명하게 적혀 있지는 않음을 재확인했다.
+- 그래서 사용자 관점에서는
+  `정리가 끝나 가는 상태`보다 `계속 같은 감시만 하는 상태`처럼 보일 여지가 남아 있었다.
+- conductor local pass에서는
+  `Continuous_Workstream.md`에
+  named-notables umbrella와 bridge-anchor / spine-index 층이 닫힌 reference 상태이며
+  새 drift 때만 국소 재개한다는 기준을 추가하고,
+  `Next_Sequential_Workstream.md`와 `Audit_Queue.md`에도
+  같은 closure 상태와 no-change watch 우선 기준을 보강해
+  현재 기반공사 완료선이 상위 진행표에서 바로 보이게 맞췄다.
+
+Integrated actions:
+
+- orchestration-hub base-construction visibility realignment
+- report pair / dispatch log 2026-04-20 eighty-fifth pass 반영
+
+Verification:
+
+- the top orchestration hubs now show the current base-construction closure line more explicitly.
+- the named-notables umbrella, bridge-anchor, and spine-index layers remain closed and drift-driven rather than expansion-driven.
+- next verification gate is `git diff --check` plus clean push parity, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 orchestration-hub delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 기반공사 허브는 no-change watch 기준으로 유지한다.

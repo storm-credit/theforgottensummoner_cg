@@ -48,6 +48,13 @@
    결손층 5개 본선의 단일 entry reference로 유지한다
 21. missing-layer component set은 closeout reference로만 유지하고,
    새 evidence 전까지는 `root / structure / mismatch / P2 handoff` watch를 우선한다
+22. named-notables mainline은
+   `core hub / live card-template / frozen snapshot-sample` 3층 분리를
+   닫힌 기준선으로 유지하고,
+   새 drift가 생길 때만 해당 family를 국소 수정한다
+23. bridge-anchor와 spine-index 층도
+   같은 authority split / master-lock carryover / stable-vs-hold separation을
+   닫힌 reference 상태로 유지한다
 
 ## Ordered Watch Snapshot
 

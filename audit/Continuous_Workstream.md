@@ -40,6 +40,13 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 14. `Five_Continent_Missing_Layer_Master_Lock.md` 아래 component set은
     closeout reference로 유지하고,
     새 evidence 전까지는 `root / structure / mismatch / P2 handoff` watch를 우선한다.
+15. named-notables mainline은
+    `core hub / live card-template / frozen snapshot-sample` 3층 분리를
+    닫힌 기준선으로 유지하고,
+    새 local drift가 생길 때만 해당 family를 국소 재개한다.
+16. bridge-anchor 인접층과 spine-index 층도
+    같은 authority split / master-lock carryover / stable-vs-hold separation 아래
+    닫힌 reference 상태로 유지한다.
 
 ## Ordered Cycle
 
@@ -61,6 +68,13 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
     summary / bridge / watch 문서에 같은 문장으로 유지되는지 확인한다.
 12. missing-layer master lock component set은 닫힌 reference로 보고,
     새 evidence가 생기기 전에는 `root / structure / mismatch / P2 handoff` snapshot 점검을 우선한다.
+13. named-notables mainline umbrella는
+    `core hub -> card/template -> search-batch/frozen sample`
+    3층 분리가 유지되는지 확인하고,
+    새 drift가 없으면 no-change watch로만 둔다.
+14. bridge-anchor와 spine-index 인접층은
+    같은 authority split과 master-lock carryover를 유지하는지만 확인하고,
+    새 drift가 없으면 no-change watch로만 둔다.
 
 ## Input Reference Set
 

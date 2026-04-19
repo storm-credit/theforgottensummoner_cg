@@ -2600,3 +2600,39 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   named-notables mainline과 같은 authority 분리선을 안정적으로 유지하고 있다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 spine-index 층을 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-20 Eighty-Fifth Orchestration-Hub Base-Construction Realignment Pass
+
+목적:
+
+- `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  상위 orchestration 허브들이
+  현재 기반공사 완료선, 특히 named-notables umbrella / bridge-anchor / spine-index closure 상태를
+  문서에서도 분명히 드러내는지 다시 확인하고,
+  progress-visibility drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- 세 상위 허브 문서는 메인 본선 reference 자체는 올바르게 유지하고 있었지만,
+  최근에 닫힌 named-notables umbrella / bridge-anchor / spine-index closure 상태가
+  지금 시점의 기반공사 진행률만큼 선명하게 적혀 있지는 않았다.
+- 그래서 사용자 관점에서는
+  `정리가 끝나 가는 상태`보다 `계속 같은 감시만 하는 상태`처럼 보일 여지가 남아 있었다.
+
+조치:
+
+- `Continuous_Workstream.md`에
+  named-notables umbrella와 bridge-anchor / spine-index 층이 닫힌 reference 상태이며
+  새 drift 때만 국소 재개한다는 기준을 추가했다.
+- `Next_Sequential_Workstream.md`와 `Audit_Queue.md`에도
+  같은 closure 상태와 no-change watch 우선 기준을 보강해,
+  현재 기반공사 완료선이 상위 진행표에서 바로 보이게 맞췄다.
+
+의미:
+
+- 기반공사 자체뿐 아니라
+  `지금 어디까지 정리됐는지`가 orchestration 상위 허브에서도 더 잘 보이게 되었다.
+- 이후에는 실제 새 drift가 생길 때만
+  해당 family를 다시 여는 현재 단계가 문서에서도 더 분명하게 드러난다.
