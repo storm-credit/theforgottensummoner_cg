@@ -3,6 +3,17 @@
 이 문서는 `해양` 대륙에서
 `15 People Worth Seeking` 후보와 이름이 필요한 역할 슬롯을 분리해 기록한다.
 
+oceanic scout reading은
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Track.md`,
+`Section_15_Five_Continent_Closure_Table.md`,
+`Section_15_Named_Notables_Coverage_Matrix.md`,
+`Section_15_Index_Draft.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Conductor Reading
 
 해양은 `프로스트`와 반대로 이름 있는 후보는 많다.

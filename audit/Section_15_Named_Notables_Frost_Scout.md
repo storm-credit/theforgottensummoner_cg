@@ -4,6 +4,17 @@
 `15 People Worth Seeking`으로 회수할 수 있는 명사형 인물 후보와
 아직 이름이 필요한 역할 슬롯을 분리해 기록한다.
 
+frost scout reading은
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Track.md`,
+`Section_15_Five_Continent_Closure_Table.md`,
+`Section_15_Named_Notables_Coverage_Matrix.md`,
+`Section_15_Index_Draft.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Conductor Reading
 
 프로스트는 아직 안전한 15 확정 후보가 많지 않다.

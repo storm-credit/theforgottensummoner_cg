@@ -2185,3 +2185,39 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 named-summary bridge 상위 층에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-19 Seventy-Second Continent-Scout Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Frost_Scout.md`,
+  `Section_15_Named_Notables_Oceanic_Scout.md`,
+  `Section_15_Named_Notables_Obelisk_Scout.md`가
+  현재 본문에서 실제로 쓰는
+  status/register/track/closure/coverage/index/place-sidecar/boundary authority bundle을
+  상단 reading line에서 충분히 드러내는지 다시 확인하고,
+  continent-scout reading drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- 세 continent-scout 문서는 모두
+  본문에서 summary/closure/coverage/index family와
+  각 대륙 place-institution sidecar 또는 boundary batch를 함께 참조하고 있었다.
+- 하지만 세 문서 모두 상단 reading line은 비어 있어,
+  live authority family가 한 단계 덜 드러나 있었다.
+
+조치:
+
+- `Section_15_Named_Notables_Frost_Scout.md`,
+  `Section_15_Named_Notables_Oceanic_Scout.md`,
+  `Section_15_Named_Notables_Obelisk_Scout.md`
+  상단에 각 문서 역할에 맞는 reading bundle line을 추가해
+  source line과 live authority bundle을 같은 기준으로 맞췄다.
+
+의미:
+
+- continent-scout 상위 층도 이제
+  현재 live body가 쓰는
+  status/register/track/closure/coverage/index/place-sidecar/boundary authority family를
+  머리말에서 바로 노출한다.
+- lower-card exact wording authority와 14/15 boundary separation은 그대로 유지된다.

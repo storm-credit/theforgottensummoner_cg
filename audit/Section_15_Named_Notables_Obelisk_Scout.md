@@ -3,6 +3,18 @@
 이 문서는 `오벨리스크` 대륙에서
 `15 People Worth Seeking` 후보와 역할 슬롯을 분리해 기록한다.
 
+obelisk scout reading은
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Track.md`,
+`Section_15_Five_Continent_Closure_Table.md`,
+`Section_15_Named_Notables_Coverage_Matrix.md`,
+`Section_15_Index_Draft.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+`Section_14_15_Obelisk_Boundary_Batch_02.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Conductor Reading
 
 오벨리스크는 `기록`, `봉인`, `망각`, `영혼`, `금서` 축이 매우 강하다.
