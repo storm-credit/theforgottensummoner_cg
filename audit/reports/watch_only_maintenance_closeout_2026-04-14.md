@@ -2314,3 +2314,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 named-core hub 상위 층에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-19 Seventy-Sixth Named-Card Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notable_*` 개별 카드군이
+  현재 본문에서 실제로 쓰는
+  register/status/track/closure/coverage/index/continuous authority bundle을
+  카드 머리말 reading line에서 충분히 드러내는지 다시 확인하고,
+  named-card reading drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- active `Named_Notable_*` 카드 8장은 모두
+  본문에서 already live named-core hub 문서군을 참조하는데도,
+  카드 머리말에는 current reading bundle이 비어 있었다.
+- `실비아` 카드는 deferred expansion hold와 name collision watch를 함께 쓰므로
+  일반 named card보다 `Name Collision Register`까지 포함한 reading bundle이 필요했다.
+
+조치:
+
+- `Arian`, `Bellana`, `Draxar`, `Eldara`, `Erion`, `Kasar`, `Oghma`, `Wolfgar`
+  개별 카드 상단에
+  register/status/track/closure/coverage/index/continuous reading line을 추가했다.
+- `Section_15_Named_Notable_Sylvia.md`에는
+  deferred boundary/collision 성격에 맞춰
+  `Name Collision Register`를 포함한 variant reading line을 추가했다.
+
+의미:
+
+- named-card family도 이제
+  current live body가 쓰는 named-core hub authority bundle을
+  카드 머리말에서 바로 노출한다.
+- 개별 카드 본문 판단이나 residue/frozen routing wording은 이번 pass에서 재정의하지 않았다.

@@ -9083,3 +9083,49 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 named-core hub 상위 층은 no-change watch 기준으로 유지한다.
+
+## 2026-04-19 KST - Seventy-Sixth Named-Card Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notable_*` 개별 카드군이
+  현재 본문에서 실제로 쓰는
+  register/status/track/closure/coverage/index/continuous authority bundle을
+  카드 머리말 reading line에서 충분히 드러내는지 다시 확인하고,
+  named-card reading drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local named-card bundle scout
+
+Conductor action:
+
+- conductor는 active `Section_15_Named_Notable_*` 카드 8장을 다시 대조해,
+  모두 본문에서 named-core hub 문서군과 same-family watch logic을 이미 공유하고 있음을 재확인했다.
+- 그런데 개별 카드 머리말에는
+  current reading bundle이 비어 있어,
+  live authority family가 카드 진입점에서 한 단계 덜 드러나 있었다.
+- conductor local pass에서는
+  일반 named card 8장에
+  register/status/track/closure/coverage/index/continuous reading line을 추가하고,
+  `Section_15_Named_Notable_Sylvia.md`에는
+  deferred expansion hold와 name collision watch를 반영해
+  `Name_Collision_Register`를 포함한 variant reading line을 추가해
+  named-card source line과 live authority bundle을 같은 기준으로 맞췄다.
+
+Integrated actions:
+
+- active `Section_15_Named_Notable_*` card reading-bundle realignment
+- `Section_15_Named_Notable_Sylvia` collision-aware reading realignment
+- report pair / dispatch log 2026-04-19 seventy-sixth pass 반영
+
+Verification:
+
+- the active named-card docs now expose the same register/status/track/closure/coverage/index/continuous authority family already used by their live bodies.
+- the deferred Sylvia card now also exposes the collision-watch authority already used by its live body.
+- next verification gate is `git diff --check` plus a same-family closing sweep after commit.
+
+Follow-up actions:
+
+- 이 named-card alignment delta를 commit/push한 뒤,
+  same-family closing sweep을 다시 돈다.
