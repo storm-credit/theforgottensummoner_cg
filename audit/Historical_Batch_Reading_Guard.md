@@ -19,8 +19,15 @@
 4. `audit/Section_8_Normalization_Status_Compass.md`
 5. `audit/Section_8_Mainline_Sync_Register.md`
 6. `audit/Section_8_15_Closure_Sync_Carryover_Watch.md`
-7. `audit/Five_Continent_Missing_Layer_Master_Lock.md`
-8. `audit/Section_15_Named_Notables_Status_Compass.md`
+7. `audit/Section_15_Named_Notables_Status_Compass.md`
+8. `audit/Section_15_Five_Continent_Closure_Table.md`
+9. `audit/Section_15_Named_Notables_Coverage_Matrix.md`
+10. `audit/Section_8_to_15_Notable_Anchor_Bridge.md`
+11. `audit/Section_15_Named_Notables_Anchor_Map.md`
+12. `audit/Section_15_Named_Notables_Continent_Synthesis.md`
+13. `audit/Section_8_15_Spine_Compatibility_Audit.md`
+14. `audit/Section_15_Stable_Candidate_8_Anchor_Index.md`
+15. `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 
 위 문서에 직접 올라오지 않은 historical batch 문서는
 현재 active step이 아니라 reference evidence로 읽는다.

@@ -9523,3 +9523,47 @@ Follow-up actions:
 
 - 이 orchestration-hub delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 기반공사 허브는 no-change watch 기준으로 유지한다.
+
+## 2026-04-20 KST - Eighty-Sixth Historical-Guard Mainline-Source Realignment Pass
+
+목적:
+
+- `Historical_Batch_Reading_Guard.md`의
+  `Mainline Source of Truth Reference`가
+  실제 현재 본선 authority 문서군을 충분히 반영하는지 다시 확인하고,
+  historical-vs-mainline 분기선 drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local historical-guard scout
+
+Conductor action:
+
+- conductor는 `Historical_Batch_Reading_Guard.md`를 다시 대조해,
+  historical batch를 archive evidence로 읽는 기본 방향은 맞지만
+  source-of-truth 목록이 최근에 닫힌 summary / bridge / anchor / spine-index mainline 문서군보다 좁게 남아 있음을 재확인했다.
+- 그래서 historical batch 문서를 현재 본선과 구분하는 기준은 살아 있었어도,
+  어떤 문서가 실제 current mainline source-of-truth인지가 지금 시점의 본선보다 덜 선명했다.
+- conductor local pass에서는
+  `Mainline Source of Truth Reference`에
+  `Section_15_Named_Notables_Status_Compass / Closure Table / Coverage Matrix`,
+  `Section_8_to_15_Notable_Anchor_Bridge / Anchor Map / Continent Synthesis`,
+  `Section_8_15_Spine_Compatibility_Audit / Section_15_Stable_Candidate_8_Anchor_Index`
+  문서군을 추가해
+  historical-vs-mainline 분기선이 현재 본선 기준과 같아지게 맞췄다.
+
+Integrated actions:
+
+- `Historical_Batch_Reading_Guard` mainline-source realignment
+- report pair / dispatch log 2026-04-20 eighty-sixth pass 반영
+
+Verification:
+
+- the historical batch guard now points at the current named-notables mainline authority bundle more explicitly.
+- historical family docs remain archive evidence rather than current action queues.
+- next verification gate is `git diff --check` plus clean push parity, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 historical-guard delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 batch/archive 분기선은 no-change watch 기준으로 유지한다.

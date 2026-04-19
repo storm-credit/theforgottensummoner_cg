@@ -2636,3 +2636,36 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   `지금 어디까지 정리됐는지`가 orchestration 상위 허브에서도 더 잘 보이게 되었다.
 - 이후에는 실제 새 drift가 생길 때만
   해당 family를 다시 여는 현재 단계가 문서에서도 더 분명하게 드러난다.
+
+## 2026-04-20 Eighty-Sixth Historical-Guard Mainline-Source Realignment Pass
+
+목적:
+
+- `Historical_Batch_Reading_Guard.md`의
+  `Mainline Source of Truth Reference`가
+  실제 현재 본선 authority 문서군을 충분히 반영하는지 다시 확인하고,
+  historical-vs-mainline 분기선 drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- historical batch guard의 기본 방향은 맞았지만,
+  source-of-truth 목록이 최근에 닫힌 summary / bridge / anchor / spine-index mainline 문서군보다 좁게 남아 있었다.
+- 그래서 historical batch 문서를 현재 본선과 구분하는 기준은 살아 있었어도,
+  어떤 문서가 실제 current mainline source-of-truth인지가 지금 시점의 본선보다 덜 선명했다.
+
+조치:
+
+- `Historical_Batch_Reading_Guard.md`의
+  `Mainline Source of Truth Reference`에
+  `Section_15_Named_Notables_Status_Compass / Closure Table / Coverage Matrix`,
+  `Section_8_to_15_Notable_Anchor_Bridge / Anchor Map / Continent Synthesis`,
+  `Section_8_15_Spine_Compatibility_Audit / Section_15_Stable_Candidate_8_Anchor_Index`
+  문서군을 추가해
+  historical-vs-mainline 분기선이 현재 본선 기준과 같아지게 맞췄다.
+
+의미:
+
+- historical batch guard도 이제
+  실제 current mainline authority 묶음을 더 정확히 가리키게 되었다.
+- 이후 historical family는 더 명확한 본선 기준 아래서
+  archive evidence로만 읽히게 유지된다.
