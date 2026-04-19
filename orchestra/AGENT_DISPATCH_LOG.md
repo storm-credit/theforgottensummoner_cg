@@ -8718,3 +8718,49 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 summary-family 상위 층은 no-change watch 기준으로 유지한다.
+
+## 2026-04-19 KST - Sixty-Eighth Named-Scout Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_First_Pass.md`,
+  `Section_15_Named_Notables_Gap_Scout.md`,
+  `Section_15_Named_Notables_Recovery_Batch_01.md`가
+  현재 본문에서 실제로 쓰는
+  status/register/track/closure/coverage/index authority bundle을
+  상단 active-judgment line에서 충분히 드러내는지 다시 확인하고,
+  named-scout reading drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local named-scout bundle scout
+
+Conductor action:
+
+- conductor는 세 named-scout 문서를 다시 대조해,
+  본문에서 이미 summary/closure/index family를 함께 참조하는데
+  상단 active-judgment line에는 `Register / Status / Continuous`만 남아 있어
+  current authority bundle보다 좁게 적혀 있음을 재확인했다.
+- conductor local pass에서는
+  세 문서의 상단 active-judgment line에
+  `Track / Closure Table / Coverage Matrix / Index Draft`
+  authority를 공통 추가해
+  named-scout source line과 live authority bundle을 같은 기준으로 맞췄다.
+
+Integrated actions:
+
+- `Section_15_Named_Notables_First_Pass` reading-bundle realignment
+- `Section_15_Named_Notables_Gap_Scout` reading-bundle realignment
+- `Section_15_Named_Notables_Recovery_Batch_01` reading-bundle realignment
+- report pair / dispatch log 2026-04-19 sixty-eighth pass 반영
+
+Verification:
+
+- the active named-scout docs now expose the same status/register/track/closure/coverage/index authority family already used by their live bodies.
+- lower-card exact wording authority and 14/15 boundary separation remain unchanged.
+- next verification gate is `git diff --check` plus a same-family closing sweep after commit.
+
+Follow-up actions:
+
+- 이 named-scout reading-bundle alignment delta를 commit/push한 뒤,
+  same-family closing sweep을 다시 돈다.

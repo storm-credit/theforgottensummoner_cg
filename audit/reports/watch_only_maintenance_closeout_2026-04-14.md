@@ -2060,3 +2060,36 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 summary-family 상위 층에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-19 Sixty-Eighth Named-Scout Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_First_Pass.md`,
+  `Section_15_Named_Notables_Gap_Scout.md`,
+  `Section_15_Named_Notables_Recovery_Batch_01.md`가
+  현재 본문에서 실제로 쓰는
+  status/register/track/closure/coverage/index authority bundle을
+  상단 active-judgment line에서 충분히 드러내는지 다시 확인하고,
+  named-scout reading drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- 세 named-scout 문서는 모두
+  본문에서 이미 summary/closure/index family를 함께 참조하는데,
+  상단 active-judgment line에는 `Register / Status / Continuous`만 남아 있어
+  current authority bundle보다 좁게 적혀 있었다.
+
+조치:
+
+- 세 문서의 상단 active-judgment line에
+  `Track / Closure Table / Coverage Matrix / Index Draft`
+  authority를 공통 추가했다.
+
+의미:
+
+- named-scout 문서들은 이제
+  상단 active-judgment line과 live body가 같은
+  status/register/track/closure/coverage/index authority 문서군을 가리킨다.
+- 이번 순환의 drift는 named-scout reading-bundle omission 정렬로 닫혔고,
+  lower-card exact wording authority와 14/15 boundary 분리선은 그대로 유지된다.

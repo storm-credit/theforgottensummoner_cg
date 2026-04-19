@@ -7,6 +7,10 @@
 People Worth Seeking active 판단은
 `Section_15_Named_Notables_Register.md`,
 `Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Track.md`,
+`Section_15_Five_Continent_Closure_Table.md`,
+`Section_15_Named_Notables_Coverage_Matrix.md`,
+`Section_15_Index_Draft.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
