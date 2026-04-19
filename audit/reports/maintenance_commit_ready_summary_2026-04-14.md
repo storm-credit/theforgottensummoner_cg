@@ -170,6 +170,7 @@
 - 2026-04-19 sixty-eighth pass expanded `Section_15_Named_Notables_First_Pass.md`, `Section_15_Named_Notables_Gap_Scout.md`, and `Section_15_Named_Notables_Recovery_Batch_01.md` so their active-judgment lines explicitly cover the current status/register/track/closure/coverage/index authority bundle already used by the live bodies
 - 2026-04-19 sixty-ninth pass confirmed the named-scout upper layer stays aligned after the new reading-bundle realignments; no further source prose patch was needed beyond report/log recording
 - 2026-04-19 seventieth pass expanded `Section_15_Named_Notables_Ether_Scout.md` and `Section_15_Named_Notables_Continent_Synthesis.md` so their reading lines explicitly cover the current status/register/track/closure/coverage/index/anchor/bridge authority bundle already used by the live bodies
+- 2026-04-19 seventy-first pass confirmed the named-summary bridge upper layer stays aligned after the new reading-bundle realignments; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

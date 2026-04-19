@@ -8857,3 +8857,45 @@ Follow-up actions:
 
 - 이 named-summary bridge alignment delta를 commit/push한 뒤,
   same-family closing sweep을 다시 돈다.
+
+## 2026-04-19 KST - Seventy-First Named-Summary Bridge Stability Pass
+
+목적:
+
+- 방금 정렬한
+  `Section_15_Named_Notables_Ether_Scout.md`와
+  `Section_15_Named_Notables_Continent_Synthesis.md`
+  named-summary bridge 상위 층이
+  status/register/track/closure/coverage/index/anchor/bridge authority와 같은 흐름을 유지하는지 다시 대조하고,
+  residual omission이나 역행 drift가 없는지 확인한다.
+
+배치:
+
+- conductor local named-summary bridge stability scout
+
+Conductor action:
+
+- conductor는 두 named-summary bridge 문서를 다시 대조해,
+  모두 현재 같은 수준에서 status/register/track/closure/coverage/index/anchor/bridge reading bundle을 노출하고 있음을 재확인했다.
+- lower-card exact wording authority와 14/15 boundary 분리선은 그대로 유지되고,
+  상위 named-summary bridge 문서가 downstream authority wording을 재정의하지 않는 것도 재확인했다.
+- 이번 closing sweep에서는
+  같은 named-summary bridge 상위 층 안의 추가 omission이나 재발 drift가 더 보이지 않았다.
+- 이번 순환은 source prose patch 없이
+  named-summary bridge no-change stability result만 기록한다.
+
+Integrated actions:
+
+- named-summary bridge no-change stability confirmation
+- report pair / dispatch log 2026-04-19 seventy-first pass 반영
+
+Verification:
+
+- no additional live drift was found across the named-summary bridge upper layer after the latest realignment.
+- the current named-summary bridge docs remain aligned with the same status/register/track/closure/coverage/index/anchor/bridge authority family used by the live bodies.
+- next verification gate is clean push parity plus fresh local drift only.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 named-summary bridge 상위 층은 no-change watch 기준으로 유지한다.
