@@ -6,6 +6,20 @@
 이 축은 `Operational Lines`와 다르게
 개별 이름과 기억 가치를 우선한다.
 
+named notable template reading은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Track.md`,
+`Section_15_Five_Continent_Closure_Table.md`,
+`Section_15_Named_Notables_Coverage_Matrix.md`,
+`Section_15_Named_Notables_Name_Collision_Register.md`,
+`Section_15_Index_Draft.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
+얇은 층 정책 잠금과 evidence/firewall 묶음의 단일 entry는
+`Five_Continent_Missing_Layer_Master_Lock.md`를 우선 기준으로 읽는다.
+
 ## Template
 
 ```md

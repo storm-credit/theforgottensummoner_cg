@@ -9169,3 +9169,46 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 named-card family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-20 KST - Seventy-Eighth Named-Template Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notable_Template.md`가
+  현재 live named-card family를 잠그는 설계 기준서로서
+  register/status/track/closure/coverage/collision/index/master-lock authority bundle을
+  머리말 reading line에서 충분히 드러내는지 다시 확인하고,
+  named-template reading drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local named-template scout
+
+Conductor action:
+
+- conductor는 `Section_15_Named_Notable_Template.md`를 다시 대조해,
+  본문에서 이미 named-card family의 routing, policy guard, hold split, collision, master-lock carryover를 함께 잠그고 있음을 재확인했다.
+- 그런데 문서 상단에는
+  current template reading bundle이 비어 있어,
+  live authority family가 설계 기준서 진입점에서 한 단계 덜 드러나 있었다.
+- conductor local pass에서는
+  template 상단에
+  register/status/track/closure/coverage/collision/index/continuous reading line과
+  master-lock 단일 entry line을 추가해
+  named-template source line과 live authority bundle을 같은 기준으로 맞췄다.
+
+Integrated actions:
+
+- `Section_15_Named_Notable_Template` reading-bundle realignment
+- report pair / dispatch log 2026-04-20 seventy-eighth pass 반영
+
+Verification:
+
+- the named-template guide now exposes the same register/status/track/closure/coverage/collision/index/master-lock authority family already used by its live schema body.
+- template schema wording itself remained unchanged.
+- next verification gate is `git diff --check` plus a residue/frozen no-change sweep after commit.
+
+Follow-up actions:
+
+- 이 named-template alignment delta를 commit/push한 뒤,
+  residue/frozen outer ring을 no-change 기준으로 다시 닫는다.

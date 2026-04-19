@@ -2372,3 +2372,33 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 named-card family에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-20 Seventy-Eighth Named-Template Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notable_Template.md`가
+  현재 live named-card family를 잠그는 설계 기준서로서
+  register/status/track/closure/coverage/collision/index/master-lock authority bundle을
+  머리말 reading line에서 충분히 드러내는지 다시 확인하고,
+  named-template reading drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_15_Named_Notable_Template.md`는
+  실제 본문에서 named-card family의 routing, policy guard, hold split, collision, master-lock carryover를 모두 잠그고 있었다.
+- 하지만 문서 상단에는 current template reading bundle이 비어 있어,
+  live authority family가 설계 기준서 진입점에서 한 단계 덜 드러나 있었다.
+
+조치:
+
+- `Section_15_Named_Notable_Template.md` 상단에
+  register/status/track/closure/coverage/collision/index/continuous reading line과
+  `Five_Continent_Missing_Layer_Master_Lock.md` 단일 entry line을 추가했다.
+
+의미:
+
+- named-card template도 이제
+  current live family가 실제로 쓰는 authority bundle을
+  머리말에서 바로 노출한다.
+- template schema 본문과 frozen snapshot wording은 이번 pass에서 재정의하지 않았다.
