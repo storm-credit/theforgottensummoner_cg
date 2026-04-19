@@ -3,6 +3,17 @@
 이 문서는 `15 People Worth Seeking` 후보 중
 이름이 여러 세력/대륙에서 충돌하는 경우를 따로 관리한다.
 
+collision register reading은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Track.md`,
+`Section_15_Five_Continent_Closure_Table.md`,
+`Section_15_Named_Notables_Coverage_Matrix.md`,
+`Section_15_Index_Draft.md`,
+`working/crosswalks/Item_Name_Collision_Register.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 ## Rule
 
 - 같은 이름이 여러 앵커에 있으면 바로 병합하지 않는다.

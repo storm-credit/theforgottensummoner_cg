@@ -9,6 +9,19 @@
 - 고정된 15 후보와 `source_check_hold / hold reference split` 후보를 섞지 않는다.
 - watch-reference 기준으로 어느 대륙이 어떤 watch-reference 상태인지 바로 보이게 한다.
 
+compass reading은
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Track.md`,
+`Section_15_Five_Continent_Closure_Table.md`,
+`Section_15_Named_Notables_Coverage_Matrix.md`,
+`Section_15_Named_Notables_Name_Collision_Register.md`,
+`Section_15_Index_Draft.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
+얇은 층 정책 잠금과 evidence/firewall 묶음의 단일 entry는
+`Five_Continent_Missing_Layer_Master_Lock.md`를 우선 기준으로 읽는다.
+
 ## Compass Snapshot
 
 | Area | `stable_triad_frozen_reference_set` | Hold Reference Split / Hold Cluster | Main Risk | Reference Action |

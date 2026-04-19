@@ -8988,3 +8988,54 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 continent-scout 상위 층은 no-change watch 기준으로 유지한다.
+
+## 2026-04-19 KST - Seventy-Fourth Named-Core Hub Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Register.md`,
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Named_Notables_Name_Collision_Register.md`가
+  현재 본문에서 실제로 쓰는
+  register/status/track/closure/coverage/collision/index/master-lock authority bundle을
+  머리말 active reading line에서 충분히 드러내는지 다시 확인하고,
+  named-core hub reading drift가 있으면 바로 정리한다.
+
+배치:
+
+- conductor local named-core hub scout
+
+Conductor action:
+
+- conductor는 named-notables 핵심 허브 세 문서를 다시 대조해,
+  본문에서 이미 watch-reference, closure, coverage, collision, master-lock policy를 함께 운용하고 있음을 재확인했다.
+- 그런데 `Register`, `Status Compass`, `Name Collision Register` 상단에는
+  current reading bundle이 비어 있거나,
+  helper register 성격에 비해 live authority family가 한 단계 덜 드러나 있었다.
+- conductor local pass에서는
+  `Register`와 `Status Compass`에
+  status/track/closure/coverage/collision/index/continuous reading line과
+  master-lock 단일 entry line을 추가하고,
+  `Name Collision Register`에는
+  register/status/track/closure/coverage/index/item-collision/continuous reading line을 추가해
+  named-core hub source line과 live authority bundle을 같은 기준으로 맞췄다.
+- `Reference_Layer_Residue_Lock`는 frozen reference-layer authority 문서라
+  이번 pass에서는 self-authority no-change로 유지했다.
+
+Integrated actions:
+
+- `Section_15_Named_Notables_Register` reading-bundle realignment
+- `Section_15_Named_Notables_Status_Compass` reading-bundle realignment
+- `Section_15_Named_Notables_Name_Collision_Register` reading-bundle realignment
+- report pair / dispatch log 2026-04-19 seventy-fourth pass 반영
+
+Verification:
+
+- the active named-core hub docs now expose the same register/status/track/closure/coverage/collision/index/master-lock authority family already used by their live bodies.
+- residue lock remained intentionally unchanged as a frozen reference-layer authority note.
+- next verification gate is `git diff --check` plus a same-family closing sweep after commit.
+
+Follow-up actions:
+
+- 이 named-core hub alignment delta를 commit/push한 뒤,
+  same-family closing sweep을 다시 돈다.

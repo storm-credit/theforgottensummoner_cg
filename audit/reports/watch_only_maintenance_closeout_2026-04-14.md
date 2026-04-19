@@ -2249,3 +2249,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 continent-scout 상위 층에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-19 Seventy-Fourth Named-Core Hub Reading-Bundle Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Register.md`,
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Named_Notables_Name_Collision_Register.md`가
+  현재 본문에서 실제로 쓰는
+  register/status/track/closure/coverage/collision/index/master-lock authority bundle을
+  머리말 active reading line에서 충분히 드러내는지 다시 확인하고,
+  named-core hub reading drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- 세 핵심 허브 문서는 모두
+  본문에서 이미 watch-reference, closure, coverage, collision, master-lock policy를 함께 운용하고 있었다.
+- 하지만 상단에는 current reading bundle이 비어 있거나,
+  helper register 성격에 비해 live authority family가 한 단계 덜 드러나 있었다.
+
+조치:
+
+- `Section_15_Named_Notables_Register.md`에
+  status/track/closure/coverage/collision/index/continuous reading line과
+  `Five_Continent_Missing_Layer_Master_Lock.md` 단일 entry line을 추가했다.
+- `Section_15_Named_Notables_Status_Compass.md`에
+  register/track/closure/coverage/collision/index/continuous reading line과
+  `Five_Continent_Missing_Layer_Master_Lock.md` 단일 entry line을 추가했다.
+- `Section_15_Named_Notables_Name_Collision_Register.md`에
+  register/status/track/closure/coverage/index/item-collision/continuous reading line을 추가했다.
+
+의미:
+
+- named-core hub 3문서도 이제
+  현재 live body가 쓰는 register/status/track/closure/coverage/collision/index/master-lock authority family를
+  머리말에서 바로 노출한다.
+- residue lock은 frozen reference-layer 문서라 이번 pass에서는 수정하지 않았다.
