@@ -2569,3 +2569,34 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   named-notables mainline 안에서 같은 authority 분리선을 안정적으로 유지하고 있다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 bridge-anchor 층을 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-20 Eighty-Fourth Spine-Index Stability Pass
+
+목적:
+
+- `Section_8_15_Spine_Compatibility_Audit.md`와
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`가
+  현재 bridge/mainline 문서군과 같은 authority split, master-lock carryover, stable-vs-hold separation을 유지하는지 다시 대조한다.
+
+확인 결과:
+
+- `Section_8_15_Spine_Compatibility_Audit.md`는
+  section 8 spine / carryover / master-lock 단일 entry를 계속 구조 호환성 층에서 안정적으로 유지하고 있었다.
+- `Section_15_Stable_Candidate_8_Anchor_Index.md`도
+  stable_triad_frozen_reference_set, `source_check_hold / hold reference split`,
+  `deferred_expansion_hold / hold reference split` 분리를 계속 명확히 유지하고 있었다.
+- 두 문서 모두 현재도
+  route/reference 호환성 층으로 기능하면서,
+  core hub나 card/template 층의 lower-card authority를 재정의하지 않고 있었다.
+
+조치:
+
+- source prose patch 없이
+  spine-index no-change stability 결과만 report pair와 dispatch log에 기록했다.
+
+의미:
+
+- spine compatibility / stable anchor index 묶음도 현재
+  named-notables mainline과 같은 authority 분리선을 안정적으로 유지하고 있다.
+- 다음 순환은 새 live drift가 생기기 전까지
+  같은 spine-index 층을 no-change watch 기준으로 유지하면 된다.

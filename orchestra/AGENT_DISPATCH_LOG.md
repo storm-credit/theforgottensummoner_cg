@@ -9432,3 +9432,46 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 bridge-anchor 층은 no-change watch 기준으로 유지한다.
+
+## 2026-04-20 KST - Eighty-Fourth Spine-Index Stability Pass
+
+목적:
+
+- `Section_8_15_Spine_Compatibility_Audit.md`와
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`가
+  현재 bridge/mainline 문서군과 같은 authority split, master-lock carryover, stable-vs-hold separation을 유지하는지 다시 대조한다.
+
+배치:
+
+- conductor local spine-index scout
+
+Conductor action:
+
+- conductor는 `Section_8_15_Spine_Compatibility_Audit.md`와
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`를 다시 대조해,
+  둘 다 현재 named-notables mainline과 같은 authority 분리선과 master-lock carryover를 안정적으로 유지하고 있음을 재확인했다.
+- `Section_8_15_Spine_Compatibility_Audit.md`는
+  section 8 spine / carryover / master-lock 단일 entry를 구조 호환성 층에서 그대로 유지하고 있었다.
+- `Section_15_Stable_Candidate_8_Anchor_Index.md`도
+  stable_triad_frozen_reference_set, `source_check_hold / hold reference split`,
+  `deferred_expansion_hold / hold reference split` 분리를 계속 명확히 유지하고 있었다.
+- 두 문서 모두 현재도 route/reference 호환성 층으로 기능하면서,
+  core hub나 card/template 층의 lower-card authority를 재정의하지 않고 있었다.
+- 이번 순환은 source prose patch 없이
+  spine-index no-change stability result만 기록한다.
+
+Integrated actions:
+
+- spine-index no-change stability confirmation
+- report pair / dispatch log 2026-04-20 eighty-fourth pass 반영
+
+Verification:
+
+- no additional live drift was found across the spine-compatibility and stable-anchor-index layer at this checkpoint.
+- the current docs remain aligned with the same named-notables authority split, master-lock carryover, and stable-vs-hold separation.
+- next verification gate is clean push parity plus fresh local drift only.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 spine-index 층은 no-change watch 기준으로 유지한다.
