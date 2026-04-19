@@ -9667,3 +9667,55 @@ Follow-up actions:
 
 - 이 craft-heuristic delta를 commit/push한 뒤,
   실제 적용은 전체 mainline이 아니라 2-3화 표본 Story Craft 점검에서만 시험한다.
+
+## 2026-04-20 KST - Eighty-Ninth Craft-Heuristic Boundary Stability Pass
+
+목적:
+
+- `FS_Reader_Reward_Reference_Heuristic.md`를 추가한 뒤에도
+  `Scene Pressure`, `Writing Craft Map`, `Revision Gate`, `OPEN_INDEX`
+  인접층이 같은 역할 분리선을 유지하는지 다시 닫는다.
+
+배치:
+
+- conductor local craft-boundary stability scout
+
+Conductor action:
+
+- conductor는 `FS_Reader_Reward_Reference_Heuristic.md`,
+  `FS_Scene_Pressure_Checklist.md`,
+  `FS_Engine_Writing_Craft_Map.md`,
+  `FS_Revision_Gate_Checklist.md`,
+  `OPEN_INDEX.md`
+  를 다시 대조해,
+  새 heuristic가 craft 인접층의 기존 역할 분리선을 흔들지 않는지 확인했다.
+- `FS_Reader_Reward_Reference_Heuristic.md`는
+  여전히 `reference-only Story Craft heuristic`로만 읽히고 있었고,
+  `채점표`, `정본 선언 게이트`, `mainline source-of-truth`가 아니라는 선을 그대로 유지하고 있었다.
+- `FS_Scene_Pressure_Checklist.md`는
+  장면 압력과 비용/선택/전환 축에 집중한 채,
+  외부 평론 번역축을 자기 역할로 흡수하지 않고 있었다.
+- `FS_Revision_Gate_Checklist.md` 역시
+  출처, 상태, 라우팅, 정본 판정 게이트 역할을 그대로 유지하면서
+  craft heuristic를 canon/control gate로 승격시키지 않고 있었다.
+- `FS_Engine_Writing_Craft_Map.md`와 `OPEN_INDEX.md`도
+  새 문서를 craft reference로만 연결하고 있었고,
+  mainline authority나 revision-gate 상위 문서처럼 읽히게 만들지는 않았다.
+- 따라서 이번 순환에서는
+  craft-adjacent family에서 추가 source prose drift가 발견되지 않았다.
+
+Integrated actions:
+
+- craft-heuristic boundary no-change stability confirmation
+- report pair / dispatch log 2026-04-20 eighty-ninth pass 반영
+
+Verification:
+
+- no additional live drift was found across the craft-heuristic, scene-pressure, revision-gate, and open-index boundary line at this checkpoint.
+- the current docs keep `reader-reward heuristic = reference-only`, `scene pressure = scene engine`, and `revision gate = canon/control gate` without cross-over.
+- next verification gate is commit/push parity plus later sample-episode trial use only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 craft-boundary line은 no-change watch 기준으로 유지한다.

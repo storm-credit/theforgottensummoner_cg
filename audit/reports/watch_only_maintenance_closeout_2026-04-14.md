@@ -2745,3 +2745,41 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   FS Engine 안의 번역된 craft heuristic으로만 읽을 수 있다.
 - 설정집 mainline과 revision gate는 그대로 두고,
   Story Craft 표본 점검 때만 이 축을 선택적으로 적용하면 된다.
+
+## 2026-04-20 Eighty-Ninth Craft-Heuristic Boundary Stability Pass
+
+목적:
+
+- `FS_Reader_Reward_Reference_Heuristic.md`를 추가한 뒤에도
+  `Scene Pressure`, `Writing Craft Map`, `Revision Gate`, `OPEN_INDEX`
+  인접층이 같은 역할 분리선을 유지하는지 다시 닫는다.
+
+확인 결과:
+
+- `FS_Reader_Reward_Reference_Heuristic.md`는
+  여전히 `reference-only Story Craft heuristic`로만 읽히고 있었고,
+  `채점표`, `정본 선언 게이트`, `mainline source-of-truth`가 아니라는 선이 그대로 유지되고 있었다.
+- `FS_Scene_Pressure_Checklist.md`는
+  장면 압력과 장면 단위 비용/선택/전환 축에 집중한 채,
+  외부 평론 번역축을 자기 역할로 흡수하지 않고 있었다.
+- `FS_Revision_Gate_Checklist.md`도
+  출처, 상태, 라우팅, 정본 판정 게이트 역할을 그대로 유지하면서
+  craft heuristic를 canon/control gate로 승격시키지 않고 있었다.
+- `FS_Engine_Writing_Craft_Map.md`와 `OPEN_INDEX.md`는
+  새 문서를 craft reference로만 연결하고 있었고,
+  mainline authority나 revision-gate 상위 문서처럼 읽히게 만들지는 않았다.
+- 따라서 이번에는 craft-adjacent family에서
+  추가 source prose drift가 보이지 않았다.
+
+조치:
+
+- source prose patch 없이
+  craft-heuristic boundary no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 외부 평론 번역축은 이제
+  FS Engine 내부에서 안전한 reference-only 자리까지 확보된 상태다.
+- 이후 실제 적용은 표본 회차 Story Craft 점검에서만 시험하고,
+  설정집 mainline이나 정본 게이트는 그대로 분리 유지하면 된다.
