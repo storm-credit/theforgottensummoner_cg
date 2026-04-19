@@ -137,6 +137,23 @@
 - 그다음:
   - `Reverse Design`
   - `Plausibility`
+  - `FS Reader Reward Reference Heuristic`
+
+## Reference Heuristic
+
+외부 평론이나 독자 반응 문장을
+바로 정본 판단 기준으로 쓰지 않을 때는
+`audit/FS_Reader_Reward_Reference_Heuristic.md`에 먼저 번역해 둔다.
+
+이 문서는
+`대중성 / 흥미성 / 문학성 점수표`
+대신
+`초반 진입 가시성 / 회차 압력 / 보상 회수 속도 / 정조 변주`
+같은 우리형 Story Craft 점검축으로만 읽는다.
+
+즉 FS Engine은
+외부 평가 언어를 그대로 복제하는 대신,
+유효한 reader-response signal만 작법 reference로 재코딩한다.
 
 ## Core Understanding
 

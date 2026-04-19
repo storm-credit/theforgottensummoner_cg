@@ -48,6 +48,7 @@
 - `workflow/16_FS_Story_Engine.md`
 - `audit/FS_Engine_Core_Consensus.md`
 - `audit/FS_Engine_Writing_Craft_Map.md`
+- `audit/FS_Reader_Reward_Reference_Heuristic.md`
 - `audit/FS_Engine_Mode_Routing.md`
 - `audit/FS_Story_Act_Question_Register.md`
 - `audit/FS_Scene_Pressure_Checklist.md`

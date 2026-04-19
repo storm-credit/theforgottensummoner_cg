@@ -2706,3 +2706,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   주변 open-index / dispatch-log 해석선과도 같은 방향으로 닫혀 있다.
 - 이후 같은 family는
   새 local drift가 생기기 전까지 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-20 Eighty-Eighth Reader-Reward Reference Translation Pass
+
+목적:
+
+- 외부 독자 반응형 평론 문장을
+  지금 바로 `RTTP형 채점표`나 mainline authority로 들여오지 않고,
+  FS Engine 안에서 `우리형 Story Craft reference heuristic`로만 안전하게 번역한다.
+
+확인 결과:
+
+- 현재 craft 문서군에는
+  `장면 압력`, `작법 엔진`, `정본 게이트` 축은 이미 있었지만,
+  외부 reader-response 문장을
+  `참고 신호만 추출해서 재코딩하는 자리`는 따로 잠겨 있지 않았다.
+- 그래서 이 상태로 두면
+  외부 평론을 그대로 점수표처럼 가져오거나,
+  반대로 아예 보류 메모로만 흩어 두는 두 극단이 생길 여지가 있었다.
+
+조치:
+
+- 새 문서 `FS_Reader_Reward_Reference_Heuristic.md`를 추가해,
+  외부 평가 언어를
+  `초반 진입 가시성 / 회차 압력 / 보상 회수 속도 / 정조 변주 / 기능 분리`
+  같은 우리형 Story Craft 점검축으로 번역해 두었다.
+- 같은 문서 안에서
+  이 heuristic가 `채점표`, `정본 선언 게이트`, `mainline source-of-truth`
+  가 아니라는 점을 분명히 잠갔다.
+- `FS_Engine_Writing_Craft_Map.md`와 `OPEN_INDEX.md`에도
+  이 문서를 reference-only craft 축으로 연결해,
+  나중에 다시 읽을 때도 mainline authority로 오독되지 않게 맞췄다.
+
+의미:
+
+- 이제 외부 평론을 참고할 때도
+  작품 결을 흔드는 즉흥 점수표가 아니라
+  FS Engine 안의 번역된 craft heuristic으로만 읽을 수 있다.
+- 설정집 mainline과 revision gate는 그대로 두고,
+  Story Craft 표본 점검 때만 이 축을 선택적으로 적용하면 된다.

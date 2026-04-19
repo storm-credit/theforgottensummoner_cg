@@ -9616,3 +9616,54 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 historical-archive split line은 no-change watch 기준으로 유지한다.
+
+## 2026-04-20 KST - Eighty-Eighth Reader-Reward Reference Translation Pass
+
+목적:
+
+- 외부 독자 반응형 평론 문장을
+  바로 `RTTP형 채점표`나 mainline authority로 들여오지 않고,
+  FS Engine 안에서 `우리형 Story Craft reference heuristic`로만 안전하게 번역한다.
+
+배치:
+
+- conductor local craft-heuristic translation pass
+
+Conductor action:
+
+- conductor는 `FS_Scene_Pressure_Checklist.md`,
+  `FS_Engine_Writing_Craft_Map.md`,
+  `FS_Revision_Gate_Checklist.md`를 다시 대조해,
+  장면 압력 / 작법 엔진 / 정본 게이트 축 자체는 이미 있지만
+  외부 reader-response 문장을 reference-only로 재코딩해 둘 전용 자리가 없음을 재확인했다.
+- 이 상태를 그대로 두면
+  외부 평론을 점수표처럼 과잉 수입하거나,
+  반대로 유효한 체감 신호까지 흩어진 메모로만 남겨 둘 위험이 있었다.
+- conductor local pass에서는
+  새 문서 `FS_Reader_Reward_Reference_Heuristic.md`를 추가해,
+  외부 평가 언어를
+  `초반 진입 가시성 / 회차 압력 / 보상 회수 속도 / 정조 변주 / 기능 분리`
+  같은 우리형 Story Craft 점검축으로 번역했다.
+- 같은 문서 안에서
+  이 heuristic가 `채점표`, `정본 선언 게이트`, `mainline source-of-truth`
+  가 아니라는 점도 같이 고정했다.
+- 이어 `FS_Engine_Writing_Craft_Map.md`와 `OPEN_INDEX.md`에
+  이 문서를 reference-only craft 축으로 연결해,
+  이후에도 mainline authority로 오독되지 않게 맞췄다.
+
+Integrated actions:
+
+- reader-reward reference heuristic translation
+- craft-map / open-index reference-only routing reinforcement
+- report pair / dispatch log 2026-04-20 eighty-eighth pass 반영
+
+Verification:
+
+- the new reader-reward heuristic is now explicitly reference-only and does not override the revision gate or mainline source-of-truth.
+- the craft family now has a safe place to translate external reader-response critique into FS-native story-craft checks.
+- next verification gate is commit/push parity plus later sample-episode trial use only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 craft-heuristic delta를 commit/push한 뒤,
+  실제 적용은 전체 mainline이 아니라 2-3화 표본 Story Craft 점검에서만 시험한다.
