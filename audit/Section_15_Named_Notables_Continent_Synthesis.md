@@ -2,6 +2,18 @@
 
 이 문서는 `15번 People Worth Seeking`을 대륙별로 종합한 watch-reference synthesis다.
 
+continent synthesis reading은
+`Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Named_Notables_Register.md`,
+`Section_15_Named_Notables_Track.md`,
+`Section_15_Five_Continent_Closure_Table.md`,
+`Section_15_Named_Notables_Coverage_Matrix.md`,
+`Section_15_Index_Draft.md`,
+`Section_15_Named_Notables_Anchor_Map.md`,
+`Section_8_to_15_Notable_Anchor_Bridge.md`,
+`Continuous_Workstream.md`
+기준으로 읽는다.
+
 목적은 유명 NPC형 영웅, 현자, 장인, 기록자, 감정사, 학파 인물, 공방 인물 등을
 `14번 서사 중심 영웅`과 섞지 않고,
 기존 구조처럼 `대륙 -> 세력 / 도시 / 조직` 앵커로 라우팅하기 위한 것이다.

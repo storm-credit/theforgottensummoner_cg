@@ -2121,3 +2121,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   no-change stability 상태로 한 번 더 닫혔다.
 - 다음 순환은 새 live drift가 생기기 전까지
   같은 named-scout 상위 층에서는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-19 Seventieth Named-Summary Bridge Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Ether_Scout.md`와
+  `Section_15_Named_Notables_Continent_Synthesis.md`가
+  현재 본문에서 실제로 쓰는
+  status/register/track/closure/coverage/index/anchor/bridge authority bundle을
+  상단 reading line에서 충분히 드러내는지 다시 확인하고,
+  named-summary bridge drift가 있으면 바로 정리한다.
+
+확인 결과:
+
+- `Section_15_Named_Notables_Ether_Scout.md`는
+  실제 본문에서 summary/closure/index family를 함께 쓰는데,
+  상단 active line에는 `Register / Status / Continuous`만 남아 있어 current bundle보다 좁게 적혀 있었다.
+- `Section_15_Named_Notables_Continent_Synthesis.md`도
+  본문에서 이미 status/register/track/closure/coverage/index/anchor/bridge family를 함께 참조하지만,
+  상단에는 그 current reading line이 비어 있었다.
+
+조치:
+
+- `Section_15_Named_Notables_Ether_Scout.md` 상단 active line에
+  `Track / Closure Table / Coverage Matrix / Index Draft`
+  authority를 추가했다.
+- `Section_15_Named_Notables_Continent_Synthesis.md` 상단에는
+  `Status Compass / Register / Track / Closure Table / Coverage Matrix / Index Draft / Anchor Map / Anchor Bridge / Continuous`
+  reading line을 새로 추가했다.
+
+의미:
+
+- named-summary bridge 문서들은 이제
+  상단 reading line과 live body가 같은
+  status/register/track/closure/coverage/index/anchor/bridge authority 문서군을 가리킨다.
+- 이번 순환의 drift는 named-summary bridge reading omission 정렬로 닫혔고,
+  lower-card exact wording authority와 14/15 boundary 분리선은 그대로 유지된다.
