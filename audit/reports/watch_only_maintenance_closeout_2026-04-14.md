@@ -2669,3 +2669,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   실제 current mainline authority 묶음을 더 정확히 가리키게 되었다.
 - 이후 historical family는 더 명확한 본선 기준 아래서
   archive evidence로만 읽히게 유지된다.
+
+## 2026-04-20 Eighty-Seventh Historical-Archive Split Stability Pass
+
+목적:
+
+- `Historical_Batch_Reading_Guard.md`,
+  `OPEN_INDEX.md`,
+  `orchestra/AGENT_DISPATCH_LOG.md`
+  사이에서
+  `historical batch = archive evidence`, `mainline = current source-of-truth`
+  분기선이 방금 realignment 뒤에도 같은 기준으로 유지되는지 다시 닫는다.
+
+확인 결과:
+
+- `Historical_Batch_Reading_Guard.md`는
+  현재 named-notables mainline authority bundle을 source-of-truth로 분명히 가리키면서,
+  historical family를 archive evidence로만 읽는 규칙을 그대로 유지하고 있었다.
+- `OPEN_INDEX.md`도
+  mainline reading reference와 historical reading rule을 함께 읽는 시작점으로서
+  `AGENT_DISPATCH_LOG.md`를 historical batch log로 읽으라고 계속 명시하고 있었다.
+- `orchestra/AGENT_DISPATCH_LOG.md` 상단 안내 역시
+  active state와 historical batch log를 혼동하지 말아야 한다는 기준을 그대로 유지하고 있었다.
+- 따라서 이번에는 mainline/archive split 인접층에서
+  추가 source prose drift가 보이지 않았다.
+
+조치:
+
+- source prose patch 없이
+  historical-archive split no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 방금 넓힌 historical guard source-of-truth 기준은
+  주변 open-index / dispatch-log 해석선과도 같은 방향으로 닫혀 있다.
+- 이후 같은 family는
+  새 local drift가 생기기 전까지 no-change watch 기준으로 유지하면 된다.

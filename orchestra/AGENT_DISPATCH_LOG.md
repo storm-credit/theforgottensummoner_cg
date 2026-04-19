@@ -9567,3 +9567,52 @@ Follow-up actions:
 
 - 이 historical-guard delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 batch/archive 분기선은 no-change watch 기준으로 유지한다.
+
+## 2026-04-20 KST - Eighty-Seventh Historical-Archive Split Stability Pass
+
+목적:
+
+- `Historical_Batch_Reading_Guard.md`,
+  `OPEN_INDEX.md`,
+  `orchestra/AGENT_DISPATCH_LOG.md`
+  사이에서
+  `historical batch = archive evidence`, `mainline = current source-of-truth`
+  분기선이 방금 realignment 뒤에도 같은 기준으로 유지되는지 다시 닫는다.
+
+배치:
+
+- conductor local historical-archive split scout
+
+Conductor action:
+
+- conductor는 `Historical_Batch_Reading_Guard.md`,
+  `OPEN_INDEX.md`,
+  `orchestra/AGENT_DISPATCH_LOG.md` 상단 안내를 다시 대조해,
+  세 문서가 모두 현재 mainline과 historical archive를 같은 방향으로 분리하고 있음을 재확인했다.
+- `Historical_Batch_Reading_Guard.md`는
+  방금 넓힌 named-notables mainline source-of-truth 묶음을 그대로 유지하면서,
+  historical family를 archive evidence로만 읽는 규칙을 계속 분명히 적고 있었다.
+- `OPEN_INDEX.md`도
+  `mainline reading reference + historical reading rule`
+  시작점이라는 역할을 유지한 채,
+  `AGENT_DISPATCH_LOG.md`를 historical batch log로 읽으라고 계속 명시하고 있었다.
+- `AGENT_DISPATCH_LOG.md` 상단 역시
+  active state와 historical batch log를 혼동하지 말라는 기준을 그대로 유지하고 있었다.
+- 따라서 이번 순환에서는
+  historical-archive split 인접층에서 추가 source prose drift가 발견되지 않았다.
+
+Integrated actions:
+
+- historical-archive split no-change stability confirmation
+- report pair / dispatch log 2026-04-20 eighty-seventh pass 반영
+
+Verification:
+
+- no additional live drift was found across the historical-guard, open-index, and dispatch-log split line at this checkpoint.
+- the current docs continue to separate current mainline source-of-truth from historical archive evidence with the same reading rule.
+- next verification gate is clean push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 historical-archive split line은 no-change watch 기준으로 유지한다.

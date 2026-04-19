@@ -186,6 +186,7 @@
 - 2026-04-20 eighty-fourth pass confirmed the spine-compatibility and stable-anchor-index layer still aligns with the same named-notables authority split, master-lock carryover, and stable-vs-hold separation; no further source prose patch was needed beyond report/log recording
 - 2026-04-20 eighty-fifth pass updated `Continuous_Workstream.md`, `Next_Sequential_Workstream.md`, and `Audit_Queue.md` so the current base-construction closure state now visibly reflects the named-notables umbrella, bridge-anchor, and spine-index no-change watch lines
 - 2026-04-20 eighty-sixth pass expanded `Historical_Batch_Reading_Guard.md` so its source-of-truth list now reflects the current named-notables mainline authority bundle rather than an older narrower subset
+- 2026-04-20 eighty-seventh pass confirmed the historical-batch/archive split still stays aligned across `Historical_Batch_Reading_Guard.md`, `OPEN_INDEX.md`, and `AGENT_DISPATCH_LOG.md`; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
