@@ -176,6 +176,7 @@
 - 2026-04-19 seventy-fourth pass added explicit reading lines to `Section_15_Named_Notables_Register.md`, `Section_15_Named_Notables_Status_Compass.md`, and `Section_15_Named_Notables_Name_Collision_Register.md` so the named-core hub now declares the same register/status/track/closure/coverage/collision/index/master-lock authority family already used by the live bodies
 - 2026-04-19 seventy-fifth pass confirmed the named-core hub upper layer stays aligned after the new reading-bundle realignments; no further source prose patch was needed beyond report/log recording
 - 2026-04-19 seventy-sixth pass added explicit reading lines to the active `Section_15_Named_Notable_*` cards so the named-card family now declares the same register/status/track/closure/coverage/index/continuous authority bundle already used by the live bodies, with `Section_15_Named_Notable_Sylvia.md` additionally declaring collision-watch authority
+- 2026-04-19 seventy-seventh pass confirmed the named-card family stays aligned after the new reading-bundle realignments; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

@@ -9129,3 +9129,43 @@ Follow-up actions:
 
 - 이 named-card alignment delta를 commit/push한 뒤,
   same-family closing sweep을 다시 돈다.
+
+## 2026-04-19 KST - Seventy-Seventh Named-Card Stability Pass
+
+목적:
+
+- 방금 정렬한 active `Section_15_Named_Notable_*` 카드군이
+  register/status/track/closure/coverage/index/continuous authority와 같은 흐름을 유지하는지 다시 대조하고,
+  residual omission이나 역행 drift가 없는지 확인한다.
+
+배치:
+
+- conductor local named-card stability scout
+
+Conductor action:
+
+- conductor는 active named-card 문서를 다시 대조해,
+  모두 현재 같은 수준에서 register/status/track/closure/coverage/index/continuous reading bundle을 노출하고 있음을 재확인했다.
+- deferred `Section_15_Named_Notable_Sylvia.md`도
+  collision-watch authority를 포함한 variant reading bundle을 안정적으로 유지하고 있음을 재확인했다.
+- 이번 closing sweep에서는
+  같은 named-card 상위 층 안의 추가 omission이나 재발 drift가 더 보이지 않았다.
+- 이번 순환은 source prose patch 없이
+  named-card no-change stability result만 기록한다.
+
+Integrated actions:
+
+- named-card no-change stability confirmation
+- report pair / dispatch log 2026-04-19 seventy-seventh pass 반영
+
+Verification:
+
+- no additional live drift was found across the named-card family after the latest realignment.
+- the current named-card docs remain aligned with the same register/status/track/closure/coverage/index/continuous authority family used by the live bodies.
+- the deferred Sylvia card remains aligned with the same collision-watch authority already used by its live body.
+- next verification gate is clean push parity plus fresh local drift only.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 named-card family는 no-change watch 기준으로 유지한다.

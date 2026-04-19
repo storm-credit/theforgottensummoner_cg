@@ -2348,3 +2348,27 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   current live body가 쓰는 named-core hub authority bundle을
   카드 머리말에서 바로 노출한다.
 - 개별 카드 본문 판단이나 residue/frozen routing wording은 이번 pass에서 재정의하지 않았다.
+
+## 2026-04-19 Seventy-Seventh Named-Card Stability Pass
+
+목적:
+
+- 방금 정렬한 active `Section_15_Named_Notable_*` 카드군이
+  register/status/track/closure/coverage/index/continuous authority와 같은 흐름을 유지하는지 다시 대조하고,
+  residual omission이나 역행 drift가 없는지 확인한다.
+
+확인 결과:
+
+- active named-card 문서들은 모두
+  현재 같은 수준에서 register/status/track/closure/coverage/index/continuous reading bundle을 노출하고 있다.
+- deferred `Section_15_Named_Notable_Sylvia.md`도
+  collision-watch authority를 포함한 variant reading bundle을 안정적으로 유지하고 있다.
+- 이번 closing sweep에서는
+  같은 named-card 상위 층 안의 추가 omission이나 재발 drift가 더 보이지 않았다.
+
+의미:
+
+- 이번 라운드의 named-card 정렬은
+  no-change stability 상태로 한 번 더 닫혔다.
+- 다음 순환은 새 live drift가 생기기 전까지
+  같은 named-card family에서는 no-change watch 기준으로 유지하면 된다.
