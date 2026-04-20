@@ -2783,3 +2783,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   FS Engine 내부에서 안전한 reference-only 자리까지 확보된 상태다.
 - 이후 실제 적용은 표본 회차 Story Craft 점검에서만 시험하고,
   설정집 mainline이나 정본 게이트는 그대로 분리 유지하면 된다.
+
+## 2026-04-20 Ninetieth Top-Level Craft-Reference Realignment Pass
+
+목적:
+
+- `OPEN_INDEX.md`와 craft map에만 먼저 반영된
+  `FS_Reader_Reward_Reference_Heuristic.md` 연결이
+  상위 시작점 문서인 `Start_Here.md`와 `workflow/11_FS_Engine.md`에도
+  같은 해석선으로 보이는지 다시 맞춘다.
+
+확인 결과:
+
+- `OPEN_INDEX.md`와 `FS_Engine_Writing_Craft_Map.md`에는
+  새 heuristic가 이미 reference-only craft 축으로 연결돼 있었지만,
+  `Start_Here.md`의 `먼저 읽을 파일` 목록에는 아직 빠져 있었다.
+- `workflow/11_FS_Engine.md`도
+  작법 맵을 우선 읽으라고는 적고 있었지만,
+  외부 reader-response 문장을 새 heuristic로 번역해 읽는 현재 경로는
+  상위 안내에서 아직 직접 보이지 않았다.
+- 그래서 craft-reference 선 자체는 이미 맞았어도,
+  top-level entry path에서는 새 heuristic가 한 박자 늦게 보이는 live drift가 남아 있었다.
+
+조치:
+
+- `Start_Here.md`의 `먼저 읽을 파일` 목록에
+  `audit/FS_Reader_Reward_Reference_Heuristic.md`를
+  `FS_Engine_Writing_Craft_Map.md` 바로 다음 순서로 추가했다.
+- `workflow/11_FS_Engine.md`의 `Writing Craft Map` 안내에도
+  외부 독자 반응형 평론을 바로 점수표나 정본 게이트로 올리지 않고,
+  새 heuristic를 통해 reference-only Story Craft 점검축으로 먼저 번역한다는 문장을 보강했다.
+
+의미:
+
+- 이제 상위 시작점에서도
+  새 craft heuristic가 `읽을 수는 있지만 승격되지는 않는` 문서로 더 분명히 보인다.
+- craft-reference 선은 `OPEN_INDEX -> Start_Here -> FS Engine -> Writing Craft Map -> Heuristic`
+  흐름으로 더 자연스럽게 이어진다.

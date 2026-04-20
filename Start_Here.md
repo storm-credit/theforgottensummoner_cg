@@ -26,18 +26,19 @@
 13. `workflow/11_Writer_Engine.md`
 14. `audit/FS_Engine_Core_Consensus.md`
 15. `audit/FS_Engine_Writing_Craft_Map.md`
-16. `workflow/14_FS_Media_Engine.md`
-17. `audit/FS_Media_Engine_Consensus.md`
-18. `working/crosswalks/Character_Archive_Split.md`
-19. `working/crosswalks/Item_Encyclopedia_Pipeline.md`
-20. `orchestra/AGENT_ROSTER.md`
-21. `orchestra/ACTIVE_AGENT_SPLIT.md`
-22. `orchestra/MASTER_PLAN.md`
-23. `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
-24. `orchestra/EXECUTION_HARNESS_LOCK.md`
-25. `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`
-26. `orchestra/MODEL_ROLE_SPLIT_LOCK.md`
-27. `audit/Audit_Queue.md`
+16. `audit/FS_Reader_Reward_Reference_Heuristic.md`
+17. `workflow/14_FS_Media_Engine.md`
+18. `audit/FS_Media_Engine_Consensus.md`
+19. `working/crosswalks/Character_Archive_Split.md`
+20. `working/crosswalks/Item_Encyclopedia_Pipeline.md`
+21. `orchestra/AGENT_ROSTER.md`
+22. `orchestra/ACTIVE_AGENT_SPLIT.md`
+23. `orchestra/MASTER_PLAN.md`
+24. `orchestra/ORCHESTRA_ADVANTAGE_LOCK.md`
+25. `orchestra/EXECUTION_HARNESS_LOCK.md`
+26. `orchestra/REQUIRED_EXPERT_ROSTER_LOCK.md`
+27. `orchestra/MODEL_ROLE_SPLIT_LOCK.md`
+28. `audit/Audit_Queue.md`
 
 ## Mainline Reading Reference
 

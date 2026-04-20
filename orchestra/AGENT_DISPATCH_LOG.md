@@ -9719,3 +9719,56 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 craft-boundary line은 no-change watch 기준으로 유지한다.
+
+## 2026-04-20 KST - Ninetieth Top-Level Craft-Reference Realignment Pass
+
+목적:
+
+- `OPEN_INDEX.md`와 craft map에 먼저 반영된
+  `FS_Reader_Reward_Reference_Heuristic.md` 연결이
+  상위 시작점 문서인 `Start_Here.md`와 `workflow/11_FS_Engine.md`에도
+  같은 해석선으로 보이는지 다시 맞춘다.
+
+배치:
+
+- conductor local top-level craft-reference scout
+
+Conductor action:
+
+- conductor는 `Start_Here.md`,
+  `workflow/11_FS_Engine.md`,
+  `audit/FS_Engine_Writing_Craft_Map.md`,
+  `audit/OPEN_INDEX.md`
+  를 다시 대조해,
+  craft-reference 선 자체는 이미 맞아 있지만
+  상위 시작점 entry path에서는 새 heuristic가 한 박자 늦게 보인다는 drift를 재확인했다.
+- `OPEN_INDEX.md`와 `FS_Engine_Writing_Craft_Map.md`에는
+  새 heuristic가 reference-only craft 축으로 이미 연결돼 있었지만,
+  `Start_Here.md`의 `먼저 읽을 파일` 목록에는 아직 빠져 있었다.
+- `workflow/11_FS_Engine.md`도
+  작법 맵을 우선 읽으라고는 적고 있었지만,
+  외부 reader-response 문장을 새 heuristic로 번역해 읽는 현재 경로는
+  상위 안내에서 아직 직접 보이지 않았다.
+- conductor local pass에서는
+  `Start_Here.md`의 상위 읽기 순서표에
+  `FS_Reader_Reward_Reference_Heuristic.md`를
+  `FS_Engine_Writing_Craft_Map.md` 바로 다음으로 추가하고,
+  `workflow/11_FS_Engine.md`의 `Writing Craft Map` 안내에도
+  외부 평론을 바로 점수표나 정본 게이트로 올리지 않고
+  새 heuristic를 통해 reference-only Story Craft 점검축으로 번역한다는 문장을 보강했다.
+
+Integrated actions:
+
+- top-level craft-reference entry-path realignment
+- report pair / dispatch log 2026-04-20 ninetieth pass 반영
+
+Verification:
+
+- the new reader-reward heuristic is now visible from the top-level start path as well as the craft map/open index.
+- the current docs still keep the heuristic explicitly reference-only rather than mainline or revision-gate authority.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 top-level craft-reference delta를 commit/push한 뒤,
+  상위 시작점과 craft map은 같은 reference-only reading line으로 유지한다.

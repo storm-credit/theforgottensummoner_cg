@@ -189,6 +189,7 @@
 - 2026-04-20 eighty-seventh pass confirmed the historical-batch/archive split still stays aligned across `Historical_Batch_Reading_Guard.md`, `OPEN_INDEX.md`, and `AGENT_DISPATCH_LOG.md`; no further source prose patch was needed beyond report/log recording
 - 2026-04-20 eighty-eighth pass added `FS_Reader_Reward_Reference_Heuristic.md` and linked it from the craft map/open index so external reader-response critique is translated into a reference-only FS story-craft heuristic rather than elevated into mainline or revision-gate authority
 - 2026-04-20 eighty-ninth pass confirmed the craft-adjacent family still keeps `reader-reward heuristic = reference-only`, `scene pressure = scene engine`, and `revision gate = canon/control gate` without cross-over; no further source prose patch was needed beyond report/log recording
+- 2026-04-20 ninetieth pass updated `Start_Here.md` and `workflow/11_FS_Engine.md` so the new reader-reward heuristic is visible from the top-level entry path while still staying explicitly reference-only rather than a mainline or revision-gate authority
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

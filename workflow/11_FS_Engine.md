@@ -428,5 +428,9 @@ FS 엔진의 운용 장부 reference는 아래를 본다.
 FS 엔진의 작법 층과 운영 층을 한 번에 보는 문서는
 `audit/FS_Engine_Writing_Craft_Map.md`를 우선한다.
 
+외부 독자 반응형 평론을 바로 점수표나 정본 게이트로 올리지 않을 때는
+`audit/FS_Reader_Reward_Reference_Heuristic.md`를 통해
+reference-only Story Craft 점검축으로 먼저 번역해 둔다.
+
 엔진 전환 기준은
 `audit/FS_Engine_Mode_Routing.md`를 본다.
