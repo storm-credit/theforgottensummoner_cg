@@ -57,5 +57,5 @@ naming active 판단은
 
 Reference carryover:
 
-- 이 우선 후보를 `FS_Place_Function_Register`와 더 직접 연결한다.
+- 이 우선 후보는 `Section_15_Frost_Core_Register_Link.md` 기준 direct link pass를 유지한 채 watch-only로 읽는다.
 - 이후에만 실제 개인명이 확인된 슬롯을 `verify_before_15`로 올리는 기준으로 읽는다.

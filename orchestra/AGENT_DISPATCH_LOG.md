@@ -10509,3 +10509,51 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 frost-anchor wording family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Fifth Frost-Display Carryover Realignment Pass
+
+목적:
+
+- `Section_15_Frost_Display_Canon_Candidates.md`의
+  reference carryover가 현재 프로스트 direct-link/register 상태보다 뒤처져 있는지 정렬한다.
+
+배치:
+
+- conductor local frost-display wording scout
+
+Conductor action:
+
+- conductor는 `Section_15_Frost_Display_Canon_Candidates.md`와
+  `Section_15_Frost_Core_Register_Link.md`
+  를 다시 대조해,
+  display candidate 문서의 하단 carryover 문장만 예전 pre-link 시점에 머물러 있다는 점을 확인했다.
+- `Section_15_Frost_Display_Canon_Candidates.md`는
+  preferred candidate reference 표 자체는 현재 상태를 유지하고 있었지만,
+  하단에는 `이 우선 후보를 FS_Place_Function_Register와 더 직접 연결한다`
+  는 문장이 남아 있어
+  direct-link pass가 아직 미래 작업처럼 읽힐 여지가 있었다.
+- 하지만 실제로는
+  `Section_15_Frost_Core_Register_Link.md`에서 이미
+  프로스트 후보들이 `FS_Place_Function_Register`와 direct link pass로 묶여 있고,
+  지금은 그 연결을 새로 만드는 단계가 아니라
+  watch-only로 유지하면서 추가 증거를 보는 단계다.
+- 그래서 이번 순환에서는
+  carryover 문장을
+  `Section_15_Frost_Core_Register_Link.md 기준 direct link pass를 유지한 채 watch-only로 읽는다`
+  로 고쳐 현재형으로 정렬했다.
+
+Integrated actions:
+
+- frost-display carryover wording source realignment
+- report pair / dispatch log 2026-04-21 one-hundred-fifth pass 반영
+
+Verification:
+
+- the frost display candidate document no longer leaves the place/register link as a future-only task.
+- `Section_15_Frost_Display_Canon_Candidates.md` now reads the existing frost core-link route as current state and keeps only watch-only follow-up.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 frost-display wording family는 no-change watch 기준으로 유지한다.

@@ -3376,3 +3376,38 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이미 반영된 현재 기준선으로 읽게 되었다.
 - 이후 새 local drift가 생기기 전까지
   같은 frost-anchor wording family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Fifth Frost-Display Carryover Realignment Pass
+
+목적:
+
+- `Section_15_Frost_Display_Canon_Candidates.md`의
+  reference carryover가 현재 프로스트 direct-link/register 상태보다 뒤처져 있는지 정렬한다.
+
+확인 결과:
+
+- `Section_15_Frost_Display_Canon_Candidates.md`는
+  preferred display candidate reference 표 자체는 현재 상태를 유지하고 있었지만,
+  하단 carryover 문장에는
+  `이 우선 후보를 FS_Place_Function_Register와 더 직접 연결한다`
+  는 예전 pre-link 표현이 남아 있었다.
+- 하지만 실제로는
+  `Section_15_Frost_Core_Register_Link.md`에서 이미
+  프로스트 후보들이 `FS_Place_Function_Register`와 direct link pass로 묶여 있고,
+  지금은 그 연결을 새로 만드는 단계가 아니라
+  watch-only로 유지하면서 추가 증거를 보는 단계다.
+
+조치:
+
+- reference carryover 문장을
+  `Section_15_Frost_Core_Register_Link.md 기준 direct link pass를 유지한 채 watch-only로 읽는다`
+  로 고쳤다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- 프로스트 display candidate 문서도 이제
+  place/register 연결을 `앞으로 더 붙일 일`이 아니라
+  이미 반영된 현재 기준선으로 읽게 되었다.
+- 이후 새 local drift가 생기기 전까지
+  같은 frost-display wording family는 no-change watch 기준으로 유지하면 된다.
