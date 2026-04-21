@@ -10076,3 +10076,59 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 engine-routing reader-response family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - Ninety-Seventh Revision-Canon Boundary Stability Pass
+
+목적:
+
+- `FS_Revision_Gate_Checklist.md`,
+  `FS_Canon_Tier_Register.md`,
+  `FS_Source_Priority_Register.md`,
+  `FS_Canon_Change_Log.md`
+  control layer가 새 `FS_Reader_Reward_Reference_Heuristic.md`를
+  정본 판정, source priority, canon change authority로 과잉 흡수하지 않는지 다시 닫는다.
+
+배치:
+
+- conductor local revision-canon boundary scout
+
+Conductor action:
+
+- conductor는 `FS_Revision_Gate_Checklist.md`,
+  `FS_Canon_Tier_Register.md`,
+  `FS_Source_Priority_Register.md`,
+  `FS_Canon_Change_Log.md`,
+  `FS_Reader_Reward_Reference_Heuristic.md`
+  를 다시 대조해,
+  reader-reward heuristic가 craft reference-only 축에 남고
+  revision/canon/source/change-log control layer로 승격되지 않았는지 확인했다.
+- `FS_Revision_Gate_Checklist.md`는
+  여전히 출처, 상태, 라우팅, naming tone, 관계/인과, 원본 안전, Story-to-Lore handoff를 검수하는
+  Lore Engine control gate로만 읽히고 있었다.
+- `FS_Canon_Tier_Register.md`는
+  Hard/Soft/Open/Rumor/Legacy tier와 실제 항목별 판정만 유지하고 있었고,
+  reader-reward heuristic를 canon tier 항목으로 올리지 않았다.
+- `FS_Source_Priority_Register.md`도
+  증거 우선순위와 Derived Analysis의 실행 판단 분리를 유지하면서,
+  craft heuristic를 source priority ladder로 승격시키지 않았다.
+- `FS_Canon_Change_Log.md`는
+  상태 라벨, 라우팅, 판정, 표면명 층 변화만 기록한다는 rule을 유지하고 있었고,
+  이번 craft heuristic routing은 canon-change 항목으로 기록하지 않아도 되는 범위에 머물러 있었다.
+- 따라서 이번 순환에서는
+  revision/canon/source/change-log boundary에서 추가 source prose drift가 발견되지 않았다.
+
+Integrated actions:
+
+- revision-canon boundary no-change stability confirmation
+- report pair / dispatch log 2026-04-21 ninety-seventh pass 반영
+
+Verification:
+
+- no additional live drift was found across the revision/canon/source/change-log control layer at this checkpoint.
+- reader-reward heuristic remains Story Craft reference-only and does not become canon authority, source priority, or change-log trigger.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 revision-canon boundary family는 no-change watch 기준으로 유지한다.

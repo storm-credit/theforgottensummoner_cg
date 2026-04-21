@@ -3039,3 +3039,44 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   `Story-first craft translation`, `Lore-boundary-only context`로 닫혀 있다.
 - 이후 새 local drift가 생기기 전까지
   같은 routing family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 Ninety-Seventh Revision-Canon Boundary Stability Pass
+
+목적:
+
+- `FS_Revision_Gate_Checklist.md`,
+  `FS_Canon_Tier_Register.md`,
+  `FS_Source_Priority_Register.md`,
+  `FS_Canon_Change_Log.md`
+  control layer가 새 `FS_Reader_Reward_Reference_Heuristic.md`를
+  정본 판정, source priority, canon change authority로 과잉 흡수하지 않는지 다시 닫는다.
+
+확인 결과:
+
+- `FS_Revision_Gate_Checklist.md`는
+  여전히 출처, 상태, 라우팅, naming tone, 관계/인과, 원본 안전, Story-to-Lore handoff를 검수하는
+  Lore Engine control gate로만 읽히고 있었다.
+- `FS_Canon_Tier_Register.md`는
+  Hard/Soft/Open/Rumor/Legacy tier와 실제 항목별 판정만 유지하고 있었고,
+  reader-reward heuristic를 canon tier 항목으로 올리지 않았다.
+- `FS_Source_Priority_Register.md`도
+  증거 우선순위와 Derived Analysis의 실행 판단 분리를 유지하면서,
+  craft heuristic를 source priority ladder로 승격시키지 않았다.
+- `FS_Canon_Change_Log.md`는
+  상태 라벨, 라우팅, 판정, 표면명 층 변화만 기록한다는 rule을 유지하고 있었고,
+  이번 craft heuristic routing은 canon-change 항목으로 기록하지 않아도 되는 범위에 머물러 있었다.
+- 따라서 이번에는 revision/canon/source/change-log boundary에서
+  추가 source prose drift가 보이지 않았다.
+
+조치:
+
+- source prose patch 없이
+  revision-canon boundary no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- reader-reward heuristic는 계속 Story Craft reference-only 축에 남고,
+  revision/canon/source/change-log control layer는 기존 정본 통제 역할을 그대로 유지한다.
+- 이후 새 local drift가 생기기 전까지
+  같은 control-boundary family는 no-change watch 기준으로 유지하면 된다.

@@ -196,6 +196,7 @@
 - 2026-04-21 ninety-fourth pass confirmed the craft-to-lore/media boundary still holds across `FS_Lore_Engine`, `FS_Media_Engine`, `FS_Media_Engine_Consensus`, and `FS_Lore_Engine_Gap_Audit`; no further source prose patch was needed beyond report/log recording
 - 2026-04-21 ninety-fifth pass updated `FS_Engine_Mode_Routing.md` so external reader-response critique routes first to Story as a reference-only craft translation task, with Lore kept to boundary/context review rather than revision-gate authority
 - 2026-04-21 ninety-sixth pass confirmed the engine-routing reader-response path now stays aligned across `FS_Engine_Mode_Routing`, `FS Engine`, `Story Engine`, `Lore Engine`, and the heuristic doc itself; no further source prose patch was needed beyond report/log recording
+- 2026-04-21 ninety-seventh pass confirmed the revision/canon/source/change-log control layer does not absorb the reader-reward heuristic as canon authority; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
