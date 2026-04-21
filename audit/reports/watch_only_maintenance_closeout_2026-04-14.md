@@ -3974,3 +3974,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   새 후보 발굴 근거가 아니라 닫힌 current-state watch/reference closure로 읽는다.
 - 이후 새 local drift가 생기기 전까지
   같은 Section 15 summary gate family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Twenty-First Section-15 Summary Gate Stability Pass
+
+목적:
+
+- 방금 정렬한 Section 15 summary gate family가
+  continent sidecar/scout/display umbrella를
+  같은 current-state watch/reference closure로 유지하는지 다시 확인한다.
+
+확인 결과:
+
+- `Section_15_Named_Notables_Status_Compass.md`는
+  sidecar/scout/display source family와
+  future-only build task 금지선을 유지하고 있었다.
+- `Section_15_Five_Continent_Closure_Table.md`는
+  ordered snapshot과 reading snapshot에서
+  continent sidecar/scout/display umbrella closure를 유지하고 있었다.
+- `Section_15_Named_Notables_Coverage_Matrix.md`는
+  sidecar/scout/display source family와
+  새 후보 발굴 금지선을 유지하고 있었다.
+- 남은 `next / future / 재개 / 확장 / 검토 / 새 이름` 계열 hits는
+  기존 hold/backlog, profile/subline 범위 설명, 또는 금지/차단 문맥이어서
+  live drift로 보지 않았다.
+
+조치:
+
+- source prose patch 없이
+  Section 15 summary gate no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- Section 15 summary gate는
+  continent sidecar/scout/display umbrella를
+  닫힌 current-state watch/reference closure로 유지한다.
+- 이후 새 local drift가 생기기 전까지
+  같은 Section 15 summary gate family는 no-change watch 기준으로 유지하면 된다.
