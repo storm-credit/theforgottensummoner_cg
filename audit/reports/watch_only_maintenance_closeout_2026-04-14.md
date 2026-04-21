@@ -4407,3 +4407,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 residual subline family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Thirty-Second Parent-Profile Continent-Sidecar Realignment Pass
+
+목적:
+
+- subline 바깥의 parent profile family인
+  `Section_15_Profile_Template.md`와
+  active `Section_15_Profile_*` parent cards 31문서가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+확인 결과:
+
+- parent profile family 32문서는 모두 `3-1. Policy Guard`와
+  exact guard wording authority split을 유지하고 있었지만,
+  continent sidecar/scout/display umbrella가 lower authority라는 점을 아직 직접 적지 않았다.
+- `Section_15_Profile_Template.md`도
+  representative subline pair closure를 형식 참고 규칙으로만 읽는다는 점은 유지했지만,
+  같은 umbrella가 owner/build queue를 다시 열지 않는다는 template-level 안전문은 없었다.
+
+조치:
+
+- `Section_15_Profile_Template.md`에
+  continent sidecar/scout/display umbrella lower-authority rule을 추가했다.
+- active `Section_15_Profile_*` parent cards 31문서의 `3-1. Policy Guard` 권한선에
+  같은 umbrella가 lower current-state watch/reference authority only이며
+  place/institution owner나 candidate build queue를 상위에서 재정의하지 않는다는 문장을 추가했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- parent profile family도 이제
+  continent sidecar/scout/display umbrella를
+  새 owner 결정축이나 build queue가 아니라
+  닫힌 lower current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 parent profile family는 no-change watch 기준으로 유지하면 된다.

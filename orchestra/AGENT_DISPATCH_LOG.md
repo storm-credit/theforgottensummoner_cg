@@ -11747,3 +11747,44 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 residual subline family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Thirty-Second Parent-Profile Continent-Sidecar Realignment Pass
+
+목적:
+
+- subline 바깥의 parent profile family가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+배치:
+
+- conductor local parent-profile realignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Profile_Template.md`와
+  active `Section_15_Profile_*` parent cards 31문서를 먼저 스캔했다.
+- parent profile family 32문서 모두
+  `3-1. Policy Guard`와 exact guard wording authority split을 유지하고 있었지만,
+  continent sidecar/scout/display umbrella lower-authority rule은 아직 명시하지 않았다.
+- `Section_15_Profile_Template.md`에
+  continent sidecar/scout/display umbrella lower-authority rule을 추가했다.
+- active `Section_15_Profile_*` parent cards 31문서의 `3-1. Policy Guard` 권한선에
+  같은 umbrella가 lower current-state watch/reference authority only이며
+  place/institution owner나 candidate build queue를 상위에서 재정의하지 않는다는 문장을 추가했다.
+
+Integrated actions:
+
+- parent-profile continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-thirty-second pass 반영
+
+Verification:
+
+- all 32 profile/template files now explicitly treat the continent sidecar/scout/display umbrella as lower current-state watch/reference authority.
+- the umbrella no longer remains implicit across the parent profile guard path.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 parent profile family는 no-change watch 기준으로 유지한다.
