@@ -15,6 +15,16 @@ operational closure status reading은
 `Section_15_Operational_Display_Canon_Candidates.md`,
 `Section_15_Profile_Draft_Index.md`,
 `Section_15_Subline_Register.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+`Section_15_Named_Notables_Frost_Scout.md`,
+`Section_15_Named_Notables_Oceanic_Scout.md`,
+`Section_15_Named_Notables_Ether_Scout.md`,
+`Section_15_Named_Notables_Obelisk_Scout.md`,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
@@ -63,6 +73,9 @@ reference reading은 이 색인을 기준으로
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
   닫힌 subline 교차감사 샘플로 유지하고,
   이 group index는 그 closure 상태를 operational group reference 층에서만 참조한다.
+- continent sidecar/scout/display wording umbrella도
+  lower current-state watch/reference authority로만 읽고,
+  group index가 free-city / obelisk 계열 해석선을 새 owner 축으로 승격하지 않는다.
 
 ### 1. Hidden Exchange
 

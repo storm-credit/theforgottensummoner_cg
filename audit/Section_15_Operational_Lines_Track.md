@@ -11,6 +11,16 @@
 `Section_15_Group_Index.md`,
 `Section_15_Profile_Draft_Index.md`,
 `Section_15_Subline_Register.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+`Section_15_Named_Notables_Frost_Scout.md`,
+`Section_15_Named_Notables_Oceanic_Scout.md`,
+`Section_15_Named_Notables_Ether_Scout.md`,
+`Section_15_Named_Notables_Obelisk_Scout.md`,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Continuous_Workstream.md`
 기준을 필요할 때 mirror해서 읽는다.
 
@@ -82,6 +92,9 @@ reference용 `구조 reference 라벨`이다.
 - subline 확장까지 내려간 경우에도
   exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, 이 track은 그 wording source를 상위 track 층에서만 읽는다.
+- continent sidecar/scout/display wording umbrella도
+  lower current-state watch/reference authority로만 읽고,
+  operational track이 place/institution owner를 다시 정의하지 않는다.
 
 ## Conductor Note
 

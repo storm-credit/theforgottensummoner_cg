@@ -4171,3 +4171,47 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 package hub family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Twenty-Sixth Operational-Family Continent-Sidecar Realignment Pass
+
+목적:
+
+- ordered cycle 다음 operational family인
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Group_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`
+  가 continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+확인 결과:
+
+- operational family는 lower-card authority와 `3-1. Policy Guard` 권한선은 잘 유지하고 있었지만,
+  sidecar/scout/display source family를 reading set에 충분히 올리지 않았다.
+- `Operational Lines Track`, `Operational Display Canon Candidates`, `Intake Structure`는
+  place/institution owner나 naming surface를 다루고 있었지만,
+  continent sidecar/scout/display umbrella를 lower authority로만 읽는 규칙을 아직 명시하지 않았다.
+- `Profile Draft Index`, `Group Index`도
+  operational lower-card authority는 유지했지만,
+  같은 umbrella를 상위 operational reference층에서 명시적으로 품지 못하고 있었다.
+
+조치:
+
+- operational family 5문서의 reading set에
+  Frost / Oceanic / Ether / Obelisk sidecar,
+  scout, frost display-reference, closure sync watch 문서를 추가했다.
+- `Section_15_Profile_Draft_Index.md`, `Section_15_Group_Index.md`,
+  `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`에
+  continent sidecar/scout/display umbrella lower-authority rule을 추가했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- operational family도 이제
+  continent sidecar/scout/display umbrella를
+  새 owner 결정축이나 build queue가 아니라
+  닫힌 lower current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 operational family는 no-change watch 기준으로 유지하면 된다.

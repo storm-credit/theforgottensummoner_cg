@@ -11488,3 +11488,47 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 package hub family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Twenty-Sixth Operational-Family Continent-Sidecar Realignment Pass
+
+목적:
+
+- ordered cycle 다음 operational family가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+배치:
+
+- conductor local operational-family realignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Group_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`
+  를 먼저 스캔했다.
+- operational family 5문서의 reading set에
+  Frost / Oceanic / Ether / Obelisk sidecar,
+  scout, frost display-reference, closure sync watch 문서를 추가했다.
+- `Section_15_Profile_Draft_Index.md`, `Section_15_Group_Index.md`,
+  `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`에
+  continent sidecar/scout/display umbrella lower-authority rule을 추가했다.
+
+Integrated actions:
+
+- operational-family continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-twenty-sixth pass 반영
+
+Verification:
+
+- the operational family now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority.
+- the umbrella no longer remains implicit outside the operational reading path.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 operational family는 no-change watch 기준으로 유지한다.
