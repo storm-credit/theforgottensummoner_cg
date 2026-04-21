@@ -10406,3 +10406,55 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 lore-gap snapshot family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Third Frost-Core Handoff Wording Realignment Pass
+
+목적:
+
+- `Section_15_Frost_Core_Register_Link.md` 하단의
+  `Story-to-Lore Handoff Gate 초안 작성`
+  문구를 현재 구축 상태에 맞게 정렬한다.
+
+배치:
+
+- conductor local frost-core wording scout
+
+Conductor action:
+
+- conductor는 `Section_15_Frost_Core_Register_Link.md`,
+  `FS_Story_to_Lore_Handoff_Gate.md`,
+  `FS_Story_to_Lore_Live_Handoff_Queue.md`
+  를 다시 대조해,
+  프로스트 core link의 하단 작업 문장만 예전 초안 단계 표현으로 남아 있다는 점을 확인했다.
+- `Section_15_Frost_Core_Register_Link.md`는
+  본문과 `Register Actions Applied`에서 이미
+  현재형 register family를 쓰고 있었지만,
+  하단 `다음 실제 작업`에는
+  `Story-to-Lore Handoff Gate 초안 작성`
+  이라는 구형 문장이 남아 있어
+  gate가 아직 미작성 과제처럼 읽힐 여지가 있었다.
+- 하지만 실제 engine family에서는
+  `FS_Story_to_Lore_Handoff_Gate.md`와
+  `FS_Story_to_Lore_Live_Handoff_Queue.md`가 이미 구축되어 있고,
+  지금은 gate를 새로 쓰는 단계가 아니라
+  실제 원고 입력이 생기면 그 route를 여는 단계다.
+- 그래서 이번 순환에서는
+  하단 작업 문장을
+  `실제 원고 입력이 생기면 Story-to-Lore Handoff Gate 기준으로 live handoff packet을 연다`
+  로 고쳐 현재형으로 정렬했다.
+
+Integrated actions:
+
+- frost-core handoff wording source realignment
+- report pair / dispatch log 2026-04-21 one-hundred-third pass 반영
+
+Verification:
+
+- the frost core register link no longer leaves Story-to-Lore Handoff Gate as a draft-only task.
+- `Section_15_Frost_Core_Register_Link.md` now points to the already-built live handoff route used when real manuscript input appears.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 frost-core wording family는 no-change watch 기준으로 유지한다.

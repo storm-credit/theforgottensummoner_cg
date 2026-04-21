@@ -53,5 +53,5 @@
 
 다음 실제 작업:
 
-- `Story-to-Lore Handoff Gate` 초안 작성
+- 실제 원고 입력이 생기면 `Story-to-Lore Handoff Gate` 기준으로 live handoff packet을 연다
 - 기존 `verify_before_15` 항목 중 일부를 `Decision Ruling Register`와 연결

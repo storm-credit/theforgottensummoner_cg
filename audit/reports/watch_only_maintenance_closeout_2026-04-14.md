@@ -3293,3 +3293,44 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   해석선이 다시 맞춰졌다.
 - 이후 새 local drift가 생기기 전까지
   같은 lore-gap snapshot family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Third Frost-Core Handoff Wording Realignment Pass
+
+목적:
+
+- `Section_15_Frost_Core_Register_Link.md` 하단의
+  `Story-to-Lore Handoff Gate 초안 작성`
+  문구를 현재 구축 상태에 맞게 정렬한다.
+
+확인 결과:
+
+- `Section_15_Frost_Core_Register_Link.md`는
+  본문과 `Register Actions Applied`에서 이미
+  `FS_Decision_Ruling_Register`,
+  `FS_Slot_Maturation_Register`,
+  `FS_Canon_Change_Log`
+  등 현재형 register family를 쓰고 있었지만,
+  하단 `다음 실제 작업`에는
+  `Story-to-Lore Handoff Gate 초안 작성`
+  이라는 구형 문장이 남아 있었다.
+- 하지만 실제 engine family에서는
+  `FS_Story_to_Lore_Handoff_Gate.md`와
+  `FS_Story_to_Lore_Live_Handoff_Queue.md`가 이미 구축되어 있고,
+  지금은 gate를 새로 쓰는 단계가 아니라
+  실제 원고 입력이 생기면 그 route를 여는 단계다.
+
+조치:
+
+- `Section_15_Frost_Core_Register_Link.md`의
+  하단 작업 문장을
+  `실제 원고 입력이 생기면 Story-to-Lore Handoff Gate 기준으로 live handoff packet을 연다`
+  로 고쳤다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- 프로스트 core register link도 이제
+  Story-to-Lore gate를 `미작성 초안`이 아니라
+  이미 구축된 live handoff route로 읽게 되었다.
+- 이후 새 local drift가 생기기 전까지
+  같은 frost-core wording family는 no-change watch 기준으로 유지하면 된다.
