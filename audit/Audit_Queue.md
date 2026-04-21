@@ -55,6 +55,9 @@
 23. bridge-anchor와 spine-index 층도
    같은 authority split / master-lock carryover / stable-vs-hold separation을
    닫힌 reference 상태로 유지한다
+24. continent sidecar/scout/display wording umbrella는
+   Frost / Oceanic / Ether / Obelisk family 모두
+   current-state watch/reference 기준으로 닫힌 상태를 유지한다
 
 ## Ordered Watch Snapshot
 
@@ -78,6 +81,9 @@
    새 drift가 생길 때만 국소 수정한다
 17. `subline_profile_authority` sync group이
    status vocabulary / mainline sync / summary / bridge / watch 문서에 같은 문장으로 유지되는지 확인
+18. continent sidecar/scout/display wording umbrella가
+   Frost / Oceanic / Ether / Obelisk family 모두에서
+   future-only task가 아니라 current-state watch/reference로 읽히는지 확인
 
 ## Conditional Backlog
 

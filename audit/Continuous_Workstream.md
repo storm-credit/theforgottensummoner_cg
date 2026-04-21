@@ -47,6 +47,9 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 16. bridge-anchor 인접층과 spine-index 층도
     같은 authority split / master-lock carryover / stable-vs-hold separation 아래
     닫힌 reference 상태로 유지한다.
+17. continent sidecar/scout/display wording umbrella는
+    Frost / Oceanic / Ether / Obelisk family 모두
+    current-state watch/reference 기준으로 닫힌 상태를 유지한다.
 
 ## Ordered Cycle
 
@@ -74,6 +77,10 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
     새 drift가 없으면 no-change watch로만 둔다.
 14. bridge-anchor와 spine-index 인접층은
     같은 authority split과 master-lock carryover를 유지하는지만 확인하고,
+    새 drift가 없으면 no-change watch로만 둔다.
+15. continent sidecar/scout/display wording umbrella는
+    Frost / Oceanic / Ether / Obelisk family가
+    future-only task가 아니라 current-state watch/reference로 읽히는지만 확인하고,
     새 drift가 없으면 no-change watch로만 둔다.
 
 ## Input Reference Set
@@ -106,14 +113,21 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 24. `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
 25. `audit/Section_15_Frost_Place_Institution_Sidecar.md`
 26. `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
-27. `audit/FS_Place_Function_Register.md`
-28. `audit/Section_15_Named_Notables_Register.md`
-29. `audit/Section_15_Group_Index.md`
-30. `audit/Section_15_Subline_Register.md`
-31. `audit/Audit_Queue.md`
-32. `audit/Next_Sequential_Workstream.md`
-33. `audit/Historical_Batch_Reading_Guard.md`
-34. `audit/Five_Continent_Missing_Layer_Master_Lock.md`
+27. `audit/Section_15_Ether_Place_Institution_Sidecar.md`
+28. `audit/Section_15_Named_Notables_Frost_Scout.md`
+29. `audit/Section_15_Named_Notables_Oceanic_Scout.md`
+30. `audit/Section_15_Named_Notables_Ether_Scout.md`
+31. `audit/Section_15_Named_Notables_Obelisk_Scout.md`
+32. `audit/Section_15_Frost_Core_Register_Link.md`
+33. `audit/Section_15_Frost_Display_Canon_Candidates.md`
+34. `audit/FS_Place_Function_Register.md`
+35. `audit/Section_15_Named_Notables_Register.md`
+36. `audit/Section_15_Group_Index.md`
+37. `audit/Section_15_Subline_Register.md`
+38. `audit/Audit_Queue.md`
+39. `audit/Next_Sequential_Workstream.md`
+40. `audit/Historical_Batch_Reading_Guard.md`
+41. `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 
 ## Reference Backlog
 

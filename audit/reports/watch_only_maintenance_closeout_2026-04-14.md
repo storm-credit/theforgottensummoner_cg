@@ -3783,3 +3783,38 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이제 `future task`가 아니라 `current-state watch/reference` 기준으로 닫혀 있다.
 - 이후 새 local drift가 생기기 전까지
   같은 continent-sidecar wording umbrella는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Sixteenth Workstream Continent-Sidecar Umbrella Realignment Pass
+
+목적:
+
+- 직전 순환에서 닫은 continent sidecar/scout/display wording umbrella가
+  실제 상위 workstream hub에도 같은 no-change watch/reference 상태로 반영되어 있는지 확인하고,
+  빠져 있는 허브 문구를 정렬한다.
+
+확인 결과:
+
+- `Today_Workstream.md`는 historical daily record로 격리되어 있어
+  live queue target으로 보지 않았다.
+- `Continuous_Workstream.md`는
+  continent sidecar/scout/display umbrella를
+  Mainline Lock, Ordered Cycle, Input Reference Set에서 명시적으로 품지 못하고 있었다.
+- `Next_Sequential_Workstream.md`와 `Audit_Queue.md`도
+  직전 umbrella stability 결과를 닫힌 watch/reference 항목으로 충분히 드러내지 못하고 있었다.
+
+조치:
+
+- `Continuous_Workstream.md`의 Mainline Lock, Ordered Cycle, Input Reference Set에
+  continent sidecar/scout/display wording umbrella의 current-state watch/reference 기준을 추가했다.
+- `Next_Sequential_Workstream.md`의 Locked State Snapshot, Ordered Watch Sequence,
+  What Stays Closed, Conductor Decision에 같은 closure 상태를 반영했다.
+- `Audit_Queue.md`의 Focus Snapshot과 Ordered Watch Snapshot에
+  같은 umbrella watch line을 추가했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- 상위 workstream hubs가 이제 닫힌 continent sidecar/scout/display umbrella를
+  새 build 과제가 아니라 no-change watch/reference 항목으로 같은 방향에서 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 workstream hub family는 no-change watch 기준으로 유지하면 된다.

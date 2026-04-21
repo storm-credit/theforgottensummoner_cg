@@ -11044,3 +11044,41 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 continent-sidecar wording umbrella는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Sixteenth Workstream Continent-Sidecar Umbrella Realignment Pass
+
+목적:
+
+- 직전 umbrella stability 결과가
+  상위 workstream hub의 실제 진행 순서와 닫힌 항목 목록에 반영되어 있는지 확인한다.
+
+배치:
+
+- conductor local workstream-hub realignment scout
+
+Conductor action:
+
+- conductor는 `Today_Workstream.md`가 historical daily record로 격리되어 있음을 확인했고,
+  live 기준은 `Continuous_Workstream.md`, `Next_Sequential_Workstream.md`, `Audit_Queue.md`로 한정했다.
+- `Continuous_Workstream.md`의 Mainline Lock / Ordered Cycle / Input Reference Set에
+  continent sidecar/scout/display wording umbrella를 current-state watch/reference closure로 추가했다.
+- `Next_Sequential_Workstream.md`의 Locked State Snapshot / Ordered Watch Sequence / What Stays Closed /
+  Conductor Decision에 같은 umbrella closure를 반영했다.
+- `Audit_Queue.md`의 Focus Snapshot / Ordered Watch Snapshot에
+  같은 umbrella watch line을 추가했다.
+
+Integrated actions:
+
+- workstream hub continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-21 one-hundred-sixteenth pass 반영
+
+Verification:
+
+- current workstream hubs now explicitly carry the closed continent sidecar/scout/display wording umbrella.
+- no historical `Today_Workstream.md` line was promoted back into the live queue.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 workstream hub family는 no-change watch 기준으로 유지한다.

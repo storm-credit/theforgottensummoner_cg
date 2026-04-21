@@ -27,6 +27,9 @@ reference 순서표로 보여주는 진행표다.
 7. `People Worth Seeking` 카드와 operational profile 카드의 lower-card authority는 분리 유지한다.
 8. operational middle-layer wording-source sync는 닫힌 상태로 유지하고,
    대표 subline draft/profile 교차감사도 닫힌 상태로 유지한다.
+9. continent sidecar/scout/display wording umbrella는
+   Frost / Oceanic / Ether / Obelisk family 모두
+   current-state watch/reference 기준으로 닫힌 상태를 유지한다.
 
 ## Ordered Watch Sequence
 
@@ -51,17 +54,27 @@ reference 순서표로 보여주는 진행표다.
 17. `Section_15_Operational_Lines_Track.md`
 18. `Section_15_Operational_Display_Canon_Candidates.md`
 19. `Section_15_Intake_Structure.md`
-20. `Section_15_Ether_Hold_Cluster_Continuation.md`
-21. `Section_15_Ether_Tower_Saint_Hold_Continuation.md`
-22. `Section_15_Ether_Spirit_Union_Hold_Continuation.md`
-23. `Section_8_Place_Network_Handoff_Map.md`
-24. `Five_Continent_Missing_Layer_Master_Lock.md`
-25. `Audit_Queue.md`
-26. `Continuous_Workstream.md`
-27. `Section_15_Named_Notables_Register.md`
-28. `Section_15_Group_Index.md`
-29. `Section_15_Subline_Register.md`
-30. representative `Section_15_Subline_Draft_* / Section_15_Subline_Profile_*` pair drift watch
+20. continent sidecar/scout/display wording umbrella
+    (`Section_15_Frost_Place_Institution_Sidecar.md`,
+    `Section_15_Named_Notables_Frost_Scout.md`,
+    `Section_15_Frost_Display_Canon_Candidates.md`,
+    `Section_15_Oceanic_Place_Institution_Sidecar.md`,
+    `Section_15_Named_Notables_Oceanic_Scout.md`,
+    `Section_15_Ether_Place_Institution_Sidecar.md`,
+    `Section_15_Named_Notables_Ether_Scout.md`,
+    `Section_15_Obelisk_Place_Institution_Sidecar.md`,
+    `Section_15_Named_Notables_Obelisk_Scout.md`)
+21. `Section_15_Ether_Hold_Cluster_Continuation.md`
+22. `Section_15_Ether_Tower_Saint_Hold_Continuation.md`
+23. `Section_15_Ether_Spirit_Union_Hold_Continuation.md`
+24. `Section_8_Place_Network_Handoff_Map.md`
+25. `Five_Continent_Missing_Layer_Master_Lock.md`
+26. `Audit_Queue.md`
+27. `Continuous_Workstream.md`
+28. `Section_15_Named_Notables_Register.md`
+29. `Section_15_Group_Index.md`
+30. `Section_15_Subline_Register.md`
+31. representative `Section_15_Subline_Draft_* / Section_15_Subline_Profile_*` pair drift watch
 
 ## What Stays Closed
 
@@ -78,6 +91,7 @@ reference 순서표로 보여주는 진행표다.
 8. named-notables mainline umbrella
    (`core hub / card-template / search-batch / frozen sample`) closure 상태
 9. bridge-anchor adjacent layer와 spine-index layer의 no-change stability 상태
+10. continent sidecar/scout/display wording umbrella의 current-state watch/reference closure 상태
 
 ## Conditional Backlog
 
@@ -100,6 +114,6 @@ reference 순서표로 보여주는 진행표다.
 순서를 고정하고,
 문서군이 같은 기준 시점을 가리키게 유지하는 단계다.
 
-현재 named-notables mainline은
-umbrella stability까지 한 번 닫힌 상태이므로,
+현재 named-notables mainline과 continent sidecar/scout/display wording umbrella는
+stability까지 한 번 닫힌 상태이므로,
 새 drift가 생기기 전에는 확장보다 no-change watch가 우선이다.
