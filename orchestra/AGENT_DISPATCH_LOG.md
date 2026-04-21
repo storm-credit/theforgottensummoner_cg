@@ -10557,3 +10557,51 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 frost-display wording family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Sixth Frost-Wording Family Stability Pass
+
+목적:
+
+- 방금 정렬한 프로스트 wording family가
+  `Section_15_Frost_Core_Register_Link.md`,
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Section_15_Frost_Display_Canon_Candidates.md`
+  사이에서 같은 현재형으로 유지되는지 다시 닫는다.
+
+배치:
+
+- conductor local frost-wording stability scout
+
+Conductor action:
+
+- conductor는 `Section_15_Frost_Core_Register_Link.md`,
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Section_15_Frost_Display_Canon_Candidates.md`
+  를 다시 대조해,
+  방금 정렬한 current-state wording이 세 문서에서 같은 방향으로 유지되는지 확인했다.
+- `Section_15_Frost_Core_Register_Link.md`는
+  Story-to-Lore gate를 이미 구축된 live handoff route로 읽게 유지하고 있었다.
+- `Section_8_Frost_Notable_Anchor_Audit.md`는
+  direct-link/register path를 새로 만드는 future task가 아니라
+  `Section_15_Frost_Core_Register_Link.md` 기준 watch/evidence follow-up으로 읽게 유지하고 있었다.
+- `Section_15_Frost_Display_Canon_Candidates.md`도
+  preferred candidate carryover를
+  기존 direct link pass를 유지하는 watch-only 상태로 읽게 유지하고 있었다.
+- 따라서 이번 순환에서는
+  frost wording family에서 추가 source prose drift가 발견되지 않았다.
+
+Integrated actions:
+
+- frost wording family no-change stability confirmation
+- report pair / dispatch log 2026-04-21 one-hundred-sixth pass 반영
+
+Verification:
+
+- no additional live drift was found across the frost wording family at this checkpoint.
+- frost core link, frost anchor audit, and frost display candidate docs now hold the same current-state wording.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 frost wording family는 no-change watch 기준으로 유지한다.

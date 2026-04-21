@@ -3411,3 +3411,39 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이미 반영된 현재 기준선으로 읽게 되었다.
 - 이후 새 local drift가 생기기 전까지
   같은 frost-display wording family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Sixth Frost-Wording Family Stability Pass
+
+목적:
+
+- 방금 정렬한 프로스트 wording family가
+  `Section_15_Frost_Core_Register_Link.md`,
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Section_15_Frost_Display_Canon_Candidates.md`
+  사이에서 같은 현재형으로 유지되는지 다시 닫는다.
+
+확인 결과:
+
+- `Section_15_Frost_Core_Register_Link.md`는
+  Story-to-Lore gate를 이미 구축된 live handoff route로 읽게 유지하고 있었다.
+- `Section_8_Frost_Notable_Anchor_Audit.md`는
+  direct-link/register path를 새로 만드는 future task가 아니라
+  `Section_15_Frost_Core_Register_Link.md` 기준 watch/evidence follow-up으로 읽게 유지하고 있었다.
+- `Section_15_Frost_Display_Canon_Candidates.md`도
+  preferred candidate carryover를
+  기존 direct link pass를 유지하는 watch-only 상태로 읽게 유지하고 있었다.
+- 따라서 이번에는 frost wording family에서
+  추가 source prose drift가 보이지 않았다.
+
+조치:
+
+- source prose patch 없이
+  frost wording family no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 프로스트 core-link / anchor-audit / display-candidate 묶음은
+  이제 모두 같은 현재형 wording으로 닫혀 있다.
+- 이후 새 local drift가 생기기 전까지
+  같은 frost wording family는 no-change watch 기준으로 유지하면 된다.

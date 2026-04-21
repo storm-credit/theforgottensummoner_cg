@@ -205,6 +205,7 @@
 - 2026-04-21 one-hundred-third pass updated `Section_15_Frost_Core_Register_Link.md` so its next-work line no longer leaves `Story-to-Lore Handoff Gate` as a draft task and now points to the already-built live handoff packet route
 - 2026-04-21 one-hundred-fourth pass updated `Section_8_Frost_Notable_Anchor_Audit.md` so its next-work lines no longer leave the frost direct-link/register path as a future task and now read the existing core-link route as watch-only current state
 - 2026-04-21 one-hundred-fifth pass updated `Section_15_Frost_Display_Canon_Candidates.md` so its reference carryover no longer leaves the frost place/register link as a future task and now reads the existing core-link route as watch-only current state
+- 2026-04-21 one-hundred-sixth pass confirmed the frost wording family now stays aligned across `Section_15_Frost_Core_Register_Link.md`, `Section_8_Frost_Notable_Anchor_Audit.md`, and `Section_15_Frost_Display_Canon_Candidates.md`; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
