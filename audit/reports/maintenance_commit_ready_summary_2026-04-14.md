@@ -214,6 +214,7 @@
 - 2026-04-21 one-hundred-twelfth pass confirmed the ether reference family now stays aligned across `Section_15_Named_Notables_Ether_Scout.md`, `Section_15_Ether_Place_Institution_Sidecar.md`, and `Section_15_Operational_Display_Canon_Candidates.md`; no further source prose patch was needed beyond report/log recording
 - 2026-04-21 one-hundred-thirteenth pass updated `Section_15_Named_Notables_Obelisk_Scout.md` so its final judgment now reads the already-built obelisk place/institution sidecar as current state rather than future slot-building work
 - 2026-04-21 one-hundred-fourteenth pass confirmed the obelisk wording family now stays aligned across `Section_15_Named_Notables_Obelisk_Scout.md` and `Section_15_Obelisk_Place_Institution_Sidecar.md`; no further source prose patch was needed beyond report/log recording
+- 2026-04-21 one-hundred-fifteenth pass confirmed the continent sidecar/scout/display wording umbrella now stays aligned across frost, oceanic, ether, and obelisk families; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

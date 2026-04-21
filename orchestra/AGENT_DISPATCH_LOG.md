@@ -10997,3 +10997,50 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 obelisk wording family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Fifteenth Continent-Sidecar Wording Umbrella Stability Pass
+
+목적:
+
+- frost / oceanic / ether / obelisk sidecar-scout-display wording family 전체가
+  방금 정렬한 current-state 기준을 유지하는지 umbrella stability로 닫는다.
+
+배치:
+
+- conductor local continent-sidecar umbrella stability scout
+
+Conductor action:
+
+- conductor는 frost / oceanic / ether / obelisk sidecar, scout, display-reference family를 다시 스캔해
+  future-only wording이 current-state wording으로 정렬되어 있는지 확인했다.
+- frost family는
+  core register link, anchor audit, display candidate 문서가
+  direct-link / watch-only / evidence-follow-up 기준으로 맞물려 있었다.
+- oceanic family는
+  sidecar와 scout가
+  current display-reference 및 slot-first / evidence-first 기준으로 맞물려 있었다.
+- ether family는
+  scout, sidecar, operational display-reference 문서가
+  `need_named_candidate / slot_with_display_candidate` 기준으로 맞물려 있었다.
+- obelisk family는
+  scout와 sidecar가
+  place/institution-first 및 evidence-driven confirmation 기준으로 맞물려 있었다.
+- 남은 `붙인다`, `남긴다`, `검토` 계열 hits는
+  현재형 규칙 설명, 표 안의 기능 설명, 또는 historical polish trail 문맥이어서
+  live future-only drift로 보지 않았다.
+
+Integrated actions:
+
+- continent sidecar/scout/display wording umbrella no-change stability confirmation
+- report pair / dispatch log 2026-04-21 one-hundred-fifteenth pass 반영
+
+Verification:
+
+- no additional live drift was found across the continent sidecar/scout/display wording umbrella at this checkpoint.
+- frost, oceanic, ether, and obelisk families now hold current-state watch/reference wording instead of stale future-only task wording.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 continent-sidecar wording umbrella는 no-change watch 기준으로 유지한다.

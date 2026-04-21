@@ -3745,3 +3745,41 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이제 같은 current-state place/institution-first 기준으로 닫혀 있다.
 - 이후 새 local drift가 생기기 전까지
   같은 obelisk wording family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Fifteenth Continent-Sidecar Wording Umbrella Stability Pass
+
+목적:
+
+- frost / oceanic / ether / obelisk sidecar-scout-display wording family 전체가
+  방금 정렬한 current-state 기준을 유지하는지 umbrella stability로 닫는다.
+
+확인 결과:
+
+- frost family는
+  core register link, anchor audit, display candidate 문서가
+  direct-link / watch-only / evidence-follow-up 기준으로 맞물려 있었다.
+- oceanic family는
+  sidecar와 scout가
+  current display-reference 및 slot-first / evidence-first 기준으로 맞물려 있었다.
+- ether family는
+  scout, sidecar, operational display-reference 문서가
+  `need_named_candidate / slot_with_display_candidate` 기준으로 맞물려 있었다.
+- obelisk family는
+  scout와 sidecar가
+  place/institution-first 및 evidence-driven confirmation 기준으로 맞물려 있었다.
+- 남은 `붙인다`, `남긴다`, `검토` 계열 hits는
+  현재형 규칙 설명, 표 안의 기능 설명, 또는 historical polish trail 문맥이어서
+  live future-only drift로 보지 않았다.
+
+조치:
+
+- source prose patch 없이
+  continent sidecar/scout/display wording umbrella no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- continent별 sidecar/scout/display reference 묶음은
+  이제 `future task`가 아니라 `current-state watch/reference` 기준으로 닫혀 있다.
+- 이후 새 local drift가 생기기 전까지
+  같은 continent-sidecar wording umbrella는 no-change watch 기준으로 유지하면 된다.
