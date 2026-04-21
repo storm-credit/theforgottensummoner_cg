@@ -4333,3 +4333,46 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 representative subline family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Thirtieth Residual-Subline Continent-Sidecar Realignment Pass
+
+목적:
+
+- representative pair 바깥에 남아 있던 residual subline family인
+  `Section_15_Subline_Draft_Blacklist_Memory.md`,
+  `Section_15_Subline_Profile_Dock_Inspection_Enforcer_Line.md`
+  가 continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+확인 결과:
+
+- `Section_15_Subline_Draft_Blacklist_Memory.md`는
+  subline draft carryover와 downstream guard split은 유지하고 있었지만,
+  sidecar/scout/display source family를 reading set에 올리지 않았고
+  lower-authority rule도 아직 명시하지 않았다.
+- `Section_15_Subline_Profile_Dock_Inspection_Enforcer_Line.md`는
+  exact guard wording authority는 유지하고 있었지만,
+  continent sidecar/scout/display umbrella가
+  lower current-state watch/reference authority only라는 점을 아직 직접 적지 않았다.
+
+조치:
+
+- `Section_15_Subline_Draft_Blacklist_Memory.md` reading set에
+  Frost / Oceanic / Ether / Obelisk sidecar,
+  continent scout family, frost display-reference,
+  closure sync watch 문서를 추가했다.
+- 같은 draft의 `Policy Subline Guard`에
+  continent sidecar/scout/display umbrella lower-authority rule을 추가했다.
+- `Section_15_Subline_Profile_Dock_Inspection_Enforcer_Line.md`의 `3-1. Policy Guard`에
+  같은 umbrella가 lower current-state watch/reference authority only이며
+  place/institution owner나 candidate build queue를 상위에서 재정의하지 않는다는 문장을 추가했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- residual subline family도 이제
+  continent sidecar/scout/display umbrella를
+  새 owner 결정축이나 build queue가 아니라
+  닫힌 lower current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 residual subline family는 no-change watch 기준으로 유지하면 된다.
