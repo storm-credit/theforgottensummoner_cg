@@ -13,6 +13,16 @@ folder structure reading은
 `Section_15_Subline_Register.md`,
 `Section_15_Named_Notables_Name_Collision_Register.md`,
 `Section_14_15_Boundary_Verification_Queue.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+`Section_15_Named_Notables_Frost_Scout.md`,
+`Section_15_Named_Notables_Oceanic_Scout.md`,
+`Section_15_Named_Notables_Ether_Scout.md`,
+`Section_15_Named_Notables_Obelisk_Scout.md`,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 

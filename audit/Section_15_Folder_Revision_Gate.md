@@ -16,6 +16,16 @@ folder gate reading은
 `Section_15_Subline_Register.md`,
 `Section_15_Named_Notables_Name_Collision_Register.md`,
 `Section_14_15_Boundary_Verification_Queue.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+`Section_15_Named_Notables_Frost_Scout.md`,
+`Section_15_Named_Notables_Oceanic_Scout.md`,
+`Section_15_Named_Notables_Ether_Scout.md`,
+`Section_15_Named_Notables_Obelisk_Scout.md`,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
@@ -75,6 +85,9 @@ folder gate reading은
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
   닫힌 교차감사 샘플로 유지하며,
   revision gate는 새 drift가 생길 때만 해당 pair를 다시 점검한다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  revision gate가 새 package build queue로 재상승시키지 않는다.
 
 ## Gate Decision
 
@@ -87,6 +100,8 @@ folder gate reading은
 
 1. `stable_triad_frozen_reference_set` 유지와 closure sync / watch-reference 점검
 2. `15번 live 폴더 생성/이동 계획`은 계속 보류
+3. continent sidecar/scout/display wording umbrella는
+   lower current-state watch/reference authority로만 유지
 
 추가 기준:
 

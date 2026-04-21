@@ -11398,3 +11398,50 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 carryover gate family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Twenty-Fourth Package-Hub Continent-Sidecar Realignment Pass
+
+목적:
+
+- ordered cycle 다음 상위 package hub family가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+배치:
+
+- conductor local package-hub realignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Index_Draft.md`,
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`를 먼저 스캔했다.
+- package hub family 6문서의 reading set에
+  Frost / Oceanic / Ether / Obelisk sidecar,
+  scout, frost display-reference, closure sync watch 문서를 추가했다.
+- `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`에는
+  sidecar/scout/display umbrella lower-authority rule을 추가했다.
+- `Section_15_Index_Draft.md`와 `Section_15_Folder_Structure_Draft.md`도
+  같은 umbrella를 lower current-state watch/reference authority로 읽는 상위 package hub reading set으로 정렬했다.
+
+Integrated actions:
+
+- package-hub continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-twenty-fourth pass 반영
+
+Verification:
+
+- the package hub family now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority.
+- the umbrella no longer remains implicit outside the package-hub reading path.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 package hub family는 no-change watch 기준으로 유지한다.

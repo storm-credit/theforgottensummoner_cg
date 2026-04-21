@@ -4094,3 +4094,45 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 carryover gate family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Twenty-Fourth Package-Hub Continent-Sidecar Realignment Pass
+
+목적:
+
+- ordered cycle 다음 상위 package hub family인
+  index / folder-structure / routing-plan / revision-gate / anchor-map / stable-QA가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+확인 결과:
+
+- `Section_15_Index_Draft.md`와 `Section_15_Folder_Structure_Draft.md`는
+  closure sync / watch-reference 상태는 유지했지만,
+  sidecar/scout/display source family를 reading set에 충분히 올리지 않았다.
+- `Section_15_Folder_Draft_Routing_Plan.md`와 `Section_15_Folder_Revision_Gate.md`는
+  route/revision safety는 유지했지만,
+  continent sidecar/scout/display umbrella를 lower authority로만 읽는 규칙을 아직 명시하지 않았다.
+- `Section_15_Named_Notables_Anchor_Map.md`와 `Section_15_Stable_Candidate_Profile_QA.md`도
+  anchor/reference 및 QA safety는 유지했지만,
+  sidecar/scout/display source family와 umbrella lower-authority rule을 아직 입력/guard 층에 충분히 올리지 않았다.
+
+조치:
+
+- package hub family 6문서의 reading set에
+  Frost / Oceanic / Ether / Obelisk sidecar,
+  scout, frost display-reference, closure sync watch 문서를 추가했다.
+- `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Stable_Candidate_Profile_QA.md`에
+  continent sidecar/scout/display umbrella lower-authority rule을 추가했다.
+- `Section_15_Index_Draft.md`와 `Section_15_Folder_Structure_Draft.md`도
+  같은 umbrella를 lower current-state watch/reference authority로 읽는 상위 package hub reading set으로 정렬했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- package hub family도 이제
+  continent sidecar/scout/display umbrella를
+  새 package build 근거나 candidate owner 축이 아니라
+  닫힌 lower current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 package hub family는 no-change watch 기준으로 유지하면 된다.

@@ -16,6 +16,16 @@ index draft reading은
 `Section_15_Folder_Revision_Gate.md`,
 `Section_15_Named_Notables_Name_Collision_Register.md`,
 `Section_14_15_Boundary_Verification_Queue.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+`Section_15_Named_Notables_Frost_Scout.md`,
+`Section_15_Named_Notables_Oceanic_Scout.md`,
+`Section_15_Named_Notables_Ether_Scout.md`,
+`Section_15_Named_Notables_Obelisk_Scout.md`,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
@@ -158,6 +168,8 @@ People Worth Seeking index는 상위 요약층으로만 읽고,
 operational profile의 `3-1. Policy Guard`는 하위 카드층에 그대로 남겨 둔다.
 따라서 People Worth Seeking summary는 operational profile guard 문장을 다시 써서 대체하지 않는다.
 exact operational guard wording authority 역시 상위 index 문서가 아니라
+continent sidecar/scout/display wording umbrella도
+lower current-state watch/reference authority로만 읽는다.
 각 `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남는다.
 subline 확장까지 내려간 경우에도
 exact operational guard wording authority는 각 `Section_15_Subline_Profile_*` 카드의

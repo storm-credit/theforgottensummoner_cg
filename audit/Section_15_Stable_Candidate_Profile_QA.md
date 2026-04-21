@@ -12,6 +12,16 @@ stable QA reading은
 `Section_15_Actual_Draft_Package_Freeze.md`,
 `Section_15_Named_Notables_Anchor_Map.md`,
 `Section_8_to_15_Notable_Anchor_Bridge.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+`Section_15_Named_Notables_Frost_Scout.md`,
+`Section_15_Named_Notables_Oceanic_Scout.md`,
+`Section_15_Named_Notables_Ether_Scout.md`,
+`Section_15_Named_Notables_Obelisk_Scout.md`,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Section_14_15_Boundary_Verification_Queue.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
@@ -52,6 +62,9 @@ stable QA reading은
   exact guard wording authority를 대체하지 않는다.
 - `엘다라`는 정령연합 내부 예외축 hold reference split 안의 `source_check_hold / hold reference split`로만 QA pass를 인정한다.
 - `실비아`는 `deferred_expansion_hold / hold reference split` 내부 카드로만 QA pass를 인정하고, 5대륙 본선 대표 카드로 올리지 않는다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  stable QA pass나 candidate owner 판정을 덮어쓰지 않는다.
 
 ## Conductor Decision
 
@@ -67,3 +80,5 @@ closure sync / watch-reference 기준으로 유지하는 것이다.
 
 `엘다라`는 보조 후보로 유지하되,
 정령연합 전체 14 확인 전 `엘다라`는 `source_check_hold / hold reference split`로만 남긴다.
+continent sidecar/scout/display wording umbrella도
+lower current-state watch/reference authority로만 유지한다.
