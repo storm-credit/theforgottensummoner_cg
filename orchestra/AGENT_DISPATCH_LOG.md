@@ -9870,3 +9870,59 @@ Follow-up actions:
 
 - 이 writer-engine craft-reference delta를 commit/push한 뒤,
   구버전 이름 문서를 포함한 상위 craft entry path 전체를 같은 reference-only reading line으로 유지한다.
+
+## 2026-04-21 KST - Ninety-Third Upper-Craft-Entry Stability Pass
+
+목적:
+
+- `Start_Here`, `workflow/11_FS_Engine.md`, `workflow/11_Writer_Engine.md`,
+  `workflow/16_FS_Story_Engine.md`, `audit/FS_Engine_Writing_Craft_Map.md`,
+  `audit/OPEN_INDEX.md`, `audit/FS_Reader_Reward_Reference_Heuristic.md`
+  상위 craft entry family가
+  지금도 같은 `reference-only Story Craft` 해석선을 유지하는지 다시 닫는다.
+
+배치:
+
+- conductor local upper-craft-entry stability scout
+
+Conductor action:
+
+- conductor는 `Start_Here.md`,
+  `workflow/11_FS_Engine.md`,
+  `workflow/11_Writer_Engine.md`,
+  `workflow/16_FS_Story_Engine.md`,
+  `audit/FS_Engine_Writing_Craft_Map.md`,
+  `audit/OPEN_INDEX.md`,
+  `audit/FS_Reader_Reward_Reference_Heuristic.md`
+  를 다시 대조해,
+  상위 craft entry family 전체가 같은 `reference-only Story Craft` 해석선을 유지하는지 확인했다.
+- `Start_Here.md`는
+  새 heuristic를 상위 읽기 순서표에 계속 포함한 채,
+  top-level entry path를 craft map과 같은 순서로 유지하고 있었다.
+- `workflow/11_FS_Engine.md`, `workflow/11_Writer_Engine.md`,
+  `workflow/16_FS_Story_Engine.md`는
+  모두 외부 reader-response 평론을
+  `FS_Reader_Reward_Reference_Heuristic.md`를 통한
+  reference-only Story Craft translation route로 읽게 유지하고 있었다.
+- `audit/FS_Engine_Writing_Craft_Map.md`, `audit/OPEN_INDEX.md`,
+  `audit/FS_Reader_Reward_Reference_Heuristic.md`도
+  각각 craft reference routing, open-index entry, heuristic self-definition을
+  같은 방향으로 유지하고 있었다.
+- 따라서 이번 순환에서는
+  upper craft-entry family에서 추가 source prose drift가 발견되지 않았다.
+
+Integrated actions:
+
+- upper craft-entry no-change stability confirmation
+- report pair / dispatch log 2026-04-21 ninety-third pass 반영
+
+Verification:
+
+- no additional live drift was found across the full upper craft-entry path at this checkpoint.
+- the current docs keep `reader-reward heuristic = reference-only` across the start path, engine path, story path, and open-index path.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 upper craft-entry family는 no-change watch 기준으로 유지한다.

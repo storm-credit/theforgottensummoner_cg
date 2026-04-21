@@ -192,6 +192,7 @@
 - 2026-04-20 ninetieth pass updated `Start_Here.md` and `workflow/11_FS_Engine.md` so the new reader-reward heuristic is visible from the top-level entry path while still staying explicitly reference-only rather than a mainline or revision-gate authority
 - 2026-04-21 ninety-first pass updated `workflow/16_FS_Story_Engine.md` so the new reader-reward heuristic is visible from the story-engine reference set as well, while remaining explicitly reference-only rather than a scorecard or revision-gate authority
 - 2026-04-21 ninety-second pass updated `workflow/11_Writer_Engine.md` so the legacy engine-name entry path now points at the same reader-reward heuristic translation route while keeping it explicitly reference-only rather than a scorecard or revision-gate authority
+- 2026-04-21 ninety-third pass confirmed the full upper craft-entry family now stays aligned across `Start_Here`, `FS Engine`, `Writer Engine`, `Story Engine`, `Writing Craft Map`, `OPEN_INDEX`, and the heuristic doc itself; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

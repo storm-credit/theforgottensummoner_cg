@@ -2889,3 +2889,43 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   상위 craft entry path 전체가 같은 `reference-only` 선으로 읽힌다.
 - 새 heuristic는 더 분명하게
   `작법 참고축`이지 `채점표`나 `정본 게이트`가 아니라는 상태로 유지된다.
+
+## 2026-04-21 Ninety-Third Upper-Craft-Entry Stability Pass
+
+목적:
+
+- `Start_Here`, `workflow/11_FS_Engine.md`, `workflow/11_Writer_Engine.md`,
+  `workflow/16_FS_Story_Engine.md`, `audit/FS_Engine_Writing_Craft_Map.md`,
+  `audit/OPEN_INDEX.md`, `audit/FS_Reader_Reward_Reference_Heuristic.md`
+  상위 craft entry family가
+  지금도 같은 `reference-only Story Craft` 해석선을 유지하는지 다시 닫는다.
+
+확인 결과:
+
+- `Start_Here.md`는
+  새 heuristic를 상위 읽기 순서표에 계속 포함한 채,
+  top-level entry path를 craft map과 같은 순서로 유지하고 있었다.
+- `workflow/11_FS_Engine.md`, `workflow/11_Writer_Engine.md`,
+  `workflow/16_FS_Story_Engine.md`는
+  모두 외부 reader-response 평론을
+  `FS_Reader_Reward_Reference_Heuristic.md`를 통한
+  reference-only Story Craft translation route로 읽게 유지하고 있었다.
+- `audit/FS_Engine_Writing_Craft_Map.md`, `audit/OPEN_INDEX.md`,
+  `audit/FS_Reader_Reward_Reference_Heuristic.md`도
+  각각 craft reference routing, open-index entry, heuristic self-definition을
+  같은 방향으로 유지하고 있었다.
+- 따라서 이번에는 upper craft-entry family에서
+  추가 source prose drift가 보이지 않았다.
+
+조치:
+
+- source prose patch 없이
+  upper craft-entry no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 상위 작법 진입선 전체가 이제
+  `reader-reward heuristic = reference-only`라는 같은 선으로 닫혀 있다.
+- 이후 새 local drift가 생기기 전까지
+  같은 craft-entry family는 no-change watch 기준으로 유지하면 된다.
