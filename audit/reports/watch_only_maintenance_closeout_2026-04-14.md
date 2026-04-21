@@ -3818,3 +3818,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   새 build 과제가 아니라 no-change watch/reference 항목으로 같은 방향에서 읽는다.
 - 이후 새 local drift가 생기기 전까지
   같은 workstream hub family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Seventeenth Workstream Hub Umbrella Stability Pass
+
+목적:
+
+- 방금 정렬한 `Continuous_Workstream.md`, `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`가
+  continent sidecar/scout/display wording umbrella를
+  같은 closed watch/reference 상태로 유지하는지 다시 닫는다.
+
+확인 결과:
+
+- `Continuous_Workstream.md`는
+  Mainline Lock, Ordered Cycle, Input Reference Set에서
+  continent sidecar/scout/display umbrella를 current-state watch/reference로 읽고 있었다.
+- `Next_Sequential_Workstream.md`는
+  Locked State Snapshot, Ordered Watch Sequence, What Stays Closed,
+  Conductor Decision에서 같은 umbrella closure를 유지하고 있었다.
+- `Audit_Queue.md`는
+  Focus Snapshot과 Ordered Watch Snapshot에서 같은 umbrella watch line을 유지하고 있었다.
+- 남은 `next / future / 확장 / 검토` 계열 hits는
+  backlog, no-change watch, 또는 `future-only task가 아니라`라는 차단 문맥이어서
+  live drift로 보지 않았다.
+
+조치:
+
+- source prose patch 없이
+  workstream hub umbrella no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 상위 workstream hub family는
+  continent sidecar/scout/display umbrella를
+  새 build queue가 아니라 닫힌 watch/reference line으로 같은 방향에서 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 workstream hub family는 no-change watch 기준으로 유지하면 된다.
