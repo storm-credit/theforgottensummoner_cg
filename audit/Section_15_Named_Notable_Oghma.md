@@ -113,6 +113,12 @@ named notable card reading은
   도시의 얼굴이자 전승의 얼굴로 쓰는 편이 더 좋다.
 - 고룡 조언자, 숨겨진 역사, 느림의 미학, 학술 도시 분위기에 강하다.
 
+## 6-0. Continent Umbrella Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 People Worth Seeking card가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## 7. Conductor Note
 
 - 이 시점에 확정할 것:

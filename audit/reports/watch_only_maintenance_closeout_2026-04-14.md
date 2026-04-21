@@ -4608,3 +4608,38 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 candidate/intake family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Thirty-Eighth People-Worth-Seeking Continent-Sidecar Realignment Pass
+
+목적:
+
+- People Worth Seeking hub/card family가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+확인 결과:
+
+- `Section_15_Named_Notables_Register.md`,
+  `Section_15_Named_Notables_Track.md`,
+  `Section_15_Named_Notable_Template.md`,
+  active `Section_15_Named_Notable_*` card 9문서는
+  People Worth Seeking guard와 14/15 boundary split을 유지하고 있었지만,
+  continent sidecar/scout/display umbrella가 lower authority라는 점을 아직 직접 적지 않았다.
+
+조치:
+
+- named-notables hub/template 3문서에
+  continent sidecar/scout/display umbrella lower-authority rule을 추가했다.
+- active `Section_15_Named_Notable_*` card 9문서에
+  `Continent Umbrella Guard`를 추가해
+  People Worth Seeking layer가 place/institution owner나 candidate build queue를 새로 만들지 않는다고 고정했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- People Worth Seeking family도 이제
+  continent sidecar/scout/display umbrella를
+  새 owner 결정축이나 build queue가 아니라
+  닫힌 lower current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 People Worth Seeking family는 no-change watch 기준으로 유지하면 된다.

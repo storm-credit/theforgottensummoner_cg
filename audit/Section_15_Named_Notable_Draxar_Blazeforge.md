@@ -56,6 +56,12 @@ named notable card reading은
 - 즉 이 카드는 `씨족형 전쟁기술자 + 공방 권위` 범위에서만 읽고,
   국가형 가문층 승격 근거로 사용하지 않는다.
 
+## Continent Umbrella Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 People Worth Seeking card가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Story Use
 
 - 전설 무구가 아니라 `위험한 강화제`와 `금지 실험` 쪽을 여는 인물.

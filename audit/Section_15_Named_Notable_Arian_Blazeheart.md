@@ -54,6 +54,12 @@ named notable card reading은
 - 즉 이 카드는 `씨족형 지배층 + 의례 권위` 쪽 증거이지
   전통 귀족국가형 가문층 승격 근거가 아니다.
 
+## Continent Umbrella Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 People Worth Seeking card가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Story Use
 
 - 신앙이 사람을 살리는가, 혹은 부족의 폭력성을 정당화하는가를 묻는 장면에 쓸 수 있다.

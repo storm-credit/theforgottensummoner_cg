@@ -62,6 +62,12 @@
 6. `교수 / 학파장`
 7. `유명 상인 / 공방 후원자`
 
+## Continent Umbrella Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 track이 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Conductor Note
 
 이미 진행한 `Operational Lines`는 reference 축으로 유지한다.

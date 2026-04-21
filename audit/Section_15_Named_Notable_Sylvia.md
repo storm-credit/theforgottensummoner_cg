@@ -103,6 +103,12 @@ deferred named boundary card reading은
   `deferred_expansion_hold / hold reference split` 범위에서만 유지한다.
 - 또한 이 기록-실험 권위를 오벨리스크 전통 귀족국가형 `state_house strong` 근거로 읽지 않는다.
 
+## 6-2. Continent Umbrella Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 People Worth Seeking card가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## 7. Conductor Note
 
 - 이 시점에 확정할 것:

@@ -11987,3 +11987,43 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 candidate/intake family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Thirty-Eighth People-Worth-Seeking Continent-Sidecar Realignment Pass
+
+목적:
+
+- People Worth Seeking hub/card family가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+배치:
+
+- conductor local people-worth-seeking realignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Named_Notables_Register.md`,
+  `Section_15_Named_Notables_Track.md`,
+  `Section_15_Named_Notable_Template.md`,
+  active `Section_15_Named_Notable_*` card 9문서를 먼저 스캔했다.
+- People Worth Seeking guard와 14/15 boundary split은 유지되고 있었지만,
+  continent sidecar/scout/display umbrella lower-authority rule은 아직 명시되지 않았다.
+- named-notables hub/template 3문서와 active named card 9문서에
+  continent sidecar/scout/display umbrella를 lower current-state watch/reference authority only로 읽고,
+  place/institution owner나 candidate build queue를 새로 만들지 않는다는 guard를 추가했다.
+
+Integrated actions:
+
+- People-Worth-Seeking continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-thirty-eighth pass 반영
+
+Verification:
+
+- People Worth Seeking hub/card family now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority.
+- the umbrella no longer remains implicit across the named-notables card path.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 People Worth Seeking family는 no-change watch 기준으로 유지한다.

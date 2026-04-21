@@ -117,6 +117,12 @@ named notable card reading은
   장인형 명사로서의 가치가 더 선명해진다.
 - 공방, 제작, 아이템, 화염 단조, 장인 문화 서사에 강하다.
 
+## 6-0. Continent Umbrella Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 People Worth Seeking card가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## 7. Conductor Note
 
 - 이 시점에 확정할 것:

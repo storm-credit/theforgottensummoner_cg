@@ -43,6 +43,12 @@ named notable card reading은
 - 엘다라의 정령연합 부족축은 `에테르 전체 부족층` 근거가 아니라 `Spirit Union inside strong` 예외축으로만 읽는다.
 - 즉 엘다라를 근거로 에테르 outside `정령연합` 부족층을 `tribe_clan enough`로 올리지 않는다.
 
+## Continent Umbrella Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 People Worth Seeking card가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Archive Routing
 
 - primary candidate:

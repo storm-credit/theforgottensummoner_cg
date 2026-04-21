@@ -117,6 +117,12 @@ named notable card reading은
   조언자형 명사 가치가 더 잘 살아난다.
 - 지식, 전승, 번역, 학술 도시 분위기, 금서 서사에 특히 강하다.
 
+## 6-0. Continent Umbrella Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 People Worth Seeking card가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## 7. Conductor Note
 
 - 이 시점에 확정할 것:

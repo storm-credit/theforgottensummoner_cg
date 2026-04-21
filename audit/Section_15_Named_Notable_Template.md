@@ -144,3 +144,6 @@ named notable template reading은
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
   닫힌 subline 교차감사 샘플로 유지하고,
   People Worth Seeking template는 그 closure 상태를 템플릿 참고 규칙으로만 읽는다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 템플릿이나 People Worth Seeking layer가 place/institution owner나 candidate build queue를 다시 정의하지 않는다.

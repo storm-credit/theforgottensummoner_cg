@@ -55,6 +55,12 @@ named notable card reading은
 - 다만 이것을 전통 귀족국가형 `state_house strong` 근거로 올리지는 않는다.
 - 즉 벨라나는 `tribe_clan core + thin state-house edge` 범위 안에서만 읽는다.
 
+## Continent Umbrella Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 People Worth Seeking card가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Story Use
 
 - 부족의 전통과 전쟁 현실 사이의 균열을 얼굴로 보여준다.

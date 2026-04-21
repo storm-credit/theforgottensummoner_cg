@@ -57,6 +57,12 @@ named notable card reading은
 - 즉 카사르는 `씨족 중심 지도부 + 예언/전략 권위` 범위에서만 읽고,
   국가형 가문층 확장 근거로 사용하지 않는다.
 
+## Continent Umbrella Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 People Worth Seeking card가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Story Use
 
 - 전쟁을 무력보다 계산과 예언으로 움직이는 장면에 적합하다.

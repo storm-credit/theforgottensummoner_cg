@@ -108,6 +108,9 @@ register active 판단은
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
   닫힌 subline 교차감사 샘플로 유지하고,
 이 register는 그 closure 상태를 People Worth Seeking register 층에서만 참조한다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 register가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
 
 ## Conductor Note
 
