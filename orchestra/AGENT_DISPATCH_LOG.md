@@ -10458,3 +10458,54 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 frost-core wording family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Fourth Frost-Anchor Next-Step Realignment Pass
+
+목적:
+
+- `Section_8_Frost_Notable_Anchor_Audit.md` 하단의
+  `다음 실제 작업`이 현재 프로스트 direct-link/register 상태보다 뒤처져 있는지 정렬한다.
+
+배치:
+
+- conductor local frost-anchor wording scout
+
+Conductor action:
+
+- conductor는 `Section_8_Frost_Notable_Anchor_Audit.md`와
+  `Section_15_Frost_Core_Register_Link.md`
+  를 다시 대조해,
+  프로스트 anchor audit의 하단 작업선만 예전 pre-link 시점에 머물러 있다는 점을 확인했다.
+- `Section_8_Frost_Notable_Anchor_Audit.md`는
+  프로스트가 `장소-기관 슬롯이 강한 대륙`이라는 현재 판정을 유지하고 있었지만,
+  하단에는 `FS_Place_Function_Register와 더 직접 연결한다`
+  는 문장이 남아 있어
+  direct-link pass가 아직 미래 작업처럼 읽힐 여지가 있었다.
+- 하지만 실제로는
+  `Section_15_Frost_Core_Register_Link.md`에서 이미
+  `FS_Place_Function_Register`,
+  `FS_Decision_Ruling_Register`,
+  `FS_Slot_Maturation_Register`,
+  `FS_Canon_Change_Log`
+  direct link pass가 반영된 상태였다.
+- 그래서 이번 순환에서는
+  하단 작업 문장을
+  `display canon 후보는 watch-only로 유지하고 증거가 더 쌓일 때만 조정한다`,
+  `Section_15_Frost_Core_Register_Link.md 기준 direct link pass를 유지한 채 후속 증거만 더 모은다`
+  로 고쳐 현재형으로 정렬했다.
+
+Integrated actions:
+
+- frost-anchor next-step wording source realignment
+- report pair / dispatch log 2026-04-21 one-hundred-fourth pass 반영
+
+Verification:
+
+- the frost anchor audit no longer leaves the direct-link/register path as a future-only task.
+- `Section_8_Frost_Notable_Anchor_Audit.md` now reads the existing frost core-link route as current state and keeps only watch/evidence follow-up.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 frost-anchor wording family는 no-change watch 기준으로 유지한다.

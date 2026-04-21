@@ -3334,3 +3334,45 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이미 구축된 live handoff route로 읽게 되었다.
 - 이후 새 local drift가 생기기 전까지
   같은 frost-core wording family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Fourth Frost-Anchor Next-Step Realignment Pass
+
+목적:
+
+- `Section_8_Frost_Notable_Anchor_Audit.md` 하단의
+  `다음 실제 작업`이 현재 프로스트 direct-link/register 상태보다 뒤처져 있는지 정렬한다.
+
+확인 결과:
+
+- `Section_8_Frost_Notable_Anchor_Audit.md`는
+  프로스트가 `장소-기관 슬롯이 강한 대륙`이라는 현재 판정을 유지하고 있었지만,
+  하단 작업선에는
+  `FS_Place_Function_Register와 더 직접 연결한다`
+  는 문장이 남아 있었다.
+- 하지만 실제로는
+  `Section_15_Frost_Core_Register_Link.md`에서 이미
+  `FS_Place_Function_Register`,
+  `FS_Decision_Ruling_Register`,
+  `FS_Slot_Maturation_Register`,
+  `FS_Canon_Change_Log`
+  direct link pass가 반영된 상태다.
+- 따라서 `Section_8_Frost_Notable_Anchor_Audit.md`의 하단 작업선만
+  예전 pre-link 시점에 머물러 있는 live drift였다.
+
+조치:
+
+- 하단 작업 문장을
+  `display canon 후보는 watch-only로 유지하고 증거가 더 쌓일 때만 조정한다`
+  는 현재형으로 고쳤다.
+- `FS_Place_Function_Register와 더 직접 연결` 문장은
+  `Section_15_Frost_Core_Register_Link.md` 기준 direct link pass를 유지한 채
+  후속 증거를 더 모은다는 문장으로 바꿨다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- 프로스트 anchor audit도 이제
+  direct-link/register path를 `앞으로 할 일`이 아니라
+  이미 반영된 현재 기준선으로 읽게 되었다.
+- 이후 새 local drift가 생기기 전까지
+  같은 frost-anchor wording family는 no-change watch 기준으로 유지하면 된다.

@@ -63,6 +63,6 @@
 
 다음 실제 작업:
 
-- 프로스트 슬롯의 `display canon` 후보를 더 판타지 톤으로 낮춘다.
-- `원로 사냥꾼 / 묘지기 장로 / 대예언자 / 별의 샤먼` 축을 `FS_Place_Function_Register`와 더 직접 연결한다.
+- 프로스트 슬롯의 `display canon` 후보는 현재 watch-only로 유지하고, 실제 원고/anchor 증거가 더 쌓일 때만 추가 조정한다.
+- `원로 사냥꾼 / 묘지기 장로 / 대예언자 / 별의 샤먼` 축은 `Section_15_Frost_Core_Register_Link.md` 기준 direct link pass를 유지한 채 후속 증거만 더 모은다.
 - 이후에야 실제 개인명이 나타난 슬롯만 `verify_before_15`로 끌어올린다.
