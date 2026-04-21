@@ -9821,3 +9821,52 @@ Follow-up actions:
 
 - 이 story-engine craft-reference delta를 commit/push한 뒤,
   story-craft 실행축도 같은 reference-only reading line으로 유지한다.
+
+## 2026-04-21 KST - Ninety-Second Writer-Engine Craft-Reference Realignment Pass
+
+목적:
+
+- 아직 남아 있는 구버전 이름 문서인 `workflow/11_Writer_Engine.md`도
+  현재 `reader-reward heuristic -> reference-only Story Craft` 해석선을
+  같은 방향으로 가리키는지 맞춘다.
+
+배치:
+
+- conductor local writer-engine craft-reference scout
+
+Conductor action:
+
+- conductor는 `workflow/11_Writer_Engine.md`,
+  `workflow/11_FS_Engine.md`,
+  `workflow/16_FS_Story_Engine.md`,
+  `audit/FS_Engine_Writing_Craft_Map.md`,
+  `audit/OPEN_INDEX.md`
+  를 다시 대조해,
+  상위 craft entry path 대부분은 이미 새 heuristic 경로를 보이지만
+  구버전 이름 문서에서는 아직 그 translation route가 직접 보이지 않는 drift를 재확인했다.
+- `workflow/11_Writer_Engine.md`는 이미
+  `FS Engine`을 우선하라고 적고 있었지만,
+  legacy entry path로 읽을 때는
+  외부 reader-response 평론을 어디서 reference-only로 번역해야 하는지가
+  다시 한 박자 늦게 보이고 있었다.
+- conductor local pass에서는
+  `workflow/11_Writer_Engine.md`의 `Goal` 섹션에
+  외부 독자 반응형 평론을 바로 점수표나 정본 게이트로 올리지 않고
+  `audit/FS_Reader_Reward_Reference_Heuristic.md`를 통해
+  reference-only Story Craft 점검축으로 먼저 번역한다는 문장을 추가했다.
+
+Integrated actions:
+
+- writer-engine craft-reference entry-path realignment
+- report pair / dispatch log 2026-04-21 ninety-second pass 반영
+
+Verification:
+
+- the new reader-reward heuristic is now visible from the legacy writer-engine entry path as well as the FS-engine and story-engine paths.
+- the current docs still keep the heuristic explicitly reference-only rather than a scorecard or revision-gate authority.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 writer-engine craft-reference delta를 commit/push한 뒤,
+  구버전 이름 문서를 포함한 상위 craft entry path 전체를 같은 reference-only reading line으로 유지한다.

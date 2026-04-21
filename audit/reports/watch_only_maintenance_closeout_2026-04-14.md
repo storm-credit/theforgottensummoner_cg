@@ -2855,3 +2855,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   흐름에서도 같은 선으로 읽힌다.
 - story-craft 실행축에서도
   이 문서는 `작법 참고축`이지 `채점표`나 `정본 게이트`가 아니라는 점이 더 분명해졌다.
+
+## 2026-04-21 Ninety-Second Writer-Engine Craft-Reference Realignment Pass
+
+목적:
+
+- 아직 남아 있는 구버전 이름 문서인 `workflow/11_Writer_Engine.md`도
+  현재 `reader-reward heuristic -> reference-only Story Craft` 해석선을
+  같은 방향으로 가리키는지 맞춘다.
+
+확인 결과:
+
+- `Start_Here.md`, `workflow/11_FS_Engine.md`,
+  `workflow/16_FS_Story_Engine.md`, `audit/FS_Engine_Writing_Craft_Map.md`,
+  `OPEN_INDEX.md`에는 새 heuristic 경로가 이미 보이기 시작했지만,
+  구버전 이름 문서인 `workflow/11_Writer_Engine.md` 상단에는
+  아직 그 translation route가 직접 적혀 있지 않았다.
+- 이 문서는 이미 `FS Engine`을 우선하라고 적고 있었지만,
+  legacy entry path로 읽을 때는
+  외부 reader-response 평론을 어디서 reference-only로 번역해야 하는지가
+  다시 한 박자 늦게 보이는 live drift가 남아 있었다.
+
+조치:
+
+- `workflow/11_Writer_Engine.md`의 `Goal` 섹션에
+  외부 독자 반응형 평론을 바로 점수표나 정본 게이트로 올리지 않고,
+  `audit/FS_Reader_Reward_Reference_Heuristic.md`를 통해
+  reference-only Story Craft 점검축으로 먼저 번역한다는 문장을 추가했다.
+
+의미:
+
+- 이제 구버전 이름 문서까지 포함해
+  상위 craft entry path 전체가 같은 `reference-only` 선으로 읽힌다.
+- 새 heuristic는 더 분명하게
+  `작법 참고축`이지 `채점표`나 `정본 게이트`가 아니라는 상태로 유지된다.
