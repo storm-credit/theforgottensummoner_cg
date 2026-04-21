@@ -3712,3 +3712,36 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이미 구축된 current-state 기준선으로 읽게 되었다.
 - 이후 새 local drift가 생기기 전까지
   같은 obelisk-scout wording family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Fourteenth Obelisk-Wording Family Stability Pass
+
+목적:
+
+- 방금 정렬한 obelisk wording family가
+  `Section_15_Named_Notables_Obelisk_Scout.md`,
+  `Section_15_Obelisk_Place_Institution_Sidecar.md`
+  사이에서 같은 현재형으로 유지되는지 다시 닫는다.
+
+확인 결과:
+
+- `Section_15_Named_Notables_Obelisk_Scout.md`는
+  active reading set에서 obelisk sidecar를 읽고 있었고,
+  최종 판정도 sidecar 기준 장소-기관 슬롯을 먼저 유지한 뒤
+  추가 증거가 쌓일 때만 인물 확정을 재검토하는 현재형으로 유지하고 있었다.
+- `Section_15_Obelisk_Place_Institution_Sidecar.md`는
+  장소-기관 기능과 P2 place/institution pressure를 보존하는 보조 sidecar 역할을 그대로 유지하고 있었다.
+- 따라서 이번에는 obelisk wording family에서
+  추가 source prose drift가 보이지 않았다.
+
+조치:
+
+- source prose patch 없이
+  obelisk wording family no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- obelisk scout와 sidecar는
+  이제 같은 current-state place/institution-first 기준으로 닫혀 있다.
+- 이후 새 local drift가 생기기 전까지
+  같은 obelisk wording family는 no-change watch 기준으로 유지하면 된다.
