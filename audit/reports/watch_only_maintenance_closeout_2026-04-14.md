@@ -2929,3 +2929,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   `reader-reward heuristic = reference-only`라는 같은 선으로 닫혀 있다.
 - 이후 새 local drift가 생기기 전까지
   같은 craft-entry family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 Ninety-Fourth Lore-Media Boundary Stability Pass
+
+목적:
+
+- `workflow/15_FS_Lore_Engine.md`,
+  `workflow/14_FS_Media_Engine.md`,
+  `audit/FS_Media_Engine_Consensus.md`,
+  `audit/FS_Lore_Engine_Gap_Audit.md`
+  인접층이
+  새 `reader-reward heuristic`를 과잉 수입하지 않은 채
+  craft/lore/media 역할 분리선을 그대로 유지하는지 다시 닫는다.
+
+확인 결과:
+
+- `workflow/15_FS_Lore_Engine.md`는
+  여전히 설정집 구성, 라우팅, 정본 게이트, source/state 판단을 담당하는 주 엔진으로만 읽히고 있었다.
+- `workflow/14_FS_Media_Engine.md`와
+  `audit/FS_Media_Engine_Consensus.md`도
+  canon-safe brief/review 축에 집중한 채,
+  Story Craft heuristic를 자기 기준으로 흡수하지 않고 있었다.
+- `audit/FS_Lore_Engine_Gap_Audit.md` 역시
+  로어 엔진 전용 보강 모듈과 장부 구조를 점검하는 문서로 유지되고 있었고,
+  craft heuristic를 lore-engine control module로 승격시키지 않고 있었다.
+- 따라서 이번에는 craft-to-lore/media boundary에서
+  추가 source prose drift가 보이지 않았다.
+
+조치:
+
+- source prose patch 없이
+  lore-media boundary no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 새 heuristic는 계속 craft 쪽 reference-only 축에 남고,
+  lore/media 엔진은 기존 역할선 안에서 안정적으로 유지된다.
+- 이후 새 local drift가 생기기 전까지
+  같은 boundary family는 no-change watch 기준으로 유지하면 된다.

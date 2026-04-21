@@ -9926,3 +9926,55 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 upper craft-entry family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - Ninety-Fourth Lore-Media Boundary Stability Pass
+
+목적:
+
+- `workflow/15_FS_Lore_Engine.md`,
+  `workflow/14_FS_Media_Engine.md`,
+  `audit/FS_Media_Engine_Consensus.md`,
+  `audit/FS_Lore_Engine_Gap_Audit.md`
+  인접층이
+  새 `reader-reward heuristic`를 과잉 수입하지 않은 채
+  craft/lore/media 역할 분리선을 그대로 유지하는지 다시 닫는다.
+
+배치:
+
+- conductor local lore-media boundary scout
+
+Conductor action:
+
+- conductor는 `workflow/15_FS_Lore_Engine.md`,
+  `workflow/14_FS_Media_Engine.md`,
+  `audit/FS_Media_Engine_Consensus.md`,
+  `audit/FS_Lore_Engine_Gap_Audit.md`
+  를 다시 대조해,
+  새 heuristic가 craft 바깥 인접층으로 과잉 수입되지 않았는지 확인했다.
+- `workflow/15_FS_Lore_Engine.md`는
+  여전히 설정집 구성, 라우팅, 정본 게이트, source/state 판단을 담당하는 주 엔진으로만 읽히고 있었다.
+- `workflow/14_FS_Media_Engine.md`와
+  `audit/FS_Media_Engine_Consensus.md`도
+  canon-safe brief/review 축에 집중한 채,
+  Story Craft heuristic를 자기 기준으로 흡수하지 않고 있었다.
+- `audit/FS_Lore_Engine_Gap_Audit.md` 역시
+  로어 엔진 전용 보강 모듈과 장부 구조를 점검하는 문서로 유지되고 있었고,
+  craft heuristic를 lore-engine control module로 승격시키지 않고 있었다.
+- 따라서 이번 순환에서는
+  craft-to-lore/media boundary에서 추가 source prose drift가 발견되지 않았다.
+
+Integrated actions:
+
+- lore-media boundary no-change stability confirmation
+- report pair / dispatch log 2026-04-21 ninety-fourth pass 반영
+
+Verification:
+
+- no additional live drift was found across the craft-to-lore/media boundary at this checkpoint.
+- the current docs keep the reader-reward heuristic on the craft side only, while lore/media engines keep their original control roles.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 lore-media boundary family는 no-change watch 기준으로 유지한다.
