@@ -3855,3 +3855,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   새 build queue가 아니라 닫힌 watch/reference line으로 같은 방향에서 읽는다.
 - 이후 새 local drift가 생기기 전까지
   같은 workstream hub family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Eighteenth Section-8 Sync Continent-Sidecar Reference Realignment Pass
+
+목적:
+
+- workstream hub에는 반영된 continent sidecar/scout/display wording umbrella가
+  Section 8 root/structure/mismatch/P2 handoff gate의
+  compass / sync register / closure watch에도 같은 current-state watch/reference로 보이는지 확인한다.
+
+확인 결과:
+
+- `Section_8_Normalization_Status_Compass.md`는
+  P2 handoff sidecar 일부는 읽고 있었지만,
+  closed continent sidecar/scout/display umbrella 전체를 stage snapshot과 lock line으로 드러내지 못하고 있었다.
+- `Section_8_Mainline_Sync_Register.md`는
+  workstream hubs를 input으로 읽고 있었지만,
+  sidecar/scout/display source family 자체와 sync group을 아직 명시하지 않았다.
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`는
+  sidecar/register owner rule은 유지했지만,
+  직전 umbrella closure를 watch table / trigger / ordered cycle에 충분히 올려두지 않았다.
+
+조치:
+
+- `Section_8_Normalization_Status_Compass.md`의 input, stage snapshot, conductor lock에
+  continent sidecar/scout/display umbrella의 closed watch/reference 상태를 추가했다.
+- `Section_8_Mainline_Sync_Register.md`의 input과 sync groups에
+  `continent_sidecar_umbrella`를 추가하고,
+  future-only build task로 되돌아가는 경우를 drift trigger로 명시했다.
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`의 input, mainline lock, watch table,
+  immediate trigger, ordered cycle, checklist에 같은 umbrella closure를 반영했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- Section 8 본선 게이트도 이제
+  continent sidecar/scout/display umbrella를
+  새 build queue가 아니라 닫힌 current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 Section 8 sync gate family는 no-change watch 기준으로 유지하면 된다.

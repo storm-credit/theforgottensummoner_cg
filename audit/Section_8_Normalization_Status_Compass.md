@@ -29,7 +29,13 @@
 - `audit/Section_15_Subline_Register.md`
 - `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
 - `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `audit/Section_15_Ether_Place_Institution_Sidecar.md`
 - `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
+- `audit/Section_15_Named_Notables_Frost_Scout.md`
+- `audit/Section_15_Named_Notables_Oceanic_Scout.md`
+- `audit/Section_15_Named_Notables_Ether_Scout.md`
+- `audit/Section_15_Named_Notables_Obelisk_Scout.md`
+- `audit/Section_15_Frost_Display_Canon_Candidates.md`
 - `audit/FS_Place_Function_Register.md`
 
 ## Stage Snapshot
@@ -45,6 +51,7 @@
 - `place-pressure handoff`: `applied_round1` (`section_style_forced_on_place_network` legacy risk key)
 - `section8_to_15 closure sync watch`: `watch_mainline`
 - `five_continent_missing_layer_master_lock`: `closed_component_set`
+- `continent_sidecar_scout_display_umbrella`: `closed_watch_reference`
 
 ## Root Status
 
@@ -127,3 +134,6 @@
 9. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
    닫힌 subline 교차감사 샘플로 유지하고,
    새 drift가 생길 때만 국소 재대조한다.
+10. continent sidecar/scout/display wording umbrella는
+    Frost / Oceanic / Ether / Obelisk family 모두
+    current-state watch/reference 기준으로 닫힌 상태로만 읽는다.

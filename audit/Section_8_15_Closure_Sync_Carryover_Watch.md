@@ -37,8 +37,14 @@
 - `audit/Section_15_Ether_Spirit_Union_Hold_Continuation.md`
 - `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
 - `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `audit/Section_15_Ether_Place_Institution_Sidecar.md`
 - `audit/Section_8_Frost_Notable_Anchor_Audit.md`
 - `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
+- `audit/Section_15_Named_Notables_Frost_Scout.md`
+- `audit/Section_15_Named_Notables_Oceanic_Scout.md`
+- `audit/Section_15_Named_Notables_Ether_Scout.md`
+- `audit/Section_15_Named_Notables_Obelisk_Scout.md`
+- `audit/Section_15_Frost_Display_Canon_Candidates.md`
 - `audit/FS_Place_Function_Register.md`
 - `audit/Five_Continent_Missing_Layer_Master_Lock.md`
 - `audit/Continuous_Workstream.md`
@@ -74,6 +80,10 @@
 13. `Five_Continent_Missing_Layer_Master_Lock.md` 아래 component set은
     closeout 완료 상태로 보고,
     새 evidence가 들어오기 전까지는 root / structure / mismatch / P2 handoff watch를 우선한다.
+14. continent sidecar/scout/display wording umbrella는
+    Frost / Oceanic / Ether / Obelisk family 모두
+    current-state watch/reference closure로 유지하고,
+    새 build queue처럼 다시 열지 않는다.
 
 ## Watch Table
 
@@ -85,6 +95,7 @@
 | `Section 8 carryover` | `bridge_locked` | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md` | 구조 라벨과 후보 상태 혼용 | structure label과 place pressure 분리 |
 | `lower-card authority` | `separated_and_respected` | `Section_15_Named_Notables_Register.md`, `Section_15_Profile_Draft_Index.md`, `Section_15_Profile_*`, `Section_15_Subline_Profile_*` | 상위 summary가 하위 `3-1. Policy Guard`를 재정의하는 것 | register/index는 비교 문서로만 쓰고, exact wording source는 각 profile/subline profile 카드에 남긴다 |
 | `P2 place-pressure` | `handoff_applied` | `Section_8_Place_Network_Handoff_Map.md` | candidate index나 summary에 place owner를 재정의하는 것 | owner는 sidecar/register만 가진다 |
+| `continent sidecar/scout/display umbrella` | `closed_watch_reference` | `Section_15_Frost_Place_Institution_Sidecar.md`, `Section_15_Oceanic_Place_Institution_Sidecar.md`, `Section_15_Ether_Place_Institution_Sidecar.md`, `Section_15_Obelisk_Place_Institution_Sidecar.md` | 닫힌 sidecar/scout/display wording umbrella를 future-only build queue처럼 다시 여는 것 | current-state watch/reference closure로만 유지한다 |
 | `root / deferred axis` | `guarded` | `Section_8_Normalization_Status_Compass.md` | 범대륙 후기 확장을 메인 본선처럼 재상승 | deferred routing만 유지 |
 | `missing-layer master lock` | `closed_component_set` | `Five_Continent_Missing_Layer_Master_Lock.md` | component shorthand가 단일 entry authority처럼 재상승하는 것 | master lock 아래 component set으로만 유지 |
 
@@ -102,6 +113,7 @@
 8. canonical state가 prose guard 문장으로 대체되거나, 반대로 prose guard가 state label처럼 오기입될 때
 9. operational profile guard 문장이 `People Worth Seeking` 승인 논리로 역수입될 때
 10. subline draft와 각 `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard` 문장이 서로 어긋날 때
+11. continent sidecar/scout/display wording umbrella가 current-state watch/reference가 아니라 future-only build task처럼 다시 적힐 때
 
 ## Ordered Cycle
 
@@ -114,13 +126,16 @@
 5. `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`에서 operational profile layer의 `3-1. Policy Guard` 형식 drift를 확인한다.
 6. `Section_15_Ether_Hold_Cluster_Continuation.md`, `Section_15_Ether_Tower_Saint_Hold_Continuation.md`, `Section_15_Ether_Spirit_Union_Hold_Continuation.md`에서 hold cluster가 closure 상태로 유지되는지 확인한다.
 7. `Section_8_Place_Network_Handoff_Map.md`와 sidecar/register owner를 대조해 `P2 place-pressure` owner drift가 없는지 확인한다.
-8. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에서 본선 reference가 같은 순서로 적혀 있는지 확인한다.
-9. `Section_15_Named_Notables_Register.md`와 `Section_15_Profile_Draft_Index.md`를 대조해 lower-card authority가 summary에 재정의되지 않는지 확인한다.
-10. `Section_15_Subline_Draft_*`와 `Section_15_Subline_Profile_*`는
+8. continent sidecar/scout/display wording umbrella가
+   Frost / Oceanic / Ether / Obelisk family 모두에서
+   current-state watch/reference closure로 유지되는지 확인한다.
+9. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에서 본선 reference가 같은 순서로 적혀 있는지 확인한다.
+10. `Section_15_Named_Notables_Register.md`와 `Section_15_Profile_Draft_Index.md`를 대조해 lower-card authority가 summary에 재정의되지 않는지 확인한다.
+11. `Section_15_Subline_Draft_*`와 `Section_15_Subline_Profile_*`는
     대표 짝 교차감사가 이미 닫힌 상태로 읽고,
     wording-source drift가 생길 때만 국소 대조한다.
-11. 위 1~10이 모두 잠긴 뒤에만 신규 closure batch 후보나 subtree sampling 재개 필요 여부를 판단한다.
-12. missing-layer component set은 closeout reference로만 보고,
+12. 위 1~11이 모두 잠긴 뒤에만 신규 closure batch 후보나 subtree sampling 재개 필요 여부를 판단한다.
+13. missing-layer component set은 closeout reference로만 보고,
     새 evidence 전까지는 `root / structure / mismatch / P2 handoff` snapshot을 먼저 본다.
 
 ## Conductor Checklist
@@ -154,6 +169,7 @@
 25. `Section_8_Place_Network_Handoff_Map.md`
 26. `Section_15_Named_Notables_Register.md`
 27. `Section_15_Subline_Register.md`
+28. continent sidecar/scout/display wording umbrella source family
 
 ## Conductor Decision
 

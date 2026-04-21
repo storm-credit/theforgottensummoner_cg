@@ -11125,3 +11125,47 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 workstream hub family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Eighteenth Section-8 Sync Continent-Sidecar Reference Realignment Pass
+
+목적:
+
+- workstream hub에 반영된 continent sidecar/scout/display wording umbrella가
+  Section 8 root/structure/mismatch/P2 handoff gate에도 같은 current-state watch/reference로 잡혀 있는지 확인한다.
+
+배치:
+
+- conductor local Section-8 sync-gate realignment scout
+
+Conductor action:
+
+- conductor는 `Section_8_Normalization_Status_Compass.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`를 먼저 열어
+  root / structure / mismatch / P2 handoff snapshot과 직전 umbrella closure를 대조했다.
+- `Section_8_Normalization_Status_Compass.md`에는
+  sidecar/scout/display umbrella source family, `closed_watch_reference` stage line,
+  current-state watch/reference conductor lock을 추가했다.
+- `Section_8_Mainline_Sync_Register.md`에는
+  sidecar/scout/display source family input과
+  `continent_sidecar_umbrella` sync group,
+  future-only build task rollback trigger를 추가했다.
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`에는
+  sidecar/scout/display source family input,
+  mainline lock, watch table, immediate trigger, ordered cycle, checklist line을 추가했다.
+
+Integrated actions:
+
+- Section 8 sync-gate continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-eighteenth pass 반영
+
+Verification:
+
+- the Section 8 sync gate now explicitly carries the closed continent sidecar/scout/display umbrella.
+- the umbrella remains current-state watch/reference authority, not a reopened build queue.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 Section 8 sync gate family는 no-change watch 기준으로 유지한다.
