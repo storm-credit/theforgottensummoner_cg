@@ -10706,3 +10706,55 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 oceanic-sidecar wording family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Ninth Oceanic-Scout Carryover Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Oceanic_Scout.md`의
+  tone-risk와 sidecar carryover 문장이
+  방금 정렬한 oceanic display-reference 상태보다 뒤처져 있는지 정렬한다.
+
+배치:
+
+- conductor local oceanic-scout wording scout
+
+Conductor action:
+
+- conductor는 `Section_15_Named_Notables_Oceanic_Scout.md`와
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`
+  를 다시 대조해,
+  oceanic scout의 current-state 판정은 유지되고 있지만
+  일부 wording만 future review 단계에 머물러 있다는 점을 확인했다.
+- `Section_15_Named_Notables_Oceanic_Scout.md`는
+  sidecar를 active reading set에 포함하고 있고
+  후보를 `slot-first / verify_before_15`로 읽는 현재 판정도 유지하고 있었지만,
+  `Tone and Naming Risks`에는
+  `오라클 바지`의 표면명을 `나중에 ... 계열로 조정할 수 있다`
+  는 문장이 남아 있어
+  이미 구축된 oceanic display-reference layer보다 한 단계 뒤처진 wording이 남아 있었다.
+- `Place / Institution Sidecar` 판정 문장에도
+  `나중에 실제 named candidate를 붙인다`
+  는 future-only 표현이 남아 있어,
+  지금의 slot-first / evidence-first watch 상태를 충분히 드러내지 못하고 있었다.
+- 그래서 이번 순환에서는
+  관련 문장들을
+  `현재 ... 계열로 읽는다`,
+  `실제 원고/anchor 증거가 더 쌓일 때만 named candidate를 붙인다`
+  로 고쳐 sidecar와 같은 현재형으로 정렬했다.
+
+Integrated actions:
+
+- oceanic-scout carryover wording source realignment
+- report pair / dispatch log 2026-04-21 one-hundred-ninth pass 반영
+
+Verification:
+
+- the oceanic scout no longer describes its display-reference or sidecar carryover as future-only review work.
+- `Section_15_Named_Notables_Oceanic_Scout.md` now matches the oceanic sidecar's current slot-first watch state.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 oceanic-scout wording family는 no-change watch 기준으로 유지한다.

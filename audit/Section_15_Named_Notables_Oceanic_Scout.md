@@ -56,7 +56,7 @@ recorded 판정은 `thin with many boundary signals`로 둔다.
 ## Tone and Naming Risks
 
 - `Black Market Syndicate`, `카르텔`, `히어로급` 같은 말은 표면 정본명으로 바로 쓰지 않는다.
-- `오라클 바지`는 기능명으로는 명확하지만 표면명은 나중에 `예언 방주`, `신탁 방주` 계열로 조정할 수 있다.
+- `오라클 바지`는 기능명으로는 명확하지만 표면명 reference는 현재 `예언 방주`, `신탁 방주` 계열로 읽는다.
 - `해양 실비아`는 이름 충돌이 매우 크므로 절대 기존 실비아들과 병합하지 않는다.
 
 ## Spatial and Institution Anchors
@@ -85,7 +85,7 @@ recorded 판정은 `thin with many boundary signals`로 둔다.
 판정:
 
 - 해양의 이름 있는 후보는 당장 15 확정하지 않는다.
-- 먼저 장소-기관 슬롯을 고정하고, 나중에 실제 named candidate를 붙인다.
+- 먼저 장소-기관 슬롯을 고정하고, 실제 원고/anchor 증거가 더 쌓일 때만 named candidate를 붙인다.
 
 ## Conductor Reading Rule
 

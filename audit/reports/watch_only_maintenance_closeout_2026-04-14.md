@@ -3526,3 +3526,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   future review가 아니라 현재 기준선으로 읽게 되었다.
 - 이후 새 local drift가 생기기 전까지
   같은 oceanic-sidecar wording family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Ninth Oceanic-Scout Carryover Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Oceanic_Scout.md`의
+  tone-risk와 sidecar carryover 문장이
+  방금 정렬한 oceanic display-reference 상태보다 뒤처져 있는지 정렬한다.
+
+확인 결과:
+
+- `Section_15_Named_Notables_Oceanic_Scout.md`는
+  이미 `Section_15_Oceanic_Place_Institution_Sidecar.md`를 active reading set에 포함하고 있었고,
+  해양 후보를 `slot-first / verify_before_15`로 읽는 현재 판정도 유지하고 있었다.
+- 하지만 `Tone and Naming Risks`에는
+  `오라클 바지`의 표면명을 `나중에 ... 계열로 조정할 수 있다`
+  는 문장이 남아 있어,
+  이미 구축된 oceanic display-reference layer보다 한 단계 뒤처진 wording이 남아 있었다.
+- `Place / Institution Sidecar` 판정 문장에도
+  `나중에 실제 named candidate를 붙인다`
+  는 future-only 표현이 남아 있어,
+  지금의 slot-first / evidence-first watch 상태를 충분히 드러내지 못하고 있었다.
+
+조치:
+
+- `오라클 바지` 관련 문장을
+  `표면명 reference는 현재 예언 방주 / 신탁 방주 계열로 읽는다`
+  로 고쳤다.
+- sidecar carryover 문장도
+  `실제 원고/anchor 증거가 더 쌓일 때만 named candidate를 붙인다`
+  로 바꿔 현재형 watch 기준으로 정렬했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- oceanic scout도 이제
+  sidecar와 같은 현재형 display-reference / slot-first watch 상태로 읽히게 되었다.
+- 이후 새 local drift가 생기기 전까지
+  같은 oceanic-scout wording family는 no-change watch 기준으로 유지하면 된다.
