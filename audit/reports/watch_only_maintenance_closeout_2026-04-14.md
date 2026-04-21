@@ -4136,3 +4136,38 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 읽는다.
 - 이후 새 local drift가 생기기 전까지
   같은 package hub family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Twenty-Fifth Package-Hub Stability Pass
+
+목적:
+
+- 방금 정렬한 package hub family가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 유지하는지 다시 확인한다.
+
+확인 결과:
+
+- `Section_15_Index_Draft.md`,
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`
+  모두 sidecar/scout/display source family와 lower-authority rule을 유지하고 있었다.
+- 남은 `next / future / 재개 / 확장 / 승격 / build / 발굴` 계열 hits는
+  deferred/backlog, 금지/차단 문맥, 또는 기존 late-expansion 설명 문맥이어서
+  live drift로 보지 않았다.
+
+조치:
+
+- source prose patch 없이
+  package hub no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- package hub family는
+  continent sidecar/scout/display umbrella를
+  닫힌 lower current-state watch/reference authority로 유지한다.
+- 이후 새 local drift가 생기기 전까지
+  같은 package hub family는 no-change watch 기준으로 유지하면 된다.
