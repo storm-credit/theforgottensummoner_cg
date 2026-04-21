@@ -2968,3 +2968,36 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   lore/media 엔진은 기존 역할선 안에서 안정적으로 유지된다.
 - 이후 새 local drift가 생기기 전까지
   같은 boundary family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 Ninety-Fifth Engine-Routing Reader-Response Realignment Pass
+
+목적:
+
+- `FS_Reader_Reward_Reference_Heuristic.md`가 상위 craft entry path에는 연결됐지만,
+  `FS_Engine_Mode_Routing.md`의 실제 엔진 선택 표에서도
+  같은 `Story-first / Lore-boundary-only` 선으로 보이는지 맞춘다.
+
+확인 결과:
+
+- `FS_Engine_Mode_Routing.md`는
+  Lore / Story / Media 우선순위와 switch trigger를 올바르게 유지하고 있었지만,
+  외부 reader-response 평론을 reference-only Story Craft heuristic로 번역하는 작업이
+  어떤 primary engine으로 들어가는지는 아직 직접 보이지 않았다.
+- 이 상태에서는 새 heuristic가 상위 문서에는 보이더라도,
+  실제 routing 판단에서 Lore revision gate나 media brief 축으로 오독될 여지가 작게 남아 있었다.
+
+조치:
+
+- `FS_Engine_Mode_Routing.md`의 `Mode Table`에
+  `외부 reader-response 평론 번역 | Story | Lore for boundary only`
+  항목을 추가했다.
+- `Switch to Story Engine` trigger에도
+  외부 reader-response 평론을 reference-only Story Craft heuristic로 번역해야 할 때를 추가했다.
+
+의미:
+
+- 이제 외부 평론 번역 작업은
+  routing layer에서도 Story Engine 우선 작업으로 보이고,
+  Lore Engine은 정본/라우팅 경계를 확인하는 보조 역할에만 머문다.
+- 새 heuristic는 계속 채점표나 revision-gate authority가 아니라
+  Story Craft reference-only 축으로 유지된다.

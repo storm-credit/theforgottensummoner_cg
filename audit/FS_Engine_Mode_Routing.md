@@ -29,6 +29,7 @@
 | 지도/도시/건물 내부 맵 후보 | Lore | Media |
 | 실제 액트 설계 | Story | Lore |
 | 실제 장면 집필 | Story | Lore |
+| 외부 reader-response 평론 번역 | Story | Lore for boundary only |
 | 음악/이미지/영상 브리프 | Media | Lore |
 | 커밋/푸쉬 | None | Lore for context only |
 
@@ -53,6 +54,7 @@
 - 캐릭터 아크
 - 장면의 압력
 - 독자가 언제 알게 되는지
+- 외부 reader-response 평론을 reference-only Story Craft heuristic로 번역해야 할 때
 - 관계가 어떻게 바뀌는지
 - 복선 회수 타이밍
 

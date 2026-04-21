@@ -9978,3 +9978,50 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 lore-media boundary family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - Ninety-Fifth Engine-Routing Reader-Response Realignment Pass
+
+목적:
+
+- `FS_Reader_Reward_Reference_Heuristic.md`가 상위 craft entry path에는 연결됐지만,
+  `FS_Engine_Mode_Routing.md`의 실제 엔진 선택 표에서도
+  같은 `Story-first / Lore-boundary-only` 선으로 보이는지 맞춘다.
+
+배치:
+
+- conductor local engine-routing reader-response scout
+
+Conductor action:
+
+- conductor는 `FS_Engine_Mode_Routing.md`,
+  `workflow/11_FS_Engine.md`,
+  `workflow/16_FS_Story_Engine.md`,
+  `workflow/15_FS_Lore_Engine.md`,
+  `workflow/14_FS_Media_Engine.md`를 다시 대조해,
+  상위 craft entry path와 lore/media boundary는 닫혔지만
+  실제 engine-routing 표에는 외부 reader-response 평론 번역 작업의 primary engine이
+  아직 직접 보이지 않는 drift를 재확인했다.
+- 이 상태에서는 새 heuristic가 상위 문서에는 보이더라도,
+  실제 routing 판단에서 Lore revision gate나 media brief 축으로 오독될 여지가 작게 남아 있었다.
+- conductor local pass에서는
+  `FS_Engine_Mode_Routing.md`의 `Mode Table`에
+  `외부 reader-response 평론 번역 | Story | Lore for boundary only`
+  항목을 추가하고,
+  `Switch to Story Engine` trigger에도
+  외부 reader-response 평론을 reference-only Story Craft heuristic로 번역해야 할 때를 추가했다.
+
+Integrated actions:
+
+- engine-routing reader-response realignment
+- report pair / dispatch log 2026-04-21 ninety-fifth pass 반영
+
+Verification:
+
+- external reader-response critique now routes first to Story as a reference-only craft translation task.
+- Lore remains a boundary/context reviewer rather than revision-gate authority for this heuristic.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 engine-routing delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 reader-response heuristic routing은 Story-first / Lore-boundary-only 기준으로 유지한다.
