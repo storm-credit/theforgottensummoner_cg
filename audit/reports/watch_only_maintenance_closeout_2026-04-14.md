@@ -4249,3 +4249,55 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 operational family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Twenty-Eighth Representative-Subline Continent-Sidecar Realignment Pass
+
+목적:
+
+- ordered cycle 다음 representative subline family인
+  `Section_15_Subline_Register.md`,
+  `Section_15_Subline_Draft_Port_Authority.md`,
+  `Section_15_Subline_Draft_Black_Auction.md`,
+  `Section_15_Subline_Draft_Gravewell.md`,
+  `Section_15_Subline_Draft_Counterfeit_Workshop.md`,
+  `Section_15_Subline_Profile_Port_Entry_Licensor_Line.md`,
+  `Section_15_Subline_Profile_Black_Auction_Appraiser_Line.md`,
+  `Section_15_Subline_Profile_Grave_Inscription_Decoder_Line.md`,
+  `Section_15_Subline_Profile_Signet_Forger_Line.md`
+  가 continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+확인 결과:
+
+- representative subline family는 lower-card authority와
+  `3-1. Policy Guard` 권한선 자체는 유지하고 있었지만,
+  sidecar/scout/display source family를 reading set과 guard line에서 충분히 드러내지 않았다.
+- `Section_15_Subline_Register.md`는
+  subline register 기준의 하위 authority split을 유지하고 있었지만,
+  continent sidecar/scout/display umbrella가 lower watch/reference authority라는 점을 아직 명시하지 않았다.
+- representative subline draft/profile pair들도
+  각 카드의 prose 우선권은 지키고 있었지만,
+  같은 umbrella를 상위 subline reference층에서 명시적으로 고정하지 못하고 있었다.
+
+조치:
+
+- `Section_15_Subline_Register.md`에
+  Frost / Oceanic / Ether / Obelisk sidecar,
+  continent scout family, frost display-reference,
+  closure sync watch 문서를 lower current-state watch/reference authority로 추가했다.
+- representative subline draft 4문서의 reading set에
+  같은 sidecar/scout/display umbrella를 올리고,
+  place/institution owner나 route build queue를 새로 만들지 않는 lower-authority rule을 추가했다.
+- representative subline profile 4문서의 `3-1. Policy Guard`에
+  같은 umbrella가 lower current-state watch/reference authority only이며,
+  상위 layer가 place/institution owner나 candidate build queue를 재정의하지 않는다는 문장을 추가했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- representative subline family도 이제
+  continent sidecar/scout/display umbrella를
+  새 owner 결정축이나 candidate build queue가 아니라
+  닫힌 lower current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 representative subline family는 no-change watch 기준으로 유지하면 된다.

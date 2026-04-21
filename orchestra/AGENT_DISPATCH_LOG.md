@@ -11574,3 +11574,55 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 operational family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Twenty-Eighth Representative-Subline Continent-Sidecar Realignment Pass
+
+목적:
+
+- ordered cycle 다음 representative subline family가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+배치:
+
+- conductor local representative-subline realignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Subline_Register.md`,
+  `Section_15_Subline_Draft_Port_Authority.md`,
+  `Section_15_Subline_Draft_Black_Auction.md`,
+  `Section_15_Subline_Draft_Gravewell.md`,
+  `Section_15_Subline_Draft_Counterfeit_Workshop.md`,
+  `Section_15_Subline_Profile_Port_Entry_Licensor_Line.md`,
+  `Section_15_Subline_Profile_Black_Auction_Appraiser_Line.md`,
+  `Section_15_Subline_Profile_Grave_Inscription_Decoder_Line.md`,
+  `Section_15_Subline_Profile_Signet_Forger_Line.md`
+  를 먼저 스캔했다.
+- `Section_15_Subline_Register.md`에
+  sidecar/scout/display umbrella lower-authority source line과
+  subline-register lower-authority rule을 추가했다.
+- representative subline draft 4문서의 reading set에
+  Frost / Oceanic / Ether / Obelisk sidecar,
+  continent scout family, frost display-reference,
+  closure sync watch 문서를 추가했다.
+- representative subline draft/profile pair에
+  continent sidecar/scout/display umbrella가
+  lower current-state watch/reference authority only이며
+  place/institution owner나 candidate build queue를 새로 만들지 않는다는 guard line을 추가했다.
+
+Integrated actions:
+
+- representative-subline continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-twenty-eighth pass 반영
+
+Verification:
+
+- the representative subline family now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority.
+- the umbrella no longer remains implicit across the representative subline register/draft/profile path.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 representative subline family는 no-change watch 기준으로 유지한다.

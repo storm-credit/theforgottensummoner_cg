@@ -28,6 +28,11 @@
 
 ## Policy Subline Guard
 
+- `Section_15_Frost_Place_Institution_Sidecar.md`, `Section_15_Oceanic_Place_Institution_Sidecar.md`,
+  `Section_15_Ether_Place_Institution_Sidecar.md`, `Section_15_Obelisk_Place_Institution_Sidecar.md`,
+  continent scout family, `Section_15_Frost_Display_Canon_Candidates.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`는
+  subline register가 필요할 때 참조하는 lower current-state watch/reference authority다.
 - 자유도시 subline은 `urban_market / shadow_port / debt-enforcement` 하위 기능 라인으로만 읽고,
   해양 `토착 공동체층` 본체나 부족층 복원 근거로 읽지 않는다.
 - `철의 금융 연맹`, `그림자 첩보망`, `침묵의 상회` 하위 subline은
@@ -45,6 +50,9 @@
 - representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
   닫힌 representative watch-reference pair로 유지하고,
   새 wording-source drift가 생길 때만 해당 pair를 국소 재대조한다.
+- continent sidecar/scout/display wording umbrella도
+  lower current-state watch/reference authority로만 읽고,
+  subline register가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
 
 ## Conductor Rule
 
