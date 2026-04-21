@@ -10605,3 +10605,50 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 frost wording family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Seventh Frost-Core Applied-Action Tense Realignment Pass
+
+목적:
+
+- `Section_15_Frost_Core_Register_Link.md`의
+  `Register Actions Applied` 블록이
+  이미 반영된 register write를 아직 미래형으로 적고 있는지 정렬한다.
+
+배치:
+
+- conductor local frost-core tense scout
+
+Conductor action:
+
+- conductor는 `Section_15_Frost_Core_Register_Link.md`와
+  `FS_Place_Function_Register`,
+  `FS_Decision_Ruling_Register`,
+  `FS_Slot_Maturation_Register`,
+  `FS_Canon_Change_Log`
+  를 다시 대조해,
+  applied-action 블록만 미래형 문장으로 남아 있다는 점을 확인했다.
+- `Section_15_Frost_Core_Register_Link.md`는
+  제목이 `Register Actions Applied`인데도
+  각 항목이 `추가한다 / 붙인다 / 남긴다` 형태로 남아 있어,
+  실제로 이미 반영된 프로스트 direct-link/register write가
+  아직 앞으로 할 작업처럼 읽힐 여지가 있었다.
+- 하지만 실제 register family는 이미 current-state로 닫혀 있으므로,
+  이번 순환에서는 applied-action 4개 항목을
+  `추가해 두었다 / 붙여 두었다 / 남겨 두었다`
+  형태로 고쳐 현재 완료형으로 정렬했다.
+
+Integrated actions:
+
+- frost-core applied-action tense source realignment
+- report pair / dispatch log 2026-04-21 one-hundred-seventh pass 반영
+
+Verification:
+
+- the frost core register link no longer describes already-applied register writes as future work.
+- `Section_15_Frost_Core_Register_Link.md` now reads both its next-step block and applied-action block as current completed state.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 frost-core tense family는 no-change watch 기준으로 유지한다.

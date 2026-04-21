@@ -37,10 +37,10 @@
 
 ## Register Actions Applied
 
-1. `FS_Place_Function_Register`에 프로스트 전용 direct link pass를 추가한다.
-2. `FS_Decision_Ruling_Register`에 프로스트 `place_first` / `dual_anchor_slot` 판정을 추가한다.
-3. `FS_Slot_Maturation_Register`의 프로스트 표에 `Primary Anchor`, `Register Gate`를 붙인다.
-4. `FS_Canon_Change_Log`에 프로스트 슬롯의 `slot_only -> slot_with_display_candidate` 변화 기록을 남긴다.
+1. `FS_Place_Function_Register`에 프로스트 전용 direct link pass를 추가해 두었다.
+2. `FS_Decision_Ruling_Register`에 프로스트 `place_first` / `dual_anchor_slot` 판정을 추가해 두었다.
+3. `FS_Slot_Maturation_Register`의 프로스트 표에 `Primary Anchor`, `Register Gate`를 붙여 두었다.
+4. `FS_Canon_Change_Log`에 프로스트 슬롯의 `slot_only -> slot_with_display_candidate` 변화 기록을 남겨 두었다.
 
 ## Conductor Decision
 
