@@ -3675,3 +3675,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이제 같은 current-state `need_named_candidate / slot_with_display_candidate` 기준으로 닫혀 있다.
 - 이후 새 local drift가 생기기 전까지
   같은 ether reference family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Thirteenth Obelisk-Scout Sidecar-State Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Obelisk_Scout.md`의
+  최종 판정 문장이
+  이미 구축된 obelisk place/institution sidecar 상태보다 뒤처져 있는지 정렬한다.
+
+확인 결과:
+
+- `Section_15_Named_Notables_Obelisk_Scout.md`는
+  active reading set에서 이미
+  `Section_15_Obelisk_Place_Institution_Sidecar.md`를 읽고 있었다.
+- 하지만 마지막 판정에는
+  `다음에 인물 확정보다 장소-기관 슬롯 보강을 먼저 진행한다`
+  는 문장이 남아 있어,
+  sidecar가 아직 future-only 보강 과제처럼 읽힐 여지가 있었다.
+- 실제로는 `Section_15_Obelisk_Place_Institution_Sidecar.md`가 이미
+  오벨리스크의 장소-기관 기능과 P2 place/institution pressure를 보존하고 있으므로,
+  지금은 sidecar 기준을 유지하고 추가 증거가 쌓일 때만 인물 확정을 재검토하는 단계다.
+
+조치:
+
+- `Section_15_Named_Notables_Obelisk_Scout.md`의 최종 판정을
+  `Section_15_Obelisk_Place_Institution_Sidecar.md 기준 장소-기관 슬롯을 먼저 유지하고,
+  추가 증거가 쌓일 때만 인물 확정을 재검토한다`
+  로 고쳤다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- obelisk scout도 이제
+  place/institution sidecar를 future slot-building task가 아니라
+  이미 구축된 current-state 기준선으로 읽게 되었다.
+- 이후 새 local drift가 생기기 전까지
+  같은 obelisk-scout wording family는 no-change watch 기준으로 유지하면 된다.

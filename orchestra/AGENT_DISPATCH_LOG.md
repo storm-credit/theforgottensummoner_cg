@@ -10904,3 +10904,52 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 ether reference family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Thirteenth Obelisk-Scout Sidecar-State Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Obelisk_Scout.md`의
+  최종 판정 문장이
+  이미 구축된 obelisk place/institution sidecar 상태보다 뒤처져 있는지 정렬한다.
+
+배치:
+
+- conductor local obelisk-scout wording scout
+
+Conductor action:
+
+- conductor는 `Section_15_Named_Notables_Obelisk_Scout.md`와
+  `Section_15_Obelisk_Place_Institution_Sidecar.md`
+  를 다시 대조해,
+  obelisk scout의 마지막 판정만 future slot-building wording으로 남아 있다는 점을 확인했다.
+- `Section_15_Named_Notables_Obelisk_Scout.md`는
+  active reading set에서 이미 sidecar를 읽고 있었지만,
+  마지막 판정에는
+  `다음에 인물 확정보다 장소-기관 슬롯 보강을 먼저 진행한다`
+  는 문장이 남아 있어
+  sidecar가 아직 future-only 보강 과제처럼 읽힐 여지가 있었다.
+- 실제로는 `Section_15_Obelisk_Place_Institution_Sidecar.md`가 이미
+  오벨리스크의 장소-기관 기능과 P2 place/institution pressure를 보존하고 있으므로,
+  지금은 sidecar 기준을 유지하고 추가 증거가 쌓일 때만 인물 확정을 재검토하는 단계다.
+- 그래서 이번 순환에서는
+  최종 판정을
+  `Section_15_Obelisk_Place_Institution_Sidecar.md 기준 장소-기관 슬롯을 먼저 유지하고,
+  추가 증거가 쌓일 때만 인물 확정을 재검토한다`
+  로 고쳐 현재형으로 정렬했다.
+
+Integrated actions:
+
+- obelisk-scout sidecar-state source realignment
+- report pair / dispatch log 2026-04-21 one-hundred-thirteenth pass 반영
+
+Verification:
+
+- the obelisk scout no longer leaves its sidecar as future-only slot-building work.
+- `Section_15_Named_Notables_Obelisk_Scout.md` now reads the existing obelisk place/institution sidecar as current state and keeps only evidence-driven person confirmation follow-up.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 obelisk-scout wording family는 no-change watch 기준으로 유지한다.
