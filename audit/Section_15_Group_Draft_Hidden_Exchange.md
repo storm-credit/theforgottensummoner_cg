@@ -95,6 +95,10 @@
   닫힌 subline 교차감사 샘플은 operational sample reference로만 읽고,
   이 group draft의 승인/승격 논리로 직접 역수입하지 않는다.
 
+- continent sidecar/scout/display wording umbrella도
+  lower current-state watch/reference authority로만 읽고,
+  이 group draft가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Relation Hooks
 
 - `세실리아 메르카토르`

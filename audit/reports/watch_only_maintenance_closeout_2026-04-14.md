@@ -4475,3 +4475,34 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 parent profile family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Thirty-Fourth Group-Draft Continent-Sidecar Realignment Pass
+
+목적:
+
+- active `Section_15_Group_Draft_*` family 8문서가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+확인 결과:
+
+- group draft family는 `Policy Group Guard`와
+  downstream profile/subline exact guard wording authority split을 유지하고 있었지만,
+  continent sidecar/scout/display umbrella가 lower authority라는 점을 아직 직접 적지 않았다.
+- 이 층은 parent profile과 subline profile 사이에서 group-level carryover를 요약하므로,
+  umbrella를 owner/build queue로 다시 읽지 않는 안전문이 필요했다.
+
+조치:
+
+- active `Section_15_Group_Draft_*` 8문서의 `Policy Group Guard` 끝에
+  continent sidecar/scout/display umbrella lower-authority rule을 추가했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- group draft family도 이제
+  continent sidecar/scout/display umbrella를
+  새 owner 결정축이나 build queue가 아니라
+  닫힌 lower current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 group draft family는 no-change watch 기준으로 유지하면 된다.

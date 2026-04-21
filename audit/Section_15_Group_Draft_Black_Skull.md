@@ -88,6 +88,10 @@
 - exact operational guard wording authority는 각 연결 profile 카드의 `3-1. Policy Guard`에 남고,
   이 group draft는 그 wording source를 black-skull family 층에서만 요약한다.
 
+- continent sidecar/scout/display wording umbrella도
+  lower current-state watch/reference authority로만 읽고,
+  이 group draft가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Relation Hooks
 
 - `해적 연합`

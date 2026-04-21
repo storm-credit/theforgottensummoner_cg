@@ -11826,3 +11826,41 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 parent profile family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Thirty-Fourth Group-Draft Continent-Sidecar Realignment Pass
+
+목적:
+
+- active `Section_15_Group_Draft_*` family가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+배치:
+
+- conductor local group-draft realignment scout
+
+Conductor action:
+
+- conductor는 active `Section_15_Group_Draft_*` 8문서를 먼저 스캔했다.
+- group draft family는 `Policy Group Guard`와
+  downstream profile/subline exact guard wording authority split을 유지하고 있었지만,
+  continent sidecar/scout/display umbrella lower-authority rule은 아직 명시하지 않았다.
+- active `Section_15_Group_Draft_*` 8문서의 `Policy Group Guard` 끝에
+  같은 umbrella가 lower current-state watch/reference authority only이며
+  place/institution owner나 candidate build queue를 새로 만들지 않는다는 문장을 추가했다.
+
+Integrated actions:
+
+- group-draft continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-thirty-fourth pass 반영
+
+Verification:
+
+- all 8 active group draft documents now explicitly treat the continent sidecar/scout/display umbrella as lower current-state watch/reference authority.
+- the umbrella no longer remains implicit across the group draft carryover path.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 group draft family는 no-change watch 기준으로 유지한다.
