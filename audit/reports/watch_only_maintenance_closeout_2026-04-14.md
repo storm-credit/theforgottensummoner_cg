@@ -3121,3 +3121,41 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   story-to-lore handoff family는 실제 원고/장면에서 나온 신규 설정 packet만 받는 분리선을 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 handoff-boundary family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 Ninety-Ninth Engine-Upgrade Handoff Snapshot Realignment Pass
+
+목적:
+
+- `FS_Engine_Upgrade_Audit.md` 안에 남아 있던
+  `Story-to-Lore Handoff Gate = recommended_next`
+  상태어를 현재 본선 구축 상태에 맞게 정렬한다.
+
+확인 결과:
+
+- `FS_Engine_Upgrade_Audit.md`의 Upgrade E는
+  실제로는 이미 `FS_Story_to_Lore_Handoff_Gate.md`,
+  `FS_Story_to_Lore_Live_Handoff_Queue.md`,
+  `workflow/16_FS_Story_Engine.md`,
+  `workflow/15_FS_Lore_Engine.md`
+  쪽 본선에 연결된 live handoff family인데,
+  문서 내부 snapshot만 예전 `recommended_next` 상태로 남아 있었다.
+- 하단 `Conductor Decision Snapshot`의
+  `후속 엔진 보강축은 Story-to-Lore Handoff Gate다`
+  문장도 gate가 아직 후속 과제로만 남아 있는 것처럼 읽힐 여지가 있었다.
+
+조치:
+
+- `FS_Engine_Upgrade_Audit.md`에서
+  Upgrade E status를 `draft_built`로 올리고,
+  하단 snapshot 문장을
+  `후속 엔진 보강축으로 남아 있던 Story-to-Lore Handoff Gate도 이미 붙였다`
+  로 고쳤다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- engine upgrade audit도 이제
+  Story-to-Lore handoff gate를 `향후 후보`가 아니라
+  이미 구축된 live engine safeguard로 읽게 되었다.
+- 이후 새 local drift가 생기기 전까지
+  같은 upgrade-snapshot family는 no-change watch 기준으로 유지하면 된다.

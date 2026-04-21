@@ -117,7 +117,7 @@ FS 엔진의 뼈대는 이미 충분히 강하다.
 
 상태:
 
-- `recommended_next`
+- `draft_built`
 
 ## Conductor Decision Snapshot
 
@@ -137,5 +137,5 @@ FS 엔진의 뼈대는 이미 충분히 강하다.
 
 그다음 우선이던 `Canon Change Log` 초안도 붙였다.
 
-후속 엔진 보강축은
-`Story-to-Lore Handoff Gate`다.
+후속 엔진 보강축으로 남아 있던
+`Story-to-Lore Handoff Gate`도 이미 붙였다.

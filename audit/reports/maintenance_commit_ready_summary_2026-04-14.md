@@ -198,6 +198,7 @@
 - 2026-04-21 ninety-sixth pass confirmed the engine-routing reader-response path now stays aligned across `FS_Engine_Mode_Routing`, `FS Engine`, `Story Engine`, `Lore Engine`, and the heuristic doc itself; no further source prose patch was needed beyond report/log recording
 - 2026-04-21 ninety-seventh pass confirmed the revision/canon/source/change-log control layer does not absorb the reader-reward heuristic as canon authority; no further source prose patch was needed beyond report/log recording
 - 2026-04-21 ninety-eighth pass confirmed the story-to-lore handoff family still accepts only real manuscript/scene-born setting packets and does not misread the reader-reward heuristic as live lore-intake input; no further source prose patch was needed beyond report/log recording
+- 2026-04-21 ninety-ninth pass updated `FS_Engine_Upgrade_Audit.md` so `Story-to-Lore Handoff Gate` is no longer left in a stale `recommended_next` state and now reflects the already-built live gate snapshot
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
