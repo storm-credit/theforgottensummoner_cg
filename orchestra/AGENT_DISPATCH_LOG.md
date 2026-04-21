@@ -10852,3 +10852,55 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 ether-scout reference family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Twelfth Ether-Reference Family Stability Pass
+
+목적:
+
+- 방금 정렬한 ether reference family가
+  `Section_15_Named_Notables_Ether_Scout.md`,
+  `Section_15_Ether_Place_Institution_Sidecar.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`
+  사이에서 같은 현재형으로 유지되는지 다시 닫는다.
+
+배치:
+
+- conductor local ether-reference stability scout
+
+Conductor action:
+
+- conductor는 `Section_15_Named_Notables_Ether_Scout.md`,
+  `Section_15_Ether_Place_Institution_Sidecar.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`
+  를 다시 대조해,
+  방금 정렬한 current-state reference 폭이 세 문서에서 같은 방향으로 유지되는지 확인했다.
+- `Section_15_Named_Notables_Ether_Scout.md`는
+  active reading set에서 ether sidecar와 operational display-reference 문서를 함께 읽고 있었고,
+  결론부도 역할 슬롯을
+  `Section_15_Ether_Place_Institution_Sidecar.md` 기준
+  `need_named_candidate / slot_with_display_candidate`로 읽게 유지하고 있었다.
+- `Section_15_Ether_Place_Institution_Sidecar.md`는
+  같은 role-slot family를 이미 `slot_with_display_candidate` 상태로 보유하고 있었고,
+  `Section_15_Operational_Display_Canon_Candidates.md`도
+  ether preferred candidate reference pass를 현재형으로 유지하고 있었다.
+- `Section_15_Ether_Place_Institution_Sidecar.md`의
+  `Historical Polish Trail` 안에 남은 `검토` 표현은
+  과거 polish trace로 보존되는 문맥이라 live source drift로 보지 않았다.
+- 따라서 이번 순환에서는
+  ether reference family에서 추가 source prose drift가 발견되지 않았다.
+
+Integrated actions:
+
+- ether reference family no-change stability confirmation
+- report pair / dispatch log 2026-04-21 one-hundred-twelfth pass 반영
+
+Verification:
+
+- no additional live drift was found across the ether reference family at this checkpoint.
+- ether scout, ether sidecar, and operational display-reference docs now hold the same current-state `need_named_candidate / slot_with_display_candidate` reading.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 ether reference family는 no-change watch 기준으로 유지한다.

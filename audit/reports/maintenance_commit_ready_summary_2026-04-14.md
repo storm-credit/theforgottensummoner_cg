@@ -211,6 +211,7 @@
 - 2026-04-21 one-hundred-ninth pass updated `Section_15_Named_Notables_Oceanic_Scout.md` so its tone-risk and sidecar carryover lines now read the existing oceanic display-reference and slot-first watch state as current rather than future review work
 - 2026-04-21 one-hundred-tenth pass confirmed the oceanic wording family now stays aligned across `Section_15_Oceanic_Place_Institution_Sidecar.md` and `Section_15_Named_Notables_Oceanic_Scout.md`; no further source prose patch was needed beyond report/log recording
 - 2026-04-21 one-hundred-eleventh pass updated `Section_15_Named_Notables_Ether_Scout.md` so its active reading set and conductor conclusion now include the already-built ether place/institution sidecar and display-reference layer
+- 2026-04-21 one-hundred-twelfth pass confirmed the ether reference family now stays aligned across `Section_15_Named_Notables_Ether_Scout.md`, `Section_15_Ether_Place_Institution_Sidecar.md`, and `Section_15_Operational_Display_Canon_Candidates.md`; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

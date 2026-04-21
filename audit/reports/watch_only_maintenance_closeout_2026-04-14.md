@@ -3635,3 +3635,43 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이미 구축된 ether sidecar/display-reference layer를 현재 기준선으로 읽게 되었다.
 - 이후 새 local drift가 생기기 전까지
   같은 ether-scout reference family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Twelfth Ether-Reference Family Stability Pass
+
+목적:
+
+- 방금 정렬한 ether reference family가
+  `Section_15_Named_Notables_Ether_Scout.md`,
+  `Section_15_Ether_Place_Institution_Sidecar.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`
+  사이에서 같은 현재형으로 유지되는지 다시 닫는다.
+
+확인 결과:
+
+- `Section_15_Named_Notables_Ether_Scout.md`는
+  active reading set에서 ether sidecar와 operational display-reference 문서를 함께 읽고 있었다.
+- 결론부도 역할 슬롯을
+  `Section_15_Ether_Place_Institution_Sidecar.md` 기준
+  `need_named_candidate / slot_with_display_candidate`로 읽게 유지하고 있었다.
+- `Section_15_Ether_Place_Institution_Sidecar.md`는
+  같은 role-slot family를 이미 `slot_with_display_candidate` 상태로 보유하고 있었고,
+  `Section_15_Operational_Display_Canon_Candidates.md`도
+  ether preferred candidate reference pass를 현재형으로 유지하고 있었다.
+- `Section_15_Ether_Place_Institution_Sidecar.md`의
+  `Historical Polish Trail` 안에 남은 `검토` 표현은
+  과거 polish trace로 보존되는 문맥이라 live source drift로 보지 않았다.
+- 따라서 이번에는 ether reference family에서
+  추가 source prose drift가 보이지 않았다.
+
+조치:
+
+- source prose patch 없이
+  ether reference family no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- ether scout / sidecar / display-reference 묶음은
+  이제 같은 current-state `need_named_candidate / slot_with_display_candidate` 기준으로 닫혀 있다.
+- 이후 새 local drift가 생기기 전까지
+  같은 ether reference family는 no-change watch 기준으로 유지하면 된다.
