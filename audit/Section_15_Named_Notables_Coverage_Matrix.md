@@ -11,6 +11,16 @@ coverage matrix reading은
 `Section_15_Index_Draft.md`,
 `Section_15_Named_Notables_Anchor_Map.md`,
 `Section_8_to_15_Notable_Anchor_Bridge.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+`Section_15_Named_Notables_Frost_Scout.md`,
+`Section_15_Named_Notables_Oceanic_Scout.md`,
+`Section_15_Named_Notables_Ether_Scout.md`,
+`Section_15_Named_Notables_Obelisk_Scout.md`,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
@@ -70,6 +80,10 @@ People Worth Seeking coverage 판단은 그 closure 상태를 참조만 한다.
 - `오벨리스크`와 `해양`은 이미 핵심 narrowing이 닫혀 있고, `에테르`도 auxiliary closure sync가 끝났다.
 - `프로스트`도 `아이스포지 병기소 장인`까지 같은 결로 닫혀 unnamed slot 6개 closure가 한 번 완료됐다.
 - 이제 추가 slot narrowing보다 5대륙 closure 상태를 같은 문구로 재확인하고 현재 ROI를 유지하는 편이 우선이다.
+- continent sidecar/scout/display wording umbrella도
+  Frost / Oceanic / Ether / Obelisk family 모두
+  current-state watch/reference closure로 읽고,
+  새 후보 발굴 근거로 쓰지 않는다.
 
 ## Profile Carryover Snapshot
 

@@ -3931,3 +3931,46 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 current-state watch/reference authority로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 Section 8 sync gate family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Twentieth Section-15 Summary Continent-Sidecar Reference Realignment Pass
+
+목적:
+
+- Section 15 summary gate가
+  직전 Section 8 sync gate와 같은 기준으로
+  continent sidecar/scout/display umbrella를
+  current-state watch/reference closure로 읽는지 확인한다.
+
+확인 결과:
+
+- `Section_15_Named_Notables_Status_Compass.md`는
+  closure sync / watch-reference 본선은 유지했지만,
+  sidecar/scout/display source family와 umbrella closure를 명시적으로 읽지 않았다.
+- `Section_15_Five_Continent_Closure_Table.md`는
+  해양/오벨리스크/프로스트 slot narrowing을 watch-reference로 읽고 있었지만,
+  continent sidecar/scout/display umbrella 자체는 ordered snapshot에 올라와 있지 않았다.
+- `Section_15_Named_Notables_Coverage_Matrix.md`는
+  Ether sidecar를 읽는 문장을 이미 갖고 있었지만,
+  Frost / Oceanic / Ether / Obelisk umbrella 전체를 summary gate source family로 드러내지 않았다.
+
+조치:
+
+- 세 summary 문서의 reading set에
+  Frost / Oceanic / Ether / Obelisk sidecar, scout, frost display-reference,
+  closure sync watch 문서를 추가했다.
+- `Section_15_Named_Notables_Status_Compass.md`의 orchestrated move snapshot에
+  continent sidecar/scout/display umbrella를
+  current-state watch/reference closure로만 읽는 규칙을 추가했다.
+- `Section_15_Five_Continent_Closure_Table.md`의 ordered snapshot과 reading snapshot에
+  같은 umbrella closure를 추가했다.
+- `Section_15_Named_Notables_Coverage_Matrix.md`의 watch priority snapshot에
+  같은 umbrella closure와 새 후보 발굴 금지선을 추가했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- Section 15 summary gate도 이제
+  continent sidecar/scout/display umbrella를
+  새 후보 발굴 근거가 아니라 닫힌 current-state watch/reference closure로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 Section 15 summary gate family는 no-change watch 기준으로 유지하면 된다.

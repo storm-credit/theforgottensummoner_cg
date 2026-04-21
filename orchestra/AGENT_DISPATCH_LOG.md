@@ -11215,3 +11215,48 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 Section 8 sync gate family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Twentieth Section-15 Summary Continent-Sidecar Reference Realignment Pass
+
+목적:
+
+- Section 15 summary gate가
+  직전 Section 8 sync gate와 같은 기준으로
+  continent sidecar/scout/display umbrella를
+  current-state watch/reference closure로 읽는지 확인한다.
+
+배치:
+
+- conductor local Section-15 summary-gate realignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Five_Continent_Closure_Table.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`를 스캔했다.
+- `Section_15_Named_Notables_Status_Compass.md`에는
+  sidecar/scout/display source family와
+  current-state watch/reference closure rule을 추가했다.
+- `Section_15_Five_Continent_Closure_Table.md`에는
+  sidecar/scout/display source family,
+  ordered snapshot line,
+  reading snapshot closure line을 추가했다.
+- `Section_15_Named_Notables_Coverage_Matrix.md`에는
+  sidecar/scout/display source family와
+  current-state watch/reference closure 및 새 후보 발굴 금지선을 추가했다.
+
+Integrated actions:
+
+- Section 15 summary-gate continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-twentieth pass 반영
+
+Verification:
+
+- the Section 15 summary gate now explicitly reads the closed continent sidecar/scout/display umbrella.
+- the umbrella remains current-state watch/reference closure, not a reopened candidate-discovery path.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 Section 15 summary gate family는 no-change watch 기준으로 유지한다.

@@ -16,6 +16,16 @@ compass reading은
 `Section_15_Named_Notables_Coverage_Matrix.md`,
 `Section_15_Named_Notables_Name_Collision_Register.md`,
 `Section_15_Index_Draft.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+`Section_15_Named_Notables_Frost_Scout.md`,
+`Section_15_Named_Notables_Oceanic_Scout.md`,
+`Section_15_Named_Notables_Ether_Scout.md`,
+`Section_15_Named_Notables_Obelisk_Scout.md`,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
@@ -91,6 +101,10 @@ hold-only snapshot:
 1. `stable_triad_frozen_reference_set`을 닫힌 상태로 유지한다.
 2. `stable_triad_frozen_reference_set` 밖 hold reference split과 Ether hold cluster를 closure 상태로 유지한다.
 3. `Section 8 -> 15 watch-reference`가 summary / bridge / queue 문서에서 같은 authority 분리 문장으로 읽히게 유지한다.
+4. continent sidecar/scout/display wording umbrella는
+   Frost / Oceanic / Ether / Obelisk family 모두
+   current-state watch/reference closure로만 읽고,
+   새 이름 발굴이나 future-only build task로 열지 않는다.
 
 ## Profile Alignment Snapshot
 
