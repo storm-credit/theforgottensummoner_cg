@@ -221,6 +221,7 @@
 - 2026-04-22 one-hundred-nineteenth pass confirmed the Section 8 sync gate stays aligned after the continent-sidecar umbrella realignment; no further source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-twentieth pass updated `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, and `Section_15_Named_Notables_Coverage_Matrix.md` so the Section 15 summary gate now explicitly reads the closed continent sidecar/scout/display umbrella as current-state watch/reference closure
 - 2026-04-22 one-hundred-twenty-first pass confirmed the Section 15 summary gate stays aligned after the continent-sidecar umbrella realignment; no further source prose patch was needed beyond report/log recording
+- 2026-04-22 one-hundred-twenty-second pass updated `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, and `Section_15_Stable_Candidate_8_Anchor_Index.md` so the bridge/compatibility/stable-index carryover gate now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

@@ -4011,3 +4011,49 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 current-state watch/reference closure로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 Section 15 summary gate family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Twenty-Second Bridge-Carryover Continent-Sidecar Realignment Pass
+
+목적:
+
+- ordered cycle 다음 묶음인
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`
+  가 continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+확인 결과:
+
+- `Section_8_to_15_Notable_Anchor_Bridge.md`는
+  sidecar/register handoff rule은 유지했지만,
+  sidecar/scout/display source family와 umbrella closure를 입력/guard 층에서 충분히 선언하지 않았다.
+- `Section_8_15_Spine_Compatibility_Audit.md`는
+  `P2 place-pressure handoff owner`와 watch-reference mainline은 유지했지만,
+  continent sidecar/scout/display umbrella를 lower authority로만 읽는 규칙을 아직 명시하지 않았다.
+- `Section_15_Stable_Candidate_8_Anchor_Index.md`는
+  stable/hold route/reference 분리는 유지했지만,
+  sidecar/scout/display source family와 umbrella lower-authority rule을 입력/guard 층에 아직 올리지 않았다.
+
+조치:
+
+- 세 문서의 input에
+  Frost / Oceanic / Ether / Obelisk sidecar,
+  scout, frost display-reference, closure sync watch 문서를 추가했다.
+- `Section_8_to_15_Notable_Anchor_Bridge.md`의 bridge guard와 decision snapshot에
+  continent sidecar/scout/display umbrella를
+  lower watch/reference authority로만 읽는 규칙을 추가했다.
+- `Section_8_15_Spine_Compatibility_Audit.md`의 carryover rule과 reference watch snapshot에
+  같은 umbrella lower-authority 규칙을 추가했다.
+- `Section_15_Stable_Candidate_8_Anchor_Index.md`의 guard rules와 routing consequence에
+  같은 umbrella lower-authority 규칙을 추가했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- bridge / compatibility / stable-index carryover gate도 이제
+  continent sidecar/scout/display umbrella를
+  stable/hold 판정을 덮어쓰는 상위 축이 아니라
+  닫힌 lower current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 carryover gate family는 no-change watch 기준으로 유지하면 된다.

@@ -17,6 +17,16 @@
 - `audit/Section_15_Named_Notables_Register.md`
 - `audit/Section_15_Named_Notables_Coverage_Matrix.md`
 - `audit/Section_15_Subline_Register.md`
+- `audit/Section_15_Frost_Place_Institution_Sidecar.md`
+- `audit/Section_15_Oceanic_Place_Institution_Sidecar.md`
+- `audit/Section_15_Ether_Place_Institution_Sidecar.md`
+- `audit/Section_15_Obelisk_Place_Institution_Sidecar.md`
+- `audit/Section_15_Named_Notables_Frost_Scout.md`
+- `audit/Section_15_Named_Notables_Oceanic_Scout.md`
+- `audit/Section_15_Named_Notables_Ether_Scout.md`
+- `audit/Section_15_Named_Notables_Obelisk_Scout.md`
+- `audit/Section_15_Frost_Display_Canon_Candidates.md`
+- `audit/Section_8_15_Closure_Sync_Carryover_Watch.md`
 
 ## Stable / Hold Index
 
@@ -60,6 +70,10 @@
 11. representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
     닫힌 subline 교차감사 샘플로 유지하고,
     stable candidate 색인은 그 closure 상태를 stable/hold routing 층에서만 참조한다.
+12. continent sidecar/scout/display wording umbrella는
+    Frost / Oceanic / Ether / Obelisk family 모두
+    current-state watch/reference closure로만 읽고,
+    stable / hold index가 route/reference 범위를 넘겨 candidate owner를 가져오지 않는다.
 
 ## Routing Consequence
 
@@ -71,6 +85,8 @@ stable_triad_frozen_reference_set를 유지하는 단계이며,
 이미 잠근 `Section 8` 앵커와
 `stable_triad_frozen_reference_set / source_check_hold / hold reference split / deferred_expansion_hold / hold reference split`
 상태어를 closure sync / watch-reference 기준으로 유지하는 것이다.
+continent sidecar/scout/display wording umbrella도
+lower watch/reference authority로만 읽는다.
 
 ## Conductor Decision
 
