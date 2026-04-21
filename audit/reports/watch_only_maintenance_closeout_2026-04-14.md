@@ -3248,3 +3248,48 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이제 같은 현재형 engine 폭으로 닫혀 있다.
 - 이후 새 local drift가 생기기 전까지
   같은 upper-engine snapshot family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Second Lore-Gap Upgrade Snapshot Completion Pass
+
+목적:
+
+- `FS_Lore_Engine_Gap_Audit.md`의
+  `New Upgrade Pass`와 `Build Status`가
+  현재 실제 구축 상태보다 좁게 남아 있는 것을 정렬한다.
+
+확인 결과:
+
+- `FS_Lore_Engine_Gap_Audit.md`는
+  `New Upgrade Pass`에서 여전히
+  `Decision / Ruling Register`,
+  `Cross-Chronicle Firewall`,
+  `Slot Maturation Register`
+  3개까지만 적고 있었다.
+- 하지만 실제 lore/engine family는
+  `FS_Canon_Change_Log.md`와
+  `FS_Story_to_Lore_Handoff_Gate.md`까지 이미 본선에 붙어 있고,
+  바로 앞선 `FS_Engine_Upgrade_Audit.md`와 `workflow/11_FS_Engine.md`도
+  그 현재형 snapshot으로 정렬된 상태였다.
+- `Build Status` 역시
+  Priority A/B/C까지만 열린 것처럼 읽히고 있어서,
+  canon-shift와 story-born lore-intake safeguard가 이미 구축됐다는 현재 상태를 충분히 드러내지 못하고 있었다.
+
+조치:
+
+- `FS_Lore_Engine_Gap_Audit.md`의
+  `New Upgrade Pass`를 5개 목록으로 넓혀
+  `Canon Change Log`, `Story-to-Lore Handoff Gate`를 추가했다.
+- 이유 섹션에도
+  canon-shift 추적과 story-born lore intake filtering 필요성을 보강했다.
+- `Build Status`는
+  Priority A through E가 모두 registered module로 올라와 있다는 현재형으로 고쳤다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- lore-side gap audit도 이제
+  현재 구축된 upgrade family를 같은 폭으로 보여 주게 되었고,
+  `lore gap audit -> engine upgrade audit -> FS Engine entry`
+  해석선이 다시 맞춰졌다.
+- 이후 새 local drift가 생기기 전까지
+  같은 lore-gap snapshot family는 no-change watch 기준으로 유지하면 된다.

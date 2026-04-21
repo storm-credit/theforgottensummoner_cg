@@ -197,11 +197,13 @@ Status: `built`
 ## New Upgrade Pass
 
 장부가 충분히 생긴 뒤,
-다음 단계에서 정말 필요한 업그레이드는 아래 3개로 압축된다.
+다음 단계에서 정말 필요한 업그레이드는 아래 5개로 압축된다.
 
 1. `FS_Decision_Ruling_Register.md`
 2. `FS_Cross_Chronicle_Firewall.md`
 3. `FS_Slot_Maturation_Register.md`
+4. `FS_Canon_Change_Log.md`
+5. `FS_Story_to_Lore_Handoff_Gate.md`
 
 이유:
 
@@ -209,13 +211,17 @@ Status: `built`
 - 아스트라리스는 `다른 크로니클과의 경계`를 유지해야 한다.
 - `need_named_candidate` 슬롯이 많아지면서
   이름 없는 구조가 실제 People Worth Seeking 후보로 자라는 과정을 추적할 장부가 필요해졌다.
+- 상태 이동과 정본 판정의 근거를
+  `Canon Change Log`로 남길 수 있어야 추후 되짚기가 가능하다.
+- Story Engine에서 나온 신규 설정을
+  Lore 정본 층으로 보내기 전 `Story-to-Lore Handoff Gate`로 다시 걸러야 한다.
 
 ## Build Status
 
-Priority A and B are represented as registered modules.
+Priority A through E are now represented as registered modules.
 
-Priority C has also been opened as registered modules so that
-large-scale continent, item, city, and rumor work can proceed
+이제 large-scale continent, item, city, rumor, canon-shift, and
+story-born lore intake work can proceed
 without waiting for a later refactor.
 
 ## Conductor Note
