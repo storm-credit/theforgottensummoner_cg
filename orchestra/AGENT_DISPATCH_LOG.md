@@ -10025,3 +10025,54 @@ Follow-up actions:
 
 - 이 engine-routing delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 reader-response heuristic routing은 Story-first / Lore-boundary-only 기준으로 유지한다.
+
+## 2026-04-21 KST - Ninety-Sixth Engine-Routing Reader-Response Stability Pass
+
+목적:
+
+- `FS_Engine_Mode_Routing.md`에 추가한
+  `외부 reader-response 평론 번역 = Story-first / Lore-boundary-only`
+  라인이 실제 engine family와 같은 방향으로 유지되는지 다시 닫는다.
+
+배치:
+
+- conductor local engine-routing stability scout
+
+Conductor action:
+
+- conductor는 `FS_Engine_Mode_Routing.md`,
+  `workflow/11_FS_Engine.md`,
+  `workflow/16_FS_Story_Engine.md`,
+  `workflow/15_FS_Lore_Engine.md`,
+  `audit/FS_Reader_Reward_Reference_Heuristic.md`
+  를 다시 대조해,
+  reader-response translation route가 routing / engine / heuristic 층에서 같은 선으로 유지되는지 확인했다.
+- `FS_Engine_Mode_Routing.md`는
+  mode table과 Story switch trigger 양쪽에서
+  외부 reader-response 평론 번역을 Story-first 작업으로 유지하고 있었다.
+- `workflow/11_FS_Engine.md`와 `workflow/16_FS_Story_Engine.md`도
+  같은 작업을 `FS_Reader_Reward_Reference_Heuristic.md`를 통한
+  reference-only Story Craft translation route로 읽게 유지하고 있었다.
+- `workflow/15_FS_Lore_Engine.md`는
+  여전히 설정집 구성, 라우팅, 정본 게이트, source/state 판단을 담당하는 주 엔진으로만 읽혔고,
+  reader-response heuristic를 revision-gate authority로 흡수하지 않았다.
+- `FS_Reader_Reward_Reference_Heuristic.md` 자체도
+  채점표나 정본 선언 게이트가 아니라 Story Craft 보조 점검축이라는 self-definition을 유지하고 있었다.
+- 따라서 이번 순환에서는
+  engine-routing reader-response path에서 추가 source prose drift가 발견되지 않았다.
+
+Integrated actions:
+
+- engine-routing reader-response no-change stability confirmation
+- report pair / dispatch log 2026-04-21 ninety-sixth pass 반영
+
+Verification:
+
+- no additional live drift was found across the engine-routing reader-response path at this checkpoint.
+- external reader-response critique remains Story-first / Lore-boundary-only and does not become a scorecard or revision-gate authority.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 engine-routing reader-response family는 no-change watch 기준으로 유지한다.

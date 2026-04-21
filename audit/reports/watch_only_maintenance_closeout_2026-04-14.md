@@ -3001,3 +3001,41 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   Lore Engine은 정본/라우팅 경계를 확인하는 보조 역할에만 머문다.
 - 새 heuristic는 계속 채점표나 revision-gate authority가 아니라
   Story Craft reference-only 축으로 유지된다.
+
+## 2026-04-21 Ninety-Sixth Engine-Routing Reader-Response Stability Pass
+
+목적:
+
+- `FS_Engine_Mode_Routing.md`에 추가한
+  `외부 reader-response 평론 번역 = Story-first / Lore-boundary-only`
+  라인이 실제 engine family와 같은 방향으로 유지되는지 다시 닫는다.
+
+확인 결과:
+
+- `FS_Engine_Mode_Routing.md`는
+  mode table과 Story switch trigger 양쪽에서
+  외부 reader-response 평론 번역을 Story-first 작업으로 유지하고 있었다.
+- `workflow/11_FS_Engine.md`와 `workflow/16_FS_Story_Engine.md`도
+  같은 작업을 `FS_Reader_Reward_Reference_Heuristic.md`를 통한
+  reference-only Story Craft translation route로 읽게 유지하고 있었다.
+- `workflow/15_FS_Lore_Engine.md`는
+  여전히 설정집 구성, 라우팅, 정본 게이트, source/state 판단을 담당하는 주 엔진으로만 읽혔고,
+  reader-response heuristic를 revision-gate authority로 흡수하지 않았다.
+- `FS_Reader_Reward_Reference_Heuristic.md` 자체도
+  채점표나 정본 선언 게이트가 아니라 Story Craft 보조 점검축이라는 self-definition을 유지하고 있었다.
+- 따라서 이번에는 engine-routing reader-response path에서
+  추가 source prose drift가 보이지 않았다.
+
+조치:
+
+- source prose patch 없이
+  engine-routing reader-response no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 외부 reader-response critique는
+  routing / engine / heuristic 층 모두에서
+  `Story-first craft translation`, `Lore-boundary-only context`로 닫혀 있다.
+- 이후 새 local drift가 생기기 전까지
+  같은 routing family는 no-change watch 기준으로 유지하면 된다.
