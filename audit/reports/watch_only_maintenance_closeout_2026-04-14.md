@@ -3485,3 +3485,44 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이미 반영된 현재 상태로 읽히게 되었다.
 - 이후 새 local drift가 생기기 전까지
   같은 frost-core tense family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Eighth Oceanic-Sidecar Display-State Realignment Pass
+
+목적:
+
+- `Section_15_Oceanic_Place_Institution_Sidecar.md`의
+  naming/tone guard와 하단 carryover가
+  이미 반영된 oceanic display-reference 상태보다 뒤처져 있는지 정렬한다.
+
+확인 결과:
+
+- `Section_15_Oceanic_Place_Institution_Sidecar.md`는
+  이미 `Display Candidate Pass`를 통해
+  `신탁 방주`, `파도 신탁장`, `해로 장부관`, `흑조 감정관`, `심연 장부관`
+  같은 표면명 reference를 현재형으로 갖고 있었다.
+- 하지만 `Naming and Tone Guard`에는
+  `나중에 ... 계열로 검토한다`
+  는 문장이 남아 있어,
+  oceanic display-reference layer가 아직 future review 단계인 것처럼 읽힐 여지가 있었다.
+- 하단 `Conductor Note`의
+  `나중에 각 슬롯에 실제 named candidate를 붙인다`
+  문장도, 지금은 slot-first / evidence-first로 watch하는 단계라는 현재 상태보다
+  조금 느슨한 future-only 표현으로 남아 있었다.
+
+조치:
+
+- `Naming and Tone Guard`의 3개 문장을
+  `표면명 reference는 현재 ... 계열로 읽는다`
+  형태로 고쳐 현재형 display state로 정렬했다.
+- 하단 carryover 문장도
+  `실제 원고/anchor 증거가 더 쌓일 때만`
+  각 슬롯에 named candidate를 붙이는 기준으로 고쳤다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- oceanic sidecar도 이제
+  이미 구축된 display-reference layer를
+  future review가 아니라 현재 기준선으로 읽게 되었다.
+- 이후 새 local drift가 생기기 전까지
+  같은 oceanic-sidecar wording family는 no-change watch 기준으로 유지하면 된다.

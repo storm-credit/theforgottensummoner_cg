@@ -10652,3 +10652,57 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 frost-core tense family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Eighth Oceanic-Sidecar Display-State Realignment Pass
+
+목적:
+
+- `Section_15_Oceanic_Place_Institution_Sidecar.md`의
+  naming/tone guard와 하단 carryover가
+  이미 반영된 oceanic display-reference 상태보다 뒤처져 있는지 정렬한다.
+
+배치:
+
+- conductor local oceanic-sidecar wording scout
+
+Conductor action:
+
+- conductor는 `Section_15_Oceanic_Place_Institution_Sidecar.md`와
+  `Section_15_Operational_Display_Canon_Candidates.md`
+  를 다시 대조해,
+  oceanic sidecar의 표면명 reference layer는 이미 구축되어 있는데
+  일부 문장만 future review 표현으로 남아 있다는 점을 확인했다.
+- `Section_15_Oceanic_Place_Institution_Sidecar.md`는
+  `Display Candidate Pass`를 통해
+  `신탁 방주`, `파도 신탁장`, `해로 장부관`, `흑조 감정관`, `심연 장부관`
+  같은 표면명 reference를 현재형으로 갖고 있었지만,
+  `Naming and Tone Guard`에는
+  `나중에 ... 계열로 검토한다`
+  는 문장이 남아 있어
+  oceanic display-reference layer가 아직 future review 단계인 것처럼 읽힐 여지가 있었다.
+- 하단 `Conductor Note`의
+  `나중에 각 슬롯에 실제 named candidate를 붙인다`
+  문장도,
+  지금은 slot-first / evidence-first로 watch하는 단계라는 현재 상태보다
+  조금 느슨한 future-only 표현으로 남아 있었다.
+- 그래서 이번 순환에서는
+  naming/tone guard 3개 문장을 현재형 display-reference 문장으로 고치고,
+  하단 carryover도
+  `실제 원고/anchor 증거가 더 쌓일 때만`
+  named candidate를 붙이는 기준으로 정렬했다.
+
+Integrated actions:
+
+- oceanic-sidecar display-state source realignment
+- report pair / dispatch log 2026-04-21 one-hundred-eighth pass 반영
+
+Verification:
+
+- the oceanic sidecar no longer describes its display-reference layer as future review work.
+- `Section_15_Oceanic_Place_Institution_Sidecar.md` now reads both naming/tone guard and named-candidate carryover as current slot-first watch state.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 oceanic-sidecar wording family는 no-change watch 기준으로 유지한다.

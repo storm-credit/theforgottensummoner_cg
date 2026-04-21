@@ -207,6 +207,7 @@
 - 2026-04-21 one-hundred-fifth pass updated `Section_15_Frost_Display_Canon_Candidates.md` so its reference carryover no longer leaves the frost place/register link as a future task and now reads the existing core-link route as watch-only current state
 - 2026-04-21 one-hundred-sixth pass confirmed the frost wording family now stays aligned across `Section_15_Frost_Core_Register_Link.md`, `Section_8_Frost_Notable_Anchor_Audit.md`, and `Section_15_Frost_Display_Canon_Candidates.md`; no further source prose patch was needed beyond report/log recording
 - 2026-04-21 one-hundred-seventh pass updated `Section_15_Frost_Core_Register_Link.md` so its `Register Actions Applied` block no longer describes already-applied register writes in future tense and now reads as current completed state
+- 2026-04-21 one-hundred-eighth pass updated `Section_15_Oceanic_Place_Institution_Sidecar.md` so its naming/tone guard and conductor carryover now read the already-built oceanic display-reference layer as current state rather than future review work
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
