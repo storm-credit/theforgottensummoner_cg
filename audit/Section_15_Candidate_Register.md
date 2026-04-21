@@ -10,6 +10,13 @@ intake active 판단은
 `Section_15_Subline_Register.md`,
 `Section_15_Named_Notables_Register.md`,
 `Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+continent scout family,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
@@ -79,6 +86,14 @@ candidate snapshot과 reference action을 남기는 register다.
 - reference상 가장 중요한 건 `14번` 바깥에 뜬 사람을 다시 인간 관계망에 묶는 것
 - 그다음은 `국제 길드 연합`, `대륙 무역 연맹`, `그림자 첩보망`, `철의 금융 연맹`처럼
   반복 등장하는 범대륙 조직에 인간 얼굴을 붙이는 것
+
+## Reference Authority Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 candidate register가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+- 실제 profile guard wording authority는 downstream `Section_15_Profile_*` 또는
+  `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
 
 ## Recorded Intake Shift
 

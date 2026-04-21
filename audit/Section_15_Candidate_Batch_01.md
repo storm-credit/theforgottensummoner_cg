@@ -6,6 +6,13 @@
 candidate active 판단은
 `Section_15_Candidate_Register.md`,
 `Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+continent scout family,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
@@ -91,6 +98,14 @@ candidate active 판단은
 1. `이리나 폰 루즈`
 2. `칼리크 디트리히`
 3. 정보망 / 금융망 / 네크로 통신망의 중간 관리자 계열
+
+## Reference Authority Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 candidate batch가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+- 실제 profile guard wording authority는 downstream `Section_15_Profile_*` 또는
+  `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
 
 ## Conductor Note
 

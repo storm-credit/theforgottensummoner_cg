@@ -4536,3 +4536,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 group draft family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Thirty-Sixth Candidate-Intake Continent-Sidecar Realignment Pass
+
+목적:
+
+- candidate/intake family인
+  `Section_15_Candidate_Register.md`,
+  `Section_15_Candidate_Batch_01.md`,
+  `Section_15_Intake_Priority.md`,
+  `Section_15_Intake_Cards_Tier1.md`
+  가 continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+확인 결과:
+
+- candidate/intake family는 candidate snapshot과 intake priority 역할은 잘 유지하고 있었지만,
+  sidecar/scout/display source family를 reading set에 충분히 올리지 않았다.
+- 후보층 문서들이 `ready_for_15`, `collect_into_15`, `collect_selectively` 판단을 담고 있어서,
+  umbrella가 새 owner/build queue로 오독되지 않도록 reference authority guard가 필요했다.
+
+조치:
+
+- 4문서 reading set에
+  Frost / Oceanic / Ether / Obelisk sidecar,
+  continent scout family, frost display-reference,
+  closure sync watch 문서를 추가했다.
+- 4문서에 `Reference Authority Guard`를 추가해
+  continent sidecar/scout/display umbrella를 lower current-state watch/reference authority only로 읽고,
+  candidate/intake layer가 place/institution owner나 candidate build queue를 새로 만들지 않는다고 고정했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- candidate/intake family도 이제
+  continent sidecar/scout/display umbrella를
+  새 owner 결정축이나 build queue가 아니라
+  닫힌 lower current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 candidate/intake family는 no-change watch 기준으로 유지하면 된다.

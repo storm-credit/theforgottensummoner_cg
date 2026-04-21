@@ -235,6 +235,7 @@
 - 2026-04-22 one-hundred-thirty-third pass confirmed the parent profile family stays aligned after the continent-sidecar umbrella realignment; no further source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-thirty-fourth pass updated 8 active `Section_15_Group_Draft_*` documents so the group draft family now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority
 - 2026-04-22 one-hundred-thirty-fifth pass confirmed the group draft family stays aligned after the continent-sidecar umbrella realignment; no further source prose patch was needed beyond report/log recording
+- 2026-04-22 one-hundred-thirty-sixth pass updated `Section_15_Candidate_Register.md`, `Section_15_Candidate_Batch_01.md`, `Section_15_Intake_Priority.md`, and `Section_15_Intake_Cards_Tier1.md` so the candidate/intake family now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

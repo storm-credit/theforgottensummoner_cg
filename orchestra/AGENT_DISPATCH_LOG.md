@@ -11901,3 +11901,48 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 group draft family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Thirty-Sixth Candidate-Intake Continent-Sidecar Realignment Pass
+
+목적:
+
+- candidate/intake family가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+배치:
+
+- conductor local candidate-intake realignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Candidate_Register.md`,
+  `Section_15_Candidate_Batch_01.md`,
+  `Section_15_Intake_Priority.md`,
+  `Section_15_Intake_Cards_Tier1.md`
+  를 먼저 스캔했다.
+- candidate/intake family는 candidate snapshot과 intake priority 역할은 유지하고 있었지만,
+  sidecar/scout/display source family를 reading set에 충분히 올리지 않았다.
+- 4문서 reading set에
+  Frost / Oceanic / Ether / Obelisk sidecar,
+  continent scout family, frost display-reference,
+  closure sync watch 문서를 추가했다.
+- 4문서에 `Reference Authority Guard`를 추가해
+  continent sidecar/scout/display umbrella를 lower current-state watch/reference authority only로 읽고,
+  candidate/intake layer가 place/institution owner나 candidate build queue를 새로 만들지 않는다고 고정했다.
+
+Integrated actions:
+
+- candidate-intake continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-thirty-sixth pass 반영
+
+Verification:
+
+- all 4 candidate/intake documents now explicitly treat the continent sidecar/scout/display umbrella as lower current-state watch/reference authority.
+- the umbrella no longer remains implicit across the candidate/intake decision path.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 candidate/intake family는 no-change watch 기준으로 유지한다.

@@ -13,6 +13,13 @@ tier-1 intake card reading은
 `Section_15_Group_Index.md`,
 `Section_15_Profile_Draft_Index.md`,
 `Section_15_Named_Notables_Status_Compass.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+continent scout family,
+`Section_15_Frost_Display_Canon_Candidates.md`,
+`Section_8_15_Closure_Sync_Carryover_Watch.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
@@ -185,6 +192,14 @@ tier-1 intake card reading은
   - `medium`
 - intake judgment:
   - `ready_for_15`
+
+## Reference Authority Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 intake card tier가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+- 실제 profile guard wording authority는 downstream `Section_15_Profile_*` 또는
+  `Section_15_Subline_Profile_*` 카드의 `3-1. Policy Guard`에 남긴다.
 
 ## Conductor Note
 
