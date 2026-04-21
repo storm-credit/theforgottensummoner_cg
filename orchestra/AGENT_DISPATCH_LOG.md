@@ -9772,3 +9772,52 @@ Follow-up actions:
 
 - 이 top-level craft-reference delta를 commit/push한 뒤,
   상위 시작점과 craft map은 같은 reference-only reading line으로 유지한다.
+
+## 2026-04-21 KST - Ninety-First Story-Engine Craft-Reference Realignment Pass
+
+목적:
+
+- 상위 시작점에서 보이기 시작한
+  `FS_Reader_Reward_Reference_Heuristic.md` 경로가
+  실제 회차/장면 엔진인 `workflow/16_FS_Story_Engine.md`에도
+  같은 `reference-only Story Craft` 선으로 드러나는지 맞춘다.
+
+배치:
+
+- conductor local story-engine craft-reference scout
+
+Conductor action:
+
+- conductor는 `workflow/16_FS_Story_Engine.md`,
+  `workflow/11_FS_Engine.md`,
+  `Start_Here.md`,
+  `audit/FS_Engine_Writing_Craft_Map.md`,
+  `audit/OPEN_INDEX.md`
+  를 다시 대조해,
+  상위 시작점과 craft map에서는 새 heuristic 경로가 이미 보이지만
+  실제 story-craft 실행축에서는 아직 직접 보이지 않는 drift를 재확인했다.
+- `Start_Here.md`, `workflow/11_FS_Engine.md`,
+  `audit/FS_Engine_Writing_Craft_Map.md`, `OPEN_INDEX.md`에는
+  새 heuristic가 reference-only craft 축으로 이미 연결돼 있었지만,
+  `workflow/16_FS_Story_Engine.md`의 `Story Reference Registers`에는 아직 직접 올라와 있지 않았다.
+- conductor local pass에서는
+  `workflow/16_FS_Story_Engine.md`의 `Story Reference Registers`에
+  `audit/FS_Reader_Reward_Reference_Heuristic.md`를 추가하고,
+  그 아래에 외부 독자 반응형 평론을 점수표나 정본 게이트로 올리지 않고
+  새 heuristic를 통해 reference-only Story Craft 점검축으로 먼저 번역한다는 문장을 보강했다.
+
+Integrated actions:
+
+- story-engine craft-reference entry-path realignment
+- report pair / dispatch log 2026-04-21 ninety-first pass 반영
+
+Verification:
+
+- the new reader-reward heuristic is now visible from the story-engine reference path as well as the top-level craft path.
+- the current docs still keep the heuristic explicitly reference-only rather than a scorecard or revision-gate authority.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 story-engine craft-reference delta를 commit/push한 뒤,
+  story-craft 실행축도 같은 reference-only reading line으로 유지한다.

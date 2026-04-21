@@ -144,11 +144,17 @@ Lore Engine으로 handoff를 건다.
 
 - `audit/FS_Story_Act_Question_Register.md`
 - `audit/FS_Scene_Pressure_Checklist.md`
+- `audit/FS_Reader_Reward_Reference_Heuristic.md`
 - `audit/FS_Reveal_Control_Register.md`
 - `audit/FS_Relationship_Ledger.md`
 - `audit/FS_Foreshadow_Payoff_Register.md`
 - `audit/FS_Act_Outcome_Ledger.md`
 - `audit/FS_Story_to_Lore_Handoff_Gate.md`
+
+외부 독자 반응형 평론을
+바로 점수표나 정본 게이트로 올리지 않을 때는
+`audit/FS_Reader_Reward_Reference_Heuristic.md`를 통해
+reference-only Story Craft 점검축으로 먼저 번역해 둔다.
 
 ## Operating Sequence
 
