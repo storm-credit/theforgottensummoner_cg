@@ -10132,3 +10132,59 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 revision-canon boundary family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - Ninety-Eighth Story-to-Lore Intake Boundary Stability Pass
+
+목적:
+
+- `FS_Story_to_Lore_Handoff_Gate.md`,
+  `FS_Story_to_Lore_Live_Handoff_Queue.md`,
+  `workflow/16_FS_Story_Engine.md`,
+  `workflow/15_FS_Lore_Engine.md`
+  handoff family가 새 `FS_Reader_Reward_Reference_Heuristic.md`를
+  실제 lore intake packet이나 live queue 입력으로 오독하지 않는지 다시 닫는다.
+
+배치:
+
+- conductor local story-to-lore boundary scout
+
+Conductor action:
+
+- conductor는 `FS_Story_to_Lore_Handoff_Gate.md`,
+  `FS_Story_to_Lore_Live_Handoff_Queue.md`,
+  `workflow/16_FS_Story_Engine.md`,
+  `workflow/15_FS_Lore_Engine.md`,
+  `FS_Reader_Reward_Reference_Heuristic.md`
+  를 다시 대조해,
+  reader-reward heuristic가 Story Craft reference-only 축에 남고
+  실제 handoff packet이나 live lore-intake queue로 승격되지 않았는지 확인했다.
+- `FS_Story_to_Lore_Handoff_Gate.md`는
+  여전히 장면/액트에서 실제로 튀어나온 새 설정만 handoff 대상으로 읽고 있었고,
+  story-born 신규 설정을 lore 정본 층으로 보내기 전 packet gate로만 유지되고 있었다.
+- `FS_Story_to_Lore_Live_Handoff_Queue.md`도
+  실제 원고 / 장면 입력이 있을 때만 live case를 생성한다는 rule을 유지하고 있었고,
+  seed case와 live case를 섞지 않는 watch-ready template 성격을 그대로 보존하고 있었다.
+- `workflow/16_FS_Story_Engine.md`는
+  reader-reward heuristic를 Story Craft 보조 점검축으로 읽으면서도,
+  새 설정이 생길 때만 별도로 handoff gate를 건다는 operating sequence를 유지하고 있었다.
+- `workflow/15_FS_Lore_Engine.md` 역시
+  Story Engine에서 올라온 `새 설정`만 handoff packet으로 먼저 받는다는 intake rule을 유지하고 있었고,
+  craft heuristic 자체를 lore intake input이나 register write trigger로 흡수하지 않았다.
+- 따라서 이번 순환에서는
+  story-to-lore intake boundary에서 추가 source prose drift가 발견되지 않았다.
+
+Integrated actions:
+
+- story-to-lore intake boundary no-change stability confirmation
+- report pair / dispatch log 2026-04-21 ninety-eighth pass 반영
+
+Verification:
+
+- no additional live drift was found across the story-to-lore handoff family at this checkpoint.
+- reader-reward heuristic remains Story Craft reference-only and does not become live lore-intake input or handoff packet.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 handoff-boundary family는 no-change watch 기준으로 유지한다.

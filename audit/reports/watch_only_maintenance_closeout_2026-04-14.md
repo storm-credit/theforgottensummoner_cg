@@ -3080,3 +3080,44 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   revision/canon/source/change-log control layer는 기존 정본 통제 역할을 그대로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 control-boundary family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 Ninety-Eighth Story-to-Lore Intake Boundary Stability Pass
+
+목적:
+
+- `FS_Story_to_Lore_Handoff_Gate.md`,
+  `FS_Story_to_Lore_Live_Handoff_Queue.md`,
+  `workflow/16_FS_Story_Engine.md`,
+  `workflow/15_FS_Lore_Engine.md`
+  handoff family가 새 `FS_Reader_Reward_Reference_Heuristic.md`를
+  실제 lore intake packet이나 live queue 입력으로 오독하지 않는지 다시 닫는다.
+
+확인 결과:
+
+- `FS_Story_to_Lore_Handoff_Gate.md`는
+  여전히 장면/액트에서 실제로 튀어나온 새 설정만 handoff 대상으로 읽고 있었고,
+  story-born 신규 설정을 lore 정본 층으로 보내기 전 packet gate로만 유지되고 있었다.
+- `FS_Story_to_Lore_Live_Handoff_Queue.md`도
+  실제 원고 / 장면 입력이 있을 때만 live case를 생성한다는 rule을 유지하고 있었고,
+  seed case와 live case를 섞지 않는 watch-ready template 성격을 그대로 보존하고 있었다.
+- `workflow/16_FS_Story_Engine.md`는
+  reader-reward heuristic를 Story Craft 보조 점검축으로 읽으면서도,
+  새 설정이 생길 때만 별도로 handoff gate를 건다는 operating sequence를 유지하고 있었다.
+- `workflow/15_FS_Lore_Engine.md` 역시
+  Story Engine에서 올라온 `새 설정`만 handoff packet으로 먼저 받는다는 intake rule을 유지하고 있었고,
+  craft heuristic 자체를 lore intake input이나 register write trigger로 흡수하지 않았다.
+- 따라서 이번에는 story-to-lore intake boundary에서
+  추가 source prose drift가 보이지 않았다.
+
+조치:
+
+- source prose patch 없이
+  story-to-lore intake boundary no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- reader-reward heuristic는 계속 Story Craft reference-only 축에 남고,
+  story-to-lore handoff family는 실제 원고/장면에서 나온 신규 설정 packet만 받는 분리선을 유지한다.
+- 이후 새 local drift가 생기기 전까지
+  같은 handoff-boundary family는 no-change watch 기준으로 유지하면 된다.
