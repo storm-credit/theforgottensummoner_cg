@@ -3159,3 +3159,45 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이미 구축된 live engine safeguard로 읽게 되었다.
 - 이후 새 local drift가 생기기 전까지
   같은 upgrade-snapshot family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundredth FS-Engine Upgrade Snapshot Completion Pass
+
+목적:
+
+- `workflow/11_FS_Engine.md` 상단의
+  `점검 후 바로 붙인 업그레이드 snapshot`
+  목록이 현재 실제 구축 상태보다 좁게 남아 있는 것을 정렬한다.
+
+확인 결과:
+
+- `workflow/11_FS_Engine.md`는
+  상위 entry 문서이면서도 upgrade snapshot 목록이
+  `Decision / Ruling Register`,
+  `Cross-Chronicle Firewall`,
+  `Slot Maturation Register`
+  3개까지만 적혀 있었다.
+- 하지만 실제 engine family는
+  `FS_Canon_Change_Log.md`와
+  `FS_Story_to_Lore_Handoff_Gate.md`까지 이미 본선에 붙어 있고,
+  바로 직전 `FS_Engine_Upgrade_Audit.md`에서도
+  두 축이 더 이상 future-only 과제가 아니라는 점을 정렬해 둔 상태였다.
+- 따라서 `workflow/11_FS_Engine.md`의 상단 snapshot만
+  예전 세 모듈 시점에 머물러 있는 live drift였다.
+
+조치:
+
+- `workflow/11_FS_Engine.md`의
+  `점검 후 바로 붙인 업그레이드 snapshot` 목록에
+  `15. Canon Change Log`,
+  `16. Story-to-Lore Handoff Gate`
+  를 추가했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- 이제 상위 FS Engine entry 문서도
+  현재 구축된 upgrade family를 같은 폭으로 보여 주게 되었고,
+  `업그레이드 audit -> engine entry -> live gate/control family`
+  해석선이 다시 맞춰졌다.
+- 이후 새 local drift가 생기기 전까지
+  같은 upper-engine snapshot family는 no-change watch 기준으로 유지하면 된다.

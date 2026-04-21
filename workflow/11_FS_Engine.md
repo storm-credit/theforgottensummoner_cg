@@ -74,6 +74,8 @@ FS 엔진의 필수 코어 합의안은
 12. `Decision / Ruling Register`
 13. `Cross-Chronicle Firewall`
 14. `Slot Maturation Register`
+15. `Canon Change Log`
+16. `Story-to-Lore Handoff Gate`
 
 ## Method Modules
 
