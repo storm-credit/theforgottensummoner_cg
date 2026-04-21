@@ -13,6 +13,8 @@ People Worth Seeking active 판단은
 `Section_15_Five_Continent_Closure_Table.md`,
 `Section_15_Named_Notables_Coverage_Matrix.md`,
 `Section_15_Index_Draft.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Operational_Display_Canon_Candidates.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
@@ -123,5 +125,5 @@ People Worth Seeking active 판단은
 
 1. `엘다라`는 기존 15 후보로 유지한다.
 2. `대런`, `래퍼티`, `요한`, 7개 탑주는 `verify_before_15`로 경계 큐에 둔다.
-3. 마법협회, 성국, 정령연합의 역할 슬롯은 `need_named_candidate`로 둔다.
+3. 마법협회, 성국, 정령연합의 역할 슬롯은 `Section_15_Ether_Place_Institution_Sidecar.md` 기준 `need_named_candidate / slot_with_display_candidate`로 둔다.
 4. 후속 reference는 `에테르 14번 파일`과 대조해 이 이름들이 이미 영웅백과에 있는지 확인하는 흐름이다.

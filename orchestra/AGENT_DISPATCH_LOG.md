@@ -10802,3 +10802,53 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 oceanic wording family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-21 KST - One-Hundred-Eleventh Ether-Scout Sidecar-Reference Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Ether_Scout.md`의
+  active reading set과 결론부가
+  이미 구축된 ether place/institution sidecar 및 display-reference layer보다 좁게 남아 있는지 정렬한다.
+
+배치:
+
+- conductor local ether-scout reference scout
+
+Conductor action:
+
+- conductor는 `Section_15_Named_Notables_Ether_Scout.md`,
+  `Section_15_Ether_Place_Institution_Sidecar.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`
+  를 다시 대조해,
+  ether scout의 active 판단 묶음과 결론부가 현재 sidecar/display-reference 폭보다 좁게 남아 있다는 점을 확인했다.
+- `Section_15_Ether_Place_Institution_Sidecar.md`는
+  이미 에테르 역할 슬롯을
+  `need_named_candidate / slot_with_display_candidate`
+  상태로 묶고 있었고,
+  `Section_15_Operational_Display_Canon_Candidates.md`도
+  에테르 place/institution preferred candidate reference pass를 현재형으로 보유하고 있었다.
+- 하지만 `Section_15_Named_Notables_Ether_Scout.md` 상단 active 판단 묶음에는
+  두 문서가 빠져 있었고,
+  결론부도 역할 슬롯을 단순 `need_named_candidate`로만 읽어
+  현재 sidecar/display-reference 폭보다 좁게 남아 있었다.
+- 그래서 이번 순환에서는
+  active 판단 묶음에 sidecar/display-reference 문서 두 개를 추가하고,
+  결론부 역할 슬롯 판정도
+  sidecar 기준 `need_named_candidate / slot_with_display_candidate`로 읽게 정렬했다.
+
+Integrated actions:
+
+- ether-scout sidecar-reference source realignment
+- report pair / dispatch log 2026-04-21 one-hundred-eleventh pass 반영
+
+Verification:
+
+- the ether scout no longer omits the already-built sidecar/display-reference layer from its active reading set.
+- `Section_15_Named_Notables_Ether_Scout.md` now reads role slots through the current `need_named_candidate / slot_with_display_candidate` sidecar state.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 ether-scout reference family는 no-change watch 기준으로 유지한다.

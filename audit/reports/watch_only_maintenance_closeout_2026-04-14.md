@@ -3598,3 +3598,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   이제 같은 current-state display-reference / slot-first watch 기준으로 닫혀 있다.
 - 이후 새 local drift가 생기기 전까지
   같은 oceanic wording family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-21 One-Hundred-Eleventh Ether-Scout Sidecar-Reference Realignment Pass
+
+목적:
+
+- `Section_15_Named_Notables_Ether_Scout.md`의
+  active reading set과 결론부가
+  이미 구축된 ether place/institution sidecar 및 display-reference layer보다 좁게 남아 있는지 정렬한다.
+
+확인 결과:
+
+- `Section_15_Ether_Place_Institution_Sidecar.md`는
+  이미 에테르 역할 슬롯을
+  `need_named_candidate / slot_with_display_candidate`
+  상태로 묶고 있었다.
+- `Section_15_Operational_Display_Canon_Candidates.md`도
+  에테르 place/institution preferred candidate reference pass를 현재형으로 보유하고 있었다.
+- 하지만 `Section_15_Named_Notables_Ether_Scout.md`의 상단 active 판단 묶음에는
+  두 문서가 빠져 있었고,
+  결론부도 역할 슬롯을 단순 `need_named_candidate`로만 읽어
+  현재 sidecar/display-reference 폭보다 좁게 남아 있었다.
+
+조치:
+
+- `Section_15_Named_Notables_Ether_Scout.md`의 active 판단 묶음에
+  `Section_15_Ether_Place_Institution_Sidecar.md`와
+  `Section_15_Operational_Display_Canon_Candidates.md`를 추가했다.
+- 결론부의 역할 슬롯 판정도
+  sidecar 기준 `need_named_candidate / slot_with_display_candidate`로 읽게 고쳤다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- ether scout도 이제
+  이미 구축된 ether sidecar/display-reference layer를 현재 기준선으로 읽게 되었다.
+- 이후 새 local drift가 생기기 전까지
+  같은 ether-scout reference family는 no-change watch 기준으로 유지하면 된다.
