@@ -97,10 +97,10 @@ reference 순서표로 보여주는 진행표다.
 
 아래는 조건이 충족될 때만 다시 올린다.
 
-1. 원본 접근이 가능해지면 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 reference sampling 필요 여부만 판단한다.
+1. 원본 접근이 가능해지면 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 reference sampling 필요 여부만 reference backlog로 둔다.
 2. 실제 원고 입력이나 새 증거 drift가 생기면 live handoff case를 먼저 watch note로 기록한다.
 3. watch-reference가 흔들리면 해당 계층만 국소 재점검한다.
-4. watch cycle이 안정된 뒤에만 신규 closure batch 후보 검토 여부를 판단한다.
+4. watch cycle이 안정된 뒤에만 신규 closure batch 후보 검토 여부를 reference backlog로 둔다.
 5. subline pair wording drift가 생기면 해당 pair만 다시 교차감사한다.
 
 ## Conductor Decision

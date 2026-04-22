@@ -5419,3 +5419,39 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   `watch 재개 시`, `재개될 때`, `재개 시`,
   `신규 감사 재개 시`, `해야 할 일은`, `watch가 재개될 때`
   hit가 0건이 됐다.
+
+## 2026-04-22 One-Hundred-Sixty-Second Conditional-Backlog Surface Closure Pass
+
+목적:
+
+- mainline queue/workstream/compass/watch source에 남은
+  conditional `need-to-evaluate` 표면어가
+  새 실행 판단처럼 보이지 않도록 reference backlog 문구로 낮춘다.
+
+확인 결과:
+
+- `Audit_Queue.md`,
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Section_8_Normalization_Status_Compass.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`
+  에 `필요 여부 판단`, `검토 여부 판단` 계열 표현이 남아 있었다.
+- 이 문구들은 모두 실제 실행 지시가 아니라
+  조건 충족 전까지 미뤄 둔 reference backlog 성격이었다.
+
+조치:
+
+- subtree sampling / closure batch 후보 관련 문구를
+  `reference backlog로 둔다` 혹은
+  `reference backlog를 보는 기준`으로 낮췄다.
+- mainline watch 문서들이 future execution logic보다
+  conditional backlog reading을 가리키게 정리했다.
+
+의미:
+
+- mainline queue/workstream/compass/watch 문서에서
+  conditional backlog가 새 실행 판단처럼 읽히지 않는다.
+- 관련 패턴 스캔에서
+  `필요 여부를 판단한다`, `검토 여부를 판단한다`,
+  `필요 여부 판단`, `검토 여부 판단`
+  hit가 0건이 됐다.

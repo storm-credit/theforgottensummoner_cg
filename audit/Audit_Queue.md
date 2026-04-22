@@ -87,8 +87,8 @@
 
 ## Conditional Backlog
 
-1. 원본 접근이 가능할 때만 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 subtree reference sampling 필요 여부를 판단한다.
-2. `Section 8 -> 15` watch-reference가 충분히 안정된 뒤에만 신규 closure batch 후보 검토 여부를 판단한다.
+1. 원본 접근이 가능할 때만 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 subtree reference sampling 필요 여부를 보는 reference backlog로 둔다.
+2. `Section 8 -> 15` watch-reference가 충분히 안정된 뒤에만 신규 closure batch 후보 검토 여부를 보는 reference backlog로 둔다.
 3. `P2 place-pressure handoff owner` 체계는 현재 유지선이며, drift가 생길 때만 국소 수정한다.
 4. `14번` 링크맵, 접점 표, orphan candidate 분리는 live handoff나 새 증거 변화가 생길 때만 다시 올린다.
 5. `범대륙` display canon 교체와 `15번` 후보 재우선순위화는 현재 메인선이 아니라 후순위 backlog로 둔다.

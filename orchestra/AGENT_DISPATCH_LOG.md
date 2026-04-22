@@ -12996,3 +12996,46 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 reopen-condition surface는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Sixty-Second Conditional-Backlog Surface Closure Pass
+
+목적:
+
+- mainline queue/workstream/compass/watch source에 남은
+  conditional `need-to-evaluate` 표면어가
+  새 실행 판단처럼 보이지 않도록 reference backlog 문구로 낮춘다.
+
+배치:
+
+- conductor local conditional-backlog surface closure scout
+
+Conductor action:
+
+- conductor는 reports-excluded audit/workflow source에서
+  `필요 여부를 판단한다`, `검토 여부를 판단한다`,
+  `필요 여부 판단`, `검토 여부 판단`
+  계열 잔존 여부를 좁혀 확인했다.
+- `Audit_Queue.md`,
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Section_8_Normalization_Status_Compass.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`
+  에 conditional backlog wording이 남아 있었다.
+- subtree sampling / closure batch 후보 관련 wording을
+  reference backlog 문장으로 낮췄다.
+
+Integrated actions:
+
+- conditional-backlog surface source closure
+- report pair / dispatch log 2026-04-22 one-hundred-sixty-second pass 반영
+
+Verification:
+
+- related source scan now returns zero hits for `필요 여부를 판단한다`, `검토 여부를 판단한다`, `필요 여부 판단`, and `검토 여부 판단`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 conditional-backlog surface는 no-change watch 기준으로 유지한다.

@@ -134,8 +134,8 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 아래는 메인 본선 reference가 아니라,
 watch cycle이 안정된 뒤 조건부로 검토할 reference backlog다.
 
-1. 원본 접근 가능 시 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 subtree reference sampling 필요 여부 판단
-2. 신규 closure batch 후보 검토 여부 판단
+1. 원본 접근 가능 시 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 subtree reference sampling 필요 여부를 보는 reference backlog
+2. 신규 closure batch 후보 검토 여부를 보는 reference backlog
 3. `14` 인물 백과 구조 감사와 `8 ↔ 14` 링크맵 심화
 4. 후기 범대륙 / deferred routing 재확장 여부 판단
 5. 실제 원고 입력 발생 시 live handoff case 승격
