@@ -12488,3 +12488,47 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 Section 8/bridge/workstream gate는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Fiftieth Section-8 Root Vocabulary Closure Alignment Pass
+
+목적:
+
+- Section 8 root/structure planning layer가
+  현재 작업처럼 `place_style / mixed` 라벨링을 다시 여는 대신
+  닫힌 `section_style / mixed_keep / section_style_reclassify` closure를
+  reference로 읽도록 정렬한다.
+
+배치:
+
+- conductor local section-8 root-vocabulary closure scout
+
+Conductor action:
+
+- conductor는 `Section_8_Structure_Labeling_Queue.md`,
+  `Section_8_Root_Findings.md`,
+  `Section_8_Root_Label_Map.md`,
+  `Section_8_Root_Normalization_Plan.md`
+  를 먼저 스캔했다.
+- `Section_8_Structure_Labeling_Queue.md`는 historical first-pass queue 역할을 유지하지만,
+  Conductor Decision이 아직 새 라벨 부여 작업처럼 읽혔다.
+- root findings / root label map / root normalization plan도
+  일부 live watch 문구가 이전 `place_style / mixed` triad를 현재 작업처럼 보이게 했다.
+- historical previous-label 기록은 보존하고,
+  현재 closure를 다시 여는 문장만
+  `section_style / mixed_keep / section_style_reclassify` reference로 정리했다.
+
+Integrated actions:
+
+- Section 8 root/structure vocabulary closure source alignment
+- report pair / dispatch log 2026-04-22 one-hundred-fiftieth pass 반영
+
+Verification:
+
+- the Section 8 root/structure planning layer now points at the closed vocabulary reference instead of reopening the old labeling queue.
+- historical previous-label records remain preserved as audit history, not live canonical state.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 root/structure planning layer는 no-change watch 기준으로 유지한다.

@@ -4915,6 +4915,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   같은 gate는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Fiftieth Section-8 Root Vocabulary Closure Alignment Pass
+
+목적:
+
+- Section 8 root/structure planning layer가
+  현재 작업처럼 `place_style / mixed` 라벨링을 다시 여는 대신
+  닫힌 `section_style / mixed_keep / section_style_reclassify` closure를
+  reference로 읽도록 정렬한다.
+
+확인 결과:
+
+- `Section_8_Structure_Labeling_Queue.md`는 historical first-pass queue 역할을 유지하지만,
+  Conductor Decision이 아직 새 라벨 부여 작업처럼 읽혔다.
+- `Section_8_Root_Findings.md`,
+  `Section_8_Root_Label_Map.md`,
+  `Section_8_Root_Normalization_Plan.md`도
+  root watch 문구 일부가 이전 `place_style / mixed` triad를 현재 작업처럼 보이게 했다.
+
+조치:
+
+- `Section_8_Structure_Labeling_Queue.md`의 첫 설명, candidate rows,
+  labeling order, stop rules, Conductor Decision을
+  `mixed_keep / section_style_reclassify` closure 기준으로 정리했다.
+- root findings / root label map / root normalization plan의 live watch 문구를
+  `section_style / mixed_keep / section_style_reclassify` closure 확인선으로 맞췄다.
+- historical previous-label 기록은 삭제하지 않고,
+  현재 closure를 다시 여는 문장만 정리했다.
+
+의미:
+
+- Section 8 root/structure planning layer는
+  새 `place_style / mixed` 라벨링 queue가 아니라
+  닫힌 closure vocabulary reference로 유지된다.
+- 이후 새 local drift가 생기기 전까지
+  같은 root/structure planning layer는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Ninth Section-8 Bridge Stability Pass
 
 목적:

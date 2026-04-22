@@ -53,7 +53,7 @@
 `root / structure / mismatch / P2 handoff` watch가 재개될 때
 아래 기준을 확인하는 reference로 쓴다.
 
-1. `Section 8` 루트별 `section_style / place_style / mixed exception` 라벨링 상태
+1. `Section 8` 루트별 `section_style / mixed_keep / section_style_reclassify` closure 상태
 2. 대륙 spine과 맞지 않는 `spine_mismatch` 후보 분리 상태
 3. `Supranational & Neutral` 충돌 루트의 비교 샘플링 readiness
 4. `_Legacy_` 경로의 보존 가치와 중복 위험 분리 상태

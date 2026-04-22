@@ -43,7 +43,7 @@
 2. `_Legacy_`와 `Backup`을 격리 후보로 유지
 3. `canonical root / quarantine root / legacy root` 판정 기준을 먼저 확인
 4. 세력 내부 표준 뼈대 기준과 예외 기록 상태를 확인
-5. 각 세력의 `section_style / place_style / mixed` 라벨 상태를 먼저 확인
+5. 각 세력의 `section_style / mixed_keep / section_style_reclassify` closure 상태를 먼저 확인
 6. 서사 개정은 루트 안정화 이후로 미룸
 
 ## Reference Lock After Continent Samples
@@ -71,7 +71,7 @@ closeout reference로 닫혔으므로,
 
 1. 이 경로가 `canonical root`인지 `quarantine root`인지 `legacy root`인지
 2. 이 세력/하위 폴더가 대륙 spine과 맞는지
-3. 내부 구조가 `section_style`인지 `place_style`인지
+3. 내부 구조가 `section_style / mixed_keep / section_style_reclassify` closure 중 어디에 있는지
 4. 예외라면 실제 예외인지, 손상/중복/레거시 오염인지
 
 ## Conductor Decision

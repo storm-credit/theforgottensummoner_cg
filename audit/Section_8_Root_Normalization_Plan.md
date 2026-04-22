@@ -72,11 +72,11 @@
 - `마립`이 들어간 루트는 손상 경로로 기록
 - `_Legacy_` 전체는 정본 참조 대상에서 제외
 - `Supranational & Neutral` 하위부터 템플릿성 반복 파일을 샘플링
-- 세력별로 아래 세 패턴 중 어느 쪽인지 라벨링
+- 세력별로 아래 closure 패턴 중 어느 쪽인지 확인
   - `section_style`
-  - `place_style`
-  - `mixed`
-- `mixed` 판정 세력은 곧바로 재배치하지 않고 예외 목록으로 먼저 올린다
+  - `mixed_keep`
+  - `section_style_reclassify`
+- `mixed_keep` 판정 세력은 곧바로 재배치하지 않고 예외 목록으로 유지한다
 
 ## Locked Reference Outputs
 
@@ -95,11 +95,11 @@ closure sync / watch-reference가 흔들릴 때만 reference로 다시 연다.
 1. `씨족 상층`을 `국가형 귀족`으로 과대 해석하는 경우
 2. `항만 권력 / 함대 / 교단`을 `tribe_clan` 근거로 잘못 올리는 경우
 3. `기억 귀족 / 망명 지배층`을 `state_house strong`으로 과대 해석하는 경우
-4. `place_style` 세력을 억지로 `section_style`로 평탄화하는 경우
+4. `place pressure`를 근거로 세력 구조를 잘못 재분류하는 경우
 
 ## Stop Rules
 
 - 같은 세력의 활성 경로와 레거시 경로가 둘 다 내용이 많으면 삭제하지 않는다
 - 이름은 같아도 부모 경로가 다르면 자동 병합하지 않는다
-- `mixed` 구조를 확인하기 전에는 폴더 이동이나 병합을 하지 않는다
+- `mixed_keep` 구조를 확인하기 전에는 폴더 이동이나 병합을 하지 않는다
 - 대륙 spine과 충돌하는 해석은 `Open Question`으로 올리고 즉시 정본화하지 않는다
