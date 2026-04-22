@@ -13127,3 +13127,48 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 residual re-review hit는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Sixty-Fifth Instructional-Judgment Stability Pass
+
+목적:
+
+- residual `판단한다` hit가
+  stale action drift인지,
+  아니면 실제 규칙/지침 문장인지 구분한다.
+
+배치:
+
+- conductor local instructional-judgment stability scout
+
+Conductor action:
+
+- conductor는 residual `판단한다` hit 4건을 개별 문맥으로 다시 읽었다.
+- `Section_14_Distributed_Affiliation_Findings.md`의
+  `앞으로 영웅을 볼 때는 먼저 이렇게 판단한다`는
+  영웅 앵커 분류 규칙 문장이었다.
+- `Section_15_Intake_Priority.md`의
+  `우선순위는 아래 기준으로 판단한다`는
+  intake 우선순위 규칙 문장이었다.
+- `workflow/11_Writer_Engine.md`의
+  `Conductor는 어떤 문서를 볼 때마다 최소한 아래를 판단한다`는
+  작동 규칙 문장이었다.
+- `workflow/15_FS_Lore_Engine.md`의
+  `새 항목이 어디로 가야 하는지 판단한다`는
+  archive routing 규칙 문장이었다.
+- source prose patch는 필요하지 않았다.
+
+Integrated actions:
+
+- instructional-judgment no-change stability confirmation
+- report pair / dispatch log 2026-04-22 one-hundred-sixty-fifth pass 반영
+
+Verification:
+
+- remaining residual `판단한다` hits are intentional rules/instructions, not live drift.
+- remaining local changes outside this pass are still the unrelated manifest files.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 residual `판단한다` hit는 no-change watch 기준으로 유지한다.

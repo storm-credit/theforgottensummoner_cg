@@ -5527,3 +5527,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   naming/boundary review 의미를 가진다.
 - 이후 새 local drift가 생기기 전까지
   같은 residual hit는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Sixty-Fifth Instructional-Judgment Stability Pass
+
+목적:
+
+- residual `판단한다` hit가
+  stale action drift인지,
+  아니면 실제 규칙/지침 문장인지 구분한다.
+
+확인 결과:
+
+- `Section_14_Distributed_Affiliation_Findings.md`의
+  `앞으로 영웅을 볼 때는 먼저 이렇게 판단한다`는
+  영웅 앵커 분류 규칙 문장이었다.
+- `Section_15_Intake_Priority.md`의
+  `우선순위는 아래 기준으로 판단한다`는
+  intake 우선순위 규칙 문장이었다.
+- `workflow/11_Writer_Engine.md`의
+  `Conductor는 어떤 문서를 볼 때마다 최소한 아래를 판단한다`는
+  작동 규칙 문장이었다.
+- `workflow/15_FS_Lore_Engine.md`의
+  `새 항목이 어디로 가야 하는지 판단한다`는
+  archive routing 규칙 문장이었다.
+
+조치:
+
+- source prose patch 없이
+  residual `판단한다` hit가 intentional instruction이라는 판정만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 현재 남은 `판단한다` 계열 문구는
+  stale action drift가 아니라
+  rule/instruction text다.
+- 이후 새 local drift가 생기기 전까지
+  같은 residual hit는 no-change watch 기준으로 유지하면 된다.
