@@ -5716,3 +5716,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   ruling-trace or note text다.
 - 이후 새 local drift가 생기기 전까지
   같은 residual wording은 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Seventieth Change-Log Trace Stability Pass
+
+목적:
+
+- broad `backfill / direct 연결` cluster가
+  stale drift인지,
+  아니면 `FS_Canon_Change_Log.md`의 historical trace wording인지 다시 확인한다.
+
+확인 결과:
+
+- `FS_Canon_Change_Log.md` 전반의
+  `verify_before_15 direct ruling backfill`,
+  `근거를 Decision Ruling에 직접 연결`,
+  `merge_ban backfill`
+  계열 문구는 현재 실행 지시가 아니라
+  이미 반영된 ruling/lock/change 연쇄를 기록하는 trace wording이었다.
+- 같은 문맥은 `FS_Decision_Ruling_Register.md`,
+  boundary batch/evidence, name collision register와의
+  연결 이력을 보존하는 역할을 했다.
+
+조치:
+
+- source prose patch 없이
+  broad change-log trace wording이 모두 intentional historical trace text라는 판정만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 현재 `FS_Canon_Change_Log.md`의 broad `backfill / direct 연결` cluster는
+  stale drift가 아니라
+  historical trace wording이다.
+- 이후 새 local drift가 생기기 전까지
+  같은 change-log trace cluster는 no-change watch 기준으로 유지하면 된다.

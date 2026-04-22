@@ -269,6 +269,7 @@
 - 2026-04-22 one-hundred-sixty-seventh pass confirmed residual `hold / deferred / naming_review / anchor_review` wording in ruling, guard, duplicate, intake, and next-target docs is intentional policy/routing text rather than live drift; no source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-sixty-eighth pass confirmed the broad `verify_before_15 / hold_for_* / deferred` cluster remains intentional hold-policy state language across decision, boundary, synthesis, and intake documents; no source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-sixty-ninth pass confirmed residual `backfill / direct ruling / 후속 확인` wording is intentional ruling-trace or note text rather than live drift; no source prose patch was needed beyond report/log recording
+- 2026-04-22 one-hundred-seventieth pass confirmed the broad `backfill / direct 연결` cluster in `FS_Canon_Change_Log.md` remains intentional historical trace wording rather than live drift; no source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

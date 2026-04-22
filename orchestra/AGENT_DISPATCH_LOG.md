@@ -13353,3 +13353,44 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 residual ruling-trace wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Seventieth Change-Log Trace Stability Pass
+
+목적:
+
+- broad `backfill / direct 연결` cluster가
+  stale drift인지,
+  아니면 `FS_Canon_Change_Log.md`의 historical trace wording인지 다시 확인한다.
+
+배치:
+
+- conductor local change-log trace stability scout
+
+Conductor action:
+
+- conductor는 `FS_Canon_Change_Log.md`의 broad `backfill / direct 연결` cluster를 다시 읽었다.
+- `verify_before_15 direct ruling backfill`,
+  `근거를 Decision Ruling에 직접 연결`,
+  `merge_ban backfill`
+  계열 문구는 현재 실행 지시가 아니라
+  이미 반영된 ruling/lock/change 연쇄를 기록하는 trace wording이었다.
+- 같은 문맥은 `FS_Decision_Ruling_Register.md`,
+  boundary batch/evidence, name collision register와의
+  연결 이력을 보존하는 역할을 했다.
+- source prose patch는 필요하지 않았다.
+
+Integrated actions:
+
+- change-log trace no-change stability confirmation
+- report pair / dispatch log 2026-04-22 one-hundred-seventieth pass 반영
+
+Verification:
+
+- current broad `backfill / direct 연결` hits in `FS_Canon_Change_Log.md` are intentional historical trace wording, not live drift.
+- remaining local changes outside this pass are still the unrelated manifest files.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 change-log trace cluster는 no-change watch 기준으로 유지한다.
