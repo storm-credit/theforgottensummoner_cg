@@ -12366,3 +12366,44 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 summary/index gate는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Forty-Seventh Summary-Gate Stability Pass
+
+목적:
+
+- 방금 정렬한 remaining summary/index gate가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority 문구로 유지하는지 다시 확인한다.
+
+배치:
+
+- conductor local summary-gate stability scout
+
+Conductor action:
+
+- conductor는 `Section_15_*.md` 전체에서
+  `continent sidecar/scout/display wording umbrella`와
+  `lower current-state watch/reference authority`의 상호 누락 여부를 확인했다.
+- umbrella만 있고 lower-authority 문구가 없는 문서는 없었다.
+- lower-authority 문구만 있고 umbrella가 없는 Section 15 문서도 없었다.
+- 이전 shorthand인 `current-state watch/reference closure`와
+  `lower watch/reference authority` hit는 더 이상 남지 않았다.
+- `place_style` hit는 없었고,
+  남은 `mixed` hit는 `Section_15_Group_Index.md`의
+  `recorded Tier 1 mixed with Tier 2` 일반 설명 문맥으로 canonical state label drift가 아니었다.
+
+Integrated actions:
+
+- summary/index gate no-change stability confirmation
+- report pair / dispatch log 2026-04-22 one-hundred-forty-seventh pass 반영
+
+Verification:
+
+- no additional source prose drift was found across the summary/index gate at this checkpoint.
+- the continent sidecar/scout/display umbrella remains a closed lower current-state watch/reference authority.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 summary/index gate는 no-change watch 기준으로 유지한다.

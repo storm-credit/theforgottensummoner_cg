@@ -4881,6 +4881,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   같은 summary/index gate는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Forty-Seventh Summary-Gate Stability Pass
+
+목적:
+
+- 방금 정렬한 remaining summary/index gate가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority 문구로 유지하는지 다시 확인한다.
+
+확인 결과:
+
+- `Section_15_*.md` 전체에서
+  umbrella만 있고 `lower current-state watch/reference authority`가 없는 문서는 없었다.
+- `lower current-state watch/reference authority`만 있고
+  umbrella가 없는 Section 15 문서도 없었다.
+- 이전 shorthand인 `current-state watch/reference closure`와
+  `lower watch/reference authority` hit는 더 이상 남지 않았다.
+- `place_style` hit는 없었다.
+- 남은 `mixed` hit는 `Section_15_Group_Index.md`의
+  `recorded Tier 1 mixed with Tier 2` 일반 설명 문맥이었고,
+  canonical state label drift는 아니었다.
+
+조치:
+
+- source prose patch 없이
+  summary/index gate no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- summary/index gate는
+  닫힌 lower current-state watch/reference authority로 유지된다.
+- 이후 새 local drift가 생기기 전까지
+  같은 summary/index gate는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Fifth Residual-Reference Stability Pass
 
 목적:
