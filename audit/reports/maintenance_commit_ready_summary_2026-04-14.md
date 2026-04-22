@@ -250,6 +250,7 @@
 - 2026-04-22 one-hundred-forty-eighth pass updated `Next_Sequential_Workstream.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_8_Mainline_Sync_Register.md`, and `Section_8_to_15_Notable_Anchor_Bridge.md` so the Section 8/bridge/workstream gate also uses the exact `lower current-state watch/reference authority` phrasing
 - 2026-04-22 one-hundred-forty-ninth pass confirmed the Section 8/bridge/workstream gate stays aligned after the lower-authority phrase alignment; no further source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-fiftieth pass updated `Section_8_Structure_Labeling_Queue.md`, `Section_8_Root_Findings.md`, `Section_8_Root_Label_Map.md`, and `Section_8_Root_Normalization_Plan.md` so their live root/structure watch wording points at `section_style / mixed_keep / section_style_reclassify` closure instead of reopening the old `place_style / mixed` labeling task
+- 2026-04-22 one-hundred-fifty-first pass updated the remaining heading/stop-rule wording in `Section_8_Structure_Labeling_Queue.md` so residual `place_style`/plain `mixed` search noise no longer appears in the live queue reference
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

@@ -26,7 +26,7 @@ closure 이후에는 `section_style / mixed_keep / section_style_reclassify`
   - spine 라벨과 함께 읽기 쉽다
   - 정규화 우선순위가 높다
 
-### 2. `place_style`
+### 2. Place-Pressure Candidate Test
 
 - 도시, 항구, 요새, 성소, 시장, 보루 같은 실제 장소 하위 구조가 중심인 경우
 - 예: 장소 기능과 공간 이동이 세력 구조를 실질적으로 이끄는 경우
@@ -34,7 +34,7 @@ closure 이후에는 `section_style / mixed_keep / section_style_reclassify`
   - 억지로 `section_style`로 평탄화하지 않는다
   - 장소 기능 장부와 같이 본다
 
-### 3. `mixed` after closure
+### 3. Mixed_Keep Exception After Closure
 
 - 공통 섹션 구조와 실제 장소 구조가 함께 섞여 있는 경우
 - 즉시 재배치하지 않고 예외 목록으로 먼저 올린다
@@ -68,7 +68,7 @@ closure 이후에는 `section_style / mixed_keep / section_style_reclassify`
 
 ## Stop Rules
 
-- `place_style`을 억지로 `section_style`로 바꾸지 않는다.
+- place-pressure candidate를 억지로 `section_style`로 바꾸지 않는다.
 - `mixed_keep` 확인 전에는 폴더 이동이나 병합을 하지 않는다.
 - 대륙 spine과 어긋나는 구조가 보여도 먼저 `의도된 예외`인지 확인한다.
 
@@ -84,7 +84,7 @@ closure 이후에는 `section_style / mixed_keep / section_style_reclassify`
    - 이유: 성채/시장/묘역 압력은 강하지만 실제 루트 문법은 공통 번호 섹션이 먼저 선다
 3. `봉인 수호단`
    - `section_style_reclassify`
-   - 이유: 장소 압력은 강하지만 `place_style`이 눌린 증거는 현재 없고, `place pressure strong`으로만 관리하는 편이 정확하다
+   - 이유: 장소 압력은 강하지만 legacy place-style flattening 증거는 현재 없고, `place pressure strong`으로만 관리하는 편이 정확하다
 
 ## Conductor Decision
 

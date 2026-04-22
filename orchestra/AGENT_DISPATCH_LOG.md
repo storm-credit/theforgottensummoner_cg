@@ -12532,3 +12532,40 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 root/structure planning layer는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Fifty-First Structure-Labeling Queue Residual Vocabulary Cleanup Pass
+
+목적:
+
+- `Section_8_Structure_Labeling_Queue.md` 안에 남은
+  heading/stop-rule 수준의 residual `place_style`/plain `mixed` search noise를 줄인다.
+
+배치:
+
+- conductor local structure-labeling queue residual-vocabulary scout
+
+Conductor action:
+
+- conductor는 150차 이후 `Section_8_Structure_Labeling_Queue.md`를 다시 스캔했다.
+- 해당 큐의 historical category heading과 stop rule 일부가
+  live reference 검색에서는 구형 vocabulary처럼 잡히는 것을 확인했다.
+- `place_style` heading을 place-pressure candidate test로 바꾸고,
+  plain `mixed` heading을 Mixed-Keep exception after closure로 바꿨다.
+- stop rule과 Round 4 reason의 residual `place_style` 표기도
+  place-pressure / legacy place-style flattening 설명으로 정리했다.
+
+Integrated actions:
+
+- structure-labeling queue residual vocabulary cleanup
+- report pair / dispatch log 2026-04-22 one-hundred-fifty-first pass 반영
+
+Verification:
+
+- `Section_8_Structure_Labeling_Queue.md` now reads as a current closure reference rather than a reopened old vocabulary queue.
+- historical first-pass intent remains preserved without promoting legacy terms into live canonical state.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 queue는 no-change watch 기준으로 유지한다.

@@ -4951,6 +4951,35 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   같은 root/structure planning layer는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Fifty-First Structure-Labeling Queue Residual Vocabulary Cleanup Pass
+
+목적:
+
+- `Section_8_Structure_Labeling_Queue.md` 안에 남은
+  heading/stop-rule 수준의 residual `place_style`/plain `mixed` search noise를 줄인다.
+
+확인 결과:
+
+- 150차 정렬 뒤에도 해당 큐의 historical category heading과 stop rule 일부가
+  live reference 검색에서는 구형 vocabulary처럼 잡혔다.
+- 이 문서의 현재 기능은 새 라벨 부여가 아니라
+  `section_style / mixed_keep / section_style_reclassify` closure 확인이다.
+
+조치:
+
+- `place_style` heading을 place-pressure candidate test로 바꿨다.
+- plain `mixed` heading을 Mixed-Keep exception after closure로 바꿨다.
+- stop rule과 Round 4 reason의 residual `place_style` 표기를
+  place-pressure / legacy place-style flattening 설명으로 정리했다.
+
+의미:
+
+- `Section_8_Structure_Labeling_Queue.md`는
+  historical first-pass queue 성격은 유지하되,
+  live search에서는 current closure vocabulary reference로 읽힌다.
+- 이후 새 local drift가 생기기 전까지
+  같은 queue는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Ninth Section-8 Bridge Stability Pass
 
 목적:
