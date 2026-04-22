@@ -4915,6 +4915,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   같은 gate는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Forty-Ninth Section-8 Bridge Stability Pass
+
+목적:
+
+- 방금 정렬한 Section 8/bridge/workstream gate가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority 문구로 유지하는지 다시 확인한다.
+
+확인 결과:
+
+- source 문서 전체에서 이전 shorthand인
+  `current-state watch/reference closure`와
+  `lower watch/reference authority` hit는 더 이상 남지 않았다.
+- Section 8/bridge/workstream gate 5문서 모두
+  `lower current-state watch/reference authority` 문구를 유지하고 있었다.
+- 남은 `future-only / build queue / 승격 / 재상승` 계열 hit는
+  모두 새 build queue나 owner axis를 다시 열지 말라는 차단 문맥이었다.
+
+조치:
+
+- source prose patch 없이
+  Section 8/bridge/workstream gate no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- Section 8/bridge/workstream gate는
+  닫힌 lower current-state watch/reference authority로 유지된다.
+- 이후 새 local drift가 생기기 전까지
+  같은 gate는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Seventh Summary-Gate Stability Pass
 
 목적:
