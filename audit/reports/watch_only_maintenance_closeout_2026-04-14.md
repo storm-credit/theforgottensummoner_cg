@@ -5854,3 +5854,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 관련 패턴 스캔에서
   `다음 실제 재검토 우선순위`
   hit가 0건이 됐다.
+
+## 2026-04-22 One-Hundred-Seventy-Fourth Priority-Routing Stability Pass
+
+목적:
+
+- residual `우선 / 필요 / 가능 / 금지` wording이
+  stale live drift인지,
+  아니면 intentional rule/priority/routing text인지 다시 확인한다.
+
+확인 결과:
+
+- `Continuous_Workstream.md`의
+  `새 evidence 전까지 ... watch를 우선한다`는
+  mainline watch priority rule이었다.
+- `FS_Engine_Mode_Routing.md`의
+  `Lore/Story/Media Engine을 우선한다`는
+  mode routing rule이었다.
+- `Section_15_Actual_Draft_Package_Freeze.md`의
+  `live 폴더 생성/이동은 금지한다`, `hold reference split으로만 유지한다`는
+  freeze policy wording이었다.
+- `FS_Source_Priority_Register.md`의
+  `증거 판단은 Source Priority가 우선한다`는
+  source-tier rule이었다.
+
+조치:
+
+- source prose patch 없이
+  residual priority/routing wording이 모두 intentional rule text라는 판정만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 현재 남은 `우선 / 필요 / 가능 / 금지` 계열 broad hit는
+  stale drift가 아니라
+  rule/priority/routing text다.
+- 이후 새 local drift가 생기기 전까지
+  같은 residual wording은 no-change watch 기준으로 유지하면 된다.

@@ -13515,3 +13515,48 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 structure-map re-review surface는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Seventy-Fourth Priority-Routing Stability Pass
+
+목적:
+
+- residual `우선 / 필요 / 가능 / 금지` wording이
+  stale live drift인지,
+  아니면 intentional rule/priority/routing text인지 다시 확인한다.
+
+배치:
+
+- conductor local priority-routing stability scout
+
+Conductor action:
+
+- conductor는 representative `우선 / 필요 / 가능 / 금지` residual hit를 다시 읽었다.
+- `Continuous_Workstream.md`의
+  `새 evidence 전까지 ... watch를 우선한다`는
+  mainline watch priority rule이었다.
+- `FS_Engine_Mode_Routing.md`의
+  `Lore/Story/Media Engine을 우선한다`는
+  mode routing rule이었다.
+- `Section_15_Actual_Draft_Package_Freeze.md`의
+  `live 폴더 생성/이동은 금지한다`, `hold reference split으로만 유지한다`는
+  freeze policy wording이었다.
+- `FS_Source_Priority_Register.md`의
+  `증거 판단은 Source Priority가 우선한다`는
+  source-tier rule이었다.
+- source prose patch는 필요하지 않았다.
+
+Integrated actions:
+
+- priority-routing no-change stability confirmation
+- report pair / dispatch log 2026-04-22 one-hundred-seventy-fourth pass 반영
+
+Verification:
+
+- current broad `우선 / 필요 / 가능 / 금지` hits are intentional rule/priority/routing text, not live drift.
+- remaining local changes outside this pass are still the unrelated manifest files.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 residual priority/routing wording은 no-change watch 기준으로 유지한다.
