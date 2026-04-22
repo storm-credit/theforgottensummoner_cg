@@ -266,6 +266,7 @@
 - 2026-04-22 one-hundred-sixty-fourth pass confirmed the remaining `재검토한다` hits in `Section_14_15_Boundary_Verification_Queue.md`, `Section_14_Orphan_Anchors.md`, and `Section_15_Named_Notables_Obelisk_Scout.md` are intentional naming/boundary review notes rather than stale reopen drift; no source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-sixty-fifth pass confirmed the remaining `판단한다` hits in `Section_14_Distributed_Affiliation_Findings.md`, `Section_15_Intake_Priority.md`, `workflow/11_Writer_Engine.md`, and `workflow/15_FS_Lore_Engine.md` are intentional rule/instruction text rather than live drift; no source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-sixty-sixth pass confirmed the remaining broad action-wording hits are only intentional naming-review notes and rule/instruction text; no source prose patch was needed beyond report/log recording
+- 2026-04-22 one-hundred-sixty-seventh pass confirmed residual `hold / deferred / naming_review / anchor_review` wording in ruling, guard, duplicate, intake, and next-target docs is intentional policy/routing text rather than live drift; no source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

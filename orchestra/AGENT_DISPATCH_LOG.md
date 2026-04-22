@@ -13214,3 +13214,52 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 broad residual hit는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Sixty-Seventh Hold-Policy Stability Pass
+
+목적:
+
+- residual `hold / deferred / naming_review / anchor_review` wording이
+  stale live drift인지,
+  아니면 intentional policy/routing text인지 다시 확인한다.
+
+배치:
+
+- conductor local hold-policy stability scout
+
+Conductor action:
+
+- conductor는 residual `hold / deferred / naming_review / anchor_review` wording을
+  대표 문맥으로 다시 읽었다.
+- `FS_Decision_Ruling_Register.md`의
+  `범대륙 후기 확장 = 후순위 유지`는
+  메인 5대륙 안정화 우선 규칙이었다.
+- `Supranational_Deferred_Expansion_Guard.md`의
+  `보존하되 후순위` 문구는
+  deferred expansion guard였다.
+- `Section_15_Duplicate_Verification.md`의
+  `keep 14 / anchor review`, `keep 14 / naming review`는
+  orphan duplicate 경계 판정 메모였다.
+- `Section_15_Intake_Priority.md`의
+  `existing 14 보류 유지` 문구는
+  intake hold policy였다.
+- `Section_8_Next_Audit_Targets.md`의
+  `범대륙 후기 확장 = 후순위` 문구는
+  deferred-expansion track 설명이었다.
+- source prose patch는 필요하지 않았다.
+
+Integrated actions:
+
+- hold-policy no-change stability confirmation
+- report pair / dispatch log 2026-04-22 one-hundred-sixty-seventh pass 반영
+
+Verification:
+
+- remaining hold-policy wording is intentional policy/routing text, not live drift.
+- remaining local changes outside this pass are still the unrelated manifest files.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 residual hold-policy wording은 no-change watch 기준으로 유지한다.

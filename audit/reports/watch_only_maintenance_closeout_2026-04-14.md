@@ -5598,3 +5598,42 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   naming-review note 또는 rule/instruction text로만 남아 있다.
 - 이후 새 local drift가 생기기 전까지
   같은 broad residual hit는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Sixty-Seventh Hold-Policy Stability Pass
+
+목적:
+
+- residual `hold / deferred / naming_review / anchor_review` wording이
+  stale live drift인지,
+  아니면 intentional policy/routing text인지 다시 확인한다.
+
+확인 결과:
+
+- `FS_Decision_Ruling_Register.md`의
+  `범대륙 후기 확장 = 후순위 유지`는
+  메인 5대륙 안정화 우선 규칙이었다.
+- `Supranational_Deferred_Expansion_Guard.md`의
+  `보존하되 후순위` 문구는
+  deferred expansion guard였다.
+- `Section_15_Duplicate_Verification.md`의
+  `keep 14 / anchor review`, `keep 14 / naming review`는
+  orphan duplicate 경계 판정 메모였다.
+- `Section_15_Intake_Priority.md`의
+  `existing 14 보류 유지` 문구는
+  intake hold policy였다.
+- `Section_8_Next_Audit_Targets.md`의
+  `범대륙 후기 확장 = 후순위` 문구는
+  deferred-expansion track 설명이었다.
+
+조치:
+
+- source prose patch 없이
+  residual hold-policy wording이 모두 intentional policy/routing text라는 판정만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 현재 남은 `보류 / 후순위 / naming_review / anchor_review` 계열 문구는
+  stale drift가 아니라 policy/routing text다.
+- 이후 새 local drift가 생기기 전까지
+  같은 residual hold-policy wording은 no-change watch 기준으로 유지하면 된다.
