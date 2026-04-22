@@ -78,3 +78,9 @@
 각 명사형 인물은 반드시 장소 기능과 연결되어야 한다.
 장소 기능이 없으면 그 인물은 세계를 깊게 만드는 NPC가 아니라
 이름만 있는 설정으로 남을 위험이 있다.
+
+## Sidecar Authority Guard
+
+- 이 sidecar는 continent sidecar/scout/display wording umbrella의 일부이며,
+  lower current-state watch/reference authority로만 읽는다.
+- 이 sidecar가 place/institution owner나 candidate build queue를 새로 만들지 않는다.

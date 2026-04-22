@@ -12067,3 +12067,45 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 People Worth Seeking family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Fortieth Sidecar-Authority Continent-Sidecar Realignment Pass
+
+목적:
+
+- sidecar authority family가
+  continent sidecar/scout/display umbrella 안에서
+  lower current-state watch/reference authority로만 작동하는지 정렬한다.
+
+배치:
+
+- conductor local sidecar-authority realignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Frost_Place_Institution_Sidecar.md`,
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`,
+  `Section_15_Ether_Place_Institution_Sidecar.md`,
+  `Section_15_Obelisk_Place_Institution_Sidecar.md`,
+  `Section_15_Crimson_Place_Sidecar.md`
+  를 먼저 스캔했다.
+- Frost sidecar에 남아 있던 구형 상태어 `place_style`를
+  현재 vocabulary인 `section_style_reclassify` 문맥으로 교체했다.
+- sidecar family 5문서에 `Sidecar Authority Guard`를 추가해
+  각 sidecar가 continent sidecar/scout/display wording umbrella의 일부이며
+  lower current-state watch/reference authority로만 읽힌다고 고정했다.
+
+Integrated actions:
+
+- sidecar-authority continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-fortieth pass 반영
+
+Verification:
+
+- the sidecar authority family now explicitly treats itself as lower current-state watch/reference authority.
+- the remaining Frost `place_style` wording was removed from this family.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 sidecar authority family는 no-change watch 기준으로 유지한다.

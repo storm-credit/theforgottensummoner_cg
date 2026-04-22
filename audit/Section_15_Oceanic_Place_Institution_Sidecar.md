@@ -94,6 +94,12 @@
 5. `바다의 교단` 관련 `P2 place pressure`의 주 기록처는 이 sidecar다.
 6. 성지, 섬, 파도 신앙, 혈연 어휘가 보여도 토착 공동체 본체 증거로 승격하지 않는다.
 
+## Sidecar Authority Guard
+
+- 이 sidecar는 continent sidecar/scout/display wording umbrella의 일부이며,
+  lower current-state watch/reference authority로만 읽는다.
+- 이 sidecar가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Conductor Note
 
 해양은 인물 후보를 먼저 확정하면 `14 영웅백과`와 충돌할 가능성이 높다.

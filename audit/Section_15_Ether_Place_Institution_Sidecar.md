@@ -146,6 +146,12 @@
 | `지식수호장` | `대서고 수호장` | `preferred_display_candidate` |
 | `영묘 이름새김꾼` | `정령묘 이름새김꾼` | `preferred_display_candidate` |
 
+## Sidecar Authority Guard
+
+- 이 sidecar는 continent sidecar/scout/display wording umbrella의 일부이며,
+  lower current-state watch/reference authority로만 읽는다.
+- 이 sidecar가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Conductor Note
 
 에테르는 `세계관 명사형 영웅`이 가장 잘 자랄 수 있는 대륙이지만,

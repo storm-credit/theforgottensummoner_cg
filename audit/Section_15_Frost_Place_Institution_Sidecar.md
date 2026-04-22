@@ -93,10 +93,16 @@
 1. `오로라 평원`은 `memory_site + sanctuary` 압력이 강한 `P2` 후보다.
 2. `빙하의 성소`는 `sanctuary + ritual-validation` 압력이 강한 `P2` 후보다.
 3. 하지만 이 두 장소 압력을 근거로
-   `프로스트본 연합` 전체 구조를 `place_style`로 승격하지 않는다.
+   `프로스트본 연합` 전체 구조를 `section_style_reclassify` 대상으로 재판정하지 않는다.
 4. 즉 프로스트에서는 `클랜/생존경제 spine`과 `성소/전승 장소망`을 분리 기록한다.
 5. 이 두 장소의 `P2 place pressure` 주 기록처는 이 sidecar이고,
    `Section_8_Frost_Notable_Anchor_Audit.md`는 anchor projection 보조 문서로만 쓴다.
+
+## Sidecar Authority Guard
+
+- 이 sidecar는 continent sidecar/scout/display wording umbrella의 일부이며,
+  lower current-state watch/reference authority로만 읽는다.
+- 이 sidecar가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
 
 ## Conductor Note
 

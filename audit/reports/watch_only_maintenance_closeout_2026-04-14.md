@@ -4676,3 +4676,39 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지한다.
 - 이후 새 local drift가 생기기 전까지
   같은 People Worth Seeking family는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Fortieth Sidecar-Authority Continent-Sidecar Realignment Pass
+
+목적:
+
+- sidecar authority family인
+  `Section_15_Frost_Place_Institution_Sidecar.md`,
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`,
+  `Section_15_Ether_Place_Institution_Sidecar.md`,
+  `Section_15_Obelisk_Place_Institution_Sidecar.md`,
+  `Section_15_Crimson_Place_Sidecar.md`
+  가 continent sidecar/scout/display umbrella 안에서
+  lower current-state watch/reference authority로만 작동하는지 정렬한다.
+
+확인 결과:
+
+- Frost sidecar에는 구형 상태어 `place_style`가 한 줄 남아 있었다.
+- sidecar family는 place/institution pressure를 보존하는 주 기록처 역할은 유지하고 있었지만,
+  sidecar 자체가 새 owner나 candidate build queue를 만들지 않는다는 권한선을 아직 직접 적지 않았다.
+
+조치:
+
+- `Section_15_Frost_Place_Institution_Sidecar.md`의 남은 `place_style` 표현을
+  현재 vocabulary인 `section_style_reclassify` 문맥으로 교체했다.
+- sidecar family 5문서에 `Sidecar Authority Guard`를 추가해
+  각 sidecar가 continent sidecar/scout/display wording umbrella의 일부이며
+  lower current-state watch/reference authority로만 읽힌다고 고정했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- sidecar authority family도 이제
+  place/institution pressure를 보존하되
+  새 owner 결정축이나 candidate build queue로 상승하지 않는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 sidecar authority family는 no-change watch 기준으로 유지하면 된다.

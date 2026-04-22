@@ -93,6 +93,12 @@
    `FS_Place_Function_Register.md`이고,
    이 sidecar는 주변 place/institution context만 보조한다.
 
+## Sidecar Authority Guard
+
+- 이 sidecar는 continent sidecar/scout/display wording umbrella의 일부이며,
+  lower current-state watch/reference authority로만 읽는다.
+- 이 sidecar가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+
 ## Conductor Note
 
 오벨리스크는 지금 인물을 확정하면 과하게 어두운 초월 서사로 밀릴 위험이 있다.
