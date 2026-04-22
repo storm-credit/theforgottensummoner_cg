@@ -12612,3 +12612,45 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 mixed-exception family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Fifty-Third Mismatch Follow-Up Closure Alignment Pass
+
+목적:
+
+- mixed-exception / spine-mismatch follow-up layer가
+  완료된 후속 작업을 `다음 실제 패스`처럼 다시 열지 않도록
+  closed watch-reference 문구로 정렬한다.
+
+배치:
+
+- conductor local mismatch-follow-up closure scout
+
+Conductor action:
+
+- conductor는 `Section_8_Mixed_Exception_Review_Queue.md`,
+  `Section_8_Spine_Mismatch_First_Pass_A.md`,
+  `Section_8_Spine_Mismatch_First_Pass_B.md`
+  를 스캔했다.
+- 세 문서에 후속 작업을 여는 듯한 `다음 실제 패스` 문구가 남아 있었다.
+- same layer 안에 residual plain `mixed`와 `place_style` search noise도 일부 남아 있었다.
+- `다음 실제 패스` 문구는 closed watch-reference 재점검선으로 바꾸고,
+  `mixed -> section_style` 표현은
+  `legacy_mixed -> section_style_reclassify`로 정리했다.
+- remaining `place_style` references는
+  place-pressure structure 또는 `place_pressure_flattened_to_section_style`로 낮췄다.
+
+Integrated actions:
+
+- mixed-exception / spine-mismatch follow-up closure alignment
+- report pair / dispatch log 2026-04-22 one-hundred-fifty-third pass 반영
+
+Verification:
+
+- targeted follow-up docs no longer contain `다음 실제 패스`, plain `mixed`, or `place_style` hits.
+- the follow-up layer now reads as closed watch-reference rather than reopened work.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 follow-up layer는 no-change watch 기준으로 유지한다.

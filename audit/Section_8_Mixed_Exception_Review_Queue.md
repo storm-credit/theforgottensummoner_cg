@@ -45,7 +45,7 @@
 1. `정령연합`, `붉은 사막 부족 연합`, `프로스트본 연합`, `해적 연합`은 `mixed_keep`
 2. `잊힌 자들의 연합`은 `section_style_reclassify`
 
-다음 실제 패스는
-`Section_8_Spine_Mismatch_Queue.md` 기준으로
+현재는
+`Section_8_Spine_Mismatch_Queue.md` 기준의 확인도 닫힌 watch-reference로 유지하며,
 재분류된 구조 라벨과 대륙 spine 해석이
-서로 충돌 없이 유지되는지 확인하는 것이다.
+서로 충돌 없이 유지되는지만 재점검한다.

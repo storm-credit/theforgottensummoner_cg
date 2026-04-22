@@ -5013,6 +5013,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   같은 family는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Fifty-Third Mismatch Follow-Up Closure Alignment Pass
+
+목적:
+
+- mixed-exception / spine-mismatch follow-up layer가
+  완료된 후속 작업을 `다음 실제 패스`처럼 다시 열지 않도록
+  closed watch-reference 문구로 정렬한다.
+
+확인 결과:
+
+- `Section_8_Mixed_Exception_Review_Queue.md`,
+  `Section_8_Spine_Mismatch_First_Pass_A.md`,
+  `Section_8_Spine_Mismatch_First_Pass_B.md`
+  에 후속 작업을 여는 듯한 `다음 실제 패스` 문구가 남아 있었다.
+- 같은 문서군 안에 residual plain `mixed`와 `place_style` search noise도 일부 남아 있었다.
+
+조치:
+
+- `다음 실제 패스` 문구를 closed watch-reference 재점검선으로 바꿨다.
+- `mixed -> section_style` 표현은
+  `legacy_mixed -> section_style_reclassify`로 정리했다.
+- remaining `place_style` references는
+  place-pressure structure 또는 `place_pressure_flattened_to_section_style`로 낮췄다.
+
+의미:
+
+- mixed-exception / spine-mismatch follow-up layer는
+  새 pass를 여는 queue가 아니라 닫힌 watch-reference로 유지된다.
+- 이후 새 local drift가 생기기 전까지
+  같은 follow-up layer는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Ninth Section-8 Bridge Stability Pass
 
 목적:

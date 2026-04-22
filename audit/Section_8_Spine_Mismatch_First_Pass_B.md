@@ -89,7 +89,7 @@
 ### Risk
 
 - risk category: `port_power_as_tribe_clan`
-- previous structure label: `place_style`
+- previous structure label: `legacy place-style`
 - root grammar re-read: `section_style`
 - current continent spine: `state_house adjacent / guild_market support`
 
@@ -108,7 +108,7 @@
 
 그리고 구조 라벨 쪽에서도
 실제 루트 문법은 공통 번호 섹션이 먼저 서므로
-`place_style`보다 `section_style`로 읽는 편이 더 정확하다.
+place-pressure structure보다 `section_style`로 읽는 편이 더 정확하다.
 
 ### Conductor Judgment
 
@@ -124,7 +124,7 @@
 ### Risk
 
 - risk category: `nontraditional_elite_as_state_house`
-- previous structure label: `place_style`
+- previous structure label: `legacy place-style`
 - root grammar re-read: `section_style`
 - current continent spine: `frontier_survival + guild_market`
 
@@ -143,7 +143,7 @@
 
 그리고 구조 라벨 쪽에서도
 실제 루트 문법은 공통 번호 섹션이 먼저 서므로
-`place_style`보다 `section_style`가 더 정확하다.
+place-pressure structure보다 `section_style`가 더 정확하다.
 
 ### Conductor Judgment
 
@@ -158,8 +158,8 @@
 
 ### Risk
 
-- risk category: `place_style_flattened_to_section_style`
-- previous structure label: `place_style`
+- risk category: `place_pressure_flattened_to_section_style`
+- previous structure label: `legacy place-style`
 - root grammar re-read: `section_style`
 - current continent spine: `frontier_survival`
 
@@ -172,13 +172,13 @@
 하지만 현재 루트에서 실제로 확인되는 건 아래다.
 
 1. 최상단 문법은 공통 번호 섹션형이다
-2. 장소 밀도는 높지만 `place_style`이 평탄화된 흔적은 확인되지 않는다
+2. 장소 밀도는 높지만 place-pressure structure가 평탄화된 흔적은 확인되지 않는다
 3. 따라서 여기서 관리해야 하는 건
    `place pressure strong`이지 `flattened mismatch`가 아니다
 
 즉 이 세력은
 장소 압력이 강한 `section_style` 세력이지,
-현재 증거만으로는 `place_style`에서 잘못 눌린 사례가 아니다.
+현재 증거만으로는 place-pressure structure에서 잘못 눌린 사례가 아니다.
 
 ### Conductor Judgment
 
@@ -197,7 +197,7 @@
 | `붉은 사막 부족 연합` | `clan_as_state_house` | `mixed_keep` | `tribe_clan + guild_market` | `mismatch_keep` | 부족장 상층과 상업 부족장을 정통 가문 정치로 읽지 않기 |
 | `바다의 교단` | `port_power_as_tribe_clan` | `section_style_reclassify` | `state_house adjacent / guild_market support` | `mismatch_keep` | 성지/항로/교단 권위를 토착 공동체 근거로 읽지 않기 |
 | `망자의 왕국` | `nontraditional_elite_as_state_house` | `section_style_reclassify` | `frontier_survival + guild_market` | `mismatch_keep` | 기억 귀족과 궁정 표현을 전통 귀족국가 근거로 승격하지 않기 |
-| `봉인 수호단` | `place_style_flattened_to_section_style` | `section_style_reclassify` | `frontier_survival` | `mismatch_clear` | 장소 압력은 강하지만 flattening mismatch 증거는 현재 없음 |
+| `봉인 수호단` | `place_pressure_flattened_to_section_style` | `section_style_reclassify` | `frontier_survival` | `mismatch_clear` | 장소 압력은 강하지만 flattening mismatch 증거는 현재 없음 |
 
 ## Conductor Decision
 
@@ -205,9 +205,9 @@
 
 1. `clan_as_state_house`는 크림슨에서 계속 강한 `P1` 경계로 유지한다
 2. `port_power_as_tribe_clan`, `nontraditional_elite_as_state_house`도 구조 라벨과 분리해 계속 감시한다
-3. `봉인 수호단`은 `place pressure strong`과 `place_style`을 분리해
+3. `봉인 수호단`은 `place pressure strong`과 place-pressure structure를 분리해
    active mismatch에서는 내리고 구조 라벨만 바로잡는다
 
 따라서 남은 `P1 mismatch` 1차 사이클은 닫고,
-다음 실제 패스는 `P0 root_corruption` 비교와
-`P2 section_style_forced_on_place_network` 분리를 우선한다.
+현재는 `P0 root_corruption` 비교와
+`P2 section_style_forced_on_place_network` 분리를 watch-reference로만 유지한다.
