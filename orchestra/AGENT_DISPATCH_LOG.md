@@ -12407,3 +12407,45 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 summary/index gate는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Forty-Eighth Section-8 Bridge Lower-Authority Phrase Alignment Pass
+
+목적:
+
+- Section 8/bridge/workstream gate가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority 문구로 읽는지 정렬한다.
+
+배치:
+
+- conductor local section-8 bridge phrase-alignment scout
+
+Conductor action:
+
+- conductor는 `Next_Sequential_Workstream.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  `Section_8_to_15_Notable_Anchor_Bridge.md`
+  를 먼저 스캔했다.
+- 5문서 모두 umbrella를 새 owner axis나 candidate build queue로 승격하지는 않았지만,
+  일부 문장이 `current-state watch/reference closure` 또는
+  `lower watch/reference authority`라는 이전 shorthand를 쓰고 있었다.
+- 해당 shorthand를 모두
+  `lower current-state watch/reference authority`로 통일했다.
+
+Integrated actions:
+
+- Section 8/bridge/workstream gate lower-authority phrase alignment
+- report pair / dispatch log 2026-04-22 one-hundred-forty-eighth pass 반영
+
+Verification:
+
+- the Section 8/bridge/workstream gate now uses the exact lower current-state watch/reference authority wording.
+- the continent sidecar/scout/display umbrella is not promoted into a canonical state label, owner axis, or candidate build queue.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 Section 8/bridge/workstream gate는 no-change watch 기준으로 유지한다.

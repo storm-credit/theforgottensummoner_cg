@@ -4881,6 +4881,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   같은 summary/index gate는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Forty-Eighth Section-8 Bridge Lower-Authority Phrase Alignment Pass
+
+목적:
+
+- Section 8/bridge/workstream gate가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority 문구로 읽는지 정렬한다.
+
+확인 결과:
+
+- `Next_Sequential_Workstream.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  `Section_8_to_15_Notable_Anchor_Bridge.md`
+  에 이전 shorthand가 남아 있었다.
+- 해당 문장들은 umbrella를 새 build queue나 owner axis로 열지는 않았지만,
+  Section 15 쪽과 같은 exact phrase를 쓰지는 않았다.
+
+조치:
+
+- 5문서의 `current-state watch/reference closure`와
+  `lower watch/reference authority` shorthand를
+  `lower current-state watch/reference authority`로 통일했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- Section 8/bridge/workstream gate도 이제
+  continent sidecar/scout/display umbrella를
+  닫힌 lower current-state watch/reference authority로 같은 이름 아래 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 gate는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Seventh Summary-Gate Stability Pass
 
 목적:

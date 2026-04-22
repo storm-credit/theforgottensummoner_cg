@@ -247,6 +247,7 @@
 - 2026-04-22 one-hundred-forty-fifth pass confirmed the residual route/synthesis/search/vocabulary reference layer stays aligned after the continent-sidecar umbrella realignment; no further source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-forty-sixth pass updated `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_15_Named_Notables_Status_Compass.md`, and `Section_15_Stable_Candidate_8_Anchor_Index.md` so the remaining summary/index gates now use the exact `lower current-state watch/reference authority` phrasing instead of the older closure shorthand
 - 2026-04-22 one-hundred-forty-seventh pass confirmed the summary/index gate stays aligned after the lower-authority phrase alignment; no further source prose patch was needed beyond report/log recording
+- 2026-04-22 one-hundred-forty-eighth pass updated `Next_Sequential_Workstream.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_8_Mainline_Sync_Register.md`, and `Section_8_to_15_Notable_Anchor_Bridge.md` so the Section 8/bridge/workstream gate also uses the exact `lower current-state watch/reference authority` phrasing
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

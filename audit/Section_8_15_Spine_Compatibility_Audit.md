@@ -88,7 +88,7 @@ operational lower-card carryover reference로만 유지한다.
    compatibility audit은 그 closure 상태를 People Worth Seeking spine 판정과 분리해 읽는다.
 8. continent sidecar/scout/display wording umbrella는
    Frost / Oceanic / Ether / Obelisk family 모두
-   current-state watch/reference closure로만 읽고,
+   lower current-state watch/reference authority로만 읽고,
    spine 호환성 표에서 새 candidate build queue로 재상승시키지 않는다.
 
 ## Foldering Gate Result
@@ -113,5 +113,5 @@ operational lower-card carryover reference로만 유지한다.
 7. People Worth Seeking coverage 표와 bridge 요약은 `Section_15_Subline_Profile_*` 카드가 잠근
    `3-1. Policy Guard`도 같은 lower-card authority로 존중하는 상위 reference층으로만 유지한다.
 8. continent sidecar/scout/display wording umbrella는
-   lower watch/reference authority로만 유지하고,
+   lower current-state watch/reference authority로만 유지하고,
    stable/hold spine 호환성 판정을 덮어쓰지 않는다.

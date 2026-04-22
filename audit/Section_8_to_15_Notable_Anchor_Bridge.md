@@ -106,7 +106,7 @@ sidecar/register handoff를 먼저 존중한다.
     `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 12. continent sidecar/scout/display wording umbrella는
     Frost / Oceanic / Ether / Obelisk family 모두
-    current-state watch/reference closure로만 읽고,
+    lower current-state watch/reference authority로만 읽고,
     새 routing build나 stable candidate discovery 근거로 승격하지 않는다.
 
 ## Card Layer Separation
@@ -125,4 +125,4 @@ sidecar/register handoff를 먼저 존중한다.
 `stable_triad_frozen_reference_set`은 이미 닫혀 있으므로 다시 열지 않는다.
 현재는 폴더 draft reference 구조를 문서 레벨 watch-reference 층에서만 유지한다.
 continent sidecar/scout/display wording umbrella도
-lower watch/reference authority로만 유지한다.
+lower current-state watch/reference authority로만 유지한다.

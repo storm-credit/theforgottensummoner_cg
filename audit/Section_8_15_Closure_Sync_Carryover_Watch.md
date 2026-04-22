@@ -82,7 +82,7 @@
     새 evidence가 들어오기 전까지는 root / structure / mismatch / P2 handoff watch를 우선한다.
 14. continent sidecar/scout/display wording umbrella는
     Frost / Oceanic / Ether / Obelisk family 모두
-    current-state watch/reference closure로 유지하고,
+    lower current-state watch/reference authority로 유지하고,
     새 build queue처럼 다시 열지 않는다.
 
 ## Watch Table
@@ -95,7 +95,7 @@
 | `Section 8 carryover` | `bridge_locked` | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md` | 구조 라벨과 후보 상태 혼용 | structure label과 place pressure 분리 |
 | `lower-card authority` | `separated_and_respected` | `Section_15_Named_Notables_Register.md`, `Section_15_Profile_Draft_Index.md`, `Section_15_Profile_*`, `Section_15_Subline_Profile_*` | 상위 summary가 하위 `3-1. Policy Guard`를 재정의하는 것 | register/index는 비교 문서로만 쓰고, exact wording source는 각 profile/subline profile 카드에 남긴다 |
 | `P2 place-pressure` | `handoff_applied` | `Section_8_Place_Network_Handoff_Map.md` | candidate index나 summary에 place owner를 재정의하는 것 | owner는 sidecar/register만 가진다 |
-| `continent sidecar/scout/display umbrella` | `closed_watch_reference` | `Section_15_Frost_Place_Institution_Sidecar.md`, `Section_15_Oceanic_Place_Institution_Sidecar.md`, `Section_15_Ether_Place_Institution_Sidecar.md`, `Section_15_Obelisk_Place_Institution_Sidecar.md` | 닫힌 sidecar/scout/display wording umbrella를 future-only build queue처럼 다시 여는 것 | current-state watch/reference closure로만 유지한다 |
+| `continent sidecar/scout/display umbrella` | `closed_watch_reference` | `Section_15_Frost_Place_Institution_Sidecar.md`, `Section_15_Oceanic_Place_Institution_Sidecar.md`, `Section_15_Ether_Place_Institution_Sidecar.md`, `Section_15_Obelisk_Place_Institution_Sidecar.md` | 닫힌 sidecar/scout/display wording umbrella를 future-only build queue처럼 다시 여는 것 | lower current-state watch/reference authority로만 유지한다 |
 | `root / deferred axis` | `guarded` | `Section_8_Normalization_Status_Compass.md` | 범대륙 후기 확장을 메인 본선처럼 재상승 | deferred routing만 유지 |
 | `missing-layer master lock` | `closed_component_set` | `Five_Continent_Missing_Layer_Master_Lock.md` | component shorthand가 단일 entry authority처럼 재상승하는 것 | master lock 아래 component set으로만 유지 |
 
@@ -128,7 +128,7 @@
 7. `Section_8_Place_Network_Handoff_Map.md`와 sidecar/register owner를 대조해 `P2 place-pressure` owner drift가 없는지 확인한다.
 8. continent sidecar/scout/display wording umbrella가
    Frost / Oceanic / Ether / Obelisk family 모두에서
-   current-state watch/reference closure로 유지되는지 확인한다.
+   lower current-state watch/reference authority로 유지되는지 확인한다.
 9. `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Continuous_Workstream.md`에서 본선 reference가 같은 순서로 적혀 있는지 확인한다.
 10. `Section_15_Named_Notables_Register.md`와 `Section_15_Profile_Draft_Index.md`를 대조해 lower-card authority가 summary에 재정의되지 않는지 확인한다.
 11. `Section_15_Subline_Draft_*`와 `Section_15_Subline_Profile_*`는

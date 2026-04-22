@@ -91,7 +91,7 @@ reference 순서표로 보여주는 진행표다.
 8. named-notables mainline umbrella
    (`core hub / card-template / search-batch / frozen sample`) closure 상태
 9. bridge-anchor adjacent layer와 spine-index layer의 no-change stability 상태
-10. continent sidecar/scout/display wording umbrella의 current-state watch/reference closure 상태
+10. continent sidecar/scout/display wording umbrella의 lower current-state watch/reference authority 상태
 
 ## Conditional Backlog
 
