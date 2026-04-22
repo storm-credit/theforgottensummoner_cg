@@ -63,7 +63,7 @@ historical family 문서에서 아래 표현은
 - `다음 실제 배치`
 - `다음 메인 본선`
 - `Immediate Actions`
-- `Next Action`
+- `Next-Action` heading
 - `1차 마감`
 - `2차 narrowing`
 - `post-push`

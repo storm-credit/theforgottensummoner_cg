@@ -12815,3 +12815,49 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 전체 source vocabulary surface는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Fifty-Eighth Next-Action Surface Closure Pass
+
+목적:
+
+- reports-excluded audit/workflow source에 남은
+  stale `next action / next work` 표면어가
+  새 실행선처럼 보이지 않도록 current reference/watch backlog로 정렬한다.
+
+배치:
+
+- conductor local next-action surface closure scout
+
+Conductor action:
+
+- conductor는 reports-excluded audit/workflow source에서
+  `다음 작업은`, `Next Action`, `Next Read-Only Targets`,
+  `recommended_next`, `다음 실제 패스` 계열 잔존 여부를 좁혀 확인했다.
+- `House_Clan_Guild_First_Pass.md`,
+  `Operational_Display_Guard_Audit.md`,
+  `Race_Species_First_Pass.md`,
+  `Supranational_Deferred_Expansion_Guard.md`,
+  `Historical_Batch_Reading_Guard.md`,
+  `Section_8_Structure_Label_Map_First_Pass.md`,
+  `Surface_Naming_Audit_Findings.md`
+  에 next-action 계열 표면어가 남아 있었다.
+- `Operational_Display_Guard_Audit.md`의 guard 결과는
+  이미 `Section_15_Index_Draft.md` Operational Lines guard에 반영돼 있음을 확인했다.
+- stale next-action wording을
+  current reference/watch backlog wording으로 낮췄다.
+
+Integrated actions:
+
+- next-action surface source closure
+- report pair / dispatch log 2026-04-22 one-hundred-fifty-eighth pass 반영
+
+Verification:
+
+- reports-excluded source scan now returns zero hits for `다음 작업은`, `Next Action`, `Next Read-Only Targets`, `recommended_next`, and `다음 실제 패스`.
+- source now presents those layers as current reference/watch backlog rather than reopened work.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 next-action surface는 no-change watch 기준으로 유지한다.

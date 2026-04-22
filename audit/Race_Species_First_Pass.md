@@ -118,9 +118,9 @@
 3. 사회 앵커가 있다고 바로 종족으로 읽지 않는다.
 4. `하피`, `라미아`, `수중 문명`, `용인 순혈`, `거인족`은 `reserved` 또는 `open question`으로 유지한다.
 
-## Next Read-Only Targets
+## Read-Only Watch Targets
 
-- `해양` 문서에서 merfolk/sea-native civilization 증거가 실제로 얼마나 반복되는지 점검
-- `오벨리스크` import에서 언데드 내부 계층이 `state`를 넘는 peoplehood를 갖는지 점검
-- `요정`의 `정령연합 내부 공동체`가 전역 standalone species dossier로 확장 가능한지 점검
-- `오크`, `고블린`, `라미아`, `나가`의 안정적 공동체 근거가 실제로 있는지 점검
+- `해양` 문서에서 merfolk/sea-native civilization 증거가 실제로 얼마나 반복되는지는 read-only watch로만 유지
+- `오벨리스크` import에서 언데드 내부 계층이 `state`를 넘는 peoplehood를 갖는지는 read-only watch로만 유지
+- `요정`의 `정령연합 내부 공동체`가 전역 standalone species dossier로 확장 가능한지는 read-only watch로만 유지
+- `오크`, `고블린`, `라미아`, `나가`의 안정적 공동체 근거는 read-only watch로만 유지

@@ -5264,3 +5264,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지된다.
 - 이후 새 local drift가 생기기 전까지
   같은 residual reference layer는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Fifty-Eighth Next-Action Surface Closure Pass
+
+목적:
+
+- reports-excluded audit/workflow source에 남은
+  stale `next action / next work` 표면어가
+  새 실행선처럼 보이지 않도록 current reference/watch backlog로 정렬한다.
+
+확인 결과:
+
+- `House_Clan_Guild_First_Pass.md`,
+  `Operational_Display_Guard_Audit.md`,
+  `Race_Species_First_Pass.md`,
+  `Supranational_Deferred_Expansion_Guard.md`,
+  `Historical_Batch_Reading_Guard.md`,
+  `Section_8_Structure_Label_Map_First_Pass.md`,
+  `Surface_Naming_Audit_Findings.md`
+  에 next-action 계열 표면어가 남아 있었다.
+- `Operational_Display_Guard_Audit.md`의 guard 결과는
+  이미 `Section_15_Index_Draft.md` Operational Lines guard에 반영돼 있었다.
+
+조치:
+
+- stale next-action wording을
+  `current reference`, `read-only watch`, `watch-reference`,
+  `Current Handling`, `Current Reference Backlog`로 낮췄다.
+- historical batch guard의 `Next Action` 표현은
+  실행 명령이 아니라 historical heading pattern으로 읽히게 정리했다.
+
+의미:
+
+- reports-excluded source scan에서
+  `다음 작업은`, `Next Action`, `Next Read-Only Targets`,
+  `recommended_next`, `다음 실제 패스` 계열 hit가 0건이 됐다.
+- 이후 새 local drift가 생기기 전까지
+  next-action surface는 no-change watch 기준으로 유지하면 된다.

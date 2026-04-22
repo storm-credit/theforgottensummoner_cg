@@ -63,4 +63,4 @@
 
 Operational Lines 표면명 후보는 계속 사용 가능하다.
 
-다음 작업은 `Section_15_Index_Draft`에 guard 결과를 반영하는 것이다.
+이 guard 결과는 `Section_15_Index_Draft`의 Operational Lines guard에 반영된 상태로 읽는다.

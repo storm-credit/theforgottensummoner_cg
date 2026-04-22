@@ -13,7 +13,7 @@
 
 ## First Pass Table
 
-| Candidate | Root Label | Continent Spine | Structure Label | Pressure State | Mismatch Watch | Next Action |
+| Candidate | Root Label | Continent Spine | Structure Label | Pressure State | Mismatch Watch | Current Handling |
 |---|---|---|---|---|---|---|
 | `성국 (Saint Haven)` | `canonical_root` | `state_house + guild_market` | `section_style` | `low` | `low` | 공통 섹션형 표준 샘플로 유지 |
 | `왕국연합 (Allied Kingdoms)` | `canonical_root` | `state_house + guild_market` | `section_style` | `low` | `low` | 에테르 표준 section형 샘플로 유지 |

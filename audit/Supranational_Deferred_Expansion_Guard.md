@@ -53,7 +53,8 @@
 3. 장소-기관 슬롯 색인화
 4. 이후 범대륙 확장 재설계
 
-## Next Action
+## Current Watch Reading
 
-다음 작업은 `8번 세력 아카이브`의 범대륙 루트 자체를
-정본 이동 없이 `display canon / deferred expansion` 관점으로 다시 읽는 것이다.
+현재는 `8번 세력 아카이브`의 범대륙 루트 자체를
+정본 이동 없이 `display canon / deferred expansion` 관점의
+watch-reference로만 유지한다.

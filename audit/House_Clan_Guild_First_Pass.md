@@ -122,7 +122,7 @@
 이 문서는 이제 `결손층을 새로 발명하는 출발점`이 아니라
 `어느 대륙의 얇은 층이 어떤 정책 범위로 잠겼는지`를 확인하는 기준표로 읽는다.
 
-즉 다음 작업은:
+즉 현재 reference 유지선은:
 
 1. 에테르 outside `정령연합` 부족층을 `frontier echo / border support` 범위 안에서만 수집
 2. 크림슨의 국가형 가문층을 `씨족형 지배층과 분리된 thin-support` 범위 안에서만 수집
@@ -131,7 +131,7 @@
 5. 해양의 토착 공동체층을 `support range` 안에서만 보존
 
 즉 결손층은 `확장 과제`가 아니라
-이미 잠근 정책 범위 안에서 증거를 더 모으는 후속 과제로 본다.
+이미 잠근 정책 범위 안에서만 증거를 해석하는 watch-reference 기준으로 본다.
 
 이때 admissible evidence class와 reject class는
 `audit/Five_Continent_Missing_Layer_Evidence_Register.md`를 기준으로 읽는다.
