@@ -125,6 +125,11 @@
 13. `결손층 5개`의 thin/support 판정과 overread firewall은
     이 상태어 장부가 새로 정의하지 않고,
     `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
+14. continent sidecar/scout/display wording umbrella와
+    lower current-state watch/reference authority 문장은 canonical state가 아니라
+    prose authority guard다.
+15. 이 상태어 장부는 해당 umbrella를 새 state label, place/institution owner,
+    candidate build queue로 만들지 않는다.
 
 ## Legacy Mapping
 

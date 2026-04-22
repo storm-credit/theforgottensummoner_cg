@@ -12240,3 +12240,45 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 frozen/hold reference layer는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Forty-Fourth Residual-Reference Continent-Sidecar Realignment Pass
+
+목적:
+
+- residual route/synthesis/search/vocabulary reference layer가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+배치:
+
+- conductor local residual-reference realignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Named_Notables_Continent_Synthesis.md`,
+  `Section_15_Oceanic_Named_Candidate_Search_Queue.md`,
+  `Section_15_State_Vocabulary_Guard.md`
+  를 먼저 스캔했다.
+- 4문서 모두 route, synthesis, read-only search, vocabulary guard 기준층 역할은 유지하고 있었지만,
+  continent sidecar/scout/display umbrella lower-authority rule은 아직 명시되지 않았다.
+- `Section_15_State_Vocabulary_Guard.md`에는
+  umbrella와 lower-authority 문장이 canonical state가 아니라 prose authority guard라는 구분을 추가했다.
+- 나머지 residual reference 문서에는 lower-authority guard를 추가해
+  새 owner 결정축이나 candidate build queue를 만들지 않는다고 고정했다.
+
+Integrated actions:
+
+- residual-reference continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-forty-fourth pass 반영
+
+Verification:
+
+- the residual reference layer now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority.
+- the umbrella is not promoted into a canonical state label, owner axis, or candidate build queue.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 residual reference layer는 no-change watch 기준으로 유지한다.

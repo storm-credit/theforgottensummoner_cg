@@ -195,6 +195,9 @@ reference backlog용 슬롯 색인이다.
   개별 operational profile의 정확한 guard 문장을 대신 정의하지 않는다.
 - exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
   `3-1. Policy Guard`에 남고, 이 구조 초안은 그 wording source를 구조 설계층에서만 참조한다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 folder structure draft가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
 
 ```text
 Need Named Candidate Slots

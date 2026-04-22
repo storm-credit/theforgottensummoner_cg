@@ -11,6 +11,11 @@ continent synthesis reading은
 `Section_15_Index_Draft.md`,
 `Section_15_Named_Notables_Anchor_Map.md`,
 `Section_8_to_15_Notable_Anchor_Bridge.md`,
+`Section_15_Frost_Place_Institution_Sidecar.md`,
+`Section_15_Oceanic_Place_Institution_Sidecar.md`,
+`Section_15_Ether_Place_Institution_Sidecar.md`,
+`Section_15_Obelisk_Place_Institution_Sidecar.md`,
+`Section_15_Crimson_Place_Sidecar.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
@@ -32,6 +37,9 @@ continent synthesis reading은
 - 이 synthesis는 대륙별 분포와 판정 요약을 다루는 상위 reference층이다.
 - exact guard wording authority는 개별 `Section_15_Named_Notable_*` 카드의 `Policy Guard / Separation Guard`와
   `Section_15_Profile_*` 카드의 `3-1. Policy Guard`에 남기고, 여기서는 재정의하지 않는다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 synthesis가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
 
 ## Coverage Summary
 

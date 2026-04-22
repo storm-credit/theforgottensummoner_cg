@@ -4811,3 +4811,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 lower current-state watch/reference authority로 유지된다.
 - 이후 새 local drift가 생기기 전까지
   같은 frozen/hold reference layer는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Forty-Fourth Residual-Reference Continent-Sidecar Realignment Pass
+
+목적:
+
+- residual route/synthesis/search/vocabulary reference layer인
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Named_Notables_Continent_Synthesis.md`,
+  `Section_15_Oceanic_Named_Candidate_Search_Queue.md`,
+  `Section_15_State_Vocabulary_Guard.md`
+  가 continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+확인 결과:
+
+- 4문서 모두 route, synthesis, read-only search, vocabulary guard 기준층 역할은 유지하고 있었지만,
+  umbrella가 lower authority라는 점을 아직 직접 적지 않았다.
+- `State Vocabulary Guard`에는 특히 이 umbrella가 canonical state가 아니라 prose authority guard라는 구분이 필요했다.
+
+조치:
+
+- `Section_15_Folder_Structure_Draft.md`와
+  `Section_15_Named_Notables_Continent_Synthesis.md`에 lower-authority rule을 추가했다.
+- `Section_15_Oceanic_Named_Candidate_Search_Queue.md`에 `Search Queue Authority Guard`를 추가했다.
+- `Section_15_State_Vocabulary_Guard.md`에
+  continent sidecar/scout/display umbrella와 lower-authority 문장이 canonical state가 아니라
+  prose authority guard라는 구분을 추가했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- residual reference layer도 이제
+  continent sidecar/scout/display umbrella를
+  새 state label, owner 결정축, candidate build queue가 아니라
+  닫힌 lower current-state watch/reference authority로 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 residual reference layer는 no-change watch 기준으로 유지하면 된다.

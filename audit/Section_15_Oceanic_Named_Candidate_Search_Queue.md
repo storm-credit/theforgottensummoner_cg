@@ -43,6 +43,14 @@
 2. `모로스`, `크리스토퍼 델마르`, `이소벨 골드리프`는 slot holder가 아니라 boundary-only 인접 후보로 유지한다.
 3. 이 큐는 더 이상 대륙 메인 본선을 재고정하지 않고, watch-reference 입력으로만 유지한다.
 
+## Search Queue Authority Guard
+
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 search queue가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
+- 실제 이름이 나오면 먼저 `14/15 boundary check`를 거치고,
+  이 큐는 read-only search trail로만 남긴다.
+
 ## Batch 01 Result
 
 1차 검색 결과는 `Section_15_Oceanic_Search_Findings_Batch_01.md`에 둔다.
