@@ -1,4 +1,4 @@
-# Section 8 Mixed Exception First Pass B
+# Section 8 Mixed_Keep Exception First Pass B
 
 이 문서는 `Section_8_Mixed_Exception_Review_Queue.md`의
 우선순위 3~4 항목인 `프로스트본 연합`과 `해적 연합`을
@@ -40,7 +40,7 @@
 3. 경제층도 분명하지만,
    이것이 정주 국가형 귀족 질서로 올라가지는 않는다.
 
-즉 `mixed`의 본질은 구조가 흐릿해서가 아니라,
+즉 `mixed_keep` 판정의 본질은 구조가 흐릿해서가 아니라,
 `클랜 정치`와 `혹한 생존 장소망`이 동시에 본체로 작동하기 때문이다.
 
 ### Conductor Judgment
@@ -49,7 +49,7 @@
 - 이유:
   - `section_style`로 내리면 성소/묘역/요새/공방이 담당하는
     장소 기능 압력이 지워진다.
-  - `place_style`로 내리면 부족장 평의회와 클랜 상층이라는
+  - place-pressure structure로 내리면 부족장 평의회와 클랜 상층이라는
     정치 본체가 약화된다.
   - 따라서 이 1차 판독에서는
     `tribe_clan core + place-pressure strong-support` 혼합 구조로 유지하는 것이 맞다.
@@ -78,7 +78,7 @@
 3. 이 구조는 토착 씨족 질서가 아니라
    `항만 권력 + 범죄-교역 질서`다.
 
-즉 이 세력의 `mixed`는
+즉 이 세력의 `mixed_keep` 판정은
 파벌 구조와 해상 거점 네트워크가 함께 강해서 생긴 혼합이지,
 부족 공동체가 강해서 생긴 혼합이 아니다.
 
@@ -87,7 +87,7 @@
 - 최종 1차 판단: `mixed_keep`
 - 이유:
   - `section_style`만 남기면 항만/암시장/섬 거점이 세력 본체라는 사실이 약화된다.
-  - `place_style`만 남기면 파벌 정치와 선장 질서가 지워진다.
+  - place-pressure structure만 남기면 파벌 정치와 선장 질서가 지워진다.
   - 따라서 이 1차 판독에서는
     `guild_market core + faction politics + port-network strong-support` 혼합 구조로 유지하는 것이 맞다.
 
@@ -95,13 +95,13 @@
 
 | Candidate | Previous Label | First Pass Result | Main Risk | Conductor Note |
 |---|---|---|---|---|
-| `프로스트본 연합` | `mixed` | `mixed_keep` | `clan_as_state_house` | 클랜 정치와 성소/요새/묘역 네트워크를 함께 유지 |
-| `해적 연합 (Pirate Confederacy)` | `mixed` | `mixed_keep` | `port_power_as_tribe_clan` | 파벌 정치와 항만/섬/암시장 네트워크를 함께 유지 |
+| `프로스트본 연합` | `legacy_mixed` | `mixed_keep` | `clan_as_state_house` | 클랜 정치와 성소/요새/묘역 네트워크를 함께 유지 |
+| `해적 연합 (Pirate Confederacy)` | `legacy_mixed` | `mixed_keep` | `port_power_as_tribe_clan` | 파벌 정치와 항만/섬/암시장 네트워크를 함께 유지 |
 
 ## Conductor Decision
 
 이번 1차 재검토에서도
-둘 다 `mixed`를 해제하지 않는다.
+둘 다 `mixed_keep` 예외를 해제하지 않는다.
 
 대신 아래를 잠근다.
 

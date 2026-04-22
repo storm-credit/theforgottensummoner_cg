@@ -1,7 +1,7 @@
-# Section 8 Mixed Exception Review Queue
+# Section 8 Mixed_Keep Exception Review Queue
 
 이 문서는 `Section_8_Structure_Label_Map_First_Pass.md`에서
-`mixed`로 잠긴 후보를 따로 모아 재검토 순서를 고정하는 큐다.
+`mixed_keep`로 잠긴 후보를 따로 모아 재검토 순서를 고정하는 큐다.
 
 ## Input
 
@@ -13,7 +13,7 @@
 
 ## Review Principle
 
-`mixed`는 오류 확정이 아니다.
+`mixed_keep`는 오류 확정이 아니다.
 
 다만 아래 둘이 동시에 걸리면 우선 재검토한다.
 
@@ -22,7 +22,7 @@
 
 ## Review Queue
 
-| Priority | Candidate | Continent Spine | Mixed Reason | Mismatch Watch | Review Question | Status |
+| Priority | Candidate | Continent Spine | Mixed_Keep Reason | Mismatch Watch | Review Question | Status |
 |---|---|---|---|---|---|---|
 | 1 | `정령연합 (Spirit Union)` | `tribe_clan` inside Ether | 에테르 공통 section형과 다르게 부족 영역/자연권 구조가 강하다. | `special_axis_generalization` | 이 구조는 에테르 예외축으로 보존해야 하는가, 아니면 혼합 구조를 더 세분해야 하는가 | `reviewed_round1 / mixed_keep` |
 | 2 | `붉은 사막 부족 연합` | `tribe_clan + guild_market` | 부족 연합 구조와 생존 거점/교역축이 함께 보인다. | `clan_as_state_house` | 부족 거점이 구조 중심인가, 공통 섹션형이 본체인가 | `reviewed_round1 / mixed_keep` |
@@ -32,13 +32,13 @@
 
 ## Stop Rules
 
-- `mixed` 후보는 재확인 전까지 이동/병합/정리 대상이 아니다.
-- `mixed`라는 이유만으로 오류 후보로 강등하지 않는다.
+- `mixed_keep` 후보는 재확인 전까지 이동/병합/정리 대상이 아니다.
+- `mixed_keep`라는 이유만으로 오류 후보로 강등하지 않는다.
 - 먼저 `의도된 예외`, `구조 오염`, `평탄화 위험` 중 무엇인지 분리한다.
 
 ## Conductor Decision
 
-현재 큐의 1차 mixed 재검토 사이클은 닫힌 것으로 본다.
+현재 큐의 1차 mixed_keep 재검토 사이클은 닫힌 것으로 본다.
 
 정리:
 

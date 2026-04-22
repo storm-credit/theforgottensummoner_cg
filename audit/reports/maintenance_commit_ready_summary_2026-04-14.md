@@ -251,6 +251,7 @@
 - 2026-04-22 one-hundred-forty-ninth pass confirmed the Section 8/bridge/workstream gate stays aligned after the lower-authority phrase alignment; no further source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-fiftieth pass updated `Section_8_Structure_Labeling_Queue.md`, `Section_8_Root_Findings.md`, `Section_8_Root_Label_Map.md`, and `Section_8_Root_Normalization_Plan.md` so their live root/structure watch wording points at `section_style / mixed_keep / section_style_reclassify` closure instead of reopening the old `place_style / mixed` labeling task
 - 2026-04-22 one-hundred-fifty-first pass updated the remaining heading/stop-rule wording in `Section_8_Structure_Labeling_Queue.md` so residual `place_style`/plain `mixed` search noise no longer appears in the live queue reference
+- 2026-04-22 one-hundred-fifty-second pass updated `Section_8_Mixed_Exception_First_Pass_A.md`, `Section_8_Mixed_Exception_First_Pass_B.md`, `Section_8_Mixed_Exception_First_Pass_C.md`, and `Section_8_Mixed_Exception_Review_Queue.md` so the mixed-exception family now reads live closure labels as `mixed_keep` or `section_style_reclassify` while preserving old readings as `legacy_mixed`
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

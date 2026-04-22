@@ -4980,6 +4980,39 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   같은 queue는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Fifty-Second Mixed-Exception Closure Vocabulary Alignment Pass
+
+목적:
+
+- Section 8 mixed-exception family가
+  live closure 상태를 plain `mixed`나 `place_style`처럼 보이게 하지 않고
+  `mixed_keep / section_style_reclassify / legacy_mixed` 기준으로 읽히게 정렬한다.
+
+확인 결과:
+
+- `Section_8_Mixed_Exception_First_Pass_A.md`,
+  `Section_8_Mixed_Exception_First_Pass_B.md`,
+  `Section_8_Mixed_Exception_First_Pass_C.md`,
+  `Section_8_Mixed_Exception_Review_Queue.md`
+  는 historical first-pass 성격이 강하지만,
+  제목, reference label, table, Conductor Decision 일부가
+  현재 판정어처럼 plain `mixed`를 남기고 있었다.
+- 일부 문장은 place-pressure 판단을 `place_style`처럼 보이게 했다.
+
+조치:
+
+- live closure label은 `mixed_keep` 또는 `section_style_reclassify`로 정리했다.
+- old reading은 `legacy_mixed`로 표기해 historical audit record로 보존했다.
+- place-style wording은 place-pressure structure 설명으로 낮춰
+  구조 라벨을 다시 여는 것처럼 보이지 않게 했다.
+
+의미:
+
+- mixed-exception family는
+  닫힌 closure vocabulary reference로 유지된다.
+- 이후 새 local drift가 생기기 전까지
+  같은 family는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Ninth Section-8 Bridge Stability Pass
 
 목적:

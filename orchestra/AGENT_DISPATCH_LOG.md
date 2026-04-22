@@ -12569,3 +12569,46 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 queue는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Fifty-Second Mixed-Exception Closure Vocabulary Alignment Pass
+
+목적:
+
+- Section 8 mixed-exception family가
+  live closure 상태를 plain `mixed`나 `place_style`처럼 보이게 하지 않고
+  `mixed_keep / section_style_reclassify / legacy_mixed` 기준으로 읽히게 정렬한다.
+
+배치:
+
+- conductor local mixed-exception closure-vocabulary scout
+
+Conductor action:
+
+- conductor는 `Section_8_Mixed_Exception_First_Pass_A.md`,
+  `Section_8_Mixed_Exception_First_Pass_B.md`,
+  `Section_8_Mixed_Exception_First_Pass_C.md`,
+  `Section_8_Mixed_Exception_Review_Queue.md`
+  를 먼저 스캔했다.
+- 네 문서 모두 historical first-pass 성격이 강하지만,
+  제목, reference label, table, Conductor Decision 일부가
+  현재 판정어처럼 plain `mixed`를 남기고 있었다.
+- old reading은 `legacy_mixed`로 보존하고,
+  live closure label은 `mixed_keep` 또는 `section_style_reclassify`로 정리했다.
+- place-style wording은 place-pressure structure 설명으로 낮춰
+  구조 라벨을 다시 여는 것처럼 보이지 않게 했다.
+
+Integrated actions:
+
+- mixed-exception family closure vocabulary alignment
+- report pair / dispatch log 2026-04-22 one-hundred-fifty-second pass 반영
+
+Verification:
+
+- the mixed-exception family now reads as a closed vocabulary reference rather than a reopened old labeling queue.
+- historical first-pass readings remain preserved as `legacy_mixed`, not live canonical state.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 mixed-exception family는 no-change watch 기준으로 유지한다.
