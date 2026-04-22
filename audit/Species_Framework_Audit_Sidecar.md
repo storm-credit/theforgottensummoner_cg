@@ -115,7 +115,7 @@
 
 | Anchor | Safest Reading | Why |
 |---|---|---|
-| `정령연합 (Spirit Union)` | `mixed polity`, not a race | 엘프, 드루이드, 수인 부족, 샤먼이 함께 들어간 연합체다. |
+| `정령연합 (Spirit Union)` | `composite polity`, not a race | 엘프, 드루이드, 수인 부족, 샤먼이 함께 들어간 연합체다. |
 | `그린스톰 부족` | `beastfolk people + tribal polity` | 늑대수인/곰수인/여우수인과 자치권 서술이 직접 확인된다. |
 | `용의 후예` | `polity + bloodline layer` | `Dragonborn`, `용혈 전사단`, 혼혈/용혈 서술이 강하다. |
 | `망자의 왕국` | `polity built on state/transformation` | 사회 구조는 강하지만 핵심은 언데드 상태와 사령 통치다. |

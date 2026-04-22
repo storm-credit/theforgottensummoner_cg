@@ -36,8 +36,8 @@ reference reading은 이 색인을 기준으로
 | Group | State Label | Display Candidate | Recorded Priority |
 |---|---|---|---|
 | `Hidden Exchange` | `operational_line` | `은막 교역회 / 비단그늘 상회` | `recorded Tier 1 first` |
-| `Ironblood` | `operational_line` | `철혈 채권회 / 붉은 장부 결사` | `recorded Tier 1 mixed with Tier 2` |
-| `Black Skull` | `operational_line` | `흑골 교역단 / 검은 해골 상회` | `recorded Tier 1 mixed with Tier 2` |
+| `Ironblood` | `operational_line` | `철혈 채권회 / 붉은 장부 결사` | `recorded Tier 1 combined with Tier 2` |
+| `Black Skull` | `operational_line` | `흑골 교역단 / 검은 해골 상회` | `recorded Tier 1 combined with Tier 2` |
 | `Shadow Field Network` | `operational_line` | `그림자 들판망 / 밤그물 정보회` | `recorded post-Tier-1 bridge` |
 | `Iron Finance Field` | `operational_line` | `철의 금융 연맹 / 흑철 장부회` | `recorded post-Tier-1 bridge` |
 | `Trade Broker Ring` | `operational_line` | `대륙 무역 연맹 / 먼길 중개회` | `recorded bridge after finance` |
@@ -108,7 +108,7 @@ reference reading은 이 색인을 기준으로
   - `로자 바르톨로`
   - `에밀리오 가르시아`
 - recorded priority:
-  - `recorded Tier 1 mixed with Tier 2`
+  - `recorded Tier 1 combined with Tier 2`
 - draft profiles:
   - `Section_15_Profile_Dominic_Balsano.md`
   - `Section_15_Profile_Leonardo_Pietro.md`
@@ -127,7 +127,7 @@ reference reading은 이 색인을 기준으로
   - `이사벨라 산토스`
   - `마르코 라메즈`
 - recorded priority:
-  - `recorded Tier 1 mixed with Tier 2`
+  - `recorded Tier 1 combined with Tier 2`
 - draft profiles:
   - `Section_15_Profile_Lorenzo_Carmine.md`
   - `Section_15_Profile_Carlos_Belmonte.md`

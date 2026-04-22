@@ -5107,6 +5107,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   같은 surface는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Fifty-Sixth Non-Section-8 Residual Mixed Surface Cleanup Pass
+
+목적:
+
+- Section 8 바깥 audit source에 남은 residual `mixed` surface를
+  해당 문맥에 맞는 `ambiguous / composite / combined` 표현으로 낮춘다.
+
+확인 결과:
+
+- `Race_Species_Boundary_Guard.md`,
+  `Race_Species_First_Pass.md`,
+  `Species_Framework_Audit_Sidecar.md`의 `mixed`는
+  구조 라벨이 아니라 종족/정체성/정치체 혼성 신호였다.
+- `Section_15_Group_Index.md`의 `mixed with Tier 2`는
+  상태어가 아니라 recorded priority가 두 tier에 걸친다는 설명이었다.
+
+조치:
+
+- Race/species 문맥의 `mixed`는
+  `ambiguous`, `composite`, `composite_signal`로 정리했다.
+- Section 15 group priority 문맥의 `mixed with Tier 2`는
+  `combined with Tier 2`로 정리했다.
+
+의미:
+
+- reports를 제외한 audit source scan에서
+  `place_style`, plain `mixed`, old authority shorthand,
+  stale pass-opening wording hit가 0건이 됐다.
+- 이후 새 local drift가 생기기 전까지
+  전체 audit source vocabulary surface는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Ninth Section-8 Bridge Stability Pass
 
 목적:

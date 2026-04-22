@@ -17,7 +17,7 @@
 판정:
 
 - `수인/야수인계`: `strong`
-- `정령연합 전체`: `mixed polity`, not a race
+- `정령연합 전체`: `composite polity`, not a race
 
 ## Strong but Not Pure Species
 
@@ -105,7 +105,7 @@
 판정:
 
 - `거인계`: `thin -> mythic/threat first`
-- `요정계`: `mixed -> ally/community in Ether, hold globally`
+- `요정계`: `composite_signal -> ally/community in Ether, hold globally`
 - `오크`: `thin people signal`
 - `고블린`: `integration/bloodline signal only`
 

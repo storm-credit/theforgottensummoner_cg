@@ -61,7 +61,7 @@
 - 필요 시 `14/15 evidence` 문서에 주석 수준으로만 연결
 - 이 가드만으로 인물 라우팅이나 candidate state를 바꾸지 않음
 
-### 4. Mixed or Contradictory
+### 4. Ambiguous or Contradictory
 
 종족처럼 보이면서 상태/몬스터/소모 전력처럼도 읽히면
 즉시 `hold / open question`으로 둔다.
@@ -75,7 +75,7 @@
 
 처리:
 
-- `First Pass`에는 `mixed`, `thin`, `reserved`, `open question`만 사용
+- `First Pass`에는 `ambiguous`, `thin`, `reserved`, `open question`만 사용
 - 추가 evidence 없이 `species`로 승격 금지
 
 ## Promotion Gate
@@ -97,7 +97,7 @@
 
 | Signal | Current Guard Call |
 |---|---|
-| `merfolk / 인어` | localized enclave / mixed-polity contact는 확인, sovereign civilization은 아직 보류 |
+| `merfolk / 인어` | localized enclave / composite-polity contact는 확인, sovereign civilization은 아직 보류 |
 | `세이렌 하피` | `monster first` |
 | `라미아` | `open question` |
 | `나가` | one-character signal only, stable society 미확정 |

@@ -12736,3 +12736,42 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 Section 8 vocabulary surface는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Fifty-Sixth Non-Section-8 Residual Mixed Surface Cleanup Pass
+
+목적:
+
+- Section 8 바깥 audit source에 남은 residual `mixed` surface를
+  해당 문맥에 맞는 `ambiguous / composite / combined` 표현으로 낮춘다.
+
+배치:
+
+- conductor local non-section-8 residual-mixed surface scout
+
+Conductor action:
+
+- conductor는 reports를 제외한 audit source 전체에서
+  `place_style`, plain `mixed`, old authority shorthand,
+  stale pass-opening wording을 다시 스캔했다.
+- 남은 hit는 Race/species 문맥의 혼성 신호와
+  Section 15 group priority의 tier-combination 설명뿐이었다.
+- Race/species 문맥의 `mixed`는
+  `ambiguous`, `composite`, `composite_signal`로 정리했다.
+- Section 15 group priority 문맥의 `mixed with Tier 2`는
+  `combined with Tier 2`로 정리했다.
+
+Integrated actions:
+
+- non-Section-8 residual mixed surface cleanup
+- report pair / dispatch log 2026-04-22 one-hundred-fifty-sixth pass 반영
+
+Verification:
+
+- reports-excluded audit source scan now returns zero hits for `place_style`, plain `mixed`, old authority shorthand, and stale pass-opening wording.
+- remaining local changes outside this pass are still the unrelated manifest files.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 전체 audit source vocabulary surface는 no-change watch 기준으로 유지한다.
