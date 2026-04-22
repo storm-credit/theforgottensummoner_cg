@@ -95,7 +95,7 @@ reference 순서표로 보여주는 진행표다.
 
 ## Conditional Backlog
 
-아래는 조건이 충족될 때만 다시 올린다.
+아래는 조건이 충족될 때만 reference backlog로만 유지한다.
 
 1. 원본 접근이 가능해지면 `Section_8_Root_Subtree_Sampling_Queue.md` 기준 reference sampling 필요 여부만 reference backlog로 둔다.
 2. 실제 원고 입력이나 새 증거 drift가 생기면 live handoff case를 먼저 watch note로 기록한다.

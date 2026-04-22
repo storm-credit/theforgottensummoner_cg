@@ -13039,3 +13039,49 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 conditional-backlog surface는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Sixty-Third Re-Review Surface Closure Pass
+
+목적:
+
+- reports-excluded source에 남은
+  stale `re-review / re-open` 표면어가
+  새 실행선처럼 보이지 않도록 reference backlog,
+  support recheck reference, decision-reference 문구로 낮춘다.
+
+배치:
+
+- conductor local re-review surface closure scout
+
+Conductor action:
+
+- conductor는 reports-excluded audit/workflow source에서
+  `다시 올린다`, `재검토한다`, `다시 판단한다`,
+  `우선 재검토한다`
+  계열 잔존 여부를 좁혀 확인했다.
+- `Audit_Queue.md`,
+  `Next_Sequential_Workstream.md`,
+  `Five_Continent_Missing_Layer_Policy_Lock.md`,
+  `Section_15_Crimson_Wise_Council_Evidence.md`,
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_8_Mixed_Exception_Review_Queue.md`
+  에 stale re-review wording이 남아 있었다.
+- 해당 wording을 reference backlog,
+  support recheck reference, decision-reference,
+  review backlog 표현으로 낮췄다.
+
+Integrated actions:
+
+- re-review surface source closure
+- report pair / dispatch log 2026-04-22 one-hundred-sixty-third pass 반영
+
+Verification:
+
+- related source scan now returns zero hits for `다시 올린다`, `재검토한다`, `다시 판단한다`, and `우선 재검토한다`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 re-review surface는 no-change watch 기준으로 유지한다.

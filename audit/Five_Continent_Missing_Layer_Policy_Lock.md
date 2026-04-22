@@ -143,7 +143,7 @@
 
 해양에서 `섬`, `성지`, `파도 신앙`, `혈연`이 보여도
 우선 `place-pressure / seamanship culture / local support`로 기록한다.
-`tribe_clan thin`은 유지하고, 증거가 반복될 때만 support에서 재검토한다.
+`tribe_clan thin`은 유지하고, 증거가 반복될 때만 support recheck reference로 둔다.
 
 ## 5. Obelisk Nontraditional Elite Policy
 

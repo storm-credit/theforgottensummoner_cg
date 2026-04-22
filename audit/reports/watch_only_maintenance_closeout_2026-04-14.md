@@ -5455,3 +5455,41 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   `필요 여부를 판단한다`, `검토 여부를 판단한다`,
   `필요 여부 판단`, `검토 여부 판단`
   hit가 0건이 됐다.
+
+## 2026-04-22 One-Hundred-Sixty-Third Re-Review Surface Closure Pass
+
+목적:
+
+- reports-excluded source에 남은
+  stale `re-review / re-open` 표면어가
+  새 실행선처럼 보이지 않도록 reference backlog,
+  support recheck reference, decision-reference 문구로 낮춘다.
+
+확인 결과:
+
+- `Audit_Queue.md`,
+  `Next_Sequential_Workstream.md`,
+  `Five_Continent_Missing_Layer_Policy_Lock.md`,
+  `Section_15_Crimson_Wise_Council_Evidence.md`,
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_8_Mixed_Exception_Review_Queue.md`
+  에 `다시 올린다`, `재검토한다`, `다시 판단한다` 계열 표면어가 남아 있었다.
+- 이 문구들은 대부분 reopen signal이 아니라
+  조건부 backlog 또는 hold/reference 판단 메모 성격이었다.
+
+조치:
+
+- `다시 올린다` 문구는 reference backlog에서 다시 보는 기준으로 낮췄다.
+- missing-layer와 mixed-exception 문구는
+  support recheck reference / review backlog 표현으로 정리했다.
+- crimson wise-council과 supranational hold 문구는
+  decision-reference / reference backlog 표현으로 낮췄다.
+
+의미:
+
+- 관련 문서들이 re-open command가 아니라
+  닫힌 watch/reference 판단 메모로 읽히게 됐다.
+- 관련 패턴 스캔에서
+  `다시 올린다`, `재검토한다`, `다시 판단한다`,
+  `우선 재검토한다`
+  hit가 0건이 됐다.
