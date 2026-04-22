@@ -5138,6 +5138,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   전체 audit source vocabulary surface는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Fifty-Seventh Global Source Vocabulary Stability Pass
+
+목적:
+
+- 156차 이후 reports-excluded audit/workflow source가
+  old vocabulary와 stale pass-opening wording 없이 유지되는지 확인한다.
+
+확인 결과:
+
+- reports-excluded audit/workflow source에서
+  `place_style`, plain `mixed`, `current-state watch/reference closure`,
+  `lower watch/reference authority`, `다음 실제 패스`,
+  `recommended_next` hit는 0건이었다.
+- `future-only task` hit 3건은
+  모두 `future-only task가 아니라 ...로 읽는지 확인`하는 barrier 문맥이었다.
+- `orchestra/AGENT_DISPATCH_LOG.md`의 old vocabulary hit는
+  과거 pass에서 무엇을 발견하고 고쳤는지 남긴 historical record였다.
+
+조치:
+
+- source prose patch 없이
+  global source vocabulary no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 현재 live source는 old vocabulary drift 없이 닫힌 상태다.
+- dispatch log의 과거 용어는 추적성을 위한 역사 기록으로 보존한다.
+- 이후 새 local drift가 생기기 전까지
+  전체 source vocabulary surface는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Ninth Section-8 Bridge Stability Pass
 
 목적:

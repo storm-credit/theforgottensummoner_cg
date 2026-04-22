@@ -12775,3 +12775,43 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 전체 audit source vocabulary surface는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Fifty-Seventh Global Source Vocabulary Stability Pass
+
+목적:
+
+- 156차 이후 reports-excluded audit/workflow source가
+  old vocabulary와 stale pass-opening wording 없이 유지되는지 확인한다.
+
+배치:
+
+- conductor local global source vocabulary stability scout
+
+Conductor action:
+
+- conductor는 reports-excluded audit/workflow source에서
+  `place_style`, plain `mixed`, old authority shorthand,
+  `다음 실제 패스`, `recommended_next` 잔존 여부를 다시 확인했다.
+- source drift hit는 0건이었다.
+- `future-only task` hit 3건은
+  모두 `future-only task가 아니라 ...로 읽는지 확인`하는 barrier 문맥이었다.
+- `orchestra/AGENT_DISPATCH_LOG.md`의 old vocabulary hit는
+  과거 pass에서 무엇을 발견하고 고쳤는지 남긴 historical record였으므로
+  rewriting하지 않고 보존했다.
+
+Integrated actions:
+
+- global source vocabulary no-change stability confirmation
+- report pair / dispatch log 2026-04-22 one-hundred-fifty-seventh pass 반영
+
+Verification:
+
+- reports-excluded audit/workflow source remains clear of old vocabulary and stale pass-opening hits.
+- remaining future-only wording in source is barrier wording, not reopened work.
+- dispatch-log old vocabulary mentions are historical records, not live source drift.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 전체 source vocabulary surface는 no-change watch 기준으로 유지한다.
