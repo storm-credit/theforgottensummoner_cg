@@ -43,7 +43,7 @@
 - `5대륙 Section 8 spine sample`: `closed_round1`
 - `root label map`: `locked`
 - `structure label first pass`: `locked_for_mainline`
-- `mixed review round1`: `closed_round1`
+- `mixed_keep review round1`: `closed_round1`
 - `spine mismatch round1`: `closed_round1`
 - `root corruption first pass`: `locked`
 - `subtree sampling prep`: `ready_when_source_available`
@@ -80,7 +80,7 @@
 | `잊힌 자들의 연합` | `section_style_reclassify` | `watch_keep` |
 | `봉인 수호단` | `section_style_reclassify` | `place_pressure_strong` |
 
-## Mixed Review Snapshot
+## Mixed_Keep Review Snapshot
 
 | Candidate | Round 1 Result | Note |
 |---|---|---|
@@ -101,7 +101,7 @@
 | `바다의 교단` | `port_power_as_tribe_clan` | `mismatch_keep` | 성지/신앙과 tribe 근거 분리 |
 | `망자의 왕국` | `nontraditional_elite_as_state_house` | `mismatch_keep` | 기억 귀족 과승격 금지 |
 | `잊힌 자들의 연합` | `nontraditional_elite_as_state_house` | `mismatch_keep` | 가문 폴더와 귀족국가 분리 |
-| `봉인 수호단` | `place_style_flattened_to_section_style` | `mismatch_clear` | flattening 증거 없음 |
+| `봉인 수호단` | `place_pressure_flattened_to_section_style` | `mismatch_clear` | flattening 증거 없음 |
 | `Supranational & 마립` broken root | `root_corruption` | `mismatch_keep` | 손상 루트 격리 유지 |
 | `place-pressure family` | `section_style_forced_on_place_network` | `watch_keep` | place pressure와 구조 라벨 분리 |
 

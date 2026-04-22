@@ -29,10 +29,10 @@
 
 | Candidate | Continent | Current Structure Read | Place Pressure | Why Not Promote To Structure Label | Primary Handoff Target |
 |---|---|---|---|---|---|
-| `바다의 교단` | `Oceanic` | `section_style_reclassify` | `sanctuary + route-control + watch-fort` | 성지와 감시 요새 압력은 강하지만 루트 문법은 section형이고, 이를 `place_style`로 올리면 교단 제도권 구조와 토착 공동체 신호가 섞인다 | `Section_15_Oceanic_Place_Institution_Sidecar.md` |
-| `오로라 평원` | `Frost` | `anchor-led place pressure` | `memory_site + sanctuary` | 전승, 예언, 샤먼 압력이 강하지만 이를 프로스트 전체 구조 라벨로 일반화하면 `프로스트본 연합 = place_style` 오독이 생긴다 | `Section_15_Frost_Place_Institution_Sidecar.md` |
+| `바다의 교단` | `Oceanic` | `section_style_reclassify` | `sanctuary + route-control + watch-fort` | 성지와 감시 요새 압력은 강하지만 루트 문법은 section형이고, 이를 place-pressure structure로 올리면 교단 제도권 구조와 토착 공동체 신호가 섞인다 | `Section_15_Oceanic_Place_Institution_Sidecar.md` |
+| `오로라 평원` | `Frost` | `anchor-led place pressure` | `memory_site + sanctuary` | 전승, 예언, 샤먼 압력이 강하지만 이를 프로스트 전체 구조 라벨로 일반화하면 `프로스트본 연합 = place-pressure structure` 오독이 생긴다 | `Section_15_Frost_Place_Institution_Sidecar.md` |
 | `빙하의 성소` | `Frost` | `anchor-led place pressure` | `sanctuary + ritual-validation` | 성소 기능이 강하지만 세력 루트 문법을 대체하는 근거는 아니다 | `Section_15_Frost_Place_Institution_Sidecar.md` |
-| `본 마켓` 계열 | `Obelisk` | `section-linked place pressure` | `market + supply + memory-trade` | 시장과 보급 거점 압력을 근거로 세력 전체를 `place_style`로 밀면 `frontier_survival + guild_market` spine이 흐려진다 | `Section_15_Obelisk_Place_Institution_Sidecar.md` |
+| `본 마켓` 계열 | `Obelisk` | `section-linked place pressure` | `market + supply + memory-trade` | 시장과 보급 거점 압력을 근거로 세력 전체를 place-pressure structure로 밀면 `frontier_survival + guild_market` spine이 흐려진다 | `Section_15_Obelisk_Place_Institution_Sidecar.md` |
 | `잊힌 자들의 연합` | `Obelisk` | `section_style_reclassify` | `place_pressure_strong + exile_network_pressure` | 거점과 망명 네트워크가 강해도 실제 파일 문법은 번호 섹션형이고, 구조 라벨은 이미 `section_style_reclassify`로 잠겼다 | `FS_Place_Function_Register.md` |
 
 ## Watch Reading Rule
@@ -57,7 +57,7 @@
 `place pressure strong`이 구조 라벨과 분리되어 기록됐는지 확인하는 것이다.
 
 즉 이 큐는
-`place_style` 세력을 늘리기 위한 목록이 아니라,
+place-pressure-led 세력을 늘리기 위한 목록이 아니라,
 `section_style` 세력 안에 숨어 있는 공간 압력을
 서사/앵커/거점 장부에 안전하게 귀속됐는지 확인하기 위한 목록이다.
 

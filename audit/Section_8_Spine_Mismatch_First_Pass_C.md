@@ -59,12 +59,12 @@
 
 이 계열의 핵심 위험은
 `장소 압력이 강하다`는 이유만으로
-곧바로 `place_style` 또는 구조 오류로 읽는 것이다.
+곧바로 place-pressure structure 또는 구조 오류로 읽는 것이다.
 
 현재 기준에서 잠기는 건 아래다.
 
 1. 일부 세력은 실제 루트 문법이 `section_style`이다
-2. 장소 밀도가 높아도 그것만으로 `place_style`을 뜻하지는 않는다
+2. 장소 밀도가 높아도 그것만으로 place-pressure structure를 뜻하지는 않는다
 3. 따라서 지금 관리해야 하는 건 `place pressure strong` 메모이지,
    자동 구조 재분류가 아니다
 
@@ -77,7 +77,7 @@
 - 운영 규칙:
   - `place pressure strong`은 내용 메모로 유지한다
   - 구조 라벨은 실제 루트 문법 기준으로만 바꾼다
-  - 장소 밀도만으로 `mixed`나 `place_style`을 자동 승격하지 않는다
+  - 장소 밀도만으로 `mixed_keep`이나 place-pressure structure를 자동 승격하지 않는다
 
 ## First Pass Result
 

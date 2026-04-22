@@ -12654,3 +12654,47 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 follow-up layer는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Fifty-Fourth Section-8 Live Vocabulary Surface Cleanup Pass
+
+목적:
+
+- Section 8 source 전체에서 live-facing vocabulary surface가
+  현재 closure 체계인 `mixed_keep / section_style_reclassify / place-pressure`
+  기준으로 읽히도록 남은 구형 표면어를 정리한다.
+
+배치:
+
+- conductor local section-8 live-vocabulary surface scout
+
+Conductor action:
+
+- conductor는 Section 8 source 전체에서 `place_style`, plain `mixed`,
+  `다음 실제 패스`, old authority shorthand를 다시 스캔했다.
+- old authority shorthand와 pass-opening wording은 이미 0건이었고,
+  residual `place_style` 또는 plain `mixed` 표면어가 일부 남아 있었다.
+- `Section_8_Standard_Spine.md`, `Section_8_Normalization_Status_Compass.md`,
+  `Section_8_Place_Network_P2_Queue.md`,
+  `Section_8_Spine_Mismatch_First_Pass_C.md`,
+  `Section_8_Spine_Mismatch_Queue.md`,
+  `Section_8_Status_Vocabulary_Guard.md`,
+  `Section_8_Next_Audit_Targets.md`,
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Section_8_Structure_Label_Map_First_Pass.md`
+  를 현재 closure vocabulary로 정리했다.
+
+Integrated actions:
+
+- Section 8 live vocabulary surface cleanup
+- report pair / dispatch log 2026-04-22 one-hundred-fifty-fourth pass 반영
+
+Verification:
+
+- Section 8 source scan now returns zero hits for `place_style`, plain `mixed`, and `다음 실제 패스`.
+- old authority shorthand remains absent from source scans.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 Section 8 vocabulary surface는 no-change watch 기준으로 유지한다.

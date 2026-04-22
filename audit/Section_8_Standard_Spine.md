@@ -23,15 +23,16 @@
 3. `guild_market`
 4. `frontier_survival`
 
-루트 정규화에 되먹일 때는
-세력마다 아래 구조 라벨도 같이 붙인다.
+루트 정규화 closure에 되먹일 때는
+세력마다 아래 구조 closure label도 같이 본다.
 
 1. `section_style`
-2. `place_style`
-3. `mixed`
+2. `mixed_keep`
+3. `section_style_reclassify`
 
 즉 spine 라벨과 구조 라벨은 별개다.
-같은 `guild_market` 세력이라도 `section_style`일 수도 있고 `place_style`일 수도 있다.
+같은 `guild_market` 세력이라도 `section_style`일 수도 있고,
+place pressure는 구조 라벨이 아니라 별도 pressure state일 수도 있다.
 
 ## 1. Ether Spine
 
@@ -170,7 +171,7 @@
 루트 정규화 단계에서는 여기에 아래 질문을 추가한다.
 
 4. 이 경로는 `canonical root`, `quarantine root`, `legacy root` 중 어디에 속하는가
-5. 내부 구조는 `section_style`, `place_style`, `mixed exception` 중 무엇인가
+5. 내부 구조는 `section_style / mixed_keep / section_style_reclassify` closure 중 무엇인가
 6. 예외라면 대륙 spine이 허용하는 예외인가, 아니면 구조 오염인가
 
 이 문서는 이후

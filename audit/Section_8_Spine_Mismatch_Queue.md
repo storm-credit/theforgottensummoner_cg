@@ -26,7 +26,7 @@
 1. `clan_as_state_house`
 2. `port_power_as_tribe_clan`
 3. `nontraditional_elite_as_state_house`
-4. `place_style_flattened_to_section_style`
+4. `place_pressure_flattened_to_section_style`
 5. `section_style_forced_on_place_network`
 
 ## Watch Queue
@@ -47,7 +47,7 @@
 | `P1` | `바다의 교단` | `port_power_as_tribe_clan` | `mismatch_keep` | `Section_8_Spine_Mismatch_First_Pass_B.md` | 성지/신앙 압력과 `tribe_clan` 증거를 분리한다 |
 | `P1` | `망자의 왕국` | `nontraditional_elite_as_state_house` | `mismatch_keep` | `Section_8_Spine_Mismatch_First_Pass_B.md` | 비정통 엘리트 구조를 전통 귀족국가로 과승격하지 않는다 |
 | `P1` | `잊힌 자들의 연합` | `nontraditional_elite_as_state_house` | `mismatch_keep` | `Section_8_Spine_Mismatch_First_Pass_A.md` | 가문 폴더와 귀족국가 해석을 분리한다 |
-| `P1` | `봉인 수호단` | `place_style_flattened_to_section_style` | `mismatch_clear` | `Section_8_Spine_Mismatch_First_Pass_B.md` | mismatch mainline에서는 내리고 `place_pressure_strong` 메모만 유지한다 |
+| `P1` | `봉인 수호단` | `place_pressure_flattened_to_section_style` | `mismatch_clear` | `Section_8_Spine_Mismatch_First_Pass_B.md` | mismatch mainline에서는 내리고 `place_pressure_strong` 메모만 유지한다 |
 
 ## Conductor Rules
 

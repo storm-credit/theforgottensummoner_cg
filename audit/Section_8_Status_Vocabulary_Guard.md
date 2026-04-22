@@ -51,7 +51,7 @@
 
 | Old / Drift Form | Canonical Form | Rule |
 |---|---|---|
-| `mixed` after closure | `mixed_keep` | 예외 유지가 잠긴 뒤에는 단순 `mixed` 대신 `mixed_keep`를 쓴다 |
+| `legacy_mixed` after closure | `mixed_keep` | 예외 유지가 잠긴 뒤에는 단순 legacy_mixed wording 대신 `mixed_keep`를 쓴다 |
 | `tribe_to_state_overread` | `clan_as_state_house` | mismatch queue 기준 용어를 우선 사용한다 |
 | `port_power_to_tribe_overread` | `port_power_as_tribe_clan` | mismatch queue 기준 용어를 우선 사용한다 |
 | `survival_elite_to_house_overread` | `nontraditional_elite_as_state_house` | 오벨리스크 과독 범주를 queue 기준으로 통일한다 |

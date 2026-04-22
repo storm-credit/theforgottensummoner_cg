@@ -94,7 +94,7 @@
 reference backlog 상태:
 
 - `Section 8` 루트 전체는 닫힌 5대륙 spine 기준으로 읽되, 현재는 신규 이동/병합/원본 수정 없이 watch reference로만 유지한다.
-- 중복 루트, 레거시 경로, spine mismatch, mixed exception, P1 mismatch round는 각 first-pass 문서에서 닫힌 상태로 본다.
+- 중복 루트, 레거시 경로, spine mismatch, mixed_keep exception, P1 mismatch round는 각 first-pass 문서에서 닫힌 상태로 본다.
 - `P0 root_corruption`은 `Section_8_Root_Corruption_First_Pass_A.md`와 `Section_8_Root_Subtree_Sampling_Queue.md` 기준으로만 유지한다.
 - `P2 section_style_forced_on_place_network`는 `Section_8_Place_Network_P2_Queue.md`와 `Section_8_Place_Network_Handoff_Map.md` 기준 handoff drift watch로만 유지한다.
 - `Section_8_Status_Vocabulary_Guard.md`는 `mixed_keep`, `section_style_reclassify`, `mismatch_clear`, `watch_keep`, `handoff_applied` 상태어를 같은 의미로 유지하는 기준표로 사용한다.

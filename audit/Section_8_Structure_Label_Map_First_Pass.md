@@ -91,7 +91,7 @@
    - 이유: 성채/시장/묘역 압력은 강하지만 실제 루트 문법은 공통 번호 섹션이 먼저 선다
 3. `봉인 수호단`
    - `section_style_reclassify`
-   - 이유: 장소 압력은 강하지만 `place_style_flattened` 근거는 현재 없고, `place pressure strong` 메모로만 관리하는 편이 맞다
+   - 이유: 장소 압력은 강하지만 place-pressure flattening 근거는 현재 없고, `place pressure strong` 메모로만 관리하는 편이 맞다
 
 ## Conductor Decision
 

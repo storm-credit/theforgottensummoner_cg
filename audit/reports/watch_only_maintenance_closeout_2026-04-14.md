@@ -5044,6 +5044,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   같은 follow-up layer는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Fifty-Fourth Section-8 Live Vocabulary Surface Cleanup Pass
+
+목적:
+
+- Section 8 source 전체에서 live-facing vocabulary surface가
+  현재 closure 체계인 `mixed_keep / section_style_reclassify / place-pressure`
+  기준으로 읽히도록 남은 구형 표면어를 정리한다.
+
+확인 결과:
+
+- `Section_8_Standard_Spine.md`, `Section_8_Normalization_Status_Compass.md`,
+  `Section_8_Place_Network_P2_Queue.md`,
+  `Section_8_Spine_Mismatch_First_Pass_C.md`,
+  `Section_8_Spine_Mismatch_Queue.md`,
+  `Section_8_Status_Vocabulary_Guard.md`,
+  `Section_8_Next_Audit_Targets.md`,
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Section_8_Structure_Label_Map_First_Pass.md`
+  에 residual `place_style` 또는 plain `mixed` 표면어가 남아 있었다.
+
+조치:
+
+- live closure label은 `mixed_keep / section_style_reclassify`로 통일했다.
+- place-related structure wording은 `place-pressure` 또는 `place_pressure` risk/state로 낮췄다.
+- `Section_8_Standard_Spine.md`는 closure 이후 기준판으로 읽히도록
+  구조 closure label 목록을 현재 vocabulary로 정리했다.
+
+의미:
+
+- Section 8 source scan에서 `place_style`, plain `mixed`,
+  `다음 실제 패스` 계열 hit가 0건이 됐다.
+- 이후 새 local drift가 생기기 전까지
+  Section 8 vocabulary surface는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Ninth Section-8 Bridge Stability Pass
 
 목적:
