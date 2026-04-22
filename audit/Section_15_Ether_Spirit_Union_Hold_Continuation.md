@@ -35,3 +35,10 @@
 - `메라`는 외교·교역 조건 명사 가치가 높아도 `메라 실피드` 드리프트를 풀기 전 15 고정으로 올리지 않고 `spirit_envoy_hold`로 둔다.
 - `실라스 나이트쉐이드`는 `실라스 블랙쏜`과 병합하지 않고 `그늘까마귀단 / 잠든 정령의 숲` 축으로만 읽는다.
 - 현재 본선은 새 에테르 hold 확장을 전제하지 않고 `5대륙 closure sync / Section 8 -> 15 watch-reference`를 유지하는 쪽으로 읽는다.
+
+## Hold Snapshot Authority Guard
+
+- 이 hold continuation은 frozen/hold reference snapshot으로만 읽는다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 hold 문서가 place/institution owner나 candidate build queue를 새로 만들지 않는다.

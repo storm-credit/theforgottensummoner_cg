@@ -125,3 +125,10 @@
 1. `울프가르`, `에리온`, `오그마`는 route validation을 닫고 `Section_15_Folder_Structure_Draft.md` 기준 `stable_triad_frozen_reference_set / route_hierarchy_locked` frozen-reference carryover 상태로 유지한다.
 2. `벨라나`, `아리안`은 SS/S급 핵심 인물 신호가 확인되어 live 시트화로 넘기지 않고 14 경계 검증으로만 둔다.
 3. `드락사르`, `카사르`는 14 경계 hold reference로 유지한다.
+
+## Frozen Test Authority Guard
+
+- 이 foldering test는 frozen routing/sample reference로만 읽는다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 test 문서가 place/institution owner나 candidate build queue를 새로 만들지 않는다.

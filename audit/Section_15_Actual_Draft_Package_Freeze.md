@@ -78,6 +78,9 @@ package freeze reading은
     `stable_triad_frozen_reference_set`은 그 closure 상태를 watch-reference 층에서만 참조한다.
 15. `결손층 5개`의 thin/support 판정은 `stable_triad_frozen_reference_set`이 새로 결정하지 않고,
     `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
+16. continent sidecar/scout/display wording umbrella는
+    lower current-state watch/reference authority로만 읽고,
+    이 freeze 문서가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
 
 ## Allowed Maintenance
 

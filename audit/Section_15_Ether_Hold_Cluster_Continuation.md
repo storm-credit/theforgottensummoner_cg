@@ -37,3 +37,10 @@
 - `대런`은 library보다 admin-core 압력이 더 강하므로 `archive_admin_hold`로 읽는다.
 - `칼리스트`는 연금/경제/제작보다 `tower + seer + strategy` 축을 우선 읽는다.
 - `엘라라`는 People Worth Seeking 가치가 가장 살아 있는 축이지만 아직은 hold reference split 안의 `source_check_hold`가 아니라 `verify_before_15` 내부에 둔다.
+
+## Hold Snapshot Authority Guard
+
+- 이 hold continuation은 frozen/hold reference snapshot으로만 읽는다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 hold 문서가 place/institution owner나 candidate build queue를 새로 만들지 않는다.

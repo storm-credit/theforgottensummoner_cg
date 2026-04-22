@@ -36,3 +36,10 @@
 - `엘드린 / 네리사 / 다미엔`은 탑주 3인 묶음이지만 기능 축은 각각 `결계 / 금기 연구 / 그림자 정보`로 분리한다.
 - `요한`은 성국 방벽 거점 총괄자로 읽고, 탑주 3인과 같은 문장으로 평평하게 합치지 않는다.
 - 관련 `드라이덴 / 메라 / 실라스 나이트쉐이드` spirit-union hold snapshot도 이미 닫힌 상태로 정리되어 있으며, 현재 본선은 `closure sync / watch-reference` 유지다.
+
+## Hold Snapshot Authority Guard
+
+- 이 hold continuation은 frozen/hold reference snapshot으로만 읽는다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 hold 문서가 place/institution owner나 candidate build queue를 새로 만들지 않는다.

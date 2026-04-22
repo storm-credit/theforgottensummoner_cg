@@ -12153,3 +12153,47 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 sidecar authority family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Forty-Second Frozen-Hold Reference Continent-Sidecar Realignment Pass
+
+목적:
+
+- frozen/hold reference layer가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority로 읽는지 정렬한다.
+
+배치:
+
+- conductor local frozen-hold reference realignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Actual_Draft_Package_Freeze.md`,
+  `Section_15_Crimson_Profile_Format_Test.md`,
+  `Section_15_Foldering_Test_Crimson.md`,
+  `Section_15_Ether_Hold_Cluster_Continuation.md`,
+  `Section_15_Ether_Spirit_Union_Hold_Continuation.md`,
+  `Section_15_Ether_Tower_Saint_Hold_Continuation.md`
+  를 먼저 스캔했다.
+- frozen routing sample, stable-triad freeze, Ether hold snapshot의
+  live 이동/생성/승격 금지 문맥은 유지되고 있었지만,
+  continent sidecar/scout/display umbrella lower-authority rule은 아직 명시되지 않았다.
+- freeze/test/hold 6문서에 authority guard를 추가해
+  continent sidecar/scout/display umbrella를 lower current-state watch/reference authority only로 읽고,
+  place/institution owner나 candidate build queue를 새로 만들지 않는다고 고정했다.
+
+Integrated actions:
+
+- frozen-hold reference continent-sidecar umbrella source realignment
+- report pair / dispatch log 2026-04-22 one-hundred-forty-second pass 반영
+
+Verification:
+
+- the frozen/hold reference layer now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority.
+- the umbrella no longer remains implicit across freeze/test/hold reference snapshots.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 frozen/hold reference layer는 no-change watch 기준으로 유지한다.

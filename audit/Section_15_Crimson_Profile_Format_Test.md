@@ -90,3 +90,10 @@ operational profile template을 쓰는 문서라면
 또한 크림슨 카드들은
 `tribe_clan core + 학술/전승/공방 thin-support`
 범위 안에서만 읽는다는 `Policy Guard`를 같이 두는 편이 안전하다.
+
+## Frozen Test Authority Guard
+
+- 이 profile format test는 frozen routing/sample reference로만 읽는다.
+- continent sidecar/scout/display wording umbrella는
+  lower current-state watch/reference authority로만 읽고,
+  이 test 문서가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
