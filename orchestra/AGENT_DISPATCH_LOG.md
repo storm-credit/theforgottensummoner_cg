@@ -13306,3 +13306,50 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 broad hold cluster는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Sixty-Ninth Ruling-Trace Stability Pass
+
+목적:
+
+- residual `backfill / direct ruling / 후속 확인` wording이
+  stale live drift인지,
+  아니면 intentional ruling-trace or note text인지 다시 확인한다.
+
+배치:
+
+- conductor local ruling-trace stability scout
+
+Conductor action:
+
+- conductor는 residual `backfill / direct ruling / 후속 확인` wording을
+  representative context로 다시 읽었다.
+- `FS_Canon_Change_Log.md`의
+  `direct ruling backfill`, `근거를 직접 연결` 문구는
+  change log와 Decision Ruling register를 잇는 trace wording이었다.
+- `FS_Decision_Ruling_Register.md`의
+  `14 독립 파일 여부 후속 확인`은
+  상태어를 다시 여는 지시가 아니라 ruling caution note였다.
+- `Section_15_Named_Notables_Name_Collision_Register.md`의
+  `backfill했다` 문구는
+  기존 결정을 change-log/decision row에 연결했다는 기록이었다.
+- `Section_15_Ether_Search_Findings_Batch_05.md`,
+  `Key_Character_Contact_Table.md`의
+  `후속 확인 필요` 문구는
+  독립 인물 여부나 관계 해석 note를 설명하는 문맥이었다.
+- source prose patch는 필요하지 않았다.
+
+Integrated actions:
+
+- ruling-trace no-change stability confirmation
+- report pair / dispatch log 2026-04-22 one-hundred-sixty-ninth pass 반영
+
+Verification:
+
+- current residual `backfill / direct ruling / 후속 확인` hits are intentional ruling-trace or note text, not live drift.
+- remaining local changes outside this pass are still the unrelated manifest files.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 residual ruling-trace wording은 no-change watch 기준으로 유지한다.
