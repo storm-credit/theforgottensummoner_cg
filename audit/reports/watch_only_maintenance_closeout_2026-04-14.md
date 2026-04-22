@@ -5564,3 +5564,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   rule/instruction text다.
 - 이후 새 local drift가 생기기 전까지
   같은 residual hit는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Sixty-Sixth Broad Residual Action-Wording Stability Pass
+
+목적:
+
+- 넓은 action-wording 패턴으로 다시 스캔했을 때 남는 hit가
+  stale drift인지 intentional 잔존군인지 최종 구분한다.
+
+확인 결과:
+
+- broad scan 기준 residual hit는 7건뿐이었다.
+- `Section_14_15_Boundary_Verification_Queue.md`,
+  `Section_14_Orphan_Anchors.md`,
+  `Section_15_Named_Notables_Obelisk_Scout.md`
+  의 hit는 naming/boundary review note였다.
+- `Section_14_Distributed_Affiliation_Findings.md`,
+  `Section_15_Intake_Priority.md`,
+  `workflow/11_Writer_Engine.md`,
+  `workflow/15_FS_Lore_Engine.md`
+  의 hit는 rule/instruction text였다.
+
+조치:
+
+- source prose patch 없이
+  residual broad-action hit가 모두 intentional 잔존군이라는 판정만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 현재 broad residual hit는
+  stale reopen/action drift가 아니라
+  naming-review note 또는 rule/instruction text로만 남아 있다.
+- 이후 새 local drift가 생기기 전까지
+  같은 broad residual hit는 no-change watch 기준으로 유지하면 된다.

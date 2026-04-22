@@ -13172,3 +13172,45 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 residual `판단한다` hit는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Sixty-Sixth Broad Residual Action-Wording Stability Pass
+
+목적:
+
+- 넓은 action-wording 패턴으로 다시 스캔했을 때 남는 hit가
+  stale drift인지 intentional 잔존군인지 최종 구분한다.
+
+배치:
+
+- conductor local broad residual action-wording stability scout
+
+Conductor action:
+
+- conductor는 broad action-wording 패턴으로 reports-excluded source를 다시 스캔했다.
+- residual hit는 7건뿐이었다.
+- `Section_14_15_Boundary_Verification_Queue.md`,
+  `Section_14_Orphan_Anchors.md`,
+  `Section_15_Named_Notables_Obelisk_Scout.md`
+  의 hit는 naming/boundary review note였다.
+- `Section_14_Distributed_Affiliation_Findings.md`,
+  `Section_15_Intake_Priority.md`,
+  `workflow/11_Writer_Engine.md`,
+  `workflow/15_FS_Lore_Engine.md`
+  의 hit는 rule/instruction text였다.
+- source prose patch는 필요하지 않았다.
+
+Integrated actions:
+
+- broad residual action-wording no-change stability confirmation
+- report pair / dispatch log 2026-04-22 one-hundred-sixty-sixth pass 반영
+
+Verification:
+
+- current broad residual hits are all intentional notes or instruction text, not live drift.
+- remaining local changes outside this pass are still the unrelated manifest files.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 broad residual hit는 no-change watch 기준으로 유지한다.
