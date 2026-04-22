@@ -12907,3 +12907,47 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 pass-step surface는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Sixtieth Mainline Sync Stability Pass
+
+목적:
+
+- `Section_8_Normalization_Status_Compass.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`가
+  같은 closure sync / watch-reference snapshot을 가리키는지 재확인한다.
+
+배치:
+
+- conductor local mainline sync stability scout
+
+Conductor action:
+
+- conductor는 Section 8 mainline의 compass/register/carryover watch 3축을 다시 읽었다.
+- `Section_8_Normalization_Status_Compass.md`는
+  새 후보보다 잠근 결과 유지, P2 handoff drift 감시,
+  `Section 8 -> 15` closure sync / watch-reference 동기화를 유지한다.
+- `Section_8_Mainline_Sync_Register.md`는
+  status vocabulary, structure snapshot, mismatch snapshot,
+  root mainline, place-network handoff, closure sync watch를
+  같은 본선 register 아래 묶고 있다.
+- `Section_8_15_Closure_Sync_Carryover_Watch.md`는
+  메인 본선 reference를 새 후보 창출이 아니라
+  `5대륙 closure sync / Section 8 -> 15 watch-reference` 유지로 읽는다.
+- source prose patch는 필요하지 않았다.
+
+Integrated actions:
+
+- mainline sync no-change stability confirmation
+- report pair / dispatch log 2026-04-22 one-hundred-sixtieth pass 반영
+
+Verification:
+
+- compass/register/carryover watch all point to the same closed snapshot.
+- remaining local changes outside this pass are still the unrelated manifest files.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 mainline sync는 no-change watch 기준으로 유지한다.
