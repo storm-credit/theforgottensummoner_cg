@@ -127,10 +127,10 @@
 
 `범대륙 루트 문제는 내용 이전에 경로 계급 문제다.`
 
-따라서 실제 실측이 재개될 때는
-정상 `canonical_root`와 `quarantine_root`의 하위 subtree를 샘플링해
-중복률과 손상 범위는 queue 기준으로 관찰 기록만 보강하고,
-동시에 `P2 section_style_forced_on_place_network` 후보를 별도 큐로 관리한다.
+따라서 현재 reference rule은
+정상 `canonical_root`와 `quarantine_root`의 하위 subtree 샘플링을
+queue 기준 관찰 기록 보강용 reference로만 읽고,
+동시에 `P2 section_style_forced_on_place_network` 후보를 별도 큐로 유지하는 것이다.
 
 샘플링 순서는
 `Section_8_Root_Subtree_Sampling_Queue.md`에 고정한다.

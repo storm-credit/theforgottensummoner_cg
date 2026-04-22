@@ -50,7 +50,7 @@
 ## Watch Use
 
 이 분류표는 새 이동/병합 실행표가 아니라,
-`root / structure / mismatch / P2 handoff` watch가 재개될 때
+`root / structure / mismatch / P2 handoff` watch-reference 기준에서
 아래 기준을 확인하는 reference로 쓴다.
 
 1. `Section 8` 루트별 `section_style / mixed_keep / section_style_reclassify` closure 상태

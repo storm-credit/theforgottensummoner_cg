@@ -1,7 +1,7 @@
 # Section 8 Root Subtree Sampling Queue
 
 이 문서는 `Section_8_Root_Corruption_First_Pass_A.md` 이후
-watch 재개 시 어떤 하위 subtree를 샘플링할지 고정하는 큐다.
+watch-reference 아래 어떤 하위 subtree sampling order를 유지할지 고정한 큐다.
 
 이번 큐의 목적은 둘이다.
 

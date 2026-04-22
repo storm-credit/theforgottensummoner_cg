@@ -49,7 +49,7 @@
 이 문서는 `P2 place-pressure` 후보를
 watch cycle에서 정확한 도착점과 함께 확인하기 위한 연결표로 사용한다.
 
-즉 watch 재개 시 해야 할 일은
+즉 현재 watch-reference checklist는
 `P2 후보를 다시 해석하는 것`이 아니라,
 이미 잠근 판정이 어느 sidecar와 register에 귀속되어 있는지 확인하는 것이다.
 

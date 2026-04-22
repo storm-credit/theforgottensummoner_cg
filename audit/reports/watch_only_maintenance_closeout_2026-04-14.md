@@ -5378,3 +5378,44 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   같은 닫힌 snapshot을 가리킨다.
 - 이후 새 local drift가 생기기 전까지
   mainline sync는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Sixty-First Reopen-Condition Surface Closure Pass
+
+목적:
+
+- Section 8 root/place-network support source에 남은
+  stale `reopen-condition` 표면어가
+  새 실행선처럼 보이지 않도록 watch-reference checklist와
+  reference-only guidance 문구로 낮춘다.
+
+확인 결과:
+
+- `Section_8_Place_Network_Handoff_Map.md`,
+  `Section_8_Root_Corruption_First_Pass_A.md`,
+  `Section_8_Root_Label_Map.md`,
+  `Section_8_Root_Subtree_Sampling_Queue.md`,
+  `Section_8_Next_Audit_Targets.md`
+  에 `watch 재개 시`, `재개될 때`, `신규 감사 재개 시`,
+  `해야 할 일` 계열 표면어가 남아 있었다.
+- 이 문구들은 현재 닫힌 mainline에서 읽을 때
+  reference axis보다 reopen signal처럼 보일 여지가 있었다.
+
+조치:
+
+- place-network handoff 문구를
+  `current watch-reference checklist`로 낮췄다.
+- root corruption / root label / subtree sampling queue 문구를
+  `current reference rule`, `watch-reference 기준`,
+  `reference sampling order` 표현으로 정리했다.
+- next-audit target 문구는
+  `reference-only 참고 문서`로 낮췄다.
+
+의미:
+
+- Section 8 root/place-network support source는
+  reopen-condition signal이 아니라
+  닫힌 watch-reference guidance로 읽히게 됐다.
+- 관련 패턴 스캔에서
+  `watch 재개 시`, `재개될 때`, `재개 시`,
+  `신규 감사 재개 시`, `해야 할 일은`, `watch가 재개될 때`
+  hit가 0건이 됐다.

@@ -12951,3 +12951,48 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 mainline sync는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Sixty-First Reopen-Condition Surface Closure Pass
+
+목적:
+
+- Section 8 root/place-network support source에 남은
+  stale `reopen-condition` 표면어가
+  새 실행선처럼 보이지 않도록 watch-reference checklist와
+  reference-only guidance 문구로 낮춘다.
+
+배치:
+
+- conductor local reopen-condition surface closure scout
+
+Conductor action:
+
+- conductor는 reports-excluded audit/workflow source에서
+  `watch 재개 시`, `재개될 때`, `재개 시`,
+  `신규 감사 재개 시`, `해야 할 일은`, `watch가 재개될 때`
+  계열 잔존 여부를 좁혀 확인했다.
+- `Section_8_Place_Network_Handoff_Map.md`,
+  `Section_8_Root_Corruption_First_Pass_A.md`,
+  `Section_8_Root_Label_Map.md`,
+  `Section_8_Root_Subtree_Sampling_Queue.md`,
+  `Section_8_Next_Audit_Targets.md`
+  에 stale reopen-condition wording이 남아 있었다.
+- 해당 wording을 current watch-reference checklist,
+  current reference rule, watch-reference 기준,
+  reference sampling order, reference-only guidance로 낮췄다.
+
+Integrated actions:
+
+- reopen-condition surface source closure
+- report pair / dispatch log 2026-04-22 one-hundred-sixty-first pass 반영
+
+Verification:
+
+- related source scan now returns zero hits for `watch 재개 시`, `재개될 때`, `재개 시`, `신규 감사 재개 시`, `해야 할 일은`, and `watch가 재개될 때`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 reopen-condition surface는 no-change watch 기준으로 유지한다.

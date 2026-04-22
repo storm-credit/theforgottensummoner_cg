@@ -72,7 +72,7 @@
 - `Section_8_15_Closure_Sync_Carryover_Watch.md`
 - `Five_Continent_Missing_Layer_Master_Lock.md`
 
-신규 감사 재개 시 참고 문서:
+reference-only 참고 문서:
 
 - `Section_8_Root_Findings.md`
 - `Section_8_Root_Label_Map.md`
