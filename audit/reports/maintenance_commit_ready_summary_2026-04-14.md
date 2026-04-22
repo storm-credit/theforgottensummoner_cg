@@ -238,6 +238,7 @@
 - 2026-04-22 one-hundred-thirty-sixth pass updated `Section_15_Candidate_Register.md`, `Section_15_Candidate_Batch_01.md`, `Section_15_Intake_Priority.md`, and `Section_15_Intake_Cards_Tier1.md` so the candidate/intake family now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority
 - 2026-04-22 one-hundred-thirty-seventh pass confirmed the candidate/intake family stays aligned after the continent-sidecar umbrella realignment; no further source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-thirty-eighth pass updated `Section_15_Named_Notables_Register.md`, `Section_15_Named_Notables_Track.md`, `Section_15_Named_Notable_Template.md`, and 9 active `Section_15_Named_Notable_*` cards so the People Worth Seeking family now explicitly treats the continent sidecar/scout/display umbrella as lower current-state watch/reference authority
+- 2026-04-22 one-hundred-thirty-ninth pass confirmed the People Worth Seeking family stays aligned after the continent-sidecar umbrella realignment; no further source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
