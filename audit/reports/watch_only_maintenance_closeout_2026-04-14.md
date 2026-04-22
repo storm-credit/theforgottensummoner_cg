@@ -5493,3 +5493,37 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   `다시 올린다`, `재검토한다`, `다시 판단한다`,
   `우선 재검토한다`
   hit가 0건이 됐다.
+
+## 2026-04-22 One-Hundred-Sixty-Fourth Residual Re-Review Stability Pass
+
+목적:
+
+- residual `재검토` 계열 hit가
+  stale reopen drift인지,
+  아니면 실제 naming/boundary review note인지 구분한다.
+
+확인 결과:
+
+- `Section_14_15_Boundary_Verification_Queue.md`의
+  `카르텔` 재검토 문구는
+  15 흡수 금지와 14 유지 판단 아래의 naming review note였다.
+- `Section_14_Orphan_Anchors.md`의
+  `카르텔` 재검토 문구도
+  기능 분류어와 표면 정본명 후보를 구분하는 설명 문맥이었다.
+- `Section_15_Named_Notables_Obelisk_Scout.md`의
+  인물 확정 재검토 문구는
+  장소-기관 슬롯 우선 유지와 추가 증거 보류 규칙을 설명하는 boundary note였다.
+
+조치:
+
+- source prose patch 없이
+  residual re-review hit가 intentional note라는 판정만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 현재 남은 `재검토` 계열 문구는
+  stale reopen drift가 아니라
+  naming/boundary review 의미를 가진다.
+- 이후 새 local drift가 생기기 전까지
+  같은 residual hit는 no-change watch 기준으로 유지하면 된다.
