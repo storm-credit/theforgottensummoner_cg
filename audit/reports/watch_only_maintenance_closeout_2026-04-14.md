@@ -5750,3 +5750,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   historical trace wording이다.
 - 이후 새 local drift가 생기기 전까지
   같은 change-log trace cluster는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Seventy-First Core-Sample Comparative Surface Closure Pass
+
+목적:
+
+- core faction sample 문서들에 남은
+  stale `다음 실제 감사` 표면어가
+  새 실행선처럼 보이지 않도록
+  closed comparative/reference guidance로 낮춘다.
+
+확인 결과:
+
+- `Ether_Core_Faction_Layers.md`,
+  `Frost_Core_Faction_Layers.md`,
+  `Oceanic_Core_Faction_Layers.md`,
+  `Obelisk_Core_Faction_Layers.md`
+  의 Conductor Decision 끝에
+  `다음 실제 감사는 ...` 문구가 남아 있었다.
+- 이 문구들은 현재 닫힌 `1~5 대륙 Section 8 spine sample` 묶음보다
+  아직 다음 cycle이 열린 것처럼 읽힐 여지가 있었다.
+
+조치:
+
+- Ether/Frost/Oceanic sample은
+  이미 닫힌 comparative sample set과 함께 읽는 reference guidance로 낮췄다.
+- Obelisk sample은
+  잠근 `루트 구조 / 표준 spine / 레거시 분리` 기준을 함께 읽는
+  current reference reading으로 정리했다.
+
+의미:
+
+- core faction sample 문서들은
+  새 cycle 지시가 아니라
+  닫힌 comparative/reference sample guidance로 읽히게 됐다.
+- 관련 패턴 스캔에서
+  `다음 실제 감사`
+  hit가 0건이 됐다.

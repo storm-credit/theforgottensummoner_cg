@@ -113,4 +113,4 @@
 - 이 문서는 `오벨리스크 spine sample`로 유지한다.
 - 오벨리스크는 `frontier_survival + guild_market`, `state_house thin-support` 대륙으로 잠근다.
 - 이로써 `1~5 대륙 Section 8 spine sample`이 모두 닫혔다.
-- 다음 실제 감사는 `Section 8` 대륙 샘플을 바탕으로 `루트 구조 / 표준 spine / 레거시 분리`를 재정렬하는 것이다.
+- 현재 reference reading은 `Section 8` 대륙 샘플을 바탕으로 잠근 `루트 구조 / 표준 spine / 레거시 분리` 기준을 함께 읽는 것이다.
