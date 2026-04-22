@@ -60,7 +60,7 @@
 
 1. `P1` 후보의 1차 closure는 완료했고, 이 문서에서는 watch queue와 locked snapshot을 분리해 유지한다.
 2. 현재 watch mainline은 `P0 root_corruption`과 `P2 section_style_forced_on_place_network` family만 남긴다.
-3. `P0`는 `Section_8_Root_Corruption_First_Pass_A.md`와 `Section_8_Root_Subtree_Sampling_Queue.md` 기준으로 이어간다.
+3. `P0`는 `Section_8_Root_Corruption_First_Pass_A.md`와 `Section_8_Root_Subtree_Sampling_Queue.md` 기준으로 유지한다.
 4. `P2`는 `Section_8_Place_Network_P2_Queue.md`, `Section_8_Place_Network_Handoff_Map.md` 기준으로 sidecar/register drift만 본다.
 5. 새 `P1` 후보를 늘리기 전에는 `Section_8_Normalization_Status_Compass.md`와 status vocabulary를 먼저 동기화한다.
 6. missing-layer component set은 `Five_Continent_Missing_Layer_Master_Lock.md` 아래 closeout reference로 보고,

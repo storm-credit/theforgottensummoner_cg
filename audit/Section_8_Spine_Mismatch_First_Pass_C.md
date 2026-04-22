@@ -94,7 +94,7 @@
 1. `P0 root_corruption`은 구조 라벨 문제가 아니라 `root label discipline` 문제다.
 2. `P2 place-pressure`는 구조 오류 확정보다 `place pressure strong` 메모 체계로 관리하는 편이 맞다.
 
-따라서 mismatch 1차 사이클의 다음 단계는
+따라서 mismatch 1차 사이클의 현재 유지선은
 새 후보를 더 늘리기보다,
 현재 잠근 `structure label / mismatch / place pressure`를
 서로 충돌 없이 유지하는지 점검하는 것이다.

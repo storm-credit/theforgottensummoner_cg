@@ -10,7 +10,7 @@
 - 얇은 층 5개를 `파일명 추정`이 아니라 `본문 근거` 위에서 읽는다.
 - 각 대륙마다 `admissible`, `still not enough`, `safe read`를
   master lock 아래 샘플 anchor로 한 번 실제 고정한다.
-- 다음 패스부터는 이 샘플과 같은 방향의 반복 증거만 추가한다.
+- 현재는 이 샘플과 같은 방향의 반복 증거만 admissible reference로 읽는다.
 
 ## Input
 
@@ -159,6 +159,6 @@
 다섯 얇은 층 모두 `정책상 허용된 thin/support 범위` 안에서만 읽는다는
 component read를 유지한다.
 
-즉 다음 패스는
+즉 현재 reference reading은
 새 층 승격이 아니라,
-이 샘플과 같은 방향의 반복 증거가 다른 문서 family에서 또 잡히는지를 보는 작업이다.
+이 샘플과 같은 방향의 반복 증거가 다른 문서 family에서 잡히는지만 보는 기준이다.

@@ -75,8 +75,8 @@ stable triad package freeze 이후 첫 freeze-outside hold batch로 이 continua
 - `드락사르`: `verify_before_15` 유지
 - `카사르`: `hold_for_dual_review` 유지
 
-이후 재개 시 세부 작업은
-이 네 명의 `14 독립 시트 / Act 중심성 / 전략 핵심성`을 재점검하는 것이다.
+현재 세부 reference checklist는
+이 네 명의 `14 독립 시트 / Act 중심성 / 전략 핵심성` 재점검으로 유지한다.
 
 ## Recheck Outcome
 

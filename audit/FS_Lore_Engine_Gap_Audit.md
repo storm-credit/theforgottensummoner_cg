@@ -194,10 +194,10 @@ Status: `built`
 8. `FS_Ecology_Resource_Register.md`
 9. `FS_Rumor_Fact_Register.md`
 
-## New Upgrade Pass
+## Current Upgrade Baseline
 
 장부가 충분히 생긴 뒤,
-다음 단계에서 정말 필요한 업그레이드는 아래 5개로 압축된다.
+현재 기준에서 유지할 업그레이드 baseline은 아래 5개로 압축된다.
 
 1. `FS_Decision_Ruling_Register.md`
 2. `FS_Cross_Chronicle_Firewall.md`

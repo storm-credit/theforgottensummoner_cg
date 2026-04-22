@@ -5301,3 +5301,44 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   `recommended_next`, `다음 실제 패스` 계열 hit가 0건이 됐다.
 - 이후 새 local drift가 생기기 전까지
   next-action surface는 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Fifty-Ninth Stale Pass-Step Surface Closure Pass
+
+목적:
+
+- reports-excluded audit/workflow source에 남은
+  stale `next pass / next step / continue` 표면어가
+  새 workstream처럼 보이지 않도록 reference baseline, backlog, checklist 문구로 낮춘다.
+
+확인 결과:
+
+- `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`와
+  `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md`에
+  `다음 패스` 계열 문구가 남아 있었다.
+- `FS_Lore_Engine_Gap_Audit.md`,
+  `Section_14_Contact_Findings.md`,
+  `Section_8_Spine_Mismatch_First_Pass_C.md`,
+  `Section_8_Spine_Mismatch_Queue.md`,
+  `Section_15_Crimson_Hold_Cluster_Continuation.md`
+  에도 `다음 단계`, `이어간다`, `재개 시 세부 작업`처럼
+  새 실행선으로 오독될 수 있는 표현이 남아 있었다.
+- 남은 `다음 단계` hit 2건은 인물 기능 설명과 작법 금지 규칙으로,
+  이번 drift 범위가 아니었다.
+
+조치:
+
+- missing-layer evidence pass 문구를
+  admissible reference / current reference reading으로 낮췄다.
+- lore-engine upgrade 문구는
+  `Current Upgrade Baseline`으로 정리했다.
+- Section 14 contact와 Section 8 mismatch 계열은
+  reference backlog, 현재 유지선, watch queue 기준으로 다시 적었다.
+- Crimson hold cluster의 conditional 재개 문구는
+  current reference checklist로 낮췄다.
+
+의미:
+
+- stale pass-step wording은 새 workstream 지시가 아니라
+  이미 닫힌 reference/watch 기준으로 읽히게 됐다.
+- 이후 새 local drift가 생기기 전까지
+  pass-step surface는 no-change watch 기준으로 유지하면 된다.

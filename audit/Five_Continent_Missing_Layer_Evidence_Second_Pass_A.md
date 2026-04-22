@@ -1,7 +1,7 @@
 # Five Continent Missing Layer Evidence Second Pass A
 
 이 문서는
-`Five_Continent_Missing_Layer_Evidence_First_Pass_A.md` 다음 단계로,
+`Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`의 follow-up reference로,
 같은 방향의 반복 증거가 실제로 다른 문서 family에서도 잡히는지를
 확인하는 2차 샘플 패스다.
 
@@ -154,6 +154,6 @@
 다섯 대륙 모두 `thin/support` 판정이 맞다는 component read를 유지하고,
 반복 증거는 `승격 근거`가 아니라 `안정화 근거`로만 읽는다.
 
-즉 다음 패스는
+즉 현재 reference reading은
 새 층을 세우는 일이 아니라,
-이 방향을 거스르는 overread를 더 잘 막는 쪽으로 이어진다.
+이 방향을 거스르는 overread를 막는 쪽으로 유지된다.
