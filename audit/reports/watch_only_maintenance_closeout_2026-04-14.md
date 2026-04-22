@@ -5078,6 +5078,35 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   Section 8 vocabulary surface는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Fifty-Fifth Section-8 Vocabulary Surface Stability Pass
+
+목적:
+
+- 방금 정리한 Section 8 live vocabulary surface가
+  current closure vocabulary 기준으로 안정화됐는지 다시 확인한다.
+
+확인 결과:
+
+- Section 8 source scan에서 `place_style`, plain `mixed`,
+  `다음 실제 패스`, `current-state watch/reference closure`,
+  `lower watch/reference authority` hit는 모두 0건이었다.
+- `mixed_keep / section_style_reclassify / place-pressure / place_pressure`
+  current vocabulary hit는 유지되고 있었다.
+- 원격 parity는 `0 0`이었다.
+
+조치:
+
+- source prose patch 없이
+  Section 8 vocabulary surface no-change stability 결과만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- Section 8 vocabulary surface는
+  닫힌 current closure vocabulary 기준으로 유지된다.
+- 이후 새 local drift가 생기기 전까지
+  같은 surface는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Ninth Section-8 Bridge Stability Pass
 
 목적:

@@ -12698,3 +12698,41 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 Section 8 vocabulary surface는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Fifty-Fifth Section-8 Vocabulary Surface Stability Pass
+
+목적:
+
+- 방금 정리한 Section 8 live vocabulary surface가
+  current closure vocabulary 기준으로 안정화됐는지 다시 확인한다.
+
+배치:
+
+- conductor local section-8 vocabulary surface stability scout
+
+Conductor action:
+
+- conductor는 Section 8 source 전체에서 `place_style`, plain `mixed`,
+  `다음 실제 패스`, old authority shorthand 잔존 여부를 다시 확인했다.
+- `place_style`, plain `mixed`, `다음 실제 패스`,
+  `current-state watch/reference closure`,
+  `lower watch/reference authority` hit는 모두 0건이었다.
+- `mixed_keep / section_style_reclassify / place-pressure / place_pressure`
+  current vocabulary hit는 유지되고 있었다.
+- 원격 parity는 `0 0`이었다.
+
+Integrated actions:
+
+- Section 8 vocabulary surface no-change stability confirmation
+- report pair / dispatch log 2026-04-22 one-hundred-fifty-fifth pass 반영
+
+Verification:
+
+- no additional Section 8 source prose drift was found at this checkpoint.
+- the Section 8 vocabulary surface remains aligned to current closure vocabulary.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 log-only stability delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 Section 8 vocabulary surface는 no-change watch 기준으로 유지한다.
