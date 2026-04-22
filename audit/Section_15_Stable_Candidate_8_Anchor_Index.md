@@ -72,7 +72,7 @@
     stable candidate 색인은 그 closure 상태를 stable/hold routing 층에서만 참조한다.
 12. continent sidecar/scout/display wording umbrella는
     Frost / Oceanic / Ether / Obelisk family 모두
-    current-state watch/reference closure로만 읽고,
+    lower current-state watch/reference authority로만 읽고,
     stable / hold index가 route/reference 범위를 넘겨 candidate owner를 가져오지 않는다.
 
 ## Routing Consequence
@@ -86,7 +86,7 @@ stable_triad_frozen_reference_set를 유지하는 단계이며,
 `stable_triad_frozen_reference_set / source_check_hold / hold reference split / deferred_expansion_hold / hold reference split`
 상태어를 closure sync / watch-reference 기준으로 유지하는 것이다.
 continent sidecar/scout/display wording umbrella도
-lower watch/reference authority로만 읽는다.
+lower current-state watch/reference authority로만 읽는다.
 
 ## Conductor Decision
 

@@ -136,4 +136,4 @@ Reading snapshot:
 - Ether hold cluster는 한 번 watch-reference 상태로 읽고, 새 증거 전까지 확장하지 않는다.
 - continent sidecar/scout/display wording umbrella는
   Frost / Oceanic / Ether / Obelisk family 모두
-  current-state watch/reference closure로만 유지한다.
+  lower current-state watch/reference authority로만 유지한다.

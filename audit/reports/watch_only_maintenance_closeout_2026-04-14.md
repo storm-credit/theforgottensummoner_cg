@@ -4849,6 +4849,38 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 이후 새 local drift가 생기기 전까지
   같은 residual reference layer는 no-change watch 기준으로 유지하면 된다.
 
+## 2026-04-22 One-Hundred-Forty-Sixth Summary-Gate Lower-Authority Phrase Alignment Pass
+
+목적:
+
+- remaining summary/index gate인
+  `Section_15_Five_Continent_Closure_Table.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`,
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`
+  가 continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority 문구로 읽는지 정렬한다.
+
+확인 결과:
+
+- 4문서 모두 umbrella를 새 owner 결정축이나 candidate build queue로 승격하지는 않았지만,
+  일부 문장이 `current-state watch/reference closure` 또는
+  `lower watch/reference authority`라는 이전 shorthand를 쓰고 있었다.
+
+조치:
+
+- summary/index gate 4문서의 remaining shorthand를
+  `lower current-state watch/reference authority`로 통일했다.
+- 같은 정렬 결과를 report pair와 dispatch log에 반영했다.
+
+의미:
+
+- summary/index gate도 이제
+  continent sidecar/scout/display umbrella를
+  닫힌 lower current-state watch/reference authority로 같은 이름 아래 읽는다.
+- 이후 새 local drift가 생기기 전까지
+  같은 summary/index gate는 no-change watch 기준으로 유지하면 된다.
+
 ## 2026-04-22 One-Hundred-Forty-Fifth Residual-Reference Stability Pass
 
 목적:

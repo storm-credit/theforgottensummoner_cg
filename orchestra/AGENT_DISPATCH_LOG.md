@@ -12325,3 +12325,44 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 같은 residual reference layer는 no-change watch 기준으로 유지한다.
+
+## 2026-04-22 KST - One-Hundred-Forty-Sixth Summary-Gate Lower-Authority Phrase Alignment Pass
+
+목적:
+
+- remaining summary/index gate가
+  continent sidecar/scout/display umbrella를
+  같은 lower current-state watch/reference authority 문구로 읽는지 정렬한다.
+
+배치:
+
+- conductor local summary-gate phrase-alignment scout
+
+Conductor action:
+
+- conductor는 `Section_15_Five_Continent_Closure_Table.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`,
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`
+  를 먼저 스캔했다.
+- 4문서 모두 umbrella를 새 owner 결정축이나 candidate build queue로 승격하지는 않았지만,
+  일부 문장이 `current-state watch/reference closure` 또는
+  `lower watch/reference authority`라는 이전 shorthand를 쓰고 있었다.
+- 해당 shorthand를 모두
+  `lower current-state watch/reference authority`로 통일했다.
+
+Integrated actions:
+
+- summary/index gate lower-authority phrase alignment
+- report pair / dispatch log 2026-04-22 one-hundred-forty-sixth pass 반영
+
+Verification:
+
+- the remaining summary/index gates now use the exact lower current-state watch/reference authority wording.
+- the continent sidecar/scout/display umbrella is not promoted into a canonical state label, owner axis, or candidate build queue.
+- next verification gate is commit/push parity plus fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 같은 summary/index gate는 no-change watch 기준으로 유지한다.

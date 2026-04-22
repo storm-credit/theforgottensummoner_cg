@@ -103,7 +103,7 @@ hold-only snapshot:
 3. `Section 8 -> 15 watch-reference`가 summary / bridge / queue 문서에서 같은 authority 분리 문장으로 읽히게 유지한다.
 4. continent sidecar/scout/display wording umbrella는
    Frost / Oceanic / Ether / Obelisk family 모두
-   current-state watch/reference closure로만 읽고,
+   lower current-state watch/reference authority로만 읽고,
    새 이름 발굴이나 future-only build task로 열지 않는다.
 
 ## Profile Alignment Snapshot
