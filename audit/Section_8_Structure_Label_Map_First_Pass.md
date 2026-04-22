@@ -51,7 +51,7 @@
    - `mixed_keep`
    - 이유: 부족 연합 구조와 생존 시장 구조가 함께 강함
 
-따라서 다음 실제 재검토 우선순위는
+따라서 현재 locked reference sequence는
 `프로스트본 연합 -> 해적 연합 -> 잊힌 자들의 연합`이다.
 
 ## Round 2 Closure
@@ -65,7 +65,7 @@
    - `mixed_keep`
    - 이유: 파벌 정치가 강하지만 항만/섬/암시장 네트워크도 세력 운용의 본체임
 
-따라서 다음 실제 재검토 우선순위는
+따라서 현재 locked reference focus는
 `잊힌 자들의 연합` 단독 심층 패스다.
 
 ## Round 3 Closure

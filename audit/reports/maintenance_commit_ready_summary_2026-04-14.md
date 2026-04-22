@@ -272,6 +272,7 @@
 - 2026-04-22 one-hundred-seventieth pass confirmed the broad `backfill / direct 연결` cluster in `FS_Canon_Change_Log.md` remains intentional historical trace wording rather than live drift; no source prose patch was needed beyond report/log recording
 - 2026-04-22 one-hundred-seventy-first pass updated `Ether_Core_Faction_Layers.md`, `Frost_Core_Faction_Layers.md`, `Oceanic_Core_Faction_Layers.md`, and `Obelisk_Core_Faction_Layers.md` so stale `다음 실제 감사` wording now reads as closed comparative/reference guidance
 - 2026-04-22 one-hundred-seventy-second pass confirmed residual `완료 / 유지 / closed` wording is intentional state/closeout language rather than live drift; no source prose patch was needed beyond report/log recording
+- 2026-04-22 one-hundred-seventy-third pass updated `Section_8_Structure_Label_Map_First_Pass.md` so stale `다음 실제 재검토 우선순위` wording now reads as locked reference sequence/focus rather than reopened work
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

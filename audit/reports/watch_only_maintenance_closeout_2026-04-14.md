@@ -5821,3 +5821,36 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   state/closeout language다.
 - 이후 새 local drift가 생기기 전까지
   같은 residual wording은 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-22 One-Hundred-Seventy-Third Structure-Map Re-Review Surface Closure Pass
+
+목적:
+
+- `Section_8_Structure_Label_Map_First_Pass.md`에 남은
+  stale `다음 실제 재검토 우선순위` 표면어가
+  새 실행선처럼 보이지 않도록 locked reference wording으로 낮춘다.
+
+확인 결과:
+
+- Round 1 closure 아래에
+  `프로스트본 연합 -> 해적 연합 -> 잊힌 자들의 연합`
+  재검토 순서를 여는 문장이 남아 있었다.
+- Round 2 closure 아래에도
+  `잊힌 자들의 연합` 단독 심층 패스를
+  다음 실제 재검토처럼 여는 문장이 남아 있었다.
+
+조치:
+
+- Round 1 문구를
+  `현재 locked reference sequence`로 낮췄다.
+- Round 2 문구를
+  `현재 locked reference focus`로 낮췄다.
+
+의미:
+
+- structure label map은
+  재검토 실행선이 아니라
+  이미 닫힌 round sequence/focus를 기록하는 reference로 읽히게 됐다.
+- 관련 패턴 스캔에서
+  `다음 실제 재검토 우선순위`
+  hit가 0건이 됐다.
