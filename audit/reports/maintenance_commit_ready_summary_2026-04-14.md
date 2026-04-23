@@ -282,6 +282,7 @@
 - 2026-04-23 one-hundred-eightieth pass updated `Section_15_Profile_Template.md` and `Section_15_Named_Notable_Template.md` so residual question-style bullets now read as noun-style criteria and reference prompts
 - 2026-04-23 one-hundred-eighty-first pass updated `Section_15_Named_Notable_Erion_Dracovis.md`, `Section_15_Named_Notable_Oghma.md`, `Section_15_Named_Notable_Sylvia.md`, `Section_15_Named_Notable_Template.md`, and `Section_15_Named_Notable_Wolfgar_Dragonforge.md` so named-notable conductor-note headers now use `14 겹침 위험 기준 / 판독 기준축`
 - 2026-04-23 one-hundred-eighty-second pass updated `Section_15_Named_Notable_Template.md`, `Section_15_Named_Notable_Erion_Dracovis.md`, `Section_15_Named_Notable_Oghma.md`, `Section_15_Named_Notable_Sylvia.md`, and `Section_15_Named_Notable_Wolfgar_Dragonforge.md` so residual named-notable detail bullets now read as noun-style criteria instead of question-style prompts
+- 2026-04-23 one-hundred-eighty-third pass confirmed the remaining 19 `왜 / 어떤 / 어디 / 있는지 / 하는지 / 얼마나` hits inside Section 15 profile/subline family are descriptive prose or template explanation lines rather than live TODO drift; no source prose patch was needed beyond report/log recording
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
