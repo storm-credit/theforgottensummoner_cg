@@ -16,9 +16,9 @@
 |---|---|---|---|---|---|
 | `왕국연합 (Allians)` | `label_conflict` | `왕국연합 (Allied Kingdoms)` 축 | 영문 철자 `Allians` | `Conflict` | display canon은 `Allied Kingdoms`로 유지 |
 | `정령 연합 (Elemental Alliance)` | `label_conflict` | `정령 연합 (Spirit Union)` 축 | 영문 `Elemental Alliance` | `Conflict` | 한국어 축 유지, 영문은 `Spirit Union` 우선 |
-| `제레시스 아르카디아` | `context_conflict` | `에테르 / 마법협회` | aliases와 본문 일부가 `크림슨 대륙 / 아르카나 제국 잔재`를 가리킴 | `High Risk Conflict` | 별도 문맥 검토 필요 |
-| `크세노스 아르카디아` | `context_conflict` | `에테르 / 마법협회` | aliases와 본문 일부가 `크림슨 대륙 / 아르카나 제국 잔재`를 가리킴 | `High Risk Conflict` | 별도 문맥 검토 필요 |
-| `발리아스 이그나리온` | `context_conflict` | `에테르 / 마법협회` | aliases와 본문 일부가 `크림슨 대륙 / 아르카나 제국 잔재`를 가리킴 | `High Risk Conflict` | 별도 문맥 검토 필요 |
+| `제레시스 아르카디아` | `context_conflict` | `에테르 / 마법협회` | aliases와 본문 일부가 `크림슨 대륙 / 아르카나 제국 잔재`를 가리킴 | `High Risk Conflict` | 별도 문맥 review note로 유지 |
+| `크세노스 아르카디아` | `context_conflict` | `에테르 / 마법협회` | aliases와 본문 일부가 `크림슨 대륙 / 아르카나 제국 잔재`를 가리킴 | `High Risk Conflict` | 별도 문맥 review note로 유지 |
+| `발리아스 이그나리온` | `context_conflict` | `에테르 / 마법협회` | aliases와 본문 일부가 `크림슨 대륙 / 아르카나 제국 잔재`를 가리킴 | `High Risk Conflict` | 별도 문맥 review note로 유지 |
 | `에테르 현존 영웅군 전반` | `macro_overlink` | 각 대륙 세력 앵커 | `Guilds / Syndicates / Shadow Intelligence / Megacorps`가 과반복 | `Watch` | 세계 구조인지 자동 확장 잔재인지 분리 판정 |
 | `이리나 폰 루즈` | `macro_overlink` | `그림자 첩보망` 중심 인물 | 문서 서두에 메타 시스템 블록이 본문보다 앞선다 | `Watch` | 접점은 유지하되 메타 문장은 정본 서술로 채택하지 않음 |
 | `칼리크 디트리히` | `macro_overlink` | `침묵의 상회` 및 금융/첩보 접점 | `길드/상단/마탑/첩보` 블록이 일괄 삽입됨 | `Watch` | 실제 접점만 남기고 과반복 블록은 환원 필요 |

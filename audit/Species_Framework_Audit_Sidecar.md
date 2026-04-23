@@ -99,7 +99,7 @@
 주의:
 
 - `정령` 자체는 개체/존재/소환체일 가능성이 커서, 곧바로 `종족`으로 고정하지 않는다.
-- `언데드`는 기본적으로 `state/transformation`으로 읽고, 독립 사회 구조가 반복 확인될 때만 별도 검토한다.
+- `언데드`는 기본적으로 `state/transformation`으로 읽고, 독립 사회 구조가 반복 확인될 때만 별도 review reference로 둔다.
 
 ## Evidence Already In Canon Snapshot
 

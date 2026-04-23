@@ -13560,3 +13560,46 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 residual priority/routing wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-23 KST - One-Hundred-Seventy-Fifth Review-Surface Closure Pass
+
+목적:
+
+- reports-excluded source에 남은
+  stale `검토한다 / 검토 필요 / 우선 검토한다` 표면어가
+  새 실행선처럼 보이지 않도록 review note, criteria, reference wording으로 낮춘다.
+
+배치:
+
+- conductor local review-surface closure scout
+
+Conductor action:
+
+- conductor는 reports-excluded source에서
+  `검토한다`, `검토 필요`, `우선 검토한다` 잔존 여부를 확인했다.
+- `Section_14_Conflict_Register.md`,
+  `Section_15_Intake_Structure.md`,
+  `Section_15_Named_Notable_Bellana_Stormbringer.md`,
+  `Species_Framework_Audit_Sidecar.md`,
+  `workflow/00_Astralis_Vision.md`,
+  `workflow/01_Canon_Policy.md`,
+  `workflow/12_Naming_Tone_Guide.md`
+  에 review-action surface가 남아 있었다.
+- 해당 wording을 review note, review criteria, display reference,
+  review reference wording으로 낮췄다.
+
+Integrated actions:
+
+- review-surface source closure
+- report pair / dispatch log 2026-04-23 one-hundred-seventy-fifth pass 반영
+
+Verification:
+
+- related source scan now leaves only the three intentional naming/boundary review note hits already classified in prior stability passes.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 review-surface wording은 no-change watch 기준으로 유지한다.

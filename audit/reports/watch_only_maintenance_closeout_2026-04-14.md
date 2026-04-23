@@ -5891,3 +5891,38 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   rule/priority/routing text다.
 - 이후 새 local drift가 생기기 전까지
   같은 residual wording은 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-23 One-Hundred-Seventy-Fifth Review-Surface Closure Pass
+
+목적:
+
+- reports-excluded source에 남은
+  stale `검토한다 / 검토 필요 / 우선 검토한다` 표면어가
+  새 실행선처럼 보이지 않도록 review note, criteria, reference wording으로 낮춘다.
+
+확인 결과:
+
+- `Section_14_Conflict_Register.md`의 `별도 문맥 검토 필요`는
+  context-conflict action처럼 보일 수 있었다.
+- `Section_15_Intake_Structure.md`, `Species_Framework_Audit_Sidecar.md`의
+  `검토한다` 문구는 policy 기준으로 읽는 편이 더 안정적이었다.
+- `Section_15_Named_Notable_Bellana_Stormbringer.md`의
+  display canon 후보 검토 문구는 후보 reference로 충분했다.
+- `workflow/00_Astralis_Vision.md`, `workflow/01_Canon_Policy.md`,
+  `workflow/12_Naming_Tone_Guide.md`의 `우선 검토한다`는
+  live action이 아니라 검토 기준 문장이었다.
+
+조치:
+
+- conflict register의 action surface는
+  `별도 문맥 review note로 유지`로 낮췄다.
+- intake/species/workflow rule 문구는
+  `검토 기준` 또는 `review reference`로 낮췄다.
+- Bellana display 후보 문구는
+  display canon 후보 reference로 낮췄다.
+
+의미:
+
+- 관련 source에서 `검토한다 / 검토 필요 / 우선 검토한다` surface는
+  이미 intentional naming/boundary review note 3건만 남는다.
+- 그 3건은 이전 pass에서 no-change watch 잔존군으로 판정한 문맥이다.
