@@ -114,8 +114,8 @@ deferred named boundary card reading은
 - 이 시점의 확정 기준:
   - 키르케 영약회의 대표 기록/계량 명사라는 점
   - 고통의 증류탑과 계량 기록실에 강하게 묶인다는 점
-- 14와 겹칠 위험:
+- 14 겹침 위험 기준:
   - 작업본 기준 `낮음`
-- 후속 판독축:
+- 판독 기준축:
   - 독자 인물 문서가 존재하는지와 실제 전투 비중
   - 범대륙 후기 확장축이 `deferred_expansion_hold / hold reference split`에서 올라올 근거가 더 있는지

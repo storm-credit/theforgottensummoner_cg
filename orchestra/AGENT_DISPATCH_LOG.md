@@ -13815,3 +13815,44 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 template question-bullet wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-23 KST - One-Hundred-Eighty-First Named-Notable Conductor Header Pass
+
+목적:
+
+- named-notable family의 conductor-note header가
+  profile family와 어긋나지 않도록
+  risk/axis wording을 기준형으로 맞춘다.
+
+배치:
+
+- conductor local named-notable conductor-header scout
+
+Conductor action:
+
+- conductor는 named-notable active 카드와 template를 다시 읽었다.
+- `Section_15_Named_Notable_Erion_Dracovis.md`,
+  `Section_15_Named_Notable_Oghma.md`,
+  `Section_15_Named_Notable_Sylvia.md`,
+  `Section_15_Named_Notable_Template.md`,
+  `Section_15_Named_Notable_Wolfgar_Dragonforge.md`
+  만 `14와 겹칠 위험`, `후속 판독축` wording을 유지하고 있었다.
+- 해당 header를
+  `14 겹침 위험 기준`, `판독 기준축`으로 정렬했다.
+
+Integrated actions:
+
+- named-notable conductor-header source alignment
+- report pair / dispatch log 2026-04-23 one-hundred-eighty-first pass 반영
+
+Verification:
+
+- related family scan now returns zero hits for
+  `14와 겹칠 위험` and `후속 판독축`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 named-notable conductor-header wording은 no-change watch 기준으로 유지한다.

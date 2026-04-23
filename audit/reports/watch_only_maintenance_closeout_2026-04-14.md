@@ -6095,3 +6095,32 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   질문 메모보다 기준 문서처럼 읽히게 됐다.
 - 두 template에서
   관련 question-style bullet hit가 0건이 됐다.
+
+## 2026-04-23 One-Hundred-Eighty-First Named-Notable Conductor Header Pass
+
+목적:
+
+- named-notable family의 conductor-note header가
+  profile family와 어긋나지 않도록
+  risk/axis wording을 기준형으로 맞춘다.
+
+확인 결과:
+
+- named-notable active 카드 4개와 template 1개만
+  `14와 겹칠 위험`, `후속 판독축` 표면을 유지하고 있었다.
+- profile family는 이미
+  `14와 충돌 가능성`, `보강 기준축` 계열로 정리돼 있어
+  family 간 헤더 톤이 달라 보였다.
+
+조치:
+
+- named-notable family의 해당 헤더를
+  `14 겹침 위험 기준`, `판독 기준축`으로 낮췄다.
+
+의미:
+
+- named-notable 카드도
+  risk note와 reading axis를
+  질문형이 아니라 기준형 header로 읽게 됐다.
+- 대상 5개 문서에서
+  `14와 겹칠 위험 / 후속 판독축` hit가 0건이 됐다.
