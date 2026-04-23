@@ -13856,3 +13856,43 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 named-notable conductor-header wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-23 KST - One-Hundred-Eighty-Second Named-Notable Detail Bullet Pass
+
+목적:
+
+- named-notable family 내부에 남은
+  detail question bullet을
+  noun-style criteria wording으로 낮춘다.
+
+배치:
+
+- conductor local named-notable detail-bullet scout
+
+Conductor action:
+
+- conductor는 named-notable template와 active 카드 4개를 다시 읽었다.
+- template에는
+  `왜 이 인물을 사람들이 기억하는가`, `왜 찾아가야 하는가`,
+  `어떤 분야의 얼굴인가`, `무엇을 여는 인물인지`,
+  `왜 중요한지` 같은 detail question bullet이 남아 있었다.
+- active 카드에는
+  `얼마나 큰지`, `있는지`, `유지할 것` 같은
+  detail question/action bullet이 남아 있었다.
+- 해당 wording을 noun-style criteria wording으로 낮췄다.
+
+Integrated actions:
+
+- named-notable detail-bullet source alignment
+- report pair / dispatch log 2026-04-23 one-hundred-eighty-second pass 반영
+
+Verification:
+
+- related family scan now returns zero hits for the targeted detail question-style bullet patterns.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 named-notable detail-bullet wording은 no-change watch 기준으로 유지한다.

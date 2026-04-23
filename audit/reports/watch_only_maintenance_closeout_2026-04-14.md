@@ -6124,3 +6124,35 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   질문형이 아니라 기준형 header로 읽게 됐다.
 - 대상 5개 문서에서
   `14와 겹칠 위험 / 후속 판독축` hit가 0건이 됐다.
+
+## 2026-04-23 One-Hundred-Eighty-Second Named-Notable Detail Bullet Pass
+
+목적:
+
+- named-notable family 내부에 남은
+  detail question bullet을
+  noun-style criteria wording으로 낮춘다.
+
+확인 결과:
+
+- named-notable template의
+  `왜 이 인물을 사람들이 기억하는가`, `왜 찾아가야 하는가`,
+  `어떤 분야의 얼굴인가`, `무엇을 여는 인물인지`,
+  `왜 중요한지` 같은 문구가 질문형으로 남아 있었다.
+- active named-notable 카드 4개에도
+  `얼마나 큰지`, `있는지`, `유지할 것` 같은
+  세부 판독 bullet이 남아 있었다.
+
+조치:
+
+- template의 detail bullet을
+  기억 근거, 접근 근거, 대표 분야, 여는 축, 중요성 근거로 낮췄다.
+- active 카드의 판독 bullet도
+  개입도, 전투 비중, 연결 여부, 병합 금지 유지 같은 기준 문구로 낮췄다.
+
+의미:
+
+- named-notable family가
+  질문 메모보다 판독 기준 카드처럼 더 일관되게 읽히게 됐다.
+- 대상 5개 문서에서
+  관련 question-style detail bullet hit가 0건이 됐다.

@@ -117,5 +117,5 @@ deferred named boundary card reading은
 - 14 겹침 위험 기준:
   - 작업본 기준 `낮음`
 - 판독 기준축:
-  - 독자 인물 문서가 존재하는지와 실제 전투 비중
-  - 범대륙 후기 확장축이 `deferred_expansion_hold / hold reference split`에서 올라올 근거가 더 있는지
+- 독자 인물 문서 존재 여부와 실제 전투 비중
+- `deferred_expansion_hold / hold reference split`에서 올라올 추가 근거
