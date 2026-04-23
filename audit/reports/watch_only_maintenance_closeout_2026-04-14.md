@@ -6001,3 +6001,34 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   추가 확인이 필요하다` hit가 0건이 됐다.
 - Section 8 closed queue는
   다시 열리는 질문표가 아니라 닫힌 기준표로 읽히게 됐다.
+
+## 2026-04-23 One-Hundred-Seventy-Eighth Profile Confirmation Header Surface Pass
+
+목적:
+
+- Section 15 named-notable/profile/subline profile 카드에 반복되는
+  `이 시점에 확정할 것` 헤더가
+  TODO처럼 읽히지 않도록
+  `이 시점의 확정 기준`으로 통일한다.
+
+확인 결과:
+
+- reports-excluded audit source에서
+  `이 시점에 확정할 것`이 42건 남아 있었다.
+- 이 문구는 실제 새 작업 지시가 아니라
+  카드 승격/확정 시점에 확인해야 하는 기준 묶음이었다.
+- 대상은 active named-notable 카드, profile 카드,
+  subline profile 카드, 그리고 두 template 문서였다.
+
+조치:
+
+- 42개 카드/템플릿에서 exact header wording을
+  `이 시점의 확정 기준`으로 통일했다.
+
+의미:
+
+- profile family가
+  초안 TODO 목록이 아니라 확정 기준 카드처럼 읽히게 됐다.
+- related source scan에서
+  `이 시점에 확정할 것` hit가 0건이 됐고,
+  새 기준 문구는 42건으로 확인됐다.

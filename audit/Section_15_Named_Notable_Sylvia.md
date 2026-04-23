@@ -111,7 +111,7 @@ deferred named boundary card reading은
 
 ## 7. Conductor Note
 
-- 이 시점에 확정할 것:
+- 이 시점의 확정 기준:
   - 키르케 영약회의 대표 기록/계량 명사라는 점
   - 고통의 증류탑과 계량 기록실에 강하게 묶인다는 점
 - 14와 겹칠 위험:

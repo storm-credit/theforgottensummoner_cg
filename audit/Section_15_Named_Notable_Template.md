@@ -112,7 +112,7 @@ named notable template reading은
 
 ## 7. Conductor Note
 
-- 이 시점에 확정할 것
+- 이 시점의 확정 기준
 - 14와 겹칠 위험
 - 후속 판독축
 ```
