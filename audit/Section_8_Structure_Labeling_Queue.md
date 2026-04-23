@@ -54,7 +54,7 @@ closure 이후에는 `section_style / mixed_keep / section_style_reclassify`
 | `프로스트본 연합` | `tribe_clan + guild_market` | `mixed_keep` candidate | 클랜 구조와 요새/공방/성소 축이 동시에 강하다. |
 | `황금 함대 (Golden Armada)` | `state_house + guild_market` | `section_style` candidate | 가문, 함대, 무역 의회, 재정 구조가 세력 중심으로 먼저 읽힌다. |
 | `해적 연합 (Pirate Confederacy)` | `guild_market + thin state_house support` | `mixed_keep` candidate | 파벌 구조와 항만/암시장/섬 거점 축이 함께 엮인다. |
-| `바다의 교단 (Church of the Sea)` | `state_house adjacent / guild_market support` | `section_style_reclassify` candidate | 루트 문법은 공통 번호 섹션형이지만 성지, 감시 요새, 해상 신앙 거점 압력은 별도 메모가 필요하다. |
+| `바다의 교단 (Church of the Sea)` | `state_house adjacent / guild_market support` | `section_style_reclassify` candidate | 루트 문법은 공통 번호 섹션형이지만 성지, 감시 요새, 해상 신앙 거점 압력은 별도 메모로 분리한다. |
 | `망자의 왕국 (Kingdom of the Dead)` | `frontier_survival + guild_market` | `section_style_reclassify` candidate | 루트 문법은 공통 번호 섹션형이고, 성채/시장/묘역 압력은 내용 해석으로 분리하는 편이 맞다. |
 | `잊힌 자들의 연합 (Forgotten Alliance)` | `frontier_survival + guild_market` | `section_style_reclassify` candidate | 내용상 생존 연합과 시장/망명 구조는 강하지만 루트 문법은 공통 섹션형이 더 강하다. |
 | `봉인 수호단 (Seal Wardens)` | `frontier_survival` | `section_style_reclassify` candidate | 루트 문법은 공통 번호 섹션형이며, 보루/제단/균열 지대 압력은 `place pressure strong` 메모로 따로 관리한다. |

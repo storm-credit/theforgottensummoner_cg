@@ -147,7 +147,7 @@ reference상 `People Worth Seeking` 쪽이 더 자연스러운 후보.
 | Name | Evidence Found | Updated Judgment |
 |---|---|---|
 | `세리오스 벤타리스` | `phase2_section14_current_ether/4. 마법협회/07. 세리오스 벤타리스`에서 직접 14 영웅 파일이 확인된다. frontmatter에 `hero`, `s_rank` 태그가 있고, 본문 신분도 `영웅 / 마법협회 차원 도약 및 방위 전략 장로`다. | `keep_14_likely`. `People Worth Seeking`으로 내리지 말고 14 유지 후 세력 앵커만 점검한다. |
-| `대런 크레센트`, `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`, `칼리스트`, `래퍼티 아르카디아`, `대사제 요한`, `엘라라 문힘`, `드라이덴 썬더루트`, `메라 라일윈드` | 현재 import된 `phase2_section14_current_ether`와 `phase1_section14_growth_aether` 범위에서는 직접 14 독립 파일명이 보이지 않는다. 다만 세력 문서 내부에서 탑주, 도서관장, 대사제, 노래술사, 장로, 외교관 신호가 있어 원본 전체 추가 확인이 필요하다. | `verify_before_15` 유지. 현재 범위만으로 15 확정하지 않는다. |
+| `대런 크레센트`, `엘드린 문브링어`, `네리사 블러드위버`, `다미엔 이클립스`, `칼리스트`, `래퍼티 아르카디아`, `대사제 요한`, `엘라라 문힘`, `드라이덴 썬더루트`, `메라 라일윈드` | 현재 import된 `phase2_section14_current_ether`와 `phase1_section14_growth_aether` 범위에서는 직접 14 독립 파일명이 보이지 않는다. 다만 세력 문서 내부에서 탑주, 도서관장, 대사제, 노래술사, 장로, 외교관 신호가 있어 원본 전체 추가 확인 note로 유지한다. | `verify_before_15` 유지. 현재 범위만으로 15 확정하지 않는다. |
 | `마르쿠스 레이븐펠 / 맥스웰 레이븐펠 / 마르쿠스 코르부스` | phase3 흑색의 탑 문서에서는 `맥스웰 레이븐펠`이 현재 주앵커로 읽히고, `마르쿠스 레이븐펠`은 drift 표기로만 남는다. 동시에 `마르쿠스 코르부스`는 phase2 직접 14 영웅 파일이다. | `verify_before_15 / name_drift` 유지. `맥스웰` anchor 고정, `마르쿠스 코르부스` merge-ban. |
 | `이사도르 템페스트 / 이사도르 솔레아` | phase3 청색의 탑 문서에서는 `이사도르 템페스트`가 현재 탑주 축으로 읽히고, `이사도르 솔레아`는 phase2 직접 14 영웅 파일로 확인된다. | `verify_before_15 / name_split_hold` 유지. `템페스트`와 `솔레아`는 병합 금지. |
 | `래퍼티 아르카디아`, `대런 크레센트`, `칼리스트`, `엘라라 문힘` | 추가 검색에서 각각 성국 핵심표 A급 도서관장 + `Rafferty / Raphael Arcadia` 드리프트, 마법협회 A+ 부탑주/행정총무/서고단 총괄, 황금의 탑 A+ 대예언자/전략 두뇌, 정령연합 A급 기록/노래술사 + 전설 영웅록 신호가 확인된다. | 모두 `verify_before_15` 유지. 세부 상태어는 `library_core_hold / archive_admin_hold / tower_seer_hold / bardic_archive_hold`로 정밀화한다. |

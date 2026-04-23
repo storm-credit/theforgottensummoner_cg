@@ -13650,3 +13650,48 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 future-task surface wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-23 KST - One-Hundred-Seventy-Seventh Closed-Review Question Surface Pass
+
+목적:
+
+- Section 8 closed review queue와 boundary queue에 남은
+  question/need wording이 새 실행선처럼 보이지 않도록
+  criteria, separated-note, verification-note wording으로 낮춘다.
+
+배치:
+
+- conductor local closed-review question surface scout
+
+Conductor action:
+
+- conductor는 reports-excluded source에서
+  `확인이 필요하다`, `재판정이 필요하다`,
+  `메모가 필요하다`, `분리해야 한다`,
+  `보존해야 하는가`, `세분해야 하는가`,
+  `추가 확인이 필요하다` 잔존 여부를 확인했다.
+- `Section_8_Mixed_Exception_Review_Queue.md`,
+  `Section_8_Structure_Labeling_Queue.md`,
+  `Section_14_15_Boundary_Verification_Queue.md`
+  에 closed-review question/action surface가 남아 있었다.
+- 해당 wording을 closed criteria, separated memo,
+  and additional-verification note wording으로 낮췄다.
+
+Integrated actions:
+
+- closed-review question surface source closure
+- report pair / dispatch log 2026-04-23 one-hundred-seventy-seventh pass 반영
+
+Verification:
+
+- related exact pattern scan now returns zero hits for
+  `확인이 필요하다`, `재판정이 필요하다`, `메모가 필요하다`,
+  `분리해야 한다`, `보존해야 하는가`, `세분해야 하는가`,
+  and `추가 확인이 필요하다`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 closed-review question wording은 no-change watch 기준으로 유지한다.

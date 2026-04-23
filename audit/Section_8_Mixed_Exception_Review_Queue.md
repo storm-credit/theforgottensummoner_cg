@@ -24,11 +24,11 @@
 
 | Priority | Candidate | Continent Spine | Mixed_Keep Reason | Mismatch Watch | Review Question | Status |
 |---|---|---|---|---|---|---|
-| 1 | `정령연합 (Spirit Union)` | `tribe_clan` inside Ether | 에테르 공통 section형과 다르게 부족 영역/자연권 구조가 강하다. | `special_axis_generalization` | 이 구조는 에테르 예외축으로 보존해야 하는가, 아니면 혼합 구조를 더 세분해야 하는가 | `reviewed_round1 / mixed_keep` |
+| 1 | `정령연합 (Spirit Union)` | `tribe_clan` inside Ether | 에테르 공통 section형과 다르게 부족 영역/자연권 구조가 강하다. | `special_axis_generalization` | 에테르 예외축 보존과 혼합 구조 세분 기준 | `reviewed_round1 / mixed_keep` |
 | 2 | `붉은 사막 부족 연합` | `tribe_clan + guild_market` | 부족 연합 구조와 생존 거점/교역축이 함께 보인다. | `clan_as_state_house` | 부족 거점이 구조 중심인가, 공통 섹션형이 본체인가 | `reviewed_round1 / mixed_keep` |
-| 3 | `프로스트본 연합` | `tribe_clan + guild_market` | 클랜 구조와 요새/공방/성소 앵커가 동시에 강하다. | `clan_as_state_house` | 구조의 본체가 클랜 섹션인지, 장소 네트워크인지 먼저 분리해야 한다 | `reviewed_round2 / mixed_keep` |
-| 4 | `해적 연합 (Pirate Confederacy)` | `guild_market + thin state_house support` | 파벌 구조와 항만/암시장/섬 거점이 함께 강하다. | `port_power_as_tribe_clan` | 항만-거점 네트워크를 구조 본체로 볼지, 세력 섹션형을 본체로 볼지 확인이 필요하다 | `reviewed_round2 / mixed_keep` |
-| 5 | `잊힌 자들의 연합 (Forgotten Alliance)` | `frontier_survival + guild_market` | 가문 폴더와 생존 연합/시장 구조가 함께 걸린다. | `nontraditional_elite_as_state_house` | 가문 폴더가 본체인지, 생존 연합 구조가 본체인지 재판정이 필요하다 | `reviewed_round3 / section_style_reclassify` |
+| 3 | `프로스트본 연합` | `tribe_clan + guild_market` | 클랜 구조와 요새/공방/성소 앵커가 동시에 강하다. | `clan_as_state_house` | 클랜 섹션과 장소 네트워크 분리 기준 | `reviewed_round2 / mixed_keep` |
+| 4 | `해적 연합 (Pirate Confederacy)` | `guild_market + thin state_house support` | 파벌 구조와 항만/암시장/섬 거점이 함께 강하다. | `port_power_as_tribe_clan` | 항만-거점 네트워크와 세력 섹션형 본체 판정 기준 | `reviewed_round2 / mixed_keep` |
+| 5 | `잊힌 자들의 연합 (Forgotten Alliance)` | `frontier_survival + guild_market` | 가문 폴더와 생존 연합/시장 구조가 함께 걸린다. | `nontraditional_elite_as_state_house` | 가문 폴더와 생존 연합 구조 본체 판정 기준 | `reviewed_round3 / section_style_reclassify` |
 
 ## Stop Rules
 

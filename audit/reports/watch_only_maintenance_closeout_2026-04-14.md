@@ -5964,3 +5964,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   복구가 필요함 / 정리 필요 / 후속 작업선` hit가 0건이 됐다.
 - source meaning은 유지하면서
   닫힌 감사 기록이 새 작업 지시처럼 읽히는 표면만 제거했다.
+
+## 2026-04-23 One-Hundred-Seventy-Seventh Closed-Review Question Surface Pass
+
+목적:
+
+- Section 8 closed review queue와 boundary queue에 남은
+  question/need wording이 새 실행선처럼 보이지 않도록
+  criteria, separated-note, verification-note wording으로 낮춘다.
+
+확인 결과:
+
+- `Section_8_Mixed_Exception_Review_Queue.md`는 status가
+  `reviewed_round*`로 닫혀 있는데도 일부 Review Question 칸이
+  `보존해야 하는가`, `분리해야 한다`, `확인이 필요하다`,
+  `재판정이 필요하다`처럼 다시 여는 문장으로 남아 있었다.
+- `Section_8_Structure_Labeling_Queue.md`의 바다의 교단 행에는
+  `별도 메모가 필요하다` 표면어가 남아 있었다.
+- `Section_14_15_Boundary_Verification_Queue.md`의 Ether boundary 행에는
+  `원본 전체 추가 확인이 필요하다` 표면어가 남아 있었다.
+
+조치:
+
+- mixed exception review question은
+  닫힌 판정 기준 문구로 낮췄다.
+- 바다의 교단 place pressure는
+  별도 메모로 분리한다고 직접화했다.
+- Ether boundary 잔여 확인은
+  `추가 확인 note`로 보존한다고 낮췄다.
+
+의미:
+
+- related exact pattern scan에서
+  `확인이 필요하다 / 재판정이 필요하다 / 메모가 필요하다 /
+  분리해야 한다 / 보존해야 하는가 / 세분해야 하는가 /
+  추가 확인이 필요하다` hit가 0건이 됐다.
+- Section 8 closed queue는
+  다시 열리는 질문표가 아니라 닫힌 기준표로 읽히게 됐다.
