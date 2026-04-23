@@ -13774,3 +13774,44 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 profile reinforcement header wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-23 KST - One-Hundred-Eightieth Template Question-Bullet Surface Pass
+
+목적:
+
+- Section 15 profile/named-notable template에 남은
+  question-style bullet이
+  새 카드 작성 TODO처럼 읽히지 않도록
+  noun-style criteria wording으로 낮춘다.
+
+배치:
+
+- conductor local template question-bullet surface scout
+
+Conductor action:
+
+- conductor는 `Section_15_Profile_Template.md`와
+  `Section_15_Named_Notable_Template.md`를 다시 읽었다.
+- 두 template에
+  `왜 필요한지`, `어떤 위치인지`, `어디에 강한지`,
+  `충돌 가능성이 있는지`, `어떤 영웅이나 세력과 닿는가`,
+  `무엇인가`, `두는 이유` 같은 질문형 bullet이 남아 있었다.
+- 해당 wording을 need-basis, placement, strength-axis,
+  conflict-basis, contact anchor, relation-role axis,
+  placement basis wording으로 낮췄다.
+
+Integrated actions:
+
+- template question-bullet source alignment
+- report pair / dispatch log 2026-04-23 one-hundred-eightieth pass 반영
+
+Verification:
+
+- related template scan now returns zero hits for the targeted question-style bullet patterns.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 template question-bullet wording은 no-change watch 기준으로 유지한다.

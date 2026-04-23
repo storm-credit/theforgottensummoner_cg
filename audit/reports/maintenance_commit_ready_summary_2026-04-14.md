@@ -279,6 +279,7 @@
 - 2026-04-23 one-hundred-seventy-seventh pass updated `Section_8_Mixed_Exception_Review_Queue.md`, `Section_8_Structure_Labeling_Queue.md`, and `Section_14_15_Boundary_Verification_Queue.md` so closed review questions and residual `확인이 필요하다 / 재판정이 필요하다 / 메모가 필요하다 / 추가 확인이 필요하다` surfaces now read as criteria, separated notes, or verification notes
 - 2026-04-23 one-hundred-seventy-eighth pass updated 42 Section 15 named-notable/profile/subline profile cards and templates so repeated `이 시점에 확정할 것` headers now read as `이 시점의 확정 기준`
 - 2026-04-23 one-hundred-seventy-ninth pass updated 37 Section 15 profile/subline profile cards and template so repeated `후속 보강축` headers now read as `보강 기준축`
+- 2026-04-23 one-hundred-eightieth pass updated `Section_15_Profile_Template.md` and `Section_15_Named_Notable_Template.md` so residual question-style bullets now read as noun-style criteria and reference prompts
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors

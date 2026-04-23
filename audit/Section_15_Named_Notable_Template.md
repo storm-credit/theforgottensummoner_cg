@@ -101,14 +101,14 @@ named notable template reading은
 
 ## 5. Relation Hooks
 
-- 어떤 영웅이나 세력과 닿는가
+- 접점 영웅/세력
 - 조언자, 거래자, 경고자, 연구자, 복원자 같은
-  관계 역할이 무엇인가
+  관계 역할 축
 
 ## 6. Archive Use
 
-- `14`보다 `15 People Worth Seeking`에 두는 이유
-- 아이템, 지도, 지식, 전승, 도시 분위기 중 어디에 강한지
+- `14`보다 `15 People Worth Seeking`에 두는 근거
+- 아이템, 지도, 지식, 전승, 도시 분위기 중 강한 축
 
 ## 7. Conductor Note
 

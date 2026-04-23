@@ -6063,3 +6063,35 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - related source scan에서
   `후속 보강축` hit가 0건이 됐고,
   새 기준 문구는 37건으로 확인됐다.
+
+## 2026-04-23 One-Hundred-Eightieth Template Question-Bullet Surface Pass
+
+목적:
+
+- Section 15 profile/named-notable template에 남은
+  question-style bullet이
+  새 카드 작성 TODO처럼 읽히지 않도록
+  noun-style criteria wording으로 낮춘다.
+
+확인 결과:
+
+- `Section_15_Profile_Template.md`에는
+  `왜 필요한지`, `어떤 위치인지`, `어디에 강한지`,
+  `충돌 가능성이 있는지` 같은 질문형 bullet이 남아 있었다.
+- `Section_15_Named_Notable_Template.md`에도
+  `어떤 영웅이나 세력과 닿는가`, `무엇인가`, `두는 이유`,
+  `어디에 강한지` 같은 질문형 bullet이 남아 있었다.
+
+조치:
+
+- profile template bullet을
+  `필요 근거`, `위치`, `강한 축`, `충돌 가능성 기준`으로 낮췄다.
+- named-notable template bullet을
+  `접점 영웅/세력`, `관계 역할 축`, `배치 근거`, `강한 축`으로 낮췄다.
+
+의미:
+
+- 새 카드가 template 단계부터
+  질문 메모보다 기준 문서처럼 읽히게 됐다.
+- 두 template에서
+  관련 question-style bullet hit가 0건이 됐다.
