@@ -5926,3 +5926,41 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
 - 관련 source에서 `검토한다 / 검토 필요 / 우선 검토한다` surface는
   이미 intentional naming/boundary review note 3건만 남는다.
 - 그 3건은 이전 pass에서 no-change watch 잔존군으로 판정한 문맥이다.
+
+## 2026-04-23 One-Hundred-Seventy-Sixth Future-Task Surface Closure Pass
+
+목적:
+
+- reports-excluded source에 남은
+  stale `후속 작업선 / 정리 필요 / 필요함 / 필요하다` 표면어가
+  새 실행선처럼 보이지 않도록 residual reference, unclear-anchor label,
+  target, note wording으로 낮춘다.
+
+확인 결과:
+
+- `FS_Story_to_Lore_Handoff_Gate.md`의 `후속 작업선`은
+  새 작업선이 아니라 pre-close hook의 handoff 잔여 확인 기준이었다.
+- `Section_14_Distributed_Affiliation_Findings.md`의
+  `정리 필요 분산`은 실제로는 앵커가 불명확한 분산을 뜻했다.
+- `Section_14_Decision_Grid_Arcane.md`에는
+  `복구가 필요함`, `재검토가 필요하다` 같은 action surface가 남아 있었다.
+- `Section_15_Ether_Search_Findings_Batch_05.md`,
+  `Section_15_Named_Notables_Name_Collision_Register.md`의
+  후속 확인/검증 문장은 실행 지시보다 note 성격이 강했다.
+
+조치:
+
+- handoff hook 문구를
+  `handoff residual reference` 기준으로 낮췄다.
+- distributed affiliation 표제는
+  `앵커 불명확 분산`으로 의미를 직접화했다.
+- arcane grid와 named-note 문장은
+  복구 대상, 재검토 note, 후속 확인/검증 note로 낮췄다.
+
+의미:
+
+- 관련 exact pattern scan에서
+  `후속 확인이 필요하다 / 후속 검증이 필요하다 / 재검토가 필요하다 /
+  복구가 필요함 / 정리 필요 / 후속 작업선` hit가 0건이 됐다.
+- source meaning은 유지하면서
+  닫힌 감사 기록이 새 작업 지시처럼 읽히는 표면만 제거했다.

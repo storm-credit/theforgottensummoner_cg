@@ -86,7 +86,7 @@ Lore Engine은 handoff를 받으면 아래를 확인한다.
 
 - `pre_write_hook`: story-born 신규 설정이 바로 문서 반영되지 않게 막는다
 - `post_write_hook`: 반영 후 필요한 register와 change log가 갱신됐는지 본다
-- `pre_close_hook`: 해당 배치의 후속 작업선에 handoff 후속이 남았는지 고정한다
+- `pre_close_hook`: 해당 배치의 handoff residual reference가 남았는지 고정한다
 
 ## Fast Table
 

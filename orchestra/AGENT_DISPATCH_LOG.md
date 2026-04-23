@@ -13603,3 +13603,50 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 review-surface wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-23 KST - One-Hundred-Seventy-Sixth Future-Task Surface Closure Pass
+
+목적:
+
+- reports-excluded source에 남은
+  stale `후속 작업선 / 정리 필요 / 필요함 / 필요하다` 표면어가
+  새 실행선처럼 보이지 않도록 residual reference, unclear-anchor label,
+  target, note wording으로 낮춘다.
+
+배치:
+
+- conductor local future-task surface closure scout
+
+Conductor action:
+
+- conductor는 reports-excluded source에서
+  `후속 작업선`, `정리 필요`, `복구가 필요함`,
+  `재검토가 필요하다`, `후속 확인이 필요하다`,
+  `후속 검증이 필요하다` 잔존 여부를 확인했다.
+- `FS_Story_to_Lore_Handoff_Gate.md`,
+  `Section_14_Decision_Grid_Arcane.md`,
+  `Section_14_Distributed_Affiliation_Findings.md`,
+  `Section_15_Ether_Search_Findings_Batch_05.md`,
+  `Section_15_Named_Notables_Name_Collision_Register.md`
+  에 future-task/action surface가 남아 있었다.
+- 해당 wording을 residual reference, unclear-anchor label,
+  recovery target, re-review note, follow-up check/verification note로 낮췄다.
+
+Integrated actions:
+
+- future-task surface source closure
+- report pair / dispatch log 2026-04-23 one-hundred-seventy-sixth pass 반영
+
+Verification:
+
+- related exact pattern scan now returns zero hits for
+  `후속 확인이 필요하다`, `후속 검증이 필요하다`,
+  `재검토가 필요하다`, `복구가 필요함`, `정리 필요`,
+  and `후속 작업선`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 future-task surface wording은 no-change watch 기준으로 유지한다.

@@ -275,6 +275,7 @@
 - 2026-04-22 one-hundred-seventy-third pass updated `Section_8_Structure_Label_Map_First_Pass.md` so stale `다음 실제 재검토 우선순위` wording now reads as locked reference sequence/focus rather than reopened work
 - 2026-04-22 one-hundred-seventy-fourth pass confirmed residual `우선 / 필요 / 가능 / 금지` wording is intentional rule/priority/routing text rather than live drift; no source prose patch was needed beyond report/log recording
 - 2026-04-23 one-hundred-seventy-fifth pass updated `Section_14_Conflict_Register.md`, `Section_15_Intake_Structure.md`, `Section_15_Named_Notable_Bellana_Stormbringer.md`, `Species_Framework_Audit_Sidecar.md`, `workflow/00_Astralis_Vision.md`, `workflow/01_Canon_Policy.md`, and `workflow/12_Naming_Tone_Guide.md` so stale `검토한다 / 검토 필요 / 우선 검토한다` surfaces now read as review notes, criteria, or references
+- 2026-04-23 one-hundred-seventy-sixth pass updated `FS_Story_to_Lore_Handoff_Gate.md`, `Section_14_Decision_Grid_Arcane.md`, `Section_14_Distributed_Affiliation_Findings.md`, `Section_15_Ether_Search_Findings_Batch_05.md`, and `Section_15_Named_Notables_Name_Collision_Register.md` so stale `후속 작업선 / 정리 필요 / 필요함 / 필요하다` surfaces now read as residual references, unclear-anchor labels, targets, or notes
 - setting-book public Part naming authority is reinforced in the release checklist and live hubs
 - specialist scouts found no operational middle-layer drift in `Group Index / Subline Register / Profile Draft Index / Operational Track / Display Candidates`
 - `git diff --check` reports CRLF warnings only, with no whitespace errors
