@@ -14358,3 +14358,63 @@ Follow-up actions:
 - 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   stable-QA residual watch note wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-24 KST - One-Hundred-Ninety-Second Watch-State Vocabulary Alignment Pass
+
+목적:
+
+- current source-of-truth 문서에 남은
+  watch-state vocabulary drift 중
+  high-confidence 항목만 canonical watch-reference wording으로 맞춘다.
+- broader operational/gate vocabulary family는
+  문서 역할 변경 위험이 있으면 이번 pass에서 유지한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Curie` | Source-of-Truth Vocabulary Scout | `Section_15_Index_Draft`, `Section_15_Named_Notables_Status_Compass`, `Section_15_Five_Continent_Closure_Table`, `Section_15_Named_Notables_Coverage_Matrix`, `Section_15_Stable_Candidate_8_Anchor_Index`, `Section_15_Stable_Candidate_Profile_QA`, `Section_15_Profile_Draft_Index` | `completed` |
+| `Wegener` | Operational / Gate Vocabulary Scout | `Section_15_Operational_Lines_Track`, `Section_15_Operational_Display_Canon_Candidates`, `Section_15_Intake_Structure`, `Section_15_Folder_Revision_Gate`, `Section_8_Mainline_Sync_Register` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_15_Five_Continent_Closure_Table.md`의
+  `closed_for_now`가
+  현재 watch-reference vocabulary와 직접 충돌한다고 판단했고,
+  이를 `closed_watch_reference`로 정렬했다.
+- conductor는
+  `Section_15_Folder_Revision_Gate.md`의
+  `15번 live 폴더 생성/이동 계획`에서
+  `계획`만 implementation surface로 판단해 제거했다.
+- conductor는
+  `operational_line`, `display_canon_candidate`, `pass_with_*`
+  계열은
+  각 operational/gate 문서의 고유 역할과 결합돼 있어
+  이번 pass에서 일괄 치환하지 않았다.
+
+Integrated actions:
+
+- `Section_15_Five_Continent_Closure_Table.md`의
+  5대륙 watch state를 `closed_watch_reference`로 정렬
+- `Section_15_Folder_Revision_Gate.md`의
+  residual implementation phrasing 1건 정렬
+- dispatch log 2026-04-24 one-hundred-ninety-second pass 반영
+
+Verification:
+
+- targeted scan no longer returns
+  `closed_for_now`
+  or `live 폴더 생성/이동 계획`
+  in the patched source set.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- broader operational/gate vocabulary family는
+  `문서 역할 변경 없는 치환안`이 먼저 서지 않으면
+  surface-tightening만으로 건드리지 않는다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  watch-state vocabulary alignment는 no-change watch 기준으로 유지한다.

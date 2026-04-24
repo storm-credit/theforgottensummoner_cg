@@ -99,7 +99,7 @@ folder gate reading은
 현재는 아래 두 가지를 `watch-reference 기준`으로만 유지한다.
 
 1. `stable_triad_frozen_reference_set` 유지와 closure sync / watch-reference 점검
-2. `15번 live 폴더 생성/이동 계획`은 계속 보류
+2. `15번 live 폴더 생성/이동`은 계속 보류
 3. continent sidecar/scout/display wording umbrella는
    lower current-state watch/reference authority로만 유지
 

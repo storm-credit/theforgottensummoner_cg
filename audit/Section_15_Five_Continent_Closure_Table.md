@@ -33,11 +33,11 @@ closure table reading은
 
 | Continent | `stable_triad_frozen_reference_set` | Hold Reference Split / Hold Cluster | Need Named Candidate Slots | Watch-Reference State |
 |---|---|---|---|---|
-| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | 현자회/사막부족 일부 슬롯은 unresolved reference note로만 남긴다. | `closed_for_now` |
-| `에테르` | 없음 | `엘다라 [source_check_hold / hold reference split]`, `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 금서/공방/관측/대서고/성채/성검/서약/그늘항로/정령묘 + low-priority auxiliary 9개 role slot closure 완료 | `closed_for_now` |
-| `프로스트` | 없음 | `울프릭`, `시그리드`, `마리안`, `프리야`, `카이라` | `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`, `아이스포지 병기소 장인`은 모두 role slot 유지로 closure 완료 | `closed_for_now` |
-| `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | 오라클, 항로/해도, 조선소, 감정사, 금고, 경매장, 은행, 세관, 무역왕, 폭풍추적대, 검은 돛 조선공, 진혼 악기, 유령선 기록 슬롯. `top 5 slot`, `city-role batch`, `tail unnamed slot batch` read-only pass 완료 | `closed_for_now` |
-| `오벨리스크` | 없음 | `바리온`, `아이기스`, `카론`, `베스`, `이안`, `카트린`, `레보니아`, `우로스`, `세르반`, `레티시아`, `렌`, `라일`, `루가르` | `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 slot 유지. `기억 지기 = 렌/라일`, `심연 계약 중개자 = 루가르 strong link` | `closed_for_now` |
+| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | 현자회/사막부족 일부 슬롯은 unresolved reference note로만 남긴다. | `closed_watch_reference` |
+| `에테르` | 없음 | `엘다라 [source_check_hold / hold reference split]`, `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 금서/공방/관측/대서고/성채/성검/서약/그늘항로/정령묘 + low-priority auxiliary 9개 role slot closure 완료 | `closed_watch_reference` |
+| `프로스트` | 없음 | `울프릭`, `시그리드`, `마리안`, `프리야`, `카이라` | `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`, `아이스포지 병기소 장인`은 모두 role slot 유지로 closure 완료 | `closed_watch_reference` |
+| `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | 오라클, 항로/해도, 조선소, 감정사, 금고, 경매장, 은행, 세관, 무역왕, 폭풍추적대, 검은 돛 조선공, 진혼 악기, 유령선 기록 슬롯. `top 5 slot`, `city-role batch`, `tail unnamed slot batch` read-only pass 완료 | `closed_watch_reference` |
+| `오벨리스크` | 없음 | `바리온`, `아이기스`, `카론`, `베스`, `이안`, `카트린`, `레보니아`, `우로스`, `세르반`, `레티시아`, `렌`, `라일`, `루가르` | `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 slot 유지. `기억 지기 = 렌/라일`, `심연 계약 중개자 = 루가르 strong link` | `closed_watch_reference` |
 
 ## Stable Split Snapshot
 
