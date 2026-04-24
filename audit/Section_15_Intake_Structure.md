@@ -1,15 +1,15 @@
 # Section 15 Intake Structure
 
-이 문서는 `15번 인물 백과`가
-어떤 방식으로 흩어진 인물을 회수할지 정한 intake 기준서다.
+이 문서는 `15번 인물 백과`의
+흩어진 인물 회수 기준을 정리한 intake reference guard다.
 
 핵심 원칙은 이미 고정되어 있다.
 
 - `14번`에 있는 인물은 빼지 않는다.
 - `15번`은 다른 문서에 흩어진 인물을 회수하는 축이다.
-- 지금은 실제 이동이 아니라 `회수 규칙`만 유지한다.
+- 지금은 실제 이동이 아니라 `회수 기준`만 보존한다.
 
-operational intake reading은
+reference intake reading은
 `Section_15_Group_Index.md`,
 `Section_15_Profile_Draft_Index.md`,
 `Section_15_Subline_Register.md`,
@@ -86,7 +86,7 @@ operational intake reading은
 
 ## First Intake Rule
 
-아래 셋 중 하나라도 만족하면 `15번 후보`로 올린다.
+아래 셋 중 하나라도 만족하면 `15번 후보`로 본다.
 
 1. `14번` 폴더에 정식 앵커가 없다.
 2. 세력/지역/사건 문서 안에서만 반복 등장한다.
@@ -94,7 +94,7 @@ operational intake reading은
 
 ## Promote to 14 Rule
 
-반대로 아래를 만족하면 `15번`이 아니라 `14번 유지 또는 승격` 검토 기준으로 둔다.
+반대로 아래를 만족하면 `15번`이 아니라 `14번 유지 또는 승격` 여부를 가르는 reference 기준으로 본다.
 
 1. 액트 핵심 갈등에 직접 개입한다.
 2. 반복적으로 전투, 정치, 관계의 중심축에 선다.
@@ -107,23 +107,23 @@ operational intake reading은
 - `이리나 폰 루즈`
 - `칼리크 디트리히`
 
-둘 다 지금은 `14번 보류`지만, 구조적으로는 `15번` 회수 판단 대상이다.
+둘 다 현재는 `14번 보류`이며, 구조적으로는 `15번` 회수 판단 대상이다.
 
 ## Policy Intake Rule
 
-- intake 단계에서도 candidate를 받는 순간
+- intake 단계에서도 candidate를 검토하는 순간
   이 카드가 어떤 층을 보강하는지와 무엇으로 오독하면 안 되는지를 같이 적는다.
 - 자유도시 운영층이면 `urban_market / shadow_port / debt-enforcement` 축으로,
   오벨리스크 제도 운영층이면 `nontraditional elite thin-support / dark institution` 축으로 먼저 읽는다.
-- 즉 intake는 단순 회수만 하는 문서가 아니라,
-  `policy guard` 없이 카드를 올리지 않는 입구로 유지한다.
-- subline draft와 group draft도 이 intake rule 아래의 하위 문서로 읽는다.
-- operational profile로 실제 내려간 카드들은
+- 즉 intake는 단순 회수만을 적는 문서가 아니라,
+  `policy guard` 없이 카드를 기록하지 않는 reference gate로 유지한다.
+- subline draft와 group draft도 이 intake rule을 따르는 하위 reference로 읽는다.
+- operational profile로 분류된 카드들은
   `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 그대로 유지한다.
 - representative subline pair
   (`Port Authority / Black Auction / Gravewell / Counterfeit Workshop`)는
   draft/profile 교차감사가 닫힌 샘플로 유지하고,
-  intake는 새 drift가 생길 때만 해당 pair를 다시 연다.
+  intake는 새 drift가 생겼을 때만 해당 pair를 다시 검토한다.
 - intake는 card를 어느 축으로 받을지 분류하는 입구일 뿐,
   operational profile의 정확한 guard 문장을 대신 작성하는 문서는 아니다.
 - 따라서 intake 문구는 lower-card authority를 참조만 하고,
@@ -144,7 +144,7 @@ operational intake reading은
 ## Conductor Note
 
 `15번`은 쓰레기통이 아니라,
-영웅 서사를 지탱하는 `중간 인간층`을 회수하는 곳이어야 한다.
+영웅 서사를 지탱하는 `중간 인간층`을 모아두는 reference layer여야 한다.
 
 즉 `14번`이 영웅의 첨탑이라면,
 `15번`은 그 첨탑 아래에 실제 세계를 떠받치는 사람들의 층이다.

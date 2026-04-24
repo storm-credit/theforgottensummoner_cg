@@ -1,9 +1,9 @@
 # Section 15 Operational Display Canon Candidates
 
 이 문서는 지금까지 만든 `Operational Lines`와 `Subline Profiles`의
-reference working label을 더 판타지적인 표면 명칭으로 읽을 때 참고하는 후보표다.
+reference working label의 현재 표면 명칭을 정리한 참고표다.
 
-naming watch 판단은
+naming watch 기준은
 `Section_15_Group_Index.md`,
 `Section_15_Operational_Lines_Track.md`,
 `Section_15_Profile_Draft_Index.md`,
@@ -21,7 +21,7 @@ naming watch 판단은
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
-이 문서는 확정이 아니라 `display reference 후보표`다.
+이 문서는 확정본이 아니라 현재의 `display reference`다.
 
 ## Functional Line -> Display Canon Candidates
 
@@ -83,8 +83,8 @@ naming watch 판단은
 
 ## Preferred Candidate Reference Pass
 
-이 표는 reference상 어느 쪽을 preferred로 읽을지 정리한 것이다.
-아직 정본명 확정이 아니라 `preferred display candidate`다.
+이 표는 reference상 현재 preferred로 읽는 항목을 정리한 것이다.
+아직 정본명 확정은 아니며 `preferred_display_candidate` 상태로 둔다.
 
 | Working Axis | Preferred Candidate | State | Reason |
 |---|---|---|---|
@@ -126,7 +126,7 @@ naming watch 판단은
 
 해양 슬롯은 항해, 신탁, 해도, 금고, 장물, 악기 같은 말맛을 살린다.
 
-아래 후보는 정본명이 아니라 `preferred_display_candidate`다.
+아래 항목은 정본명이 아니라 `preferred_display_candidate`로 표기한다.
 
 | Working Label | Preferred Candidate | State | Reason |
 |---|---|---|---|
@@ -149,7 +149,7 @@ naming watch 판단은
 
 에테르 슬롯은 마법협회, 성국, 왕국연합, 자유도시, 정령연합의 기관 톤을 분리한다.
 
-아래 후보는 정본명이 아니라 `preferred_display_candidate`다.
+아래 항목은 정본명이 아니라 `preferred_display_candidate`로 표기한다.
 
 | Working Label | Preferred Candidate | State | Reason |
 |---|---|---|---|
@@ -221,7 +221,7 @@ naming watch 판단은
 ## Conductor Note
 
 - 구조 정리 단계에서는 `Working Label`을 유지한다.
-- 표면명 reference를 읽을 때만 `Display Candidate`를 얹는다.
+- 표면명 reference는 `Display Candidate` 기준으로 읽는다.
 - 너무 현대적인 냄새가 나면
   직능어를 줄이고 상징어를 늘린다.
 - 상위 그룹명은 `Group Axis -> Display Canon Candidates` 표를 naming-side mirror로 읽고,

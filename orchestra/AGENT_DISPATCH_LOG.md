@@ -14418,3 +14418,63 @@ Follow-up actions:
 - 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   watch-state vocabulary alignment는 no-change watch 기준으로 유지한다.
+
+## 2026-04-24 KST - One-Hundred-Ninety-Third Operational Intake / Display Reference Guard Pass
+
+목적:
+
+- operational display / intake family에서
+  task/workflow처럼 들리는 framing prose만
+  current-state reference guard wording으로 낮춘다.
+- state token, 표 구조, lower-card authority split은
+  문서 역할 변경 위험 때문에 이번 pass에서 유지한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Archimedes` | Display Reference Framing Scout | `Section_15_Operational_Display_Canon_Candidates.md` | `completed` |
+| `Bernoulli` | Intake Reference Guard Scout | `Section_15_Intake_Structure.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `display_canon_candidate`, `preferred_display_candidate`
+  같은 state token은
+  문서 역할과 직접 묶여 있어 이번 pass에서 유지했다.
+- conductor는
+  `Section_15_Operational_Display_Canon_Candidates.md`에서
+  `후보표`, `판단`, `preferred display candidate`
+  류 framing prose만
+  current-state display reference wording으로 정렬했다.
+- conductor는
+  `Section_15_Intake_Structure.md`에서
+  `회수 규칙`, `후보로 올린다`, `검토 기준으로 둔다`,
+  `입구`, `다시 연다`
+  류 workflow surface만
+  reference guard wording으로 정렬했다.
+
+Integrated actions:
+
+- `Section_15_Operational_Display_Canon_Candidates.md`의
+  display reference framing prose 정렬
+- `Section_15_Intake_Structure.md`의
+  intake reference guard phrasing 정렬
+- dispatch log 2026-04-24 one-hundred-ninety-third pass 반영
+
+Verification:
+
+- targeted scan no longer returns the patched task/workflow phrases in the two updated docs.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- operational display / intake family는
+  state token을 바꾸기보다
+  current-state reference framing을 먼저 유지한다.
+- broader vocabulary normalization은
+  문서 역할 변경 없는 별도 pass로만 다시 연다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  operational intake/display framing은 no-change watch 기준으로 유지한다.
