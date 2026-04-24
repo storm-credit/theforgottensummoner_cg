@@ -33,7 +33,7 @@ upstream reference reading은
 |---|---|---|
 | Named individual profile | `operational_line` | 조직 작동을 보여주는 이름 있는 실무 인물 |
 | Role-line profile | `operational_line` | 아직 개별 이름보다 기능 계열이 중요한 라인 |
-| Display naming pending | `display_canon_candidate` | 표면명은 판타지 톤으로 재검토 |
+| Display naming reference | `display_canon_candidate` | 표면명은 판타지 톤 display reference 후보로 유지 |
 | Possible 14 overlap | `source_check_hold` | 14번 신호가 있는 경우 15 승격 판단 없이 source check만 유지 |
 
 - `Section_15_Profile_Ventura_Moretti.md`

@@ -14250,3 +14250,49 @@ Follow-up actions:
 - 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   stable-QA / coverage summary wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-24 KST - One-Hundred-Ninetieth Profile-Display Reference Snapshot Pass
+
+목적:
+
+- operational profile index의
+  display naming row에 남은
+  pending / re-review surface를
+  current-state display reference wording으로 낮춘다.
+
+배치:
+
+- conductor local profile-display snapshot scout
+
+Conductor action:
+
+- conductor는 `Section_15_Profile_Draft_Index.md`를 다시 읽었다.
+- `Display naming pending | display_canon_candidate | 표면명은 판타지 톤으로 재검토`
+  한 줄만
+  naming task처럼 읽히는 residual surface로 판단했다.
+- 이 줄을
+  `Display naming reference | display_canon_candidate | 표면명은 판타지 톤 display reference 후보로 유지`
+  wording으로 정렬했다.
+
+Integrated actions:
+
+- `Section_15_Profile_Draft_Index.md`의 reference snapshot row 1건 정렬
+- dispatch log 2026-04-24 one-hundred-ninetieth pass 반영
+
+Verification:
+
+- targeted scan no longer returns
+  `Display naming pending`
+  or `표면명은 판타지 톤으로 재검토`
+  in `Section_15_Profile_Draft_Index.md`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- display naming layer는
+  naming task queue가 아니라
+  `display_canon_candidate` reference layer로 유지한다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  profile-display snapshot wording은 no-change watch 기준으로 유지한다.
