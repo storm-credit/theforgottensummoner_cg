@@ -13934,3 +13934,45 @@ Follow-up actions:
 
 - 이 log-only stability delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 profile/subline family residual prose는 no-change watch 기준으로 유지한다.
+
+## 2026-04-24 KST - One-Hundred-Eighty-Fourth Next-Actual Surface Closure Pass
+
+목적:
+
+- 일부 source에 남은
+  stale `다음 실제 작업 / 다음 실제 판단` 표면어가
+  새 실행선처럼 보이지 않도록
+  current reference follow-up / comparative reference focus wording으로 낮춘다.
+
+배치:
+
+- conductor local next-actual surface closure scout
+
+Conductor action:
+
+- conductor는 `다음 실제 작업`, `다음 실제 판단` residual hit를 다시 읽었다.
+- `Section_15_Frost_Core_Register_Link.md`,
+  `Section_8_Frost_Notable_Anchor_Audit.md`,
+  `Section_8_Crimson_Notable_Anchor_Audit.md`,
+  `Section_8_Structure_Label_Map_First_Pass.md`
+  에 next-actual action surface가 남아 있었다.
+- 해당 wording을
+  `현재 reference follow-up`, `현재 comparative reference`,
+  `현재 reference focus` wording으로 낮췄다.
+
+Integrated actions:
+
+- next-actual surface source closure
+- report pair / dispatch log 2026-04-24 one-hundred-eighty-fourth pass 반영
+
+Verification:
+
+- related source scan now returns zero hits for
+  `다음 실제 작업` and `다음 실제 판단`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 next-actual wording은 no-change watch 기준으로 유지한다.

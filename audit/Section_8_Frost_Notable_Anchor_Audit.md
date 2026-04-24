@@ -61,7 +61,7 @@
 
 프로스트는 이번 배치에서도 새 15 확정자를 만들지 않는다.
 
-다음 실제 작업:
+현재 reference follow-up:
 
 - 프로스트 슬롯의 `display canon` 후보는 현재 watch-only로 유지하고, 실제 원고/anchor 증거가 더 쌓일 때만 추가 조정한다.
 - `원로 사냥꾼 / 묘지기 장로 / 대예언자 / 별의 샤먼` 축은 `Section_15_Frost_Core_Register_Link.md` 기준 direct link pass를 유지한 채 후속 증거만 더 모은다.

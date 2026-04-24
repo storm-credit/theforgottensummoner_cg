@@ -95,6 +95,6 @@
 
 ## Conductor Decision
 
-다음 실제 작업은 이 표를 기준으로
-`mixed_keep` 후보와 `mismatch watch` 후보를 우선 재확인하되,
-구조 라벨과 `place pressure`를 같은 항목으로 섞지 않는 것이다.
+현재 reference focus는 이 표를 기준으로
+`mixed_keep` 후보와 `mismatch watch` 후보를 함께 읽되,
+구조 라벨과 `place pressure`를 같은 항목으로 섞지 않는 쪽에 둔다.

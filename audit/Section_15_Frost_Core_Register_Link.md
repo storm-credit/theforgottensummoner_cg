@@ -51,7 +51,7 @@
 `오로라 평원`, `얼음무덤 언덕`, `푸른 폭풍 요새`, `아이스포지 병기소`, `빙하의 성소`, `겨울회의 의장막`
 이 여는 명사형 슬롯을 먼저 고정한다.
 
-다음 실제 작업:
+현재 reference follow-up:
 
 - 실제 원고 입력이 생기면 `Story-to-Lore Handoff Gate` 기준으로 live handoff packet을 연다
 - 기존 `verify_before_15` 항목 중 일부를 `Decision Ruling Register`와 연결

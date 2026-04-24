@@ -6192,3 +6192,39 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   남은 question-style 문장은 카드 서술층으로 본다.
 - 이후 이 family에서는
   새 drift가 생기기 전까지 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-24 One-Hundred-Eighty-Fourth Next-Actual Surface Closure Pass
+
+목적:
+
+- 일부 source에 남은
+  stale `다음 실제 작업 / 다음 실제 판단` 표면어가
+  새 실행선처럼 보이지 않도록
+  current reference follow-up / comparative reference focus wording으로 낮춘다.
+
+확인 결과:
+
+- `Section_15_Frost_Core_Register_Link.md`와
+  `Section_8_Frost_Notable_Anchor_Audit.md`에는
+  `다음 실제 작업:` heading이 남아 있었다.
+- `Section_8_Crimson_Notable_Anchor_Audit.md`에는
+  `다음 실제 판단` 문장이 남아 있었다.
+- `Section_8_Structure_Label_Map_First_Pass.md`에도
+  `다음 실제 작업은 이 표를 기준으로` 문장이 남아 있었다.
+
+조치:
+
+- Frost register/anchor 문구는
+  `현재 reference follow-up`으로 낮췄다.
+- crimson anchor 문구는
+  `현재 comparative reference`로 낮췄다.
+- structure label map 문구는
+  `현재 reference focus`로 낮췄다.
+
+의미:
+
+- 대상 source 4개는
+  현재 실행선이 아니라
+  닫힌 comparative/reference 문맥으로 읽히게 됐다.
+- related source scan에서
+  `다음 실제 작업 / 다음 실제 판단` hit가 0건이 됐다.
