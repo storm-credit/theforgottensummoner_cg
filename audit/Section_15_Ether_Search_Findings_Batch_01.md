@@ -40,9 +40,9 @@
 
 ## Queue Snapshot
 
-큐 2번으로 넘어간다.
+현재 queue reference는 2번으로 이어진다.
 
-후속 reference 대상:
+reference target:
 
 - `마나 공방`
 - `공방장`

@@ -64,9 +64,9 @@
 
 ## Queue Snapshot
 
-큐 5번으로 넘어간다.
+현재 queue reference는 5번으로 이어진다.
 
-후속 reference 대상:
+reference target:
 
 - `루멘 성채`
 - `대사제 요한`

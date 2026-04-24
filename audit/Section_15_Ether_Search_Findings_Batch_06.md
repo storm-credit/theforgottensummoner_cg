@@ -53,9 +53,9 @@
 
 ## Queue Snapshot
 
-큐 7번으로 넘어간다.
+현재 queue reference는 7번으로 이어진다.
 
-후속 reference 대상:
+reference target:
 
 - `연합 의회`
 - `레갈리아`

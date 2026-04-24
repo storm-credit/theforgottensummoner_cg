@@ -43,9 +43,9 @@
 
 ## Queue Snapshot
 
-큐 3번으로 넘어간다.
+현재 queue reference는 3번으로 이어진다.
 
-후속 reference 대상:
+reference target:
 
 - `아스트랄 관측소`
 - `관측장`

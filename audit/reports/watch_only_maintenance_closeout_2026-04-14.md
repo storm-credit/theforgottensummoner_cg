@@ -6295,3 +6295,40 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   historical/backlog control text다.
 - 이후 새 local drift가 생기기 전까지
   같은 residual wording은 no-change watch 기준으로 유지하면 된다.
+
+## 2026-04-24 One-Hundred-Eighty-Seventh Queue-Handoff Surface Closure Pass
+
+목적:
+
+- 일부 source에 남은
+  `실제 이름 신호 / 다음 실제 원고 / 큐 n번으로 넘어간다 / 후속 reference 대상`
+  표면어가 새 실행선처럼 보이지 않도록
+  evidence, queue reference, reference target wording으로 낮춘다.
+
+확인 결과:
+
+- `FS_Slot_Maturation_Register.md`에는
+  `실제 이름 신호` 문구가 남아 있었다.
+- `FS_Story_to_Lore_Handoff_Seed_Cases.md`에는
+  `다음 실제 원고` 문구가 남아 있었다.
+- `Section_15_Ether_Search_Findings_Batch_01.md`~`08.md`에는
+  `큐 n번으로 넘어간다`, `후속 reference 대상:` 문구가 반복되고 있었다.
+
+조치:
+
+- slot maturation 문구는
+  `named signal evidence`로 낮췄다.
+- handoff seed 문구는
+  `이후 원고 증거` wording으로 낮췄다.
+- Ether search batch 01~08은
+  `현재 queue reference는 n번으로 이어진다`,
+  `reference target:` wording으로 통일했다.
+
+의미:
+
+- 대상 source 10개는
+  queue/action 실행선이 아니라
+  evidence/reference 문맥으로 읽히게 됐다.
+- related source scan에서
+  `실제 이름 신호 / 다음 실제 원고 / 큐 n번으로 넘어간다 / 후속 reference 대상`
+  hit가 0건이 됐다.

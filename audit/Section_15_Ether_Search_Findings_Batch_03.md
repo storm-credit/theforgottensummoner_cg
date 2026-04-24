@@ -50,9 +50,9 @@
 
 ## Queue Snapshot
 
-큐 4번으로 넘어간다.
+현재 queue reference는 4번으로 이어진다.
 
-후속 reference 대상:
+reference target:
 
 - `아스트라르`
 - `중앙 도서관`

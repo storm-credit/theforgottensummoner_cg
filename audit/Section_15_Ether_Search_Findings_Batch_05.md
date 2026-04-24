@@ -53,9 +53,9 @@
 
 ## Queue Snapshot
 
-큐 6번으로 넘어간다.
+현재 queue reference는 6번으로 이어진다.
 
-후속 reference 대상:
+reference target:
 
 - `옵시디안`
 - `성검 요새`
