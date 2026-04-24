@@ -14176,3 +14176,77 @@ Follow-up actions:
 - 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   watch-reference surface는 no-change watch 기준으로 유지한다.
+
+## 2026-04-24 KST - One-Hundred-Eighty-Ninth Stable-QA / Coverage Reference Tightening Pass
+
+목적:
+
+- stable-triad QA snapshot에 남은
+  action-tinted result wording을
+  frozen reference wording으로 다시 맞춘다.
+- coverage summary에 남은
+  conditional narrowing / active recheck surface를
+  current-state reference wording으로 낮춘다.
+- `stable_15_workset`처럼 vocabulary guard가 직접 잠근 상태어는
+  이번 pass에서 바꾸지 않는다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Darwin` | Stable-Triad Vocabulary Scout | `Section_15_State_Vocabulary_Guard`, `Section_15_Index_Draft`, `Section_15_Stable_Candidate_Profile_QA`, `Section_15_Folder_Revision_Gate`, `Section_15_Actual_Draft_Package_Freeze` | `completed` |
+| `Popper` | Coverage Summary Drift Scout | `Section_15_Named_Notables_Coverage_Matrix`, `Section_15_Named_Notables_Anchor_Map`, `Section_15_Named_Notables_Status_Compass`, `Section_15_Five_Continent_Closure_Table` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `stable_15_workset`가
+  `Section_15_State_Vocabulary_Guard.md`에서
+  canonical state로 직접 잠겨 있음을 재확인했고,
+  그 라벨은 이번 pass에서 유지했다.
+- conductor는
+  `Section_15_Stable_Candidate_Profile_QA.md`의
+  `hardening_guard_added`만
+  frozen snapshot 톤과 어긋나는 action surface로 판단했다.
+- conductor는
+  `Section_15_Named_Notables_Coverage_Matrix.md`의
+  `2차 narrowing까지 반영하면`,
+  `정합성 재점검`
+  표현만
+  current-state reference wording으로 낮췄다.
+
+Integrated actions:
+
+- `Section_15_Stable_Candidate_Profile_QA.md`에서
+  stable triad 3명의 recorded result에서
+  `hardening_guard_added`를 제거해
+  frozen reference result string으로 정렬
+- `Section_15_Named_Notables_Coverage_Matrix.md`에서
+  오벨리스크 summary의 conditional narrowing phrasing을
+  `현재 닫힌 2차 narrowing reference 기준` wording으로 정렬
+- 같은 coverage matrix의 watch priority line을
+  `current-state 정합성 유지` wording으로 정렬
+- dispatch log 2026-04-24 one-hundred-eighty-ninth pass 반영
+
+Verification:
+
+- targeted scan no longer returns
+  `hardening_guard_added`,
+  `2차 narrowing까지 반영하면`,
+  or `정합성 재점검`
+  in the patched source set.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- stable-triad family에서
+  vocabulary guard에 직접 잠긴 상태어가 아니라
+  snapshot/action 혼합 표현이 다시 보일 때만
+  국소 vocabulary tightening을 재개한다.
+- coverage summary family의
+  `2차 narrowing 완료` 같은 closure-framed wording은
+  historical/reference wording으로 유지한다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  stable-QA / coverage summary wording은 no-change watch 기준으로 유지한다.
