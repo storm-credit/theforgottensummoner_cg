@@ -1,13 +1,13 @@
 # Section 15 People Worth Seeking Register
 
 이 문서는 `15번 People Worth Seeking` 축의
-reference 후보 등록부다.
+watch-reference 후보 등록부다.
 
 핵심은 `이름 있는 명사형 인물`을
 `14 중심 영웅`과 구분하면서도
 격을 잃지 않게 모으는 것이다.
 
-register active 판단은
+current-state watch/reference 판단은
 `Section_15_Named_Notables_Status_Compass.md`,
 `Section_15_Named_Notables_Track.md`,
 `Section_15_Five_Continent_Closure_Table.md`,

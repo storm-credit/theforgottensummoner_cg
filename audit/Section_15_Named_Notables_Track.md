@@ -2,9 +2,9 @@
 
 이 문서는 사용자가 의도한
 `영웅에는 없지만 기억될 만한 이름 있는 인물들`
-을 따로 모아 읽기 위한 reference axis다.
+을 따로 모아 읽기 위한 watch-reference axis다.
 
-이 축은 `게임의 유명 NPC층`에 가깝다.
+이 축은 `게임의 유명 NPC형 인물층`에 가깝다.
 
 현재 active state나 queue 판단은
 `Section_15_Named_Notables_Register.md`,

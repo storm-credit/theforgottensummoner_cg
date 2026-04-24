@@ -14665,3 +14665,67 @@ Follow-up actions:
 - 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   scout carryover family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-25 KST - One-Hundred-Ninety-Seventh Register Track Reference Pass
+
+목적:
+
+- named-notables 상단 summary family는 그대로 두고,
+  `Register / Track` 문서에 남아 있던
+  older `reference / active` surface만
+  current-state watch/reference wording으로 맞춘다.
+- state label, register row, coverage summary는
+  source-of-truth 그대로 유지한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Dirac` | Summary Stability Scout | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Coverage_Matrix.md` | `completed` |
+| `Godel` | Register / Track Framing Scout | `Section_15_Named_Notables_Register.md`, `Section_15_Named_Notables_Track.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Five_Continent_Closure_Table.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`는
+  이번 batch에서 patch-worthy drift가 없다고 보고 유지했다.
+- conductor는
+  `Section_15_Named_Notables_Register.md`의
+  `reference 후보 등록부다`, `register active 판단은`
+  두 줄만
+  established watch/reference family wording으로 정렬했다.
+- conductor는
+  `Section_15_Named_Notables_Track.md`의
+  `reference axis다`, `게임의 유명 NPC층`
+  두 줄만
+  current-state track framing에 맞게 정렬했다.
+- conductor는
+  register row, state label, risk note, coverage summary는
+  이번 batch에서 전부 그대로 유지했다.
+
+Integrated actions:
+
+- `Section_15_Named_Notables_Register.md`의
+  register watch/reference framing 정렬
+- `Section_15_Named_Notables_Track.md`의
+  track watch/reference framing 정렬
+- dispatch log 2026-04-25 one-hundred-ninety-seventh pass 반영
+
+Verification:
+
+- targeted scan no longer returns the patched `reference 후보 등록부다`, `register active 판단은`, `reference axis다`, `게임의 유명 NPC층` phrases in the updated docs.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- summary family는
+  no-change watch로 그대로 유지한다.
+- named-notables 상단층에서는
+  register / track / compass / closure table / coverage matrix가
+  같은 watch/reference family wording을 유지하는지만 계속 본다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  register / track framing은 no-change watch 기준으로 유지한다.
