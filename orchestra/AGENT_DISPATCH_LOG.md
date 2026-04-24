@@ -14535,3 +14535,66 @@ Follow-up actions:
 - 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   Frost display framing은 no-change watch 기준으로 유지한다.
+
+## 2026-04-24 KST - One-Hundred-Ninety-Fifth Ether Scout Reference Framing Pass
+
+목적:
+
+- Ether scout family에 남아 있던
+  active/workflow surface를
+  current-state watch/reference framing으로 낮춘다.
+- Ether sidecar와 operational track은
+  patch-worthy drift가 확인된 줄만 국소 정리한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Heisenberg` | Ether Scout Framing Scout | `Section_15_Named_Notables_Ether_Scout.md` | `completed` |
+| `Hooke` | Ether Sidecar / Track Stability Scout | `Section_15_Ether_Place_Institution_Sidecar.md`, `Section_15_Operational_Lines_Track.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_15_Named_Notables_Ether_Scout.md`의
+  state label
+  (`verify_before_15`, `need_named_candidate`, `source_check_hold / hold reference split`)
+  과 candidate table은 그대로 유지했다.
+- conductor는
+  같은 scout 문서의
+  `스카우트한 결과`, `active 판단`,
+  `기본 판정`, `확장 우선순위`,
+  `바로 올릴`, `확인하는 흐름`
+  류 framing prose만 current-state reference wording으로 정렬했다.
+- conductor는
+  `Section_15_Ether_Place_Institution_Sidecar.md`는
+  이번 batch에서 patch-worthy drift가 없다고 보고 유지했다.
+- conductor는
+  `Section_15_Operational_Lines_Track.md`의
+  `current watch state나 hold/reference 상태 판단`
+  한 줄만
+  established `current-state watch/reference` phrasing으로 정렬했다.
+
+Integrated actions:
+
+- `Section_15_Named_Notables_Ether_Scout.md`의
+  Ether scout reference framing prose 정렬
+- `Section_15_Operational_Lines_Track.md`의
+  current-state watch/reference phrasing 한 줄 정렬
+- dispatch log 2026-04-24 one-hundred-ninety-fifth pass 반영
+
+Verification:
+
+- targeted scan no longer returns the patched active/workflow phrases in the updated scout and track docs.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- Ether scout family는
+  state token보다 framing prose 정렬을 우선 유지한다.
+- Ether sidecar는
+  새 local drift가 생길 때만 다시 연다.
+- operational track은
+  cluster reference wording만 유지하고,
+  lower-card authority wording은 다시 정의하지 않는다.

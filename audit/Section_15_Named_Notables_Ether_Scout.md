@@ -1,12 +1,14 @@
 # Section 15 Named Notables - Ether Scout
 
-이 문서는 에테르 대륙의 `15번 People Worth Seeking` 후보를 스카우트한 결과다.
+이 문서는 에테르 대륙의 `15번 People Worth Seeking` 후보와
+이름이 필요한 역할 슬롯을 분리해 기록한다.
 
-목표는 새 이름을 발명하는 것이 아니라,
-existing `cg` 작업본에 들어온 에테르 세력 문서에서
-유명 NPC형 명사, 서고/학파/사제/장인/정령 계약 명사층을 확인하는 것이다.
+새 이름을 발명하지 않고,
+existing `cg` 작업본에 들어온 에테르 세력 문서의
+유명 NPC형 명사, 서고/학파/사제/장인/정령 계약 명사층을
+reference로만 정리한다.
 
-People Worth Seeking active 판단은
+ether scout reading은
 `Section_15_Named_Notables_Register.md`,
 `Section_15_Named_Notables_Status_Compass.md`,
 `Section_15_Named_Notables_Track.md`,
@@ -23,7 +25,7 @@ People Worth Seeking active 판단은
 에테르는 15번 명사층을 확정하기 좋은 대륙이지만,
 동시에 `14번 영웅표`와 겹치는 이름이 많다.
 
-따라서 이 scout snapshot의 기본 판정은 다음과 같다.
+따라서 이 scout snapshot의 기본 분류는 다음과 같다.
 
 - 이미 14번 핵심 인물표에 걸리는 이름은 `verify_before_15`로 둔다.
 - 이름 없는 역할 슬롯은 `need_named_candidate`로 둔다.
@@ -118,12 +120,12 @@ People Worth Seeking active 판단은
 
 ## Conductor Reading
 
-에테르는 `15번 People Worth Seeking` 확장 우선순위가 높다.
+에테르는 `15번 People Worth Seeking` 후보층 압력이 높은 편이다.
 
-하지만 이 scout snapshot에서 확정 15로 바로 올릴 새 이름은 거의 없다.
+하지만 이 scout snapshot에서는 확정 15로 바로 읽을 새 이름이 거의 없다.
 대신 reference상 다음처럼 읽는다.
 
 1. `엘다라`는 기존 15 후보로 유지한다.
 2. `대런`, `래퍼티`, `요한`, 7개 탑주는 `verify_before_15`로 경계 큐에 둔다.
 3. 마법협회, 성국, 정령연합의 역할 슬롯은 `Section_15_Ether_Place_Institution_Sidecar.md` 기준 `need_named_candidate / slot_with_display_candidate`로 둔다.
-4. 후속 reference는 `에테르 14번 파일`과 대조해 이 이름들이 이미 영웅백과에 있는지 확인하는 흐름이다.
+4. 후속 reference에서는 `에테르 14번 파일`과의 대조 기준만 유지한다.

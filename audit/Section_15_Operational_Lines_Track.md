@@ -6,7 +6,7 @@
 
 이 축은 `People Worth Seeking`와 별개다.
 
-이 track은 current watch state나 hold/reference 상태 판단을 직접 소유하지 않고,
+이 track은 current-state watch/reference 판단을 직접 소유하지 않고,
 `Section_15_Operational_Display_Canon_Candidates.md`,
 `Section_15_Group_Index.md`,
 `Section_15_Profile_Draft_Index.md`,
