@@ -96,7 +96,7 @@ folder gate reading은
 
 하지만 live 폴더 이동 또는 문서 이동은 아직 금지한다.
 
-현재는 아래 두 가지를 `watch-reference 기준`으로만 유지한다.
+현재는 아래 세 가지를 `watch-reference 기준`으로만 유지한다.
 
 1. `stable_triad_frozen_reference_set` 유지와 closure sync / watch-reference 점검
 2. `15번 live 폴더 생성/이동`은 계속 보류

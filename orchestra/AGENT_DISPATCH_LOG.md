@@ -14789,3 +14789,61 @@ Follow-up actions:
 - 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   anchor map framing은 no-change watch 기준으로 유지한다.
+
+## 2026-04-25 KST - One-Hundred-Ninety-Ninth Folder Gate Consistency Pass
+
+목적:
+
+- `Index / Folder / QA` carryover family는
+  no-change watch로 두고,
+  `Section_15_Folder_Revision_Gate.md`에 남아 있던
+  count wording mismatch만
+  current-state watch/reference consistency 기준으로 정리한다.
+- policy token, gate result, live-move freeze rule은
+  source-of-truth 그대로 유지한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Plato` | Index / Folder Stability Scout | `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md` | `completed` |
+| `Kuhn` | Folder Gate / QA Consistency Scout | `Section_15_Folder_Revision_Gate.md`, `Section_15_Stable_Candidate_Profile_QA.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_15_Index_Draft.md`,
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`는
+  이번 batch에서 patch-worthy drift가 없다고 보고 유지했다.
+- conductor는
+  `Section_15_Folder_Revision_Gate.md`의
+  `아래 두 가지`와
+  바로 아래 3개 항목 list가 어긋나던 internal consistency만
+  `아래 세 가지`로 정렬했다.
+- conductor는
+  gate checklist, risk table, policy carryover wording, live-move freeze rule은
+  이번 batch에서 그대로 유지했다.
+
+Integrated actions:
+
+- `Section_15_Folder_Revision_Gate.md`의
+  count wording consistency 정렬
+- dispatch log 2026-04-25 one-hundred-ninety-ninth pass 반영
+
+Verification:
+
+- exact-match scan no longer returns the old `아래 두 가지를 \`watch-reference 기준\`으로만 유지한다.` line.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- `Index / Folder / QA` carryover family는
+  no-change watch를 우선 유지한다.
+- 이후에는 wording drift보다
+  실제 source-of-truth mismatch가 생겼을 때만 다시 연다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  folder gate consistency는 no-change watch 기준으로 유지한다.
