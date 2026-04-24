@@ -50,7 +50,7 @@ stable QA reading은
 |---|---|
 | `울프가르` | 크림슨 8번 문서에서 A급/전설 영웅록 신호가 확인됐으므로 14 독립 파일 여부 reference check 유지. |
 | `에리온` | 에테르 `에리온 베르날리스`와 병합 금지. 크림슨 `에리온 드라코비스`의 14 독립 파일 여부 reference check 유지. |
-| `오그마` | 특정 Act 핵심 개입도가 강하면 14 경계 재검토. |
+| `오그마` | 특정 Act 핵심 개입도 급상승 신호는 14 경계 watch note로 유지. |
 | `엘다라` | 정령연합 전체 14 파일 확인 전 `source_check_hold / hold reference split`로만 남기기. |
 | `실비아` | 범대륙 후기 확장축이므로 `deferred_expansion_hold / hold reference split` 유지, 이름 충돌 계속 감시. |
 

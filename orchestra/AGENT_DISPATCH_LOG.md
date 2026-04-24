@@ -14296,3 +14296,65 @@ Follow-up actions:
 - 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   profile-display snapshot wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-24 KST - One-Hundred-Ninety-First Stable-QA Residual Watch Note Pass
+
+목적:
+
+- stable QA snapshot에 남은
+  residual action-style watch note 1건을
+  current-state reference note wording으로 낮춘다.
+- mainline workstream/backlog 문구는
+  이번 pass에서 drift가 아닌 것으로 확인되면 그대로 둔다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Halley` | Mainline Residual Wording Scout | `Next_Sequential_Workstream`, `Audit_Queue`, `Section_15_Index_Draft` | `completed` |
+| `Mendel` | Stable Hold / QA Residual Scout | `Section_15_Named_Notables_Status_Compass`, `Section_15_Stable_Candidate_Profile_QA` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`,
+  `Section_15_Index_Draft.md`의 residual wording이
+  각각 `Conditional Backlog`, `Later`, `Conductor Decision`
+  문맥에서 의도된 backlog/framing wording임을 확인했고
+  source patch를 하지 않았다.
+- conductor는
+  `Section_15_Named_Notables_Status_Compass.md`의
+  `세리오스: 14 직접 파일 신호 기록`도
+  hold provenance note로 읽히므로 유지했다.
+- conductor는
+  `Section_15_Stable_Candidate_Profile_QA.md`의
+  `오그마` residual watch note만
+  action surface로 판단해
+  `14 경계 watch note로 유지` wording으로 정렬했다.
+
+Integrated actions:
+
+- `Section_15_Stable_Candidate_Profile_QA.md`의
+  `오그마` residual watch note 1건 정렬
+- dispatch log 2026-04-24 one-hundred-ninety-first pass 반영
+
+Verification:
+
+- targeted scan no longer returns
+  `재검토`
+  in `Section_15_Stable_Candidate_Profile_QA.md`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- mainline source-of-truth 문서에서
+  backlog/later/decision framing 안에 있는 residual wording은
+  drift가 아니라는 분류를 유지한다.
+- stable QA family는
+  실제 action surface가 다시 생길 때만
+  국소 재개한다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  stable-QA residual watch note wording은 no-change watch 기준으로 유지한다.
