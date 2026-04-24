@@ -36,5 +36,5 @@
 후속 reference는 아래 순서로 읽는다.
 
 1. 프로스트 closure 결과를 압축표와 진행표에 동기화
-2. 5대륙 closure 상태를 다시 읽고 다음 메인 본선 ROI를 재판정
+2. 5대륙 closure 상태를 다시 읽고 current mainline ROI reference를 재확인
 3. 실제 원고 입력 사례가 발생한 경우 해당 사례를 우선 검토 대상으로 둔다

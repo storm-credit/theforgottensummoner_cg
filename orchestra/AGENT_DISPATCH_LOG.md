@@ -13976,3 +13976,45 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 next-actual wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-24 KST - One-Hundred-Eighty-Fifth Follow-Up Batch Surface Closure Pass
+
+목적:
+
+- 일부 source에 남은
+  stale `다음 재검토 / 다음 메인 본선 / 후속 패스` 표면어가
+  새 실행선처럼 보이지 않도록
+  current recheck/current mainline/comparative reference wording으로 낮춘다.
+
+배치:
+
+- conductor local follow-up batch surface closure scout
+
+Conductor action:
+
+- conductor는 `다음 재검토`, `다음 메인 본선`, `후속 패스` residual hit를 다시 읽었다.
+- `Section_15_Crimson_Hold_Cluster_Continuation.md`,
+  `Section_15_Frost_Search_Findings_Batch_02.md`,
+  `Section_8_Mixed_Exception_First_Pass_A.md`,
+  `Section_8_Mixed_Exception_First_Pass_B.md`
+  에 follow-up batch surface가 남아 있었다.
+- 해당 wording을
+  `현재 recheck reference`, `current mainline ROI reference`,
+  `현재 comparative reference` wording으로 낮췄다.
+
+Integrated actions:
+
+- follow-up batch surface source closure
+- report pair / dispatch log 2026-04-24 one-hundred-eighty-fifth pass 반영
+
+Verification:
+
+- related source scan now returns zero hits for
+  `다음 재검토`, `다음 메인 본선`, and `후속 패스`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- next verification gate is fresh local drift only, while leaving unrelated user changes untouched.
+
+Follow-up actions:
+
+- 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지 follow-up batch wording은 no-change watch 기준으로 유지한다.

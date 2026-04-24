@@ -42,7 +42,7 @@ freeze 밖 크림슨 hold cluster 4명을 다시 묶는 continuation 시트다.
 
 ## Recheck Rules
 
-다음 재검토 때는 아래 순서로만 본다.
+현재 recheck reference는 아래 순서로만 둔다.
 
 1. 14 독립 시트 존재 여부
 2. Act 중심성

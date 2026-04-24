@@ -6228,3 +6228,39 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 comparative/reference 문맥으로 읽히게 됐다.
 - related source scan에서
   `다음 실제 작업 / 다음 실제 판단` hit가 0건이 됐다.
+
+## 2026-04-24 One-Hundred-Eighty-Fifth Follow-Up Batch Surface Closure Pass
+
+목적:
+
+- 일부 source에 남은
+  stale `다음 재검토 / 다음 메인 본선 / 후속 패스` 표면어가
+  새 실행선처럼 보이지 않도록
+  current recheck/current mainline/comparative reference wording으로 낮춘다.
+
+확인 결과:
+
+- `Section_15_Crimson_Hold_Cluster_Continuation.md`에는
+  `다음 재검토 때는` 문장이 남아 있었다.
+- `Section_15_Frost_Search_Findings_Batch_02.md`에는
+  `다음 메인 본선 ROI` 문장이 남아 있었다.
+- `Section_8_Mixed_Exception_First_Pass_A.md`,
+  `Section_8_Mixed_Exception_First_Pass_B.md`에는
+  `후속 패스는` 문장이 남아 있었다.
+
+조치:
+
+- crimson hold 문구는
+  `현재 recheck reference`로 낮췄다.
+- frost search 문구는
+  `current mainline ROI reference` 재확인으로 낮췄다.
+- mixed exception A/B 문구는
+  `현재 comparative reference`로 낮췄다.
+
+의미:
+
+- 대상 source 4개는
+  후속 실행선이 아니라
+  닫힌 recheck/comparative/mainline reference로 읽히게 됐다.
+- related source scan에서
+  `다음 재검토 / 다음 메인 본선 / 후속 패스` hit가 0건이 됐다.
