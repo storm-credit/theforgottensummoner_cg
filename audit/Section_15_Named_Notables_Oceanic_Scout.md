@@ -109,4 +109,5 @@ recorded 판정은 `thin with many boundary signals`로 둔다.
 판정:
 
 - 모두 15 가치가 있지만 `verify_before_15`를 유지한다.
+- `크리스토퍼 델마르`는 boundary-only current-state carryover로 유지한다.
 - 해양 실비아는 이름 충돌 때문에 계속 `해양 실비아` 작업명으로 구분한다.

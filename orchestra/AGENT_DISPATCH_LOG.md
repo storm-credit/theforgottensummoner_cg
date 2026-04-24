@@ -14598,3 +14598,70 @@ Follow-up actions:
 - operational track은
   cluster reference wording만 유지하고,
   lower-card authority wording은 다시 정의하지 않는다.
+
+## 2026-04-24 KST - One-Hundred-Ninety-Sixth Scout Carryover Sync Pass
+
+목적:
+
+- Frost / Oceanic / Obelisk scout family에 남아 있던
+  stale slot wording과
+  current-state carryover omission,
+  action-tone prose를
+  source-of-truth watch/reference 기준으로 다시 맞춘다.
+- table state token과 lower source anchor는
+  이미 닫힌 기준선 그대로 유지한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Gibbs` | Obelisk Scout Framing Scout | `Section_15_Named_Notables_Obelisk_Scout.md` | `completed` |
+| `Confucius` | Frost / Oceanic Scout Cross-Check | `Section_15_Named_Notables_Frost_Scout.md`, `Section_15_Named_Notables_Oceanic_Scout.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_15_Named_Notables_Frost_Scout.md`의
+  해양 carryover 예시 라벨 중
+  stale `신탁관`, `조선 장인` 표현을
+  current Oceanic sidecar wording
+  (`수석 오라클`, `항로 기록관 / 보험 서기관 / 항로 장부 보관인`,
+  `장물 감정사 / 늙은 감정사`, `조선공 길드 장인 / 검은 돛 조선공`)
+  으로 정렬했다.
+- conductor는
+  `Section_15_Named_Notables_Oceanic_Scout.md`에
+  closure table과 coverage matrix에서 이미 유지 중인
+  `크리스토퍼 델마르`의
+  `boundary-only current-state carryover` note만 복구했다.
+- conductor는
+  `Section_15_Named_Notables_Obelisk_Scout.md`의
+  state label과 candidate table은 그대로 두고,
+  `축이 매우 강하다`, `위험하다`, `취급한다`,
+  `먼저 세운다`, `추가 확인한다`
+  류 action-tone prose만 current-state reference wording으로 낮췄다.
+
+Integrated actions:
+
+- `Section_15_Named_Notables_Frost_Scout.md`의
+  Oceanic carryover slot wording sync
+- `Section_15_Named_Notables_Oceanic_Scout.md`의
+  `크리스토퍼 델마르` boundary-only carryover note 복구
+- `Section_15_Named_Notables_Obelisk_Scout.md`의
+  Obelisk scout reference framing prose 정렬
+- dispatch log 2026-04-24 one-hundred-ninety-sixth pass 반영
+
+Verification:
+
+- targeted scan confirms the stale Frost slot wording is gone and the Oceanic carryover note now matches closure-table / coverage-matrix watch state.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- scout family에서는
+  state token보다 carryover slot wording과 reference framing을 우선 유지한다.
+- Oceanic boundary-only carryover는
+  closure table / coverage matrix / scout note 세 곳이 같이 움직이는지 계속 본다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  scout carryover family는 no-change watch 기준으로 유지한다.
