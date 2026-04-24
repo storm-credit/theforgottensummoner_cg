@@ -14099,3 +14099,80 @@ Follow-up actions:
 
 - 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지 queue-handoff wording은 no-change watch 기준으로 유지한다.
+
+## 2026-04-24 KST - One-Hundred-Eighty-Eighth Watch-Reference Surface Alignment Pass
+
+목적:
+
+- current mainline 문서군에 남은
+  future/action phrasing을
+  current-state watch/reference wording으로 다시 맞춘다.
+- `Section 8` status compass와 `Section 8 -> 15` carryover watch 사이
+  `P2 place-pressure handoff` state label drift를 닫는다.
+- 실제 서브에이전트 batch 결과를 historical dispatch log에 남긴다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Banach` | Summary Drift Scout | `Section_8_Normalization_Status_Compass`, `Section_8_Mainline_Sync_Register`, `Section_8_15_Closure_Sync_Carryover_Watch`, `Section_15_Named_Notables_Status_Compass`, `Section_15_Five_Continent_Closure_Table`, `Section_15_Named_Notables_Coverage_Matrix` | `completed` |
+| `Socrates` | Bridge / Index Drift Scout | `Section_8_to_15_Notable_Anchor_Bridge`, `Section_8_15_Spine_Compatibility_Audit`, `Section_15_Stable_Candidate_8_Anchor_Index`, `Section_15_Index_Draft`, `Section_15_Folder_*`, `Section_15_Named_Notables_Anchor_Map`, `Section_15_Stable_Candidate_Profile_QA` | `completed` |
+| `Harvey` | Sidecar Umbrella Drift Scout | operational profile docs, continent sidecar/scout/display umbrella, Ether hold continuation family | `completed` |
+
+Conductor action:
+
+- conductor는
+  `ready_when_source_available`,
+  `applied_round1`,
+  `직접 14 파일 확인`,
+  `쌓일 때만`,
+  `늘리기보다 / 늘리지 않고` 류 표현 중
+  실제 drift만 골라 current-state wording으로 낮췄다.
+- conductor는
+  `stable_15_workset`를
+  `Section_15_State_Vocabulary_Guard.md`에서 잠근 canonical state로 판단해
+  그 라벨은 이번 pass에서 바꾸지 않았다.
+- conductor는
+  sidecar/scout family에서
+  named candidate 증설 지시처럼 읽히던 문장을
+  `reference 유지 / 미부착 상태 유지 / 추가 증거 전까지 열지 않음`
+  형식으로 정렬했다.
+
+Integrated actions:
+
+- `Section_8_Normalization_Status_Compass.md`에서
+  `subtree sampling prep`을 `reference_backlog_only`,
+  `place-pressure handoff`를 `handoff_applied`로 정렬
+- `Section_15_Named_Notables_Status_Compass.md`에서
+  `세리오스` hold note를 `14 직접 파일 신호 기록` wording으로 정렬
+- `Section_15_Frost_Place_Institution_Sidecar.md`,
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`,
+  `Section_15_Ether_Place_Institution_Sidecar.md`의
+  future/task surface를 current-state watch/reference wording으로 정렬
+- `Section_15_Named_Notables_Oceanic_Scout.md`,
+  `Section_15_Named_Notables_Obelisk_Scout.md`의
+  named candidate / person confirmation reopen phrasing을 watch/reference wording으로 정렬
+- dispatch log 2026-04-24 one-hundred-eighty-eighth pass 반영
+
+Verification:
+
+- targeted scan no longer returns
+  `ready_when_source_available`,
+  `applied_round1`,
+  `직접 14 파일 확인`,
+  `회수할 수 있게 한다`,
+  `재검토한다`,
+  or `쌓일 때만`
+  in the patched watch/reference source set.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- `stable_15_workset`처럼 저장소 vocabulary guard가 직접 잠근 라벨은
+  surface-tightening만으로 바꾸지 않는다.
+- coverage/anchor summary family의 residual historical narrowing wording은
+  실제 queue/action surface로 다시 읽히기 시작할 때만 국소 재개한다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  watch-reference surface는 no-change watch 기준으로 유지한다.

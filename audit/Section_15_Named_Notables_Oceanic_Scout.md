@@ -85,7 +85,7 @@ recorded 판정은 `thin with many boundary signals`로 둔다.
 판정:
 
 - 해양의 이름 있는 후보는 당장 15 확정하지 않는다.
-- 먼저 장소-기관 슬롯을 고정하고, 실제 원고/anchor 증거가 더 쌓일 때만 named candidate를 붙인다.
+- 장소-기관 슬롯 고정 reference를 먼저 유지하고, 각 슬롯은 실제 원고/anchor 증거 전까지 named candidate 미부착 상태로 둔다.
 
 ## Conductor Reading Rule
 

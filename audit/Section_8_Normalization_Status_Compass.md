@@ -46,9 +46,9 @@
 - `mixed_keep review round1`: `closed_round1`
 - `spine mismatch round1`: `closed_round1`
 - `root corruption first pass`: `locked`
-- `subtree sampling prep`: `ready_when_source_available`
+- `subtree sampling prep`: `reference_backlog_only`
 - `place-pressure P2 queue`: `locked` (`section_style_forced_on_place_network` legacy risk key)
-- `place-pressure handoff`: `applied_round1` (`section_style_forced_on_place_network` legacy risk key)
+- `place-pressure handoff`: `handoff_applied` (`section_style_forced_on_place_network` legacy risk key)
 - `section8_to_15 closure sync watch`: `watch_mainline`
 - `five_continent_missing_layer_master_lock`: `closed_component_set`
 - `continent_sidecar_scout_display_umbrella`: `closed_watch_reference`

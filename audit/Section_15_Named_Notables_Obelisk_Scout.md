@@ -96,4 +96,4 @@ recorded 판정은 `thin with dense boundary and archive slots`로 둔다.
 판정:
 
 - 모두 15 가치가 있지만 `verify_before_15`를 유지한다.
-- 오벨리스크는 `Section_15_Obelisk_Place_Institution_Sidecar.md` 기준 장소-기관 슬롯을 먼저 유지하고, 추가 증거가 쌓일 때만 인물 확정을 재검토한다.
+- 오벨리스크는 `Section_15_Obelisk_Place_Institution_Sidecar.md` 기준 장소-기관 슬롯 reference를 먼저 유지하고, 인물 확정은 추가 증거 전까지 열지 않는다.
