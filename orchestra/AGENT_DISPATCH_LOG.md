@@ -14729,3 +14729,63 @@ Follow-up actions:
 - 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   register / track framing은 no-change watch 기준으로 유지한다.
+
+## 2026-04-25 KST - One-Hundred-Ninety-Eighth Anchor Map Reference Pass
+
+목적:
+
+- bridge / compatibility / stable-anchor-index family는
+  no-change watch로 두고,
+  anchor map에만 남아 있던
+  small prose drift를
+  current-state watch/reference family wording으로 맞춘다.
+- anchor row, state label, routing structure는
+  source-of-truth 그대로 유지한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Boyle` | Bridge Stability Scout | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md` | `completed` |
+| `Carver` | Anchor Map Framing Scout | `Section_15_Named_Notables_Anchor_Map.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`는
+  이번 batch에서 patch-worthy drift가 없다고 보고 유지했다.
+- conductor는
+  `Section_15_Named_Notables_Anchor_Map.md`의
+  `Hard Canon 고정은 14 재확인 뒤로 둔다`,
+  `A급/핵심표 신호`,
+  `lower-card authority를 가진 lower-card carryover reference다`
+  세 줄만
+  established watch/reference family wording으로 정렬했다.
+- conductor는
+  anchor row, state label, routing note, recovery guard는
+  이번 batch에서 그대로 유지했다.
+
+Integrated actions:
+
+- `Section_15_Named_Notables_Anchor_Map.md`의
+  anchor-map watch/reference framing 정렬
+- dispatch log 2026-04-25 one-hundred-ninety-eighth pass 반영
+
+Verification:
+
+- targeted scan no longer returns the patched anchor-map phrases in their old wording.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- bridge / compatibility / stable-anchor-index family는
+  no-change watch로 그대로 유지한다.
+- anchor map은
+  bridge / closure table / register wording family와
+  같은 watch/reference tone을 유지하는지만 계속 본다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  anchor map framing은 no-change watch 기준으로 유지한다.

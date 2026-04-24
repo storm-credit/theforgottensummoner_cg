@@ -39,9 +39,9 @@ anchor map reading은
 |---|---|---|---|---|---|
 | `실비아` | `범대륙 / 후기 확장` | `키르케 영약회` | `기록자 / 약제사` | `deferred_expansion_hold / hold reference split / name_collision_watch` | 키르케 내부 기억과 계량을 보여주는 `deferred_expansion_hold / hold reference split`이지만 범대륙 후기 확장축이라 `stable_triad_frozen_reference_set`과 분리 유지한다. |
 | `멜리산드르` | `범대륙 / 후기 확장` | `키르케 영약회` | `수석 대약제사 / 조직 최고위` | `source_check_hold` | S+급 최고위라 14와 겹칠 수 있다. 14 확인 전 15 stable set에 넣지 않는다. |
-| `울프가르 드래곤포지` | `크림슨` | `용의 후예 / 드래곤포지 공방` | `대장장이 / 공방주` | `named_notable_candidate / grade_caution / stable_triad_frozen_reference_set / route_hierarchy_locked` | 드래곤포지 공방 앵커는 `stable_triad_frozen_reference_set`에 포함되지만 A급/전설 영웅록 신호가 있어 Hard Canon 고정은 14 재확인 뒤로 둔다. |
+| `울프가르 드래곤포지` | `크림슨` | `용의 후예 / 드래곤포지 공방` | `대장장이 / 공방주` | `named_notable_candidate / grade_caution / stable_triad_frozen_reference_set / route_hierarchy_locked` | 드래곤포지 공방 앵커는 `stable_triad_frozen_reference_set`에 포함되지만 A급/전설 영웅록 신호가 있어 Hard Canon으로는 고정하지 않고 14 재확인 뒤로 둔다. |
 | `드락사르 블레이즈포지` | `크림슨` | `용의 후예 / 연금술 공방` | `연금술사 / 공병대장` | `source_check_hold` | 공방 명사 가치가 있지만 A급 영웅표 신호가 있어 14 확인 전 source check만 유지한다. |
-| `에리온 드라코비스` | `크림슨` | `엘드라칸 / 학술-전승층` | `대현자 / 고대어 해석가 / 관리자` | `named_notable_candidate / grade_caution / name_collision_watch / stable_triad_frozen_reference_set / route_hierarchy_locked` | 엘드라칸 학술-전승층의 얼굴이며 `stable_triad_frozen_reference_set`에 포함되지만 A급/핵심표 신호와 `에리온 베르날리스` 충돌 감시 때문에 caution을 유지한다. |
+| `에리온 드라코비스` | `크림슨` | `엘드라칸 / 학술-전승층` | `대현자 / 고대어 해석가 / 관리자` | `named_notable_candidate / grade_caution / name_collision_watch / stable_triad_frozen_reference_set / route_hierarchy_locked` | 엘드라칸 학술-전승층의 얼굴이며 `stable_triad_frozen_reference_set`에 포함되지만 A급/세력 핵심표 신호와 `에리온 베르날리스` 충돌 감시 때문에 caution을 유지한다. |
 | `오그마` | `크림슨` | `엘드라칸 / 전승 보관층` | `고룡 / 살아있는 도서관 / 조언자` | `named_notable_candidate / stable_triad_frozen_reference_set / act_watch / route_hierarchy_locked` | 전승 보관층 앵커는 `stable_triad_frozen_reference_set`에서 가장 안정적이지만 특정 Act 중심성이 급상승하면 14 경계를 재확인한다. |
 | `카사르 더 시어` | `크림슨` | `용의 후예 / 시험의 탑` | `예언자 / 최고 조언자` | `source_check_hold` | S급 예언자이며 14 중심 영웅 신호가 있어 14 확인 전 source check만 유지한다. |
 | `벨라나 스톰브링어` | `크림슨` | `붉은 사막 부족 / 현자 회의` | `주술사 / 사제 / 고고학자` | `source_check_hold` | 사막 부족 현자층 가치가 있지만 SS급 폭풍의 여왕 신호가 있어 14 확인 전 15 stable set에 넣지 않는다. |
@@ -63,7 +63,7 @@ anchor map reading은
 - `오벨리스크` 앵커는 `nontraditional elite thin-support`와 `dark institution` 기능축을 정리하는 용도지, 전통 왕국/귀족국가 복원 맵이 아니다.
 - `실비아`는 `범대륙 후기 확장 / deferred_expansion_hold / hold reference split` 내부에서만 유지한다.
 - 해양/오벨리스크 operational profile 문구는
-People Worth Seeking 승인 근거가 아니라 lower-card authority를 가진 lower-card carryover reference다.
+People Worth Seeking 승인 근거가 아니라 lower current-state watch/reference authority로만 둔다.
 - 이 앵커 가드는 People Worth Seeking anchor safeguard일 뿐이고,
   operational cluster guard text 권한은 `Section_15_Profile_Template.md`의 `3-1. Policy Guard`에 남는다.
 - exact operational guard wording authority는 각 `Section_15_Profile_*` 카드의
