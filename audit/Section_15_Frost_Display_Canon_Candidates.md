@@ -1,15 +1,15 @@
 # Section 15 Frost Display Canon Candidates
 
 이 문서는 프로스트 대륙의 `need_named_candidate` 슬롯을
-더 정통 판타지 톤의 표면명 후보로 낮출 때 쓰는 후보표다.
+더 정통 판타지 톤의 표면명 후보를 참고하는 후보표다.
 
-naming active 판단은
+naming active 여부는
 `Section_15_Named_Notables_Register.md`,
 `Section_15_Named_Notables_Status_Compass.md`,
 `Continuous_Workstream.md`
 기준으로 읽는다.
 
-이 문서에서는 정본명이 아니라 `preferred_display_candidate` reference만 남긴다.
+이 문서에서는 정본명이 아니라 `preferred_display_candidate` reference만 기록한다.
 
 ## Place / Role -> Display Canon Candidates
 
@@ -22,7 +22,7 @@ naming active 판단은
 | `별의 샤먼` | `성광 샤먼` | `오로라 별술사` | `display_canon_candidate` | 오로라와 하늘 징조의 이미지가 살아난다. |
 | `아이스포지 병기소 장인` | `빙로 병기장` | `서리벼림 장인` | `display_canon_candidate` | 단순 아이스포지 직역보다 무기 전승 톤이 강하다. |
 
-## Preferred Candidate Reference Pass
+## Preferred Candidate Reference
 
 | Working Slot | Preferred Candidate | State | Reason |
 |---|---|---|---|
@@ -46,7 +46,7 @@ naming active 판단은
 
 ## Conductor Reading
 
-프로스트 슬롯은 reference상 아래 preferred 후보로 읽는다.
+프로스트 슬롯은 reference상 아래 preferred 후보를 따른다.
 
 - `서리길 원로 사냥꾼`
 - `빙묘 수호장`
@@ -57,5 +57,5 @@ naming active 판단은
 
 Reference carryover:
 
-- 이 우선 후보는 `Section_15_Frost_Core_Register_Link.md` 기준 direct link pass를 유지한 채 watch-only로 읽는다.
+- 이 우선 후보는 `Section_15_Frost_Core_Register_Link.md` 기준 direct link pass를 유지한 watch-only reference로 본다.
 - 이후에만 실제 개인명이 확인된 슬롯을 `verify_before_15`로 올리는 기준으로 읽는다.

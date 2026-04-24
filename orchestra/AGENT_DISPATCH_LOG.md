@@ -14478,3 +14478,60 @@ Follow-up actions:
 - 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   operational intake/display framing은 no-change watch 기준으로 유지한다.
+
+## 2026-04-24 KST - One-Hundred-Ninety-Fourth Frost Display Reference Framing Pass
+
+목적:
+
+- Frost display canon family에 남은
+  active naming workflow surface를
+  current-state display reference wording으로 낮춘다.
+- state token과 group/subline family wording은
+  문서 역할 변경 위험이 없을 때만 건드린다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Parfit` | Frost Display Framing Scout | `Section_15_Frost_Display_Canon_Candidates.md` | `completed` |
+| `Euler` | Group / Subline Stability Scout | `Section_15_Group_Index.md`, `Section_15_Subline_Register.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_15_Frost_Display_Canon_Candidates.md`의
+  state token
+  (`need_named_candidate`, `display_canon_candidate`, `preferred_display_candidate`, `verify_before_15`)
+  은 그대로 유지했다.
+- conductor는
+  같은 문서의
+  `후보표다`, `판단은`, `reference만 남긴다`,
+  `Preferred Candidate Reference Pass`,
+  `preferred 후보로 읽는다`,
+  `유지한 채 watch-only로 읽는다`
+  류 framing prose만 current-state reference wording으로 정렬했다.
+- conductor는
+  `Section_15_Group_Index.md`와 `Section_15_Subline_Register.md`는
+  이번 batch에서 patch-worthy drift가 없다고 보고 유지했다.
+
+Integrated actions:
+
+- `Section_15_Frost_Display_Canon_Candidates.md`의
+  Frost display reference framing prose 정렬
+- dispatch log 2026-04-24 one-hundred-ninety-fourth pass 반영
+
+Verification:
+
+- targeted scan no longer returns the patched active-naming phrases in `Section_15_Frost_Display_Canon_Candidates.md`.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- Frost display family는
+  state token보다 framing prose 정렬을 우선 유지한다.
+- group/subline family는
+  patch-worthy framing drift가 실제로 생길 때만 다시 연다.
+- 그 전까지는 이 source-and-log delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  Frost display framing은 no-change watch 기준으로 유지한다.
