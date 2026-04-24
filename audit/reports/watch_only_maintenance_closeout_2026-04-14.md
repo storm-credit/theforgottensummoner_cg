@@ -6264,3 +6264,34 @@ pre-push hold 상태는 이후 maintenance commit/push로 닫혔다.
   닫힌 recheck/comparative/mainline reference로 읽히게 됐다.
 - related source scan에서
   `다음 재검토 / 다음 메인 본선 / 후속 패스` hit가 0건이 됐다.
+
+## 2026-04-24 One-Hundred-Eighty-Sixth Batch-Wording Stability Pass
+
+목적:
+
+- residual `다음 배치 / 다음 실제 배치 / 다음 메인 본선` wording이
+  stale live drift인지,
+  아니면 intentional historical/backlog guidance인지 다시 확인한다.
+
+확인 결과:
+
+- `Historical_Batch_Reading_Guard.md`는
+  해당 표현을 `당시 배치 기록`으로만 읽고
+  현재 실행 명령으로 읽지 않는다고 직접 잠그고 있었다.
+- `Next_Sequential_Workstream.md`의
+  ``다음 대륙`, `다음 배치`, `다음 확장`` 문장도
+  그런 목록을 늘리는 것이 이 문서의 역할이 아니라고 직접 제어하고 있었다.
+
+조치:
+
+- source prose patch 없이
+  residual batch wording이 모두 intentional historical/backlog guidance라는 판정만
+  report pair와 dispatch log에 기록했다.
+
+의미:
+
+- 현재 남은 `다음 배치 / 다음 실제 배치 / 다음 메인 본선` residual은
+  stale drift가 아니라
+  historical/backlog control text다.
+- 이후 새 local drift가 생기기 전까지
+  같은 residual wording은 no-change watch 기준으로 유지하면 된다.
