@@ -15019,3 +15019,67 @@ Follow-up actions:
 - 그 전까지는 이 log-only delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   P2 owner family는 no-change watch 기준으로 유지한다.
+
+## 2026-04-25 KST - Two-Hundred-Third Missing-Layer Safe-Read Sync Pass
+
+목적:
+
+- ordered watch 다음 순서인
+  `Five_Continent_Missing_Layer_Master_Lock.md` family를 다시 읽고,
+  master lock / policy / register / first-pass / second-pass / firewall이
+  같은 current-state watch/reference safe-read label을 유지하는지 확인한다.
+- confirmed source-of-truth drift만 반영하고,
+  local shorthand 설명 문장은 그대로 둔 채
+  authoritative table label만 복구한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Gauss` | Master-Lock Consistency Scout | `Five_Continent_Missing_Layer_Master_Lock.md`, `Five_Continent_Missing_Layer_Policy_Lock.md`, `Five_Continent_Missing_Layer_Evidence_Register.md`, `Five_Continent_Missing_Layer_Overread_Firewall.md` | `completed` |
+| `Hume` | First/Second Pass Safe-Read Scout | `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`, `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Five_Continent_Missing_Layer_Master_Lock.md`,
+  `Five_Continent_Missing_Layer_Evidence_Register.md`,
+  `Five_Continent_Missing_Layer_Overread_Firewall.md`
+  대조 결과,
+  master-lock family의 authority split 자체는 이미 정합하다고 확인했다.
+- conductor는
+  `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md`
+  와
+  `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md`
+  의 table safe-read 셀에서만
+  `크림슨`, `프로스트`, `해양` label이
+  master lock 기준보다 축약되거나 변형된 drift를 확인했다.
+- conductor는
+  두 문서의 summary table에서만
+  `tribe_clan core + state_house thin-support`,
+  `settled stronghold support layer only`,
+  `local support outside fleet/church/port core`
+  authoritative label을 복구했고,
+  아래 설명 본문의 local shorthand prose는 그대로 유지했다.
+
+Integrated actions:
+
+- `Five_Continent_Missing_Layer_Evidence_First_Pass_A.md` safe-read table label 복구
+- `Five_Continent_Missing_Layer_Evidence_Second_Pass_A.md` stable safe-read table label 복구
+- dispatch log 2026-04-25 two-hundred-third pass 반영
+
+Verification:
+
+- targeted cross-check confirms the restored table labels now match the master lock / register / firewall source-of-truth wording for the Crimson, Frost, and Oceanic rows.
+- `git diff --check` reports CRLF warnings only, with no whitespace errors.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- missing-layer master-lock family는
+  table label drift만 닫힌 상태로 유지한다.
+- 이후에는 local shorthand prose보다
+  master lock authority를 재정의하는 new drift가 생길 때만 다시 연다.
+- 그 전까지는 이 batch delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  missing-layer family는 watch-reference 기준으로 유지한다.

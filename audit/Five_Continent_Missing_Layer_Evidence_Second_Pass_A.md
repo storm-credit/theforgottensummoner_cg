@@ -44,9 +44,9 @@
 | Continent | Repeated Signal | Repeated From | Stable Safe Read | Still Blocked |
 |---|---|---|---|---|
 | `에테르` | 국경 개척민 + 전진 정찰 자급 구조 | polity file + frontier fortress file | `frontier echo / border support` | outside layer를 바로 부족 연합으로 승격 |
-| `크림슨` | 의회/정찰/관세/출입 관리 상층 | core overview + gate fortress file | `state_house thin-support` | 세습 귀족국가 / state_house strong |
-| `프로스트` | 전초 감시 + 보급창 + 정주 유지 기술 관료 | frontier outpost + city maintenance file | `settled stronghold support` | 정주 귀족층 enough |
-| `해양` | 현지 생계층 착취 + 교단 외곽 생활 압박 | trade flow + church law file | `support range only` | 토착 공동체 enough / fleet-core를 토착층으로 오독 |
+| `크림슨` | 의회/정찰/관세/출입 관리 상층 | core overview + gate fortress file | `tribe_clan core + state_house thin-support` | 세습 귀족국가 / state_house strong |
+| `프로스트` | 전초 감시 + 보급창 + 정주 유지 기술 관료 | frontier outpost + city maintenance file | `settled stronghold support layer only` | 정주 귀족층 enough |
+| `해양` | 현지 생계층 착취 + 교단 외곽 생활 압박 | trade flow + church law file | `local support outside fleet/church/port core` | 토착 공동체 enough / fleet-core를 토착층으로 오독 |
 | `오벨리스크` | 망명 네트워크 실권 + 계약/보호 증서 경제 | faction overview + trade flow file | `nontraditional elite thin-support` | 전통 monarchy / state_house 복원 |
 
 ## 1. Ether Repetition Check
