@@ -72,7 +72,7 @@ P2 owner가 같은 기준 시점을 가리키는지를 먼저 본다.
 12. missing-layer master lock component set은 닫힌 reference로 보고,
     새 evidence가 생기기 전에는 `root / structure / mismatch / P2 handoff` snapshot 점검을 우선한다.
 13. named-notables mainline umbrella는
-    `core hub -> card/template -> search-batch/frozen sample`
+    `core hub / live card-template / frozen snapshot-sample`
     3층 분리가 유지되는지 확인하고,
     새 drift가 없으면 no-change watch로만 둔다.
 14. bridge-anchor와 spine-index 인접층은

@@ -15215,3 +15215,75 @@ Follow-up actions:
 - 그 전까지는 이 log-only delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   lower-card authority family는 same-authority watch 기준으로 유지한다.
+
+## 2026-04-25 KST - Two-Hundred-Sixth Named-Notables Umbrella Split Sync Pass
+
+목적:
+
+- ordered watch의
+  named-notables mainline umbrella가
+  `core hub / live card-template / frozen snapshot-sample`
+  3층 분리를 같은 wording으로 유지하는지 다시 확인한다.
+- confirmed source-of-truth drift만 반영하고,
+  current-state watch/reference 기준을 벗어나지 않는 범위에서만
+  summary-layer split wording을 복구한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Hypatia` | Named-Notables Umbrella Scout | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Named_Notables_Track.md`, `Section_15_Named_Notables_Register.md` and related named-notables frozen/template docs | `completed` |
+| `Zeno` | Named-Notables Summary Sync Scout | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Register.md`, `Section_8_Mainline_Sync_Register.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Named_Notables_Track.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`,
+  `Section_15_Named_Notable_Template.md`,
+  `Section_15_Named_Notables_First_Pass.md`,
+  `Section_15_Named_Notables_Reference_Layer_Residue_Lock.md`
+  를 다시 읽고,
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`
+  의 named-notables umbrella wording과 함께 대조했다.
+- conductor는
+  named-notables current-facing family 자체는 대체로 no-change로 유지된다고 확인했고,
+  `Zeno`도 summary / coverage / register family는 patch-worthy drift가 없다고 봤다.
+- conductor는
+  `Hypatia`가 짚은 대로
+  `Next_Sequential_Workstream.md`의
+  `core hub / card-template / search-batch / frozen sample`
+  wording이 locked split과 어긋난다고 확인했다.
+- conductor는
+  로컬 대조에서
+  `Continuous_Workstream.md`에도 같은 family의 축약 표현
+  `core hub -> card/template -> search-batch/frozen sample`
+  이 남아 있음을 추가 확인했고,
+  두 문서를 모두
+  `core hub / live card-template / frozen snapshot-sample`
+  authoritative wording으로 복구했다.
+
+Integrated actions:
+
+- `Continuous_Workstream.md` named-notables umbrella split wording sync
+- `Next_Sequential_Workstream.md` named-notables umbrella split wording sync
+- dispatch log 2026-04-25 two-hundred-sixth pass 반영
+
+Verification:
+
+- targeted cross-check confirms the named-notables umbrella split wording in `Continuous_Workstream.md` and `Next_Sequential_Workstream.md` now matches the locked phrasing used by the current named-notables mainline family.
+- `git diff --check` reports no whitespace errors for the batch delta.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- named-notables mainline umbrella는
+  `core hub / live card-template / frozen snapshot-sample`
+  3층 분리 wording으로 닫힌 상태를 유지한다.
+- 이후에는 current-facing umbrella prose보다
+  file identity / snapshot residue / schema layer를 건드리는 rename/migration이 필요할 때만 별도 계획으로 연다.
+- 그 전까지는 이 batch delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  named-notables umbrella family는 same-split watch 기준으로 유지한다.
