@@ -34,16 +34,16 @@ compass reading은
 
 ## Compass Snapshot
 
-| Area | `stable_triad_frozen_reference_set` | Hold Reference Split / Hold Cluster | Main Risk | Reference Action |
+| Area | `stable_15_workset` | Hold Reference Split / Hold Cluster | Main Risk | Reference Action |
 |---|---|---|---|---|
-| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | SS/S/A급, 영웅록, 공병대장/예언자 신호 | stable_triad_frozen_reference_set은 닫힌 상태로 유지한다. hold cluster도 한 번 watch-reference 상태로 본다. `벨라나 > 아리안`, `카사르 > 드락사르` 위험도 계층을 유지한 채 본선 reference는 `5대륙 closure sync / watch-reference`다. |
-| `에테르` | 없음 | `엘다라 [source_check_hold / hold reference split]`, `대런`, `엘드린`, `마르쿠스/맥스웰`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 탑주, A/S급, Act 신호, 이름 드리프트, 동명이인 충돌 | `Ravenfell`, `Mera`, `Sylas` 병합 금지. 에테르 surface-name baseline과 spirit-union hold cluster closure가 모두 잠긴 watch-reference 상태다. 새 hold 확장보다 `5대륙 closure sync / watch-reference` 유지가 우선이다. |
+| `크림슨` | `울프가르 드래곤포지`, `에리온 드라코비스`, `오그마` | `벨라나`, `아리안`, `드락사르`, `카사르` | SS/S/A급, 영웅록, 공병대장/예언자 신호 | stable triad package freeze는 닫힌 상태로 유지하고, 크림슨 안정 3명은 `stable_15_workset`으로 유지한다. hold cluster도 한 번 watch-reference 상태로 본다. `벨라나 > 아리안`, `카사르 > 드락사르` 위험도 계층을 유지한 채 본선 reference는 `5대륙 closure sync / watch-reference`다. |
+| `에테르` | 없음 | `엘다라 [source_check_hold / hold reference split]`, `대런`, `엘드린`, `맥스웰 [마르쿠스 drift note]`, `이사도르`, `세리오스`, `네리사`, `다미엔`, `칼리스트`, `래퍼티`, `요한`, `엘라라`, `드라이덴`, `메라`, `실라스 나이트쉐이드` | 탑주, A/S급, Act 신호, 이름 드리프트, 동명이인 충돌 | `Ravenfell`, `Mera`, `Sylas` 병합 금지. 에테르 surface-name baseline과 spirit-union hold cluster closure가 모두 잠긴 watch-reference 상태다. 새 hold 확장보다 `5대륙 closure sync / watch-reference` 유지가 우선이다. |
 | `프로스트` | 없음 | `울프릭`, `시그리드`, `마리안`, `프리야`, `카이라` | 전설/핵심 영웅 신호, 원로단 지도부 신호 | 압축표와 코어 장부 direct link가 잠긴 상태다. `원로 사냥꾼`, `묘지기 장로`, `대예언자`, `수석 기술자`, `별의 샤먼`, `아이스포지 병기소 장인`까지 6개 slot은 모두 role slot 유지로 본다. closure sync watch 안에서만 유지한다. |
 | `해양` | 없음 | `미다스`, `해양 실비아`, `이소벨`, `마르코`, `엘레오노라`, `골드핑거`, `리나`, `에릭`, `오렌`, `마리아`, `모로스`, `크리스토퍼 델마르` | A급, SS급, 히어로급, 제독/단장, 실비아 이름 충돌, 거상 연합 권력축 | `top 5`, `city-role batch`, `tail unnamed slot batch`는 모두 닫힌 상태로 본다. `수석 무역왕`, `스톰 체이서 대장`, `조선공 길드 장인`, `진혼 악기지기`, `망자항해 기록관`은 role slot 유지와 named boundary 비병합 메모만 유지한다. |
 | `오벨리스크` | 없음 | `바리온`, `아이기스`, `카론`, `베스`, `이안`, `카트린`, `레보니아`, `우로스`, `세르반`, `레티시아`, `렌`, `라일`, `루가르` | 전설 영웅록, 아이기스 충돌, 히어로급, 조직 핵심 | 압축표와 핵심 slot narrowing은 닫힌 상태로 본다. `기록의 수호자`, `오벨리스크 관측대장`, `신성 기록소 관리 사제`, `묘역 감독관`, `기억 경매장 중개자`, `사후 서기관`은 slot 유지다. `기억 지기 = 렌 / 라일`, `심연 계약 중개자 = 루가르 strong link` 메모만 유지한다. |
-| `범대륙 / 후기 확장` | 없음 | `실비아 [deferred_expansion_hold / hold reference split]`, `멜리산드르` | 후기 증설 구역, 키르케 위상 과확정 위험 | hold reference split / watch-reference 바깥쪽에서만 유지한다. 이름 톤과 앵커 안정화 전까지 reference backlog로만 둔다. |
+| `범대륙 / 후기 확장` | 없음 | `실비아 [deferred_expansion_hold / hold reference split / name_collision_watch]`, `멜리산드르` | 후기 증설 구역, 키르케 위상 과확정 위험 | hold reference split / watch-reference 바깥쪽에서만 유지한다. 이름 톤과 앵커 안정화 전까지 reference backlog로만 둔다. |
 
-## `stable_triad_frozen_reference_set` Snapshot
+## `stable_15_workset` Snapshot
 
 watch-safe reference subset snapshot:
 
@@ -54,12 +54,12 @@ watch-safe reference subset snapshot:
 Hold Reference Split:
 
 - `엘다라 [source_check_hold / hold reference split]`
-- `실비아 [deferred_expansion_hold / hold reference split]`
+- `실비아 [deferred_expansion_hold / hold reference split / name_collision_watch]`
 
 주의:
 
 - `엘다라`는 에테르 `source_check_hold / hold reference split`이며, 루미라 대현자/고대 정령어 권위자 support basis 메모가 잠겨 있다. 단, 정령연합 전체 14 확인 전 Hard Canon으로 고정하지 않는다.
-- `실비아`는 키르케 계열 `deferred_expansion_hold / hold reference split`이며 범대륙 후기 확장 구역이라 `hold reference split / watch-reference`로만 둔다.
+- `실비아`는 키르케 계열 `deferred_expansion_hold / hold reference split / name_collision_watch`이며 범대륙 후기 확장 구역이라 `hold reference split / watch-reference`로만 둔다.
 
 ## Policy Guard Snapshot
 
@@ -70,7 +70,7 @@ Hold Reference Split:
 - `해양` 자유도시 오염 네트워크 카드들은 `urban_market / shadow_port / debt-enforcement` 축으로만 읽고,
   `토착 공동체층` 본체 근거로 읽지 않는다.
 - `오벨리스크` 제도 카드들은 `nontraditional elite thin-support` 또는 `dark institution` 범위에서만 읽는다.
-- `실비아`는 5대륙 본선 증거가 아니라 `deferred_expansion_hold / hold reference split` 내부 카드로만 유지한다.
+- `실비아`는 5대륙 본선 증거가 아니라 `deferred_expansion_hold / hold reference split / name_collision_watch` 내부 카드로만 유지한다.
 
 ## Hard Hold Snapshot
 
@@ -98,8 +98,8 @@ hold-only snapshot:
 
 이 기준에서 하는 일은 아래 세 가지다.
 
-1. `stable_triad_frozen_reference_set`을 닫힌 상태로 유지한다.
-2. `stable_triad_frozen_reference_set` 밖 hold reference split과 Ether hold cluster를 closure 상태로 유지한다.
+1. stable triad package freeze를 닫힌 상태로 유지하고, 안정 3명은 `stable_15_workset`으로 유지한다.
+2. `stable_15_workset` 밖 hold reference split과 Ether hold cluster를 closure 상태로 유지한다.
 3. `Section 8 -> 15 watch-reference`가 summary / bridge / queue 문서에서 같은 authority 분리 문장으로 읽히게 유지한다.
 4. continent sidecar/scout/display wording umbrella는
    Frost / Oceanic / Ether / Obelisk family 모두
@@ -126,8 +126,8 @@ People Worth Seeking compass는 그 closure 상태를 상위 나침반 층에서
 
 Reference ROI:
 
-- `크림슨` 안정 3명은 `stable_triad_frozen_reference_set`으로 유지한다.
+- `크림슨` 안정 3명은 `stable_15_workset`으로 유지한다.
 - `엘다라`는 `source_check_hold / hold reference split`으로만 유지한다.
-- `실비아`는 `deferred_expansion_hold / hold reference split`으로만 유지한다.
+- `실비아`는 `deferred_expansion_hold / hold reference split / name_collision_watch`으로만 유지한다.
 - 새 이름을 만들지 않고, 증거가 없으면 role slot 상태를 유지한다.
 - live 원고 입력이 생기면 이 compass는 외부 handoff authority에 우선권을 넘긴다.

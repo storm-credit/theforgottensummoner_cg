@@ -15784,3 +15784,109 @@ Follow-up actions:
 - 그 전까지는 이 batch delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   stable-package token family는 same-reference watch 기준으로 유지한다.
+
+## 2026-04-25 KST - Two-Hundred-Thirteenth Named-Summary Stable-Token Sync Pass
+
+목적:
+
+- `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Five_Continent_Closure_Table.md`
+  summary 상위층이
+  pass 212에서 정규화한
+  `stable_15_workset`
+  canonical state와
+  `stable triad package freeze`
+  routing phrasing을 같은 기준으로 유지하는지 다시 닫는다.
+- 같은 summary family 안에서
+  `실비아`
+  `name_collision_watch`
+  누락과
+  Ether `Ravenfell`
+  주앵커 drift도 함께 묶어
+  source-of-truth wording/state split만 국소 복구한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Lorentz` | Status Compass Stable-Token Scout | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Named_Notables_Register.md`, `Section_15_Index_Draft.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `completed` |
+| `Kant` | Closure Table Stable-Token Scout | `Section_15_Five_Continent_Closure_Table.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Named_Notables_Register.md`, `Section_15_Index_Draft.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 다시 읽고,
+  이번 wake-up에서도 메인 본선이
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  유지인지 먼저 재확인했다.
+- conductor는
+  `Lorentz`
+  보고를 따라
+  `Section_15_Named_Notables_Status_Compass.md`
+  안의
+  legacy `stable_triad_frozen_reference_set`
+  가
+  heading / checklist / routing line에 남아 있음을
+  `Section_15_State_Vocabulary_Guard.md`
+  와
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`
+  기준으로 다시 확인했다.
+- conductor는
+  `Kant`
+  보고를 따라
+  `Section_15_Five_Continent_Closure_Table.md`
+  안의
+  legacy stable token,
+  `실비아`
+  `name_collision_watch`
+  누락,
+  `마르쿠스/맥스웰`
+  routing line drift를
+  `Section_15_Named_Notables_Register.md`
+  와
+  `Section_15_Index_Draft.md`
+  기준으로 다시 확인했다.
+- conductor는
+  같은 source family를 로컬 교차대조해,
+  `Status Compass`
+  에도
+  같은
+  `실비아`
+  state drift와
+  Ether `Ravenfell`
+  주앵커 drift가 남아 있음을 확인했다.
+  다만 이번 batch는 summary 상위층 두 문서만 수정하고,
+  prose/source-bundle label family rename은 열지 않았다.
+
+Integrated actions:
+
+- `Section_15_Named_Notables_Status_Compass.md` stable-token heading/checklist/routing sync
+- `Section_15_Five_Continent_Closure_Table.md` stable-token heading/checklist/routing sync
+- two summary docs `실비아` `deferred_expansion_hold / hold reference split / name_collision_watch` state sync
+- two summary docs Ether `Ravenfell` main-anchor sync
+- dispatch log 2026-04-25 two-hundred-thirteenth pass 반영
+
+Verification:
+
+- targeted cross-check confirms the two summary docs now use canonical `stable_15_workset` in state-bearing heading/checklist/routing lines while closed stable-layer routing is phrased as `stable triad package freeze`.
+- targeted cross-check confirms `실비아` summary state now keeps `name_collision_watch` in both target docs.
+- targeted cross-check confirms Ether summary rows now keep `맥스웰` as the main anchor and preserve `마르쿠스` only as a drift note.
+- `git diff --check` should remain the next gate for the batch delta.
+
+Follow-up actions:
+
+- stable-package source family는
+  prose/source-bundle label과
+  state-bearing token을 구분한 채
+  same-reference watch로 다시 닫는다.
+- 이후에는
+  summary/bridge/watch 상위층에
+  legacy stable token이 다시 올라오거나,
+  `실비아`
+  collision suffix,
+  Ether `Ravenfell`
+  주앵커가 다시 흔들릴 때만
+  이 family를 다시 연다.
