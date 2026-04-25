@@ -15890,3 +15890,109 @@ Follow-up actions:
   Ether `Ravenfell`
   주앵커가 다시 흔들릴 때만
   이 family를 다시 연다.
+
+## 2026-04-25 KST - Two-Hundred-Fourteenth Coverage-Matrix Sync Pass
+
+목적:
+
+- `Section_15_Named_Notables_Coverage_Matrix.md`
+  한 문서 안에서
+  방금 정렬한
+  `Status Compass / Closure Table`
+  summary family와
+  stable-package token,
+  `실비아`
+  hold suffix,
+  Ether `Ravenfell`
+  주앵커,
+  Oceanic boundary hold phrasing을
+  같은 기준 시점으로 다시 맞춘다.
+- prose/source-bundle family rename이나
+  bridge/index/folder 계층 재개방 없이,
+  confirmed source-of-truth wording/state drift만 국소 복구한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Hegel` | Coverage Matrix Register/Compass Scout | `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_15_Named_Notables_Register.md`, `Section_15_Index_Draft.md`, `Section_15_Named_Notables_Status_Compass.md` | `completed` |
+| `Aquinas` | Coverage Matrix Stable-Token Scout | `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 다시 읽고,
+  이번 wake-up에서도 메인 본선이
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  유지인지 먼저 재확인했다.
+- conductor는
+  `Aquinas`
+  보고를 따라
+  `Coverage Matrix`
+  header와
+  `크림슨`
+  reading line에
+  legacy `stable_triad_frozen_reference_set`
+  가 여전히 state-bearing summary token처럼 남아 있음을
+  `Section_15_State_Vocabulary_Guard.md`,
+  `Section_15_Five_Continent_Closure_Table.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`
+  기준으로 다시 확인했다.
+- conductor는
+  `Hegel`
+  보고를 따라
+  같은 문서 안에
+  `실비아`
+  `name_collision_watch`
+  누락,
+  Ether `맥스웰`
+  주앵커 phrasing drift,
+  `크리스토퍼 델마르`
+  boundary hold 과종결 phrasing이 남아 있음을
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Index_Draft.md`,
+  `Section_15_Named_Notables_Status_Compass.md`
+  기준으로 다시 확인했다.
+- conductor는
+  이번 batch를
+  `Coverage Matrix`
+  한 문서로만 제한하고,
+  summary family source-of-truth와 직접 충돌하는 줄만 수정했다.
+  prose/source-bundle rename,
+  bridge/index/folder 계층,
+  other summary docs 재수정은 열지 않았다.
+
+Integrated actions:
+
+- `Section_15_Named_Notables_Coverage_Matrix.md` stable-token header/read-line sync
+- `Section_15_Named_Notables_Coverage_Matrix.md` `실비아` `deferred_expansion_hold / hold reference split / name_collision_watch` state sync
+- `Section_15_Named_Notables_Coverage_Matrix.md` Ether `맥스웰` main-anchor phrasing sync
+- `Section_15_Named_Notables_Coverage_Matrix.md` Oceanic `크리스토퍼 델마르` boundary-hold coverage phrasing sync
+- dispatch log 2026-04-25 two-hundred-fourteenth pass 반영
+
+Verification:
+
+- targeted cross-check confirms `Coverage Matrix` no longer uses legacy `stable_triad_frozen_reference_set` in the state-bearing header or Crimson summary reading line.
+- targeted cross-check confirms `실비아` summary coverage now keeps `name_collision_watch`.
+- targeted cross-check confirms Ether coverage now marks `맥스웰` as the main anchor and preserves `마르쿠스` only as a drift note.
+- targeted cross-check confirms Oceanic coverage no longer over-closes `크리스토퍼 델마르` as if the entire boundary layer were resolved.
+
+Follow-up actions:
+
+- named-summary family는
+  `Status Compass / Closure Table / Coverage Matrix`
+  세 문서가
+  same-reference watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  summary 상위층에
+  legacy stable token,
+  `실비아`
+  collision suffix 누락,
+  Ether `Ravenfell`
+  주앵커 drift,
+  Oceanic boundary hold 과종결 phrasing이
+  다시 올라올 때만
+  이 family를 다시 연다.
