@@ -22,7 +22,7 @@
 
 | Candidate | Current Read | Primary Handoff Target | Handoff Type | Why This Route |
 |---|---|---|---|---|
-| `바다의 교단` | `handoff_applied + section_style_reclassify locked + sanctuary/watch-fort pressure` | `Section_15_Oceanic_Place_Institution_Sidecar.md` | `place-institution sidecar` | 성지, 신탁선, 감시 요새 압력은 해양의 장소/기관 축에서 관리하는 편이 가장 자연스럽다 |
+| `바다의 교단` | `handoff_applied + section_style locked + sanctuary/watch-fort pressure` | `Section_15_Oceanic_Place_Institution_Sidecar.md` | `place-institution sidecar` | 성지, 신탁선, 감시 요새 압력은 해양의 장소/기관 축에서 관리하는 편이 가장 자연스럽다 |
 | `오로라 평원` | `handoff_applied + memory_site + sanctuary pressure` | `Section_15_Frost_Place_Institution_Sidecar.md` | `place-institution sidecar` | 프로스트는 named person보다 장소 슬롯이 먼저 강하므로 sidecar에서 장소 기능을 먼저 잡고, anchor audit은 보조로 둔다 |
 | `빙하의 성소` | `handoff_applied + sanctuary + ritual-validation pressure` | `Section_15_Frost_Place_Institution_Sidecar.md` | `place-institution sidecar` | 의식, 검증, 치유 기능이 강해 프로스트 성소 압력을 sidecar 본체에서 관리하는 편이 맞다 |
 | `본 마켓` 계열 | `handoff_applied + market + supply + memory-trade pressure` | `Section_15_Obelisk_Place_Institution_Sidecar.md` | `place-institution sidecar` | 오벨리스크의 보급/거래 거점은 frontier 생존 인프라로 읽는 편이 정확하다 |

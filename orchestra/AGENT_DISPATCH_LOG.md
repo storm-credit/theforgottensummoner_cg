@@ -15431,3 +15431,86 @@ Follow-up actions:
 - 그 전까지는 이 batch delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   representative subline pair family는 same-reference watch 기준으로 유지한다.
+
+## 2026-04-25 KST - Two-Hundred-Ninth Section-8 Snapshot Watch-Reference Sync Pass
+
+목적:
+
+- ordered watch의
+  `Section_8_Normalization_Status_Compass.md`,
+  `Section_8_Spine_Mismatch_Queue.md`,
+  `Section_8_Place_Network_Handoff_Map.md`
+  가
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`
+  와 같은 current-state watch/reference posture와
+  Oceanic sidecar authority를 유지하는지 확인한다.
+- confirmed source-of-truth drift만 반영하고,
+  summary-layer wording이 구조 라벨이나 handoff ownership을 재정의한 경우만
+  국소 복구한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Peirce` | Section 8 Snapshot Scout | `Section_8_Normalization_Status_Compass.md`, `Section_8_Mainline_Sync_Register.md`, `Section_8_Spine_Mismatch_Queue.md`, `Section_8_Root_Corruption_First_Pass_A.md` | `completed` |
+| `Newton` | Oceanic Handoff Authority Scout | `Section_8_Normalization_Status_Compass.md`, `Section_8_Place_Network_Handoff_Map.md`, `Section_15_Oceanic_Place_Institution_Sidecar.md`, `FS_Place_Function_Register.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 다시 읽고,
+  이번 wake-up에서도 메인 본선이
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  유지인지 먼저 재확인했다.
+- conductor는
+  `Peirce`가 짚은 대로
+  `Section_8_Normalization_Status_Compass.md`의
+  `section8_to_15 closure sync watch`
+  snapshot이
+  stale `watch_mainline` posture를 남기고 있고,
+  `Section_8_Spine_Mismatch_Queue.md` follow-up 문장도
+  같은 posture drift를 공유한다고 확인했다.
+- conductor는
+  `Newton`이 짚은 대로
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`가
+  `바다의 교단`을 구조 라벨상 `section_style`로 유지한 채
+  `place-institution pressure`만 별도 handoff로 받는다고 잠가 두고 있는데,
+  `Section_8_Normalization_Status_Compass.md`와
+  `Section_8_Place_Network_Handoff_Map.md` 요약줄이
+  이를 `section_style_reclassify`로 과상향하고 있다고 확인했다.
+- conductor는
+  이번 batch에서
+  posture drift 2줄과 Oceanic authority drift 2줄만 국소 수정해
+  current-state watch/reference wording과
+  `바다의 교단 = section_style + place_pressure_strong + handoff_applied`
+  handoff summary를 source-of-truth 기준으로 복구했다.
+
+Integrated actions:
+
+- `Section_8_Normalization_Status_Compass.md` watch-reference posture sync
+- `Section_8_Normalization_Status_Compass.md` Oceanic handoff structure read sync
+- `Section_8_Spine_Mismatch_Queue.md` follow-up posture sync
+- `Section_8_Place_Network_Handoff_Map.md` Oceanic handoff wording sync
+- dispatch log 2026-04-25 two-hundred-ninth pass 반영
+
+Verification:
+
+- targeted cross-check confirms the Section 8 snapshot family now matches the locked `closure sync / watch-reference` posture, and the handoff summaries no longer overstate `바다의 교단` beyond the Oceanic sidecar authority.
+- `git diff --check` reports no whitespace errors for the batch delta.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- Section 8 snapshot family는
+  same-reference watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  `watch-reference` posture가 다시 shorthand로 약화되거나,
+  Oceanic sidecar authority를 summary-layer가 다시 덮어쓸 때만 다시 연다.
+- 그 전까지는 이 batch delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  Section 8 snapshot family는 same-reference watch 기준으로 유지한다.
