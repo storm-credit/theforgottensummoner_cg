@@ -65,7 +65,7 @@ subline draft reading은
   `3-1. Policy Guard`에 남고, 이 draft는 그 wording source를 black-auction subline 층에서만 요약한다.
 - continent sidecar/scout/display wording umbrella도
   lower current-state watch/reference authority로만 읽고,
-  이 draft가 place/institution owner나 route build queue를 새로 만들지 않는다.
+  이 draft가 place/institution owner나 candidate build queue를 새로 만들지 않는다.
 
 ## Conductor Note
 

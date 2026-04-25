@@ -15359,3 +15359,75 @@ Follow-up actions:
 - 그 전까지는 이 batch delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   bridge-anchor / spine-index family는 same-reference watch 기준으로 유지한다.
+
+## 2026-04-25 KST - Two-Hundred-Eighth Representative Subline Pair Queue-Term Sync Pass
+
+목적:
+
+- ordered watch의
+  representative `Subline Draft / Subline Profile` pair
+  (`Port Authority / Black Auction / Gravewell / Counterfeit Workshop`)
+  가 여전히 하위 `3-1. Policy Guard`를 exact wording source로 유지하는지 확인하고,
+  same-family no-backflow wording drift가 있으면 source-of-truth 용어로만 복구한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Ohm` | Port / Auction Pair Scout | `Section_15_Subline_Draft_Port_Authority.md`, `Section_15_Subline_Draft_Black_Auction.md`, related representative profile cards | `completed` |
+| `Kepler` | Gravewell / Counterfeit Pair Scout | `Section_15_Subline_Draft_Gravewell.md`, `Section_15_Subline_Draft_Counterfeit_Workshop.md`, related representative profile cards | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_15_Subline_Register.md`,
+  `Section_15_Profile_Draft_Index.md`,
+  representative subline draft 4개와
+  representative subline profile 5개를 다시 읽고,
+  하위 `3-1. Policy Guard` authority가 그대로 유지되는지 교차 확인했다.
+- conductor는
+  `Ohm`의 Port / Auction pair no-change 결론을 확인했고,
+  representative profile 카드들이 모두
+  exact wording authority를 하위 `3-1. Policy Guard`에 남기고 있다고 재확인했다.
+- conductor는
+  `Kepler`가 짚은 대로
+  `Section_15_Subline_Draft_Gravewell.md`,
+  `Section_15_Subline_Draft_Counterfeit_Workshop.md`
+  에서
+  `route build queue`
+  wording이
+  same-family source-of-truth인
+  `candidate build queue`
+  와 어긋난다고 확인했다.
+- conductor는
+  로컬 대조에서
+  `Section_15_Subline_Draft_Port_Authority.md`,
+  `Section_15_Subline_Draft_Black_Auction.md`
+  도 같은 queue-term을 공유하고 있음을 추가 확인했고,
+  representative subline draft 4장 전체를
+  `candidate build queue`
+  wording으로 함께 정규화했다.
+
+Integrated actions:
+
+- `Section_15_Subline_Draft_Port_Authority.md` queue-term sync
+- `Section_15_Subline_Draft_Black_Auction.md` queue-term sync
+- `Section_15_Subline_Draft_Gravewell.md` queue-term sync
+- `Section_15_Subline_Draft_Counterfeit_Workshop.md` queue-term sync
+- dispatch log 2026-04-25 two-hundred-eighth pass 반영
+
+Verification:
+
+- targeted cross-check confirms the representative subline draft family now uses the same `candidate build queue` no-backflow wording already locked in the register/template layer.
+- `git diff --check` reports no whitespace errors for the batch delta.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- representative subline draft/profile pair는
+  same-authority watch로 다시 닫힌 상태를 유지한다.
+- 이후에는 queue-term 같은 family wording drift보다
+  하위 `3-1. Policy Guard` exact wording source가 실제로 재정의될 때만 다시 연다.
+- 그 전까지는 이 batch delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  representative subline pair family는 same-reference watch 기준으로 유지한다.
