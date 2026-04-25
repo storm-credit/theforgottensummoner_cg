@@ -17200,3 +17200,123 @@ Follow-up actions:
   boundary-only carryover 약화가
   다시 올라올 때만
   이 family를 다시 연다.
+
+## 2026-04-26 KST - Two-Hundred-Twenty-Sixth Section 8 Handoff Snapshot Sync Pass
+
+목적:
+
+- 이번 wake-up에서는
+  `Section_8_Normalization_Status_Compass.md`
+  의
+  `Place Pressure Handoff Snapshot`
+  표가
+  `Section_8_Place_Network_Handoff_Map.md`
+  authority wording과
+  같은 current-state component split을 유지하는지
+  확인하고,
+  confirmed drift만
+  국소 sync로 닫는다.
+- `Section_8_Mainline_Sync_Register.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Audit_Queue.md`,
+  `Next_Sequential_Workstream.md`
+  의
+  `closure sync / watch-reference`
+  본선 표시는
+  patch 없이 그대로 유지되는지도
+  함께 재확인한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Fermat` | Section 8 Snapshot Drift Scout | `Section_8_Normalization_Status_Compass.md`, `Section_8_Place_Network_Handoff_Map.md`, directly relevant authority family | `completed` |
+| `Ramanujan` | Section 8 Mainline Cross-Check Scout | `Section_8_Mainline_Sync_Register.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`, `Audit_Queue.md`, `Next_Sequential_Workstream.md`, `Section_8_Normalization_Status_Compass.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 먼저 다시 읽고,
+  이번 wake-up에서도
+  `Section 8 -> 15`
+  메인 본선이
+  `closure sync / watch-reference`
+  인지 먼저 재확인했다.
+- conductor는
+  로컬 대조로
+  `Section_8_Normalization_Status_Compass.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Section_8_Place_Network_Handoff_Map.md`
+  를 읽고,
+  snapshot label,
+  mainline phrase,
+  handoff ownership 표기가
+  source-of-truth family와 같은지
+  spot-check했다.
+- conductor는
+  `Ramanujan`
+  보고를 따라
+  `closure sync / watch-reference`
+  mainline phrase와
+  `closed_watch_reference`,
+  `reference_backlog_only`,
+  `handoff_applied`
+  snapshot label이
+  관련 watch/register/workstream 문서군에서
+  그대로 유지된다고 확인했다.
+- conductor는
+  `Fermat`
+  보고를 따라
+  `Place Pressure Handoff Snapshot`
+  5개 행이
+  authority wording을
+  과도하게 압축해
+  `Current Structure Read`와
+  `Pressure State`
+  component가 흐려졌다고 판단했다.
+- conductor는
+  표의 column split은 유지한 채
+  `바다의 교단`,
+  `오로라 평원`,
+  `빙하의 성소`,
+  `본 마켓` 계열,
+  `잊힌 자들의 연합`
+  행의
+  structure/pressure phrase를
+  `handoff_applied + ...`
+  current-state component와
+  `sanctuary/watch-fort pressure`,
+  `sanctuary pressure`,
+  `ritual-validation pressure`,
+  `memory-trade pressure`,
+  `exile-network pressure`
+  authority wording으로
+  국소 sync했다.
+
+Integrated actions:
+
+- `Section_8_Normalization_Status_Compass.md`의 `Place Pressure Handoff Snapshot` component wording sync
+- dispatch log 2026-04-26 two-hundred-twenty-sixth pass 반영
+
+Verification:
+
+- targeted cross-check confirms the five snapshot rows now mirror the handoff authority components while preserving the snapshot table's structure/pressure split.
+- `Section_8_Mainline_Sync_Register.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`, `Audit_Queue.md`, `Next_Sequential_Workstream.md` stay unchanged and continue to point to the same `closure sync / watch-reference` mainline.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- `Place Pressure Handoff Snapshot`은
+  current-state handoff component wording 기준으로
+  다시 닫힌 상태를 유지한다.
+- 이후에는
+  handoff target 변경,
+  `handoff_applied` 약화,
+  structure/pressure component 재압축,
+  owner drift가
+  다시 올라올 때만
+  이 block을 다시 연다.

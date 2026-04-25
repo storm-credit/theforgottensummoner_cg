@@ -109,11 +109,11 @@
 
 | Candidate / Family | Current Structure Read | Pressure State | Handoff State | Current Target |
 |---|---|---|---|---|
-| `바다의 교단` | `section_style` | `place_pressure_strong` | `handoff_applied` | `Section_15_Oceanic_Place_Institution_Sidecar.md` |
-| `오로라 평원` | `anchor-led place pressure` | `place_pressure_strong` | `handoff_applied` | `Section_15_Frost_Place_Institution_Sidecar.md`, `Section_8_Frost_Notable_Anchor_Audit.md` |
-| `빙하의 성소` | `anchor-led place pressure` | `place_pressure_strong` | `handoff_applied` | `Section_15_Frost_Place_Institution_Sidecar.md`, `Section_8_Frost_Notable_Anchor_Audit.md` |
-| `본 마켓` 계열 | `section-linked place pressure` | `place_pressure_strong` | `handoff_applied` | `Section_15_Obelisk_Place_Institution_Sidecar.md` |
-| `잊힌 자들의 연합` | `section_style_reclassify` | `place_pressure_strong + exile_network_pressure` | `handoff_applied` | `FS_Place_Function_Register.md` |
+| `바다의 교단` | `handoff_applied + section_style locked` | `sanctuary/watch-fort pressure` | `handoff_applied` | `Section_15_Oceanic_Place_Institution_Sidecar.md` |
+| `오로라 평원` | `handoff_applied + memory_site` | `sanctuary pressure` | `handoff_applied` | `Section_15_Frost_Place_Institution_Sidecar.md`, `Section_8_Frost_Notable_Anchor_Audit.md` |
+| `빙하의 성소` | `handoff_applied + sanctuary` | `ritual-validation pressure` | `handoff_applied` | `Section_15_Frost_Place_Institution_Sidecar.md`, `Section_8_Frost_Notable_Anchor_Audit.md` |
+| `본 마켓` 계열 | `handoff_applied + market + supply` | `memory-trade pressure` | `handoff_applied` | `Section_15_Obelisk_Place_Institution_Sidecar.md` |
+| `잊힌 자들의 연합` | `handoff_applied + section_style_reclassify locked` | `exile-network pressure` | `handoff_applied` | `FS_Place_Function_Register.md` |
 
 ## Conductor Lock
 
