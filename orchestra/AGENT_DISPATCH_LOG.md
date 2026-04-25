@@ -16217,3 +16217,100 @@ Follow-up actions:
   suffix truncation이
   다시 올라올 때만
   이 family를 다시 연다.
+
+## 2026-04-25 KST - Two-Hundred-Seventeenth Operational Profile No-Change Pass
+
+목적:
+
+- ordered cycle 다음 칸인
+  operational profile layer
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`
+  가
+  `3-1. Policy Guard`
+  authority line과
+  operational-vs-`People Worth Seeking`
+  separation wording을
+  같은 current-state watch/reference 기준으로 유지하는지
+  no-change spot-check로 닫는다.
+- confirmed drift가 없으면
+  source prose patch 없이
+  log-only no-change result만 기록한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Arendt` | Operational Index / Track Scout | `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Profile_Template.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `completed` |
+| `Epicurus` | Operational Display / Intake Scout | `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`, `Section_15_Profile_Template.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 다시 읽고,
+  이번 wake-up에서도 메인 본선이
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  유지인지 먼저 재확인했다.
+- conductor는
+  네 operational profile 문서를 로컬로 다시 훑어,
+  `3-1. Policy Guard`
+  authority line과
+  operational profile layer가
+  `People Worth Seeking`
+  승인 논리와 분리 유지되는지 먼저 spot-check했다.
+- conductor는
+  `Epicurus`
+  보고를 따라
+  `Operational Display`
+  와
+  `Intake Structure`
+  안에서
+  current-state wording/state drift가 보이지 않음을 확인했다.
+  두 문서는
+  template/guard rules와
+  operational-vs-`People Worth Seeking`
+  separation wording을 그대로 유지했다.
+- conductor는
+  `Arendt`
+  보고를 따라
+  `Profile Draft Index`
+  와
+  `Operational Lines Track`
+  안에서도
+  `3-1. Policy Guard`
+  authority line,
+  lower-card authority separation,
+  operational-vs-`People Worth Seeking`
+  wording이 일치함을 확인했다.
+- conductor는
+  이번 순환에서
+  patch-worthy drift가 없다고 판단해
+  source prose patch 없이
+  operational profile layer no-change result만 기록한다.
+
+Integrated actions:
+
+- operational profile layer no-change spot-check confirmation
+- dispatch log 2026-04-25 two-hundred-seventeenth pass 반영
+
+Verification:
+
+- targeted cross-check confirms `Profile Draft Index`, `Operational Lines Track`, `Operational Display Canon Candidates`, `Intake Structure` all keep `3-1. Policy Guard` authority on lower cards instead of reauthoring it in upper-layer prose.
+- targeted cross-check confirms operational profile wording remains separated from `People Worth Seeking` approval logic and summary carryover.
+- this pass is log-only; unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- operational profile layer는
+  same-reference watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  `3-1. Policy Guard`
+  authority line이 상위 prose로 다시 올라오거나,
+  `People Worth Seeking`
+  승인 논리가 operational layer로 역수입될 때만
+  이 family를 다시 연다.
