@@ -16766,3 +16766,124 @@ Follow-up actions:
   route/reference 범위를 넘어
   owner 역할을 가져올 때만
   이 family를 다시 연다.
+
+## 2026-04-26 KST - Two-Hundred-Twenty-Second Subline Authority No-Change Pass
+
+목적:
+
+- 이번 wake-up에서는
+  ordered watch의
+  `subline_profile_authority`
+  sync group이
+  `Section_15_State_Vocabulary_Guard.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  summary / bridge / watch 문서,
+  middle-layer index/register/track 문서에서
+  같은 lower-card authority 문장을 유지하는지
+  no-change 재감사로 닫는다.
+- confirmed source-of-truth wording/state drift가 없으면
+  관련 본문은 그대로 두고
+  dispatch log만 갱신한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Boole` | Authority Source Guard Scout | `Section_15_State_Vocabulary_Guard.md`, `Section_8_Mainline_Sync_Register.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `completed` |
+| `Mencius` | Middle-Layer Mirror Scout | `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Subline_Register.md`, `Section_15_Group_Index.md`, directly relevant source family | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 먼저 다시 읽고,
+  이번 wake-up에서도
+  메인 본선이
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  유지인지 재확인한 뒤
+  ordered watch 11번인
+  `subline_profile_authority`
+  sync group을 이번 배치 대상으로 잡았다.
+- conductor는
+  로컬 검색으로
+  `Section_15_State_Vocabulary_Guard.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Subline_Register.md`,
+  `Section_15_Group_Index.md`,
+  `Section_15_Profile_Template.md`
+  를 먼저 대조해
+  `exact wording source`,
+  `lower-card authority`,
+  `Section_15_Subline_Profile_*`,
+  `3-1. Policy Guard`
+  라인이 같은 authority split을 유지하는지 spot-check했다.
+- conductor는
+  `Boole`
+  보고를 따라
+  `Section_15_State_Vocabulary_Guard.md`
+  가
+  operational / subline profile 카드의
+  `3-1. Policy Guard`
+  형식을 잠그는 설계 기준서일 뿐,
+  exact wording source 자체는 각 카드 본문에 남긴다는 current rule을 유지하고 있음을 확인했다.
+- conductor는
+  같은 보고를 따라
+  `Section_8_Mainline_Sync_Register.md`
+  의
+  `subline_profile_authority`
+  row와
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`
+  의 relevant lines가
+  `Section_15_Subline_Profile_*`
+  카드의
+  `3-1. Policy Guard`
+  를
+  exact wording source로 두고,
+  upper summary / bridge / watch 문서는 이를 재정의하지 않는다는 rule을 그대로 유지하고 있음을 확인했다.
+- conductor는
+  `Mencius`
+  보고를 따라
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Subline_Register.md`,
+  `Section_15_Group_Index.md`
+  가 모두
+  exact lower-card wording authority를
+  downstream `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`
+  에 남긴 채
+  middle-layer에서는 reference / tracking / mirror 역할만 유지하고 있음을 다시 확인했다.
+- conductor는
+  이번 순환에서
+  patch-worthy wording/state drift가 없다고 판단해
+  subline authority family 본문 수정 없이
+  no-change result만 기록한다.
+
+Integrated actions:
+
+- `subline_profile_authority` no-change cross-audit confirmation
+- dispatch log 2026-04-26 two-hundred-twenty-second pass 반영
+
+Verification:
+
+- read-only cross-audit confirms `Section_15_Subline_Profile_*` cards still keep `3-1. Policy Guard` as the exact wording source.
+- targeted local cross-check confirms source guard docs and middle-layer mirror docs still share the same lower-card authority boundary without redefining it.
+- this pass is log-only; unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- `subline_profile_authority` sync group은
+  same-reference no-change watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  summary / bridge / watch / middle-layer 문서가
+  `Section_15_Subline_Profile_*`
+  카드의
+  `3-1. Policy Guard`
+  문장을 직접 재정의하거나,
+  exact wording source를 카드 밖으로 끌어올릴 때만
+  이 family를 다시 연다.
