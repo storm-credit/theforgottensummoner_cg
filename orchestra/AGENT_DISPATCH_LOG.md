@@ -17320,3 +17320,121 @@ Follow-up actions:
   owner drift가
   다시 올라올 때만
   이 block을 다시 연다.
+
+## 2026-04-26 KST - Two-Hundred-Twenty-Seventh Named Summary Reference Sync Pass
+
+목적:
+
+- 이번 wake-up에서는
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Five_Continent_Closure_Table.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`
+  summary family가
+  `closure sync / watch-reference`
+  current-state authority wording을
+  그대로 유지하는지 재대조하고,
+  confirmed drift만
+  국소 sync로 닫는다.
+- stable token,
+  hold split,
+  Ether anchor naming,
+  Oceanic boundary-only carryover,
+  lower authority framing은
+  각각의 directly relevant authority family와만 대조한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Aristotle` | Named Summary Compass / Closure Scout | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, smallest relevant authority family | `completed` |
+| `Feynman` | Coverage Matrix Summary Scout | `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_Named_Notables_Register.md`, directly relevant sidecar/scout authority lines | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 먼저 다시 읽고,
+  이번 순환의 안전한 next batch를
+  `Section 15`
+  summary family로 좁혔다.
+- conductor는
+  로컬 검색으로
+  `Status Compass / Closure Table / Coverage Matrix`
+  와
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Named_Notables_Name_Collision_Register.md`,
+  `Section_15_Named_Notables_Oceanic_Scout.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`
+  인접 authority line을 먼저 spot-check했다.
+- conductor는
+  `Aristotle`
+  보고를 따라
+  Ether summary row 두 곳이
+  `맥스웰 레이븐펠`
+  주앵커를
+  `맥스웰`
+  shorthand로 줄인 drift를 확인하고,
+  authority family가 유지하는
+  `맥스웰 레이븐펠 [마르쿠스 레이븐펠 drift note]`
+  wording으로 복구했다.
+- conductor는
+  `Aristotle`
+  가
+  `실비아`
+  line drift 가능성을 함께 보고했지만,
+  로컬 재대조 결과
+  현재 본문은 이미
+  `deferred_expansion_hold / hold reference split / name_collision_watch`
+  canonical label로 잠겨 있어
+  이 지점은 no-change로 유지했다.
+- conductor는
+  `Feynman`
+  보고를 따라
+  `Coverage Matrix`
+  의 Oceanic recorded coverage 문구를
+  `Christopher Delmar boundary hold retained`
+  에서
+  oceanic scout authority가 유지하는
+  `Christopher Delmar boundary-only current-state carryover retained`
+  로 낮췄다.
+- conductor는
+  `Feynman`
+  보고를 따라
+  `Coverage Matrix`
+  와
+  `Closure Table`
+  의 operational cluster framing이
+  `lower-card carryover reference`
+  로 약하게 적힌 것을
+  register/watch authority가 유지하는
+  `lower current-state watch/reference authority`
+  로 정규화했다.
+
+Integrated actions:
+
+- Ether summary anchor wording sync in `Section_15_Named_Notables_Status_Compass.md` and `Section_15_Five_Continent_Closure_Table.md`
+- Oceanic boundary-only current-state carryover wording sync in `Section_15_Named_Notables_Coverage_Matrix.md`
+- lower current-state watch/reference authority framing sync in `Section_15_Named_Notables_Coverage_Matrix.md` and `Section_15_Five_Continent_Closure_Table.md`
+- dispatch log 2026-04-26 two-hundred-twenty-seventh pass 반영
+
+Verification:
+
+- targeted cross-check confirms Ether summary rows now keep the full `맥스웰 레이븐펠 [마르쿠스 레이븐펠 drift note]` anchor wording in line with the name-collision authority family.
+- targeted cross-check confirms Oceanic summary wording now preserves `boundary-only current-state carryover` rather than a shortened boundary-hold phrase.
+- targeted cross-check confirms summary-family operational cluster framing now uses `lower current-state watch/reference authority` in line with register/watch authority.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- named summary family는
+  current-state watch/reference authority wording 기준으로
+  다시 닫힌 상태를 유지한다.
+- 이후에는
+  Ether anchor shorthand 재등장,
+  Oceanic boundary-only carryover 약화,
+  lower-authority framing 약화,
+  stable-vs-hold split 혼용이
+  다시 올라올 때만
+  이 family를 다시 연다.
