@@ -15595,3 +15595,95 @@ Follow-up actions:
 - 그 전까지는 이 batch delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   register/watch family는 same-reference watch 기준으로 유지한다.
+
+## 2026-04-25 KST - Two-Hundred-Eleventh Section-15 Coverage Boundary Sync Pass
+
+목적:
+
+- ordered watch의
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_15_Five_Continent_Closure_Table.md`,
+  `Section_15_Named_Notables_Coverage_Matrix.md`
+  중
+  register/state-guard/watch와 직접 충돌하는
+  summary-layer stale row만 국소 복구한다.
+- broader stable-triad family naming은
+  실제 primary source family와 충돌하지 않는 범위에서만 다루고,
+  family-wide rename처럼 번질 수 있는 변경은 이번 batch에서 건드리지 않는다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Locke` | Status / Closure Summary Scout | `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Five_Continent_Closure_Table.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`, `Section_8_Mainline_Sync_Register.md` | `completed` |
+| `Pascal` | Coverage Summary Scout | `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_15_Named_Notables_Register.md`, `Section_15_Profile_Draft_Index.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 다시 읽고,
+  이번 wake-up에서도 메인 본선이
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  유지인지 먼저 재확인했다.
+- conductor는
+  `Pascal`이 짚은 대로
+  `Section_15_Named_Notables_Coverage_Matrix.md`
+  에서
+  `맥스웰 레이븐펠` 주앵커가 아직 `마르쿠스 레이븐펠` 뒤 parenthetical로 밀려 있고,
+  `해양` boundary row에서 `크리스토퍼 델마르`가 빠져 있으며,
+  `범대륙 / 후기 확장` row가 `멜리산드르`를 `실비아`와 같은 deferred hold로 뭉개고 있다고 확인했다.
+- conductor는
+  register,
+  decision-ruling,
+  boundary queue,
+  status compass를 다시 대조한 뒤,
+  coverage matrix 한 장만 국소 수정해
+  `맥스웰 레이븐펠` 주앵커 복구,
+  oceanic boundary trio 복구,
+  `실비아 = deferred_expansion_hold / hold reference split`,
+  `멜리산드르 = source_check_hold` split 복구만 반영했다.
+- conductor는
+  `Locke`가 짚은
+  `stable_triad_frozen_reference_set`
+  label drift 보고도 다시 대조했다.
+  다만
+  `Section_15_Actual_Draft_Package_Freeze.md`,
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`
+  등 broader primary family가
+  아직 같은 family label을 source reference로 유지하고 있어,
+  이번 batch에서 summary-layer만 `stable_15_workset`으로 바꾸면
+  오히려 family drift를 늘린다고 판단했다.
+- conductor는
+  따라서 stable-triad family naming은
+  이번 batch에서 no-change로 두고,
+  register/package-freeze/index까지 함께 다룰 수 있는 별도 bounded batch가 생길 때만 다시 열기로 했다.
+
+Integrated actions:
+
+- `Section_15_Named_Notables_Coverage_Matrix.md` Ether anchor wording sync
+- `Section_15_Named_Notables_Coverage_Matrix.md` Oceanic boundary row sync
+- `Section_15_Named_Notables_Coverage_Matrix.md` Supranational hold-split summary sync
+- dispatch log 2026-04-25 two-hundred-eleventh pass 반영
+
+Verification:
+
+- targeted cross-check confirms the coverage matrix now matches the register/status family for `맥스웰 레이븐펠`, `크리스토퍼 델마르`, and the `실비아` / `멜리산드르` split.
+- targeted cross-check confirms the stable-triad family label question is broader than this summary batch and was intentionally left unchanged to avoid creating fresh family drift against package-freeze/register/index sources.
+- `git diff --check` reports no whitespace errors for the batch delta.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- Section 15 summary family는
+  same-reference watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  stable-triad family naming을 실제로 바꿔야 할 정도로
+  package-freeze/register/index/source family가 함께 정리될 준비가 된 경우에만
+  별도 bounded batch로 다시 연다.
+- 그 전까지는 이 batch delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  summary family는 same-reference watch 기준으로 유지한다.
