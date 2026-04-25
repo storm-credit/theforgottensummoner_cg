@@ -15996,3 +15996,112 @@ Follow-up actions:
   Oceanic boundary hold 과종결 phrasing이
   다시 올라올 때만
   이 family를 다시 연다.
+
+## 2026-04-25 KST - Two-Hundred-Fifteenth Bridge Carryover Sync Pass
+
+목적:
+
+- ordered cycle 다음 칸인
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`
+  bridge family가
+  방금 정렬한 named-summary family와
+  같은 stable token,
+  hold suffix,
+  main-anchor,
+  boundary-hold phrasing을 유지하는지 다시 닫는다.
+- bridge family 밖 summary/folder/profile 재개방 없이,
+  confirmed source-of-truth wording/state drift만
+  bridge + index 국소 delta로 반영한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Descartes` | Bridge Carryover Scout | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_15_Named_Notables_Register.md` | `completed` |
+| `Poincare` | Compatibility / Index State Scout | `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 다시 읽고,
+  이번 wake-up에서도 메인 본선이
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  유지인지 먼저 재확인했다.
+- conductor는
+  `Descartes`
+  보고를 따라
+  `Section_8_to_15_Notable_Anchor_Bridge.md`
+  안의
+  Ether `맥스웰`
+  주앵커 omission,
+  Oceanic `크리스토퍼 델마르`
+  boundary-hold phrasing 약화,
+  `실비아`
+  `name_collision_watch`
+  suffix 누락,
+  legacy stable token carryover summary line을
+  `Status Compass / Coverage Matrix / Register`
+  기준으로 다시 확인했다.
+- conductor는
+  `Poincare`
+  보고를 따라
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`
+  의
+  `15 Routing State`
+  두 칸이
+  canonical hold token을 prose로 풀어 쓴 상태임을
+  `Section_15_State_Vocabulary_Guard.md`
+  기준으로 다시 확인했다.
+- conductor는
+  같은 감사에서
+  `Section_8_15_Spine_Compatibility_Audit.md`
+  는
+  이번 기준 비교에서 patch-worthy drift가 없음을 확인해
+  no-change로 유지했다.
+- conductor는
+  이번 batch를
+  `Bridge + Stable Candidate Index`
+  두 문서로만 제한하고,
+  bridge family source-of-truth와 직접 충돌하는 줄만 수정했다.
+  compatibility audit prose,
+  summary family,
+  folder/profile 계층은 다시 열지 않았다.
+
+Integrated actions:
+
+- `Section_8_to_15_Notable_Anchor_Bridge.md` Ether `맥스웰 레이븐펠 [main anchor; 마르쿠스 drift note]` carryover sync
+- `Section_8_to_15_Notable_Anchor_Bridge.md` Oceanic `크리스토퍼 델마르` boundary-hold routing sync
+- `Section_8_to_15_Notable_Anchor_Bridge.md` `실비아` `deferred_expansion_hold / hold reference split / name_collision_watch` suffix sync
+- `Section_8_to_15_Notable_Anchor_Bridge.md` stable-package carryover line sync
+- `Section_15_Stable_Candidate_8_Anchor_Index.md` `15 Routing State` canonical hold-token sync
+- dispatch log 2026-04-25 two-hundred-fifteenth pass 반영
+
+Verification:
+
+- targeted cross-check confirms the bridge file now carries Ether `맥스웰 레이븐펠` main-anchor wording, Oceanic `크리스토퍼 델마르` boundary-hold phrasing, and the full `실비아` suffix in the same family wording used by the named-summary sources.
+- targeted cross-check confirms the bridge carryover summary line no longer uses legacy `stable_triad_frozen_reference_set` as the active stable token.
+- targeted cross-check confirms the stable-candidate index `15 Routing State` cells now preserve canonical `source_check_hold / hold reference split` and `deferred_expansion_hold / hold reference split / name_collision_watch` tokens verbatim.
+- `Section_8_15_Spine_Compatibility_Audit.md` stays no-change for this pass.
+
+Follow-up actions:
+
+- bridge family는
+  `Bridge / Compatibility Audit / Stable Candidate Index`
+  세 문서가
+  same-reference watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  bridge 상위층에
+  stable token drift,
+  `실비아`
+  suffix 누락,
+  Ether `Ravenfell`
+  주앵커 omission,
+  Oceanic boundary-hold phrasing 약화,
+  index routing-state paraphrase가
+  다시 올라올 때만
+  이 family를 다시 연다.

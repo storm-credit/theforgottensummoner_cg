@@ -35,8 +35,8 @@
 | `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `용의 후예 = section_style + clan_as_state_house watch` | `stable_15_workset / route_hierarchy_locked / grade_caution` | `stable_15_workset / route_hierarchy_locked` | 14 독립 파일 확인 전 Hard Canon 고정 금지 |
 | `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `크림슨 tribe_clan spine 아래 학술-전승 anchor 유지` | `stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` | `stable_15_workset / route_hierarchy_locked` | `에리온 베르날리스` 병합 금지 |
 | `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `크림슨 tribe_clan spine 아래 memory-institution anchor 유지` | `stable_15_workset / route_hierarchy_locked / act_watch` | `stable_15_workset / route_hierarchy_locked` | place lock은 개별 시트에만 두고 act-risk watch 아래서만 15 전승 보관자 읽기 유지 |
-| `엘다라` | `에테르 / 정령연합 / 루미라` | `정령연합 = mixed_keep / special_axis_generalization` | `source_check_hold / hold reference split` | hold reference split 안 `source_check_hold` reference | hold reference split reference only; `stable_triad_frozen_reference_set`와 섞지 않는다 |
-| `실비아` | `범대륙 후기 확장 / 키르케 영약회` | `deferred expansion + canonical_root / quarantine_root / legacy_root guard` | `deferred_expansion_hold / hold reference split / name_collision_watch` | hold reference split 안 `deferred_expansion_hold` reference | deferred-expansion reference는 watch-reference mainline 바깥에 둔다 |
+| `엘다라` | `에테르 / 정령연합 / 루미라` | `정령연합 = mixed_keep / special_axis_generalization` | `source_check_hold / hold reference split` | `source_check_hold / hold reference split` | hold reference split reference only; `stable_triad_frozen_reference_set`와 섞지 않는다 |
+| `실비아` | `범대륙 후기 확장 / 키르케 영약회` | `deferred expansion + canonical_root / quarantine_root / legacy_root guard` | `deferred_expansion_hold / hold reference split / name_collision_watch` | `deferred_expansion_hold / hold reference split / name_collision_watch` | deferred-expansion reference는 watch-reference mainline 바깥에 둔다 |
 
 ## Route / Place Separation
 

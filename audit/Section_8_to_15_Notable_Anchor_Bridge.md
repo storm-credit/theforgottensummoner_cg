@@ -55,11 +55,11 @@ sidecar/register handoff를 먼저 존중한다.
 | Continent | Section 8 Spine | Section 8 Carryover | Stable 15 Candidate | Boundary / Hold | Need Named Candidate Routing |
 |---|---|---|---|---|---|
 | `크림슨` | `tribe_clan`, `guild_market` | `용의 후예 = section_style + clan_as_state_house watch`; `붉은 사막 부족 연합 = mixed_keep` | `울프가르 -> 용의 후예 / 드래곤포지 공방`; `에리온 -> 엘드라칸 / 학술-전승층`; `오그마 -> 엘드라칸 / 전승 보관층` | `벨라나/아리안 -> 붉은 사막 부족 / 현자 회의`; `드락사르/카사르 -> 용의 후예` | stable triad는 `stable_15_workset / route_hierarchy_locked` 상태로 유지한다. 현자회/사막부족 슬롯은 부족/씨족 spine 아래 보존한다. |
-| `에테르` | `state_house`, `guild_market`; 정령연합만 `tribe_clan` | `정령연합 = mixed_keep / special_axis_generalization` | `엘다라 -> 정령연합 / 루미라 [source_check_hold / hold reference split]` | `대런/칼리스트/에드가 -> 마법협회`; `래퍼티/요한/실라스 블랙쏜 -> 성국`; `리아나 -> 왕국연합`; `셀레나/레온 벨가르드 -> 자유도시연합`; `엘라라/드라이덴/메라/실라스 나이트쉐이드 -> 정령연합` | 금서/공방/관측/대서고/성채/성검/서약/그늘항로/정령묘 슬롯은 각 도시/기관 앵커 아래 보존한다. `드라이덴 / 메라 / 실라스 나이트쉐이드`는 각각 `great_druid_hold / spirit_envoy_hold / shadow_crow_hold`로 읽는다. |
+| `에테르` | `state_house`, `guild_market`; 정령연합만 `tribe_clan` | `정령연합 = mixed_keep / special_axis_generalization` | `엘다라 -> 정령연합 / 루미라 [source_check_hold / hold reference split]` | `대런/칼리스트/에드가/맥스웰 레이븐펠 [main anchor; 마르쿠스 drift note] -> 마법협회`; `래퍼티/요한/실라스 블랙쏜 -> 성국`; `리아나 -> 왕국연합`; `셀레나/레온 벨가르드 -> 자유도시연합`; `엘라라/드라이덴/메라/실라스 나이트쉐이드 -> 정령연합` | 금서/공방/관측/대서고/성채/성검/서약/그늘항로/정령묘 슬롯은 각 도시/기관 앵커 아래 보존한다. `드라이덴 / 메라 / 실라스 나이트쉐이드`는 각각 `great_druid_hold / spirit_envoy_hold / shadow_crow_hold`로 읽는다. |
 | `프로스트` | `tribe_clan`, `guild_market`; state_house thin | `프로스트본 연합 = mixed_keep`; `오로라 평원`, `빙하의 성소`는 `place_pressure_strong / handoff_applied` | 없음 | `울프릭/마리안/프리야/카이라 -> 빙하의 성소 / 주술사 원로단`; `시그리드 -> 퍼마프로스트 공성단 / 아이스포지` | 오로라 평원, 얼음무덤 언덕, 푸른 폭풍 요새, 아이스포지 병기소 슬롯으로 보존. unnamed slot 6개는 direct holder 없이 role slot 유지로 한 번 닫혔다. |
-| `해양` | `state_house`, `guild_market`; tribe_clan weak | `해적 연합 = mixed_keep`; `바다의 교단 = section_style_reclassify + place_pressure_strong / handoff_applied` | 없음 | `미다스/이소벨/해양 실비아 -> 황금 함대`; `마르코/엘레오노라/크리스토퍼 -> 거상 연합`; `골드핑거/리나/에릭/모로스 -> 해적 연합`; `오렌/마리아 -> 바다의 교단` | 포트 아우렐리온, 크로스윈드 포트, 오라클 바지, 블랙워터 항구, 볼트 오브 아우룸 슬롯으로 보존한다. |
+| `해양` | `state_house`, `guild_market`; tribe_clan weak | `해적 연합 = mixed_keep`; `바다의 교단 = section_style_reclassify + place_pressure_strong / handoff_applied` | 없음 | `미다스/이소벨/해양 실비아 -> 황금 함대`; `마르코/엘레오노라 -> 거상 연합`; `크리스토퍼 델마르 -> 거상 연합 [boundary hold retained]`; `골드핑거/리나/에릭/모로스 -> 해적 연합`; `오렌/마리아 -> 바다의 교단` | 포트 아우렐리온, 크로스윈드 포트, 오라클 바지, 블랙워터 항구, 볼트 오브 아우룸 슬롯으로 보존한다. |
 | `오벨리스크` | `frontier_survival`, `guild_market`; state_house as nontraditional elite | `망자의 왕국 = section_style_reclassify + place_pressure_strong`; `잊힌 자들의 연합 = section_style_reclassify + watch_keep / handoff_applied`; `봉인 수호단 = section_style_reclassify + mismatch_clear` | 없음 | `바리온/아이기스/베스/이안 -> 봉인 수호단`; `카트린/레보니아/우로스 -> 잊힌 자들의 연합`; `카론/세르반/레티시아 -> 망자의 왕국` | 템플 오브 바운더리, 경계의 보루, 기억 경매장, 영원의 기록탑, 망각의 회랑, 그림자 도서관 슬롯으로 보존한다. |
-| `범대륙 / 후기 확장` | deferred expansion; `guild_market` 중심 | `root_corruption`과 deferred routing 유지 | 없음 | `실비아 [deferred_expansion_hold / hold reference split] -> 키르케 영약회`; `멜리산드르 -> 키르케 영약회` | 범대륙은 watch-reference mainline 바깥 `deferred_expansion_hold / hold reference split`이다. 정본명/표면명/위상 안정화 전까지 reference-only로 둔다. |
+| `범대륙 / 후기 확장` | deferred expansion; `guild_market` 중심 | `root_corruption`과 deferred routing 유지 | 없음 | `실비아 [deferred_expansion_hold / hold reference split / name_collision_watch] -> 키르케 영약회`; `멜리산드르 -> 키르케 영약회` | 범대륙은 watch-reference mainline 바깥 `deferred_expansion_hold / hold reference split / name_collision_watch`이다. 정본명/표면명/위상 안정화 전까지 reference-only로 둔다. |
 
 ## Foldering Consequence
 
@@ -122,7 +122,7 @@ sidecar/register handoff를 먼저 존중한다.
 위 브리지와 `Section_15_Folder_Structure_Draft.md` watch-reference routing map을 기준으로
 이미 잠근 anchor / state wording을 closure sync / watch-reference 기준으로 유지하는 것이다.
 
-`stable_triad_frozen_reference_set`은 이미 닫혀 있으므로 다시 열지 않는다.
+stable triad package freeze는 이미 닫혀 있으므로, 안정 3명은 `stable_15_workset`으로만 유지한다.
 현재는 폴더 draft reference 구조를 문서 레벨 watch-reference 층에서만 유지한다.
 continent sidecar/scout/display wording umbrella도
 lower current-state watch/reference authority로만 유지한다.
