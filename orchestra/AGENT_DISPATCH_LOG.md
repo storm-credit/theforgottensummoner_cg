@@ -16530,3 +16530,118 @@ Follow-up actions:
   중 하나라도
   source family와 실제로 벌어질 때만
   이 triad를 다시 연다.
+
+## 2026-04-26 KST - Two-Hundred-Twentieth Operational Guard Separation No-Change Pass
+
+목적:
+
+- 이번 wake-up에서는
+  `People Worth Seeking`
+  승인 논리와
+  operational profile 카드의
+  `3-1. Policy Guard`
+  lower-card authority가
+  서로 역수입되지 않는지
+  safe no-change 재감사로 닫는다.
+- confirmed source-of-truth wording/state drift가 없으면
+  operational profile 문서 본문은 그대로 두고
+  dispatch log만 갱신한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Erdos` | Operational Profile Guard Scout | `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Operational_Display_Canon_Candidates.md`, `Section_15_Intake_Structure.md`, `Section_15_Profile_Template.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` | `completed` |
+| `Beauvoir` | Summary / Watch Separation Scout | `Continuous_Workstream.md`, `Audit_Queue.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Profile_Draft_Index.md`, `Section_8_Mainline_Sync_Register.md`, `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 먼저 다시 읽고,
+  이번 wake-up에서도
+  메인 본선이
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  유지인지 먼저 재확인했다.
+- conductor는
+  로컬 검색으로
+  `People Worth Seeking`,
+  `3-1. Policy Guard`,
+  `lower-card authority`,
+  `family-level carryover`
+  라인이
+  operational profile layer와
+  상위 summary/watch layer에서
+  어떻게 배치되어 있는지 먼저 spot-check했다.
+- conductor는
+  `Erdos`
+  보고를 따라
+  `Section_15_Profile_Template.md`
+  가
+  `3-1. Policy Guard`
+  를 profile/subline profile 카드의
+  exact wording authority로 잠그고 있으며,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_15_Operational_Display_Canon_Candidates.md`,
+  `Section_15_Intake_Structure.md`
+  가
+  그 authority를 참조만 하고
+  재작성하지 않음을 다시 확인했다.
+- conductor는
+  같은 보고를 따라
+  네 operational profile 문서가
+  `People Worth Seeking`
+  와는 별도 layer임을 명시하고,
+  lower-card authority를
+  각 profile 카드의
+  `3-1. Policy Guard`
+  에 남긴 채
+  summary/index/track/display/intake 층에서는
+  reference만 유지하고 있음을 확인했다.
+- conductor는
+  `Beauvoir`
+  보고를 따라
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Section_15_Named_Notables_Status_Compass.md`,
+  `Section_8_Mainline_Sync_Register.md`,
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`,
+  `Audit_Queue.md`
+  도
+  `People Worth Seeking`
+  승인 논리와
+  operational profile guard wording을
+  분리된 current-state authority로 유지하고 있음을 확인했다.
+- conductor는
+  이번 순환에서
+  patch-worthy wording/state drift가 없다고 판단해
+  operational profile 및 summary/watch 문서 본문 수정 없이
+  no-change result만 기록한다.
+
+Integrated actions:
+
+- operational guard separation no-change cross-audit confirmation
+- dispatch log 2026-04-26 two-hundred-twentieth pass 반영
+
+Verification:
+
+- read-only cross-audit confirms `People Worth Seeking` approval logic remains separate from operational profile `3-1. Policy Guard` wording authority.
+- targeted local cross-check confirms `Profile Draft Index`, `Operational Lines Track`, `Operational Display Canon Candidates`, and `Intake Structure` still treat lower-card authority as reference-only from downstream profile cards.
+- this pass is log-only; unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- `People Worth Seeking` 승인 논리와
+  operational profile guard separation은
+  same-reference no-change watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  상위 summary/bridge/watch 문서가
+  `3-1. Policy Guard`
+  wording을 재정의하거나,
+  operational profile layer가
+  `People Worth Seeking`
+  승인 논리를 직접 가져올 때만
+  이 family를 다시 연다.
