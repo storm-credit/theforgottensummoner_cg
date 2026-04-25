@@ -15147,3 +15147,71 @@ Follow-up actions:
 - 그 전까지는 이 log-only delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   workstream / carryover watch family는 same-reference watch 기준으로 유지한다.
+
+## 2026-04-25 KST - Two-Hundred-Fifth Lower-Card Authority No-Change Audit Pass
+
+목적:
+
+- ordered watch 다음 순서인
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Group_Index.md`,
+  `Section_15_Subline_Register.md`
+  family와
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Operational_Lines_Track.md`,
+  `Section_8_Mainline_Sync_Register.md`
+  의 lower-card authority / subline_profile_authority 문장이
+  여전히 같은 current-state watch/reference 기준으로 잠겨 있는지 확인한다.
+- confirmed source-of-truth drift가 없으면
+  문서 본문은 그대로 두고
+  no-change watch batch로 닫는다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Meitner` | Register / Group / Subline Scout | `Section_15_Named_Notables_Register.md`, `Section_15_Group_Index.md`, `Section_15_Subline_Register.md` | `completed` |
+| `Lovelace` | Lower-Card Authority Sync Scout | `Section_15_Named_Notables_Register.md`, `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_15_Subline_Register.md`, `Section_8_Mainline_Sync_Register.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Group_Index.md`,
+  `Section_15_Subline_Register.md`,
+  `Section_15_Profile_Draft_Index.md`,
+  `Section_15_Operational_Lines_Track.md`
+  를 다시 읽고,
+  `Section_8_Mainline_Sync_Register.md`
+  의 `lower_card_authority`, `subline_profile_authority` sync group과 함께 대조했다.
+- conductor는
+  `People Worth Seeking` register와 operational group/subline family가
+  서로를 다시 정의하지 않고,
+  exact guard wording authority를 각
+  `Section_15_Profile_*` / `Section_15_Subline_Profile_*`
+  카드의 `3-1. Policy Guard`에 남기는 규칙을
+  여전히 같은 문장으로 유지한다고 확인했다.
+- conductor는
+  group/subline note 문장 중 일부가 생산 지향 메모처럼 읽힐 여지는 확인했지만,
+  이번 batch 기준인 source-of-truth wording/state drift로는 이어지지 않아
+  본문 수정 없이 유지했다.
+
+Integrated actions:
+
+- dispatch log 2026-04-25 two-hundred-fifth pass 반영
+
+Verification:
+
+- targeted cross-check confirms `Section_15_Named_Notables_Register.md`, `Section_15_Group_Index.md`, `Section_15_Subline_Register.md`, `Section_15_Profile_Draft_Index.md`, and `Section_15_Operational_Lines_Track.md` still preserve the same lower-card authority split and subline-profile wording-source rule reflected in `Section_8_Mainline_Sync_Register.md`.
+- `git diff --check` reports no whitespace errors for this log-only delta.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- lower-card authority / subline_profile_authority family는
+  no-change watch로 그대로 유지한다.
+- 이후에는 summary / register / index 문서가
+  하위 `3-1. Policy Guard` wording source를 실제로 재정의할 때만 다시 연다.
+- 그 전까지는 이 log-only delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  lower-card authority family는 same-authority watch 기준으로 유지한다.
