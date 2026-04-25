@@ -95,20 +95,20 @@ lower-card carryover reference로만 유지한다.
 
 | Candidate | State Snapshot | Note |
 |---|---|---|
-| 대런 크레센트 | `source_check_hold` | 마법 서고단 대표 신호. |
-| 엘드린 문브링어 | `source_check_hold` | 백색의 탑 탑주. |
+| 대런 크레센트 | `verify_before_15 / archive_admin_hold` | 마법 서고단 대표 신호. |
+| 엘드린 문브링어 | `verify_before_15 / white_tower_barrier_hold` | 백색의 탑 탑주. |
 | 마르쿠스 레이븐펠 | `source_check_hold / name_drift` | 흑색의 탑 주앵커는 `맥스웰 레이븐펠`로 읽고, `마르쿠스 레이븐펠`은 drift 표기로만 보존한다. |
 | 이사도르 템페스트 | `source_check_hold / name_split_hold` | 청색의 탑 탑주로 보존하되 `이사도르 솔레아`와 병합하지 않는다. |
 | 세리오스 벤타리스 | `source_check_hold` | 자색의 탑 탑주, 14번 신호 강함. |
-| 네리사 블러드위버 | `source_check_hold` | 적색의 탑 탑주. |
-| 다미엔 이클립스 | `source_check_hold` | 은색의 탑 탑주. |
-| 칼리스트 | `source_check_hold` | 황금의 탑 탑주, 연금/제작 명사층 가치. |
-| 래퍼티 아르카디아 | `source_check_hold` | 성국 도서관장, A급 핵심 인물표 신호. |
-| 대사제 요한 | `source_check_hold` | 루멘 성채 총괄자. |
-| 엘라라 문힘 | `source_check_hold` | 정령연합 노래술사, A급 영웅표 신호. |
-| 드라이덴 썬더루트 | `source_check_hold / great_druid_hold` | 장로 드루이드, 자연 율법회, 생명의 의회, Top 3 대드루이드 신호. |
-| 메라 라일윈드 | `source_check_hold / spirit_envoy_hold / name_collision_watch` | 정령연합 외교 사절단, 희귀 재료 교역 조건, `메라 실피드` 드리프트 신호. |
-| 실라스 나이트쉐이드 | `source_check_hold / shadow_crow_hold / name_collision_watch` | 그늘까마귀단, 잠든 정령의 숲, `실라스 블랙쏜` 세력 앵커 분리 신호. |
+| 네리사 블러드위버 | `verify_before_15 / abyss_blood_taboo_hold` | 적색의 탑 탑주. |
+| 다미엔 이클립스 | `verify_before_15 / shadow_intelligence_hold` | 은색의 탑 탑주. |
+| 칼리스트 | `verify_before_15 / tower_seer_hold` | 황금의 탑 탑주, 연금/제작 명사층 가치. |
+| 래퍼티 아르카디아 | `verify_before_15 / library_core_hold` | 성국 도서관장, A급 핵심 인물표 신호. |
+| 대사제 요한 | `verify_before_15 / holy_barrier_hold` | 루멘 성채 총괄자. |
+| 엘라라 문힘 | `verify_before_15 / bardic_archive_hold` | 정령연합 노래술사, A급 영웅표 신호. |
+| 드라이덴 썬더루트 | `verify_before_15 / great_druid_hold` | 장로 드루이드, 자연 율법회, 생명의 의회, Top 3 대드루이드 신호. |
+| 메라 라일윈드 | `verify_before_15 / spirit_envoy_hold / name_collision_watch` | 정령연합 외교 사절단, 희귀 재료 교역 조건, `메라 실피드` 드리프트 신호. |
+| 실라스 나이트쉐이드 | `verify_before_15 / shadow_crow_hold / name_collision_watch` | 그늘까마귀단, 잠든 정령의 숲, `실라스 블랙쏜` 세력 앵커 분리 신호. |
 
 필요 슬롯:
 

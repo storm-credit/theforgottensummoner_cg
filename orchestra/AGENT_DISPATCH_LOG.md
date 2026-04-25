@@ -17767,3 +17767,100 @@ Follow-up actions:
   lower-authority phrasing 붕괴가
   다시 올라올 때만
   이 family를 다시 연다.
+
+## 2026-04-26 KST - Two-Hundred-Thirty-First Ether Hold State Sync Pass
+
+목적:
+
+- 이번 wake-up에서는
+  ordered cycle 다음 순서인
+  Ether hold continuation 3종을
+  `closure sync / watch-reference`
+  기준 아래서
+  same-family state token과
+  closure posture가
+  그대로 유지되는지 점검한다.
+- confirmed drift가 있으면
+  continuation 본문이 아니라
+  source-of-truth와 어긋난
+  state-bearing register/synthesis만
+  국소 정규화한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `McClintock` | Ether Hold Cluster Scout | `Section_15_Ether_Hold_Cluster_Continuation.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`, `Section_15_Named_Notables_Register.md`, `Section_15_State_Vocabulary_Guard.md`, directly relevant authority lines | `completed` |
+| `Helmholtz` | Ether Tower-Saint / Spirit-Union Scout | `Section_15_Ether_Tower_Saint_Hold_Continuation.md`, `Section_15_Ether_Spirit_Union_Hold_Continuation.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`, `Section_15_Named_Notables_Register.md`, directly relevant authority lines | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 먼저 다시 읽고,
+  ordered cycle 다음 순서인
+  Ether hold continuation family를
+  이번 배치 대상으로 잡았다.
+- conductor는
+  로컬 검색과 subagent 보고를 바탕으로
+  `Section_15_State_Vocabulary_Guard.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `FS_Decision_Ruling_Register.md`,
+  `Section_14_15_Ether_Boundary_Evidence.md`
+  를 추가 대조해
+  Ether hold cluster current ruling line이
+  `verify_before_15 / specialized_hold`
+  family로 잠겨 있음을 확인했다.
+- conductor는
+  `Helmholtz`
+  보고를 따라
+  `Section_15_Ether_Tower_Saint_Hold_Continuation.md`와
+  `Section_15_Ether_Spirit_Union_Hold_Continuation.md`
+  본문은
+  closure-sync/watch-reference 기준에서
+  no-change로 유지된다고 확인했다.
+- conductor는
+  `McClintock`
+  보고가 잡은
+  `verify_before_15` 대 `source_check_hold`
+  mismatch를
+  continuation drift가 아니라
+  state-bearing register/synthesis 쪽의
+  stale prefix 잔존으로 재판정했다.
+- conductor는
+  그 결과에 따라
+  Ether hold continuation 3종 본문은 그대로 두고,
+  `Section_15_Named_Notables_Register.md`와
+  `Section_15_Named_Notables_Continent_Synthesis.md`
+  의 Ether hold rows만
+  `verify_before_15 / specialized_hold`
+  current ruling line으로 국소 동기화했다.
+
+Integrated actions:
+
+- `Section_15_Named_Notables_Register.md` Ether hold rows state-label sync
+- `Section_15_Named_Notables_Continent_Synthesis.md` Ether hold rows snapshot sync
+- dispatch log 2026-04-26 two-hundred-thirty-first pass 반영
+
+Verification:
+
+- targeted cross-check confirms Ether hold rows in `Named_Notables_Register` and `Named_Notables_Continent_Synthesis` now align with `FS_Decision_Ruling_Register`, `Section_14_15_Ether_Boundary_Evidence.md`, and the three continuation snapshots on `verify_before_15 / specialized_hold`.
+- read-only cross-audit confirms `Section_15_Ether_Tower_Saint_Hold_Continuation.md` and `Section_15_Ether_Spirit_Union_Hold_Continuation.md` remain no-change on closure-sync/watch-reference posture.
+- targeted local review keeps `Section_15_Folder_Draft_Routing_Plan.md` group-level shorthand unchanged in this pass because it is not a direct state-bearing per-candidate row.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- Ether hold continuation family는
+  `verify_before_15 / specialized_hold`
+  current ruling line과
+  frozen/hold snapshot posture를
+  다시 닫힌 상태로 유지한다.
+- 이후에는
+  state-bearing row에
+  `source_check_hold`가 다시 역유입되거나,
+  Ether hold cluster가
+  active discovery처럼 다시 적힐 때만
+  이 family를 다시 연다.
