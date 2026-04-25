@@ -106,7 +106,7 @@
 
 ### Safe Record
 
-- 현재는 `house enough / guild enough / tribe thin`
+- 현재는 `support range`
 - 토착 공동체층은 `support range`까지만 보존하고, `tribe_clan enough`로 올리지 않는다.
 
 ## 5. Obelisk Nontraditional Elite Intake
