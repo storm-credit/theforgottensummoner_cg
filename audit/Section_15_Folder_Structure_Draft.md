@@ -228,7 +228,7 @@ frozen route/reference set에서는
 - `크림슨` 폴더 route는 씨족 중심 질서와 학술/전승/공방 thin-support를 정리하는 용도지, 전통 귀족국가형 `state_house strong` 근거 선언이 아니다.
 - `해양` Operational Lines route는 도시-항만 그림자경제를 정리하는 용도지, `토착 공동체층` 본체 폴더가 아니다.
 - `오벨리스크` route는 `nontraditional elite thin-support` 또는 `dark institution` 기능축을 정리하는 용도지, 전통 왕국/귀족국가 복원 route가 아니다.
-- `범대륙 후기 확장` route는 5대륙 본선과 분리된 `deferred_expansion_hold / hold reference split` route이며, `실비아`도 그 범위에서만 유지한다.
+- `범대륙 후기 확장` route는 5대륙 본선과 분리된 `deferred_expansion_hold / hold reference split / name_collision_watch` route이며, `실비아`도 그 범위에서만 유지한다.
 - 따라서 이 구간의 문장은 route-level reminder일 뿐,
   개별 operational profile을 대체하는 policy text로 쓰지 않는다.
 

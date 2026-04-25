@@ -17552,3 +17552,119 @@ Follow-up actions:
   bridge row shorthand의 실제 state drift 전환이
   다시 올라올 때만
   이 family를 다시 연다.
+
+## 2026-04-26 KST - Two-Hundred-Twenty-Ninth Policy Carryover Suffix Sync Pass
+
+목적:
+
+- 이번 wake-up에서는
+  `Section_15_Index_Draft.md`,
+  `Section_15_Folder_Structure_Draft.md`,
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`
+  policy carryover family가
+  `closure sync / watch-reference`
+  기준 아래서
+  stable-vs-hold separation,
+  `실비아` deferred-expansion suffix,
+  lower current-state watch/reference authority framing을
+  같은 current-state wording으로 유지하는지 점검하고,
+  confirmed drift만
+  국소 sync로 닫는다.
+- 문서 역할별 허용 shorthand와
+  실제 state drift를 구분하기 위해
+  read-only subagent audit을
+  two-slice로 나눠 수행한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Tesla` | Index / Folder / Routing Policy Scout | `Section_15_Index_Draft.md`, `Section_15_Folder_Structure_Draft.md`, `Section_15_Folder_Draft_Routing_Plan.md`, smallest relevant authority family | `completed` |
+| `Dewey` | Gate / Anchor / QA Policy Scout | `Section_15_Folder_Revision_Gate.md`, `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Stable_Candidate_Profile_QA.md`, `Section_15_Named_Notables_Register.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`, directly relevant authority lines | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 먼저 다시 읽고,
+  ordered cycle 다음 순서인
+  policy carryover family를
+  이번 배치 대상으로 잡았다.
+- conductor는
+  로컬 검색으로
+  `Index / Folder Structure / Routing Plan / Revision Gate / Anchor Map / Stable Candidate Profile QA`
+  여섯 문서를 먼저 spot-check하고,
+  `실비아` suffix,
+  stable-vs-hold separation,
+  lower current-state watch/reference authority phrasing,
+  live/freeze/mainline 설명이
+  source-of-truth family와 같은지 좁혀 봤다.
+- conductor는
+  `Dewey`
+  보고를 따라
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`
+  세 문서는
+  lower current-state watch/reference authority,
+  stable-vs-hold separation,
+  `실비아`
+  deferred-expansion suffix,
+  `크리스토퍼 델마르`
+  boundary/hold framing이
+  모두 current-state 기준으로 정합한다고 판단해
+  no-change로 유지했다.
+- conductor는
+  `Tesla`
+  보고를 따라
+  confirmed drift가
+  `실비아`
+  deferred-expansion suffix가 줄어든
+  두 summary line으로만 좁혀졌다고 판단했다.
+- conductor는
+  `Section_15_Index_Draft.md:56`
+  와
+  `Section_15_Folder_Structure_Draft.md:231`
+  의
+  `범대륙 후기 확장 / deferred_expansion_hold / hold reference split`
+  shorthand를
+  `범대륙 후기 확장 / deferred_expansion_hold / hold reference split / name_collision_watch`
+  canonical wording으로 복구했다.
+- conductor는
+  `Section_15_Folder_Draft_Routing_Plan.md`
+  의
+  stable-triad package freeze wording은
+  이 문서 역할 안의 설명선으로 허용되는 shorthand이며
+  active mainline 오독으로까지 넘어간 confirmed drift는 아니라고 판단해
+  no-change로 유지했다.
+
+Integrated actions:
+
+- `Section_15_Index_Draft.md` `실비아` deferred-expansion suffix sync
+- `Section_15_Folder_Structure_Draft.md` `실비아` deferred-expansion route suffix sync
+- dispatch log 2026-04-26 two-hundred-twenty-ninth pass 반영
+
+Verification:
+
+- targeted cross-check confirms `실비아` summary wording now keeps the full `deferred_expansion_hold / hold reference split / name_collision_watch` suffix in both index and folder-structure policy layers.
+- read-only cross-audit confirms `Revision Gate / Anchor Map / Stable Candidate Profile QA` remain no-change on lower current-state watch/reference authority, stable-vs-hold separation, and deferred-expansion handling.
+- targeted local review confirms `Folder Draft Routing Plan` stays within allowed explanatory shorthand and does not require a patch in this pass.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- policy carryover family는
+  current-state watch/reference wording 기준으로
+  다시 닫힌 상태를 유지한다.
+- 이후에는
+  `실비아` suffix 손실,
+  lower-authority framing 약화,
+  stable-vs-hold separation 붕괴,
+  freeze 설명의 active-mainline 오독이
+  다시 올라올 때만
+  이 family를 다시 연다.

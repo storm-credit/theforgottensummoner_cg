@@ -53,7 +53,7 @@ People Worth Seeking guard:
 
 - `크림슨` 대표 카드군은 씨족 중심 질서와 현자/장인/전승 thin-support만 보강하며, 전통 귀족국가형 `state_house strong` 근거로 올리지 않는다.
 - `엘다라`는 정령연합 내부 예외축 hold reference split 안의 `source_check_hold / hold reference split`로만 유지하고 에테르 전체 부족층 일반화 근거로 쓰지 않는다.
-- `실비아`는 5대륙 본선이 아니라 `범대륙 후기 확장 / deferred_expansion_hold / hold reference split`로만 유지한다.
+- `실비아`는 5대륙 본선이 아니라 `범대륙 후기 확장 / deferred_expansion_hold / hold reference split / name_collision_watch`로만 유지한다.
 
 ## 15-B. Operational Lines
 
