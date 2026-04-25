@@ -17099,3 +17099,104 @@ Follow-up actions:
   route/state paraphrase가
   다시 올라올 때만
   이 family를 다시 연다.
+
+## 2026-04-26 KST - Two-Hundred-Twenty-Fifth Continent Umbrella No-Change Pass
+
+목적:
+
+- 이번 wake-up에서는
+  continent sidecar/scout/display wording umbrella가
+  Frost / Oceanic / Ether / Obelisk family 모두에서
+  future-only build queue가 아니라
+  lower current-state watch/reference authority로
+  유지되는지
+  no-change 재감사로 닫는다.
+- confirmed source-of-truth wording/state drift가 없으면
+  관련 본문은 그대로 두고
+  dispatch log만 갱신한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Pauli` | Frost / Oceanic Umbrella Scout | `Section_15_Frost_Place_Institution_Sidecar.md`, `Section_15_Named_Notables_Frost_Scout.md`, `Section_15_Frost_Display_Canon_Candidates.md`, `Section_15_Oceanic_Place_Institution_Sidecar.md`, `Section_15_Named_Notables_Oceanic_Scout.md`, directly relevant authority family | `completed` |
+| `Goodall` | Ether / Obelisk Umbrella Scout | `Section_15_Ether_Place_Institution_Sidecar.md`, `Section_15_Named_Notables_Ether_Scout.md`, `Section_15_Obelisk_Place_Institution_Sidecar.md`, `Section_15_Named_Notables_Obelisk_Scout.md`, directly relevant authority family | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 먼저 다시 읽고,
+  이번 wake-up에서도
+  continent sidecar/scout/display wording umbrella가
+  닫힌 current-state watch/reference 상태인지 재확인한 뒤
+  이 family를 이번 배치 대상으로 잡았다.
+- conductor는
+  로컬 검색으로
+  Frost / Oceanic / Ether / Obelisk sidecar/scout docs와
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`,
+  `Section_8_Mainline_Sync_Register.md`
+  를 먼저 대조해
+  `lower current-state watch/reference authority`,
+  `place/institution owner나 candidate build queue를 새로 만들지 않는다`,
+  `future-only build task`
+  관련 라인이 같은 umbrella rule을 유지하는지 spot-check했다.
+- conductor는
+  `Pauli`
+  보고를 따라
+  `Section_15_Frost_Place_Institution_Sidecar.md`,
+  `Section_15_Named_Notables_Frost_Scout.md`,
+  `Section_15_Frost_Display_Canon_Candidates.md`,
+  `Section_15_Oceanic_Place_Institution_Sidecar.md`,
+  `Section_15_Named_Notables_Oceanic_Scout.md`
+  가 모두
+  lower current-state watch/reference material로 읽히며,
+  future-only task queue나 active build 문장으로 다시 열리지 않았음을 확인했다.
+- conductor는
+  같은 로컬 대조에서
+  Oceanic scout의
+  `크리스토퍼 델마르`
+  boundary-only current-state carryover도
+  same-reference wording으로 유지되고 있음을 다시 확인했다.
+- conductor는
+  `Goodall`
+  보고를 따라
+  `Section_15_Ether_Place_Institution_Sidecar.md`,
+  `Section_15_Named_Notables_Ether_Scout.md`,
+  `Section_15_Obelisk_Place_Institution_Sidecar.md`,
+  `Section_15_Named_Notables_Obelisk_Scout.md`
+  역시
+  current-state watch/reference authority,
+  sidecar non-owner guard,
+  closure watch posture를 그대로 유지하고 있음을 확인했다.
+- conductor는
+  이번 순환에서
+  patch-worthy wording/state drift가 없다고 판단해
+  continent umbrella family 본문 수정 없이
+  no-change result만 기록한다.
+
+Integrated actions:
+
+- continent sidecar/scout/display umbrella no-change cross-audit confirmation
+- dispatch log 2026-04-26 two-hundred-twenty-fifth pass 반영
+
+Verification:
+
+- read-only cross-audit confirms Frost/Oceanic and Ether/Obelisk sidecar-scout-display docs still read as lower current-state watch/reference authority rather than future-only task queues.
+- targeted local cross-check confirms sidecar non-owner guard lines remain intact across the continent umbrella family.
+- this pass is log-only; unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- continent sidecar/scout/display wording umbrella는
+  same-reference no-change watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  future-only build phrasing,
+  active-batch wording,
+  place/institution owner 재도입,
+  candidate build queue 재도입,
+  boundary-only carryover 약화가
+  다시 올라올 때만
+  이 family를 다시 연다.
