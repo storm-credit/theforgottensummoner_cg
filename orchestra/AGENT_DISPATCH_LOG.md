@@ -16105,3 +16105,115 @@ Follow-up actions:
   index routing-state paraphrase가
   다시 올라올 때만
   이 family를 다시 연다.
+
+## 2026-04-25 KST - Two-Hundred-Sixteenth Policy Carryover Token Sync Pass
+
+목적:
+
+- ordered cycle 다음 칸인
+  policy carryover family 가운데
+  `Section_15_Folder_Draft_Routing_Plan.md`,
+  `Section_15_Folder_Revision_Gate.md`,
+  `Section_15_Named_Notables_Anchor_Map.md`,
+  `Section_15_Stable_Candidate_Profile_QA.md`
+  네 문서가
+  방금 닫은 summary/bridge family와
+  같은 stable token,
+  `실비아`
+  hold suffix를 유지하는지 다시 닫는다.
+- folder structure 본문이나
+  other policy/folder docs 전반 재개방 없이,
+  confirmed source-of-truth wording/state drift만
+  네 문서 국소 delta로 반영한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Averroes` | Folder Routing / Gate Scout | `Section_15_Folder_Draft_Routing_Plan.md`, `Section_15_Folder_Revision_Gate.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Named_Notables_Coverage_Matrix.md`, `Section_8_to_15_Notable_Anchor_Bridge.md` | `completed` |
+| `Linnaeus` | Anchor Map / QA Scout | `Section_15_Named_Notables_Anchor_Map.md`, `Section_15_Stable_Candidate_Profile_QA.md`, `Section_15_State_Vocabulary_Guard.md`, `Section_15_Named_Notables_Register.md`, `Section_15_Named_Notables_Status_Compass.md`, `Section_15_Named_Notables_Coverage_Matrix.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 다시 읽고,
+  이번 wake-up에서도 메인 본선이
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  유지인지 먼저 재확인했다.
+- conductor는
+  `Averroes`
+  보고를 따라
+  `Folder Draft Routing Plan`
+  과
+  `Folder Revision Gate`
+  안의
+  legacy `stable_triad_frozen_reference_set`
+  current routing/carryover text와
+  `실비아`
+  suffix truncation을
+  `Section_15_State_Vocabulary_Guard.md`
+  및
+  latest summary/bridge family 기준으로 다시 확인했다.
+- conductor는
+  `Linnaeus`
+  보고를 따라
+  `Anchor Map`
+  state-label 행과
+  `Profile QA`
+  recorded-result 셀에
+  legacy stable token이 남아 있음을
+  `Section_15_State_Vocabulary_Guard.md`
+  기준으로 다시 확인했다.
+- conductor는
+  같은 로컬 교차대조에서
+  `Anchor Map`과 `Profile QA`
+  내부의
+  `실비아`
+  carryover summary line도
+  최신 source family보다
+  `name_collision_watch`
+  suffix가 짧아졌음을 확인해
+  같은 batch 안에서 함께 복구했다.
+- conductor는
+  이번 batch를
+  policy carryover family 네 문서로만 제한하고,
+  stable token / suffix drift만 수정했다.
+  이름 앵커,
+  Oceanic/Ether 인명 행,
+  other folder docs는
+  no-change로 유지했다.
+
+Integrated actions:
+
+- `Section_15_Folder_Draft_Routing_Plan.md` stable-token routing-state sync
+- `Section_15_Folder_Draft_Routing_Plan.md` `실비아` `deferred_expansion_hold / hold reference split / name_collision_watch` route sync
+- `Section_15_Folder_Revision_Gate.md` stable-token gate/carryover phrasing sync
+- `Section_15_Folder_Revision_Gate.md` `실비아` late-expansion risk suffix sync
+- `Section_15_Named_Notables_Anchor_Map.md` stable-token state-label sync
+- `Section_15_Named_Notables_Anchor_Map.md` `실비아` carryover note suffix sync
+- `Section_15_Stable_Candidate_Profile_QA.md` stable-token recorded-result sync
+- `Section_15_Stable_Candidate_Profile_QA.md` `실비아` carryover QA note suffix sync
+- dispatch log 2026-04-25 two-hundred-sixteenth pass 반영
+
+Verification:
+
+- targeted cross-check confirms the four policy carryover docs no longer use legacy `stable_triad_frozen_reference_set` in current state-bearing cells or current carryover lines.
+- targeted cross-check confirms `실비아` now keeps `deferred_expansion_hold / hold reference split / name_collision_watch` across routing, gate, anchor-map, and QA carryover text.
+- read-only audit results remain no-change for the sync-sensitive Oceanic/Ether person-name rows in `Anchor Map` and `Profile QA`.
+
+Follow-up actions:
+
+- policy carryover family는
+  `Index / Folder / Anchor Map / Stable Candidate QA`
+  층이
+  same-reference watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  policy/folder 상위층에
+  legacy stable token이나
+  `실비아`
+  suffix truncation이
+  다시 올라올 때만
+  이 family를 다시 연다.

@@ -38,9 +38,9 @@ folder routing reading은
 
 | Candidate | Draft Route | State | Reason |
 |---|---|---|---|
-| `울프가르 드래곤포지` | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution` | 용의 대장장이/공방주. 상위 route와 place lock을 분리한 stable_triad_frozen_reference_set route를 따르되 14 재확인 전 Hard Canon route로 고정하지 않는다. |
-| `에리온 드라코비스` | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution / name_collision_watch` | 고대어 해석가/대현자. 엘드라칸 학술-전승층을 상위 route로 읽되 `에리온 베르날리스` 충돌 감시를 유지한다. |
-| `오그마` | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `stable_triad_frozen_reference_set / route_hierarchy_locked / act_watch` | 살아있는 도서관/고룡 조언자. 전승 보관층 route와 place lock을 분리한 stable_triad_frozen_reference_set route를 우선한다. |
+| `울프가르 드래곤포지` | `15 / 크림슨 / 용의 후예 / 드래곤포지 공방` | `stable_15_workset / route_hierarchy_locked / grade_caution` | 용의 대장장이/공방주. 상위 route와 place lock을 분리한 stable triad package freeze route를 따르되 14 재확인 전 Hard Canon route로 고정하지 않는다. |
+| `에리온 드라코비스` | `15 / 크림슨 / 엘드라칸 / 학술-전승층` | `stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` | 고대어 해석가/대현자. 엘드라칸 학술-전승층을 상위 route로 읽되 `에리온 베르날리스` 충돌 감시를 유지한다. |
+| `오그마` | `15 / 크림슨 / 엘드라칸 / 전승 보관층` | `stable_15_workset / route_hierarchy_locked / act_watch` | 살아있는 도서관/고룡 조언자. 전승 보관층 route와 place lock을 분리한 stable triad package freeze route를 우선한다. |
 | `엘다라` | `15 / 에테르 / 정령연합 / 루미라` | `source_check_hold / hold reference split` | 루미라 대현자/고대 정령어 권위자. 정령연합 전체 14 확인 전 Hard Canon 금지, hold reference split 안의 source_check_hold reference로만 유지한다. |
 | `실비아` | `범대륙 후기 확장 / 키르케 영약회` | `deferred_expansion_hold / hold reference split / name_collision_watch` | 범대륙 후기 확장이라 `deferred_expansion_hold / hold reference split / name_collision_watch` watch-reference로만 둔다. |
 
@@ -82,7 +82,7 @@ folder routing reading은
 - `크림슨` route는 씨족 중심 질서와 현자/장인/전승 thin-support까지만 보존하고, `state_house strong` route로 해석하지 않는다.
 - `해양` 자유도시 profile route는 `urban_market / shadow_port / debt-enforcement` 축까지만 보존하고, `토착 공동체층` route와 섞지 않는다.
 - `오벨리스크` 제도 route는 `nontraditional elite thin-support` 또는 `dark institution` 축까지만 보존하고, 전통 귀족국가형 route로 해석하지 않는다.
-- `실비아`는 `범대륙 후기 확장 / 키르케 영약회`의 `deferred_expansion_hold / hold reference split` route로만 보존한다.
+- `실비아`는 `범대륙 후기 확장 / 키르케 영약회`의 `deferred_expansion_hold / hold reference split / name_collision_watch` route로만 보존한다.
 - operational profile route 문장은 lower-card authority를 따르며,
   `People Worth Seeking` 고정 논리로 직접 역수입하지 않는다.
 - 이 routing plan은 허용된 route family만 적고,
@@ -114,8 +114,8 @@ reference gate 층에서 먼저 확인한다.
 
 아직 live 이동은 하지 않는다.
 
-현재 이 문서의 역할은 stable_triad_frozen_reference_set을 다시 여는 것이 아니라,
-stable_triad_frozen_reference_set와 hold reference split / hold cluster의 분리, 그리고 `Section 8 -> 15 watch-reference`를 유지하는 것이다.
+현재 이 문서의 역할은 stable triad package freeze를 다시 여는 것이 아니라,
+stable triad package freeze와 hold reference split / hold cluster의 분리, 그리고 `Section 8 -> 15 watch-reference`를 유지하는 것이다.
 
 즉 routing plan은 상위 경로 설계층으로만 읽고,
 하위 operational profile의 `3-1. Policy Guard`를 재정의하지 않는다.

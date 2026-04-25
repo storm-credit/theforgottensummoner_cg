@@ -31,7 +31,7 @@ folder gate reading은
 
 목표:
 
-- stable_triad_frozen_reference_set / hold reference split / hold cluster watch-reference snapshot에서 위험을 먼저 확인한다.
+- stable triad package freeze / hold reference split / hold cluster watch-reference snapshot에서 위험을 먼저 확인한다.
 - live 폴더 생성/이동 전에 마지막 안전 조건을 잠근다.
 - 14번 영웅과 15번 명사형 인물을 섞지 않는다.
 - 이름 충돌과 후기 확장 구역을 과확정하지 않는다.
@@ -46,12 +46,12 @@ folder gate reading은
 | `G4. Name Collision Safety` | 실비아, 아이기스, 메라, Ravenfell, 실라스 등 충돌을 병합하지 않았는가? | `pass` |
 | `G5. Need Named Candidate Safety` | 개인명 없는 슬롯에 새 이름을 만들지 않았는가? | `pass` |
 | `G6. Original Repo Safety` | 원본 저장소를 건드리지 않았는가? | `pass` |
-| `G7. Late Expansion Safety` | 범대륙 후기 확장을 메인 정본처럼 과확정하지 않았는가? | `pass_with_deferred_expansion_hold / hold reference split` |
-| `G8. Stable Triad Route Safety` | `울프가르 / 에리온 / 오그마`가 `드래곤포지 공방 / 학술-전승층 / 전승 보관층` `stable_triad_frozen_reference_set` 기준으로 분리되어 있는가? | `pass_with_frozen_reference_lock` |
-| `G9. source_check_hold Separation` | `엘다라`가 `stable_triad_frozen_reference_set`에 섞이지 않고 hold reference split 안의 `source_check_hold`로 분리되어 있는가? | `pass_with_source_check_hold / hold reference split` |
+| `G7. Late Expansion Safety` | 범대륙 후기 확장을 메인 정본처럼 과확정하지 않았는가? | `pass_with_deferred_expansion_hold / hold reference split / name_collision_watch` |
+| `G8. Stable Triad Route Safety` | `울프가르 / 에리온 / 오그마`가 `드래곤포지 공방 / 학술-전승층 / 전승 보관층` `stable_15_workset` 기준으로 분리되어 있는가? | `pass_with_frozen_reference_lock` |
+| `G9. source_check_hold Separation` | `엘다라`가 `stable_15_workset`에 섞이지 않고 hold reference split 안의 `source_check_hold`로 분리되어 있는가? | `pass_with_source_check_hold / hold reference split` |
 | `G10. Move Freeze Safety` | bridge / routing consistency 점검 단계에서도 live 파일 이동은 여전히 금지되어 있는가? | `pass` |
 | `G11. Route Hierarchy Consistency` | 상위 route anchor와 보조 place lock이 같은 계층처럼 혼용되지 않는가? | `pass_with_hierarchy_lock` |
-| `G12. stable_triad_frozen_reference_set Completeness` | `stable_triad_frozen_reference_set`과 hold reference split / hold cluster가 별도 freeze 시트까지 포함해 잠겨 있는가? | `pass_with_frozen_reference_lock` |
+| `G12. stable_15_workset Completeness` | `stable_15_workset`과 hold reference split / hold cluster가 별도 freeze 시트까지 포함해 잠겨 있는가? | `pass_with_frozen_reference_lock` |
 
 ## Risks
 
@@ -60,7 +60,7 @@ folder gate reading은
 | `에테르 후보 과밀` | `medium` | 마법협회/성국/정령연합 경계 후보는 전원 `source_check_hold / hold reference split` 또는 `keep_14` 유지. |
 | `해양 역할 슬롯 과다` | `medium` | 포트 아우렐리온/크로스윈드 포트 중심으로 장소 기능을 먼저 보존. |
 | `오벨리스크 초월 서사 과열` | `medium` | 사람보다 기록/기억/거래/죄책감/망명 기능으로 낮춰 읽음. |
-| `범대륙 후기 확장 과확정` | `medium` | 키르케는 강한 후보처럼 보일 수 있는 항목도 `deferred_expansion_hold / hold reference split`으로만 보존하고 전체 범대륙은 watch-reference mainline 바깥에 유지. |
+| `범대륙 후기 확장 과확정` | `medium` | 키르케는 강한 후보처럼 보일 수 있는 항목도 `deferred_expansion_hold / hold reference split / name_collision_watch`으로만 보존하고 전체 범대륙은 watch-reference mainline 바깥에 유지. |
 | `live 폴더 이동 시 충돌` | `high` | 아직 이동하지 않는다. 현재도 `cg` 설계문서로만 유지한다. |
 | `stable triad route drift` | `medium` | `울프가르 = 드래곤포지 공방`, `에리온 = 학술-전승층`, `오그마 = 전승 보관층` 기준을 bridge/routing docs에 고정 유지. |
 | `엘다라 premature promotion` | `medium` | `source_check_hold / hold reference split`, `정령연합 전체 14 확인 전 Hard Canon 금지`를 동시에 유지. |
@@ -92,13 +92,13 @@ folder gate reading은
 ## Gate Decision
 
 `Section_15_Folder_Structure_Draft.md`는
-`stable_triad_frozen_reference_set`과 watch-reference용으로만 유지 가능하다.
+stable triad package freeze와 watch-reference용으로만 유지 가능하다.
 
 하지만 live 폴더 이동 또는 문서 이동은 아직 금지한다.
 
 현재는 아래 세 가지를 `watch-reference 기준`으로만 유지한다.
 
-1. `stable_triad_frozen_reference_set` 유지와 closure sync / watch-reference 점검
+1. `stable_15_workset` 유지와 closure sync / watch-reference 점검
 2. `15번 live 폴더 생성/이동`은 계속 보류
 3. continent sidecar/scout/display wording umbrella는
    lower current-state watch/reference authority로만 유지
@@ -112,6 +112,6 @@ folder gate reading은
 ## Conductor Decision
 
 현재 `Section 15` 내부 기준은
-stable_triad_frozen_reference_set / hold reference split / hold cluster watch-reference snapshot을 유지한 채,
+stable triad package freeze / hold reference split / hold cluster watch-reference snapshot을 유지한 채,
 hold reference split / hold cluster 쪽 경계 보류군 유지 점검과
 carryover wording consistency를 함께 유지하는 것이다.
