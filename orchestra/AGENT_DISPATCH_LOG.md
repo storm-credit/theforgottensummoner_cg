@@ -15287,3 +15287,75 @@ Follow-up actions:
 - 그 전까지는 이 batch delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   named-notables umbrella family는 same-split watch 기준으로 유지한다.
+
+## 2026-04-25 KST - Two-Hundred-Seventh Bridge-Spine Carryover Sync Pass
+
+목적:
+
+- ordered watch의
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`
+  family가
+  같은 authority split / master-lock carryover / stable-vs-hold separation wording을 유지하는지 다시 확인한다.
+- confirmed source-of-truth drift만 반영하고,
+  bridge 기준 carryover state를 벗어난 summary-layer wording만 복구한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Lagrange` | Bridge / Compatibility Scout | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md` | `completed` |
+| `Turing` | Stable-Anchor Index Sync Scout | `Section_15_Stable_Candidate_8_Anchor_Index.md`, `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_8_Mainline_Sync_Register.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`,
+  `Section_8_Mainline_Sync_Register.md`
+  를 다시 읽고,
+  carryover state와 stable-vs-hold separation 문장을 직접 대조했다.
+- conductor는
+  `Turing`이 짚은 대로
+  `Section_8_15_Spine_Compatibility_Audit.md` 첫 문장이
+  held side를 `hold cluster` shorthand로 뭉개고 있어
+  `source_check_hold / hold reference split`,
+  `deferred_expansion_hold / hold reference split`
+  explicit split을 약화시키는 drift라고 확인했다.
+- conductor는
+  `Lagrange`가 짚은 대로
+  compatibility table의 carryover 셀 네 군데가
+  bridge 기준보다 강하거나 다른 state wording으로 이탈했다고 확인했다.
+  `크림슨`과 `프로스트`는 `mixed_keep` 대신 과한 watch label이 더해졌고,
+  `해양`은 `해적 연합 = mixed_keep` 대신 mismatch risk wording이 carryover 칸으로 올라왔으며,
+  `오벨리스크`는 `망자의 왕국 = section_style_reclassify + place_pressure_strong`
+  held pressure state가 `nontraditional_elite watch`로 약화돼 있었다.
+- conductor는
+  이번 batch에서
+  `Section_8_15_Spine_Compatibility_Audit.md`만 국소 수정해
+  intro split wording과 compatibility table carryover state를
+  bridge 기준 source-of-truth phrasing으로 복구했다.
+
+Integrated actions:
+
+- `Section_8_15_Spine_Compatibility_Audit.md` intro split wording sync
+- `Section_8_15_Spine_Compatibility_Audit.md` compatibility table carryover wording sync
+- dispatch log 2026-04-25 two-hundred-seventh pass 반영
+
+Verification:
+
+- targeted cross-check confirms the compatibility audit now matches the bridge/state source-of-truth for the held split intro and the Crimson, Frost, Oceanic, and Obelisk carryover rows.
+- `git diff --check` reports no whitespace errors for the batch delta.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- bridge-anchor / spine-index family는
+  same-carryover watch로 다시 닫힌 상태를 유지한다.
+- 이후에는 bridge 기준 carryover state가 실제로 바뀌거나
+  stable-vs-hold separation 문장이 다시 약화될 때만 다시 연다.
+- 그 전까지는 이 batch delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  bridge-anchor / spine-index family는 same-reference watch 기준으로 유지한다.

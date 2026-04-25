@@ -1,7 +1,7 @@
 # Section 8 / 15 Spine Compatibility Audit
 
 이 문서는 `8. 세력 아카이브`의 대륙별 spine과
-`15. 인물백과` stable_triad_frozen_reference_set + hold reference split / hold cluster 구조가 서로 맞는지 점검하는 감사표다.
+`15. 인물백과` stable_triad_frozen_reference_set + `source_check_hold / hold reference split`, `deferred_expansion_hold / hold reference split`, hold cluster 구조가 서로 맞는지 점검하는 감사표다.
 
 ## Input
 
@@ -46,11 +46,11 @@
 
 | Continent | Section 8 Spine | Section 8 Carryover | Section 15 Draft Match | Risk | Decision |
 |---|---|---|---|---|---|
-| `크림슨` | `tribe_clan`, `guild_market` | `용의 후예 = section_style + clan_as_state_house watch`; `붉은 사막 부족 연합 = mixed_keep + clan_as_state_house watch` | `용의 후예`, `엘드라칸`, `붉은 사막 부족`으로 라우팅되어 spine과 맞음. | `low` | 유지. 크림슨은 씨족 상층을 국가형 가문 라우팅으로 과고정하지 않는다. |
+| `크림슨` | `tribe_clan`, `guild_market` | `용의 후예 = section_style + clan_as_state_house watch`; `붉은 사막 부족 연합 = mixed_keep` | `용의 후예`, `엘드라칸`, `붉은 사막 부족`으로 라우팅되어 spine과 맞음. | `low` | 유지. 크림슨은 씨족 상층을 국가형 가문 라우팅으로 과고정하지 않는다. |
 | `에테르` | `state_house`, `guild_market`; 정령연합만 `tribe_clan` | `정령연합 = mixed_keep / special_axis_generalization` | `마법협회`, `성국`, `왕국연합`, `자유도시연합`, `정령연합`으로 분리되어 맞음. | `medium` | 정령연합 후보와 마법협회 후보가 섞이지 않게 유지. |
-| `프로스트` | `tribe_clan`, `guild_market`, state_house thin | `프로스트본 연합 = mixed_keep + clan_as_state_house watch`; `오로라 평원`, `빙하의 성소`는 `place_pressure_strong / handoff_applied` | `빙하의 성소`, `퍼마프로스트 공성단`, `오로라 평원` 중심이라 맞음. | `low` | 이름보다 장소/성소/요새 슬롯 유지. 구조 라벨과 place pressure를 섞지 않는다. |
-| `해양` | `state_house`, `guild_market`; tribe_clan weak | `해적 연합 = mixed_keep + port_power_as_tribe_clan`; `바다의 교단 = section_style_reclassify + place_pressure_strong / handoff_applied` | `황금 함대`, `거상 연합`, `해적 연합`, `바다의 교단`, 항구 도시 슬롯으로 라우팅되어 맞음. | `medium` | 도시 기능형 슬롯과 제독/히어로급 후보를 분리하고, 토착 공동체층은 `support range`를 넘겨 본체화하지 않는다. |
-| `오벨리스크` | `frontier_survival`, `guild_market`, nontraditional elite | `망자의 왕국 = section_style_reclassify + nontraditional_elite watch`; `잊힌 자들의 연합 = section_style_reclassify + watch_keep / handoff_applied`; `봉인 수호단 = section_style_reclassify + mismatch_clear` | `봉인 수호단`, `잊힌 자들의 연합`, `망자의 왕국`, 기록/기억 장소로 라우팅되어 맞음. | `medium` | 초월 어휘보다 기록/기억/거래 기능으로 낮춰 읽고, 가문/왕국 신호는 `nontraditional elite thin-support`를 넘겨 읽지 않는다. |
+| `프로스트` | `tribe_clan`, `guild_market`, state_house thin | `프로스트본 연합 = mixed_keep`; `오로라 평원`, `빙하의 성소`는 `place_pressure_strong / handoff_applied` | `빙하의 성소`, `퍼마프로스트 공성단`, `오로라 평원` 중심이라 맞음. | `low` | 이름보다 장소/성소/요새 슬롯 유지. 구조 라벨과 place pressure를 섞지 않는다. |
+| `해양` | `state_house`, `guild_market`; tribe_clan weak | `해적 연합 = mixed_keep`; `바다의 교단 = section_style_reclassify + place_pressure_strong / handoff_applied` | `황금 함대`, `거상 연합`, `해적 연합`, `바다의 교단`, 항구 도시 슬롯으로 라우팅되어 맞음. | `medium` | 도시 기능형 슬롯과 제독/히어로급 후보를 분리하고, 토착 공동체층은 `support range`를 넘겨 본체화하지 않는다. |
+| `오벨리스크` | `frontier_survival`, `guild_market`, nontraditional elite | `망자의 왕국 = section_style_reclassify + place_pressure_strong`; `잊힌 자들의 연합 = section_style_reclassify + watch_keep / handoff_applied`; `봉인 수호단 = section_style_reclassify + mismatch_clear` | `봉인 수호단`, `잊힌 자들의 연합`, `망자의 왕국`, 기록/기억 장소로 라우팅되어 맞음. | `medium` | 초월 어휘보다 기록/기억/거래 기능으로 낮춰 읽고, 가문/왕국 신호는 `nontraditional elite thin-support`를 넘겨 읽지 않는다. |
 | `범대륙 후기 확장` | deferred expansion | `canonical_root / quarantine_root / legacy_root` 분리와 `root_corruption` 경계 유지 | `키르케 영약회`만 `deferred_expansion_hold / hold reference split`으로 보존되어 맞음. | `medium` | 범대륙 전체 고정 금지. 루트 안정화 전 deferred reference only로 유지한다. |
 
 해양 자유도시/오벨리스크 제도 사례는
