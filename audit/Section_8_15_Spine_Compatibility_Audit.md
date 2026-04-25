@@ -51,7 +51,7 @@
 | `프로스트` | `tribe_clan`, `guild_market`, state_house thin | `프로스트본 연합 = mixed_keep`; `오로라 평원`, `빙하의 성소`는 `place_pressure_strong / handoff_applied` | `빙하의 성소`, `퍼마프로스트 공성단`, `오로라 평원` 중심이라 맞음. | `low` | 이름보다 장소/성소/요새 슬롯 유지. 구조 라벨과 place pressure를 섞지 않는다. |
 | `해양` | `state_house`, `guild_market`; tribe_clan weak | `해적 연합 = mixed_keep`; `바다의 교단 = section_style_reclassify + place_pressure_strong / handoff_applied` | `황금 함대`, `거상 연합`, `해적 연합`, `바다의 교단`, 항구 도시 슬롯으로 라우팅되어 맞음. | `medium` | 도시 기능형 슬롯과 제독/히어로급 후보를 분리하고, 토착 공동체층은 `support range`를 넘겨 본체화하지 않는다. |
 | `오벨리스크` | `frontier_survival`, `guild_market`, nontraditional elite | `망자의 왕국 = section_style_reclassify + place_pressure_strong`; `잊힌 자들의 연합 = section_style_reclassify + watch_keep / handoff_applied`; `봉인 수호단 = section_style_reclassify + mismatch_clear` | `봉인 수호단`, `잊힌 자들의 연합`, `망자의 왕국`, 기록/기억 장소로 라우팅되어 맞음. | `medium` | 초월 어휘보다 기록/기억/거래 기능으로 낮춰 읽고, 가문/왕국 신호는 `nontraditional elite thin-support`를 넘겨 읽지 않는다. |
-| `범대륙 후기 확장` | deferred expansion | `canonical_root / quarantine_root / legacy_root` 분리와 `root_corruption` 경계 유지 | `키르케 영약회`만 `deferred_expansion_hold / hold reference split`으로 보존되어 맞음. | `medium` | 범대륙 전체 고정 금지. 루트 안정화 전 deferred reference only로 유지한다. |
+| `범대륙 후기 확장` | deferred expansion | `canonical_root / quarantine_root / legacy_root` 분리와 `root_corruption` 경계 유지 | `키르케 영약회`만 `deferred_expansion_hold / hold reference split / name_collision_watch`으로 보존되어 맞음. | `medium` | 범대륙 전체 고정 금지. 루트 안정화 전 deferred reference only로 유지한다. |
 
 해양 자유도시/오벨리스크 제도 사례는
 People Worth Seeking 즉시 승인 근거가 아니라

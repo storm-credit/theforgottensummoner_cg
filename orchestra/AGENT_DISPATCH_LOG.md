@@ -17438,3 +17438,117 @@ Follow-up actions:
   stable-vs-hold split 혼용이
   다시 올라올 때만
   이 family를 다시 연다.
+
+## 2026-04-26 KST - Two-Hundred-Twenty-Eighth Bridge Adjacent State Sync Pass
+
+목적:
+
+- 이번 wake-up에서는
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`
+  bridge-anchor 인접층이
+  `closure sync / watch-reference`
+  mainline,
+  stable-vs-hold separation,
+  deferred-expansion suffix를
+  같은 current-state wording으로 유지하는지 점검하고,
+  confirmed drift만
+  국소 sync로 닫는다.
+- bridge table shorthand는
+  authority family 안의 허용 압축인지,
+  아니면 실제 state drift인지
+  read-only 교차감사로 먼저 분리한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Noether` | Bridge Table Drift Scout | `Section_8_to_15_Notable_Anchor_Bridge.md`, smallest relevant authority family | `completed` |
+| `Planck` | Compatibility / Index State Scout | `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`, `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_15_Named_Notables_Register.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md`, directly relevant authority lines | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 먼저 다시 읽고,
+  summary family 다음 안전 순서인
+  bridge-anchor 인접층을
+  이번 배치 대상으로 잡았다.
+- conductor는
+  로컬 검색으로
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`
+  와
+  `Section_15_Named_Notables_Name_Collision_Register.md`,
+  `Section_15_Named_Notables_Oceanic_Scout.md`,
+  `Section_15_Named_Notables_Register.md`,
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`
+  authority line을 먼저 대조했다.
+- conductor는
+  `Noether`
+  보고를 따라
+  bridge table의 Ether/Oceanic shorthand와
+  lower-authority phrasing이
+  현재 authority family 안의 허용 압축 수준이며
+  이번 배치에서 patch-worthy drift는 아니라고 판단해
+  `Section_8_to_15_Notable_Anchor_Bridge.md`
+  본문은 no-change로 유지했다.
+- conductor는
+  `Planck`
+  보고를 따라
+  `Section_8_15_Spine_Compatibility_Audit.md`
+  의
+  범대륙 후기 확장 row가
+  `실비아`
+  suffix에서
+  `name_collision_watch`
+  를 빠뜨린 것을 확인하고,
+  `deferred_expansion_hold / hold reference split / name_collision_watch`
+  current-state label로 복구했다.
+- conductor는
+  같은 보고를 따라
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`
+  의
+  `Routing Consequence`
+  block이
+  현재 기준을
+  `stable_triad_frozen_reference_set`
+  유지 단계처럼 읽히게 만들고,
+  stable/hold state를 한 줄로 뭉개는 drift를 확인했다.
+- conductor는
+  이 block을
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  mainline 유지,
+  `stable_15_workset / route_hierarchy_locked`는 stable 쪽,
+  `source_check_hold / hold reference split`,
+  `deferred_expansion_hold / hold reference split`는 hold 쪽 분리 유지
+  문장으로 다시 정규화했다.
+
+Integrated actions:
+
+- `Section_8_15_Spine_Compatibility_Audit.md` deferred-expansion `name_collision_watch` suffix sync
+- `Section_15_Stable_Candidate_8_Anchor_Index.md` watch-reference basis and stable-vs-hold separation sync
+- dispatch log 2026-04-26 two-hundred-twenty-eighth pass 반영
+
+Verification:
+
+- targeted cross-check confirms the compatibility row now keeps the full `deferred_expansion_hold / hold reference split / name_collision_watch` suffix for `실비아`.
+- targeted cross-check confirms the stable-candidate index now states the active mainline as `5대륙 closure sync / Section 8 -> 15 watch-reference` and keeps stable vs hold states separated.
+- targeted cross-check confirms the bridge table remains no-change and stays within the allowed shorthand range for its authority family.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- bridge-anchor 인접층은
+  current-state watch/reference wording 기준으로
+  다시 닫힌 상태를 유지한다.
+- 이후에는
+  deferred-expansion suffix 손실,
+  stable-vs-hold basis 붕괴,
+  bridge row shorthand의 실제 state drift 전환이
+  다시 올라올 때만
+  이 family를 다시 연다.

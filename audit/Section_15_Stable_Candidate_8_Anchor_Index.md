@@ -78,7 +78,11 @@
 ## Routing Consequence
 
 현재 watch-reference 기준은
-stable_triad_frozen_reference_set를 유지하는 단계이며,
+`5대륙 closure sync / Section 8 -> 15 watch-reference`
+유지이며,
+`stable_15_workset / route_hierarchy_locked`는 stable 쪽에,
+`source_check_hold / hold reference split`,
+`deferred_expansion_hold / hold reference split`는 hold 쪽에 분리 유지한다.
 `울프가르 -> 에리온 -> 오그마 -> 엘다라` 순의 재판정 흐름도 열지 않는다.
 
 지금 이 색인의 역할은
