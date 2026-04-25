@@ -104,7 +104,7 @@ operational lower-card carryover reference로만 유지한다.
 
 현재 watch-reference 기준:
 
-1. `Section_15_Stable_Candidate_8_Anchor_Index.md`의 `stable_triad_frozen_reference_set / source_check_hold / hold reference split / deferred_expansion_hold / hold reference split` 상태를 bridge와 `stable_triad_frozen_reference_set`에서 계속 같은 상태어로 유지한다.
+1. `Section_15_Stable_Candidate_8_Anchor_Index.md`의 `stable_15_workset / source_check_hold / hold reference split / deferred_expansion_hold / hold reference split` 상태를 bridge와 stable package family에서 계속 같은 상태어로 유지한다.
 2. `P2 place-pressure handoff owner`는 candidate index가 아니라 sidecar/register에서 계속 관리한다.
 3. 원본 접근이 가능해질 때까지는 새 candidate를 늘리지 않고 `P0 / P2 / carryover sync`만 유지한다.
 4. 현재 watch-reference mainline은 `Section_8_15_Closure_Sync_Carryover_Watch.md` 기준 `5대륙 closure sync / Section 8 -> 15 watch-reference`로 유지한다.

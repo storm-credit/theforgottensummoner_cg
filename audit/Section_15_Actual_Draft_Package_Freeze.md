@@ -43,9 +43,9 @@ package freeze reading은
 
 | Candidate | Freeze State | Upper Route Anchor | Place Lock | Boundary Rule |
 |---|---|---|---|---|
-| `울프가르 드래곤포지` | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `드래곤포지`, `프라이멀 엠버` | 14 독립 파일 확인 전 Hard Canon 고정 금지 |
-| `에리온 드라코비스` | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution / name_collision_watch` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` | `에리온 베르날리스` 병합 금지, 14 독립 파일 확인 전 Hard Canon 고정 금지 |
-| `오그마` | `stable_triad_frozen_reference_set / route_hierarchy_locked / act_watch` | `크림슨 / 엘드라칸 / 전승 보관층` | `몽상가의 바위`, `지혜의 샘` | Act 중심성 급상승 전까지 15 전승 보관자 읽기 유지 |
+| `울프가르 드래곤포지` | `stable_15_workset / route_hierarchy_locked / grade_caution` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `드래곤포지`, `프라이멀 엠버` | 14 독립 파일 확인 전 Hard Canon 고정 금지 |
+| `에리온 드라코비스` | `stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` | `크림슨 / 엘드라칸 / 학술-전승층` | `엘드라칸 학자 구역`, `용언 도서관` | `에리온 베르날리스` 병합 금지, 14 독립 파일 확인 전 Hard Canon 고정 금지 |
+| `오그마` | `stable_15_workset / route_hierarchy_locked / act_watch` | `크림슨 / 엘드라칸 / 전승 보관층` | `몽상가의 바위`, `지혜의 샘` | Act 중심성 급상승 전까지 15 전승 보관자 읽기 유지 |
 
 ## Hold Reference Split
 

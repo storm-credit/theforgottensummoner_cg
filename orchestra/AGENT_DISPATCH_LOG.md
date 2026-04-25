@@ -15687,3 +15687,100 @@ Follow-up actions:
 - 그 전까지는 이 batch delta를 commit/push한 뒤,
   새 local drift가 생기기 전까지
   summary family는 same-reference watch 기준으로 유지한다.
+
+## 2026-04-25 KST - Two-Hundred-Twelfth Stable-Package State Token Sync Pass
+
+목적:
+
+- 직전 pass에서 보류했던
+  `stable_triad_frozen_reference_set`
+  family label과 canonical stable-package state의 split을
+  source-family / state-bearing field 층으로 나눠 다시 판정한다.
+- source-family prose label은 유지하되,
+  `Freeze State`, `State Label`, `Package State`, `routing_state`,
+  그리고 bridge/compatibility의 explicit state-token line만
+  `stable_15_workset`
+  기준으로 국소 복구한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Volta` | Stable-Package Source-Family Scout | `Section_15_Actual_Draft_Package_Freeze.md`, `Section_15_Named_Notables_Register.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`, `Section_15_State_Vocabulary_Guard.md` | `completed` |
+| `Faraday` | Bridge / Index Token Scout | `Section_8_to_15_Notable_Anchor_Bridge.md`, `Section_8_15_Spine_Compatibility_Audit.md`, `Section_15_Index_Draft.md`, `Section_15_Stable_Candidate_8_Anchor_Index.md`, `Section_15_State_Vocabulary_Guard.md` | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 다시 읽고,
+  이번 wake-up에서도 메인 본선이
+  `5대륙 closure sync / Section 8 -> 15 watch-reference`
+  유지인지 먼저 재확인했다.
+- conductor는
+  `Volta`가 짚은 대로
+  `stable_triad_frozen_reference_set`
+  이
+  `Section_15_Actual_Draft_Package_Freeze.md`
+  제목/묶음 설명/무결성 점검 문맥에서는
+  intentional source-family label로 남아 있지만,
+  `Freeze State`,
+  `State Label`,
+  `Package State`,
+  `routing_state`
+  같은 state-bearing field에서는
+  `Section_15_State_Vocabulary_Guard.md`
+  기준 canonical state
+  `stable_15_workset`
+  으로 내려가야 한다고 확인했다.
+- conductor는
+  `Faraday`가 짚은 대로
+  bridge / compatibility / stable-index 인접층에서도
+  같은 token split이 남아 있음을 확인했다.
+  다만 prose family label로 읽히는
+  제목, bundle 설명, `이미 닫혀 있으므로 다시 열지 않는다`
+  같은 문장은 이번 batch에서 유지하고,
+  explicit state-token line만 수정 대상으로 좁혔다.
+- conductor는
+  이번 batch에서
+  `Section_15_Actual_Draft_Package_Freeze.md`,
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Stable_Candidate_8_Anchor_Index.md`,
+  `Section_8_to_15_Notable_Anchor_Bridge.md`,
+  `Section_8_15_Spine_Compatibility_Audit.md`
+  다섯 문서만 국소 수정해
+  state-bearing field와 explicit state-token line의
+  `stable_triad_frozen_reference_set`
+  를
+  `stable_15_workset`
+  으로 정규화했다.
+
+Integrated actions:
+
+- `Section_15_Actual_Draft_Package_Freeze.md` freeze-state token sync
+- `Section_15_Named_Notables_Register.md` state-label token sync
+- `Section_15_Stable_Candidate_8_Anchor_Index.md` package-state / routing-state token sync
+- `Section_8_to_15_Notable_Anchor_Bridge.md` explicit state-token sync
+- `Section_8_15_Spine_Compatibility_Audit.md` explicit state-token sync
+- dispatch log 2026-04-25 two-hundred-twelfth pass 반영
+
+Verification:
+
+- targeted cross-check confirms the stable-package source family now keeps `stable_triad_frozen_reference_set` only as a prose/source-bundle label while state-bearing fields use canonical `stable_15_workset`.
+- targeted cross-check confirms bridge / compatibility / stable-index adjacent lines no longer split the stable-package token against `Section_15_State_Vocabulary_Guard.md` and `Section_15_Index_Draft.md`.
+- `git diff --check` reports no whitespace errors for the batch delta.
+- unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- stable-package source family는
+  same-reference watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  `stable_triad_frozen_reference_set`
+  prose family label 자체를 rename해야 할 필요가 생기거나,
+  state-bearing field에 legacy token이 다시 올라올 때만 다시 연다.
+- 그 전까지는 이 batch delta를 commit/push한 뒤,
+  새 local drift가 생기기 전까지
+  stable-package token family는 same-reference watch 기준으로 유지한다.

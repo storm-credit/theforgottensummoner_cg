@@ -32,9 +32,9 @@
 
 | Candidate | Section 8 Anchor | Section 8 Carryover | Package State | 15 Routing State | Boundary Guard |
 |---|---|---|---|---|
-| `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `용의 후예 = section_style + clan_as_state_house watch` | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution` | stable_triad_frozen_reference_set 안 | 14 독립 파일 확인 전 Hard Canon 고정 금지 |
-| `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `크림슨 tribe_clan spine 아래 학술-전승 anchor 유지` | `stable_triad_frozen_reference_set / route_hierarchy_locked / grade_caution / name_collision_watch` | stable_triad_frozen_reference_set 안 | `에리온 베르날리스` 병합 금지 |
-| `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `크림슨 tribe_clan spine 아래 memory-institution anchor 유지` | `stable_triad_frozen_reference_set / route_hierarchy_locked / act_watch` | stable_triad_frozen_reference_set 안 | place lock은 개별 시트에만 두고 act-risk watch 아래서만 15 전승 보관자 읽기 유지 |
+| `울프가르 드래곤포지` | `크림슨 / 용의 후예 / 드래곤포지 공방` | `용의 후예 = section_style + clan_as_state_house watch` | `stable_15_workset / route_hierarchy_locked / grade_caution` | `stable_15_workset / route_hierarchy_locked` | 14 독립 파일 확인 전 Hard Canon 고정 금지 |
+| `에리온 드라코비스` | `크림슨 / 엘드라칸 / 학술-전승층` | `크림슨 tribe_clan spine 아래 학술-전승 anchor 유지` | `stable_15_workset / route_hierarchy_locked / grade_caution / name_collision_watch` | `stable_15_workset / route_hierarchy_locked` | `에리온 베르날리스` 병합 금지 |
+| `오그마` | `크림슨 / 엘드라칸 / 전승 보관층` | `크림슨 tribe_clan spine 아래 memory-institution anchor 유지` | `stable_15_workset / route_hierarchy_locked / act_watch` | `stable_15_workset / route_hierarchy_locked` | place lock은 개별 시트에만 두고 act-risk watch 아래서만 15 전승 보관자 읽기 유지 |
 | `엘다라` | `에테르 / 정령연합 / 루미라` | `정령연합 = mixed_keep / special_axis_generalization` | `source_check_hold / hold reference split` | hold reference split 안 `source_check_hold` reference | hold reference split reference only; `stable_triad_frozen_reference_set`와 섞지 않는다 |
 | `실비아` | `범대륙 후기 확장 / 키르케 영약회` | `deferred expansion + canonical_root / quarantine_root / legacy_root guard` | `deferred_expansion_hold / hold reference split / name_collision_watch` | hold reference split 안 `deferred_expansion_hold` reference | deferred-expansion reference는 watch-reference mainline 바깥에 둔다 |
 
@@ -53,7 +53,7 @@
   `audit/Five_Continent_Missing_Layer_Master_Lock.md`를 단일 entry로 참조한다.
 1. stable_triad_frozen_reference_set은 `Section 8` 앵커가 먼저고, grade/act caution은 그다음이다.
 2. `mixed_keep`는 미완 판정이 아니라 살아 있는 구조 예외다.
-3. `source_check_hold / hold reference split`와 `deferred_expansion_hold / hold reference split`는 `stable_triad_frozen_reference_set`에 섞지 않는다.
+3. `source_check_hold / hold reference split`와 `deferred_expansion_hold / hold reference split`는 `stable_15_workset`에 섞지 않는다.
 4. `structure label`과 `place pressure`는 같은 칸에 쓰지 않는다.
 5. 이 색인은 `Section 8 P2 place-pressure` owner를 가져오지 않고 route/reference만 유지한다.
 6. `stable_triad_frozen_reference_set` 카드와 hold reference split 카드에 내려간 개별 `Policy Guard`는 이 색인보다 아래 카드층의 해석 우선권을 가진다.
@@ -83,7 +83,7 @@ stable_triad_frozen_reference_set를 유지하는 단계이며,
 
 지금 이 색인의 역할은
 이미 잠근 `Section 8` 앵커와
-`stable_triad_frozen_reference_set / source_check_hold / hold reference split / deferred_expansion_hold / hold reference split`
+`stable_15_workset / source_check_hold / hold reference split / deferred_expansion_hold / hold reference split`
 상태어를 closure sync / watch-reference 기준으로 유지하는 것이다.
 continent sidecar/scout/display wording umbrella도
 lower current-state watch/reference authority로만 읽는다.
