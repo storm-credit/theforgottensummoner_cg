@@ -24,7 +24,7 @@
 6. `Section_8_Status_Vocabulary_Guard.md`, `Section_15_State_Vocabulary_Guard.md` 기준으로 status vocabulary drift 제거
 7. `Section_8_Mainline_Sync_Register.md` 기준으로 sync group drift 제거
 8. 카드층 `Policy Guard`의 guard family / carryover direction이 `Section 15`의 status / index / folder / routing / anchor-map / stable-candidate-QA 문서까지 같은 해석선으로 유지되는지 확인
-9. operational profile layer의 `3-1. Policy Guard` 형식이 `Profile_Draft_Index / Operational_Lines_Track / Operational_Display_Canon_Candidates / Intake_Structure / Folder_Revision_Gate`에서 같은 규칙으로 유지되는지 확인
+9. operational profile layer가 `Section_15_Profile_Template.md`의 `3-1. Policy Guard` 형식을 유지한 채 `Profile_Draft_Index / Operational_Lines_Track / Operational_Display_Canon_Candidates / Intake_Structure / Folder_Revision_Gate`에 같은 규칙으로 연결되는지 확인
 10. 상위 summary / bridge / queue 문서가 lower-card authority를 재정의하지 않고,
    operational profile의 `3-1. Policy Guard`를 참조만 하는지 확인
 11. operational middle-layer (`Group Index / Group Draft / Subline Register / Subline Draft`)의 wording-source sync가 닫힌 상태로 유지되는지 확인
@@ -80,7 +80,8 @@
 16. subline draft/profile 교차감사도 이미 닫힌 reference 상태로 유지하고,
    새 drift가 생길 때만 국소 수정한다
 17. `subline_profile_authority` sync group이
-   status vocabulary / mainline sync / summary / bridge / watch 문서에 같은 문장으로 유지되는지 확인
+   `Section_15_State_Vocabulary_Guard.md`, `Section_8_Mainline_Sync_Register.md`,
+   summary / bridge / watch 문서에 같은 문장으로 유지되는지 확인
 18. continent sidecar/scout/display wording umbrella가
    Frost / Oceanic / Ether / Obelisk family 모두에서
    future-only task가 아니라 current-state watch/reference로 읽히는지 확인
