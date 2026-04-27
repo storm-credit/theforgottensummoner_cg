@@ -82,15 +82,15 @@ Archived cover-tone alternates:
 
 ## Suggested Table of Contents Shape
 
-1. Opening: How to Read This World
-2. Part I. The Five Continents
-3. Part II. Powers, Orders, and Hidden Systems
-4. Part III. People Worth Seeking
-5. Part IV. Names, Languages, and World Tone
-6. Part V. Relics, Gear, Trade Goods, and Things People Want
-7. Part VI. Peoples, Bloodlines, Monsters, and Changed States
-8. Part VII. Places, Routes, and Maps That Create Story
-9. Part VIII. Appendix and Production Notes
+1. 이 세계를 읽는 법
+2. 다섯 대륙
+3. 힘과 질서, 숨은 체계
+4. 이야기를 여는 장소와 길
+5. 찾아가야 할 이름들
+6. 이름, 언어, 세계의 톤
+7. 사람들이 원하는 유물과 물건들
+8. 사람들, 혈통, 괴물, 변화한 상태
+9. 부록: 경계와 추가 안내
 
 ## Intended Readers
 

@@ -54,12 +54,12 @@ Release-candidate trigger:
 
 The preview body currently covers:
 
-1. Opening: How to Read This World
-2. Part I. The Five Continents: Ether Continent Preview
-3. Part VII. Places, Routes, and Maps That Create Story
-4. Part III. People Worth Seeking
-5. Part V. Relics, Gear, Trade Goods, and Things People Want
-6. Part VI. Peoples, Bloodlines, Monsters, and Changed States
+1. 이 세계를 읽는 법
+2. 다섯 대륙: 에테르 대륙 미리보기
+3. 이야기를 여는 장소와 길
+4. 찾아가야 할 이름들
+5. 사람들이 원하는 유물과 물건들
+6. 사람들, 혈통, 괴물, 변화한 상태
 
 The preview body does not yet try to replace the full 0-8 technical chapter package.
 It demonstrates the readable shape of the setting book.

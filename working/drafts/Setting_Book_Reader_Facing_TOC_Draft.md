@@ -7,7 +7,25 @@ This draft translates the technical 0-8 setting-book package into a cleaner read
 The internal draft package preserves source priority, canon tier, registers, and verification rules. This table of contents points toward the version a reader, collaborator, artist, composer, or adaptation partner could open without needing to understand the audit machinery first.
 It is a structure/source guide, not the direct-share manuscript itself.
 
-## Reader-Facing Structure
+## Post-Closeout Reader-Facing Order
+
+The post-closeout order follows the reader-facing layout gate, not the older technical draft order.
+
+| Order | Reader-Facing Section |
+| --- | --- |
+| 1 | 이 세계를 읽는 법 |
+| 2 | 다섯 대륙 |
+| 3 | 힘과 질서, 숨은 체계 |
+| 4 | 이야기를 여는 장소와 길 |
+| 5 | 찾아가야 할 이름들 |
+| 6 | 이름, 언어, 세계의 톤 |
+| 7 | 사람들이 원하는 유물과 물건들 |
+| 8 | 사람들, 혈통, 괴물, 변화한 상태 |
+| 9 | 부록: 경계와 추가 안내 |
+
+## Section Notes
+
+The notes below describe section purpose and source support. They are not a separate ordering authority.
 
 ### Opening: How to Read This World
 
@@ -30,7 +48,7 @@ Reader-facing treatment:
 - Do not expose internal state labels.
 - Explain that some entries are confirmed, some are uncertain, and some are preserved as rumors.
 
-### Part I. The Five Continents
+### The Five Continents
 
 This part introduces the world through its major continental identities.
 
@@ -52,7 +70,7 @@ Reader-facing treatment:
 - Use social conflicts before tables.
 - Keep missing layers as quiet development notes unless the absence itself is interesting.
 
-### Part II. Powers, Orders, and Hidden Systems
+### Powers, Orders, and Hidden Systems
 
 This part explains factions without turning the book into an organization chart.
 
@@ -77,7 +95,7 @@ Reader-facing treatment:
 - Avoid overloading readers with root, pressure, or label terminology.
 - Use clean display names from the naming chapter.
 
-### Part III. People Worth Seeking
+### People Worth Seeking
 
 This part separates central heroes from figures who make the world feel inhabited.
 
@@ -99,7 +117,7 @@ Reader-facing treatment:
 - Put verification queues in appendix.
 - Do not demote main heroes into background figures for convenience.
 
-### Part IV. Names, Languages, and World Tone
+### Names, Languages, and World Tone
 
 This part explains why names sound the way they do.
 
@@ -122,7 +140,7 @@ Reader-facing treatment:
 - If body prose mentions repeated or shared names, explain the reading effect here and keep unresolved identity tracking in appendix.
 - Keep modern crime or corporate labels out of polished faction display unless intentionally used.
 
-### Part V. Relics, Gear, Trade Goods, and Things People Want
+### Relics, Gear, Trade Goods, and Things People Want
 
 This part makes the object layer desirable.
 
@@ -146,7 +164,7 @@ Reader-facing treatment:
 - Include owner, origin, cost, rumor, and map anchor.
 - Keep raw candidate lists in appendix until promoted.
 
-### Part VI. Peoples, Bloodlines, Monsters, and Changed States
+### Peoples, Bloodlines, Monsters, and Changed States
 
 This part prevents the world from flattening every non-human term into one category.
 
@@ -168,7 +186,7 @@ Reader-facing treatment:
 - Keep uncertain groups mysterious but controlled.
 - Make monsters useful as ecology, fear, rumor, and scene pressure.
 
-### Part VII. Places, Routes, and Maps That Create Story
+### Places, Routes, and Maps That Create Story
 
 This part turns geography into narrative movement.
 
@@ -191,7 +209,7 @@ Reader-facing treatment:
 - Routes should carry goods, rumors, danger, and political pressure.
 - Do not overdraw unsupported city maps too early.
 
-### Part VIII. Appendix and Production Notes
+### Appendix: Boundaries and Further Guides
 
 This part preserves verification without interrupting the reader-facing body.
 
@@ -220,10 +238,10 @@ Reader-facing treatment:
 
 ## Recommended Polishing Order
 
-1. Polish the opening and Part I. first because they define the reader's emotional entry.
-2. Polish faction and people sections second because they depend on continent framing.
-3. Polish naming before finalizing public names across the manuscript.
-4. Polish relics, species, and maps after the body voice is stable.
+1. Polish the opening and continent sections first because they define the reader's emotional entry.
+2. Polish powers and places next because they turn world identity into movement and pressure.
+3. Polish people and naming after the world routes are clear.
+4. Polish relics and species after the body voice is stable.
 5. Build appendices last, after body prose decides what must be traceable.
 
 ## Style Target

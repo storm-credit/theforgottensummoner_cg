@@ -18578,3 +18578,42 @@ Verification:
 Follow-up actions:
 
 - if the next pass remains safe, continue with a targeted reader-facing layout scan rather than broad preview rewriting.
+
+## 2026-04-28 KST - Two-Hundred-Forty-First Support TOC Alignment Pass
+
+목적:
+
+직접 공유 preview는 정리됐지만,
+support 문서의 preview package / front matter / reader-facing TOC가
+예전 Part numbering과 `Production Notes` 표현을 계속 가리키면
+다음 루프에서 다시 혼선이 생길 수 있다.
+이번 배치는 본문 재작성 없이 support TOC 라벨만
+post-closeout reader-facing order에 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local support-doc alignment | `Preview_Package`, `Front_Matter`, `Reader_Facing_TOC`, status records | `completed` |
+
+Conductor action:
+
+- conductor aligned `Setting_Book_Preview_Package_v0.md` body-spine labels with the current Korean reader-facing preview labels.
+- conductor aligned `Setting_Book_Front_Matter_Draft.md` suggested TOC shape with the post-closeout reader-facing order.
+- conductor added an explicit post-closeout order table to `Setting_Book_Reader_Facing_TOC_Draft.md` and removed old visible Part-number authority from its section headings.
+- conductor kept this support-doc-only and did not reopen broad preview prose.
+
+Integrated actions:
+
+- support TOC order alignment for preview package, front matter, reader-facing TOC.
+- assembly index, dashboard, and thread checkpoint updated with the alignment result.
+
+Verification:
+
+- support-label scan found no remaining old Part-number labels or `Appendix and Production Notes` wording in the touched support docs.
+- `git diff --check` passed with LF/CRLF warnings only.
+- commit is limited to support TOC alignment, status records, and dispatch log; manifest metadata flags are intentionally excluded.
+
+Follow-up actions:
+
+- continue the loop with support-doc consistency scans before any broader v1 packaging move.

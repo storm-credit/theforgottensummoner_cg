@@ -121,6 +121,7 @@
 - cleanup closeout을 추가해 설정집 정리 루프를 `closed_for_current_cleanup / watch-reference mode`로 닫음
 - post-closeout assembly gate를 추가해 다음 기본 방향을 reader-facing layout으로 고정
 - `Setting_Book_Preview_Readable_v0.md`의 visible Part 번호, raw support-doc filename, backstage production-note wording을 독자용 preview 기준으로 정리
+- preview package, front matter, reader-facing TOC support docs의 예전 Part label도 post-closeout reader-facing order로 정렬
 
 ## Core Files
 
