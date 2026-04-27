@@ -10,6 +10,8 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 
 - Stable shareable manuscript: `Setting_Book_Preview_Readable_v0.md`
 - Stable compressed reference: `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
+- Cleanup closeout boundary: `audit/Setting_Book_Cleanup_Closeout.md`
+- Post-closeout assembly gate: `Setting_Book_Post_Closeout_Assembly_Gate.md`
 - Main hub now exposes direct faction/people/items/places/species entry routes.
 - 00-09 hub wikilink integrity scan currently passes.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains intentionally untouched by this pass.
@@ -43,6 +45,7 @@ It is not the final setting book. It is the conductor sheet for turning the chap
 | `Setting_Book_Filename_Decision_Matrix.md` | Explains why preview, prototype, and package-guide filenames stay separate until naming hold is cleared. |
 | `Setting_Book_Packaging_Direction_Matrix.md` | Decides whether the next preserved artifact should be reader-facing layout or production bible. |
 | `Setting_Book_Next_Preserved_Artifact_Scope.md` | Fixes the actual include/exclude scope for the next preserved artifact candidate. |
+| `Setting_Book_Post_Closeout_Assembly_Gate.md` | Starts the post-cleanup assembly phase and fixes reader-facing layout as the current default gate. |
 | `Setting_Book_Preview_Readable_v0.md` | Serves as the current shareable readable preview manuscript. |
 | `Setting_Book_Faction_Core_Profiles_v0.md` | Serves as the faction-first bridge between the readable preview and the deeper continent/faction records. |
 | `Setting_Book_People_Core_Profiles_v0.md` | Serves as the people-first bridge between the readable preview and the deeper 14/15 reference layer. |
@@ -124,17 +127,20 @@ Completed checks:
 - A full 00-09 hub wikilink integrity scan passed with no missing Obsidian targets.
 - Hub completion checklist now treats the 00-09 wikilink integrity scan as part of hub-finish evidence.
 - Hub completion checklist now also records the new direct axis-entry route from the main hub.
+- Cleanup closeout now formally closes the current setting-book cleanup loop in `closed_for_current_cleanup / watch-reference mode`.
+- Post-closeout assembly gate now keeps `Preview_Readable_v0` as the shareable manuscript, `Prototype_v0` as compressed reference, and reader-facing layout as the default next artifact direction.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
 
 Recommended next sequence:
 
-1. Keep the filename hold documented and do not reopen RC renaming until packaging becomes the next preserved artifact.
-2. Re-evaluate layout direction only after the next reader-facing vs production-bible need becomes concrete.
-3. Add row-level evidence only for the next actually promoted Appendix B/C entry.
-4. Prepare a short checkpoint summary for thread handoff if context gets too long.
-5. At stable milestones, run the `Main Push Gate` before pushing to `main`.
+1. Follow `Setting_Book_Post_Closeout_Assembly_Gate.md` before reopening any broad setting-book work.
+2. Keep the filename hold documented and do not reopen RC renaming until packaging becomes the next preserved artifact.
+3. Re-evaluate layout direction only after the next reader-facing vs production-bible need becomes concrete.
+4. Add row-level evidence only for the next actually promoted Appendix B/C entry.
+5. Prepare a short checkpoint summary for thread handoff if context gets too long.
+6. At stable milestones, run the `Main Push Gate` before pushing to `main`.
 
 ## Main Push Gate
 
@@ -196,6 +202,6 @@ Recommended next sequence:
 
 ## Conductor Decision
 
-The setting-book recomposition has moved from source-map setup and sample generation into prototype manuscript state.
+The setting-book recomposition has moved from source-map setup and sample generation into post-closeout prototype manuscript state.
 
-The next meaningful work is controlled refinement: keep `preview_v0_readable` stable as the shareable preview package, keep `Prototype_v0` as the compressed reference file, treat Appendix A-E targeted notes as enough for the current preview tier, and re-open the release-candidate file question only when packaging becomes the next preserved artifact.
+The next meaningful work is controlled reader-facing layout refinement: keep `preview_v0_readable` stable as the shareable preview package, keep `Prototype_v0` as the compressed reference file, treat Appendix A-E targeted notes as enough for the current preview tier, and re-open the release-candidate file question only when packaging becomes the next preserved artifact.

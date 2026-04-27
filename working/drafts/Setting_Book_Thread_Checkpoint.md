@@ -10,11 +10,14 @@
 지금 한 줄 상태:
 
 - 설정집은 `shareable preview v0` 안정화 단계다.
+- 설정집 cleanup loop는 `audit/Setting_Book_Cleanup_Closeout.md` 기준으로 닫혔다.
+- 다음 루프는 `Setting_Book_Post_Closeout_Assembly_Gate.md` 기준의 reader-facing layout gate다.
 - 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`
 - 압축 reference는 `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`
 - 메인 허브에서는 세력/인물/유물/장소/종족 축으로 바로 진입 가능하다.
 - 00-09 허브 위키링크 무결성 스캔은 통과했다.
 - 사용자 작업 파일 `working/crosswalks/Extracted_Item_Candidates.md`는 계속 untouched로 분리 유지한다.
+- `reference/manifests/factions_manifest.md`와 `reference/manifests/heroes_manifest.md`의 modified flag는 content delta 없는 line-ending/index metadata noise로 보고, manifest는 reference/appendix-only로 유지한다.
 
 지금 다시 열 필요가 없는 것:
 
@@ -22,6 +25,8 @@
 - 조기 RC rename
 - production bible 확장
 - Appendix B/C의 무근거 전행 확장
+- cleanup loop 재개
+- manifest/root inventory를 canon authority로 승격
 
 다음에 정말 다시 열릴 수 있는 것:
 
@@ -113,6 +118,8 @@
 - people/items/places/species 허브에도 축별 `지금 고정된 것 / 아직 안 닫힌 것` 스냅샷을 추가
 - 00-09 허브 전체 위키링크 무결성 스캔을 돌려 missing target이 없음을 확인
 - hub completion checklist에도 링크 무결성 스캔 통과를 완료 기준으로 반영
+- cleanup closeout을 추가해 설정집 정리 루프를 `closed_for_current_cleanup / watch-reference mode`로 닫음
+- post-closeout assembly gate를 추가해 다음 기본 방향을 reader-facing layout으로 고정
 
 ## Core Files
 
@@ -164,6 +171,7 @@
 - `working/drafts/Setting_Book_Preview_Readable_v0.md`
 - `working/drafts/Setting_Book_Document_Roles_Map.md`
 - `working/drafts/Setting_Book_Current_Status_Dashboard.md`
+- `working/drafts/Setting_Book_Post_Closeout_Assembly_Gate.md`
 - `working/drafts/Setting_Book_Faction_Core_Profiles_v0.md`
 - `working/drafts/Setting_Book_People_Core_Profiles_v0.md`
 - `working/drafts/Setting_Book_Places_Core_Profiles_v0.md`
@@ -172,6 +180,7 @@
 
 ## Recent Commit Line
 
+- `1c7af6c Close setting-book cleanup`
 - `d9434d7 Record hub link scan in dashboard`
 - `34cf61c Refresh hub checklist handoff`
 - `c212ab3 Record hub checklist link scan`
@@ -295,10 +304,11 @@
 ## Recommended Next Queue
 
 1. v1 gate가 더 조여진 뒤 release-candidate file trigger를 다시 판정
-2. `Setting_Book_Next_Preserved_Artifact_Scope.md` 기준으로 reader-facing scope를 유지할지 production bible scope로 전환할지 다시 좁힘
-3. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
-4. 필요할 때만 Appendix B/C 개별 행 evidence note 추가
-5. 안정 마일스톤마다 `main push gate` 확인
+2. `Setting_Book_Post_Closeout_Assembly_Gate.md` 기준으로 reader-facing layout 기본값을 유지
+3. `Setting_Book_Next_Preserved_Artifact_Scope.md` 기준으로 reader-facing scope를 유지할지 production bible scope로 전환할지 다시 좁힘
+4. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
+5. 필요할 때만 Appendix B/C 개별 행 evidence note 추가
+6. 안정 마일스톤마다 `main push gate` 확인
 
 ## Main Push Gate
 

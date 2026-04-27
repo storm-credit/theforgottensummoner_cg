@@ -26,6 +26,10 @@
 충돌이 생기면 `audit/FS_Source_Priority_Register.md`와
 `audit/FS_Canon_Tier_Register.md`를 먼저 본다.
 
+Post-closeout work also reads `audit/Setting_Book_Cleanup_Closeout.md` first.
+That file closes the cleanup loop and prevents broad reassembly, candidate discovery,
+manifest promotion, or production-bible expansion from reopening by default.
+
 ## Reassembly Chapters
 
 | Setting Book Chapter | Primary Sources | Secondary Sources | Reassembly Rule |
@@ -43,6 +47,8 @@
 ## Current Mainline Locks
 
 - `Section 8 -> 15` 본선은 `mainline reference carryover` 상태로 유지한다.
+- `audit/Setting_Book_Cleanup_Closeout.md`는 cleanup 종료 boundary로 유지한다.
+- `working/drafts/Setting_Book_Post_Closeout_Assembly_Gate.md`는 다음 reader-facing layout gate로 유지한다.
 - `stable_15_workset`은 닫힌 reference set으로만 사용한다.
 - `source_check_hold / hold reference split`와 `deferred_expansion_hold / hold reference split`는 hold reference split 안에서만 읽는다.
 - `working/imports`는 원본 snapshot이므로 직접 고치지 않는다.
@@ -61,9 +67,10 @@
 ## Next Assembly Queue
 
 1. 장별 재조립을 다시 열어야 할 때 `8. Register Appendix` source lane부터 재개.
-2. 재개 시 설정집 0-8장 상호 용어 점검.
-3. 재개 시 장별 appendix 후보와 본문 후보 분리.
-4. 재개 시 최종 설정집 조립용 index와 연결.
+2. post-closeout reader-facing layout work는 `Setting_Book_Post_Closeout_Assembly_Gate.md`를 먼저 따른다.
+3. 재개 시 설정집 0-8장 상호 용어 점검.
+4. 재개 시 장별 appendix 후보와 본문 후보 분리.
+5. 재개 시 최종 설정집 조립용 index와 연결.
 
 ## Conductor Decision
 
@@ -72,7 +79,9 @@
 지금 실제 공유 기준은 `Setting_Book_Preview_Readable_v0.md`를 안정 공유본으로 유지하는 쪽이고,
 넓은 재조립이나 장별 확장은 다시 열릴 때만 이 source map을 따라간다.
 
-그 재조립이 다시 열리면
-가장 안전한 다음 출발점은
-`working/drafts/Setting_Book_Chapter_8_Register_Appendix_Draft.md`이며,
+post-closeout 기준에서 다음 출발점은
+`working/drafts/Setting_Book_Post_Closeout_Assembly_Gate.md`다.
+
+넓은 장별 재조립이 실제로 다시 열릴 때만
+`working/drafts/Setting_Book_Chapter_8_Register_Appendix_Draft.md`를 source lane 점검 출발점으로 삼고,
 그 전까지는 source map의 primary / secondary source 순서를 넘지 않는다.

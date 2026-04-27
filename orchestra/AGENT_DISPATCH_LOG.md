@@ -18487,3 +18487,48 @@ Follow-up actions:
 
 - Treat the current setting-book cleanup as closed under `closed_for_current_cleanup / watch-reference mode`.
 - Reopen only if a current source-of-truth doc changes the mainline, stable/hold/deferred states collapse, P2 ownership drifts, lower-card policy guard authority is overridden, or new source/live manuscript evidence appears.
+
+## 2026-04-27 KST - Two-Hundred-Thirty-Ninth Post-Closeout Assembly Gate Pass
+
+목적:
+
+설정집 cleanup closeout 이후 다음 작업을
+무한 점검 루프가 아니라
+reader-facing layout 조립 게이트로 전환한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Meitner` | Setting Book TOC Architect | reader-facing final assembly order and body exclusions | `completed` |
+| `Turing` | Canon Extraction Specialist | safe source-of-truth stack and appendix/reference-only lanes | `completed` |
+| `Zeno` | Risk / Guard Keeper | closeout guardrails, reopen triggers, promotion mistakes to avoid | `completed` |
+| `Conductor` | Local integration | post-closeout gate doc, assembly index/dashboard/source-map/checkpoint links | `completed` |
+
+Expert findings:
+
+- final assembly should follow a reader-facing world-companion order, not the technical 0-8 draft order.
+- safe authority stack starts with `Setting_Book_Cleanup_Closeout.md`, `Setting_Book_Reassembly_Source_Map.md`, `Setting_Book_Document_Roles_Map.md`, `Setting_Book_Assembly_Index.md`, and `Setting_Book_Current_Status_Dashboard.md`.
+- manifests, imports, historical scout/search/batch docs, raw extraction files, and process/release docs stay reference/support only unless an active gate promotes them.
+- `Preview_Readable_v0` remains the shareable manuscript, while `Prototype_v0` remains compressed reference.
+
+Conductor action:
+
+- conductor added `Setting_Book_Post_Closeout_Assembly_Gate.md`.
+- conductor linked the new gate from assembly index, status dashboard, reassembly source map, and thread checkpoint.
+- conductor left unrelated manifest metadata flags untouched.
+
+Integrated actions:
+
+- post-closeout reader-facing layout gate recorded.
+- next setting-book loop now starts from reader-facing layout scope, not cleanup re-audit or broad production-bible expansion.
+
+Verification:
+
+- local `git diff --check` passed with LF/CRLF warnings only.
+- targeted status check confirms the post-closeout gate is linked from assembly index, dashboard, reassembly source map, and thread checkpoint.
+- commit is limited to the post-closeout gate, setting-book conductor docs, and dispatch log; manifest metadata flags are intentionally excluded.
+
+Follow-up actions:
+
+- next safe batch should be a narrow reader-facing layout check against `Setting_Book_Preview_Readable_v0.md`, unless a current gate opens a more specific v1 evidence or packaging task.

@@ -16,7 +16,8 @@
 
 ## 현재 한 줄 결론
 
-설정집은 지금 `shareable preview v0` 단계까지 정리됐다.
+설정집은 지금 `shareable preview v0` 단계까지 정리됐고,
+설정집 cleanup loop는 `closed_for_current_cleanup / watch-reference mode`로 닫혔다.
 직접 공유 원고는 내부 초안/작업 용어 스캔을 통과한 상태다.
 
 허브와 진입 동선은 마감에 가깝고,
@@ -26,6 +27,8 @@
 
 - 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`로 유지한다.
 - `Prototype_v0`는 압축 reference 역할로 유지한다.
+- `audit/Setting_Book_Cleanup_Closeout.md`는 cleanup 종료 boundary로 유지한다.
+- `Setting_Book_Post_Closeout_Assembly_Gate.md`는 다음 reader-facing layout gate로 유지한다.
 - Appendix B/C는 현재 anchored row만 유지하고, 최신 preview 기준으로 새 row를 추가하지 않는다.
 - 허브 단계는 사실상 마감 상태로 보고, 필요하면 질문 문장만 미세 수정한다.
 - 00-09 허브 위키링크 무결성 스캔은 통과했다.
@@ -79,21 +82,23 @@
 작업 상태를 확인하는 사람:
 
 1. `Setting_Book_Current_Status_Dashboard.md`
-2. `Setting_Book_Release_Readiness_Checklist.md`
-3. `Setting_Book_Filename_Decision_Matrix.md`
-4. `Setting_Book_Next_Preserved_Artifact_Scope.md`
-5. `Setting_Book_Assembly_Index.md`
-6. `Setting_Book_Thread_Checkpoint.md`
+2. `Setting_Book_Post_Closeout_Assembly_Gate.md`
+3. `Setting_Book_Release_Readiness_Checklist.md`
+4. `Setting_Book_Filename_Decision_Matrix.md`
+5. `Setting_Book_Next_Preserved_Artifact_Scope.md`
+6. `Setting_Book_Assembly_Index.md`
+7. `Setting_Book_Thread_Checkpoint.md`
 
 ## 남은 일
 
 현재 남은 일은 broad redraft가 아니다.
 
-남은 것은 아래 세 가지 판단이다.
+남은 것은 아래 네 가지 판단이다.
 
-1. `Setting_Book_Packaging_Direction_Matrix.md`의 switch test 기준으로 production bible 전환 신호가 실제로 생겼는지 계속 판정
-2. Appendix B/C에서 정말 필요한 행에만 row-level evidence note를 추가
-3. RC 이름 재개 여부는 `패키징이 다음 보존 산출물`로 바뀔 때만 다시 판정
+1. post-closeout gate 기준으로 reader-facing layout 기본값을 유지할지 확인
+2. `Setting_Book_Packaging_Direction_Matrix.md`의 switch test 기준으로 production bible 전환 신호가 실제로 생겼는지 계속 판정
+3. Appendix B/C에서 정말 필요한 행에만 row-level evidence note를 추가
+4. RC 이름 재개 여부는 `패키징이 다음 보존 산출물`로 바뀔 때만 다시 판정
 
 세부 hold 기준은 `Setting_Book_Release_Readiness_Checklist.md`의 `V1 Hold Breakdown`에서 관리한다.
 `filename / RC naming` 판단은 `Setting_Book_Filename_Decision_Matrix.md`에서 따로 관리한다.
@@ -113,7 +118,8 @@ Appendix B/C 추가 근거 작업은 같은 문서의 `Appendix B/C Evidence Que
 ## 오케스트라 다음 순서
 
 1. 공유용 preview는 현재 안정본으로 두고, 대규모 문장 재작성은 다시 열지 않는다.
-2. 허브 인덱스는 현재 완료 상태로 보고, 필요하면 질문 문장만 미세 수정한다.
-3. filename hold는 matrix 기준으로 유지하고, 조기 RC rename은 다시 열지 않는다.
-4. packaging direction matrix의 switch test를 기준으로 layout vs production bible 방향을 계속 선명하게 유지한다.
-5. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
+2. `Setting_Book_Post_Closeout_Assembly_Gate.md`를 먼저 읽고 reader-facing layout 범위 안에서만 다음 배치를 연다.
+3. 허브 인덱스는 현재 완료 상태로 보고, 필요하면 질문 문장만 미세 수정한다.
+4. filename hold는 matrix 기준으로 유지하고, 조기 RC rename은 다시 열지 않는다.
+5. packaging direction matrix의 switch test를 기준으로 layout vs production bible 방향을 계속 선명하게 유지한다.
+6. 필요할 때만 Appendix B/C evidence queue에서 행 단위 evidence note를 추가한다.
