@@ -18349,3 +18349,91 @@ Follow-up actions:
   lower-card authority 역전,
   representative subline pair closure 붕괴가 다시 올라올 때만
   이 family를 다시 연다.
+
+## 2026-04-27 KST - Two-Hundred-Thirty-Seventh Representative Subline Pair No-Change Pass
+
+목적:
+
+- 이번 wake-up에서는
+  current workstream 본선 기준을 다시 맞춘 뒤
+  representative
+  `Port Authority / Black Auction / Gravewell / Counterfeit Workshop`
+  subline draft/profile pair가
+  `closure sync / watch-reference`
+  기준 아래서
+  닫힌 representative sample,
+  lower-card `3-1. Policy Guard` authority,
+  current-state sidecar/scout/display reading을
+  여전히 같은 기준 시점으로 유지하는지
+  no-change 재감사로 닫는다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local representative subline pair cross-audit | `Section_15_Subline_Draft_Port_Authority.md`, `Section_15_Subline_Draft_Black_Auction.md`, `Section_15_Subline_Draft_Gravewell.md`, `Section_15_Subline_Draft_Counterfeit_Workshop.md`, `Section_15_Subline_Profile_Port_Entry_Licensor_Line.md`, `Section_15_Subline_Profile_Dock_Inspection_Enforcer_Line.md`, `Section_15_Subline_Profile_Black_Auction_Appraiser_Line.md`, `Section_15_Subline_Profile_Grave_Inscription_Decoder_Line.md`, `Section_15_Subline_Profile_Signet_Forger_Line.md`, plus directly relevant `Section_15_Profile_Draft_Index.md` and `Section_8_15_Closure_Sync_Carryover_Watch.md` lines | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 먼저 다시 읽고,
+  ordered watch sequence 마지막 안전 구간인
+  representative subline draft/profile pair를
+  이번 배치 대상으로 잡았다.
+- conductor는
+  `Section_15_Profile_Draft_Index.md`
+  와
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`
+  에서
+  representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop`
+  pair가
+  닫힌 watch-reference sample로 유지되어야 한다는 상위 기준을 먼저 재확인했다.
+- conductor는
+  네 개 draft와 다섯 개 profile 본문을 직접 대조해
+  각 subline draft가
+  family-level carryover만 요약하고,
+  exact operational guard wording authority를
+  downstream `3-1. Policy Guard`
+  카드에 남긴 채
+  place/institution owner나 candidate build queue를
+  새로 만들지 않는다고 확인했다.
+- conductor는
+  각 profile card도
+  `urban_market / shadow_port / trade coordination`,
+  `dark institution / occult communications`,
+  `권한 위조 실무`
+  범위에서만 기능 구획을 보강하고,
+  해양 `토착 공동체층`,
+  전통 국가 관료제,
+  공식 국가 감정기관,
+  귀족국가형 상층 복원 근거로는
+  읽지 않도록 same-reference guard를 유지한다고 확인했다.
+- conductor는
+  이번 representative pair family에서
+  patch-worthy wording-source drift나 state drift가 없다고 판단해
+  본문 수정 없이
+  no-change result만 기록한다.
+
+Integrated actions:
+
+- representative `subline draft / subline profile` pair no-change cross-audit confirmation
+- dispatch log 2026-04-27 two-hundred-thirty-seventh pass 반영
+
+Verification:
+
+- targeted local cross-check confirms the four representative subline drafts continue to summarize family-level carryover only and keep exact guard wording authority on downstream `3-1. Policy Guard` cards.
+- targeted local cross-check confirms the five representative subline profile cards continue to read as current-state operational watch/reference samples rather than future build queue or owner-definition documents.
+- this pass is log-only; unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop` pair는
+  same-reference no-change watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  subline draft가 downstream guard prose를 대체하거나,
+  profile card가 future build queue처럼 다시 적히거나,
+  sidecar/scout/display current-state authority가 약해질 때만
+  이 pair를 다시 연다.
