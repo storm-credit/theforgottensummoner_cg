@@ -1,4 +1,4 @@
-# Setting Book Public Voice Sample: Part VII. Places, Routes, and Maps That Create Story
+# Setting Book Public Voice Sample: 이야기를 여는 장소와 길
 
 ## Purpose
 
@@ -7,7 +7,7 @@
 깊은 설정 기록의 지도 시드, 운영 매트릭스, 장소 기능 장부를 직접 보여주지 않고,
 같은 내용을 독자가 세계의 질감으로 받아들일 수 있게 번역하는 데 목적이 있다.
 
-## Part VII. Places, Routes, and Maps That Create Story
+## 이야기를 여는 장소와 길
 
 자유도시연합의 심장은 하나의 왕좌에 놓여 있지 않다.
 그 심장은 여러 도시의 장부, 항로, 계약서, 밀약, 부두, 창고, 그리고 밤마다 다른 얼굴을 드러내는 접선지 사이를 오가며 뛴다.

@@ -1,4 +1,4 @@
-# Setting Book Public Voice Sample: Part V. Relics, Gear, Trade Goods, and Things People Want
+# Setting Book Public Voice Sample: 사람들이 원하는 유물과 물건들
 
 ## Purpose
 
@@ -10,7 +10,7 @@
 숨기고,
 되찾으려 하는 이야기의 장치로 보이게 만드는 것이다.
 
-## Part V. Relics, Gear, Trade Goods, and Things People Want
+## 사람들이 원하는 유물과 물건들
 
 이 세계에서 물건은 오래 살아남는다.
 사람보다 오래,

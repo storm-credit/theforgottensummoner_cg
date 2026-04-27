@@ -59,6 +59,7 @@ Post-closeout preview note:
 - preview package, front matter, reader-facing TOC support docs도 같은 post-closeout reader-facing order를 가리킨다.
 - public assembly, prototype, release readiness, and post-closeout gate도 같은 reader-facing label baseline을 따른다.
 - people/items/places/species/appendix hubs도 같은 reader-facing label baseline을 따른다.
+- appendix assembly, public voice samples, named-notables chapter draft도 같은 reader-facing label baseline을 따른다.
 
 ## 지금 열어볼 순서
 

@@ -124,6 +124,7 @@
 - preview package, front matter, reader-facing TOC support docs의 예전 Part label도 post-closeout reader-facing order로 정렬
 - public assembly, prototype, release readiness, post-closeout gate의 core label도 같은 reader-facing baseline으로 정렬
 - people/items/places/species/appendix hubs의 예전 Part label도 같은 reader-facing baseline으로 정렬
+- appendix assembly, public voice samples, named-notables chapter draft의 예전 Part label도 같은 reader-facing baseline으로 정렬
 
 ## Core Files
 

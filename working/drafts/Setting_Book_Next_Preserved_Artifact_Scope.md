@@ -50,7 +50,7 @@ Direct-share rule:
 
 - 외부에 먼저 보내는 파일은 `Setting_Book_Preview_Readable_v0.md` 하나로 둔다.
 - `Front_Matter`, `Reader_Facing_TOC`, `Public_Assembly`는 preview를 받치는 source/support 층으로 둔다.
-- `Internal source`, `Archived`, `Production Notes` 같은 표기가 남아 있는 support 문서는 독자에게 바로 보내지 않는다.
+- `Internal source`, `Archived`, 내부 제작 메모 같은 표기가 남아 있는 support 문서는 독자에게 바로 보내지 않는다.
 
 ### Optional Bridge
 

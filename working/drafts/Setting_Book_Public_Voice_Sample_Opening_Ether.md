@@ -1,4 +1,4 @@
-# Setting Book Public Voice Sample: Opening: How to Read This World / Part I. The Five Continents
+# Setting Book Public Voice Sample: 이 세계를 읽는 법 / 다섯 대륙
 
 ## Purpose
 
@@ -33,7 +33,7 @@
 무엇을 감추며,
 무엇을 되찾으려 하는지 보는 것이다.
 
-## Part I. The Five Continents: Ether Continent Preview
+## 다섯 대륙: 에테르 대륙 미리보기
 
 에테르 대륙은 질서가 아름답게 보이는 곳이다.
 
@@ -93,4 +93,4 @@
 
 ## Next Use
 
-이 톤이 맞다면 다음 단계는 같은 방식으로 다섯 대륙 전체를 `Part I.` 독자용 본문으로 확장하는 것이다.
+이 톤이 맞다면 다음 단계는 같은 방식으로 다섯 대륙 전체를 `다섯 대륙` 독자용 본문으로 확장하는 것이다.

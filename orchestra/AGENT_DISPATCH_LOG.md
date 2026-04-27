@@ -18691,3 +18691,41 @@ Verification:
 Follow-up actions:
 
 - next scan should focus on appendix assembly and public voice sample files.
+
+## 2026-04-28 KST - Two-Hundred-Forty-Fourth Appendix And Sample Label Alignment Pass
+
+목적:
+
+hub label 정렬 뒤에도
+appendix assembly manuscript, public voice samples,
+and the named-notables chapter draft에 예전 `Part I / Part III / Part V / Part VI / Part VII / Part VIII`
+label과 `Production Notes` wording이 남아 있었다.
+이번 배치는 해당 support/sample layer만 현재 reader-facing label baseline으로 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local appendix/sample label alignment | appendix assembly, public voice samples, named-notables chapter draft, status records | `completed` |
+
+Conductor action:
+
+- conductor aligned appendix assembly references to `이 세계를 읽는 법`, `다섯 대륙`, `찾아가야 할 이름들`, `이름, 언어, 세계의 톤`, `사람들이 원하는 유물과 물건들`, `사람들, 혈통, 괴물, 변화한 상태`, and `이야기를 여는 장소와 길`.
+- conductor aligned public voice sample titles/headings with the same reader-facing labels.
+- conductor aligned the named-notables chapter draft opening label.
+- conductor softened remaining support-control `Production Notes` wording so future scans do not confuse control language with reader-facing labels.
+
+Integrated actions:
+
+- appendix assembly and public voice sample label alignment.
+- assembly index, dashboard, next preserved artifact scope, and thread checkpoint updated with the alignment result.
+
+Verification:
+
+- setting-book draft scan found no remaining old Part-number labels, `Appendix and Production Notes`, or `Production Notes` hits in the current `working/drafts` setting-book files.
+- `git diff --check` passed with LF/CRLF warnings only.
+- commit is limited to appendix/sample label alignment, status records, and dispatch log; manifest metadata flags are intentionally excluded.
+
+Follow-up actions:
+
+- after verification, continue with direct-share/source label drift scans only; do not reopen broad preview rewriting.

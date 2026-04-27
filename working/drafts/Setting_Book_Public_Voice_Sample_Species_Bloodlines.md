@@ -1,4 +1,4 @@
-# Setting Book Public Voice Sample: Part VI. Peoples, Bloodlines, Monsters, and Changed States
+# Setting Book Public Voice Sample: 사람들, 혈통, 괴물, 변화한 상태
 
 ## Purpose
 
@@ -10,7 +10,7 @@
 변형되거나 뒤틀린 상태,
 그리고 진짜 괴물의 층을 분리해서 보이게 만드는 것이다.
 
-## Part VI. Peoples, Bloodlines, Monsters, and Changed States
+## 사람들, 혈통, 괴물, 변화한 상태
 
 이 세계의 낯선 존재들은
 인간과 다른 얼굴을 하고 있다고 해서 모두 같은 방식으로 읽히지 않는다.
