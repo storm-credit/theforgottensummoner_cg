@@ -120,6 +120,7 @@
 - hub completion checklist에도 링크 무결성 스캔 통과를 완료 기준으로 반영
 - cleanup closeout을 추가해 설정집 정리 루프를 `closed_for_current_cleanup / watch-reference mode`로 닫음
 - post-closeout assembly gate를 추가해 다음 기본 방향을 reader-facing layout으로 고정
+- `Setting_Book_Preview_Readable_v0.md`의 visible Part 번호, raw support-doc filename, backstage production-note wording을 독자용 preview 기준으로 정리
 
 ## Core Files
 

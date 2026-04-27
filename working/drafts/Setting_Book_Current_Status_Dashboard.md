@@ -53,6 +53,10 @@
 | Release-candidate file | controlled hold | RC 파일명/상업용 layout/production bible 방향이 아직 다음 보존 산출물로 확정되지 않았다. |
 | Full v1 release | controlled hold | preview v0는 공유 가능하지만, v1은 최종 이름, layout 방향, 필요한 row-level evidence만 더 좁힌 뒤 판단한다. |
 
+Post-closeout preview note:
+
+- `Setting_Book_Preview_Readable_v0.md`는 out-of-order Part numbering, raw support-doc filenames, and backstage production-note wording을 제거한 상태다.
+
 ## 지금 열어볼 순서
 
 처음 보는 사람:

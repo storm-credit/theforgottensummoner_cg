@@ -18532,3 +18532,49 @@ Verification:
 Follow-up actions:
 
 - next safe batch should be a narrow reader-facing layout check against `Setting_Book_Preview_Readable_v0.md`, unless a current gate opens a more specific v1 evidence or packaging task.
+
+## 2026-04-27 KST - Two-Hundred-Fortieth Preview Layout QA Pass
+
+목적:
+
+post-closeout gate 직후 `Setting_Book_Preview_Readable_v0.md`가
+직접 공유용 preview로 읽힐 때
+out-of-order Part numbering,
+raw support-doc filename,
+internal production-note wording을 노출하지 않는지 확인한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Carver` | Reader-Facing Layout QA | preview layout order, visible Part numbering, broad-redraft need | `completed` |
+| `Lovelace` | Internal Jargon Scan | direct-share preview jargon/file-path/source-map scan | `completed` |
+| `Conductor` | Local integration | narrow preview label patch and status records | `completed` |
+
+Expert findings:
+
+- preview substance passes the post-closeout reader-facing direction and does not need broad redraft.
+- visible Part labels were out of order because this file is a partial preview, not the full TOC.
+- raw support-doc filenames and `public Part naming authority / appendix routing rule` wording were not direct-share friendly.
+- `Appendix and Production Notes` exposed backstage wording.
+
+Conductor action:
+
+- conductor removed visible out-of-order Part numbering from the preview flow and headings.
+- conductor replaced raw support-doc filename wording with reader-facing body/appendix separation prose.
+- conductor renamed the appendix heading to `Appendix: Boundaries and Further Guides`.
+
+Integrated actions:
+
+- `Setting_Book_Preview_Readable_v0.md` narrow layout-label patch.
+- assembly index, dashboard, and thread checkpoint updated with the preview QA result.
+
+Verification:
+
+- local direct-share scan found no remaining `Setting_Book_`, `public Part naming authority`, `appendix routing rule`, `Production Notes`, visible out-of-order Part labels, or raw state-label hits in `Setting_Book_Preview_Readable_v0.md`.
+- `git diff --check` passed with LF/CRLF warnings only.
+- commit is limited to the narrow preview label patch, status records, and dispatch log; manifest metadata flags are intentionally excluded.
+
+Follow-up actions:
+
+- if the next pass remains safe, continue with a targeted reader-facing layout scan rather than broad preview rewriting.

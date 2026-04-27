@@ -34,11 +34,11 @@
 ## 이번 시안에 담긴 흐름
 
 1. Opening: How to Read This World
-2. Part I. The Five Continents: Ether Continent Preview
-3. Part VII. Places, Routes, and Maps That Create Story
-4. Part III. People Worth Seeking
-5. Part V. Relics, Gear, Trade Goods, and Things People Want
-6. Part VI. Peoples, Bloodlines, Monsters, and Changed States
+2. The Five Continents: Ether Continent Preview
+3. Places, Routes, and Maps That Create Story
+4. People Worth Seeking
+5. Relics, Gear, Trade Goods, and Things People Want
+6. Peoples, Bloodlines, Monsters, and Changed States
 
 이 문서는 완성된 전체 설정집이 아니라
 지금 이 세계를 가장 선명하게 보여 주는 장들을 먼저 묶은 시안이다.
@@ -46,9 +46,9 @@
 길이 교차하는 도시를 지나,
 찾아가야 할 이름과 붙잡아야 할 물건,
 그리고 조심스럽게 구분해야 할 존재들까지 한 흐름으로 읽히도록 구성했다.
-최종 public Part naming authority와 appendix routing rule은
-`Setting_Book_Reader_Facing_TOC_Draft.md`와
-`Setting_Book_Body_Appendix_Separation_Plan.md`를 따른다.
+전체판에서는 빠진 장과 부록도 같은 독자용 흐름 안에서 이어 붙인다.
+본문은 먼저 세계의 감각을 보여 주고,
+세부 근거와 경계는 뒤쪽 안내로 조용히 분리한다.
 
 이 흐름을 더 가까이에서 들여다보고 싶을 때는
 세력, 인물, 장소, 유물, 종족을 축별로 묶은 다섯 개의 `핵심 프로필` 문서를 이어서 펼치면 된다.
@@ -85,7 +85,7 @@
 
 ---
 
-## Part I. The Five Continents: Ether Continent Preview
+## The Five Continents: Ether Continent Preview
 
 에테르 대륙은 질서가 아름답게 보이는 곳이다.
 
@@ -128,7 +128,7 @@
 
 ---
 
-## Part VII. Places, Routes, and Maps That Create Story
+## Places, Routes, and Maps That Create Story
 
 자유도시연합은 하나의 왕좌가 아니라
 여러 도시 사이에서 뛴다.
@@ -175,7 +175,7 @@
 
 ---
 
-## Part III. People Worth Seeking
+## People Worth Seeking
 
 이 세계에는 역사를 바꾸는 영웅이 있다.
 그러나 영웅만이 세계를 움직이는 것은 아니다.
@@ -236,7 +236,7 @@
 
 ---
 
-## Part V. Relics, Gear, Trade Goods, and Things People Want
+## Relics, Gear, Trade Goods, and Things People Want
 
 이 세계에서 물건은 오래 살아남는다.
 사람보다 오래,
@@ -302,7 +302,7 @@
 
 ---
 
-## Part VI. Peoples, Bloodlines, Monsters, and Changed States
+## Peoples, Bloodlines, Monsters, and Changed States
 
 이 세계의 낯선 존재들은
 인간과 다른 얼굴을 하고 있다고 해서 모두 같은 방식으로 읽히지 않는다.
@@ -364,7 +364,7 @@
 
 ---
 
-## Part VIII. Appendix and Production Notes
+## Appendix: Boundaries and Further Guides
 
 여기까지가 독자가 먼저 만나는 앞면이다.
 
