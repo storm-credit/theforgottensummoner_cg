@@ -18437,3 +18437,53 @@ Follow-up actions:
   profile card가 future build queue처럼 다시 적히거나,
   sidecar/scout/display current-state authority가 약해질 때만
   이 pair를 다시 연다.
+
+## 2026-04-27 KST - Two-Hundred-Thirty-Eighth Setting-Book Cleanup Closeout Pass
+
+목적:
+
+사용자가 요청한 설정집 전체 정리의 종료 기준을 오케스트라가 확정한다.
+이번 배치는 새 lore 발굴이 아니라,
+`5대륙 closure sync / Section 8 -> 15 watch-reference` 본선이
+완료 상태로 닫힐 수 있는지 전문가별 read-only 판정을 모으고,
+확인된 source-of-truth drift만 반영하는 closeout pass다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Halley` | Completion Architect | cleanup Definition of Done, closed/watch-only domains, mandatory batch count | `completed` |
+| `Lagrange` | Drift / State Vocabulary Specialist | Section 15 state vocabulary drift and source-of-truth wording alignment | `completed` |
+| `Singer` | Manifest / Reference Specialist | manifest modified flags, reference-only roots, legacy/broken root authority | `completed` |
+| `Dirac` | Backlog / Risk Specialist | true blockers versus non-blocking backlog and reopen-risk gates | `completed` |
+| `Conductor` | Local integration | source-of-truth wording patch, closeout doc, dispatch log, verification | `completed` |
+
+Expert findings:
+
+- `Halley` reports zero mandatory batches remain. One optional final signoff/closeout pass is enough to close the current cleanup.
+- `Lagrange` reports one confirmed wording drift: `Section_15_Named_Notables_Continent_Synthesis.md` still used `stable_triad_frozen_reference_set` where synced source-of-truth docs use `stable_15_workset`.
+- `Singer` reports `reference/manifests/factions_manifest.md` and `reference/manifests/heroes_manifest.md` show no confirmed content delta; the modified flags are line-ending/index metadata noise. Manifest roots remain reference/appendix only, not canon authority.
+- `Dirac` reports no open content-build blocker. Completion is gated on guard consistency, not on finishing optional subtree sampling, live manuscript handoff, Section 14/15 deepening, supranational expansion, or map/item/prose backlog.
+
+Conductor action:
+
+- conductor kept unrelated manifest flags untouched.
+- conductor integrated only the confirmed `stable_15_workset` wording drift in `Section_15_Named_Notables_Continent_Synthesis.md`.
+- conductor added `Setting_Book_Cleanup_Closeout.md` as the final closeout state for the current setting-book cleanup.
+
+Integrated actions:
+
+- `audit/Section_15_Named_Notables_Continent_Synthesis.md` updated to use current `stable_15_workset` state wording in the live synthesis/prioritization passages.
+- `audit/Setting_Book_Cleanup_Closeout.md` added.
+- dispatch log 2026-04-27 two-hundred-thirty-eighth pass recorded.
+
+Verification:
+
+- local `git diff --check` passed with LF/CRLF warnings only.
+- targeted drift check found no remaining `stable_triad_frozen_reference_set` inside `Section_15_Named_Notables_Continent_Synthesis.md`.
+- closeout commit is limited to the synthesis drift patch, closeout doc, and dispatch log; manifest flags are intentionally excluded.
+
+Follow-up actions:
+
+- Treat the current setting-book cleanup as closed under `closed_for_current_cleanup / watch-reference mode`.
+- Reopen only if a current source-of-truth doc changes the mainline, stable/hold/deferred states collapse, P2 ownership drifts, lower-card policy guard authority is overridden, or new source/live manuscript evidence appears.
