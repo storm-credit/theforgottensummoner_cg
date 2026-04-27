@@ -122,6 +122,7 @@
 - post-closeout assembly gate를 추가해 다음 기본 방향을 reader-facing layout으로 고정
 - `Setting_Book_Preview_Readable_v0.md`의 visible Part 번호, raw support-doc filename, backstage production-note wording을 독자용 preview 기준으로 정리
 - preview package, front matter, reader-facing TOC support docs의 예전 Part label도 post-closeout reader-facing order로 정렬
+- public assembly, prototype, release readiness, post-closeout gate의 core label도 같은 reader-facing baseline으로 정렬
 
 ## Core Files
 

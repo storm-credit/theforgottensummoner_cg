@@ -131,6 +131,7 @@ Completed checks:
 - Post-closeout assembly gate now keeps `Preview_Readable_v0` as the shareable manuscript, `Prototype_v0` as compressed reference, and reader-facing layout as the default next artifact direction.
 - `Setting_Book_Preview_Readable_v0.md` now removes visible out-of-order Part numbering, raw support-doc filenames, and backstage `Production Notes` wording from the direct-share preview layer.
 - Preview package, front matter, and reader-facing TOC support docs now point to the same post-closeout reader-facing order without old out-of-order Part labels.
+- Core body source, compressed prototype reference, release readiness crosswalk, and post-closeout gate now also use the current reader-facing labels.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

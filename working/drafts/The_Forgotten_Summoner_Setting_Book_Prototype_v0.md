@@ -75,18 +75,18 @@
 
 ## Compressed Reference Sequence
 
-Public Part naming and final reader-facing order follow `Setting_Book_Reader_Facing_TOC_Draft.md`.
+The post-closeout reader-facing order follows the current assembly gate.
 Below list is a compressed reference sequence for this prototype, not the final public TOC.
 
-1. Opening: How to Read This World
-2. Part I. The Five Continents
-3. Part II. Powers, Orders, and Hidden Systems
-4. Part III. People Worth Seeking
-5. Part IV. Names, Languages, and World Tone
-6. Part V. Relics, Gear, Trade Goods, and Things People Want
-7. Part VI. Peoples, Bloodlines, Monsters, and Changed States
-8. Part VII. Places, Routes, and Maps That Create Story
-9. Part VIII. Appendix and Production Notes
+1. 이 세계를 읽는 법
+2. 다섯 대륙
+3. 힘과 질서, 숨은 체계
+4. 이야기를 여는 장소와 길
+5. 찾아가야 할 이름들
+6. 이름, 언어, 세계의 톤
+7. 사람들이 원하는 유물과 물건들
+8. 사람들, 혈통, 괴물, 변화한 상태
+9. 부록: 경계와 추가 안내
 10. Appendix A. 14 / 15 Boundary Candidates
 11. Appendix B. Item Promotion Candidates
 12. Appendix C. Place and Travel Functions
@@ -95,7 +95,7 @@ Below list is a compressed reference sequence for this prototype, not the final 
 
 ---
 
-## Opening: How to Read This World
+## 이 세계를 읽는 법
 
 `THE FORGOTTEN SUMMONER`의 세계는 거대한 힘이 충돌하는 무대이지만,
 그 중심에 서 있는 것은 언제나 사람이다.
@@ -123,7 +123,7 @@ Below list is a compressed reference sequence for this prototype, not the final 
 
 ---
 
-## Part I. The Five Continents: Ether Continent Preview
+## 다섯 대륙: 에테르 대륙 미리보기
 
 에테르 대륙은 질서가 아름답게 보이는 곳이다.
 
@@ -199,7 +199,7 @@ Below list is a compressed reference sequence for this prototype, not the final 
 
 ---
 
-## Part VII. Places, Routes, and Maps That Create Story
+## 이야기를 여는 장소와 길
 
 자유도시연합의 심장은 하나의 왕좌에 놓여 있지 않다.
 그 심장은 여러 도시의 장부, 항로, 계약서, 밀약, 부두, 창고, 그리고 밤마다 다른 얼굴을 드러내는 접선지 사이를 오가며 뛴다.
@@ -281,7 +281,7 @@ Crossroad Cities의 본질은 자유가 아니다.
 
 ---
 
-## Part III. People Worth Seeking
+## 찾아가야 할 이름들
 
 이 세계에는 역사를 바꾸는 영웅이 있다.
 그러나 영웅만이 세계를 움직이는 것은 아니다.
@@ -346,7 +346,7 @@ People Worth Seeking은 그래서 단순한 조연 목록이 아니다.
 
 ---
 
-## Part V. Relics, Gear, Trade Goods, and Things People Want
+## 사람들이 원하는 유물과 물건들
 
 이 세계에서 물건은 오래 살아남는다.
 사람보다 오래,
@@ -431,7 +431,7 @@ People Worth Seeking은 그래서 단순한 조연 목록이 아니다.
 
 ---
 
-## Part VI. Peoples, Bloodlines, Monsters, and Changed States
+## 사람들, 혈통, 괴물, 변화한 상태
 
 이 세계의 낯선 존재들은
 인간과 다른 얼굴을 하고 있다고 해서 모두 같은 방식으로 읽히지 않는다.
@@ -560,9 +560,9 @@ Spirit Union은 이 구분이 특히 필요한 곳이다.
 
 ---
 
-## Part VIII. Appendix and Production Notes: Opening / Part I. Canon Source Note
+## 부록: 경계와 추가 안내 - 이 세계를 읽는 법 / 다섯 대륙 source note
 
-Opening과 Part I. The Five Continents의 Ether preview는 별도의 새 부록으로 분리하지 않는다.
+`이 세계를 읽는 법`과 `다섯 대륙`의 Ether preview는 별도의 새 부록으로 분리하지 않는다.
 
 이 두 구간은 `Chapter 0 Canon Policy`, `Chapter 1 Five Continents`,
 그리고 reassembly source map의 판단 순서로 받친다.

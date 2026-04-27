@@ -18617,3 +18617,41 @@ Verification:
 Follow-up actions:
 
 - continue the loop with support-doc consistency scans before any broader v1 packaging move.
+
+## 2026-04-28 KST - Two-Hundred-Forty-Second Core Source Label Alignment Pass
+
+목적:
+
+support TOC 정렬 이후에도
+core body source / prototype / release readiness / post-closeout gate에
+예전 `Part I / Part III / Part VII` label과
+`Appendix and Production Notes` 표현이 남아 있었다.
+이번 배치는 core source layer만 현재 reader-facing label baseline으로 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local core-source label alignment | public assembly, prototype, release readiness, post-closeout gate, status records | `completed` |
+
+Conductor action:
+
+- conductor aligned `Setting_Book_Public_Assembly_Manuscript_Draft.md` headings and intro note to the post-closeout reader-facing order.
+- conductor aligned `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` compressed sequence and major body headings to the same label baseline.
+- conductor aligned `Setting_Book_Release_Readiness_Checklist.md` crosswalk labels and order.
+- conductor corrected `Setting_Book_Post_Closeout_Assembly_Gate.md` row 9 to `Appendix: Boundaries and Further Guides`.
+
+Integrated actions:
+
+- core source label baseline alignment.
+- assembly index, dashboard, and thread checkpoint updated with the core-source alignment result.
+
+Verification:
+
+- core-source label scan found no remaining old Part-number labels, `Appendix and Production Notes`, `Production Notes`, or `public Part naming authority` hits in the touched core source docs.
+- `git diff --check` passed with LF/CRLF warnings only.
+- commit is limited to core source label alignment, status records, and dispatch log; manifest metadata flags are intentionally excluded.
+
+Follow-up actions:
+
+- next scan can handle lower-priority hubs, appendix assembly, and public voice sample files separately.

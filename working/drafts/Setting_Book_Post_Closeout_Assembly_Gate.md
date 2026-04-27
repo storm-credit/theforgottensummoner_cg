@@ -55,7 +55,7 @@ Use the reader-facing world-companion order, not the internal technical 0-8 draf
 | 6 | Names, Languages, and World Tone | Display names, variants, protected collisions, and tone. |
 | 7 | Relics, Gear, Trade Goods, and Things People Want | Desire-first item logic, not a raw item dump. |
 | 8 | Peoples, Bloodlines, Monsters, and Changed States | Wonder with species/race overread control. |
-| 9 | Appendix and Production Notes | Evidence, status, queues, collisions, and unresolved edges. |
+| 9 | Appendix: Boundaries and Further Guides | Evidence, status, queues, collisions, and unresolved edges. |
 
 The recommended body flow is:
 

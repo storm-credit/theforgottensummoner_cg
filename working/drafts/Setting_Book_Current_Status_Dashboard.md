@@ -57,6 +57,7 @@ Post-closeout preview note:
 
 - `Setting_Book_Preview_Readable_v0.md`는 out-of-order Part numbering, raw support-doc filenames, and backstage production-note wording을 제거한 상태다.
 - preview package, front matter, reader-facing TOC support docs도 같은 post-closeout reader-facing order를 가리킨다.
+- public assembly, prototype, release readiness, and post-closeout gate도 같은 reader-facing label baseline을 따른다.
 
 ## 지금 열어볼 순서
 
