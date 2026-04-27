@@ -18245,3 +18245,107 @@ Follow-up actions:
   `thin/support` 판정이
   `enough` 승격으로 바뀌는 drift가 다시 올라올 때만
   이 family를 다시 연다.
+
+## 2026-04-27 KST - Two-Hundred-Thirty-Sixth Register/Group/Subline No-Change Pass
+
+목적:
+
+- 이번 wake-up에서는
+  current workstream 본선 기준을 다시 맞춘 뒤
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Group_Index.md`,
+  `Section_15_Subline_Register.md`
+  family가
+  `closure sync / watch-reference`
+  기준 아래서
+  lower-card authority split,
+  hold/stable state token,
+  continent sidecar/scout/display umbrella 해석선을
+  여전히 같은 기준 시점으로 유지하는지
+  no-change 재감사로 닫는다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local register/group/subline cross-audit | `Section_15_Named_Notables_Register.md`, `Section_15_Group_Index.md`, `Section_15_Subline_Register.md`, plus directly relevant `Section_15_Profile_Draft_Index.md`, `Section_15_Operational_Lines_Track.md`, `Section_8_15_Closure_Sync_Carryover_Watch.md` authority lines | `completed` |
+
+Conductor action:
+
+- conductor는
+  `Continuous_Workstream.md`,
+  `Next_Sequential_Workstream.md`,
+  `Audit_Queue.md`
+  를 먼저 다시 읽고,
+  master-lock closeout 다음 안전한 watch family로
+  `register / group / subline`
+  묶음을 이번 배치 대상으로 잡았다.
+- conductor는
+  로컬 cross-check로
+  `Section_15_Named_Notables_Register.md`,
+  `Section_15_Group_Index.md`,
+  `Section_15_Subline_Register.md`
+  의
+  `stable_15_workset`,
+  `verify_before_15`,
+  `deferred_expansion_hold / hold reference split / name_collision_watch`,
+  `3-1. Policy Guard`,
+  `lower current-state watch/reference authority`
+  관련 줄을 먼저 spot-check했다.
+- conductor는
+  `Section_15_Named_Notables_Register.md`
+  가
+  `실비아` hold suffix,
+  stable-triad watch wording,
+  Ether verify-before-15 hold rows,
+  master-lock thin/support guard,
+  lower-card authority split을
+  `Section_8_15_Closure_Sync_Carryover_Watch.md`
+  와 같은 watch-reference 해석선으로 유지한다고 확인했다.
+- conductor는
+  `Section_15_Group_Index.md`
+  와
+  `Section_15_Subline_Register.md`
+  도
+  exact operational guard wording authority를
+  각 `Section_15_Profile_*`, `Section_15_Subline_Profile_*` 카드의
+  `3-1. Policy Guard`
+  에 남긴 채
+  group/subline 층에서는 reference-only summary로만 읽고,
+  자유도시 / 오벨리스크 기능 라인을
+  `urban_market`, `shadow_port`, `nontraditional elite thin-support`, `dark institution`
+  범위 밖으로 재상승시키지 않는다고 확인했다.
+- conductor는
+  representative `Port Authority / Black Auction / Gravewell / Counterfeit Workshop`
+  pair도
+  닫힌 representative watch-reference sample로 유지되고,
+  continent sidecar/scout/display wording umbrella 역시
+  future build queue가 아니라
+  lower current-state watch/reference authority로만 읽힌다고 확인했다.
+- conductor는
+  이번 family에서
+  patch-worthy wording/state drift가 없다고 판단해
+  본문 수정 없이
+  no-change result만 기록한다.
+
+Integrated actions:
+
+- `register / group / subline` no-change cross-audit confirmation
+- dispatch log 2026-04-27 two-hundred-thirty-sixth pass 반영
+
+Verification:
+
+- targeted local cross-check confirms `Section_15_Named_Notables_Register.md` preserves the same stable/hold split, `verify_before_15` posture, and lower-card authority separation already locked in `Section_8_15_Closure_Sync_Carryover_Watch.md`.
+- targeted local cross-check confirms `Section_15_Group_Index.md` and `Section_15_Subline_Register.md` continue to keep exact operational guard wording authority on downstream `3-1. Policy Guard` cards and treat group/subline prose as reference-only summary.
+- this pass is log-only; unrelated local changes remain the two manifest files in `reference/manifests/`.
+
+Follow-up actions:
+
+- `register / group / subline` family는
+  same-reference no-change watch로 다시 닫힌 상태를 유지한다.
+- 이후에는
+  stable/hold state token 붕괴,
+  group/subline 층의 owner/build-queue 재상향,
+  lower-card authority 역전,
+  representative subline pair closure 붕괴가 다시 올라올 때만
+  이 family를 다시 연다.
