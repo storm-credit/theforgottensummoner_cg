@@ -71,7 +71,7 @@
 ## 대표적으로 먼저 볼 파트
 
 - `Setting_Book_Preview_Readable_v0.md`
-  - `Part VII. Places, Routes, and Maps That Create Story`
+  - `이야기를 여는 장소와 길`
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
   - `Appendix C. Place and Travel Functions`
 
@@ -98,7 +98,7 @@
 ## 한 줄 요약
 
 - 장소/길로 볼 때는 이 문서부터
-- 읽는 설명은 `Part VII.`
+- 읽는 설명은 `이야기를 여는 장소와 길`
 - 빠른 분기는 `장소 축 빠른 인덱스` 표부터
 - 대표 장소 중간 정리본은 `Setting_Book_Places_Core_Profiles_v0.md`
 - 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`

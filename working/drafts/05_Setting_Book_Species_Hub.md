@@ -73,7 +73,7 @@
 ## 대표적으로 먼저 볼 파트
 
 - `Setting_Book_Preview_Readable_v0.md`
-  - `Part VI. Peoples, Bloodlines, Monsters, and Changed States`
+  - `사람들, 혈통, 괴물, 변화한 상태`
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
   - `Appendix E. Species Classification Guard`
   - `Appendix D. Name Collision Control`
@@ -101,7 +101,7 @@
 ## 한 줄 요약
 
 - 종족/혈통으로 볼 때는 이 문서부터
-- 읽는 설명은 `Part VI.`
+- 읽는 설명은 `사람들, 혈통, 괴물, 변화한 상태`
 - 빠른 분기는 `종족 축 빠른 인덱스` 표부터
 - 대표 종족 중간 정리본은 `Setting_Book_Species_Core_Profiles_v0.md`
 - 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`

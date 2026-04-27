@@ -72,7 +72,7 @@
 ## 대표적으로 먼저 볼 파트
 
 - `Setting_Book_Preview_Readable_v0.md`
-  - `Part V. Relics, Gear, Trade Goods, and Things People Want`
+  - `사람들이 원하는 유물과 물건들`
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
   - `Appendix B. Item Promotion Candidates`
   - `Appendix D. Name Collision Control`
@@ -101,7 +101,7 @@
 ## 한 줄 요약
 
 - 유물/물건으로 볼 때는 이 문서부터
-- 읽는 설명은 `Part V.`
+- 읽는 설명은 `사람들이 원하는 유물과 물건들`
 - 빠른 분기는 `물건 축 빠른 인덱스` 표부터
 - 대표 물건 중간 정리본은 `Setting_Book_Items_Core_Profiles_v0.md`
 - 역할 구분이 다시 필요하면 `Setting_Book_Document_Roles_Map.md`

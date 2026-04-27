@@ -74,8 +74,8 @@
 
 본문에서 연결되는 곳:
 
-- `Part I. The Five Continents`
-- `Part III. People Worth Seeking`
+- `다섯 대륙`
+- `찾아가야 할 이름들`
 
 같이 볼 허브:
 
@@ -96,7 +96,7 @@
 
 본문에서 연결되는 곳:
 
-- `Part V. Relics, Gear, Trade Goods, and Things People Want`
+- `사람들이 원하는 유물과 물건들`
 
 같이 볼 허브:
 
@@ -117,8 +117,8 @@
 
 본문에서 연결되는 곳:
 
-- `Part VII. Places, Routes, and Maps That Create Story`
-- `Part V. Relics, Gear, Trade Goods, and Things People Want`
+- `이야기를 여는 장소와 길`
+- `사람들이 원하는 유물과 물건들`
 
 같이 볼 허브:
 
@@ -139,10 +139,10 @@
 
 본문에서 연결되는 곳:
 
-- `Part IV. Names, Languages, and World Tone`
-- `Part III. People Worth Seeking`
-- `Part V. Relics, Gear, Trade Goods, and Things People Want`
-- `Part VI. Peoples, Bloodlines, Monsters, and Changed States`
+- `이름, 언어, 세계의 톤`
+- `찾아가야 할 이름들`
+- `사람들이 원하는 유물과 물건들`
+- `사람들, 혈통, 괴물, 변화한 상태`
 
 같이 볼 허브:
 
@@ -164,8 +164,8 @@
 
 본문에서 연결되는 곳:
 
-- `Part I. The Five Continents`
-- `Part VI. Peoples, Bloodlines, Monsters, and Changed States`
+- `다섯 대륙`
+- `사람들, 혈통, 괴물, 변화한 상태`
 
 같이 볼 허브:
 

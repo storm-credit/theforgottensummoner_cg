@@ -71,7 +71,7 @@
 ## 대표적으로 먼저 볼 파트
 
 - `Setting_Book_Preview_Readable_v0.md`
-  - `Part III. People Worth Seeking`
+  - `찾아가야 할 이름들`
 - `Setting_Book_Appendix_Assembly_Manuscript_Draft.md`
   - `Appendix A. 14 / 15 Boundary Candidates`
   - `Appendix D. Name Collision Control`
