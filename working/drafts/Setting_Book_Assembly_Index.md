@@ -139,6 +139,7 @@ Completed checks:
 - Direct-share preview flow list now includes the appendix boundary section already present in the preview body.
 - Preview package direct-share flow summary now matches the direct-share preview's seven-part flow.
 - Preview package flow language now avoids treating the direct-share preview as a body-only slice.
+- Preview package next-build gate now keeps `preview_v0_readable` active and holds `preview_v0_production` behind production-bible switch triggers.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

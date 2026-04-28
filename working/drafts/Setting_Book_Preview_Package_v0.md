@@ -155,14 +155,16 @@ If this package is shared with a collaborator:
 3. Share `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` only if they need verification context.
 4. Keep `Setting_Book_Front_Matter_Draft.md`, `Setting_Book_Reader_Facing_TOC_Draft.md`, `Setting_Book_Public_Assembly_Manuscript_Draft.md`, `Setting_Book_Release_Readiness_Checklist.md`, `Setting_Book_Assembly_Index.md`, and `Setting_Book_Preview_Package_v0.md` as support/conductor documents unless the collaborator is helping with structure.
 
-## Next Preview Build
+## Next Preview Build Gate
 
-The next preview build should do one of two things:
+The next preview build does not choose between two active builds by default.
+Current active build stays `preview_v0_readable`.
+The production-facing build remains a watchpoint until the switch tests in `Setting_Book_Packaging_Direction_Matrix.md` actually flip.
 
-| Build | Purpose | Next Action |
+| Build | Purpose | Current Gate |
 | --- | --- | --- |
-| `preview_v0_readable` | Let a reader understand the world tone quickly | keep as the current stable shareable manuscript; allow only typo or reader-language fixes |
-| `preview_v0_production` | Let a collaborator understand structure and risks | add source notes and body links to Appendix A-E |
+| `preview_v0_readable` | Let a reader understand the world tone quickly | active default; keep as the current stable shareable manuscript and allow only typo, layout, or reader-language fixes |
+| `preview_v0_production` | Let a collaborator understand structure and risks | held watchpoint; open only if source-note density, bridge docs, or appendix control lanes become the actual next need |
 
 Current conductor choice:
 

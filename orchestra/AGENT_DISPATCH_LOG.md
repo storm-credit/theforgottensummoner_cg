@@ -18920,6 +18920,45 @@ Follow-up actions:
 
 - continue narrow reader-facing package QA; do not reopen broad prose or production-bible expansion.
 
+## 2026-04-28 KST - Two-Hundred-Fifty-First Preview Build Gate Alignment Pass
+
+목적:
+
+`Setting_Book_Packaging_Direction_Matrix.md` and
+`Setting_Book_Next_Preserved_Artifact_Scope.md` both keep reader-facing layout as the active default
+and production bible as `not next yet`.
+But `Setting_Book_Preview_Package_v0.md` still said the next preview build should do one of two things,
+which could make `preview_v0_production` sound like a parallel active build.
+이번 배치는 package build gate를 현재 switch-test 기준에 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local build-gate alignment | preview package, status records | `completed` |
+
+Conductor action:
+
+- conductor changed `Next Preview Build` to `Next Preview Build Gate`.
+- conductor kept `preview_v0_readable` as the active default.
+- conductor marked `preview_v0_production` as a held watchpoint that opens only if production-bible switch triggers actually flip.
+- conductor updated dashboard, assembly index, and thread checkpoint with the build-gate alignment.
+
+Integrated actions:
+
+- preview package build-gate alignment.
+- status records updated with the active-default / held-watchpoint split.
+
+Verification:
+
+- build-gate scan found no remaining `should do one of two things` or `add source notes and body links` wording in the current preview package/status records.
+- build-gate scan confirmed `Next Preview Build Gate`, `active default`, and `held watchpoint` wording in the package/status records.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue narrow reader-facing layout QA; do not start production-bible expansion unless switch triggers flip.
+
 ## 2026-04-28 KST - Two-Hundred-Fiftieth Preview Package Body-Only Wording Guard Pass
 
 목적:

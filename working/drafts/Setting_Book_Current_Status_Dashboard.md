@@ -67,6 +67,7 @@ Post-closeout preview note:
 - direct-share preview flow list now includes its appendix boundary section instead of implying the appendix is outside the current preview.
 - preview package direct-share flow summary now also includes the appendix boundary section from the direct-share preview.
 - preview package flow language now describes the direct-share preview rather than a body-only slice.
+- preview package next-build gate now keeps `preview_v0_readable` active and treats `preview_v0_production` as a held watchpoint, not a parallel active build.
 
 ## 지금 열어볼 순서
 

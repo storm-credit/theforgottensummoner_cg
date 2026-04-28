@@ -130,6 +130,7 @@
 - direct-share preview flow list가 본문에 이미 있는 appendix boundary section까지 포함하도록 정합화
 - preview package direct-share flow summary도 direct-share preview의 7-part flow와 정합화
 - preview package flow language도 direct-share preview를 body-only slice처럼 보이지 않게 정리
+- preview package next-build gate도 `preview_v0_readable` active / `preview_v0_production` held watchpoint로 정렬
 
 ## Core Files
 
