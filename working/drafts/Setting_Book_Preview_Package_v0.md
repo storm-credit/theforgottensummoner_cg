@@ -83,7 +83,7 @@ These stay outside the main reader-facing package unless verification context is
 
 ## Included Body Spine
 
-The preview body currently covers:
+The direct-share preview flow currently covers:
 
 1. 이 세계를 읽는 법
 2. 다섯 대륙: 에테르 대륙 미리보기
@@ -91,9 +91,10 @@ The preview body currently covers:
 4. 찾아가야 할 이름들
 5. 사람들이 원하는 유물과 물건들
 6. 사람들, 혈통, 괴물, 변화한 상태
+7. 부록: 경계와 추가 안내
 
 The preview body does not yet try to replace the full 0-8 technical chapter package.
-It demonstrates the readable shape of the setting book.
+It demonstrates the readable shape of the setting book with a short boundary guide at the end.
 
 ## Core Profile Companion Set
 

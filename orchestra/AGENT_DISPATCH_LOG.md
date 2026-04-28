@@ -18848,3 +18848,39 @@ Verification:
 Follow-up actions:
 
 - continue with narrow reader-facing layout QA before any v1 or production-bible move.
+
+## 2026-04-28 KST - Two-Hundred-Forty-Eighth Preview Package Body-Spine Sync Pass
+
+목적:
+
+direct-share preview flow list는 appendix boundary section까지 7-part flow로 정합화됐지만,
+`Setting_Book_Preview_Package_v0.md`의 `Included Body Spine` summary는 여전히
+6개 항목만 적고 있어 package guide와 direct-share preview 사이에 작은 drift가 남아 있었다.
+이번 배치는 preview package summary만 현재 direct-share preview flow에 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local package/body-spine sync | preview package, status records | `completed` |
+
+Conductor action:
+
+- conductor changed the package summary from `preview body currently covers` to `direct-share preview flow currently covers`.
+- conductor added `부록: 경계와 추가 안내` as the seventh flow item.
+- conductor clarified that the preview demonstrates readable shape with a short boundary guide at the end.
+
+Integrated actions:
+
+- preview package body-spine summary alignment.
+- dashboard, assembly index, and thread checkpoint updated with the sync result.
+
+Verification:
+
+- package/preview flow scan confirmed `Setting_Book_Preview_Package_v0.md` and `Setting_Book_Preview_Readable_v0.md` now share the same seven-part flow, including `부록: 경계와 추가 안내`.
+- status scan confirmed dashboard, assembly index, and thread checkpoint record the package body-spine sync.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue with narrow reader-facing package QA and only escalate to v1/production-bible gates if a real trigger appears.
