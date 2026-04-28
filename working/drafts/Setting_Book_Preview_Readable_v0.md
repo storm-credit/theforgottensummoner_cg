@@ -33,12 +33,12 @@
 
 ## 이번 시안에 담긴 흐름
 
-1. Opening: How to Read This World
-2. The Five Continents: Ether Continent Preview
-3. Places, Routes, and Maps That Create Story
-4. People Worth Seeking
-5. Relics, Gear, Trade Goods, and Things People Want
-6. Peoples, Bloodlines, Monsters, and Changed States
+1. 이 세계를 읽는 법
+2. 다섯 대륙: 에테르 대륙 미리보기
+3. 이야기를 여는 장소와 길
+4. 찾아가야 할 이름들
+5. 사람들이 원하는 유물과 물건들
+6. 사람들, 혈통, 괴물, 변화한 상태
 
 이 문서는 완성된 전체 설정집이 아니라
 지금 이 세계를 가장 선명하게 보여 주는 장들을 먼저 묶은 시안이다.
@@ -57,7 +57,7 @@
 
 ---
 
-## Opening: How to Read This World
+## 이 세계를 읽는 법
 
 `THE FORGOTTEN SUMMONER`의 세계는 거대한 힘이 충돌하는 무대이지만,
 그 중심에 서 있는 것은 언제나 사람이다.
@@ -85,7 +85,7 @@
 
 ---
 
-## The Five Continents: Ether Continent Preview
+## 다섯 대륙: 에테르 대륙 미리보기
 
 에테르 대륙은 질서가 아름답게 보이는 곳이다.
 
@@ -128,7 +128,7 @@
 
 ---
 
-## Places, Routes, and Maps That Create Story
+## 이야기를 여는 장소와 길
 
 자유도시연합은 하나의 왕좌가 아니라
 여러 도시 사이에서 뛴다.
@@ -175,7 +175,7 @@
 
 ---
 
-## People Worth Seeking
+## 찾아가야 할 이름들
 
 이 세계에는 역사를 바꾸는 영웅이 있다.
 그러나 영웅만이 세계를 움직이는 것은 아니다.
@@ -236,7 +236,7 @@
 
 ---
 
-## Relics, Gear, Trade Goods, and Things People Want
+## 사람들이 원하는 유물과 물건들
 
 이 세계에서 물건은 오래 살아남는다.
 사람보다 오래,
@@ -302,7 +302,7 @@
 
 ---
 
-## Peoples, Bloodlines, Monsters, and Changed States
+## 사람들, 혈통, 괴물, 변화한 상태
 
 이 세계의 낯선 존재들은
 인간과 다른 얼굴을 하고 있다고 해서 모두 같은 방식으로 읽히지 않는다.
@@ -364,7 +364,7 @@
 
 ---
 
-## Appendix: Boundaries and Further Guides
+## 부록: 경계와 추가 안내
 
 여기까지가 독자가 먼저 만나는 앞면이다.
 

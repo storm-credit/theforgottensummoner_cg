@@ -120,11 +120,12 @@
 - hub completion checklist에도 링크 무결성 스캔 통과를 완료 기준으로 반영
 - cleanup closeout을 추가해 설정집 정리 루프를 `closed_for_current_cleanup / watch-reference mode`로 닫음
 - post-closeout assembly gate를 추가해 다음 기본 방향을 reader-facing layout으로 고정
-- `Setting_Book_Preview_Readable_v0.md`의 visible Part 번호, raw support-doc filename, backstage production-note wording을 독자용 preview 기준으로 정리
+- `Setting_Book_Preview_Readable_v0.md`의 visible Part 번호, raw support-doc filename, backstage support wording을 독자용 preview 기준으로 정리
 - preview package, front matter, reader-facing TOC support docs의 예전 Part label도 post-closeout reader-facing order로 정렬
 - public assembly, prototype, release readiness, post-closeout gate의 core label도 같은 reader-facing baseline으로 정렬
 - people/items/places/species/appendix hubs의 예전 Part label도 같은 reader-facing baseline으로 정렬
 - appendix assembly, public voice samples, named-notables chapter draft의 예전 Part label도 같은 reader-facing baseline으로 정렬
+- direct-share preview headings, reader-facing TOC section notes, post-closeout gate order table도 Korean reader-facing label baseline으로 정렬
 
 ## Core Files
 

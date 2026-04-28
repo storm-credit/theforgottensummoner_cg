@@ -85,7 +85,7 @@ hold로 봐야 하는 히트:
 | core profile bridge | pass for preview v0 | 세력, 인물, 장소, 유물, 종족 중간 정리본이 본문과 깊은 기준 기록 사이를 받친다. |
 | appendix A-E structure | pass for preview v0 | A-E 표는 최종 확정표가 아니라 통제표로 고정되어 있다. |
 | source / evidence depth | strong partial pass for v1 | Appendix A-E now have source pointer lanes, A/B/C/D/E each carry targeted row-level evidence notes for high-risk rows, and B/C sample files carry their own evidence pointer checks. |
-| Opening / Part I source note | pass for preview v0 | 별도 Appendix F를 만들지 않고 Chapter 0/1과 source map으로 받치는 source note를 추가했다. |
+| `이 세계를 읽는 법` / `다섯 대륙` source note | pass for preview v0 | 별도 Appendix F를 만들지 않고 Chapter 0/1과 source map으로 받치는 source note를 추가했다. |
 | front matter subtitle / cover tone | pass for preview v0 | `A Living World Companion`과 현재 cover-tone sentence를 v0 선택안으로 고정했다. |
 | final naming / layout | hold for v1 | 아직 release-candidate 파일명이나 상업용 판형까지 확정하지 않는다. |
 

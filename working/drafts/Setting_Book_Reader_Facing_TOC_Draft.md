@@ -27,7 +27,7 @@ The post-closeout order follows the reader-facing layout gate, not the older tec
 
 The notes below describe section purpose and source support. They are not a separate ordering authority.
 
-### Opening: How to Read This World
+### 이 세계를 읽는 법
 
 This opening section explains the promise of `THE FORGOTTEN SUMMONER`.
 
@@ -48,7 +48,7 @@ Reader-facing treatment:
 - Do not expose internal state labels.
 - Explain that some entries are confirmed, some are uncertain, and some are preserved as rumors.
 
-### The Five Continents
+### 다섯 대륙
 
 This part introduces the world through its major continental identities.
 
@@ -70,7 +70,7 @@ Reader-facing treatment:
 - Use social conflicts before tables.
 - Keep missing layers as quiet development notes unless the absence itself is interesting.
 
-### Powers, Orders, and Hidden Systems
+### 힘과 질서, 숨은 체계
 
 This part explains factions without turning the book into an organization chart.
 
@@ -95,7 +95,7 @@ Reader-facing treatment:
 - Avoid overloading readers with root, pressure, or label terminology.
 - Use clean display names from the naming chapter.
 
-### People Worth Seeking
+### 찾아가야 할 이름들
 
 This part separates central heroes from figures who make the world feel inhabited.
 
@@ -117,7 +117,7 @@ Reader-facing treatment:
 - Put verification queues in appendix.
 - Do not demote main heroes into background figures for convenience.
 
-### Names, Languages, and World Tone
+### 이름, 언어, 세계의 톤
 
 This part explains why names sound the way they do.
 
@@ -140,7 +140,7 @@ Reader-facing treatment:
 - If body prose mentions repeated or shared names, explain the reading effect here and keep unresolved identity tracking in appendix.
 - Keep modern crime or corporate labels out of polished faction display unless intentionally used.
 
-### Relics, Gear, Trade Goods, and Things People Want
+### 사람들이 원하는 유물과 물건들
 
 This part makes the object layer desirable.
 
@@ -164,7 +164,7 @@ Reader-facing treatment:
 - Include owner, origin, cost, rumor, and map anchor.
 - Keep raw candidate lists in appendix until promoted.
 
-### Peoples, Bloodlines, Monsters, and Changed States
+### 사람들, 혈통, 괴물, 변화한 상태
 
 This part prevents the world from flattening every non-human term into one category.
 
@@ -186,7 +186,7 @@ Reader-facing treatment:
 - Keep uncertain groups mysterious but controlled.
 - Make monsters useful as ecology, fear, rumor, and scene pressure.
 
-### Places, Routes, and Maps That Create Story
+### 이야기를 여는 장소와 길
 
 This part turns geography into narrative movement.
 
@@ -209,7 +209,7 @@ Reader-facing treatment:
 - Routes should carry goods, rumors, danger, and political pressure.
 - Do not overdraw unsupported city maps too early.
 
-### Appendix: Boundaries and Further Guides
+### 부록: 경계와 추가 안내
 
 This part preserves verification without interrupting the reader-facing body.
 

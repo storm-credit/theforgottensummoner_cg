@@ -9,8 +9,8 @@
 현재 기준에서 이 문서는 `직접 공유 원고`가 아니라
 장별 재조립을 다시 열 때 참조하는 source discipline map으로 둔다.
 안정 공유본은 계속 `Setting_Book_Preview_Readable_v0.md`다.
-최종 public Part naming authority는 `Setting_Book_Reader_Facing_TOC_Draft.md`에 둔다.
-이 문서는 장별 source routing만 잠그며, public TOC title을 직접 바꾸지 않는다.
+최종 reader-facing label authority는 `Setting_Book_Reader_Facing_TOC_Draft.md`에 둔다.
+이 문서는 장별 source routing만 잠그며, reader-facing TOC title을 직접 바꾸지 않는다.
 
 ## Source Priority
 

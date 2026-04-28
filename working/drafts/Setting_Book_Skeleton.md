@@ -5,7 +5,7 @@
 
 아직 완성 원고가 아니라,
 각 장에서 어떤 내용을 어떤 순서로 채울지 잠그는 작업용 뼈대다.
-최종 public Part naming authority는 `Setting_Book_Reader_Facing_TOC_Draft.md`에 두고,
+최종 reader-facing label authority는 `Setting_Book_Reader_Facing_TOC_Draft.md`에 두고,
 이 skeleton은 chapter fill order와 content routing만 잠근다.
 
 ## Global Rules
@@ -96,7 +96,7 @@ Guard:
 - `Section 8` 구조 라벨을 `Section 15` 인물 상태 라벨처럼 쓰지 않는다.
 - place pressure는 sidecar/register owner를 따른다.
 
-## 3. People Worth Seeking
+## 3. 찾아가야 할 이름들
 
 작성 목표:
 
@@ -235,7 +235,7 @@ Primary source:
 1. `0. 운영 원칙 / Canon Policy` 본문 1차 작성 완료.
 2. `1. 5대륙 개요` 본문 1차 작성 완료.
 3. `2. 세력 아카이브 구조` 본문 1차 작성 완료.
-4. `3. People Worth Seeking` 본문 1차 작성 완료.
+4. `3. 찾아가야 할 이름들` 본문 1차 작성 완료.
 5. `4~8`도 현재 first draft complete 상태로 두며, 이후 작업은 terminology 안정화 이후의 controlled refinement로만 다룬다.
 
 ## Conductor Decision

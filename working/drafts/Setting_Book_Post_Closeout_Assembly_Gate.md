@@ -47,21 +47,21 @@ Use the reader-facing world-companion order, not the internal technical 0-8 draf
 | Order | Part | Role |
 |---|---|---|
 | 0 | Front Matter: A Living World Companion | Promise, audience, and how to use the book. |
-| 1 | How to Read This World | Human-centered canon rules and confirmed/uncertain/rumor distinctions. |
-| 2 | The Five Continents | Core world identity before detailed factions or entries. |
-| 3 | Powers, Orders, and Hidden Systems | Factions by story function, not folder structure. |
-| 4 | Places, Routes, and Maps That Create Story | Geography as movement, pressure, trade, secrecy, and scene function. |
-| 5 | People Worth Seeking | Sages, artisans, archivists, brokers, and operational figures without replacing central heroes. |
-| 6 | Names, Languages, and World Tone | Display names, variants, protected collisions, and tone. |
-| 7 | Relics, Gear, Trade Goods, and Things People Want | Desire-first item logic, not a raw item dump. |
-| 8 | Peoples, Bloodlines, Monsters, and Changed States | Wonder with species/race overread control. |
-| 9 | Appendix: Boundaries and Further Guides | Evidence, status, queues, collisions, and unresolved edges. |
+| 1 | 이 세계를 읽는 법 | Human-centered canon rules and confirmed/uncertain/rumor distinctions. |
+| 2 | 다섯 대륙 | Core world identity before detailed factions or entries. |
+| 3 | 힘과 질서, 숨은 체계 | Factions by story function, not folder structure. |
+| 4 | 이야기를 여는 장소와 길 | Geography as movement, pressure, trade, secrecy, and scene function. |
+| 5 | 찾아가야 할 이름들 | Sages, artisans, archivists, brokers, and operational figures without replacing central heroes. |
+| 6 | 이름, 언어, 세계의 톤 | Display names, variants, protected collisions, and tone. |
+| 7 | 사람들이 원하는 유물과 물건들 | Desire-first item logic, not a raw item dump. |
+| 8 | 사람들, 혈통, 괴물, 변화한 상태 | Wonder with species/race overread control. |
+| 9 | 부록: 경계와 추가 안내 | Evidence, status, queues, collisions, and unresolved edges. |
 
 The recommended body flow is:
 
-`Opening -> Continents -> Powers -> Places -> People -> Names -> Items -> Species -> Appendix`
+`이 세계를 읽는 법 -> 다섯 대륙 -> 힘과 질서, 숨은 체계 -> 이야기를 여는 장소와 길 -> 찾아가야 할 이름들 -> 이름, 언어, 세계의 톤 -> 사람들이 원하는 유물과 물건들 -> 사람들, 혈통, 괴물, 변화한 상태 -> 부록`
 
-`Places` stays before `People` because current preview flow opens the world through movement and city/route pressure before asking who must be found there.
+`이야기를 여는 장소와 길`은 `찾아가야 할 이름들`보다 앞에 둔다. 현재 preview flow가 먼저 movement와 city/route pressure로 세계를 열고, 그다음 그곳에서 누구를 찾아야 하는지 묻기 때문이다.
 
 ## Do Not Promote
 

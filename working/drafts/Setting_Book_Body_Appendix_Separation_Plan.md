@@ -5,8 +5,8 @@
 This plan decides what belongs in the polished setting-book body and what should stay in technical appendices.
 
 The current 0-8 draft package is intentionally technical. It preserves audit discipline. The next version should become easier to read without losing the evidence controls behind it.
-Final public Part naming authority belongs to `Setting_Book_Reader_Facing_TOC_Draft.md`.
-This plan decides body versus appendix routing, but it does not rename the public TOC on its own.
+Final reader-facing label authority belongs to `Setting_Book_Reader_Facing_TOC_Draft.md`.
+This plan decides body versus appendix routing, but it does not rename the reader-facing TOC on its own.
 
 ## Separation Rule
 

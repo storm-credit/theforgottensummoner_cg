@@ -18729,3 +18729,44 @@ Verification:
 Follow-up actions:
 
 - after verification, continue with direct-share/source label drift scans only; do not reopen broad preview rewriting.
+
+## 2026-04-28 KST - Two-Hundred-Forty-Fifth Direct-Share Label Baseline Pass
+
+목적:
+
+appendix/sample label 정렬 뒤에도
+direct-share preview headings, reader-facing TOC section notes,
+post-closeout gate order table, and source-control wording에
+English reader-facing labels or old `public Part naming authority` wording이 남아 있었다.
+이번 배치는 본문 prose를 다시 쓰지 않고,
+보이는 label authority와 heading만 Korean reader-facing baseline으로 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local direct-share/source label alignment | preview headings, reader-facing TOC notes, post-closeout gate, source-control docs, status records | `completed` |
+
+Conductor action:
+
+- conductor aligned `Setting_Book_Preview_Readable_v0.md` visible flow list and major section headings to the Korean reader-facing label baseline.
+- conductor aligned `Setting_Book_Reader_Facing_TOC_Draft.md` section-note headings and the post-closeout gate order table to the same baseline.
+- conductor softened old `public Part naming authority` wording into `reader-facing label authority` in source-control docs.
+- conductor kept internal `People Worth Seeking` source terminology where it belongs to Section 15 evidence logic.
+
+Integrated actions:
+
+- direct-share preview heading alignment.
+- reader-facing TOC and source-control label authority alignment.
+- assembly index, dashboard, release readiness, skeleton, source map, separation plan, and thread checkpoint updated.
+
+Verification:
+
+- visible-label scan found no remaining English reader-facing heading/order-table hits in the direct-share preview, reader-facing TOC section-note headings, or post-closeout gate order table.
+- source-control wording scan found no remaining `public Part naming authority`, `Opening / Part I source note`, `Part III people-worth-seeking`, or `backstage production-note wording` hits in current setting-book draft files.
+- direct-share preview scan found no remaining old English section labels, Part labels, internal file names, `Internal source`, `Archived`, or `Production Notes` hits.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- after verification, continue with remaining source/support drift scans only; do not reopen broad preview prose rewriting.

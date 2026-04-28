@@ -7,7 +7,7 @@
 깊은 설정 기록의 상태 라벨, 검증 큐, source priority, appendix 구조를 그대로 노출하지 않고,
 같은 내용을 독자와 협업자가 읽기 쉬운 설정집 문체로 바꾸는 방향을 확인한다.
 
-## Opening: How to Read This World
+## 이 세계를 읽는 법
 
 `THE FORGOTTEN SUMMONER`의 세계는 거대한 힘이 충돌하는 무대이지만,
 그 중심에 서 있는 것은 언제나 사람이다.
