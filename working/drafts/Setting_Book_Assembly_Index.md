@@ -137,7 +137,7 @@ Completed checks:
 - Direct-share preview, reader-facing TOC section notes, post-closeout gate, and source-control wording now use the Korean reader-facing label baseline where they act as labels.
 - Preview package now applies the next preserved artifact scope by separating core package, optional bridge, and verification/reference-only lanes.
 - Direct-share preview flow list now includes the appendix boundary section already present in the preview body.
-- Preview package body-spine summary now matches the direct-share preview's seven-part flow.
+- Preview package direct-share flow summary now matches the direct-share preview's seven-part flow.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

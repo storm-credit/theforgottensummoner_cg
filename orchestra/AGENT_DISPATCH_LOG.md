@@ -18884,3 +18884,38 @@ Verification:
 Follow-up actions:
 
 - continue with narrow reader-facing package QA and only escalate to v1/production-bible gates if a real trigger appears.
+
+## 2026-04-28 KST - Two-Hundred-Forty-Ninth Preview Package Flow Heading Pass
+
+목적:
+
+preview package의 seven-part flow는 direct-share preview와 맞춰졌지만,
+section heading이 아직 `Included Body Spine`으로 남아 있어
+appendix boundary guide까지 포함한 current flow를 body-only처럼 보이게 할 수 있었다.
+이번 배치는 heading and status wording만 current direct-share flow 기준으로 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local heading/status wording sync | preview package, status records | `completed` |
+
+Conductor action:
+
+- conductor renamed `Included Body Spine` to `Direct-Share Preview Flow`.
+- conductor updated dashboard, assembly index, and thread checkpoint wording from body-spine summary to direct-share flow summary.
+
+Integrated actions:
+
+- package flow-heading alignment.
+- status records updated with the clearer flow summary wording.
+
+Verification:
+
+- package heading scan found no remaining `Included Body Spine` or `body-spine summary` wording in the current preview package/status records.
+- package heading scan confirmed `Direct-Share Preview Flow` and `direct-share flow summary` wording in the package/status records.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue narrow reader-facing package QA; do not reopen broad prose or production-bible expansion.

@@ -81,7 +81,7 @@ These stay outside the main reader-facing package unless verification context is
 | status records | `Setting_Book_Current_Status_Dashboard.md`, `Setting_Book_Assembly_Index.md`, `Setting_Book_Thread_Checkpoint.md` | conductor status and handoff records |
 | compressed reference | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | sync/reference check, not the main reader-facing package |
 
-## Included Body Spine
+## Direct-Share Preview Flow
 
 The direct-share preview flow currently covers:
 
