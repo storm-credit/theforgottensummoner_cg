@@ -136,6 +136,7 @@ Completed checks:
 - Appendix assembly, public voice samples, and the named-notables chapter draft now use the same reader-facing label baseline.
 - Direct-share preview, reader-facing TOC section notes, post-closeout gate, and source-control wording now use the Korean reader-facing label baseline where they act as labels.
 - Preview package now applies the next preserved artifact scope by separating core package, optional bridge, and verification/reference-only lanes.
+- Direct-share preview flow list now includes the appendix boundary section already present in the preview body.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

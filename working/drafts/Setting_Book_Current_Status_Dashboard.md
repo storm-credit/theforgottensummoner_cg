@@ -64,6 +64,7 @@ Post-closeout preview note:
 - appendix assembly, public voice samples, named-notables chapter draft도 같은 reader-facing label baseline을 따른다.
 - direct-share preview headings, reader-facing TOC section notes, post-closeout gate order table도 같은 Korean reader-facing label baseline을 따른다.
 - preview package는 이제 core package / optional bridge / verification-reference only lane을 실제 적용 상태로 분리한다.
+- direct-share preview flow list now includes its appendix boundary section instead of implying the appendix is outside the current preview.
 
 ## 지금 열어볼 순서
 

@@ -18810,3 +18810,41 @@ Verification:
 Follow-up actions:
 
 - next loop can move from scope planning into reader-facing layout QA on the applied core package.
+
+## 2026-04-28 KST - Two-Hundred-Forty-Seventh Preview Flow Appendix QA Pass
+
+목적:
+
+applied reader-facing package scope가 고정된 뒤,
+`Setting_Book_Preview_Readable_v0.md`의 front flow list와 실제 body headings를 대조했다.
+본문에는 `부록: 경계와 추가 안내` section이 이미 있었지만,
+front flow list에는 appendix boundary section이 빠져 있어
+독자가 appendix가 current preview 밖에 있다고 오해할 수 있었다.
+이번 배치는 새 설정을 추가하지 않고 flow list와 실제 body를 정합화한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local preview layout QA | direct-share preview flow list, status records | `completed` |
+
+Conductor action:
+
+- conductor added `부록: 경계와 추가 안내` to the direct-share preview flow list.
+- conductor softened the surrounding introduction so the preview reads as front body plus a short boundary guide, not as a full setting-book replacement.
+- conductor recorded the flow-list alignment in dashboard, assembly index, and thread checkpoint.
+
+Integrated actions:
+
+- preview flow list to body-heading alignment.
+- status records updated with the direct-share preview layout QA result.
+
+Verification:
+
+- preview flow/body scan confirmed the front flow list now includes `부록: 경계와 추가 안내` and matches the body appendix heading.
+- direct-share preview scan confirmed the introduction now frames the current preview as front body plus a final boundary guide while leaving missing full-version chapters for later.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue with narrow reader-facing layout QA before any v1 or production-bible move.
