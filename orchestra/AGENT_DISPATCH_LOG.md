@@ -18770,3 +18770,43 @@ Verification:
 Follow-up actions:
 
 - after verification, continue with remaining source/support drift scans only; do not reopen broad preview prose rewriting.
+
+## 2026-04-28 KST - Two-Hundred-Forty-Sixth Applied Package Scope Pass
+
+목적:
+
+`Setting_Book_Next_Preserved_Artifact_Scope.md`가
+reader-facing layout scope를 기본값으로 고정했지만,
+`Setting_Book_Preview_Package_v0.md`의 reading order는 appendix/prototype/reference files를
+본패키지처럼 보이게 할 여지가 있었다.
+이번 배치는 새 RC 파일을 만들지 않고,
+현재 preview package를 실제 적용 조립 지시서로 정렬한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local package-scope application | preview package, preserved artifact scope, status records | `completed` |
+
+Conductor action:
+
+- conductor changed `Setting_Book_Preview_Package_v0.md` from a flat reading order into an applied reader-facing package guide.
+- conductor separated the package into core package, optional bridge, and verification/reference-only lanes.
+- conductor kept `Setting_Book_Preview_Readable_v0.md` as the only default direct-share manuscript.
+- conductor kept `Prototype_v0`, appendix assembly, release gates, matrices, and status records outside the main reader-facing package unless verification context is explicitly needed.
+
+Integrated actions:
+
+- preview package applied scope alignment.
+- next preserved artifact scope, dashboard, assembly index, and thread checkpoint updated with the applied package result.
+
+Verification:
+
+- package-lane scan found no remaining `Preview Reading Order`, `Technical appendix manuscript`, `Single prototype reference`, `include after body`, or old release-candidate reading-order wording in `Setting_Book_Preview_Package_v0.md`.
+- applied-package scan confirmed `Core Package`, `Optional Bridge`, and `Verification And Reference Only` lanes in `Setting_Book_Preview_Package_v0.md`.
+- scope/status scan confirmed the applied package guide is recorded in next preserved artifact scope, dashboard, assembly index, and thread checkpoint.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- next loop can move from scope planning into reader-facing layout QA on the applied core package.

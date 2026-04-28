@@ -10,7 +10,7 @@ reader-facing preview 형태로 보여주기 위한 조립 지시서다.
 어떤 순서로 읽고 어떤 기준으로 검증해야 하는지를 고정한다.
 
 현재 압축 단일 reference는 `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`이고,
-이 preview package는 release 후보를 만들 때의 읽기 순서와 포함 범위를 정한다.
+이 preview package는 다음 reader-facing 보존 산출물 후보의 실제 조립 범위와 공유 순서를 정한다.
 
 현재 공유용 preview는 `Setting_Book_Preview_Readable_v0.md`다.
 Latest direct-share QA: the preview now passes the internal draft/work-term scan.
@@ -30,6 +30,7 @@ Filename decision control:
 Preserved artifact scope:
 
 - `Setting_Book_Next_Preserved_Artifact_Scope.md` fixes which files belong to the next preserved artifact candidate before any RC rename is reopened.
+- Current applied scope: `reader-facing core package` remains active default; production bible scope stays `not next yet`.
 
 Release-candidate trigger:
 
@@ -37,18 +38,48 @@ Release-candidate trigger:
 - Current trigger status: keep `Setting_Book_Preview_Readable_v0.md` as the shareable preview completion target; do not create a separate RC file yet.
 - Until then, keep preview and prototype as two different jobs: one shareable, one compressed reference.
 
-## Preview Reading Order
+## Applied Reader-Facing Package
 
-| Order | Section | Source File | Include Mode |
-| --- | --- | --- | --- |
-| 1 | Shareable readable preview | `Setting_Book_Preview_Readable_v0.md` | primary shareable manuscript |
-| 2 | Core profile companion set | `Setting_Book_Faction_Core_Profiles_v0.md`, `Setting_Book_People_Core_Profiles_v0.md`, `Setting_Book_Places_Core_Profiles_v0.md`, `Setting_Book_Items_Core_Profiles_v0.md`, `Setting_Book_Species_Core_Profiles_v0.md` | optional bridge set between readable preview and deeper reference drafts |
-| 3 | Cover direction and reading promise source | `Setting_Book_Front_Matter_Draft.md` | source support for preview opening |
-| 4 | Reader-facing table of contents | `Setting_Book_Reader_Facing_TOC_Draft.md` | navigation map and future expansion guide |
-| 5 | Public body manuscript source | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | source support for preview body |
-| 6 | Technical appendix manuscript | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | include after body when verification context is needed |
-| 7 | Release readiness check | `Setting_Book_Release_Readiness_Checklist.md` | conductor-only gate before wider sharing |
-| 8 | Single prototype reference | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | compressed reference and sync check |
+The current preserved artifact candidate is not a new copied RC file.
+It is the reader-facing package centered on `Setting_Book_Preview_Readable_v0.md`.
+
+### Core Package
+
+These files are the active reader-facing package set.
+
+| Layer | File | Include Mode |
+| --- | --- | --- |
+| main readable manuscript | `Setting_Book_Preview_Readable_v0.md` | primary direct-share manuscript |
+| opening support | `Setting_Book_Front_Matter_Draft.md` | source/support for subtitle, cover tone, and opening promise; not direct-share by default |
+| reader map support | `Setting_Book_Reader_Facing_TOC_Draft.md` | navigation map and future expansion guide; not direct-share by default |
+| readable body source | `Setting_Book_Public_Assembly_Manuscript_Draft.md` | source/support for preview body; not direct-share by default |
+| package order guide | `Setting_Book_Preview_Package_v0.md` | conductor guide for this package and share order |
+
+### Optional Bridge
+
+Attach these only when a collaborator needs one axis in denser form.
+
+| Axis | File | Include Mode |
+| --- | --- | --- |
+| Factions | `Setting_Book_Faction_Core_Profiles_v0.md` | optional bridge between readable preview and deeper reference drafts |
+| People | `Setting_Book_People_Core_Profiles_v0.md` | optional bridge between readable preview and deeper reference drafts |
+| Places | `Setting_Book_Places_Core_Profiles_v0.md` | optional bridge between readable preview and deeper reference drafts |
+| Items | `Setting_Book_Items_Core_Profiles_v0.md` | optional bridge between readable preview and deeper reference drafts |
+| Species | `Setting_Book_Species_Core_Profiles_v0.md` | optional bridge between readable preview and deeper reference drafts |
+
+### Verification And Reference Only
+
+These stay outside the main reader-facing package unless verification context is explicitly needed.
+
+| Layer | File | Include Mode |
+| --- | --- | --- |
+| appendix control | `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` | verification context only |
+| release gate | `Setting_Book_Release_Readiness_Checklist.md` | conductor-only gate before wider sharing |
+| filename control | `Setting_Book_Filename_Decision_Matrix.md` | conductor-only filename hold |
+| packaging control | `Setting_Book_Packaging_Direction_Matrix.md` | conductor-only layout vs production-bible hold |
+| document roles | `Setting_Book_Document_Roles_Map.md` | conductor/support role clarity |
+| status records | `Setting_Book_Current_Status_Dashboard.md`, `Setting_Book_Assembly_Index.md`, `Setting_Book_Thread_Checkpoint.md` | conductor status and handoff records |
+| compressed reference | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md` | sync/reference check, not the main reader-facing package |
 
 ## Included Body Spine
 
@@ -78,9 +109,9 @@ These files are not the main shareable manuscript.
 They are bridge documents for collaborators or for the conductor when the readable preview is too broad
 and the deeper reference drafts are too deep.
 
-## Included Appendix Spine
+## Verification Appendix Spine
 
-The preview appendix currently covers:
+The verification appendix currently covers:
 
 1. Appendix A. 14 / 15 Boundary Candidates
 2. Appendix B. Item Promotion Candidates
@@ -121,7 +152,7 @@ If this package is shared with a collaborator:
 1. Share `Setting_Book_Preview_Readable_v0.md` first.
 2. Share the relevant `Core Profiles` file next if they need one axis in a denser form.
 3. Share `Setting_Book_Appendix_Assembly_Manuscript_Draft.md` only if they need verification context.
-4. Keep `Setting_Book_Front_Matter_Draft.md`, `Setting_Book_Reader_Facing_TOC_Draft.md`, `Setting_Book_Release_Readiness_Checklist.md`, `Setting_Book_Assembly_Index.md`, and `Setting_Book_Preview_Package_v0.md` as support/conductor documents unless the collaborator is helping with structure.
+4. Keep `Setting_Book_Front_Matter_Draft.md`, `Setting_Book_Reader_Facing_TOC_Draft.md`, `Setting_Book_Public_Assembly_Manuscript_Draft.md`, `Setting_Book_Release_Readiness_Checklist.md`, `Setting_Book_Assembly_Index.md`, and `Setting_Book_Preview_Package_v0.md` as support/conductor documents unless the collaborator is helping with structure.
 
 ## Next Preview Build
 
@@ -139,5 +170,6 @@ Treat `preview_v0_readable` as the current shareable preview package.
 The package already has enough verification structure.
 The readable preview has completed its front/body terminology and internal-wording polish pass.
 The next gain is not another broad prose pass.
-It comes from either adding only the still-needed row-level evidence notes for v1
+It comes from applying reader-facing layout checks to the current package,
+adding only the still-needed row-level evidence notes for v1 if a real body-final entry is promoted,
 or deciding whether the package should be copied into a separate release-candidate file after v1 gates are tighter.

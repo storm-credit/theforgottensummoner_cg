@@ -135,6 +135,7 @@ Completed checks:
 - People/items/places/species/appendix hubs now point to current reader-facing labels instead of old Part-number labels.
 - Appendix assembly, public voice samples, and the named-notables chapter draft now use the same reader-facing label baseline.
 - Direct-share preview, reader-facing TOC section notes, post-closeout gate, and source-control wording now use the Korean reader-facing label baseline where they act as labels.
+- Preview package now applies the next preserved artifact scope by separating core package, optional bridge, and verification/reference-only lanes.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

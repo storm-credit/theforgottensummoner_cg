@@ -126,6 +126,7 @@
 - people/items/places/species/appendix hubs의 예전 Part label도 같은 reader-facing baseline으로 정렬
 - appendix assembly, public voice samples, named-notables chapter draft의 예전 Part label도 같은 reader-facing baseline으로 정렬
 - direct-share preview headings, reader-facing TOC section notes, post-closeout gate order table도 Korean reader-facing label baseline으로 정렬
+- preview package가 core package / optional bridge / verification-reference only lane을 실제 적용 기준으로 분리
 
 ## Core Files
 

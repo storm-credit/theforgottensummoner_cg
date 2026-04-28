@@ -27,6 +27,7 @@
 
 - 직접 공유 원고는 `Setting_Book_Preview_Readable_v0.md`로 유지한다.
 - `Prototype_v0`는 압축 reference 역할로 유지한다.
+- `Setting_Book_Preview_Package_v0.md`는 현재 reader-facing package의 적용 조립 지시서로 유지한다.
 - `audit/Setting_Book_Cleanup_Closeout.md`는 cleanup 종료 boundary로 유지한다.
 - `Setting_Book_Post_Closeout_Assembly_Gate.md`는 다음 reader-facing layout gate로 유지한다.
 - Appendix B/C는 현재 anchored row만 유지하고, 최신 preview 기준으로 새 row를 추가하지 않는다.
@@ -36,7 +37,7 @@
 ## 아직 안 닫힌 것
 
 - 별도 RC 파일명을 만들지, 현재 preview 이름을 더 오래 유지할지
-- 다음 보존 산출물을 reader-facing layout으로 둘지, production bible로 돌릴지
+- production bible 전환 신호가 실제로 생겼는지
 - Appendix B/C에서 나중에 정말 body-final entry가 생길 때 추가 evidence row가 필요한지
 
 ## 구간별 판정
@@ -47,6 +48,7 @@
 | Hub quick indexes | done | 01-08 허브가 질문 기준 첫 클릭 표를 갖고 있어 축/검증/원재료 진입이 짧아졌다. |
 | Document role clarity | done | `Setting_Book_Document_Roles_Map.md`와 관련 support/source 문서가 reader / reference / appendix / conductor 경계를 같은 기준으로 구분한다. |
 | Shareable preview | shareable | `Setting_Book_Preview_Readable_v0.md`가 현재 가장 책처럼 읽히는 공유용 preview이며, 내부 작업어 스캔을 통과했다. |
+| Reader-facing package scope | shareable | `Setting_Book_Preview_Package_v0.md`가 core package / optional bridge / verification-only lane을 실제 적용 기준으로 분리한다. |
 | Core profile bridge | shareable | 세력, 인물, 장소, 유물, 종족 5축 core profile이 preview와 더 깊은 기록 사이를 잇는다. |
 | Appendix A-E control | shareable | A-E 부록 흐름이 있고, high-risk row evidence note와 B/C sample evidence check가 들어갔다. |
 | Compressed reference | shareable | `The_Forgotten_Summoner_Setting_Book_Prototype_v0.md`는 전체 구조 확인용 reference로 유지한다. |
@@ -61,6 +63,7 @@ Post-closeout preview note:
 - people/items/places/species/appendix hubs도 같은 reader-facing label baseline을 따른다.
 - appendix assembly, public voice samples, named-notables chapter draft도 같은 reader-facing label baseline을 따른다.
 - direct-share preview headings, reader-facing TOC section notes, post-closeout gate order table도 같은 Korean reader-facing label baseline을 따른다.
+- preview package는 이제 core package / optional bridge / verification-reference only lane을 실제 적용 상태로 분리한다.
 
 ## 지금 열어볼 순서
 

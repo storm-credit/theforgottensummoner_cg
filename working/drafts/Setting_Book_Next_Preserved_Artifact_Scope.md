@@ -139,6 +139,7 @@ production bible 쪽으로 전환할 때는 아래 파일이 중심이 된다.
 2. bridge artifact는 필요한 axis의 core profile
 3. verification artifact는 appendix assembly와 release checklist
 4. compressed full reference는 `Prototype_v0`
+5. applied package guide는 `Setting_Book_Preview_Package_v0.md`
 
 ## Current Applied Scope Snapshot
 
@@ -147,6 +148,7 @@ production bible 쪽으로 전환할 때는 아래 파일이 중심이 된다.
 | Scope Layer | Current Status |
 | --- | --- |
 | reader-facing core package | active default |
+| applied package guide | `Setting_Book_Preview_Package_v0.md` now separates core package, optional bridge, and verification/reference-only lanes |
 | optional bridge | available when needed |
 | verification-only docs | kept outside the main preserved package |
 | production bible core | not next yet |
