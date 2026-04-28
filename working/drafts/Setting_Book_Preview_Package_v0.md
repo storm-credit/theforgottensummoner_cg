@@ -93,7 +93,7 @@ The direct-share preview flow currently covers:
 6. 사람들, 혈통, 괴물, 변화한 상태
 7. 부록: 경계와 추가 안내
 
-The preview body does not yet try to replace the full 0-8 technical chapter package.
+The direct-share preview does not yet try to replace the full 0-8 technical chapter package.
 It demonstrates the readable shape of the setting book with a short boundary guide at the end.
 
 ## Core Profile Companion Set

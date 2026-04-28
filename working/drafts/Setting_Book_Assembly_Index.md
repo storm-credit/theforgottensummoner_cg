@@ -138,6 +138,7 @@ Completed checks:
 - Preview package now applies the next preserved artifact scope by separating core package, optional bridge, and verification/reference-only lanes.
 - Direct-share preview flow list now includes the appendix boundary section already present in the preview body.
 - Preview package direct-share flow summary now matches the direct-share preview's seven-part flow.
+- Preview package flow language now avoids treating the direct-share preview as a body-only slice.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

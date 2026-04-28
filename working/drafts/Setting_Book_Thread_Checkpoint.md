@@ -129,6 +129,7 @@
 - preview package가 core package / optional bridge / verification-reference only lane을 실제 적용 기준으로 분리
 - direct-share preview flow list가 본문에 이미 있는 appendix boundary section까지 포함하도록 정합화
 - preview package direct-share flow summary도 direct-share preview의 7-part flow와 정합화
+- preview package flow language도 direct-share preview를 body-only slice처럼 보이지 않게 정리
 
 ## Core Files
 

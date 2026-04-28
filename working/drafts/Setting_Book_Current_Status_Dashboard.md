@@ -66,6 +66,7 @@ Post-closeout preview note:
 - preview package는 이제 core package / optional bridge / verification-reference only lane을 실제 적용 상태로 분리한다.
 - direct-share preview flow list now includes its appendix boundary section instead of implying the appendix is outside the current preview.
 - preview package direct-share flow summary now also includes the appendix boundary section from the direct-share preview.
+- preview package flow language now describes the direct-share preview rather than a body-only slice.
 
 ## 지금 열어볼 순서
 

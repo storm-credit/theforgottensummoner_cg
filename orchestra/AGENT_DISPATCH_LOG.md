@@ -18919,3 +18919,39 @@ Verification:
 Follow-up actions:
 
 - continue narrow reader-facing package QA; do not reopen broad prose or production-bible expansion.
+
+## 2026-04-28 KST - Two-Hundred-Fiftieth Preview Package Body-Only Wording Guard Pass
+
+목적:
+
+`Setting_Book_Preview_Package_v0.md` now names the section `Direct-Share Preview Flow`,
+but the explanatory sentence below it still said `The preview body does not yet...`.
+Because the current direct-share flow includes a short appendix boundary guide,
+that sentence could make the package sound body-only again.
+이번 배치는 새 content를 추가하지 않고 package wording만 direct-share preview 기준으로 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local package wording guard | preview package, status records | `completed` |
+
+Conductor action:
+
+- conductor changed the package wording from `The preview body` to `The direct-share preview`.
+- conductor recorded the body-only wording guard in dashboard, assembly index, and thread checkpoint.
+
+Integrated actions:
+
+- package wording guard for the direct-share preview flow.
+- status records updated with the narrow QA result.
+
+Verification:
+
+- direct-share flow wording scan found no remaining `The preview body does not` wording in the package/status records.
+- direct-share flow wording scan confirmed `The direct-share preview does not...` and body-only guard wording in the package/status records.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue narrow reader-facing package QA; do not reopen broad prose or production-bible expansion.
