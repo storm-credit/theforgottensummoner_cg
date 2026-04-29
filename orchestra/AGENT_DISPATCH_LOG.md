@@ -19110,3 +19110,48 @@ Verification:
 Follow-up actions:
 
 - continue narrow reader-facing layout QA; do not create a separate RC file until the existing gates actually clear it.
+
+## 2026-04-29 KST - Two-Hundred-Fifty-Fifth Compact Preview Flow Clarifier Pass
+
+목적:
+
+`Setting_Book_Post_Closeout_Assembly_Gate.md` keeps the broader post-closeout reader-facing assembly order,
+while the direct-share preview and package guide use a seven-part compact flow.
+The two states were not contradictory,
+but the package guide could state the relationship more clearly so the next loop does not treat the compact preview as replacing the fuller order.
+이번 배치는 새 section을 추가하지 않고 preview package의 flow explanation과 상태 기록만 정리한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local closure-sync | preview package, dashboard, assembly index, thread checkpoint | `completed` |
+| `Socrates` (`019dd95c-ce8a-7a23-95c3-9c3b22074fe2`) | Read-only order drift audit | post-closeout gate, preview package, readable preview | `completed; no confirmed source-of-truth drift` |
+
+Conductor action:
+
+- conductor clarified that the seven-part direct-share preview flow is a compact path inside the broader post-closeout reader-facing assembly order.
+- conductor named `힘과 질서, 숨은 체계` and `이름, 언어, 세계의 톤` as reserved for fuller assembly rather than promoted into the v0 direct-share file.
+- conductor updated dashboard, assembly index, and thread checkpoint with the same compact-flow clarification.
+- conductor left unrelated manifest working-tree changes untouched.
+
+Subagent audit:
+
+- `Socrates` confirmed the 9-part gate is the full reader-facing/world-companion assembly order.
+- `Socrates` confirmed the 7-part package/readable lists are the compact direct-share preview flow.
+- `Socrates` recommended only a narrow package/status clarification, with no reorder or broad correction.
+
+Integrated actions:
+
+- compact direct-share preview flow clarification.
+- status records updated to preserve the compact-preview / fuller-assembly distinction.
+
+Verification:
+
+- compact-flow scan confirmed the package and status records now name the compact path and the two fuller-assembly reserved sections.
+- gate scan found no active RC creation or production-bible flip wording; the only `parallel active build` hit was the explicit negative hold phrase.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue narrow reader-facing layout QA; keep `힘과 질서, 숨은 체계` and `이름, 언어, 세계의 톤` out of v0 direct-share unless a fuller assembly gate opens.

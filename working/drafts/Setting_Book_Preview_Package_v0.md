@@ -95,6 +95,9 @@ The direct-share preview flow currently covers:
 
 The direct-share preview does not yet try to replace the full 0-8 technical chapter package.
 It demonstrates the readable shape of the setting book with a short boundary guide at the end.
+This seven-part list is the compact direct-share preview path inside the broader post-closeout reader-facing assembly order;
+fuller assembly still reserves `힘과 질서, 숨은 체계` and `이름, 언어, 세계의 톤`
+rather than promoting them into the v0 direct-share file yet.
 
 ## Core Profile Companion Set
 

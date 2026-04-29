@@ -133,6 +133,7 @@
 - preview package next-build gate도 `preview_v0_readable` active / `preview_v0_production` held watchpoint로 정렬
 - direct-share preview의 optional axis companion 표현도 support-doc/profile language 대신 독자용 `동행 안내`로 정리
 - preview package의 latest-QA 줄도 internal draft/work-term scan과 optional companion support-term scan을 함께 기록하도록 정리
+- preview package의 7-part direct-share flow도 더 넓은 post-closeout reader-facing assembly order 안의 compact path이며 `힘과 질서, 숨은 체계` / `이름, 언어, 세계의 톤`은 fuller assembly로 남긴다고 명시
 
 ## Core Files
 
