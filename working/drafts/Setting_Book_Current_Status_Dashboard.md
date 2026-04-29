@@ -18,7 +18,7 @@
 
 설정집은 지금 `shareable preview v0` 단계까지 정리됐고,
 설정집 cleanup loop는 `closed_for_current_cleanup / watch-reference mode`로 닫혔다.
-직접 공유 원고는 내부 초안/작업 용어 스캔을 통과한 상태다.
+직접 공유 원고는 내부 초안/작업 용어와 optional companion support-term 스캔을 통과한 상태다.
 
 허브와 진입 동선은 마감에 가깝고,
 별도 release-candidate 파일은 아직 만들지 않는다.
@@ -47,7 +47,7 @@
 | Hub navigation | done | 00-08 허브에 재진입 순서가 있고, 메인 허브에서 세력/인물/유물/장소/종족 축으로도 바로 갈 수 있다. |
 | Hub quick indexes | done | 01-08 허브가 질문 기준 첫 클릭 표를 갖고 있어 축/검증/원재료 진입이 짧아졌다. |
 | Document role clarity | done | `Setting_Book_Document_Roles_Map.md`와 관련 support/source 문서가 reader / reference / appendix / conductor 경계를 같은 기준으로 구분한다. |
-| Shareable preview | shareable | `Setting_Book_Preview_Readable_v0.md`가 현재 가장 책처럼 읽히는 공유용 preview이며, 내부 작업어 스캔을 통과했다. |
+| Shareable preview | shareable | `Setting_Book_Preview_Readable_v0.md`가 현재 가장 책처럼 읽히는 공유용 preview이며, internal draft/work-term 및 optional companion support-term 스캔을 통과했다. |
 | Reader-facing package scope | shareable | `Setting_Book_Preview_Package_v0.md`가 core package / optional bridge / verification-only lane을 실제 적용 기준으로 분리한다. |
 | Core profile bridge | shareable | 세력, 인물, 장소, 유물, 종족 5축 core profile이 preview와 더 깊은 기록 사이를 잇는다. |
 | Appendix A-E control | shareable | A-E 부록 흐름이 있고, high-risk row evidence note와 B/C sample evidence check가 들어갔다. |

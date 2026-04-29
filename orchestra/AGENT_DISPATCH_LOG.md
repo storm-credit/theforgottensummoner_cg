@@ -19203,3 +19203,40 @@ Verification:
 Follow-up actions:
 
 - continue narrow reader-facing layout QA; do not open production bible or separate RC packaging until the switch tests actually flip.
+
+## 2026-04-30 KST - Two-Hundred-Fifty-Seventh Dashboard QA Summary Sync Pass
+
+목적:
+
+After the release checklist gate sync,
+`Setting_Book_Current_Status_Dashboard.md` still summarized the direct-share manuscript as only passing the internal work-term scan.
+The current source-of-truth package state also includes the optional companion support-term scan and compact-flow gate clarification.
+이번 배치는 새 package scope를 열지 않고 dashboard top summary만 최신 QA 범위에 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local dashboard status sync | dashboard, assembly index, thread checkpoint | `completed` |
+
+Conductor action:
+
+- conductor updated the dashboard one-line conclusion so the direct-share manuscript passes both the internal draft/work-term scan and the optional companion support-term scan.
+- conductor updated the dashboard shareable-preview status row with the same latest direct-share QA scope.
+- conductor updated assembly index and thread checkpoint with the dashboard summary sync.
+- conductor left unrelated manifest working-tree changes untouched.
+
+Integrated actions:
+
+- current status dashboard top summary sync.
+- handoff records updated with the same QA-scope wording.
+
+Verification:
+
+- latest-QA scan confirmed the dashboard top summary and shareable-preview row now mention the optional companion support-term scan.
+- gate scan found no active RC creation or production-bible flip wording; remaining active-build hits were explicit negative hold phrases.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue watch-reference QA across conductor/support docs; keep direct-share preview as the active reader path.

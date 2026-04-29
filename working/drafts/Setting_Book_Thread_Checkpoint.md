@@ -135,6 +135,7 @@
 - preview package의 latest-QA 줄도 internal draft/work-term scan과 optional companion support-term scan을 함께 기록하도록 정리
 - preview package의 7-part direct-share flow도 더 넓은 post-closeout reader-facing assembly order 안의 compact path이며 `힘과 질서, 숨은 체계` / `이름, 언어, 세계의 톤`은 fuller assembly로 남긴다고 명시
 - release readiness checklist도 같은 compact-preview / fuller-assembly split을 반영하고 production bible을 held watchpoint로 재정렬
+- current status dashboard 상단 요약도 internal work-term scan에서 멈추지 않고 optional companion support-term scan까지 반영
 
 ## Core Files
 

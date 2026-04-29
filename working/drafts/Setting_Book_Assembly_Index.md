@@ -144,6 +144,7 @@ Completed checks:
 - Preview package latest-QA line now records both direct-share wording scans instead of stopping at the earlier internal draft/work-term scan.
 - Preview package now frames the seven-part direct-share flow as a compact path inside the broader post-closeout reader-facing assembly order, reserving `힘과 질서, 숨은 체계` and `이름, 언어, 세계의 톤` for fuller assembly.
 - Release readiness checklist now mirrors the compact-preview / fuller-assembly split and treats production bible as a held watchpoint, not a parallel active next path.
+- Current status dashboard top summary now matches the latest direct-share QA scope instead of stopping at the earlier internal work-term scan.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue
