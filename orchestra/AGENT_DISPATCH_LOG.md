@@ -19155,3 +19155,51 @@ Verification:
 Follow-up actions:
 
 - continue narrow reader-facing layout QA; keep `힘과 질서, 숨은 체계` and `이름, 언어, 세계의 톤` out of v0 direct-share unless a fuller assembly gate opens.
+
+## 2026-04-29 KST - Two-Hundred-Fifty-Sixth Release Checklist Gate Sync Pass
+
+목적:
+
+After the compact preview flow clarification,
+`Setting_Book_Release_Readiness_Checklist.md` still presented the broader body/appendix crosswalk
+and production-bible lane in a way that could be mistaken for active v0 direct-share scope.
+이번 배치는 새 RC 파일이나 production bible 확장을 만들지 않고,
+release checklist가 current source-of-truth gate language를 따라가도록 좁게 정리한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local release-checklist sync | release checklist, dashboard, assembly index, thread checkpoint | `completed` |
+| `Ptolemy` (`019dd97f-b628-7453-a6ff-397b8b7fb6b2`) | Read-only release gate drift audit | release readiness checklist vs package/status records | `completed; confirmed checklist wording drift` |
+
+Conductor action:
+
+- conductor clarified that the release checklist crosswalk follows the fuller post-closeout order while `preview_v0_readable` uses the compact seven-part direct-share flow.
+- conductor marked `힘과 질서, 숨은 체계` and `이름, 언어, 세계의 톤` as fuller-assembly rows, not separate v0 direct-share sections.
+- conductor reframed the checklist's conductor decision so reader-facing preview/layout remains the active default and production bible remains a held watchpoint.
+- conductor updated dashboard, assembly index, and thread checkpoint with the release-checklist sync.
+- conductor left unrelated manifest working-tree changes untouched.
+
+Subagent audit:
+
+- `Ptolemy` confirmed the separate RC-file trigger remains aligned: no separate RC file yet.
+- `Ptolemy` flagged the broader body/appendix crosswalk rows as needing compact-preview / fuller-assembly clarification.
+- `Ptolemy` flagged the production bible lane as needing held-watchpoint framing instead of a parallel active next path.
+
+Integrated actions:
+
+- release readiness checklist compact-preview / fuller-assembly clarification.
+- production-bible held-watchpoint framing in the checklist.
+- status records updated with the same release-checklist sync.
+
+Verification:
+
+- release-checklist scan confirmed `preview_v0_readable` is the active reader path and the compact seven-part preview flow is named.
+- release-checklist scan confirmed `production bible` is framed as a held watchpoint.
+- gate scan found no active RC creation or production-bible flip wording; remaining active-build hits were explicit negative hold phrases.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue narrow reader-facing layout QA; do not open production bible or separate RC packaging until the switch tests actually flip.

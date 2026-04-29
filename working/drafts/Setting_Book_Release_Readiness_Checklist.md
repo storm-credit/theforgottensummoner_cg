@@ -29,6 +29,10 @@ reader-facing release 후보로 볼 수 있는지,
 ## Body / Appendix Crosswalk
 
 Section labels in this crosswalk follow the post-closeout reader-facing order.
+For the current `preview_v0_readable` direct-share file,
+the active reader path is the compact seven-part preview flow.
+`힘과 질서, 숨은 체계` and `이름, 언어, 세계의 톤`
+are fuller-assembly rows here, not separate v0 direct-share sections.
 
 | Reader Body Area | What The Body Should Do | Appendix Support | Release Check |
 | --- | --- | --- | --- |
@@ -135,7 +139,7 @@ reader-facing preview 후보를 넘어,
 아직 정식 v1 release로 부르기 전 남은 작업:
 
 1. release-candidate file trigger 네 조건이 실제로 충족됐는지 다시 판정한다.
-2. 상업용 layout 또는 협업용 production bible 방향을 분리할지 결정한다.
+2. 상업용 layout 또는 협업용 production bible 방향은 switch test 기준으로 계속 hold/watchpoint인지 판정한다.
 3. 필요한 경우 Appendix B/C의 나머지 행에만 추가 evidence note를 덧붙인다. 지금은 샘플 단위 evidence pointer check까지는 내려가 있다.
 
 ## V1 Hold Breakdown
@@ -146,7 +150,7 @@ v1로 넘어가기 전 hold는 큰 원고 문제가 아니라
 | Hold | Current Question | Unblock Condition |
 | --- | --- | --- |
 | Filename / package name | `Setting_Book_Preview_Readable_v0.md`를 유지할지, 별도 RC 파일을 만들지 | 협업자에게 넘길 보존 산출물이 preview인지 RC인지 결정됨 |
-| Layout direction | 상업용 layout을 먼저 볼지, production bible을 먼저 볼지 | 다음 사용자가 reader인지 collaborator인지 결정됨 |
+| Layout direction | reader-facing layout을 active default로 유지할지, production bible watchpoint가 실제로 열렸는지 | switch test에서 collaborator / production-bible 요구가 reader-facing preview보다 먼저 선명해짐 |
 | Row-level evidence | Appendix B/C에서 더 필요한 행이 있는지 | 추가 행이 없거나, 필요한 행만 evidence note로 보강됨 |
 
 `Filename / package name` 판단은 `Setting_Book_Filename_Decision_Matrix.md`에서 따로 관리한다.
@@ -179,16 +183,18 @@ Current decision:
 
 ## Conductor Decision
 
-다음 진행은 두 갈래 중 하나다.
+현재 active path는 `reader-facing preview / layout`이다.
+`production bible`은 병렬 next path가 아니라,
+`Setting_Book_Packaging_Direction_Matrix.md`의 switch test가 실제로 뒤집힐 때 여는 held watchpoint다.
 
-| Path | Use When | Next Action |
+| Lane | Current Gate | Next Action |
 | --- | --- | --- |
-| reader-facing preview | 사용자나 협업자에게 먼저 보여줄 책꼴이 필요할 때 | 현재 readable preview를 안정 공유본으로 유지하고, 오탈자나 독자용 말투만 좁게 수정한다. |
-| production bible | 후속 창작자, 아트, 음악, adaptation 팀이 더 정확한 기준을 필요로 할 때 | appendix source notes와 cross-reference를 더 촘촘하게 만든다. |
+| reader-facing preview / layout | active default | 현재 readable preview를 안정 공유본으로 유지하고, 오탈자나 독자용 말투만 좁게 수정한다. |
+| production bible | held watchpoint | 후속 창작자, 아트, 음악, adaptation 팀이 먼저 더 정확한 기준을 요구할 때만 appendix source notes와 cross-reference를 더 촘촘하게 만든다. |
 
 현재 오케스트라 판단:
 
-현재는 `reader-facing preview` 쪽이 먼저 닫혔다.
+현재는 `reader-facing preview` 쪽이 active default로 먼저 닫혔다.
 이유는 이미 prototype v0와 A-E appendix가 연결되어 있고,
 readable preview, public assembly, core profiles, appendix control tables가
 서로 같은 패키지 역할을 하기 때문이다.
