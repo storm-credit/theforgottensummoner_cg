@@ -19066,3 +19066,47 @@ Verification:
 Follow-up actions:
 
 - continue narrow reader-facing QA; keep optional bridge docs outside default direct-share packaging.
+
+## 2026-04-29 KST - Two-Hundred-Fifty-Fourth Preview QA Status Sync Pass
+
+목적:
+
+After the direct-share companion wording pass,
+the package guide still summarized the latest direct-share QA as only the internal draft/work-term scan.
+The readable preview and status records had already moved one step further by confirming optional companion support-term cleanup.
+이번 배치는 새 설정이나 RC 파일을 만들지 않고 package latest-QA line과 상태 기록만 실제 완료된 scan 범위에 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local closure-sync | preview package, dashboard, assembly index, thread checkpoint | `completed` |
+| `Averroes` (`019dd72f-5fe1-7ed2-9a30-7138c6acb4dc`) | Read-only drift audit | preview package and status records | `completed; no confirmed drift found` |
+
+Conductor action:
+
+- conductor updated the package latest-QA line to record both the internal draft/work-term scan and the optional companion support-term scan.
+- conductor updated dashboard, assembly index, and thread checkpoint so handoff records match the package latest-QA line.
+- conductor left the unrelated manifest working-tree changes untouched.
+
+Subagent audit:
+
+- `Averroes` confirmed the reader-facing package remains the active default.
+- `Averroes` confirmed production bible remains `not next yet` and no separate RC file is open yet.
+- `Averroes` confirmed the direct-share preview uses reader-facing `동행 안내` wording for optional axis companions.
+
+Integrated actions:
+
+- preview package latest-QA status sync.
+- status records updated with the same scan-depth wording.
+
+Verification:
+
+- latest-QA/status scan confirmed the package line now records both completed direct-share wording scans.
+- gate scan confirmed `preview_v0_readable` remains active and `preview_v0_production` remains a held watchpoint.
+- gate scan found no active RC creation or production-bible flip wording; the only `parallel active build` hit was the explicit negative hold phrase.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue narrow reader-facing layout QA; do not create a separate RC file until the existing gates actually clear it.

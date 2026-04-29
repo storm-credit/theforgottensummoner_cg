@@ -13,7 +13,7 @@ reader-facing preview 형태로 보여주기 위한 조립 지시서다.
 이 preview package는 다음 reader-facing 보존 산출물 후보의 실제 조립 범위와 공유 순서를 정한다.
 
 현재 공유용 preview는 `Setting_Book_Preview_Readable_v0.md`다.
-Latest direct-share QA: the preview now passes the internal draft/work-term scan.
+Latest direct-share QA: the preview now passes the internal draft/work-term scan and the optional companion support-term scan.
 
 Current naming decision:
 

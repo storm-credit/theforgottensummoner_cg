@@ -69,6 +69,7 @@ Post-closeout preview note:
 - preview package flow language now describes the direct-share preview rather than a body-only slice.
 - preview package next-build gate now keeps `preview_v0_readable` active and treats `preview_v0_production` as a held watchpoint, not a parallel active build.
 - direct-share preview now describes axis companion material as reader-facing `동행 안내` rather than exposing support-doc/profiling language.
+- preview package latest-QA line now records both the internal draft/work-term scan and the optional companion support-term scan.
 
 ## 지금 열어볼 순서
 
