@@ -31,7 +31,7 @@
 다음에 정말 다시 열릴 수 있는 것:
 
 - 다음 body-final item/place/person entry가 생길 때의 row-level evidence 추가
-- layout vs production bible 재판정
+- switch test 기준 production bible watchpoint 재판정
 - filename hold 재판정
 
 ## Branch
@@ -321,7 +321,7 @@
 
 1. v1 gate가 더 조여진 뒤 release-candidate file trigger를 다시 판정
 2. `Setting_Book_Post_Closeout_Assembly_Gate.md` 기준으로 reader-facing layout 기본값을 유지
-3. `Setting_Book_Next_Preserved_Artifact_Scope.md` 기준으로 reader-facing scope를 유지할지 production bible scope로 전환할지 다시 좁힘
+3. `Setting_Book_Next_Preserved_Artifact_Scope.md`와 packaging switch test 기준으로 production bible watchpoint가 실제로 열렸는지만 확인
 4. appendix manuscript와 prototype appendix를 A-E 흐름으로 유지
 5. 필요할 때만 Appendix B/C 개별 행 evidence note 추가
 6. 안정 마일스톤마다 `main push gate` 확인

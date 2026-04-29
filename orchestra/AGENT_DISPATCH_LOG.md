@@ -19240,3 +19240,42 @@ Verification:
 Follow-up actions:
 
 - continue watch-reference QA across conductor/support docs; keep direct-share preview as the active reader path.
+
+## 2026-04-30 KST - Two-Hundred-Fifty-Eighth Thread Queue Watchpoint Sync Pass
+
+목적:
+
+After pushing `codex/species-framework-side-track` to `origin`,
+the conductor continued the watch-reference loop and found that
+`Setting_Book_Thread_Checkpoint.md` still described production-bible direction as a regular redecision in the next queue.
+Current package and release gates treat production bible as a switch-test watchpoint, not a parallel active path.
+이번 배치는 새 production scope를 열지 않고 thread checkpoint next queue wording만 current gate language에 맞춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local watch-reference sync | thread checkpoint, dashboard, assembly index | `completed` |
+
+Conductor action:
+
+- conductor pushed `codex/species-framework-side-track` to `origin` through `6044874`.
+- conductor changed the checkpoint's reopen cue from broad layout-vs-production redecision to switch-test production-bible watchpoint redecision.
+- conductor changed the checkpoint next queue so production bible opens only if the packaging switch test actually flips.
+- conductor updated dashboard and assembly index with the same checkpoint queue sync.
+- conductor left unrelated manifest working-tree changes untouched.
+
+Integrated actions:
+
+- thread checkpoint production-bible watchpoint wording sync.
+- dashboard and assembly index updated with the same handoff wording.
+
+Verification:
+
+- watchpoint scan confirmed the checkpoint now uses `production bible watchpoint` wording in the reopen cue and recommended next queue.
+- gate scan found no active RC creation or production-bible flip wording; remaining active-build hits were explicit negative hold phrases.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue watch-reference QA; keep production bible closed unless switch-test evidence actually strengthens.
