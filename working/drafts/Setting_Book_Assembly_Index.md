@@ -140,6 +140,7 @@ Completed checks:
 - Preview package direct-share flow summary now matches the direct-share preview's seven-part flow.
 - Preview package flow language now avoids treating the direct-share preview as a body-only slice.
 - Preview package next-build gate now keeps `preview_v0_readable` active and holds `preview_v0_production` behind production-bible switch triggers.
+- Direct-share preview now refers to optional axis companions as reader-facing `동행 안내` instead of support-doc/profile language.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

@@ -19029,3 +19029,40 @@ Verification:
 Follow-up actions:
 
 - continue narrow reader-facing package QA after confirming the log tail is ordered.
+
+## 2026-04-29 KST - Two-Hundred-Fifty-Third Direct-Share Companion Wording Pass
+
+목적:
+
+The direct-share preview no longer exposes raw support filenames,
+but it still used backticked `핵심 프로필` and `문서` language when pointing to optional axis companions.
+Because the preview package keeps core profiles as optional bridge material rather than default direct-share files,
+the direct-share manuscript should describe them as reader-facing companion guides, not support documents.
+이번 배치는 새 설정을 추가하지 않고 direct-share companion wording만 reader-facing language로 낮춘다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local direct-share wording QA | direct-share preview, status records | `completed` |
+
+Conductor action:
+
+- conductor changed front-matter companion wording from backticked `핵심 프로필` documents to `다섯 갈래의 얇은 동행 안내`.
+- conductor changed appendix companion wording from a profile label to a plain reader-facing companion guide phrase.
+- conductor updated dashboard, assembly index, and thread checkpoint with the wording guard.
+
+Integrated actions:
+
+- direct-share companion wording alignment.
+- status records updated with the reader-facing wording result.
+
+Verification:
+
+- direct-share companion wording scan found no remaining backticked `핵심 프로필` support-doc wording in the direct-share preview.
+- direct-share companion wording scan confirmed the optional axis companion is now described as reader-facing `동행 안내`.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue narrow reader-facing QA; keep optional bridge docs outside default direct-share packaging.

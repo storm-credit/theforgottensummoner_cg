@@ -131,6 +131,7 @@
 - preview package direct-share flow summary도 direct-share preview의 7-part flow와 정합화
 - preview package flow language도 direct-share preview를 body-only slice처럼 보이지 않게 정리
 - preview package next-build gate도 `preview_v0_readable` active / `preview_v0_production` held watchpoint로 정렬
+- direct-share preview의 optional axis companion 표현도 support-doc/profile language 대신 독자용 `동행 안내`로 정리
 
 ## Core Files
 
