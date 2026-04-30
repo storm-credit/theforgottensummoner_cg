@@ -19316,3 +19316,43 @@ Verification:
 Follow-up actions:
 
 - continue watch-reference QA; do not reopen broad setting-book work unless a current gate actually flips.
+
+## 2026-04-30 KST - Two-Hundred-Sixtieth Checkpoint Stage Wording Sync Pass
+
+목적:
+
+The conductor continued the watch-reference loop after `b738a65`
+and found one confirmed state-wording drift:
+`Setting_Book_Thread_Checkpoint.md` already identified the latest restart as `shareable preview v0`,
+but its `Current Stage` line still said `prototype manuscript stage`.
+This pass does not reopen the prototype lane or create a new RC file;
+it only aligns the checkpoint stage wording with the current reader-facing layout gate.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local closure-sync/watch-reference check | thread checkpoint stage wording, dashboard/index status notes | `completed` |
+
+Conductor action:
+
+- conductor verified `codex/species-framework-side-track` was even with `origin/codex/species-framework-side-track` at `b738a65` before this pass.
+- conductor confirmed the direct-share preview has no internal draft/support-doc term leak in this batch.
+- conductor updated the checkpoint `Current Stage` line from the older prototype-stage phrase to the current `shareable preview v0 / reader-facing layout gate` phrase.
+- conductor recorded the same closure-sync state in the assembly index and current status dashboard.
+- conductor left unrelated manifest working-tree changes untouched.
+
+Integrated actions:
+
+- checkpoint current-stage wording synced to the current reader-facing gate.
+- assembly index and dashboard now record that the checkpoint stage drift was closed.
+
+Verification:
+
+- direct-share term scan returned no hits for internal/support-doc leak terms in `Setting_Book_Preview_Readable_v0.md`.
+- watch-reference scan showed only negative/held-watchpoint production-bible wording, plus the now-corrected checkpoint stage drift.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue watch-reference QA; keep the next preserved artifact centered on reader-facing layout unless the production-bible switch test actually flips.

@@ -146,6 +146,7 @@ Completed checks:
 - Release readiness checklist now mirrors the compact-preview / fuller-assembly split and treats production bible as a held watchpoint, not a parallel active next path.
 - Current status dashboard top summary now matches the latest direct-share QA scope instead of stopping at the earlier internal work-term scan.
 - Thread checkpoint next queue now treats production bible as a switch-test watchpoint rather than a regular parallel redecision.
+- Thread checkpoint current-stage line now matches the shareable preview v0 / reader-facing layout gate state instead of the older prototype manuscript stage.
 - `working/crosswalks/Extracted_Item_Candidates.md` remains untouched by this assembly pass.
 
 ## Next Assembly Queue

@@ -40,7 +40,7 @@
 
 ## Current Stage
 
-설정집 작업은 이제 `prototype manuscript stage`다.
+설정집 작업은 이제 `shareable preview v0 / reader-facing layout gate` 단계다.
 
 이미 끝난 축:
 

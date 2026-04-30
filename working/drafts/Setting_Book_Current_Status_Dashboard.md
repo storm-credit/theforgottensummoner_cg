@@ -73,6 +73,7 @@ Post-closeout preview note:
 - preview package now clarifies that its seven-part direct-share flow is a compact path inside the broader post-closeout reader-facing assembly order, with `힘과 질서, 숨은 체계` and `이름, 언어, 세계의 톤` reserved for fuller assembly.
 - release readiness checklist now mirrors the same compact-preview / fuller-assembly split and keeps production bible as a held watchpoint.
 - thread checkpoint next queue now treats production bible as a switch-test watchpoint rather than a regular parallel redecision.
+- thread checkpoint current-stage line now matches the shareable preview v0 / reader-facing layout gate state.
 
 ## 지금 열어볼 순서
 
