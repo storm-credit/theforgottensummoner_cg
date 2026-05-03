@@ -19356,3 +19356,47 @@ Verification:
 Follow-up actions:
 
 - continue watch-reference QA; keep the next preserved artifact centered on reader-facing layout unless the production-bible switch test actually flips.
+
+## 2026-04-30 KST - Two-Hundred-Sixty-First Setting-Book Expert Bundle Sync Pass
+
+목적:
+
+The conductor continued the closure-sync/watch-reference loop after `0e9bd51`
+and checked the user's question about whether the expert structure is deep enough
+against the actual orchestra control docs.
+The setting-book package and recent dispatch log already use the current
+`shareable preview v0 / reader-facing layout gate`,
+but the active expert split and required roster lock did not yet name
+a dedicated setting-book preview / five-axis bridge watch bundle.
+이번 배치는 새 production bible scope나 RC 파일을 열지 않고,
+현재 gate에 필요한 전문가 묶음만 orchestration source-of-truth에 고정한다.
+
+배치:
+
+| Agent | Role | Scope | Status |
+|---|---|---|---|
+| `Conductor` | Local orchestra roster/watch-reference sync | active agent split, required expert roster, setting-book package state | `completed` |
+
+Conductor action:
+
+- conductor verified `codex/species-framework-side-track` was even with `origin/codex/species-framework-side-track` at `0e9bd51` before this pass.
+- conductor confirmed `Setting_Book_Preview_Package_v0.md` keeps Factions / People / Places / Items / Species as optional core profile bridge lanes.
+- conductor confirmed current status records keep `shareable preview v0 / reader-facing layout gate` as the active stage.
+- conductor added a setting-book preview watch bundle to `ACTIVE_AGENT_SPLIT.md`.
+- conductor added the matching mandatory expert matrix entry to `REQUIRED_EXPERT_ROSTER_LOCK.md`.
+- conductor left unrelated manifest working-tree changes untouched.
+
+Integrated actions:
+
+- active watch track now includes setting-book reader-facing preview gate and five-axis core profile bridge consistency.
+- required expert roster now names the setting-book reader-facing preview / core profile bridge maintenance bundle.
+
+Verification:
+
+- roster scan confirmed the new setting-book preview watch bundle and required expert matrix are present.
+- package/status scan confirmed the five core profile bridge lanes remain optional and the direct-share preview remains the active manuscript.
+- `git diff --check` passed with LF/CRLF warnings only.
+
+Follow-up actions:
+
+- continue watch-reference QA using the setting-book preview bundle when the mainline remains in reader-facing layout gate mode.

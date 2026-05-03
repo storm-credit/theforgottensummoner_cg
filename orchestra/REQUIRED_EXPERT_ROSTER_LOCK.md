@@ -157,6 +157,40 @@
 - 이 배치는 새 후보 확장보다 `structure label / mismatch / P2 handoff owner / wording consistency` 유지가 우선이다.
 - `Hero Curator`는 새 `14` 증거를 열지 않더라도 `keep_14` 경계 감시 때문에 기본 묶음에 남긴다.
 
+### 7. 설정집 reader-facing preview / core profile bridge 유지 배치
+
+반드시 먼저 확인:
+
+- `Canon Architect`
+- `Engine Router`
+- `Hook Keeper`
+- `Report Clerk`
+- `Faction Cartographer`
+- `Hero Curator`
+- `Place-Function Auditor`
+- `Item Archivist`
+- `Species Classification Architect`
+- `Naming Tone Auditor`
+- `Boundary Hold Scout`
+- `Index Auditor`
+
+필요 시 추가:
+
+- `People Worth Seeking Curator`
+- `Place-Institution Slot Scout`
+- `Collision Auditor`
+- `Plausibility Judge`
+- `Bloodline and Transformation Auditor`
+- `Monster Ecology Judge`
+- `Species Continuity Auditor`
+
+주의:
+
+- 이 배치는 `Setting_Book_Preview_Readable_v0.md`를 기본 direct-share manuscript로 유지한다.
+- 세력 / 인물 / 장소 / 유물 / 종족 core profile 5축은 기본 본패키지가 아니라 optional bridge로만 다룬다.
+- Appendix A-E는 verification/reference lane에 두고, 새 증거 없이 body-final 행으로 승격하지 않는다.
+- `preview_v0_production`은 production-bible switch test가 실제로 뒤집힐 때만 연다.
+
 ## Conductor Lock
 
 - Conductor는 배치를 시작할 때 `해당 배치의 필수 전문가 묶음`을 먼저 선언한다.

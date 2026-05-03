@@ -145,6 +145,8 @@ current mainline에 맞는 `closure sync / carryover / mismatch / handoff drift`
 2. `Section 8 -> 15 watch-reference`
 3. `structure label / mismatch / P2 handoff owner drift`
 4. `summary / bridge / package / register wording consistency`
+5. `setting-book reader-facing preview gate`
+6. `five-axis core profile bridge consistency`
 
 ## Watch-Cycle Default Bundle
 
@@ -174,6 +176,42 @@ Conductor는 아래 묶음을 기본 선언으로 쓴다.
 2. `Section 15`의 hold cluster / `source_check_hold / hold reference split` / `deferred_expansion_hold / hold reference split`가 summary 문서에서 같은 상태어로 유지되는가
 3. `summary / bridge / queue / package / register`가 같은 기준 시점을 가리키는가
 4. `keep_14` 경계가 새 증거 없이 summary drift로 약화되지 않았는가
+
+## Setting-Book Preview Watch Bundle
+
+current mainline이 `shareable preview v0 / reader-facing layout gate`일 때
+Conductor는 아래 묶음을 기본 선언으로 쓴다.
+
+- `Canon Architect`
+- `Engine Router`
+- `Hook Keeper`
+- `Report Clerk`
+- `Faction Cartographer`
+- `Hero Curator`
+- `Place-Function Auditor`
+- `Item Archivist`
+- `Species Classification Architect`
+- `Naming Tone Auditor`
+- `Boundary Hold Scout`
+- `Index Auditor`
+
+필요 시 추가:
+
+- `People Worth Seeking Curator`
+- `Place-Institution Slot Scout`
+- `Collision Auditor`
+- `Plausibility Judge`
+- `Bloodline and Transformation Auditor`
+- `Monster Ecology Judge`
+- `Species Continuity Auditor`
+
+읽기 질문:
+
+1. `Setting_Book_Preview_Readable_v0.md`가 여전히 기본 direct-share manuscript인가
+2. 세력 / 인물 / 장소 / 유물 / 종족 core profile 5축은 optional bridge로 남아 있는가
+3. Appendix A-E는 verification/reference lane에 남아 있고 body-final로 과잉 승격되지 않았는가
+4. `preview_v0_readable`은 active default이고 `preview_v0_production`은 switch-test watchpoint로 유지되는가
+5. direct-share preview에 support-doc filename, internal source, archived, production-note 같은 내부 제작어가 새지 않았는가
 
 ## Active Side Track
 
